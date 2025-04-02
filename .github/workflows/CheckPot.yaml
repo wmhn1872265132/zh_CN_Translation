@@ -22,8 +22,6 @@ jobs:
     outputs:
       has_update: ${{ steps.check_update.outputs.has_update }}
     steps:
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
       - name: Get current SHA
         id: get_current_sha
         env:
