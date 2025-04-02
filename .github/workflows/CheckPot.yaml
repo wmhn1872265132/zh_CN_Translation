@@ -44,10 +44,10 @@ jobs:
         id: check_update
         run: |
           if [[ "${{ steps.cache_sha.outputs.cache-hit }}" == 'true' ]]; then
-            echo "::notice::Cache hit - no updates"
+            echo "Cache hit, no updates."
             echo "has_update=false" >> $GITHUB_OUTPUT
           else
-            echo "::notice::Cache miss - new updates"
+            echo "Cache miss, new updates."
             echo "has_update=true" >> $GITHUB_OUTPUT
             mkdir -p .sha_cache
             echo "${{ steps.get_current_sha.outputs.current_sha }}" > .sha_cache/latest_sha
