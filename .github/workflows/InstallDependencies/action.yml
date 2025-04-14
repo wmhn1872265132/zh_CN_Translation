@@ -1,0 +1,56 @@
+name: Install dependencies
+
+description: 'Install dependencies'
+inputs:
+  submodules:
+    description: >
+      Whether to checkout submodules: `true` to checkout submodules or `recursive` to
+      recursively checkout submodules.
+    default: false
+  Download-gettext:
+    description: >
+      Whether to Download gettext.
+    default: false
+runs:
+  using: "composite"
+
+  steps:
+    - name: Checkout NVDA repository
+      uses: actions/checkout@v4
+      with:
+        repository: nvaccess/nvda.git
+        ref: master
+        submodules: ${{ inputs.submodules }}
+        path: ${{ github.workspace }}/Tools/NVDA
+    - name: Cache gettext
+      id: cache-gettext
+      if: ${{ inputs.Download-gettext == 'true' }}
+      uses: actions/cache@v4
+      with:
+        path: ${{ github.workspace }}/Crowdin/Temp/gettext.zip
+        key: gettext.zip
+    - name: Download gettext
+      if: ${{ inputs.Download-gettext == 'true' && steps.cache-gettext.outputs.cache-hit != 'true' }}
+      uses: carlosperate/download-file-action@v2
+      with:
+        file-url: https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.24-v1.17/gettext0.24-iconv1.17-static-32.zip
+        file-name: gettext.zip
+        location: ${{ github.workspace }}/Crowdin/Temp
+        sha256: c14d844f4950e14189fe47795700172f019ec2f5430bfa068a7a909ff784f45c
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        architecture: x86
+    - name: Cache dependencies
+      id: cacheDependencies
+      uses: actions/cache@v4
+      with:
+        path: |
+          ${{ github.workspace }}/Tools/NVDA/.venv
+        key: ${{ runner.os }}-${{ hashFiles('Tools/NVDA/requirements.txt') }}
+    - name: Create Python virtual environment
+      if: ${{ steps.cacheDependencies.outputs.cache-hit != 'true' }}
+      shell: cmd
+      run: |
+        ${{ github.workspace }}\Tools\NVDA\venvUtils\ensureAndActivate.bat
