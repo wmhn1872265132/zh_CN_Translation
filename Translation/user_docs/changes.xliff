@@ -6371,7 +6371,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 120</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>By default, "Speak typed characters" is now set to "Only in edit controls".</source>
         <target>“读出输入字符”选项的默认值已更改为“仅在编辑控件中”。</target>
       </segment>
@@ -6571,7 +6571,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 142</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA no longer starts say all when starting a slide show and the browse mode setting "Automatic Say All on page load" is disabled. (#17488, @LeonarddeR)</source>
         <target>禁用“页面加载完成后朗读所有内容”选项后，启动幻灯片放映时 NVDA 不再自动开始全文朗读。 (#17488, @LeonarddeR)</target>
       </segment>
@@ -6829,7 +6829,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 168</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>In web browsers, changes to text selection no longer sometimes fail to be reported in editable text controls. (#17501, @jcsteh)</source>
         <target>修复了 web 浏览器中可编辑文本控件的文本选择更改有时无法被读出的错误。 (#17501, @jcsteh)</target>
       </segment>
