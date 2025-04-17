@@ -57,8 +57,6 @@ jobs:
 
   Update-NVDA-po:
     name: Automatically update NVDA.po
-    needs: Check-NVDA-Repository-Update
-    if: ${{ needs.Check-NVDA-Repository-Update.outputs.has_update == 'true' }}
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
