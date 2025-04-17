@@ -76,6 +76,11 @@ jobs:
         shell: pwsh
         run: |
           cd "${{ github.workspace }}/Tools/NVDA"
+          if ($(git branch --show-current 2>$null) -ne "master") {
+              git checkout -b master remotes/origin/master
+          } else {
+              Write-Output "Branch name is master. Skipping switch branch."
+          }
           $commit = (git rev-parse HEAD).Substring(0,8)
           echo "commit=$commit" >> $env:GITHUB_OUTPUT
           cd "${{ github.workspace }}"
