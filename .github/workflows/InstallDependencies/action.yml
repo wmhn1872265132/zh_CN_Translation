@@ -2,6 +2,9 @@ name: Install dependencies
 
 description: 'Install dependencies'
 inputs:
+  fetch-depth:
+    description: 'Number of commits to fetch. 0 indicates all history for all branches and tags.'
+    default: 1
   submodules:
     description: >
       Whether to checkout submodules: `true` to checkout submodules or `recursive` to
@@ -20,6 +23,7 @@ runs:
       with:
         repository: nvaccess/nvda.git
         ref: ${{ github.ref_name == '	Uploads' && 'beta' || github.ref_name == 'main' && 'rc' || 'master' }}
+        fetch-depth: ${{ inputs.fetch-depth }}
         submodules: ${{ inputs.submodules }}
         path: ${{ github.workspace }}/Tools/NVDA
     - name: Cache gettext
