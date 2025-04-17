@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-14 05:22+0000\n"
+"POT-Creation-Date: 2025-04-17 05:13+0000\n"
 "PO-Revision-Date: 2025-04-14 05:47\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -2086,8 +2086,13 @@ msgstr "单键导航开"
 
 #. Translators: the description for the toggleSingleLetterNavigation command in browse mode.
 #: browseMode.py:472
-msgid "Toggles single letter navigation on and off. When on, single letter keys in browse mode jump to various kinds of elements on the page. When off, these keys are passed to the application"
-msgstr "切换单键导航的开关，如果打开，具有单键导航功能的按键可以在页面上的各类元素间跳转，如果关闭，这些按键事件则会直接传递到应用程序"
+msgid ""
+"Toggles single letter navigation on and off. When on, single letter keys in "
+"browse mode jump to various kinds of elements on the page. When off, these "
+"keys are passed to the application"
+msgstr ""
+"切换单键导航的开关，如果打开，具有单键导航功能的按键可以在页面上的各类元素间"
+"跳转，如果关闭，这些按键事件则会直接传递到应用程序"
 
 #. Translators: a message when a particular quick nav command is not supported in the current document.
 #. Translators: Reported when a user tries to use a find command when it isn't supported.
@@ -3012,7 +3017,9 @@ msgstr "移到元素的结尾处，例如列表或表格"
 #. Translators: the description for the toggleScreenLayout script.
 #. Translators: the description for the toggleScreenLayout script on virtualBuffers.
 #: browseMode.py:2655 virtualBuffers\__init__.py:702
-msgid "Toggles on and off if the screen layout is preserved while rendering the document content"
+msgid ""
+"Toggles on and off if the screen layout is preserved while rendering the "
+"document content"
 msgstr "切换是否根据屏幕布局浏览文档内容"
 
 #. Translators: The message reported for not supported toggling of screen layout
@@ -3374,9 +3381,11 @@ msgstr[0] "以下插件安装失败：{}。"
 
 #. Translators: Shown when one or more actions on add-ons failed.
 #: core.py:116
-msgid "Some operations on add-ons failed. See the log file for more details.\n"
+msgid ""
+"Some operations on add-ons failed. See the log file for more details.\n"
 "{}"
-msgstr "对插件的某些操作失败。有关更多详细信息，请参阅日志文件。\n"
+msgstr ""
+"对插件的某些操作失败。有关更多详细信息，请参阅日志文件。\n"
 "{}"
 
 #. Translators: Title of message shown when requested action on add-ons failed.
@@ -3437,9 +3446,12 @@ msgstr "未知的命令行参数"
 
 #. Translators: A message informing the user that there are errors in the configuration file.
 #: core.py:161
-msgid "Your configuration file contains errors. Your configuration has been reset to factory defaults.\n"
+msgid ""
+"Your configuration file contains errors. Your configuration has been reset "
+"to factory defaults.\n"
 "More details about the errors can be found in the log file."
-msgstr "您的配置文件包含错误。您的配置已经被重置为默认设置。\n"
+msgstr ""
+"您的配置文件包含错误。您的配置已经被重置为默认设置。\n"
 "如需了解错误详细信息，请查看日志文件。"
 
 #. Translators: The title of the dialog to tell users that there are errors in the configuration file.
@@ -3448,9 +3460,11 @@ msgid "Configuration File Error"
 msgstr "配置文件错误"
 
 #: core.py:184
-msgid "Your gesture map file contains errors.\n"
+msgid ""
+"Your gesture map file contains errors.\n"
 "More details about the errors can be found in the log file."
-msgstr "您的手势映射文件包含错误。\n"
+msgstr ""
+"您的手势映射文件包含错误。\n"
 "如果需要了解此错误的详细信息，请查看日志文件。"
 
 #: core.py:187
@@ -3503,12 +3517,16 @@ msgstr "从当前光标处开始查找文本"
 
 #. Translators: Input help message for find next command.
 #: cursorManager.py:233
-msgid "find the next occurrence of the previously entered text string from the current cursor's position"
+msgid ""
+"find the next occurrence of the previously entered text string from the "
+"current cursor's position"
 msgstr "从光标处向下查找您之前键入的文本"
 
 #. Translators: Input help message for find previous command.
 #: cursorManager.py:251
-msgid "find the previous occurrence of the previously entered text string from the current cursor's position"
+msgid ""
+"find the previous occurrence of the previously entered text string from the "
+"current cursor's position"
 msgstr "从光标处向上查找您之前键入的文本"
 
 #. Translators: Reported when there is no text selected (for copying).
@@ -3590,22 +3608,30 @@ msgstr "移到表格内的最后一列"
 
 #. Translators: the description for the sayAll row command
 #: documentBase.py:544
-msgid "Reads the row horizontally from the current cell rightwards to the last cell in the row."
+msgid ""
+"Reads the row horizontally from the current cell rightwards to the last cell "
+"in the row."
 msgstr "从当前单元格开始水平向右朗读至当前行的最后一个单元格。"
 
 #. Translators: the description for the sayAll row command
 #: documentBase.py:553
-msgid "Reads the column vertically from the current cell downwards to the last cell in the column."
+msgid ""
+"Reads the column vertically from the current cell downwards to the last cell "
+"in the column."
 msgstr "从当前单元格开始垂直向下朗读至当前列的最后一个单元格。"
 
 #. Translators: the description for the speak row command
 #: documentBase.py:562
-msgid "Reads the current row horizontally from left to right without moving the system caret."
+msgid ""
+"Reads the current row horizontally from left to right without moving the "
+"system caret."
 msgstr "在不移动输入焦点的情况下，从左到右水平朗读当前行。"
 
 #. Translators: the description for the speak column command
 #: documentBase.py:571
-msgid "Reads the current column vertically from top to bottom without moving the system caret."
+msgid ""
+"Reads the current column vertically from top to bottom without moving the "
+"system caret."
 msgstr "在不移动输入焦点的情况下，从上到下垂直朗读当前列。"
 
 #. Translators: The message announced when toggling the include layout tables browse mode setting.
@@ -3742,7 +3768,9 @@ msgstr "没有设置"
 
 #. Translators: Describes the Cycle audio ducking mode command.
 #: globalCommands.py:188
-msgid "Cycles through audio ducking modes which determine when NVDA lowers the volume of other sounds"
+msgid ""
+"Cycles through audio ducking modes which determine when NVDA lowers the "
+"volume of other sounds"
 msgstr "在音频闪避模式之间切换，以确定何时减小其他声音的音量"
 
 #. Translators: a message when audio ducking is not supported on this machine
@@ -3752,7 +3780,9 @@ msgstr "不支持音频闪避"
 
 #. Translators: Input help mode message for toggle input help command.
 #: globalCommands.py:209
-msgid "Turns input help on or off. When on, any input such as pressing a key on the keyboard will tell you what script is associated with that input, if any."
+msgid ""
+"Turns input help on or off. When on, any input such as pressing a key on the "
+"keyboard will tell you what script is associated with that input, if any."
 msgstr "切换输入帮助的开关，当开关打开时，按下按键会读出相应的功能描述。"
 
 #. Translators: This will be presented when the input help is toggled.
@@ -3783,8 +3813,13 @@ msgstr "打开睡眠模式"
 
 #. Translators: Input help mode message for report current line command.
 #: globalCommands.py:251
-msgid "Reports the current line under the application cursor. Pressing this key twice will spell the current line. Pressing three times will spell the line using character descriptions."
-msgstr "读出应用程序焦点所在行的内容，连按两次逐字朗读这一行，连按三次用短字符描述逐字解释。"
+msgid ""
+"Reports the current line under the application cursor. Pressing this key "
+"twice will spell the current line. Pressing three times will spell the line "
+"using character descriptions."
+msgstr ""
+"读出应用程序焦点所在行的内容，连按两次逐字朗读这一行，连按三次用短字符描述逐"
+"字解释。"
 
 #. Translators: Input help mode message for left mouse click command.
 #: globalCommands.py:280
@@ -3838,8 +3873,13 @@ msgstr "在鼠标位置向右滚动"
 
 #. Translators: Input help mode message for report current selection command.
 #: globalCommands.py:369
-msgid "Announces the current selection in edit controls and documents. Pressing twice spells this information. Pressing three times spells it using character descriptions. Pressing four times shows it in a browsable message. "
-msgstr "读出编辑控件或文档中已选择的文本，连按两次逐字朗读，连按三次用短字符描述逐字解释，连按四次在浏览模式下显示。"
+msgid ""
+"Announces the current selection in edit controls and documents. Pressing "
+"twice spells this information. Pressing three times spells it using "
+"character descriptions. Pressing four times shows it in a browsable message. "
+msgstr ""
+"读出编辑控件或文档中已选择的文本，连按两次逐字朗读，连按三次用短字符描述逐字"
+"解释，连按四次在浏览模式下显示。"
 
 #. Translators: The message reported after selected text
 #. Translators: This is spoken to indicate what has just been selected.
@@ -3852,7 +3892,9 @@ msgstr "%s 已选择"
 
 #. Translators: Input help mode message for report date and time command.
 #: globalCommands.py:431
-msgid "If pressed once, reports the current time. If pressed twice, reports the current date"
+msgid ""
+"If pressed once, reports the current time. If pressed twice, reports the "
+"current date"
 msgstr "按一次读出当前时间，连按两次读出当前日期"
 
 #. Translators: Input help mode message for set the first value in the synth ring setting.
@@ -3872,7 +3914,9 @@ msgstr "增加当前语音选项的设置值"
 
 #. Translators: Input help mode message for increasing synth setting value command in larger steps.
 #: globalCommands.py:499
-msgid "Increases the currently active setting in the synth settings ring in a larger step"
+msgid ""
+"Increases the currently active setting in the synth settings ring in a "
+"larger step"
 msgstr "以更大的步长增加当前语音选项的设置值"
 
 #. Translators: Input help mode message for decrease synth setting value command.
@@ -3882,7 +3926,9 @@ msgstr "减少当前语音选项的设置值"
 
 #. Translators: Input help mode message for decreasing synth setting value command in larger steps.
 #: globalCommands.py:527
-msgid "Decreases the currently active setting in the synth settings ring in a larger step"
+msgid ""
+"Decreases the currently active setting in the synth settings ring in a "
+"larger step"
 msgstr "以更大的步长减少当前语音选项的设置值"
 
 #. Translators: Input help mode message for next synth setting command.
@@ -3966,7 +4012,9 @@ msgstr "读出字体大小"
 
 #. Translators: Input help mode message for toggle report font attributes command.
 #: globalCommands.py:651
-msgid "Cycles font attribute reporting between speech, braille, speech and braille, and off."
+msgid ""
+"Cycles font attribute reporting between speech, braille, speech and braille, "
+"and off."
 msgstr "循环切换字体属性提示方式，包括语音、盲文、语音和盲文、不提示。"
 
 #. Translators: A state in which font attributes are not reported.
@@ -4155,7 +4203,8 @@ msgstr "行缩进提示 {mode}"
 
 #. Translators: Input help mode message for toggle ignore blank lines for line indentation reporting command.
 #: globalCommands.py:854
-msgid "Toggles on and off the ignoring of blank lines for line indentation reporting"
+msgid ""
+"Toggles on and off the ignoring of blank lines for line indentation reporting"
 msgstr "切换是否提示空白行的行缩进"
 
 #. Translators: The message announced when toggling off the ignore blank lines for line indentation
@@ -4459,8 +4508,12 @@ msgstr "读出插图和说明文本"
 
 #. Translators: Input help mode message for cycle through automatic language switching mode command.
 #: globalCommands.py:1178
-msgid "Cycles through the possible choices for automatic language switching: off, language only and language and dialect."
-msgstr "在语言和方言切换模式之间循环切换：关闭，仅自动语言切换，自动语言及自动方言切换。"
+msgid ""
+"Cycles through the possible choices for automatic language switching: off, "
+"language only and language and dialect."
+msgstr ""
+"在语言和方言切换模式之间循环切换：关闭，仅自动语言切换，自动语言及自动方言切"
+"换。"
 
 #. Translators: A message reported when executing the cycle automatic language switching mode command.
 #: globalCommands.py:1187
@@ -4479,7 +4532,8 @@ msgstr "开启自动语言切换"
 
 #. Translators: Input help mode message for cycle speech symbol level command.
 #: globalCommands.py:1203
-msgid "Cycles through speech symbol levels which determine what symbols are spoken"
+msgid ""
+"Cycles through speech symbol levels which determine what symbols are spoken"
 msgstr "在语音符号级别之间循环切换，已确定朗读哪些符号"
 
 #. Translators: Reported when the user cycles through speech symbol levels
@@ -4492,7 +4546,8 @@ msgstr "%s符号"
 
 #. Translators: Input help mode message for toggle delayed character description command.
 #: globalCommands.py:1223
-msgid "Toggles on and off delayed descriptions for characters on cursor movement"
+msgid ""
+"Toggles on and off delayed descriptions for characters on cursor movement"
 msgstr "切换光标移动时延迟字符描述的开关"
 
 #. Translators: The message announced when toggling the delayed character description setting.
@@ -4517,7 +4572,9 @@ msgstr "找不到对象的所在位置"
 
 #. Translators: Input help mode message for move navigator object to mouse command.
 #: globalCommands.py:1285
-msgid "Sets the navigator object to the current object under the mouse pointer and speaks it"
+msgid ""
+"Sets the navigator object to the current object under the mouse pointer and "
+"speaks it"
 msgstr "将导航对象移到鼠标所指的对象并将其读出"
 
 #. Translators: Reported when attempting to move the navigator object to the object under mouse pointer.
@@ -4527,8 +4584,12 @@ msgstr "将导航对象移到鼠标所在处"
 
 #. Translators: Script help message for next review mode command.
 #: globalCommands.py:1307
-msgid "Switches to the next review mode (e.g. object, document or screen) and positions the review position at the point of the navigator object"
-msgstr "切换到下一个查看模式（对象查看模式、文档查看模式或屏幕查看模式）并定位查看位置到导航对象"
+msgid ""
+"Switches to the next review mode (e.g. object, document or screen) and "
+"positions the review position at the point of the navigator object"
+msgstr ""
+"切换到下一个查看模式（对象查看模式、文档查看模式或屏幕查看模式）并定位查看位"
+"置到导航对象"
 
 #. Translators: reported when there are no other available review modes for this object
 #: globalCommands.py:1323
@@ -4537,8 +4598,12 @@ msgstr "没有下一个查看模式"
 
 #. Translators: Script help message for previous review mode command.
 #: globalCommands.py:1328
-msgid "Switches to the previous review mode (e.g. object, document or screen) and positions the review position at the point of the navigator object"
-msgstr "切换到上一个查看模式（对象查看模式、文档查看模式或屏幕查看模式）并定位查看位置到导航对象"
+msgid ""
+"Switches to the previous review mode (e.g. object, document or screen) and "
+"positions the review position at the point of the navigator object"
+msgstr ""
+"切换到上一个查看模式（对象查看模式、文档查看模式或屏幕查看模式）并定位查看位"
+"置到导航对象"
 
 #. Translators: reported when there are no other available review modes for this object
 #: globalCommands.py:1344
@@ -4562,8 +4627,12 @@ msgstr "打开简易查看模式"
 
 #. Translators: Input help mode message for report current navigator object command.
 #: globalCommands.py:1365
-msgid "Reports the current navigator object. Pressing twice spells this information, and pressing three times Copies name and value of this object to the clipboard"
-msgstr "读出当前导航对象，连按两次拼读该信息，连按三次则拷贝该对象的名称和值到剪贴板"
+msgid ""
+"Reports the current navigator object. Pressing twice spells this "
+"information, and pressing three times Copies name and value of this object "
+"to the clipboard"
+msgstr ""
+"读出当前导航对象，连按两次拼读该信息，连按三次则拷贝该对象的名称和值到剪贴板"
 
 #. Translators: Reported when the user tries to perform a command related to the navigator object
 #. but there is no current navigator object.
@@ -4580,8 +4649,12 @@ msgstr "没有位置信息"
 #. Translators: Description for a keyboard command which reports location of the
 #. review cursor, falling back to the location of navigator object if needed.
 #: globalCommands.py:1436
-msgid "Reports information about the location of the text at the review cursor, or location of the navigator object if there is no text under review cursor."
-msgstr "读出查看光标处文本的位置信息，若查看光标处不包含文本则读出导航对象的位置信息。"
+msgid ""
+"Reports information about the location of the text at the review cursor, or "
+"location of the navigator object if there is no text under review cursor."
+msgstr ""
+"读出查看光标处文本的位置信息，若查看光标处不包含文本则读出导航对象的位置信"
+"息。"
 
 #. Translators: Description for a keyboard command which reports location of the navigator object.
 #: globalCommands.py:1448
@@ -4591,8 +4664,11 @@ msgstr "读出当前导航对象的位置信息。"
 #. Translators: Description for a keyboard command which reports location of the
 #. current caret position falling back to the location of focused object if needed.
 #: globalCommands.py:1460
-msgid "Reports information about the location of the text at the caret, or location of the currently focused object if there is no caret."
-msgstr "读出光标处文本或对象的位置信息，若没有光标，则读出当前所聚焦对象的位置信息。"
+msgid ""
+"Reports information about the location of the text at the caret, or location "
+"of the currently focused object if there is no caret."
+msgstr ""
+"读出光标处文本或对象的位置信息，若没有光标，则读出当前所聚焦对象的位置信息。"
 
 #. Translators: Description for a keyboard command which reports location of the
 #. currently focused object.
@@ -4602,20 +4678,27 @@ msgstr "读出当前所聚焦对象的位置信息。"
 
 #. Translators: Description for report review cursor location command.
 #: globalCommands.py:1486
-msgid "Reports information about the location of the text or object at the review cursor. Pressing twice may provide further detail."
+msgid ""
+"Reports information about the location of the text or object at the review "
+"cursor. Pressing twice may provide further detail."
 msgstr "读出查看光标处文本或对象的位置信息，连按两次获取更详细的信息。"
 
 #. Translators: Description for a keyboard command
 #. which reports location of the text at the caret position
 #. or object with focus if there is no caret.
 #: globalCommands.py:1504
-msgid "Reports information about the location of the text or object at the position of system caret. Pressing twice may provide further detail."
+msgid ""
+"Reports information about the location of the text or object at the position "
+"of system caret. Pressing twice may provide further detail."
 msgstr "读出光标处文本或对象的位置信息，连按两次获取更详细的信息。"
 
 #. Translators: Input help mode message for move navigator object to current focus command.
 #: globalCommands.py:1520
-msgid "Sets the navigator object to the current focus, and the review cursor to the position of the caret inside it, if possible."
-msgstr "如果可能，将导航对象设置到当前焦点，将查看光标设置到编辑光标所在的位置。"
+msgid ""
+"Sets the navigator object to the current focus, and the review cursor to the "
+"position of the caret inside it, if possible."
+msgstr ""
+"如果可能，将导航对象设置到当前焦点，将查看光标设置到编辑光标所在的位置。"
 
 #. Translators: Reported when attempting to move the navigator object to focus.
 #: globalCommands.py:1540
@@ -4624,7 +4707,9 @@ msgstr "移动到焦点"
 
 #. Translators: Input help mode message for move focus to current navigator object command.
 #: globalCommands.py:1546
-msgid "Pressed once sets the keyboard focus to the navigator object, pressed twice sets the system caret to the position of the review cursor"
+msgid ""
+"Pressed once sets the keyboard focus to the navigator object, pressed twice "
+"sets the system caret to the position of the review cursor"
 msgstr "按一次设置键盘焦点到导航对象，按两次设置系统输入焦点到查看光标位置"
 
 #. Translators: Reported when:
@@ -4689,7 +4774,9 @@ msgstr "没有子对象"
 
 #. Translators: Input help mode message for activate current object command.
 #: globalCommands.py:1714
-msgid "Performs the default action on the current navigator object (example: presses it if it is a button)."
+msgid ""
+"Performs the default action on the current navigator object (example: "
+"presses it if it is a button)."
 msgstr "执行当前导航对象的默认动作，（例如：若该对象为按钮则按下该按钮）。"
 
 #. Translators: the message reported when there is no action to perform on the review position or navigator object.
@@ -4699,12 +4786,16 @@ msgstr "没有默认动作"
 
 #. Translators: Input help mode message for move review cursor to top line command.
 #: globalCommands.py:1766
-msgid "Moves the review cursor to the top line of the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the top line of the current navigator object and "
+"speaks it"
 msgstr "将查看光标移动到当前查看文本的第一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous line command.
 #: globalCommands.py:1791
-msgid "Moves the review cursor to the previous line of the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the previous line of the current navigator object "
+"and speaks it"
 msgstr "将查看光标移动到当前查看文本的上一行并将其读出"
 
 #. Translators: a message reported when review cursor is at the top line of the current navigator object.
@@ -4717,17 +4808,24 @@ msgstr "顶端"
 
 #. Translators: Input help mode message for read current line under review cursor command.
 #: globalCommands.py:1825
-msgid "Reports the line of the current navigator object where the review cursor is situated. If this key is pressed twice, the current line will be spelled. Pressing three times will spell the line using character descriptions."
+msgid ""
+"Reports the line of the current navigator object where the review cursor is "
+"situated. If this key is pressed twice, the current line will be spelled. "
+"Pressing three times will spell the line using character descriptions."
 msgstr "读出查看光标的所在行；连按两次拼读该行；连按三次竹字描述该行。"
 
 #. Translators: Input help mode message for move review cursor to next line command.
 #: globalCommands.py:1853
-msgid "Moves the review cursor to the next line of the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the next line of the current navigator object and "
+"speaks it"
 msgstr "将查看光标移动到当前查看文本的下一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous page command.
 #: globalCommands.py:1892
-msgid "Moves the review cursor to the previous page of the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the previous page of the current navigator object "
+"and speaks it"
 msgstr "将查看光标移动到当前查看文本的上一页并将其读出"
 
 #. Translators: a message reported when movement by page is unsupported
@@ -4737,37 +4835,52 @@ msgstr "不支持按页移动"
 
 #. Translators: Input help mode message for move review cursor to next page command.
 #: globalCommands.py:1926
-msgid "Moves the review cursor to the next page of the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the next page of the current navigator object and "
+"speaks it"
 msgstr "将查看光标移动到当前查看文本的下一页并将其读出"
 
 #. Translators: Input help mode message for move review cursor to bottom line command.
 #: globalCommands.py:1965
-msgid "Moves the review cursor to the bottom line of the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the bottom line of the current navigator object "
+"and speaks it"
 msgstr "将查看光标移动到当前查看文本的最后一行并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous word command.
 #: globalCommands.py:1990
-msgid "Moves the review cursor to the previous word of the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the previous word of the current navigator object "
+"and speaks it"
 msgstr "将查看光标移动到当前查看文本的前一个单词并将其读出"
 
 #. Translators: Input help mode message for report current word under review cursor command.
 #: globalCommands.py:2023
-msgid "Speaks the word of the current navigator object where the review cursor is situated. Pressing twice spells the word. Pressing three times spells the word using character descriptions"
+msgid ""
+"Speaks the word of the current navigator object where the review cursor is "
+"situated. Pressing twice spells the word. Pressing three times spells the "
+"word using character descriptions"
 msgstr "读出查看光标所在的单词，连按两次拼读该单词，连按三次则竹字描述该单词"
 
 #. Translators: Input help mode message for move review cursor to next word command.
 #: globalCommands.py:2052
-msgid "Moves the review cursor to the next word of the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the next word of the current navigator object and "
+"speaks it"
 msgstr "将查看光标移动到当前查看文本的后一个单词并将其读出"
 
 #. Translators: Input help mode message for move review cursor to start of current line command.
 #: globalCommands.py:2090
-msgid "Moves the review cursor to the first character of the line where it is situated in the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the first character of the line where it is "
+"situated in the current navigator object and speaks it"
 msgstr "将查看光标移动到当前查看文本的行首字符并将其读出"
 
 #. Translators: Input help mode message for move review cursor to previous character command.
 #: globalCommands.py:2119
-msgid "Moves the review cursor to the previous character of the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the previous character of the current navigator "
+"object and speaks it"
 msgstr "将查看光标移动到当前查看文本的前一个字符并将其读出"
 
 #. Translators: a message reported when review cursor is at the leftmost character of the current navigator object's text.
@@ -4777,12 +4890,20 @@ msgstr "左"
 
 #. Translators: Input help mode message for report current character under review cursor command.
 #: globalCommands.py:2156
-msgid "Reports the character of the current navigator object where the review cursor is situated. Pressing twice reports a description or example of that character. Pressing three times reports the numeric value of the character in decimal and hexadecimal"
-msgstr "读出查看光标所在处的字符，连按两次解释该字符，连按三次则读出该字符的十进制和十六进制代码"
+msgid ""
+"Reports the character of the current navigator object where the review "
+"cursor is situated. Pressing twice reports a description or example of that "
+"character. Pressing three times reports the numeric value of the character "
+"in decimal and hexadecimal"
+msgstr ""
+"读出查看光标所在处的字符，连按两次解释该字符，连按三次则读出该字符的十进制和"
+"十六进制代码"
 
 #. Translators: Input help mode message for move review cursor to next character command.
 #: globalCommands.py:2204
-msgid "Moves the review cursor to the next character of the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the next character of the current navigator "
+"object and speaks it"
 msgstr "将查看光标移动到当前查看文本的后一个字符并将其读出"
 
 #. Translators: a message reported when review cursor is at the rightmost character of the current navigator object's text.
@@ -4792,22 +4913,29 @@ msgstr "右"
 
 #. Translators: Input help mode message for move review cursor to end of current line command.
 #: globalCommands.py:2241
-msgid "Moves the review cursor to the last character of the line where it is situated in the current navigator object and speaks it"
+msgid ""
+"Moves the review cursor to the last character of the line where it is "
+"situated in the current navigator object and speaks it"
 msgstr "将查看光标移动到当前查看文本的行尾字符并将其读出"
 
 #. Translators: Input help mode message for move review cursor to start of selection command.
 #: globalCommands.py:2270
-msgid "Moves the review cursor to the first character of the selection, and speaks it"
+msgid ""
+"Moves the review cursor to the first character of the selection, and speaks "
+"it"
 msgstr "将查看光标移动到选中文本的第一个字符并将其读出"
 
 #. Translators: Input help mode message for move review cursor to end of selection command.
 #: globalCommands.py:2298
-msgid "Moves the review cursor to the last character of the selection, and speaks it"
+msgid ""
+"Moves the review cursor to the last character of the selection, and speaks it"
 msgstr "将查看光标移动到选中文本的最后一个字符并将其读出"
 
 #. Translators: Input help mode message for Review Current Symbol command.
 #: globalCommands.py:2337
-msgid "Reports the symbol where the review cursor is positioned. Pressed twice, shows the symbol and the text used to speak it in browse mode"
+msgid ""
+"Reports the symbol where the review cursor is positioned. Pressed twice, "
+"shows the symbol and the text used to speak it in browse mode"
 msgstr "读出查看光标处的符号。连按两次，在浏览模式下显示该符号极其发音替换文本"
 
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
@@ -4817,9 +4945,11 @@ msgstr "无替换文本"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 #: globalCommands.py:2358
-msgid "Character: {}\n"
+msgid ""
+"Character: {}\n"
 "Replacement: {}"
-msgstr "符号：{}\n"
+msgstr ""
+"符号：{}\n"
 "替换文本：{}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
@@ -4842,14 +4972,22 @@ msgstr "{mode}"
 #. Translators: Input help mode message for move to next document with focus command,
 #. mostly used in web browsing to move from embedded object to the webpage document.
 #: globalCommands.py:2397
-msgid "Moves the focus out of the current embedded object and into the document that contains it"
+msgid ""
+"Moves the focus out of the current embedded object and into the document "
+"that contains it"
 msgstr "将焦点从当前嵌入式对象移动到包含该对象的文档中"
 
 #. Translators: Input help mode message for toggle focus and browse mode command
 #. in web browsing and other situations.
 #: globalCommands.py:2422 NVDAObjects\window\_msOfficeChart.py:634
-msgid "Toggles between browse mode and focus mode. When in focus mode, keys will pass straight through to the application, allowing you to interact directly with a control. When in browse mode, you can navigate the document with the cursor, quick navigation keys, etc."
-msgstr "切换浏览模式或焦点模式，焦点模式打开时，允许您直接操作控件；浏览模式打开时，允许您用光标或单键导航快捷键在文档中浏览。"
+msgid ""
+"Toggles between browse mode and focus mode. When in focus mode, keys will "
+"pass straight through to the application, allowing you to interact directly "
+"with a control. When in browse mode, you can navigate the document with the "
+"cursor, quick navigation keys, etc."
+msgstr ""
+"切换浏览模式或焦点模式，焦点模式打开时，允许您直接操作控件；浏览模式打开时，"
+"允许您用光标或单键导航快捷键在文档中浏览。"
 
 #. Translators: Input help mode message for quit NVDA command.
 #: globalCommands.py:2472
@@ -4868,12 +5006,16 @@ msgstr "显示 NVDA 菜单"
 
 #. Translators: Input help mode message for say all in review cursor command.
 #: globalCommands.py:2497
-msgid "Reads from the review cursor up to the end of the current text, moving the review cursor as it goes"
+msgid ""
+"Reads from the review cursor up to the end of the current text, moving the "
+"review cursor as it goes"
 msgstr "从查看光标处朗读到文本末端的同时，光标随之移动"
 
 #. Translators: Input help mode message for say all with system caret command.
 #: globalCommands.py:2511
-msgid "Reads from the system caret up to the end of the text, moving the caret as it goes"
+msgid ""
+"Reads from the system caret up to the end of the text, moving the caret as "
+"it goes"
 msgstr "从输入焦点的位置朗读到文本末端的同时，输入焦点随之移动"
 
 #. Translators: Reported when trying to obtain formatting information (such as font name, indentation and so on) but there is no formatting information for the text under cursor.
@@ -4893,12 +5035,16 @@ msgstr "读出当前查看光标处的文本格式信息。"
 
 #. Translators: Input help mode message for show formatting at review cursor command.
 #: globalCommands.py:2633
-msgid "Presents, in browse mode, formatting info for the current review cursor position."
+msgid ""
+"Presents, in browse mode, formatting info for the current review cursor "
+"position."
 msgstr "在浏览模式下，显示当前查看光标处的文本格式信息。"
 
 #. Translators: Input help mode message for report formatting command.
 #: globalCommands.py:2642
-msgid "Reports formatting info for the current review cursor position. If pressed twice, presents the information in browse mode"
+msgid ""
+"Reports formatting info for the current review cursor position. If pressed "
+"twice, presents the information in browse mode"
 msgstr "读出当前查看光标处的文本格式信息。连按两次，在浏览模式下显示该信息"
 
 #. Translators: Input help mode message for report formatting at caret command.
@@ -4913,7 +5059,9 @@ msgstr "在浏览模式下，显示当前光标处的文本格式信息。"
 
 #. Translators: Input help mode message for report formatting at caret command.
 #: globalCommands.py:2676
-msgid "Reports formatting info for the text under the caret. If pressed twice, presents the information in browse mode"
+msgid ""
+"Reports formatting info for the text under the caret. If pressed twice, "
+"presents the information in browse mode"
 msgstr "读出当前光标处的文本格式信息。连按两次，在浏览模式下显示该信息"
 
 #. Translators: the description for the reportDetailsSummary script.
@@ -4928,7 +5076,9 @@ msgstr "没有附加的详细信息"
 
 #. Translators: Input help mode message for report current focus command.
 #: globalCommands.py:2804
-msgid "Reports the object with focus. If pressed twice, spells the information. Pressing three times spells it using character descriptions."
+msgid ""
+"Reports the object with focus. If pressed twice, spells the information. "
+"Pressing three times spells it using character descriptions."
 msgstr "读出有焦点的对象，连按两次逐字朗读，连按三次用短字符描述逐字解释。"
 
 #. Translators: Reported when there is no status line for the current program or window.
@@ -4953,7 +5103,8 @@ msgstr "拼读当前应用程序的状态栏。"
 
 #. Translators: Input help mode message for command which copies status bar content to the clipboard.
 #: globalCommands.py:2925
-msgid "Copies content of the status bar  of current application to the clipboard."
+msgid ""
+"Copies content of the status bar  of current application to the clipboard."
 msgstr "复制当前应用程序状态栏的内容到剪贴板。"
 
 #. Translators: Reported when user attempts to copy content of the empty status line.
@@ -4963,13 +5114,17 @@ msgstr "无法复制状态栏内容到剪贴板"
 
 #. Translators: Input help mode message for Command which moves review cursor to the status bar.
 #: globalCommands.py:2942
-msgid "Reads the current application status bar and moves navigator object into it."
+msgid ""
+"Reads the current application status bar and moves navigator object into it."
 msgstr "读出当前应用程序的状态栏，并将导航对象移动到该状态栏。"
 
 #. Translators: Input help mode message for report status line text command.
 #: globalCommands.py:2959
-msgid "Reads the current application status bar. If pressed twice, spells the information. If pressed three times, copies the status bar to the clipboard"
-msgstr "读出当前应用程序的状态栏，连按两次拼读该信息，连按三次复制该信息到剪贴板"
+msgid ""
+"Reads the current application status bar. If pressed twice, spells the "
+"information. If pressed three times, copies the status bar to the clipboard"
+msgstr ""
+"读出当前应用程序的状态栏，连按两次拼读该信息，连按三次复制该信息到剪贴板"
 
 #. Translators: Description for a keyboard command which reports the
 #. accelerator key of the currently focused object.
@@ -5013,8 +5168,12 @@ msgstr "鼠标文本分辨率 %s"
 
 #. Translators: Input help mode message for report title bar command.
 #: globalCommands.py:3041
-msgid "Reports the title of the current application or foreground window. If pressed twice, spells the title. If pressed three times, copies the title to the clipboard"
-msgstr "读出前台窗口或应用程序的标题。连按两次拼读标题，连按三次则复制标题到剪贴板"
+msgid ""
+"Reports the title of the current application or foreground window. If "
+"pressed twice, spells the title. If pressed three times, copies the title to "
+"the clipboard"
+msgstr ""
+"读出前台窗口或应用程序的标题。连按两次拼读标题，连按三次则复制标题到剪贴板"
 
 #. Translators: Reported when there is no title text for current program or window.
 #: globalCommands.py:3062
@@ -5028,21 +5187,29 @@ msgstr "读出活动窗口中的所有控件"
 
 #. Translators: GUI development tool, to get information about the components used in the NVDA GUI
 #: globalCommands.py:3095
-msgid "Opens the WX GUI inspection tool. Used to get more information about the state of GUI components."
+msgid ""
+"Opens the WX GUI inspection tool. Used to get more information about the "
+"state of GUI components."
 msgstr "打开 wxPython GUI 检查工具。用于获取有关图形界面组件状态的更多信息。"
 
 #. Translators: Input help mode message for developer info for current navigator object command,
 #. used by developers to examine technical info on navigator object.
 #. This command also serves as a shortcut to open NVDA log viewer.
 #: globalCommands.py:3110
-msgid "Logs information about the current navigator object which is useful to developers and activates the log viewer so the information can be examined."
+msgid ""
+"Logs information about the current navigator object which is useful to "
+"developers and activates the log viewer so the information can be examined."
 msgstr "打开日志查看器并记录当前导航对象的信息，此信息可供开发者参考。"
 
 #. Translators: Input help mode message for a command to delimit then
 #. copy a fragment of the log to clipboard
 #: globalCommands.py:3131
-msgid "Mark the current end of the log as the start of the fragment to be copied to clipboard by pressing again."
-msgstr "将当前日志的结尾设置为开始点，再次按此键，复制首次按键之后的日志片段到剪贴板。"
+msgid ""
+"Mark the current end of the log as the start of the fragment to be copied to "
+"clipboard by pressing again."
+msgstr ""
+"将当前日志的结尾设置为开始点，再次按此键，复制首次按键之后的日志片段到剪贴"
+"板。"
 
 #. Translators: Message when marking the start of a fragment of the log file for later copy
 #. to clipboard
@@ -5081,8 +5248,12 @@ msgstr "浏览当前的 NVDA 用户配置目录。"
 
 #. Translators: Input help mode message for toggle progress bar output command.
 #: globalCommands.py:3174
-msgid "Toggles between beeps, speech, beeps and speech, and off, for reporting progress bar updates"
-msgstr "切换进度栏更新时的提示方式，包括提示音，朗读，朗读并发出提示音和不提示四种模式"
+msgid ""
+"Toggles between beeps, speech, beeps and speech, and off, for reporting "
+"progress bar updates"
+msgstr ""
+"切换进度栏更新时的提示方式，包括提示音，朗读，朗读并发出提示音和不提示四种模"
+"式"
 
 #. Translators: A mode where no progress bar updates are given.
 #: globalCommands.py:3184
@@ -5106,7 +5277,9 @@ msgstr "朗读并已提示音表示进度栏更新"
 
 #. Translators: Input help mode message for toggle dynamic content changes command.
 #: globalCommands.py:3202
-msgid "Toggles on and off the reporting of dynamic content changes, such as new text in dos console windows"
+msgid ""
+"Toggles on and off the reporting of dynamic content changes, such as new "
+"text in dos console windows"
 msgstr "切换是否读出动态内容更新，例如命令行窗口中的新文本输出"
 
 #. Translators: presented when the present dynamic changes is toggled.
@@ -5121,7 +5294,8 @@ msgstr "读出动态内容更新"
 
 #. Translators: Input help mode message for toggle caret moves review cursor command.
 #: globalCommands.py:3221
-msgid "Toggles on and off the movement of the review cursor due to the caret moving."
+msgid ""
+"Toggles on and off the movement of the review cursor due to the caret moving."
 msgstr "切换是否允许查看光标跟随输入焦点移动。"
 
 #. Translators: presented when toggled.
@@ -5136,7 +5310,8 @@ msgstr "打开查看光标随输入焦点移动"
 
 #. Translators: Input help mode message for toggle focus moves navigator object command.
 #: globalCommands.py:3238
-msgid "Toggles on and off the movement of the navigator object due to focus changes"
+msgid ""
+"Toggles on and off the movement of the navigator object due to focus changes"
 msgstr "切换是否允许导航对象跟随系统焦点移动"
 
 #. Translators: presented when toggled.
@@ -5156,7 +5331,9 @@ msgstr "如果没有连接交流电源 读出电池状态和可用时间"
 
 #. Translators: Input help mode message for pass next key through command.
 #: globalCommands.py:3267
-msgid "The next key that is pressed will not be handled at all by NVDA, it will be passed directly through to Windows."
+msgid ""
+"The next key that is pressed will not be handled at all by NVDA, it will be "
+"passed directly through to Windows."
 msgstr "忽略下一个 NVDA 按键指令，将其交给系统相关的程序处理。"
 
 #. Translators: Spoken to indicate that the next key press will be sent straight to the current program as though NVDA is not running.
@@ -5166,7 +5343,9 @@ msgstr "跳过下一个 NVDA 按键"
 
 #. Translators: Input help mode message for report current program name and app module name command.
 #: globalCommands.py:3281
-msgid "Speaks the filename of the active application along with the name of the currently loaded appModule"
+msgid ""
+"Speaks the filename of the active application along with the name of the "
+"currently loaded appModule"
 msgstr "读出当前激活程序的文件和已加载的程序模块的名称"
 
 #. Translators: Indicates the name of the appModule for the current program (example output: explorer module is loaded).
@@ -5299,7 +5478,9 @@ msgstr "保存当前的 NVDA 配置"
 
 #. Translators: Input help mode message for apply last saved or default settings command.
 #: globalCommands.py:3507
-msgid "Pressing once reverts the current configuration to the most recently saved state. Pressing three times resets to factory defaults."
+msgid ""
+"Pressing once reverts the current configuration to the most recently saved "
+"state. Pressing three times resets to factory defaults."
 msgstr "按一次恢复当前配置到最近保存的状态。按三次恢复到出厂设置。"
 
 #. Translators: Input help mode message for activate python console command.
@@ -5309,13 +5490,17 @@ msgstr "打开 NVDA “Python 控制台”，主要用于开发调试"
 
 #. Translators: Input help mode message to activate Add-on Store command.
 #: globalCommands.py:3542
-msgid "Activates the Add-on Store to browse and manage add-on packages for NVDA"
+msgid ""
+"Activates the Add-on Store to browse and manage add-on packages for NVDA"
 msgstr "打开 NVDA 插件商店以浏览或管理 NVDA 插件"
 
 #. Translators: Input help mode message for toggle speech viewer command.
 #: globalCommands.py:3551
-msgid "Toggles the NVDA Speech viewer, a floating window that allows you to view all the text that NVDA is currently speaking"
-msgstr "切换是否显示朗读查看器，这是一个用来显示所有 NVDA 正在朗读内容的浮动窗口"
+msgid ""
+"Toggles the NVDA Speech viewer, a floating window that allows you to view "
+"all the text that NVDA is currently speaking"
+msgstr ""
+"切换是否显示朗读查看器，这是一个用来显示所有 NVDA 正在朗读内容的浮动窗口"
 
 #. Translators: The message announced when disabling speech viewer.
 #: globalCommands.py:3560
@@ -5329,8 +5514,12 @@ msgstr "起用朗读查看器"
 
 #. Translators: Input help mode message for toggle Braille viewer command.
 #: globalCommands.py:3573
-msgid "Toggles the NVDA Braille viewer, a floating window that allows you to view braille output, and the text equivalent for each braille character"
-msgstr "切换是否显示盲文查看器，这是一个悬浮窗口，其中显示了盲文输出信息，以及每个盲文单元的对应文本"
+msgid ""
+"Toggles the NVDA Braille viewer, a floating window that allows you to view "
+"braille output, and the text equivalent for each braille character"
+msgstr ""
+"切换是否显示盲文查看器，这是一个悬浮窗口，其中显示了盲文输出信息，以及每个盲"
+"文单元的对应文本"
 
 #. Translators: The message announced when disabling braille viewer.
 #: globalCommands.py:3584
@@ -5369,7 +5558,8 @@ msgstr "{brailleMode}"
 #. Translators: Input help mode message for cycle through
 #. braille move system caret when routing review cursor command.
 #: globalCommands.py:3647
-msgid "Cycle through the braille move system caret when routing review cursor states"
+msgid ""
+"Cycle through the braille move system caret when routing review cursor states"
 msgstr "在移动查看光标时移动系统输入光标的选项之间循环切换"
 
 #. Translators: Reported when action is unavailable because braille tether is to focus.
@@ -5420,7 +5610,8 @@ msgstr "打开盲文光标"
 
 #. Translators: Input help mode message for speak on routing command.
 #: globalCommands.py:3730
-msgid "Toggles speaking the character under the cursor when routing cursor in text"
+msgid ""
+"Toggles speaking the character under the cursor when routing cursor in text"
 msgstr "切换定位文本光标后是否读出光标所在处的字符"
 
 #. Translators: The message announced when toggling on speaking character when routing.
@@ -5435,7 +5626,9 @@ msgstr "禁用定位文本光标后读出光标所在处的字符"
 
 #. Translators: Input help mode message for toggle speaking when navigating by lines or paragraphs with braille.
 #: globalCommands.py:3746
-msgid "Toggles on and off speaking when navigating by lines or paragraph with braille"
+msgid ""
+"Toggles on and off speaking when navigating by lines or paragraph with "
+"braille"
 msgstr "打开或关闭按行或段落导航时读出内容"
 
 #. Translators: The message announced when toggling the speaking on navigating by unit braille setting.
@@ -5516,8 +5709,11 @@ msgstr "盲文 Unicode 规范化 {state}"
 
 #. Translators: Input help mode message for report clipboard text command.
 #: globalCommands.py:3864
-msgid "Reports the text on the Windows clipboard. Pressing twice spells this information. Pressing three times spells it using character descriptions."
-msgstr "读出 Windows 剪贴板中的文本，连按两次逐字朗读，连按三次用短字符描述逐字解释。"
+msgid ""
+"Reports the text on the Windows clipboard. Pressing twice spells this "
+"information. Pressing three times spells it using character descriptions."
+msgstr ""
+"读出 Windows 剪贴板中的文本，连按两次逐字朗读，连按三次用短字符描述逐字解释。"
 
 #. Translators: Presented when there is no text on the clipboard.
 #: globalCommands.py:3879
@@ -5530,13 +5726,16 @@ msgstr "剪贴板内没有文本"
 #: globalCommands.py:3894
 #, python-format
 msgid "The clipboard contains a large amount of text. It is %s character long"
-msgid_plural "The clipboard contains a large amount of text. It is %s characters long"
+msgid_plural ""
+"The clipboard contains a large amount of text. It is %s characters long"
 msgstr[0] "剪贴板内包含大量文本，共有 %s 个字符"
 
 #. Translators: Input help mode message for mark review cursor position for a select or copy command
 #. (that is, marks the current review cursor position as the starting point for text to be selected).
 #: globalCommands.py:3905
-msgid "Marks the current position of the review cursor as the start of text to be selected or copied"
+msgid ""
+"Marks the current position of the review cursor as the start of text to be "
+"selected or copied"
 msgstr "把查看光标所在的当前位置设置为开始点，供选择或复制使用"
 
 #. Translators: Indicates start of review cursor text to be copied to clipboard.
@@ -5547,7 +5746,9 @@ msgstr "开始点已标记"
 #. Translators: Input help mode message for move review cursor to marked start position for a
 #. select or copy command
 #: globalCommands.py:3924
-msgid "Move the review cursor to the position marked as the start of text to be selected or copied"
+msgid ""
+"Move the review cursor to the position marked as the start of text to be "
+"selected or copied"
 msgstr "将查看光标移动回以标记的开始点"
 
 #. Translators: Presented when attempting to move to the start marker for copy but none has been set.
@@ -5559,8 +5760,12 @@ msgstr "未设置开始点"
 #. Translators: Input help mode message for the select then copy command.
 #. The select then copy command first selects the review cursor text, then copies it to the clipboard.
 #: globalCommands.py:3956
-msgid "If pressed once, the text from the previously set start marker up to and including the current position of the review cursor is selected. If pressed twice, the text is copied to the clipboard"
-msgstr "按一次，选择开始点和当前查看光标位置之间的文本；连按两次，复制文本到剪贴板"
+msgid ""
+"If pressed once, the text from the previously set start marker up to and "
+"including the current position of the review cursor is selected. If pressed "
+"twice, the text is copied to the clipboard"
+msgstr ""
+"按一次，选择开始点和当前查看光标位置之间的文本；连按两次，复制文本到剪贴板"
 
 #. Translators: Presented when text has already been marked for selection, but not yet copied.
 #: globalCommands.py:3974
@@ -5634,63 +5839,89 @@ msgstr "翻译任何盲文输入"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4143
-msgid "Virtually toggles the shift key to emulate a keyboard shortcut with braille input"
+msgid ""
+"Virtually toggles the shift key to emulate a keyboard shortcut with braille "
+"input"
 msgstr "在盲文键盘上模拟按下或放开 shift"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4152
-msgid "Virtually toggles the control key to emulate a keyboard shortcut with braille input"
+msgid ""
+"Virtually toggles the control key to emulate a keyboard shortcut with "
+"braille input"
 msgstr "在盲文键盘上模拟按下或放开 control"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4161
-msgid "Virtually toggles the alt key to emulate a keyboard shortcut with braille input"
+msgid ""
+"Virtually toggles the alt key to emulate a keyboard shortcut with braille "
+"input"
 msgstr "在盲文键盘上模拟按下或放开 alt"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4171
-msgid "Virtually toggles the left windows key to emulate a keyboard shortcut with braille input"
+msgid ""
+"Virtually toggles the left windows key to emulate a keyboard shortcut with "
+"braille input"
 msgstr "在盲文键盘上模拟按下或放开 左 windows"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4181
-msgid "Virtually toggles the NVDA key to emulate a keyboard shortcut with braille input"
+msgid ""
+"Virtually toggles the NVDA key to emulate a keyboard shortcut with braille "
+"input"
 msgstr "在盲文键盘上模拟按下或放开 NVDA"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4191
-msgid "Virtually toggles the control and shift keys to emulate a keyboard shortcut with braille input"
+msgid ""
+"Virtually toggles the control and shift keys to emulate a keyboard shortcut "
+"with braille input"
 msgstr "在盲文键盘上模拟按下或放开 control 加 shift"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4203
-msgid "Virtually toggles the alt and shift keys to emulate a keyboard shortcut with braille input"
+msgid ""
+"Virtually toggles the alt and shift keys to emulate a keyboard shortcut with "
+"braille input"
 msgstr "在盲文键盘上模拟按下或放开 alt 加 shift"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4214
-msgid "Virtually toggles the left windows and shift keys to emulate a keyboard shortcut with braille input"
+msgid ""
+"Virtually toggles the left windows and shift keys to emulate a keyboard "
+"shortcut with braille input"
 msgstr "在盲文键盘上模拟按下或放开 左 windows 加 shift"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4226
-msgid "Virtually toggles the NVDA and shift keys to emulate a keyboard shortcut with braille input"
+msgid ""
+"Virtually toggles the NVDA and shift keys to emulate a keyboard shortcut "
+"with braille input"
 msgstr "在盲文键盘上模拟按下或放开 nvda 加 shift"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4237
-msgid "Virtually toggles the control and alt keys to emulate a keyboard shortcut with braille input"
+msgid ""
+"Virtually toggles the control and alt keys to emulate a keyboard shortcut "
+"with braille input"
 msgstr "在盲文键盘上模拟按下或放开 ctrl 加 alt"
 
 #. Translators: Input help mode message for a braille command.
 #: globalCommands.py:4248
-msgid "Virtually toggles the control, alt, and shift keys to emulate a keyboard shortcut with braille input"
+msgid ""
+"Virtually toggles the control, alt, and shift keys to emulate a keyboard "
+"shortcut with braille input"
 msgstr "在盲文键盘上模拟按下或放开 ctrl 加 alt 加 shift"
 
 #. Translators: Input help mode message for reload plugins command.
 #: globalCommands.py:4260
-msgid "Reloads app modules and global plugins without restarting NVDA, which can be Useful for developers"
-msgstr "在不重新启动 NVDA 的情况下，重新加载应用程序模块和全局插件，此功能对于开发者很有用"
+msgid ""
+"Reloads app modules and global plugins without restarting NVDA, which can be "
+"Useful for developers"
+msgstr ""
+"在不重新启动 NVDA 的情况下，重新加载应用程序模块和全局插件，此功能对于开发者"
+"很有用"
 
 #. Translators: Presented when plugins (app modules and global plugins) are reloaded.
 #: globalCommands.py:4272
@@ -5699,7 +5930,9 @@ msgstr "插件已重新加载"
 
 #. Translators: input help mode message for Report destination URL of a link command
 #: globalCommands.py:4277
-msgid "Report the destination URL of the link at the position of caret or focus. If pressed twice, shows the URL in a window for easier review."
+msgid ""
+"Report the destination URL of the link at the position of caret or focus. If "
+"pressed twice, shows the URL in a window for easier review."
 msgstr "读出当前光标或焦点所在链接指向的网址。连按两次在浏览模式下显示该信息。"
 
 #. Translators: Reported when using the command to report the destination of a link.
@@ -5732,17 +5965,25 @@ msgstr "不是链接。"
 
 #. Translators: input help mode message for Report URL of a link in a window command
 #: globalCommands.py:4339
-msgid "Displays the destination URL of the link at the position of caret or focus in a window, instead of just speaking it. May be preferred by braille users."
-msgstr "在对话框中显示当前光标或焦点所在链接指向的网址而不仅仅是读出来，可能对使用点显器的用户有用。"
+msgid ""
+"Displays the destination URL of the link at the position of caret or focus "
+"in a window, instead of just speaking it. May be preferred by braille users."
+msgstr ""
+"在对话框中显示当前光标或焦点所在链接指向的网址而不仅仅是读出来，可能对使用点"
+"显器的用户有用。"
 
 #. Translators: Input help mode message for a touchscreen gesture.
 #: globalCommands.py:4352
-msgid "Moves to the next object in a flattened view of the object navigation hierarchy"
+msgid ""
+"Moves to the next object in a flattened view of the object navigation "
+"hierarchy"
 msgstr "移动导航对象到下一个对象"
 
 #. Translators: Input help mode message for a touchscreen gesture.
 #: globalCommands.py:4390
-msgid "Moves to the previous object in a flattened view of the object navigation hierarchy"
+msgid ""
+"Moves to the previous object in a flattened view of the object navigation "
+"hierarchy"
 msgstr "移动导航对象到上一个对象"
 
 #. Translators: Describes a command.
@@ -5783,12 +6024,16 @@ msgstr "读出触摸到的对象及其内容"
 
 #. Translators: Input help mode message for a touchscreen gesture.
 #: globalCommands.py:4475
-msgid "Reports the new object or content under your finger if different to where your finger was last"
+msgid ""
+"Reports the new object or content under your finger if different to where "
+"your finger was last"
 msgstr "读出新对象及其内容（若该对象与上次触摸到的不同）"
 
 #. Translators: Input help mode message for touch right click command.
 #: globalCommands.py:4502
-msgid "Clicks the right mouse button at the current touch position. This is generally used to activate a context menu."
+msgid ""
+"Clicks the right mouse button at the current touch position. This is "
+"generally used to activate a context menu."
 msgstr "在鼠标所在位置，单击鼠标右键一次，通常用于激活上下文菜单。"
 
 #. Translators: Reported when the object has no location for the mouse to move to it.
@@ -5803,7 +6048,9 @@ msgstr "显示 NVDA “配置管理” 对话框"
 
 #. Translators: Input help mode message for toggle configuration profile triggers command.
 #: globalCommands.py:4548
-msgid "Toggles disabling of all configuration profile triggers. Disabling remains in effect until NVDA is restarted"
+msgid ""
+"Toggles disabling of all configuration profile triggers. Disabling remains "
+"in effect until NVDA is restarted"
 msgstr "禁用所有配置关联，NVDA 重启后才会启用"
 
 #. Translators: The message announced when temporarily disabling all configuration profile triggers.
@@ -5898,8 +6145,14 @@ msgstr "语音 Unicode 规范化 {state}"
 
 #. Translators: Describes a command.
 #: globalCommands.py:4711
-msgid "Toggles the state of the screen curtain, enable to make the screen black or disable to show the contents of the screen. Pressed once, screen curtain is enabled until you restart NVDA. Pressed twice, screen curtain is enabled until you disable it"
-msgstr "切换黑屏的开关，开启可使屏幕变黑，关闭则正常显示屏幕内容。 按一次，临时开启黑屏，重启 NVDA 后将自动恢复。连按两次，开启黑屏，若想恢复屏幕显示，需手动关闭"
+msgid ""
+"Toggles the state of the screen curtain, enable to make the screen black or "
+"disable to show the contents of the screen. Pressed once, screen curtain is "
+"enabled until you restart NVDA. Pressed twice, screen curtain is enabled "
+"until you disable it"
+msgstr ""
+"切换黑屏的开关，开启可使屏幕变黑，关闭则正常显示屏幕内容。 按一次，临时开启黑"
+"屏，重启 NVDA 后将自动恢复。连按两次，开启黑屏，若想恢复屏幕显示，需手动关闭"
 
 #. Translators: Reported when the screen curtain is disabled.
 #: globalCommands.py:4770
@@ -5932,7 +6185,7 @@ msgid "Could not enable screen curtain"
 msgstr "无法开启黑屏"
 
 #. Translators: Warning message when trying to enable the screen curtain when OCR is active.
-#: globalCommands.py:4849 visionEnhancementProviders\screenCurtain.py:281
+#: globalCommands.py:4849 visionEnhancementProviders\screenCurtain.py:287
 msgid "Could not enable screen curtain when performing content recognition"
 msgstr "识别期间无法开启黑屏"
 
@@ -7373,7 +7626,8 @@ msgstr "线形标注 3(带强调线)"
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 #: msoAutoShapeTypes.py:551
 msgctxt "shape"
-msgid "Callout with border, accent bar, and callout line segments forming a U-shape"
+msgid ""
+"Callout with border, accent bar, and callout line segments forming a U-shape"
 msgstr "线形标注 3(带边框和强调线)"
 
 #. Translators: a shape name from Microsoft Office.
@@ -8057,7 +8311,9 @@ msgstr "抬起"
 #. Translators: This is the message for a warning shown if NVDA cannot open a browsable message window
 #. when Windows is on a secure screen (sign-on screen / UAC prompt).
 #: ui.py:68
-msgid "This feature is unavailable while on secure screens such as the sign-on screen or UAC prompt."
+msgid ""
+"This feature is unavailable while on secure screens such as the sign-on "
+"screen or UAC prompt."
 msgstr "此功能在安全屏幕上不可用，例如欢迎界面或 UAC 提示界面。"
 
 #. Translators: This is the message for a warning shown if NVDA cannot open a browsable message window
@@ -8067,7 +8323,9 @@ msgstr "此功能在安全屏幕上不可用，例如欢迎界面或 UAC 提示�
 #. The title may be something like "Formatting".
 #: ui.py:77
 #, python-brace-format
-msgid "This feature ({title}) is unavailable while on secure screens such as the sign-on screen or UAC prompt."
+msgid ""
+"This feature ({title}) is unavailable while on secure screens such as the "
+"sign-on screen or UAC prompt."
 msgstr "{title} 功能在欢迎界面或 UAC 提示界面等安全屏幕不可用。"
 
 #. Translators: This is the title for a warning dialog, shown if NVDA cannot open a browsable message.
@@ -8078,8 +8336,11 @@ msgstr "功能不可用。"
 #. Translators: This is the message for a warning shown if NVDA cannot open a browsable message window
 #. because of a component failure.
 #: ui.py:108
-msgid "An error has caused this feature to be unavailable at this time. Restarting NVDA or Windows may solve this problem."
-msgstr "一个错误导致此功能目前不可用。重新启动 NVDA 或 Windows 可能会解决此问题。"
+msgid ""
+"An error has caused this feature to be unavailable at this time. Restarting "
+"NVDA or Windows may solve this problem."
+msgstr ""
+"一个错误导致此功能目前不可用。重新启动 NVDA 或 Windows 可能会解决此问题。"
 
 #. Translators: This is the message for a warning shown if NVDA cannot open a browsable message window
 #. because of a component failure. This prompt includes the title
@@ -8088,8 +8349,12 @@ msgstr "一个错误导致此功能目前不可用。重新启动 NVDA 或 Windo
 #. The title may be something like "Formatting".
 #: ui.py:118
 #, python-brace-format
-msgid "An error has caused this feature ({title}) to be unavailable at this time. Restarting NVDA or Windows may solve this problem."
-msgstr "一个错误导致 ({title}) 功能目前不可用。重新启动 NVDA 或 Windows 可能会解决此问题。"
+msgid ""
+"An error has caused this feature ({title}) to be unavailable at this time. "
+"Restarting NVDA or Windows may solve this problem."
+msgstr ""
+"一个错误导致 ({title}) 功能目前不可用。重新启动 NVDA 或 Windows 可能会解决此"
+"问题。"
 
 #. Translators: The title for the dialog used to present general NVDA messages in browse mode.
 #: ui.py:186
@@ -8163,7 +8428,9 @@ msgstr "正在检查更新"
 #: updateCheck.py:409
 #, python-brace-format
 msgctxt "updateCheck"
-msgid "Make sure you are connected to the internet, and the NVDA update mirror URL is valid.\n"
+msgid ""
+"Make sure you are connected to the internet, and the NVDA update mirror URL "
+"is valid.\n"
 "Mirror URL: {url}"
 msgstr "请检查网络连接，并确保更新镜像网址 {url} 有效。"
 
@@ -8178,9 +8445,11 @@ msgstr "请检查网络连接后重试。"
 #: updateCheck.py:422
 #, python-brace-format
 msgctxt "updateCheck"
-msgid "Error checking for update.\n"
+msgid ""
+"Error checking for update.\n"
 "{tip}"
-msgstr "检查更新时出错。\n"
+msgstr ""
+"检查更新时出错。\n"
 "{tip}"
 
 #. Translators: The title of the dialog informing the user about an NVDA update.
@@ -8198,7 +8467,9 @@ msgstr "无可用更新。"
 #. applied.
 #: updateCheck.py:514
 #, python-brace-format
-msgid "Update to NVDA version {version} has been downloaded and is ready to be applied."
+msgid ""
+"Update to NVDA version {version} has been downloaded and is ready to be "
+"applied."
 msgstr "NVDA 版本 {version} 已下载并准备就绪。"
 
 #. Translators: The label of a button to review add-ons prior to NVDA update.
@@ -8285,12 +8556,17 @@ msgstr "下载更新时出错。"
 
 #. Translators: The message requesting donations from users.
 #: updateCheck.py:935
-msgid "We need your help in order to continue to improve NVDA.\n"
-"This project relies primarily on donations and grants. By donating, you are helping to fund full time development.\n"
-"If even $10 is donated for every download, we will be able to cover all of the ongoing costs of the project.\n"
-"All donations are received by NV Access, the non-profit organisation which develops NVDA.\n"
+msgid ""
+"We need your help in order to continue to improve NVDA.\n"
+"This project relies primarily on donations and grants. By donating, you are "
+"helping to fund full time development.\n"
+"If even $10 is donated for every download, we will be able to cover all of "
+"the ongoing costs of the project.\n"
+"All donations are received by NV Access, the non-profit organisation which "
+"develops NVDA.\n"
 "Thank you for your support."
-msgstr "我们需要您的帮助，以便持续改进 NVDA。\n"
+msgstr ""
+"我们需要您的帮助，以便持续改进 NVDA。\n"
 "此项目主要依靠捐赠和资助，您的捐赠将帮助用于全职开发。\n"
 "即使每次下载只有 10 美元的捐赠，我们也能够支付项目的所有持续费用。\n"
 "所有的捐款都由开发 NVDA 的非营利组织 NV Access 接收。\n"
@@ -8336,32 +8612,53 @@ msgstr "NVDA 贡献者版权所有 {years}"
 #. Translators: "About NVDA" dialog box message
 #: versionInfo.py:23
 #, python-brace-format
-msgid "{longName} ({name})\n"
+msgid ""
+"{longName} ({name})\n"
 "Version: {version} ({version_detailed})\n"
 "URL: {url}\n"
-"{copyright}\n\n"
-"{name} is covered by the GNU General Public License (Version 2). You are free to share or change this software in any way you like as long as it is accompanied by the license and you make all source code available to anyone who wants it. This applies to both original and modified copies of this software, plus any derivative works.\n"
+"{copyright}\n"
+"\n"
+"{name} is covered by the GNU General Public License (Version 2). You are "
+"free to share or change this software in any way you like as long as it is "
+"accompanied by the license and you make all source code available to anyone "
+"who wants it. This applies to both original and modified copies of this "
+"software, plus any derivative works.\n"
 "For further details, you can view the license from the Help menu.\n"
-"It can also be viewed online at: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n\n"
-"{name} is developed by NV Access, a non-profit organisation committed to helping and promoting free and open source solutions for blind and vision impaired people.\n"
-"If you find NVDA useful and want it to continue to improve, please consider donating to NV Access. You can do this by selecting Donate from the NVDA menu."
-msgstr "{longName}（{name}）\n"
+"It can also be viewed online at: https://www.gnu.org/licenses/old-licenses/"
+"gpl-2.0.html\n"
+"\n"
+"{name} is developed by NV Access, a non-profit organisation committed to "
+"helping and promoting free and open source solutions for blind and vision "
+"impaired people.\n"
+"If you find NVDA useful and want it to continue to improve, please consider "
+"donating to NV Access. You can do this by selecting Donate from the NVDA "
+"menu."
+msgstr ""
+"{longName}（{name}）\n"
 "版本：{version} ({version_detailed})\n"
 "网址：{url}\n"
-"{copyright}\n\n"
-"{name} 遵循 GNU 通用公共授权协议第二版， 您可以自由分享或者以任何方式修改本软件，但在重新发布时必须包含本协议，同时必须公开原版和修改版的源代码，并附上任何用本软件的源代码所产生的软件。\n"
+"{copyright}\n"
+"\n"
+"{name} 遵循 GNU 通用公共授权协议第二版， 您可以自由分享或者以任何方式修改本软"
+"件，但在重新发布时必须包含本协议，同时必须公开原版和修改版的源代码，并附上任"
+"何用本软件的源代码所产生的软件。\n"
 "关于本授权协议的详情,您可以通过“帮助”菜单的“版权信息”访问。\n"
-"您也可参看以下网页：https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n\n"
-"{name} 是由非赢利组织“NV Access”开发的一个用于协助视障用户的免费且开放源代码的解决方案。\n"
-"若您觉的 NVDA 很实用，并希望他可以继续发展，请赞助“NV Access”。您可以通过“NVDA 菜单”下的“捐赠”菜单打开捐赠页面进行捐赠。"
+"您也可参看以下网页：https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n"
+"\n"
+"{name} 是由非赢利组织“NV Access”开发的一个用于协助视障用户的免费且开放源代码"
+"的解决方案。\n"
+"若您觉的 NVDA 很实用，并希望他可以继续发展，请赞助“NV Access”。您可以通"
+"过“NVDA 菜单”下的“捐赠”菜单打开捐赠页面进行捐赠。"
 
 #. Translators: the message that is shown when the user tries to install an add-on
 #. from windows explorer and NVDA is not running.
 #: nvda_slave.pyw:115
 #, python-brace-format
-msgid "Cannot install NVDA add-on from {path}.\n"
+msgid ""
+"Cannot install NVDA add-on from {path}.\n"
 "You must be running NVDA to be able to install add-ons."
-msgstr "无法从 {path} 安装插件。\n"
+msgstr ""
+"无法从 {path} 安装插件。\n"
 "您必须先运行 NVDA 以使插件可以顺利的安装。"
 
 #. Translators: A title of the dialog shown when fetching add-on data from the store fails
@@ -8375,7 +8672,9 @@ msgstr "插件数据更新失败"
 #: addonStore\dataManager.py:219
 #, python-brace-format
 msgctxt "addonStore"
-msgid "Make sure you are connected to the internet, and the Add-on Store mirror URL is valid.\n"
+msgid ""
+"Make sure you are connected to the internet, and the Add-on Store mirror URL "
+"is valid.\n"
 "Mirror URL: {url}"
 msgstr "请检查网络连接，并确保插件商店镜像网址 {url} 有效。"
 
@@ -8402,7 +8701,9 @@ msgstr "无法获取不兼容插件的最新数据。"
 #: addonStore\install.py:44
 #, python-brace-format
 msgctxt "addonStore"
-msgid "Failed to open add-on package file at {filePath} - missing file or invalid file format"
+msgid ""
+"Failed to open add-on package file at {filePath} - missing file or invalid "
+"file format"
 msgstr "无法打开插件包 {filePath} 文件丢失或格式错误"
 
 #. Translators: The message displayed when an add-on is not supported by this version of NVDA.
@@ -8719,8 +9020,10 @@ msgstr "已安装的不兼容插件(&A)"
 #: addonStore\models\version.py:118
 #, python-brace-format
 msgctxt "addonStore"
-msgid "An updated version of NVDA is required. NVDA version {nvdaVersion} or later."
-msgstr "需要更高版本的 NVDA。\n"
+msgid ""
+"An updated version of NVDA is required. NVDA version {nvdaVersion} or later."
+msgstr ""
+"需要更高版本的 NVDA。\n"
 "NVDA {nvdaVersion} 或更高。"
 
 #. Translators: The reason an add-on is not compatible.
@@ -8729,26 +9032,42 @@ msgstr "需要更高版本的 NVDA。\n"
 #: addonStore\models\version.py:128
 #, python-brace-format
 msgctxt "addonStore"
-msgid "An updated version of this add-on is required. This add-on was last tested with NVDA {lastTestedNVDAVersion}. NVDA requires this add-on to be tested with NVDA {nvdaVersion} or higher. You can enable this add-on at your own risk. "
-msgstr "您安装的插件版本太旧，需要更新。\n"
-"该插件已在 NVDA {lastTestedNVDAVersion} 测试。此版本的 NVDA 要求该插件在 {nvdaVersion} 或更高版本的 NVDA 进行测试。\n"
+msgid ""
+"An updated version of this add-on is required. This add-on was last tested "
+"with NVDA {lastTestedNVDAVersion}. NVDA requires this add-on to be tested "
+"with NVDA {nvdaVersion} or higher. You can enable this add-on at your own "
+"risk. "
+msgstr ""
+"您安装的插件版本太旧，需要更新。\n"
+"该插件已在 NVDA {lastTestedNVDAVersion} 测试。此版本的 NVDA 要求该插件在 "
+"{nvdaVersion} 或更高版本的 NVDA 进行测试。\n"
 "您需要字形承担启用该插件的风险。"
 
 #. Translators: A message indicating that some add-ons will be disabled
 #. unless reviewed before installation.
 #: addonStore\models\version.py:145
 msgctxt "addonStore"
-msgid "Your NVDA configuration contains add-ons that are incompatible with this version of NVDA. These add-ons will be disabled after installation. After installation, you will be able to manually re-enable these add-ons at your own risk. If you rely on these add-ons, please review the list to decide whether to continue with the installation. "
-msgstr "您的配置中含有与该版本 NVDA 不兼容的插件。\n"
-"NVDA 安装后这些插件会被禁用。安装完成后您可以手动启用这些插件，但需自行承担风险。\n"
+msgid ""
+"Your NVDA configuration contains add-ons that are incompatible with this "
+"version of NVDA. These add-ons will be disabled after installation. After "
+"installation, you will be able to manually re-enable these add-ons at your "
+"own risk. If you rely on these add-ons, please review the list to decide "
+"whether to continue with the installation. "
+msgstr ""
+"您的配置中含有与该版本 NVDA 不兼容的插件。\n"
+"NVDA 安装后这些插件会被禁用。安装完成后您可以手动启用这些插件，但需自行承担风"
+"险。\n"
 "如果您依赖这些插件，请查看“不兼容的插件”列表以决定是否继续安装。"
 
 #. Translators: A message to confirm that the user understands that incompatible add-ons
 #. will be disabled after installation, and can be manually re-enabled.
 #: addonStore\models\version.py:157
 msgctxt "addonStore"
-msgid "I understand that incompatible add-ons will be disabled and can be manually re-enabled at my own risk after installation."
-msgstr "我知道这些不兼容的插件将被禁用，安装后可以手动启用，我将字形承担可能的风险。"
+msgid ""
+"I understand that incompatible add-ons will be disabled and can be manually "
+"re-enabled at my own risk after installation."
+msgstr ""
+"我知道这些不兼容的插件将被禁用，安装后可以手动启用，我将字形承担可能的风险。"
 
 #: appModules\calc.py:57
 msgid "Display"
@@ -9120,7 +9439,9 @@ msgstr "未找到 {description} 窗口。"
 #. Translators: The description of an NVDA command for Poedit.
 #: appModules\poedit.py:129
 msgctxt "poedit"
-msgid "Reports any notes for translators. If pressed twice, presents the notes in browse mode"
+msgid ""
+"Reports any notes for translators. If pressed twice, presents the notes in "
+"browse mode"
 msgstr "读出翻译者注释。连按两次，在浏览模式下显示该信息"
 
 #. Translators: The description of the "Translator notes" window in poedit.
@@ -9133,7 +9454,9 @@ msgstr "翻译者注释"
 #. Translators: The description of an NVDA command for Poedit.
 #: appModules\poedit.py:153
 msgctxt "poedit"
-msgid "Reports any comment in the comments window. If pressed twice, presents the comment in browse mode"
+msgid ""
+"Reports any comment in the comments window. If pressed twice, presents the "
+"comment in browse mode"
 msgstr "读出窗口内的注释。连按两次，在浏览模式下显示该信息"
 
 #. Translators: The description of the "comment" window in poedit.
@@ -9146,7 +9469,9 @@ msgstr "注释"
 #. Translators: The description of an NVDA command for Poedit.
 #: appModules\poedit.py:180
 msgctxt "poedit"
-msgid "Reports the previous source text, if any. If pressed twice, presents the text in browse mode"
+msgid ""
+"Reports the previous source text, if any. If pressed twice, presents the "
+"text in browse mode"
 msgstr "读出先前的源文本（如果有）。连按两次，在浏览模式下显示该信息"
 
 #. Translators: The description of the "previous source text" window in poedit.
@@ -9159,7 +9484,9 @@ msgstr "先前的源文本"
 #. Translators: The description of an NVDA command for Poedit.
 #: appModules\poedit.py:206
 msgctxt "poedit"
-msgid "Reports a translation issue, if any. If pressed twice, presents the warning in browse mode"
+msgid ""
+"Reports a translation issue, if any. If pressed twice, presents the warning "
+"in browse mode"
 msgstr "读出翻译警告（如果有）。连按两次，在浏览模式下显示该信息"
 
 #. Translators: The description of the "translation issue" window in poedit.
@@ -9469,8 +9796,13 @@ msgstr[0] "幻灯片底边的超出距离为{distance:.3g}磅"
 
 #. Translators: The description for a script
 #: appModules\powerpnt.py:1462
-msgid "Toggles between reporting the speaker notes or the actual slide content. This does not change what is visible on-screen, but only what the user can read with NVDA"
-msgstr "选择朗读语音注视或朗读实际的幻灯片。这样不会更改屏幕上的任何显示，仅用于 NVDA 的阅读"
+msgid ""
+"Toggles between reporting the speaker notes or the actual slide content. "
+"This does not change what is visible on-screen, but only what the user can "
+"read with NVDA"
+msgstr ""
+"选择朗读语音注视或朗读实际的幻灯片。这样不会更改屏幕上的任何显示，仅用于 "
+"NVDA 的阅读"
 
 #. Translators: The title of the current slide (with notes) in a running Slide Show in Microsoft PowerPoint.
 #: appModules\powerpnt.py:1499
@@ -9545,7 +9877,9 @@ msgstr[0] "{val:.2f} 厘米"
 #. Translators: LibreOffice, report cursor position in the current page
 #: appModules\soffice.py:448
 #, python-brace-format
-msgid "cursor positioned {horizontalDistance} from left edge of page, {verticalDistance} from top edge of page"
+msgid ""
+"cursor positioned {horizontalDistance} from left edge of page, "
+"{verticalDistance} from top edge of page"
 msgstr "光标距页面左边 {horizontalDistance}，距页面上边 {verticalDistance}"
 
 #: appModules\totalcmd.py:36
@@ -9696,7 +10030,9 @@ msgstr "NVDA 双声道、其他应用在右"
 #. Translators: warning message when sound split trigger wasn't successful due to one of audio sessions
 #. had number of channels other than 2 .
 #: audio\soundSplit.py:220
-msgid "Warning: couldn't set volumes for sound split: one of audio sessions is either mono, or has more than 2 audio channels."
+msgid ""
+"Warning: couldn't set volumes for sound split: one of audio sessions is "
+"either mono, or has more than 2 audio channels."
 msgstr "警告：无法设置声音拆分音量：某一音频会话是单声道，或 2 个以上声道。"
 
 #. Translators: The name of a braille display.
@@ -9842,8 +10178,13 @@ msgstr "Caiku Albatross 46/80"
 #. for a braille display driver
 #: brailleDisplayDrivers\albatross\driver.py:480
 #, python-brace-format
-msgid "To use an Albatross with NVDA, change the number of status cells in the Albatross's internal menu to at most {maxCells}, and restart the Albatross and NVDA if needed."
-msgstr "要将 Albatross 与 NVDA 一起使用，请将 Albatross 内部菜单中的状态单元格数量更改为最大 {maxCells}，然后根据需要重启 Albatross 和 NVDA。"
+msgid ""
+"To use an Albatross with NVDA, change the number of status cells in the "
+"Albatross's internal menu to at most {maxCells}, and restart the Albatross "
+"and NVDA if needed."
+msgstr ""
+"要将 Albatross 与 NVDA 一起使用，请将 Albatross 内部菜单中的状态单元格数量更"
+"改为最大 {maxCells}，然后根据需要重启 Albatross 和 NVDA。"
 
 #. Translators: Description of the DotPad Braille / Tactile Graphic display.
 #: brailleDisplayDrivers\dotPad\driver.py:81
@@ -11471,12 +11812,16 @@ msgstr "测试(&T)..."
 
 #. Translators: Message shown to users when saving a potentially invalid URL to NVDA's settings.
 #: gui\_SetURLDialog.py:105
-msgid "The URL you have entered failed the connection test. Are you sure you want to save it anyway?"
+msgid ""
+"The URL you have entered failed the connection test. Are you sure you want "
+"to save it anyway?"
 msgstr "您输入的网址连接测试失败，是否仍要保存？"
 
 #. Translators: Message shown to users when saving an untested URL to NVDA's settings.
 #: gui\_SetURLDialog.py:110
-msgid "The URL you have entered has not been tested. Are you sure you want to save it without attempting to connect to it first?"
+msgid ""
+"The URL you have entered has not been tested. Are you sure you want to save "
+"it without attempting to connect to it first?"
 msgstr "您输入的网址尚未经过连接测试。是否要直接保存而不先尝试连接？"
 
 #. Translators: The title of a dialog.
@@ -11487,7 +11832,7 @@ msgstr "您输入的网址尚未经过连接测试。是否要直接保存而不
 #. Translators: Title of warning dialog
 #: gui\_SetURLDialog.py:113 gui\configProfiles.py:498 gui\installerGui.py:334
 #: gui\settingsDialogs.py:1036 gui\settingsDialogs.py:1927
-#: visionEnhancementProviders\screenCurtain.py:146 _remoteClient\dialogs.py:260
+#: visionEnhancementProviders\screenCurtain.py:152 _remoteClient\dialogs.py:260
 msgid "Warning"
 msgstr "警告"
 
@@ -11513,22 +11858,30 @@ msgstr "成功"
 
 #. Translators: Tip shown to users when testing a given URL has failed because the response was invalid.
 #: gui\_SetURLDialog.py:186
-msgid "The response from the server was not recognised. Check the URL is correct before trying again."
+msgid ""
+"The response from the server was not recognised. Check the URL is correct "
+"before trying again."
 msgstr "无法识别服务器的响应。请检查网址正确无误后重试。"
 
 #. Translators: Tip shown to users when testing a given URL has failed because the server returned an error.
 #: gui\_SetURLDialog.py:190
-msgid "The server returned an error. Check that the URL is correct before trying again."
+msgid ""
+"The server returned an error. Check that the URL is correct before trying "
+"again."
 msgstr "服务器返回错误。请检查网址正确无误后重试。"
 
 #. Translators: Tip shown to users when testing a given URL has failed because of a network error.
 #: gui\_SetURLDialog.py:193
-msgid "There was a network error. Check that you are connected to the internet and try again."
+msgid ""
+"There was a network error. Check that you are connected to the internet and "
+"try again."
 msgstr "出现网络错误。请检查网络连接后重试。"
 
 #. Translators: Tip shown to users when testing a given URL has failed because the URL was invalid.
 #: gui\_SetURLDialog.py:203
-msgid "The URL you have entered is not valid. Check that it is correct and try again."
+msgid ""
+"The URL you have entered is not valid. Check that it is correct and try "
+"again."
 msgstr "您输入的网址无效。请检查网址正确无误后重试。"
 
 #. Translators: Tip shown to users when testing a given URL has failed for unknown reasons.
@@ -11541,7 +11894,8 @@ msgstr "确保您已连接到互联网且网址正确。"
 #: gui\_SetURLDialog.py:209
 #, python-brace-format
 msgid "The URL you have entered failed the connection test. {tip}"
-msgstr "您输入的网址连接测试失败。\n"
+msgstr ""
+"您输入的网址连接测试失败。\n"
 "{tip}"
 
 #. Translators: Reported when last saved configuration has been applied by using revert to saved configuration option in NVDA menu.
@@ -11584,13 +11938,29 @@ msgstr "关于 NVDA"
 
 #. Translators: Explain the COM Registration Fixing tool to users before running
 #: gui\__init__.py:497
-msgid "Welcome to the COM Registration Fixing tool.\n\n"
-"Installing and uninstalling programs, as well as other events, can damage accessibility entries in the Windows registry. This can cause previously accessible elements to be presented incorrectly, or can cause \"unknown\" or \"pane\" to be spoken or brailled in some applications or Windows components, instead of the content you were expecting.\n\n"
-"This tool attempts to fix such common problems. Note that the tool must access the system registry, which requires administrative privileges.\n\n"
+msgid ""
+"Welcome to the COM Registration Fixing tool.\n"
+"\n"
+"Installing and uninstalling programs, as well as other events, can damage "
+"accessibility entries in the Windows registry. This can cause previously "
+"accessible elements to be presented incorrectly, or can cause \"unknown\" or "
+"\"pane\" to be spoken or brailled in some applications or Windows "
+"components, instead of the content you were expecting.\n"
+"\n"
+"This tool attempts to fix such common problems. Note that the tool must "
+"access the system registry, which requires administrative privileges.\n"
+"\n"
 "Press Continue to run the tool now."
-msgstr "欢迎使用 COM 注册修复工具。\n\n"
-"安装或卸载程序及其他事件可能会损坏 Windows 注册表中的辅助功能条目。这可能导致以前可访问的元素显示不正确，或在某些应用程序及 Windows 组件中输出“未知”或“窗格”，而不是您期望的内容。\n\n"
-"该工具将尝试修复此类常见问题。请注意，该工具必须访问系统注册表，这需要管理员权限。\n\n"
+msgstr ""
+"欢迎使用 COM 注册修复工具。\n"
+"\n"
+"安装或卸载程序及其他事件可能会损坏 Windows 注册表中的辅助功能条目。这可能导致"
+"以前可访问的元素显示不正确，或在某些应用程序及 Windows 组件中输出“未知”或“窗"
+"格”，而不是您期望的内容。\n"
+"\n"
+"该工具将尝试修复此类常见问题。请注意，该工具必须访问系统注册表，这需要管理员"
+"权限。\n"
+"\n"
 "按“继续”立即运行该工具。"
 
 #. Translators: The title of various dialogs displayed when using the COM Registration Fixing tool
@@ -11600,15 +11970,19 @@ msgstr "COM 注册修复"
 
 #. Translators: The message displayed while NVDA is running the COM Registration fixing tool
 #: gui\__init__.py:537
-msgid "Please wait while NVDA attempts to fix your system's COM registrations..."
+msgid ""
+"Please wait while NVDA attempts to fix your system's COM registrations..."
 msgstr "请稍候，NVDA 正在尝试修复系统中的 COM 注册……"
 
 #. Translators: message shown to the user on COM Registration Fix fail
 #: gui\__init__.py:564
 #, python-brace-format
-msgid "The COM Registration Fixing Tool was unsuccessful. This Windows error may provide more information.\n"
+msgid ""
+"The COM Registration Fixing Tool was unsuccessful. This Windows error may "
+"provide more information.\n"
 "{error}"
-msgstr "COM 注册修复工具未能成功运行。此 Windows 错误可能提供更多信息。\n"
+msgstr ""
+"COM 注册修复工具未能成功运行。此 Windows 错误可能提供更多信息。\n"
 "{error}"
 
 #. Translators: The title of a COM Registration Fixing Tool dialog, when the tool has failed
@@ -11618,9 +11992,12 @@ msgstr "COM 注册修复失败"
 
 #. Translators: Message shown when the COM Registration Fixing tool completes.
 #: gui\__init__.py:575
-msgid "The COM Registration Fixing Tool has completed successfully.\n"
-"It is highly recommended that you restart your computer now, to make sure the changes take full effect."
-msgstr "COM 注册修复工具已完成。强烈建议您现在重新启动计算机，以确保更改完全生效。"
+msgid ""
+"The COM Registration Fixing Tool has completed successfully.\n"
+"It is highly recommended that you restart your computer now, to make sure "
+"the changes take full effect."
+msgstr ""
+"COM 注册修复工具已完成。强烈建议您现在重新启动计算机，以确保更改完全生效。"
 
 #. Translators: The label for the menu item to open NVDA Settings dialog.
 #: gui\__init__.py:602
@@ -11722,7 +12099,9 @@ msgstr "默认字典(&D)..."
 
 #. Translators: The help text for the menu item to open Default speech dictionary dialog.
 #: gui\__init__.py:729
-msgid "A dialog where you can set default dictionary by adding dictionary entries to the list"
+msgid ""
+"A dialog where you can set default dictionary by adding dictionary entries "
+"to the list"
 msgstr "“默认字典”对话框，可以添加和管理默认字典"
 
 #. Translators: The label for the menu item to open Voice specific speech dictionary dialog.
@@ -11733,7 +12112,9 @@ msgstr "语音字典(&V)..."
 #. Translators: The help text for the menu item
 #. to open Voice specific speech dictionary dialog.
 #: gui\__init__.py:739
-msgid "A dialog where you can set voice-specific dictionary by adding dictionary entries to the list"
+msgid ""
+"A dialog where you can set voice-specific dictionary by adding dictionary "
+"entries to the list"
 msgstr "“语音字典”对话框，可以添加和管理合成器字典"
 
 #. Translators: The label for the menu item to open Temporary speech dictionary dialog.
@@ -11743,7 +12124,9 @@ msgstr "临时字典(&T)..."
 
 #. Translators: The help text for the menu item to open Temporary speech dictionary dialog.
 #: gui\__init__.py:749
-msgid "A dialog where you can set temporary dictionary by adding dictionary entries to the edit box"
+msgid ""
+"A dialog where you can set temporary dictionary by adding dictionary entries "
+"to the edit box"
 msgstr "“临时字典”对话框，可以添加和管理临时字典"
 
 #. Translators: The label for the menu item to open the Configuration Profiles dialog.
@@ -11856,8 +12239,11 @@ msgstr "请等待"
 #. Translators: A message asking the user if they wish to restart NVDA
 #. as addons have been added, enabled/disabled or removed.
 #: gui\addonGui.py:31
-msgid "Changes were made to add-ons. You must restart NVDA for these changes to take effect. Would you like to restart now?"
-msgstr "插件修改已经成功应用。您必须重启 NVDA 才能使此更改生效。您要立即重启吗？"
+msgid ""
+"Changes were made to add-ons. You must restart NVDA for these changes to "
+"take effect. Would you like to restart now?"
+msgstr ""
+"插件修改已经成功应用。您必须重启 NVDA 才能使此更改生效。您要立即重启吗？"
 
 #. Translators: Title for message asking if the user wishes to restart NVDA as addons have been added or removed.
 #: gui\addonGui.py:36
@@ -11878,7 +12264,7 @@ msgstr "关于插件(&A)..."
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. agree to enabling the curtain.
 #: gui\addonGui.py:73 gui\message.py:330 gui\startupDialogs.py:303
-#: visionEnhancementProviders\screenCurtain.py:170
+#: visionEnhancementProviders\screenCurtain.py:176
 msgid "&Yes"
 msgstr "是(&Y)"
 
@@ -11889,7 +12275,7 @@ msgstr "是(&Y)"
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. disagree to enabling the curtain.
 #: gui\addonGui.py:83 gui\message.py:332 gui\startupDialogs.py:307
-#: visionEnhancementProviders\screenCurtain.py:179
+#: visionEnhancementProviders\screenCurtain.py:185
 msgid "&No"
 msgstr "否(&N)"
 
@@ -11902,7 +12288,9 @@ msgstr "确定"
 #. Translators: The message displayed when an error occurs when opening an add-on package for adding.
 #: gui\addonGui.py:143
 #, python-format
-msgid "Failed to open add-on package file at %s - missing file or invalid file format"
+msgid ""
+"Failed to open add-on package file at %s - missing file or invalid file "
+"format"
 msgstr "无法打开 add-on 文件！ %s 文件丢失或者格式错误"
 
 #. Translators: A title for the dialog asking if the user wishes to update a previously installed
@@ -11915,15 +12303,20 @@ msgstr "插件安装"
 #. currently installed according to the version number.
 #: gui\addonGui.py:182
 #, python-brace-format
-msgid "You are about to install version {newVersion} of {summary}, which appears to be already installed. Would you still like to update?"
+msgid ""
+"You are about to install version {newVersion} of {summary}, which appears to "
+"be already installed. Would you still like to update?"
 msgstr "插件 {summary} 的 {newVersion} 版本已经安装。是否更新？"
 
 #. Translators: A message asking if the user wishes to update a previously installed
 #. add-on with this one.
 #: gui\addonGui.py:190
 #, python-brace-format
-msgid "A version of this add-on is already installed. Would you like to update {summary} version {curVersion} to version {newVersion}?"
-msgstr "插件 {summary} 的 {curVersion} 版本已经安装。是否更新到 {newVersion} ？"
+msgid ""
+"A version of this add-on is already installed. Would you like to update "
+"{summary} version {curVersion} to version {newVersion}?"
+msgstr ""
+"插件 {summary} 的 {curVersion} 版本已经安装。是否更新到 {newVersion} ？"
 
 #. Translators: The title of the dialog presented while an Addon is being installed.
 #: gui\addonGui.py:238
@@ -11953,8 +12346,12 @@ msgstr "不兼容的插件"
 
 #. Translators: The title of the Incompatible Addons Dialog
 #: gui\addonGui.py:349
-msgid "The following add-ons are incompatible with NVDA version {}. These add-ons can not be enabled. Please contact the add-on author for further assistance."
-msgstr "以下插件与 NVDA版 本 {} 不兼容。无法启用这些插件。请联系插件作者以获取进一步的帮助。"
+msgid ""
+"The following add-ons are incompatible with NVDA version {}. These add-ons "
+"can not be enabled. Please contact the add-on author for further assistance."
+msgstr ""
+"以下插件与 NVDA版 本 {} 不兼容。无法启用这些插件。请联系插件作者以获取进一步"
+"的帮助。"
 
 #. Translators: the label for the addons list in the incompatible addons dialog.
 #: gui\addonGui.py:357
@@ -12078,7 +12475,8 @@ msgstr "激活配置时发生错误。"
 #. Translators: The confirmation prompt displayed when the user requests to delete a configuration profile.
 #. The placeholder {} is replaced with the name of the configuration profile that will be deleted.
 #: gui\configProfiles.py:200
-msgid "The profile {} will be permanently deleted. This action cannot be undone."
+msgid ""
+"The profile {} will be permanently deleted. This action cannot be undone."
 msgstr "配置文件 {} 将被永久删除。此操作无法撤消。"
 
 #. Translators: The title of the confirmation dialog for deletion of a configuration profile.
@@ -12143,7 +12541,8 @@ msgstr "全文朗读"
 
 #. Translators: An error displayed when saving configuration profile triggers fails.
 #: gui\configProfiles.py:333
-msgid "Error saving configuration profile triggers - probably read only file system."
+msgid ""
+"Error saving configuration profile triggers - probably read only file system."
 msgstr "保存配置修改时发生错误，文件系统可能处于只读状态。"
 
 #. Translators: The title of the configuration profile triggers dialog.
@@ -12191,9 +12590,12 @@ msgstr "此配置的使用条件为："
 #. Translators: The confirmation prompt presented when creating a new configuration profile
 #. and the selected trigger is already associated.
 #: gui\configProfiles.py:494
-msgid "This trigger is already associated with another profile. If you continue, it will be removed from that profile and associated with this one.\n"
+msgid ""
+"This trigger is already associated with another profile. If you continue, it "
+"will be removed from that profile and associated with this one.\n"
 "Are you sure you want to continue?"
-msgstr "此关联已经与其他配置连接。如果您继续，旧的配置连接将被此连接替换。\n"
+msgstr ""
+"此关联已经与其他配置连接。如果您继续，旧的配置连接将被此连接替换。\n"
 "您希望继续吗？"
 
 #. Translators: An error displayed when the user attempts to create a configuration profile
@@ -12210,9 +12612,14 @@ msgstr "保存配置时发生错误，文件系统可能处于只读状态。"
 #. Translators: The prompt asking the user whether they wish to
 #. manually activate a configuration profile that has just been created.
 #: gui\configProfiles.py:556
-msgid "To edit this profile, you will need to manually activate it. Once you have finished editing, you will need to manually deactivate it to resume normal usage.\n"
+msgid ""
+"To edit this profile, you will need to manually activate it. Once you have "
+"finished editing, you will need to manually deactivate it to resume normal "
+"usage.\n"
 "Do you wish to manually activate it now?"
-msgstr "要想编辑此配置，您必须先将其激活。一旦您完成编辑，您必须手动禁用它已使配置恢复到原来的状态。\n"
+msgstr ""
+"要想编辑此配置，您必须先将其激活。一旦您完成编辑，您必须手动禁用它已使配置恢"
+"复到原来的状态。\n"
 "您希望现在就手动激活它吗？"
 
 #. Translators: The title of the confirmation dialog for manual activation of a created profile.
@@ -12257,13 +12664,17 @@ msgstr "安装之前推迟的更新"
 
 #. Translators: A message in the exit Dialog shown when all add-ons are disabled.
 #: gui\exit.py:88
-msgid "All add-ons are now disabled. They will be re-enabled on the next restart unless you choose to disable them again."
+msgid ""
+"All add-ons are now disabled. They will be re-enabled on the next restart "
+"unless you choose to disable them again."
 msgstr "所有插件已被禁用，下次重启时会重新启用，除非您选择再次禁用。"
 
 #. Translators: A message in the exit Dialog shown when NVDA language has been
 #. overwritten from the command line.
 #: gui\exit.py:96
-msgid "NVDA's interface language is now forced from the command line. On the next restart, the language  saved in NVDA's configuration will be used instead."
+msgid ""
+"NVDA's interface language is now forced from the command line. On the next "
+"restart, the language  saved in NVDA's configuration will be used instead."
 msgstr "当前 NVDA 的界面语言由命令行指定，重启后将使用配置中保存的语言。"
 
 #. Translators: The label for actions list in the Exit dialog.
@@ -12335,10 +12746,14 @@ msgstr "重置(&D)"
 
 #. Translators: A prompt for confirmation to reset all gestures in the Input Gestures dialog.
 #: gui\inputGestures.py:789
-msgid "Are you sure you want to reset all gestures to their factory defaults?\n\n"
-"\t\t\tAll of your user defined gestures, whether previously set or defined during this session, will be lost.\n"
+msgid ""
+"Are you sure you want to reset all gestures to their factory defaults?\n"
+"\n"
+"\t\t\tAll of your user defined gestures, whether previously set or defined "
+"during this session, will be lost.\n"
 "\t\t\tThis cannot be undone."
-msgstr "您是否要将所有按键与手势重置为默认值？\n"
+msgstr ""
+"您是否要将所有按键与手势重置为默认值？\n"
 "\t\t\t\n"
 "重置后，您先前保存和设置的所有按键与手势都将丢失且无法撤销。"
 
@@ -12374,8 +12789,13 @@ msgstr "请稍后，正在安装 NVDA"
 
 #. Translators: a message dialog asking to retry or cancel when NVDA install fails
 #: gui\installerGui.py:91
-msgid "The installation is unable to remove or overwrite a file. Another copy of NVDA may be running on another logged-on user account. Please make sure all installed copies of NVDA are shut down and try the installation again."
-msgstr "安装程序无法移除或者替换一个文件。 NVDA 的其他副本可能正在运行和写入用户日志。请确定所有的副本都已被关闭，并重试安装过程。"
+msgid ""
+"The installation is unable to remove or overwrite a file. Another copy of "
+"NVDA may be running on another logged-on user account. Please make sure all "
+"installed copies of NVDA are shut down and try the installation again."
+msgstr ""
+"安装程序无法移除或者替换一个文件。 NVDA 的其他副本可能正在运行和写入用户日"
+"志。请确定所有的副本都已被关闭，并重试安装过程。"
 
 #. Translators: the title of a retry cancel dialog when NVDA installation fails
 #. Translators: the title of a retry cancel dialog when NVDA portable copy creation  fails
@@ -12385,7 +12805,9 @@ msgstr "文件正在使用"
 
 #. Translators: The message displayed when an error occurs during installation of NVDA.
 #: gui\installerGui.py:110
-msgid "The installation of NVDA failed. Please check the Log Viewer for more information."
+msgid ""
+"The installation of NVDA failed. Please check the Log Viewer for more "
+"information."
 msgstr "NVDA 安装失败。请检查用户日志以获取更多的信息。"
 
 #. Translators: The message displayed when NVDA has been successfully installed.
@@ -12416,13 +12838,17 @@ msgstr "要想把 NVDA 安装到您的硬盘，请 点击“继续”按钮。"
 
 #. Translators: An informational message in the Install NVDA dialog.
 #: gui\installerGui.py:212
-msgid "A previous copy of NVDA has been found on your system. This copy will be updated."
+msgid ""
+"A previous copy of NVDA has been found on your system. This copy will be "
+"updated."
 msgstr "在系统中找到一个 NVDA 的先前版本。此版本将被更新。"
 
 #. Translators: a message in the installer telling the user NVDA is now located in a different place.
 #: gui\installerGui.py:217
 #, python-brace-format
-msgid "The installation path for NVDA has changed. it will now  be installed in {path}"
+msgid ""
+"The installation path for NVDA has changed. it will now  be installed in "
+"{path}"
 msgstr "安装路径已被更改，它将被安装在 “{path}”。"
 
 #. Translators: The label for a group box containing the NVDA installation dialog options.
@@ -12462,8 +12888,14 @@ msgstr "继续(&C)"
 #. Translators: A warning presented when the user attempts to downgrade NVDA
 #. to an older version.
 #: gui\installerGui.py:343
-msgid "You are attempting to install an earlier version of NVDA than the version currently installed. If you really wish to revert to an earlier version, you should first cancel this installation and completely uninstall NVDA before installing the earlier version."
-msgstr "您正在试图安装一个比现有的版本还要早的 NVDA 版本，如果您真的想恢复到这个版本，那么请先取消安装进程，在完全卸载当前版本之后再次进行安装。"
+msgid ""
+"You are attempting to install an earlier version of NVDA than the version "
+"currently installed. If you really wish to revert to an earlier version, you "
+"should first cancel this installation and completely uninstall NVDA before "
+"installing the earlier version."
+msgstr ""
+"您正在试图安装一个比现有的版本还要早的 NVDA 版本，如果您真的想恢复到这个版"
+"本，那么请先取消安装进程，在完全卸载当前版本之后再次进行安装。"
 
 #. Translators: The label of a button to proceed with installation,
 #. even though this is not recommended.
@@ -12475,7 +12907,9 @@ msgstr "继续安装（不建议）(&P)"
 #. that already has a portable copy in the Create Portable NVDA dialog.
 #: gui\installerGui.py:410
 #, python-brace-format
-msgid "A portable copy already exists in the directory '{portableDirectory}'. Do you want to update it?"
+msgid ""
+"A portable copy already exists in the directory '{portableDirectory}'. Do "
+"you want to update it?"
 msgstr "目录 '{portableDirectory}' 中已存在便携版。是否更新？"
 
 #. Translators: The title of a dialog presented when the user has specified a destination directory
@@ -12488,8 +12922,13 @@ msgstr "便携版已存在"
 #. that already exists in the Create Portable NVDA dialog.
 #: gui\installerGui.py:422
 #, python-brace-format
-msgid "The specified directory '{portableDirectory}' is not empty. Proceeding will delete and replace existing files in the directory. Do you want to overwrite the contents of this folder? "
-msgstr "指定的目录 '{portableDirectory}' 不为空。继续操作将删除并替换目录中的现有文件。是否覆盖此文件夹的内容？"
+msgid ""
+"The specified directory '{portableDirectory}' is not empty. Proceeding will "
+"delete and replace existing files in the directory. Do you want to overwrite "
+"the contents of this folder? "
+msgstr ""
+"指定的目录 '{portableDirectory}' 不为空。继续操作将删除并替换目录中的现有文"
+"件。是否覆盖此文件夹的内容？"
 
 #. Translators: The title of a dialog presented when the user has specified a destination directory
 #. that already exists in the Create Portable NVDA dialog.
@@ -12504,7 +12943,9 @@ msgstr "创建 NVDA 的便携版"
 
 #. Translators: An informational message displayed in the Create Portable NVDA dialog.
 #: gui\installerGui.py:461
-msgid "To create a portable copy of NVDA, please select the path and other options and then press Continue"
+msgid ""
+"To create a portable copy of NVDA, please select the path and other options "
+"and then press Continue"
 msgstr "要想建立一个 NVDA 的便携版本，请选择位置和其他选项后点击继续"
 
 #. Translators: The label of a grouping containing controls to select the destination directory
@@ -12548,8 +12989,11 @@ msgstr "请为便携版文件选择一个目录。"
 #. Translators: The message displayed when the user has not specified an absolute destination directory
 #. in the Create Portable NVDA dialog.
 #: gui\installerGui.py:530
-msgid "Please specify the absolute path where the portable copy should be created. It may include system variables (%temp%, %homepath%, etc.)."
-msgstr "请指定存放便携版的绝对路径。可以包括系统变量（%temp%、%homepath% 等）。"
+msgid ""
+"Please specify the absolute path where the portable copy should be created. "
+"It may include system variables (%temp%, %homepath%, etc.)."
+msgstr ""
+"请指定存放便携版的绝对路径。可以包括系统变量（%temp%、%homepath% 等）。"
 
 #. Translators: The message displayed when the user cancels the creation of a portable copy of NVDA.
 #: gui\installerGui.py:581
@@ -12658,10 +13102,14 @@ msgstr "默认（{}）"
 #. Translators: Content of the message displayed when a validation error occurs in the settings dialog
 #: gui\settingsDialogs.py:441
 #, python-brace-format
-msgid "{message}\n\n"
+msgid ""
+"{message}\n"
+"\n"
 "Category: \"{category}\"\n"
 "Option: \"{option}\""
-msgstr "“{option}”提示“{message}”\n\n"
+msgstr ""
+"“{option}”提示“{message}”\n"
+"\n"
 "该选项位于“{category}”类别下。"
 
 #. Translators: The title of the message box when a setting's configuration is not valid.
@@ -12762,7 +13210,9 @@ msgstr "在欢迎界面启用 NVDA（需要管理员权限）"
 #. settings to be used in secure screens such as User Account
 #. Control (UAC) dialog).
 #: gui\settingsDialogs.py:910
-msgid "Use currently saved settings during sign-in and on secure screens (requires administrator privileges)"
+msgid ""
+"Use currently saved settings during sign-in and on secure screens (requires "
+"administrator privileges)"
 msgstr "应用以保存的配置到欢迎界面和其他安全界面（需要管理员权限）"
 
 #. Translators: The label of a checkbox in general settings to toggle automatic checking for updated versions of NVDA.
@@ -12797,7 +13247,8 @@ msgstr "修改..."
 
 #. Translators: The label of a checkbox in general settings.
 #: gui\settingsDialogs.py:990
-msgid "Prevent &display from turning off during say all or reading with braille"
+msgid ""
+"Prevent &display from turning off during say all or reading with braille"
 msgstr "在全文朗读或阅读盲文时禁止关闭显示器(&D)"
 
 #. Translators: Title of the dialog used to change NVDA's update server mirror URL.
@@ -12808,8 +13259,13 @@ msgstr "设置 NVDA 更新镜像"
 #. Translators: A message to warn the user when attempting to copy current
 #. settings to system settings.
 #: gui\settingsDialogs.py:1030
-msgid "Add-ons were detected in your user settings directory. Copying these to the system profile could be a security risk. Do you still wish to copy your settings?"
-msgstr "NVDA 可检测用户配置目录中存在的插件，拷贝此设置到系统配置目录内可能要面临安全风险，您仍要复制此设置吗？"
+msgid ""
+"Add-ons were detected in your user settings directory. Copying these to the "
+"system profile could be a security risk. Do you still wish to copy your "
+"settings?"
+msgstr ""
+"NVDA 可检测用户配置目录中存在的插件，拷贝此设置到系统配置目录内可能要面临安全"
+"风险，您仍要复制此设置吗？"
 
 #. Translators: The title of the dialog presented while settings are being copied
 #: gui\settingsDialogs.py:1043
@@ -12824,7 +13280,9 @@ msgstr "请等待，正在拷贝设置到系统配置。"
 
 #. Translators: a message dialog asking to retry or cancel when copying settings  fails
 #: gui\settingsDialogs.py:1057
-msgid "Unable to copy a file. Perhaps it is currently being used by another process or you have run out of disc space on the drive you are copying to."
+msgid ""
+"Unable to copy a file. Perhaps it is currently being used by another process "
+"or you have run out of disc space on the drive you are copying to."
 msgstr "无法拷贝文件，此文件正被其他程序使用或您已经把它移除。"
 
 #. Translators: the title of a retry cancel dialog when copying settings  fails
@@ -12982,8 +13440,12 @@ msgstr "光标移动时延迟字符描述(&D)"
 
 #. Translators: Warning shown when 'talk' speech mode is disabled in settings.
 #: gui\settingsDialogs.py:1922
-msgid "You did not choose Talk as one of your speech mode options. Please note that this may result in no speech output at all. Are you sure you want to continue?"
-msgstr "您将取消“正常朗读”作为可切换的语音模式之一。\n"
+msgid ""
+"You did not choose Talk as one of your speech mode options. Please note that "
+"this may result in no speech output at all. Are you sure you want to "
+"continue?"
+msgstr ""
+"您将取消“正常朗读”作为可切换的语音模式之一。\n"
 "请注意，这可能导致没有语音输出。\n"
 "您确定要继续吗？"
 
@@ -13192,8 +13654,13 @@ msgstr "读出上屏字串(&C)"
 
 #. Translators: This is a label appearing on the Object Presentation settings panel.
 #: gui\settingsDialogs.py:2357
-msgid "Configure how much information NVDA will present about controls. These options apply to focus reporting and NVDA object navigation, but not when reading text content e.g. web content with browse mode."
-msgstr "配置 NVDA 要读出哪些控件信息。这些选项适用于系统焦点导航和 NVDA 的对象导航，但不适用于阅读场景下的文本内容，例如使用浏览模式呈现的网页。"
+msgid ""
+"Configure how much information NVDA will present about controls. These "
+"options apply to focus reporting and NVDA object navigation, but not when "
+"reading text content e.g. web content with browse mode."
+msgstr ""
+"配置 NVDA 要读出哪些控件信息。这些选项适用于系统焦点导航和 NVDA 的对象导航，"
+"但不适用于阅读场景下的文本内容，例如使用浏览模式呈现的网页。"
 
 #. Translators: This is the label for the object presentation panel.
 #: gui\settingsDialogs.py:2363
@@ -13355,7 +13822,9 @@ msgstr "文档格式"
 
 #. Translators: This is a label appearing on the document formatting settings panel.
 #: gui\settingsDialogs.py:2648
-msgid "The following options control the types of document formatting reported by NVDA."
+msgid ""
+"The following options control the types of document formatting reported by "
+"NVDA."
 msgstr "以下选项控制了 NVDA 对各类型文档格式信息朗读的开关."
 
 #. Translators: This is the label for a group of document formatting options in the
@@ -13766,10 +14235,17 @@ msgstr "删除所有已信任的指纹"
 #. Translators: This message is presented when the user tries to delete all stored trusted fingerprints.
 #: gui\settingsDialogs.py:3491
 msgctxt "remote"
-msgid "This will cause NVDA to forget all previously trusted Remote servers. When connecting to a previously trusted unauthorized Remote server, you will again be asked whether to trust its certificate.\n\n"
+msgid ""
+"This will cause NVDA to forget all previously trusted Remote servers. When "
+"connecting to a previously trusted unauthorized Remote server, you will "
+"again be asked whether to trust its certificate.\n"
+"\n"
 "Are you sure you want to continue? This action cannot be undone."
-msgstr "这将导致 NVDA 忘记所有之前受信任的远程服务器。\n"
-"当再次连接到之前受信任但未经验证的远程服务器时，系统将再次询问是否信任其证书。\n\n"
+msgstr ""
+"这将导致 NVDA 忘记所有之前受信任的远程服务器。\n"
+"当再次连接到之前受信任但未经验证的远程服务器时，系统将再次询问是否信任其证"
+"书。\n"
+"\n"
 "您确定要继续吗？确认后无法撤销。"
 
 #. Translators: This is the title of the dialog presented when the user tries to delete all stored trusted fingerprints.
@@ -13781,14 +14257,24 @@ msgstr "删除所有已信任的指纹"
 #. Translators: This message is presented when the user tries to save the settings with the host or key field empty.
 #: gui\settingsDialogs.py:3513
 msgctxt "remote"
-msgid "Both host and key must be set in the Remote section in order to automatically connect using an existing Remote Access server after NVDA starts."
-msgstr "必须在“远程”类别设置主机和密钥，以便 NVDA 在启动后自动通过现有远程访问服务器进行连接。"
+msgid ""
+"Both host and key must be set in the Remote section in order to "
+"automatically connect using an existing Remote Access server after NVDA "
+"starts."
+msgstr ""
+"必须在“远程”类别设置主机和密钥，以便 NVDA 在启动后自动通过现有远程访问服务器"
+"进行连接。"
 
 #. Translators: This message is presented when the user tries to save the settings with the port or key field empty.
 #: gui\settingsDialogs.py:3519
 msgctxt "remote"
-msgid "Both port and key must be set in the Remote section in order to automatically connect using a locally hosted Remote Access server after NVDA starts."
-msgstr "必须在“远程”类别设置端口和密钥，以便 NVDA 在启动后自动通过本地托管的远程访问服务器进行连接。"
+msgid ""
+"Both port and key must be set in the Remote section in order to "
+"automatically connect using a locally hosted Remote Access server after NVDA "
+"starts."
+msgstr ""
+"必须在“远程”类别设置端口和密钥，以便 NVDA 在启动后自动通过本地托管的远程访问"
+"服务器进行连接。"
 
 #. Translators: Title of a dialog.
 #: gui\settingsDialogs.py:3525
@@ -13913,7 +14399,9 @@ msgstr "总是"
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
 #: gui\settingsDialogs.py:3747
-msgid "Use UI Automation to access Microsoft &Excel spreadsheet controls when available"
+msgid ""
+"Use UI Automation to access Microsoft &Excel spreadsheet controls when "
+"available"
 msgstr "在 Excel 中启用 UIA 接口（如果可用）(&E)"
 
 #. Translators: This is the label for a combo box for selecting the
@@ -13947,9 +14435,11 @@ msgstr "旧版"
 #. Note the '\n' is used to split this long label approximately in half.
 #: gui\settingsDialogs.py:3790
 msgctxt "advanced.uiaWithChromium"
-msgid "Use UIA with Microsoft Edge and other \n"
+msgid ""
+"Use UIA with Microsoft Edge and other \n"
 "&Chromium based browsers when available:"
-msgstr "在 Microsoft Edge 及其他基于 Chromium 内核的浏览器中\n"
+msgstr ""
+"在 Microsoft Edge 及其他基于 Chromium 内核的浏览器中\n"
 "启用 UIA 接口（如果可用）(&C)："
 
 #. Translators: Label for the default value of the Use UIA with Chromium combobox,
@@ -14020,7 +14510,9 @@ msgstr "在所有的增强终端读出密码 （可提高性能）(&P)"
 #. Translators: This is the label for a checkbox in the
 #. Advanced settings panel.
 #: gui\settingsDialogs.py:3877
-msgid "Use enhanced t&yped character support in legacy Windows Console when available"
+msgid ""
+"Use enhanced t&yped character support in legacy Windows Console when "
+"available"
 msgstr "在旧版 Windows 控制台使用增强型字符支持 （如果可用）(&Y)"
 
 #. Translators: This is the label for a combo box for selecting a
@@ -14175,13 +14667,19 @@ msgstr "警告！"
 
 #. Translators: This is a label appearing on the Advanced settings panel.
 #: gui\settingsDialogs.py:4277
-msgid "The following settings are for advanced users. Changing them may cause NVDA to function incorrectly. Please only change these if you know what you are doing or have been specifically instructed by NVDA developers."
-msgstr "以下设置适用于高级用户,修改这些设置可能会导致 NVDA 无法正常运行。\n"
+msgid ""
+"The following settings are for advanced users. Changing them may cause NVDA "
+"to function incorrectly. Please only change these if you know what you are "
+"doing or have been specifically instructed by NVDA developers."
+msgstr ""
+"以下设置适用于高级用户,修改这些设置可能会导致 NVDA 无法正常运行。\n"
 "只有在清楚要更改选项的含义、或在 NVDA 开发者的指导下，才可进行修改。"
 
 #. Translators: This is the label for a checkbox in the Advanced settings panel.
 #: gui\settingsDialogs.py:4304
-msgid "I understand that changing these settings may cause NVDA to function incorrectly."
+msgid ""
+"I understand that changing these settings may cause NVDA to function "
+"incorrectly."
 msgstr "我清楚更改这些设置可能导致 NVDA 无法正常运行。"
 
 #. Translators: This is the label for a button in the Advanced settings panel
@@ -14351,9 +14849,11 @@ msgstr "无法加载 {providerName} 视觉增强提供程序"
 #. load multiple vision enhancement providers.
 #: gui\settingsDialogs.py:5038
 #, python-brace-format
-msgid "Could not load the following vision enhancement providers:\n"
+msgid ""
+"Could not load the following vision enhancement providers:\n"
 "{providerNames}"
-msgstr "无法加载以下视觉增强提供程序：\n"
+msgstr ""
+"无法加载以下视觉增强提供程序：\n"
 "{providerNames}"
 
 #. Translators: The title of the vision enhancement provider error message box.
@@ -14365,16 +14865,19 @@ msgstr "视觉增强程序加载错误"
 #. NVDA is unable to gracefully terminate a single vision enhancement provider.
 #: gui\settingsDialogs.py:5061
 #, python-brace-format
-msgid "Could not gracefully terminate the {providerName} vision enhancement provider"
+msgid ""
+"Could not gracefully terminate the {providerName} vision enhancement provider"
 msgstr "无法正常终止 {providerName} 视觉增强提供程序"
 
 #. Translators: This message is presented when
 #. NVDA is unable to terminate multiple vision enhancement providers.
 #: gui\settingsDialogs.py:5069
 #, python-brace-format
-msgid "Could not gracefully terminate the following vision enhancement providers:\n"
+msgid ""
+"Could not gracefully terminate the following vision enhancement providers:\n"
 "{providerNames}"
-msgstr "无法正常终止以下视觉增强提供程序：\n"
+msgstr ""
+"无法正常终止以下视觉增强提供程序：\n"
 "{providerNames}"
 
 #. Translators: This is a label appearing on the vision settings panel.
@@ -14391,13 +14894,15 @@ msgstr "启用"
 #. Translators: The label for a group box containing the NVDA highlighter options.
 #: gui\settingsDialogs.py:5348
 #: visionEnhancementProviders\NVDAHighlighter.py:307
-#: visionEnhancementProviders\screenCurtain.py:245
+#: visionEnhancementProviders\screenCurtain.py:251
 msgid "Options:"
 msgstr "选项："
 
 #. Translators: Shown when there is an error showing the GUI for a vision enhancement provider
 #: gui\settingsDialogs.py:5394
-msgid "Unable to configure user interface for Vision Enhancement Provider, it can not be enabled."
+msgid ""
+"Unable to configure user interface for Vision Enhancement Provider, it can "
+"not be enabled."
 msgstr "无法为 Vision Enhancement Provider 配置用户界面，因此无法启用。"
 
 #. Translators: This is the label for the NVDA settings dialog.
@@ -14623,12 +15128,17 @@ msgstr "临时字典"
 
 #. Translators: The main message for the Welcome dialog when the user starts NVDA for the first time.
 #: gui\startupDialogs.py:38
-msgid "Most commands for controlling NVDA require you to hold down the NVDA key while pressing other keys.\n"
-"By default, the Insert and numpad Insert keys may both be used as the NVDA key.\n"
+msgid ""
+"Most commands for controlling NVDA require you to hold down the NVDA key "
+"while pressing other keys.\n"
+"By default, the Insert and numpad Insert keys may both be used as the NVDA "
+"key.\n"
 "You can also configure NVDA to use the CapsLock as the NVDA key.\n"
 "Press NVDA+n at any time to activate the NVDA menu.\n"
-"From this menu, you can configure NVDA, get help, and access other NVDA functions."
-msgstr "大多数控制 NVDA 的命令要求您在按住 NVDA 键的同时按其他键。\n"
+"From this menu, you can configure NVDA, get help, and access other NVDA "
+"functions."
+msgstr ""
+"大多数控制 NVDA 的命令要求您在按住 NVDA 键的同时按其他键。\n"
 "默认情况下，主键盘和数字键盘的插入键都可以用作 NVDA 键。\n"
 "您还可以将 NVDA 配置为使用大写锁定键作为 NVDA 键。\n"
 "随时可按 NVDA+n 激活 NVDA 菜单。\n"
@@ -14657,7 +15167,9 @@ msgstr "每当 NVDA 启动时显示此对话框(&S)"
 
 #. Translators: The title of an error message box displayed when validating the startup dialog
 #: gui\startupDialogs.py:124
-msgid "At least one NVDA modifier key must be set. Caps lock will remain as an NVDA modifier key. "
+msgid ""
+"At least one NVDA modifier key must be set. Caps lock will remain as an NVDA "
+"modifier key. "
 msgstr "至少指定一个按键为 NVDA 键，Caps Lock 将被保留为 NVDA 键。 "
 
 #. Translators: The label of the button in NVDA installation program to install NvDA on the user's computer.
@@ -14698,11 +15210,22 @@ msgstr "NVDA 使用数据收集"
 
 #. Translators: A message asking the user if they want to allow usage stats gathering
 #: gui\startupDialogs.py:282
-msgid "In order to improve NVDA in the future, NV Access wishes to collect usage data from running copies of NVDA.\n\n"
-"Data includes Operating System version, NVDA version, language, country of origin, plus certain NVDA configuration such as current synthesizer, braille display and braille table. No spoken or braille content will be ever sent to NV Access. Please refer to the User Guide for a current list of all data collected.\n\n"
-"Do you wish to allow NV Access to periodically collect this data in order to improve NVDA?"
-msgstr "为了在未来改进 NVDA，NV Access 希望从正在运行的 NVDA 副本收集使用数据。\n"
-"数据包括操作系统版本、NVDA 版本、语言、所在国家/地区、以及某些 NVDA 配置，如语音合成器，盲文点显器和盲文表等。\n"
+msgid ""
+"In order to improve NVDA in the future, NV Access wishes to collect usage "
+"data from running copies of NVDA.\n"
+"\n"
+"Data includes Operating System version, NVDA version, language, country of "
+"origin, plus certain NVDA configuration such as current synthesizer, braille "
+"display and braille table. No spoken or braille content will be ever sent to "
+"NV Access. Please refer to the User Guide for a current list of all data "
+"collected.\n"
+"\n"
+"Do you wish to allow NV Access to periodically collect this data in order to "
+"improve NVDA?"
+msgstr ""
+"为了在未来改进 NVDA，NV Access 希望从正在运行的 NVDA 副本收集使用数据。\n"
+"数据包括操作系统版本、NVDA 版本、语言、所在国家/地区、以及某些 NVDA 配置，如"
+"语音合成器，盲文点显器和盲文表等。\n"
 "NVDA 不会将语音或盲文内容发送给 NV Access。\n"
 "关于收集数据的完整列表，请参阅用户指南的数据收集部分。\n"
 "您是否允许 NV Access 定期收集这些数据以改进 NVDA？"
@@ -14944,9 +15467,14 @@ msgstr "记住此选择"
 #: gui\addonStoreGui\controls\messageDialogs.py:118
 #, python-brace-format
 msgctxt "addonStore"
-msgid "Warning: add-on installation may result in downgrade: {name}. The installed add-on version cannot be compared with the add-on store version. Installed version: {oldVersion}. Available version: {version}.\n"
+msgid ""
+"Warning: add-on installation may result in downgrade: {name}. The installed "
+"add-on version cannot be compared with the add-on store version. Installed "
+"version: {oldVersion}. Available version: {version}.\n"
 "Proceed with installation anyway? "
-msgstr "警告：安装 {name} 可能会导致降级。无法将已安装的插件版本与插件商店的版本进行比较。已安装版本：{oldVersion}。可安装版本：{version}。\n"
+msgstr ""
+"警告：安装 {name} 可能会导致降级。无法将已安装的插件版本与插件商店的版本进行"
+"比较。已安装版本：{oldVersion}。可安装版本：{version}。\n"
 "您仍要安装该插件吗？"
 
 #. Translators: The title of a dialog presented when an error occurs.
@@ -14961,7 +15489,9 @@ msgstr "安装插件"
 #: gui\addonStoreGui\controls\messageDialogs.py:151
 #, python-brace-format
 msgctxt "addonStore"
-msgid "Are you sure you wish to remove the {addon} add-on from NVDA? This cannot be undone."
+msgid ""
+"Are you sure you wish to remove the {addon} add-on from NVDA? This cannot be "
+"undone."
 msgstr "您确认要从 NVDA 中移除 {addon} 插件吗？ 确认后不可撤销。"
 
 #. Translators: Title for message asking if the user really wishes to remove the selected Add-on.
@@ -14975,10 +15505,16 @@ msgstr "移除插件"
 #: gui\addonStoreGui\controls\messageDialogs.py:174
 #, python-brace-format
 msgctxt "addonStore"
-msgid "Warning: add-on is incompatible: {name} {version}. Check for an updated version of this add-on if possible. This add-on was last tested with NVDA {lastTestedNVDAVersion}. NVDA requires this add-on to be tested with NVDA {nvdaVersion} or higher. Installation may cause unstable behavior in NVDA.\n"
+msgid ""
+"Warning: add-on is incompatible: {name} {version}. Check for an updated "
+"version of this add-on if possible. This add-on was last tested with NVDA "
+"{lastTestedNVDAVersion}. NVDA requires this add-on to be tested with NVDA "
+"{nvdaVersion} or higher. Installation may cause unstable behavior in NVDA.\n"
 "Proceed with installation anyway? "
-msgstr "警告：插件不兼容：{name}-{version}。如果可能，请检查该插件有无新版本。\n"
-"该插件已在 NVDA {lastTestedNVDAVersion} 测试。此版本的 NVDA 要求该插件在 {nvdaVersion} 或更高版本的 NVDA 进行测试。\n"
+msgstr ""
+"警告：插件不兼容：{name}-{version}。如果可能，请检查该插件有无新版本。\n"
+"该插件已在 NVDA {lastTestedNVDAVersion} 测试。此版本的 NVDA 要求该插件在 "
+"{nvdaVersion} 或更高版本的 NVDA 进行测试。\n"
 "安装该插件可能会导致 NVDA 不稳定或无法正常运行。是否仍要安装？"
 
 #. Translators: The message displayed when enabling an add-on package that is incompatible
@@ -14986,10 +15522,16 @@ msgstr "警告：插件不兼容：{name}-{version}。如果可能，请检查�
 #: gui\addonStoreGui\controls\messageDialogs.py:207
 #, python-brace-format
 msgctxt "addonStore"
-msgid "Warning: add-on is incompatible: {name} {version}. Check for an updated version of this add-on if possible. This add-on was last tested with NVDA {lastTestedNVDAVersion}. NVDA requires this add-on to be tested with NVDA {nvdaVersion} or higher. Enabling may cause unstable behavior in NVDA.\n"
+msgid ""
+"Warning: add-on is incompatible: {name} {version}. Check for an updated "
+"version of this add-on if possible. This add-on was last tested with NVDA "
+"{lastTestedNVDAVersion}. NVDA requires this add-on to be tested with NVDA "
+"{nvdaVersion} or higher. Enabling may cause unstable behavior in NVDA.\n"
 "Proceed with enabling anyway? "
-msgstr "警告：插件不兼容：{name}-{version}。如果可能，请检查该插件有无新版本。\n"
-"该插件已在 NVDA {lastTestedNVDAVersion} 测试。此版本的 NVDA 要求该插件在 {nvdaVersion} 或更高版本的 NVDA 进行测试。\n"
+msgstr ""
+"警告：插件不兼容：{name}-{version}。如果可能，请检查该插件有无新版本。\n"
+"该插件已在 NVDA {lastTestedNVDAVersion} 测试。此版本的 NVDA 要求该插件在 "
+"{nvdaVersion} 或更高版本的 NVDA 进行测试。\n"
 "启用该插件可能会导致 NVDA 不稳定或无法正常运行。是否仍要启用？"
 
 #. Translators: The title of a dialog presented when an error occurs.
@@ -15002,8 +15544,13 @@ msgstr "启用插件"
 #. because it requires a later version of NVDA than is currently installed.
 #: gui\addonStoreGui\controls\messageDialogs.py:238
 #, python-brace-format
-msgid "Installation of {summary} {version} has been blocked. The minimum NVDA version required for this add-on is {minimumNVDAVersion}, your current NVDA version is {NVDAVersion}"
-msgstr "{summary} {version} 的安装已被阻止。此插件所需的最低 NVDA 版本为 {minimumNVDAVersion}，您当前的 NVDA 版本为 {NVDAVersion}"
+msgid ""
+"Installation of {summary} {version} has been blocked. The minimum NVDA "
+"version required for this add-on is {minimumNVDAVersion}, your current NVDA "
+"version is {NVDAVersion}"
+msgstr ""
+"{summary} {version} 的安装已被阻止。此插件所需的最低 NVDA 版本为 "
+"{minimumNVDAVersion}，您当前的 NVDA 版本为 {NVDAVersion}"
 
 #. Translators: The title of a dialog presented when an error occurs.
 #: gui\addonStoreGui\controls\messageDialogs.py:250
@@ -15014,10 +15561,12 @@ msgstr "插件安装失败"
 #. Translators: A message asking the user if they really wish to install an addon.
 #: gui\addonStoreGui\controls\messageDialogs.py:263
 #, python-brace-format
-msgid "Are you sure you want to install this add-on?\n"
+msgid ""
+"Are you sure you want to install this add-on?\n"
 "Only install add-ons from trusted sources.\n"
 "Addon: {summary} {version}"
-msgstr "您确定要安装此插件吗？\n"
+msgstr ""
+"您确定要安装此插件吗？\n"
 "请注意，仅安装来自可信来源的插件。\n"
 "插件: {summary} {version}"
 
@@ -15031,10 +15580,12 @@ msgstr "插件安装"
 #: gui\addonStoreGui\controls\messageDialogs.py:287
 #, python-brace-format
 msgctxt "addonStore"
-msgid "{summary} ({name})\n"
+msgid ""
+"{summary} ({name})\n"
 "Version: {version}\n"
 "Description: {description}\n"
-msgstr "{summary} ({name})\n"
+msgstr ""
+"{summary} ({name})\n"
 "版本：{version}\n"
 "描述：{description}\n"
 
@@ -15086,8 +15637,14 @@ msgstr "插件商店警告"
 #. Translators: Warning that is displayed before using the Add-on Store.
 #: gui\addonStoreGui\controls\messageDialogs.py:336
 msgctxt "addonStore"
-msgid "Add-ons are created by the NVDA community and are not vetted by NV Access. NV Access cannot be held responsible for add-on behavior. The functionality of add-ons is unrestricted and can include accessing your personal data or even the entire system. "
-msgstr "插件由 NVDA 社区创建，未经 NV Access 审查，NV Access 不对插件行为负责。插件功能不受限制，可以访问您的个人信息乃至整个系统。"
+msgid ""
+"Add-ons are created by the NVDA community and are not vetted by NV Access. "
+"NV Access cannot be held responsible for add-on behavior. The functionality "
+"of add-ons is unrestricted and can include accessing your personal data or "
+"even the entire system. "
+msgstr ""
+"插件由 NVDA 社区创建，未经 NV Access 审查，NV Access 不对插件行为负责。插件功"
+"能不受限制，可以访问您的个人信息乃至整个系统。"
 
 #. Translators: The label of a checkbox in the add-on store warning dialog
 #: gui\addonStoreGui\controls\messageDialogs.py:358
@@ -15451,8 +16008,13 @@ msgstr "Math 交互不被支持。"
 #. height is 50 per cent of screen.
 #: NVDAObjects\__init__.py:666
 #, python-brace-format
-msgid "Object edges positioned {left:.1f} percent from left edge of screen, {top:.1f} percent from top edge of screen, width is {width:.1f} percent of screen, height is {height:.1f} percent of screen"
-msgstr "对象与屏幕左边界的距离为百分之 {left:.1f}，与屏幕上边界的距离为百分之 {top:.1f}，宽度为百分之 {width:.1f}，高度为百分之 {height:.1f}"
+msgid ""
+"Object edges positioned {left:.1f} percent from left edge of screen, "
+"{top:.1f} percent from top edge of screen, width is {width:.1f} percent of "
+"screen, height is {height:.1f} percent of screen"
+msgstr ""
+"对象与屏幕左边界的距离为百分之 {left:.1f}，与屏幕上边界的距离为百分之 "
+"{top:.1f}，宽度为百分之 {width:.1f}，高度为百分之 {height:.1f}"
 
 #. Translators: This is presented to inform the user of a progress bar percentage.
 #. Translators: This is presented to inform the user of the current battery percentage.
@@ -15543,8 +16105,13 @@ msgstr[0] "%s 项"
 
 #. Translators: The label of a shortcut of NVDA.
 #: NVDAObjects\IAccessible\winword.py:242
-msgid "Set column header. Pressing once will set this cell as the first column header for any cell lower and to the right of it within this table. Pressing twice will forget the current column header for this cell."
-msgstr "设置列标题。按一次，设置此单元格作为在其右边和下边形成的表格的列标题，按两次清除此设置。"
+msgid ""
+"Set column header. Pressing once will set this cell as the first column "
+"header for any cell lower and to the right of it within this table. Pressing "
+"twice will forget the current column header for this cell."
+msgstr ""
+"设置列标题。按一次，设置此单元格作为在其右边和下边形成的表格的列标题，按两次"
+"清除此设置。"
 
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #: NVDAObjects\IAccessible\winword.py:260
@@ -15555,7 +16122,8 @@ msgstr "设置{rowNumber}行，{columnNumber}列为列标题的开始单元"
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #: NVDAObjects\IAccessible\winword.py:268
 #, python-brace-format
-msgid "Already set row {rowNumber} column {columnNumber} as start of column headers"
+msgid ""
+"Already set row {rowNumber} column {columnNumber} as start of column headers"
 msgstr "{rowNumber}行{columnNumber}列已设为列标题的开始单元"
 
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
@@ -15572,8 +16140,13 @@ msgstr "无法在列标题中找到 {rowNumber} 行 {columnNumber} 列"
 
 #. Translators: The label of a shortcut of NVDA.
 #: NVDAObjects\IAccessible\winword.py:295
-msgid "Set row header. Pressing once will set this cell as the first row header for any cell lower and to the right of it within this table. Pressing twice will forget the current row header for this cell."
-msgstr "设置行标题。按一次，设置此单元格作为在其右边和下边形成的表格的行标题，按两次清除该设置。"
+msgid ""
+"Set row header. Pressing once will set this cell as the first row header for "
+"any cell lower and to the right of it within this table. Pressing twice will "
+"forget the current row header for this cell."
+msgstr ""
+"设置行标题。按一次，设置此单元格作为在其右边和下边形成的表格的行标题，按两次"
+"清除该设置。"
 
 #. Translators: a message reported in the SetRowHeader script for Microsoft Word.
 #: NVDAObjects\IAccessible\winword.py:312
@@ -15584,7 +16157,8 @@ msgstr "设置{rowNumber}行{columnNumber}列为行标题的开始单元"
 #. Translators: a message reported in the SetRowHeader script for Microsoft Word.
 #: NVDAObjects\IAccessible\winword.py:320
 #, python-brace-format
-msgid "Already set row {rowNumber} column {columnNumber} as start of row headers"
+msgid ""
+"Already set row {rowNumber} column {columnNumber} as start of row headers"
 msgstr "{rowNumber}行{columnNumber}列已设为行标题的开始单元"
 
 #. Translators: a message reported in the SetRowHeader script for Microsoft Word.
@@ -15601,7 +16175,9 @@ msgstr "无法在行标题中找到 {rowNumber} 行 {columnNumber} 列"
 
 #. Translators: a description for a script
 #: NVDAObjects\IAccessible\winword.py:346
-msgid "Reports the text of the comment where the system caret is located.If pressed twice, presents the information in browse mode."
+msgid ""
+"Reports the text of the comment where the system caret is located.If pressed "
+"twice, presents the information in browse mode."
 msgstr "读出系统输入焦点所在的批注文本。连按两次，在浏览模式下显示该信息。"
 
 #. Translators: a message when there is no comment to report in Microsoft Word
@@ -15628,12 +16204,12 @@ msgstr "{val:.2f} 英寸"
 msgid "{val:.2f} cm"
 msgstr "{val:.2f} 厘米"
 
-#: NVDAObjects\UIA\__init__.py:2284
+#: NVDAObjects\UIA\__init__.py:2288
 msgid "invoke"
 msgstr "启用"
 
 #. Translators: message from to note the number of suggestions
-#: NVDAObjects\UIA\__init__.py:2710
+#: NVDAObjects\UIA\__init__.py:2714
 msgid "{} suggestion"
 msgid_plural "{} suggestions"
 msgstr[0] "{} 个建议"
@@ -15641,8 +16217,11 @@ msgstr[0] "{} 个建议"
 #. Translators: the description of a script
 #: NVDAObjects\UIA\excel.py:195
 msgctxt "excel-UIA"
-msgid "Shows a browseable message Listing information about a cell's appearance such as outline and fill colors, rotation and size"
-msgstr "为单元格显示一条可浏览的消息，展示其样式（如大纲、填充颜色、方向、大小等）"
+msgid ""
+"Shows a browseable message Listing information about a cell's appearance "
+"such as outline and fill colors, rotation and size"
+msgstr ""
+"为单元格显示一条可浏览的消息，展示其样式（如大纲、填充颜色、方向、大小等）"
 
 #. Translators: The width of the cell in points
 #: NVDAObjects\UIA\excel.py:205
@@ -15670,7 +16249,8 @@ msgstr[0] "旋转： {0} 度"
 #: NVDAObjects\UIA\excel.py:231
 #, python-brace-format
 msgctxt "excel-UIA"
-msgid "Outline color: top={0.name}, bottom={1.name}, left={2.name}, right={3.name}"
+msgid ""
+"Outline color: top={0.name}, bottom={1.name}, left={2.name}, right={3.name}"
 msgstr "大纲颜色： 上边={0.name}，下边={1.name}，左边={2.name}，右边={3.name}"
 
 #. Translators: The outline (border) thickness values of an Excel cell.
@@ -15841,19 +16421,25 @@ msgstr "当前文档不支持句子导航"
 
 #. Translators: a description for a script that reports the comment at the caret.
 #: NVDAObjects\UIA\wordDocument.py:689
-msgid "Reports the text of the comment where the system caret is located. If pressed twice, presents the information in a browsable message"
+msgid ""
+"Reports the text of the comment where the system caret is located. If "
+"pressed twice, presents the information in a browsable message"
 msgstr "读出系统输入焦点所在的批注文本。连按两次，在浏览模式下显示该信息"
 
 #. Translators: The message reported in Microsoft Word for document types not supporting setting custom
 #. headers.
 #: NVDAObjects\UIA\wordDocument.py:720
-msgid "Command not supported in this type of document. The tables have their first row cells automatically set as column headers."
+msgid ""
+"Command not supported in this type of document. The tables have their first "
+"row cells automatically set as column headers."
 msgstr "此类文档不支持的命令。表格的第一行单元格将被自动设置为列标题。"
 
 #. Translators: The message reported in Microsoft Word for document types not supporting setting custom
 #. headers.
 #: NVDAObjects\UIA\wordDocument.py:731
-msgid "Command not supported in this type of document. The tables have their first column cells automatically set as row headers."
+msgid ""
+"Command not supported in this type of document. The tables have their first "
+"column cells automatically set as row headers."
 msgstr "此类文档不支持的命令。表格的第一列单元格将被自动设置为行标题。"
 
 #: NVDAObjects\window\__init__.py:410
@@ -16514,7 +17100,8 @@ msgstr "值{valueAxisData}"
 #. For example, this might report "fraction 25.25 percent slice 1 of 5"
 #: NVDAObjects\window\_msOfficeChart.py:918
 #, python-brace-format
-msgid " fraction {fractionValue:.2f} Percent slice {pointIndex} of {pointCount}"
+msgid ""
+" fraction {fractionValue:.2f} Percent slice {pointIndex} of {pointCount}"
 msgstr " 分数{fractionValue:.2f}百分比 扇区 {pointCount}的{pointIndex}"
 
 #. Translators: Details about a segment of a chart.
@@ -16603,8 +17190,12 @@ msgstr " 减 "
 #. Translators: This message gives trendline type and name for selected series
 #: NVDAObjects\window\_msOfficeChart.py:1075
 #, python-brace-format
-msgid "{seriesName} trendline type: {trendlineType}, name: {trendlineName}, label: {trendlineLabel} "
-msgstr "{seriesName} 趋势线类型： {trendlineType}, 名称： {trendlineName}， 标签： {trendlineLabel} "
+msgid ""
+"{seriesName} trendline type: {trendlineType}, name: {trendlineName}, label: "
+"{trendlineLabel} "
+msgstr ""
+"{seriesName} 趋势线类型： {trendlineType}, 名称： {trendlineName}， 标签： "
+"{trendlineLabel} "
 
 #. Translators: This message gives trendline type and name for selected series
 #: NVDAObjects\window\_msOfficeChart.py:1084
@@ -16626,8 +17217,12 @@ msgstr "无标题图表"
 #. Translators: Details about the chart area in a Microsoft Office chart.
 #: NVDAObjects\window\_msOfficeChart.py:1131
 #, python-brace-format
-msgid "Chart area, height: {chartAreaHeight}, width: {chartAreaWidth}, top: {chartAreaTop}, left: {chartAreaLeft}"
-msgstr "图表区域， 高度：{chartAreaHeight}，宽度：{chartAreaWidth}鼎边：{chartAreaTop}，左边： {chartAreaLeft}"
+msgid ""
+"Chart area, height: {chartAreaHeight}, width: {chartAreaWidth}, top: "
+"{chartAreaTop}, left: {chartAreaLeft}"
+msgstr ""
+"图表区域， 高度：{chartAreaHeight}，宽度：{chartAreaWidth}鼎边："
+"{chartAreaTop}，左边： {chartAreaLeft}"
 
 #. Translators: Indicates the chart area of a Microsoft Office chart.
 #: NVDAObjects\window\_msOfficeChart.py:1141
@@ -16637,8 +17232,13 @@ msgstr "图表区域 "
 #. Translators: Details about the plot area of a Microsoft Office chart.
 #: NVDAObjects\window\_msOfficeChart.py:1162
 #, python-brace-format
-msgid "Plot area, inside height: {plotAreaInsideHeight:.0f}, inside width: {plotAreaInsideWidth:.0f}, inside top: {plotAreaInsideTop:.0f}, inside left: {plotAreaInsideLeft:.0f}"
-msgstr "区域面积，内高：{plotAreaInsideHeight:.0f}，内宽：{plotAreaInsideWidth:.0f}内鼎边： {plotAreaInsideTop:.0f}，内左边：{plotAreaInsideLeft:.0f}"
+msgid ""
+"Plot area, inside height: {plotAreaInsideHeight:.0f}, inside width: "
+"{plotAreaInsideWidth:.0f}, inside top: {plotAreaInsideTop:.0f}, inside left: "
+"{plotAreaInsideLeft:.0f}"
+msgstr ""
+"区域面积，内高：{plotAreaInsideHeight:.0f}，内宽：{plotAreaInsideWidth:.0f}内"
+"鼎边： {plotAreaInsideTop:.0f}，内左边：{plotAreaInsideLeft:.0f}"
 
 #. Translators: Indicates the plot area of a Microsoft Office chart.
 #: NVDAObjects\window\_msOfficeChart.py:1174
@@ -16898,8 +17498,14 @@ msgstr "删除线开"
 
 #. Translators: the description for a script for Excel
 #: NVDAObjects\window\excel.py:1633
-msgid "Sets the current cell as start of column header. Pressing once will set this cell as the first column header for any cell lower and to the right of it within this region. Pressing twice will forget the current column header for this cell."
-msgstr "将当前单元格设置为列标题的开始。按一次设置此单元格为第一个列标题单元格，包括其右方和下方的单元格在内都属于此区域，连按两次清除此单元格的列标题设置。"
+msgid ""
+"Sets the current cell as start of column header. Pressing once will set this "
+"cell as the first column header for any cell lower and to the right of it "
+"within this region. Pressing twice will forget the current column header for "
+"this cell."
+msgstr ""
+"将当前单元格设置为列标题的开始。按一次设置此单元格为第一个列标题单元格，包括"
+"其右方和下方的单元格在内都属于此区域，连按两次清除此单元格的列标题设置。"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
 #: NVDAObjects\window\excel.py:1645
@@ -16927,8 +17533,14 @@ msgstr "无法再列标题中找到 {address}"
 
 #. Translators: the description for a script for Excel
 #: NVDAObjects\window\excel.py:1664
-msgid "Sets the current cell as start of row headers. Pressing once will set this cell as the first row header for any cell lower and to the right of it within this region. Pressing twice will forget the current row header for this cell."
-msgstr "将当前单元格设置为行标题的开始。按一次设置此单元格为第一个行标题单元格，包括其右方和下方的单元格在内都属于此区域，连按两次清除此单元格的行标题设置。"
+msgid ""
+"Sets the current cell as start of row headers. Pressing once will set this "
+"cell as the first row header for any cell lower and to the right of it "
+"within this region. Pressing twice will forget the current row header for "
+"this cell."
+msgstr ""
+"将当前单元格设置为行标题的开始。按一次设置此单元格为第一个行标题单元格，包括"
+"其右方和下方的单元格在内都属于此区域，连按两次清除此单元格的行标题设置。"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
 #: NVDAObjects\window\excel.py:1676
@@ -16972,7 +17584,9 @@ msgstr "输入的消息为 {message}"
 
 #. Translators: the description for a script for Excel
 #: NVDAObjects\window\excel.py:1887
-msgid "Reports the note on the current cell. If pressed twice, presents the information in browse mode"
+msgid ""
+"Reports the note on the current cell. If pressed twice, presents the "
+"information in browse mode"
 msgstr "读出当前单元格的注释。连按两次，在浏览模式下显示该信息"
 
 #. Translators: title for note on the current Excel cell dialog.
@@ -18303,8 +18917,15 @@ msgstr "默认输出设备"
 #. Translators: This is the message for a warning shown if NVDA cannot determine if
 #. Windows is locked.
 #: utils\security.py:363
-msgid "NVDA is unable to determine if Windows is locked. While this instance of NVDA is running, your desktop will not be secure when Windows is locked. Restarting Windows may address this. If this error is ongoing then disabling the Windows lock screen is recommended."
-msgstr "NVDA 无法确定 Windows 是否已锁定。在 NVDA 运行过程中，当 Windows 被锁定时，您的桌面会面临安全风险。重新启动 Windows 可能会解决此问题，如果该问题频繁出现，则建议禁用 Windows 锁屏。"
+msgid ""
+"NVDA is unable to determine if Windows is locked. While this instance of "
+"NVDA is running, your desktop will not be secure when Windows is locked. "
+"Restarting Windows may address this. If this error is ongoing then disabling "
+"the Windows lock screen is recommended."
+msgstr ""
+"NVDA 无法确定 Windows 是否已锁定。在 NVDA 运行过程中，当 Windows 被锁定时，您"
+"的桌面会面临安全风险。重新启动 Windows 可能会解决此问题，如果该问题频繁出现，"
+"则建议禁用 Windows 锁屏。"
 
 #. Translators: This is the title for a warning dialog, shown if NVDA cannot determine if
 #. Windows is locked.
@@ -18368,31 +18989,37 @@ msgstr "启用高亮显示(&E)"
 
 #. Translators: Name for a vision enhancement provider that disables output to the screen,
 #. making it black.
-#: visionEnhancementProviders\screenCurtain.py:91
+#: visionEnhancementProviders\screenCurtain.py:97
 msgid "Screen Curtain"
 msgstr "黑屏"
 
 #. Translators: Description for a Screen Curtain setting that shows a warning when loading
 #. the screen curtain.
-#: visionEnhancementProviders\screenCurtain.py:95
+#: visionEnhancementProviders\screenCurtain.py:101
 msgid "Always &show a warning when loading Screen Curtain"
 msgstr "开启黑屏时始终显示警告(&S)"
 
 #. Translators: Description for a screen curtain setting to play sounds when enabling/disabling the curtain
-#: visionEnhancementProviders\screenCurtain.py:98
+#: visionEnhancementProviders\screenCurtain.py:104
 msgid "&Play sound when toggling Screen Curtain"
 msgstr "开启黑屏时播放声音(&P)"
 
 #. Translators: A warning shown when activating the screen curtain.
 #. the translation of "Screen Curtain" should match the "translated name"
-#: visionEnhancementProviders\screenCurtain.py:131
-msgid "Enabling Screen Curtain will make the screen of your computer completely black. Ensure you will be able to navigate without any use of your screen before continuing. \n\n"
+#: visionEnhancementProviders\screenCurtain.py:137
+msgid ""
+"Enabling Screen Curtain will make the screen of your computer completely "
+"black. Ensure you will be able to navigate without any use of your screen "
+"before continuing. \n"
+"\n"
 "Do you wish to continue?"
-msgstr "开启黑屏将使计算机的屏幕完全变黑。在继续操作之前，请确保无需使用屏幕即可进行浏览。\n"
+msgstr ""
+"开启黑屏将使计算机的屏幕完全变黑。在继续操作之前，请确保无需使用屏幕即可进行"
+"浏览。\n"
 "您想继续吗？"
 
 #. Translators: option to enable screen curtain in the vision settings panel
-#: visionEnhancementProviders\screenCurtain.py:233
+#: visionEnhancementProviders\screenCurtain.py:239
 msgid "Make screen black (immediate effect)"
 msgstr "开启黑屏（立即生效）"
 
@@ -18541,7 +19168,8 @@ msgstr "控制本地计算机"
 
 #. Translators: Message shown when trying to connect while already connected.
 #: _remoteClient\client.py:526
-msgid "NVDA Remote is already connected. Disconnect before opening a new connection."
+msgid ""
+"NVDA Remote is already connected. Disconnect before opening a new connection."
 msgstr "NVDA 远程 已连接。开始新连接前请先断开。"
 
 #. Translators: Title of the connection error dialog.
@@ -18553,14 +19181,18 @@ msgstr "NVDA 远程 已连接"
 #: _remoteClient\client.py:541
 #, python-brace-format
 msgid "Do you wish to control the machine on server {server} with key {key}?"
-msgstr "您要控制远程计算机嗎？\n"
+msgstr ""
+"您要控制远程计算机嗎？\n"
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Ask the user if they want to allow the remote computer to control this computer.
 #: _remoteClient\client.py:545
 #, python-brace-format
-msgid "Do you wish to allow this machine to be controlled on server {server} with key {key}?"
-msgstr "您要允许此计算机被控制吗？\n"
+msgid ""
+"Do you wish to allow this machine to be controlled on server {server} with "
+"key {key}?"
+msgstr ""
+"您要允许此计算机被控制吗？\n"
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Title of the connection request dialog.
@@ -18610,7 +19242,9 @@ msgstr "正在生成密钥..."
 #: _remoteClient\dialogs.py:108
 #, python-brace-format
 msgctxt "remote"
-msgid "Unable to connect to {host}. Check that you have internet access, and that there are no mistakes in the host field."
+msgid ""
+"Unable to connect to {host}. Check that you have internet access, and that "
+"there are no mistakes in the host field."
 msgstr "无法连接到 {host}。请检查网络连接并确保主机输入正确。"
 
 #. Translators: Title of a dialog.
@@ -18656,12 +19290,15 @@ msgstr "成功检索 IP 地址，端口 {port} 已打开。"
 #. {port} will be replaced with the actual port number
 #: _remoteClient\dialogs.py:258
 #, python-brace-format
-msgid "Retrieved external IP, but port {port} is most likely not currently forwarded."
+msgid ""
+"Retrieved external IP, but port {port} is most likely not currently "
+"forwarded."
 msgstr "检索到公网 IP，但端口 {port} 可能未转发。"
 
 #. Translators: Error message when unable to get IP address from portcheck server
 #: _remoteClient\dialogs.py:273
-msgid "Unable to contact portcheck server, please manually retrieve your IP address"
+msgid ""
+"Unable to contact portcheck server, please manually retrieve your IP address"
 msgstr "无法连接端口检测服务器，请手动检索 IP 地址"
 
 #. Translators: A message box displayed when the host or key field is empty and the user tries to connect.
@@ -18682,13 +19319,22 @@ msgstr "NVDA 远程连接安全警告"
 #. Translators: {fingerprint} is a SHA256 fingerprint of the server certificate.
 #: _remoteClient\dialogs.py:396
 #, python-brace-format
-msgid "The certificate of this server could not be verified. Using the wrong fingerprint may allow a third party to access the remote session..\n\n"
-"Before continuing, please make sure that the following server certificate fingerprint is correct.\n"
-"Server SHA256 fingerprint: {fingerprint}\n\n"
+msgid ""
+"The certificate of this server could not be verified. Using the wrong "
+"fingerprint may allow a third party to access the remote session..\n"
+"\n"
+"Before continuing, please make sure that the following server certificate "
+"fingerprint is correct.\n"
+"Server SHA256 fingerprint: {fingerprint}\n"
+"\n"
 "Continue connecting anyway?"
-msgstr "该服务器的证书无法验证。使用错误的指纹可能会允许第三方访问远程会话。\n\n"
-"在继续之前，请确保以下服务器证书指纹正确。\n\n"
-"服务器 SHA256 指纹： {fingerprint}\n\n"
+msgstr ""
+"该服务器的证书无法验证。使用错误的指纹可能会允许第三方访问远程会话。\n"
+"\n"
+"在继续之前，请确保以下服务器证书指纹正确。\n"
+"\n"
+"服务器 SHA256 指纹： {fingerprint}\n"
+"\n"
 "您仍要继续连接吗？"
 
 #. Translators: A button to connect and remember the server with unauthorized certificate.
@@ -18774,7 +19420,9 @@ msgstr "与另一台运行 NVDA 远程的计算机断开连接"
 
 #. Translators: Message for version mismatch
 #: _remoteClient\session.py:166
-msgid "The version of the relay server which you have connected to is not compatible with this version of the Remote Client.\n"
+msgid ""
+"The version of the relay server which you have connected to is not "
+"compatible with this version of the Remote Client.\n"
 "Please use a different server."
 msgstr "您连接的中继服务器版本与您的远程客户端不兼容。请使用其他服务器。"
 
@@ -18787,4 +19435,3 @@ msgstr "每日信息"
 #: _remoteClient\session.py:551
 msgid "Remote NVDA not connected."
 msgstr "远程 NVDA 未连接。"
-
