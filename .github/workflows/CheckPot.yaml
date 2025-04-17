@@ -66,6 +66,7 @@ jobs:
       - name: Install dependencies
         uses: ./.github/workflows/InstallDependencies
         with:
+          ref: master
           fetch-depth: 0
           submodules: true
           Download-gettext: true

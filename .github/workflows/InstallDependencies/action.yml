@@ -2,6 +2,12 @@ name: Install dependencies
 
 description: 'Install dependencies'
 inputs:
+  ref:
+    description: >
+      The branch, tag or SHA to checkout. When checking out the repository that
+      triggered a workflow, this defaults to the reference or SHA for that
+      event.  Otherwise, uses the default branch.
+    default: ${{ github.ref_name == '	Uploads' && 'beta' || github.ref_name == 'main' && 'rc' || 'master' }}
   fetch-depth:
     description: 'Number of commits to fetch. 0 indicates all history for all branches and tags.'
     default: 1
@@ -22,7 +28,7 @@ runs:
       uses: actions/checkout@v4
       with:
         repository: nvaccess/nvda.git
-        ref: ${{ github.ref_name == '	Uploads' && 'beta' || github.ref_name == 'main' && 'rc' || 'master' }}
+        ref: ${{ inputs.ref }}
         fetch-depth: ${{ inputs.fetch-depth }}
         submodules: ${{ inputs.submodules }}
         path: ${{ github.workspace }}/Tools/NVDA
