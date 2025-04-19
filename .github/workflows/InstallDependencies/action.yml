@@ -18,8 +18,8 @@ runs:
     - name: Checkout NVDA repository
       uses: actions/checkout@v4
       with:
-        repository: nvaccess/nvda.git
-        ref: master
+        repository: LeonarddeR/nvda.git
+        ref: uv
         submodules: ${{ inputs.submodules }}
         path: ${{ github.workspace }}/Tools/NVDA
     - name: Cache gettext
