@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 07:11+0000\n"
-"PO-Revision-Date: 2025-05-09 08:08\n"
+"POT-Creation-Date: 2025-05-13 09:28+0000\n"
+"PO-Revision-Date: 2025-05-13 09:57\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -5981,10 +5981,11 @@ msgstr "断开与当前远程访问会话的连接"
 #. Translators: Message shown when attempting to mute the remote computer when no session is connected.
 #. Translators: Message shown when trying to send the clipboard to the remote computer while not connected.
 #. Translators: Message shown when trying to copy the link to connect to the remote computer while not connected.
+#. Translators: Message shown when attempting to send ctrl+alt+del when no session is connected.
 #. Translators: A message indicating that the remote client is not connected.
-#: globalCommands.py:4924 _remoteClient\client.py:124
-#: _remoteClient\client.py:144 _remoteClient\client.py:166
-#: _remoteClient\client.py:508
+#: globalCommands.py:4924 _remoteClient\client.py:125
+#: _remoteClient\client.py:149 _remoteClient\client.py:171
+#: _remoteClient\client.py:187 _remoteClient\client.py:519
 msgctxt "remote"
 msgid "Not connected"
 msgstr "未连接"
@@ -6486,25 +6487,25 @@ msgid "tab"
 msgstr "tab"
 
 #. Translators: One of the keyboard layouts for NVDA.
-#: keyboardHandler.py:460
+#: keyboardHandler.py:462
 msgid "desktop"
 msgstr "台式机"
 
 #. Translators: One of the keyboard layouts for NVDA.
-#: keyboardHandler.py:462
+#: keyboardHandler.py:464
 msgid "laptop"
 msgstr "笔记本"
 
 #. Translators: Reported for an unknown key press.
 #. %s will be replaced with the key code.
-#: keyboardHandler.py:550
+#: keyboardHandler.py:561
 #, python-format
 msgid "unknown %s"
 msgstr "%s 未知"
 
 #. Translators: a state that denotes a control is currently on
 #. E.g. a switch control.
-#: keyboardHandler.py:620 synthSettingsRing.py:117 controlTypes\state.py:201
+#: keyboardHandler.py:631 synthSettingsRing.py:117 controlTypes\state.py:201
 #: gui\speechDict.py:198
 msgid "on"
 msgstr "开"
@@ -6513,7 +6514,7 @@ msgstr "开"
 #. Translators: An option for progress bar output in the Object Presentation dialog
 #. which disables reporting of progress bars.
 #. See Progress bar output in the Object Presentation Settings section of the User Guide.
-#: keyboardHandler.py:620 synthSettingsRing.py:117 controlTypes\state.py:227
+#: keyboardHandler.py:631 synthSettingsRing.py:117 controlTypes\state.py:227
 #: gui\settingsDialogs.py:2370 gui\speechDict.py:198
 msgid "off"
 msgstr "关"
@@ -6521,13 +6522,13 @@ msgstr "关"
 #. Translators: Used when describing keys on the system keyboard with a particular layout.
 #. %s is replaced with the layout name.
 #. For example, in English, this might produce "laptop keyboard".
-#: keyboardHandler.py:739
+#: keyboardHandler.py:750
 #, python-format
 msgid "%s keyboard"
 msgstr "%s键盘"
 
 #. Translators: Used when describing keys on the system keyboard applying to all layouts.
-#: keyboardHandler.py:744
+#: keyboardHandler.py:755
 msgid "keyboard, all layouts"
 msgstr "键盘，所有布局"
 
@@ -13801,10 +13802,10 @@ msgstr "当 NVDA 在安全模式运行时，远程访问设置为只读状态。
 #: gui\settingsDialogs.py:3523
 msgctxt "remote"
 msgid "This will cause NVDA to forget all previously trusted Remote Access servers. When connecting to a previously trusted unrecognised server, you will again be asked whether to trust its certificate.\n\n"
-"Are you sure you want to continue? This action cannot be undone."
+"Are you sure you want to continue?"
 msgstr "这将导致 NVDA 忘记所有之前受信任的远程访问服务器。\n"
-"当再次连接到之前受信任但未经验证的远程服务器时，系统将再次询问是否信任其证书。\n\n"
-"您确定要继续吗？确认后无法撤销。"
+"当连接到之前受信任但未经验证的服务器时，系统将再次询问是否信任其证书。\n\n"
+"您确定要继续吗？"
 
 #. Translators: This is the title of the dialog presented when the user tries to delete all stored trusted fingerprints.
 #: gui\settingsDialogs.py:3528
@@ -18489,110 +18490,113 @@ msgstr "剩余 {hourText} {minuteText}"
 msgid "Secure Desktop"
 msgstr "安全桌面"
 
+#. Translators: Presented when attempting to mute or unmute Remote Access when connected as the controlled computer.
+#. Translators: Presented when attempting to send ctrl+alt+del when connected as the controlled computer.
+#. Translators: Presented when attempting to switch to controling a remote computer when connected as the controlled computer.
+#: _remoteClient\client.py:129 _remoteClient\client.py:190
+#: _remoteClient\client.py:523
+msgctxt "remote"
+msgid "Not the controlling computer"
+msgstr "非控制计算机"
+
 #. Translators: Displayed when muting speech and sounds from the remote computer
-#: _remoteClient\client.py:129
+#: _remoteClient\client.py:134
 msgid "Muted remote"
 msgstr "远程静音"
 
 #. Translators: Displayed when unmuting speech and sounds from the remote computer
-#: _remoteClient\client.py:131
+#: _remoteClient\client.py:136
 msgid "Unmuted remote"
 msgstr "取消远程静音"
 
 #. Translators: Reported when performing a Remote Access action, but there are no other computers in the channel.
-#: _remoteClient\client.py:148
+#: _remoteClient\client.py:153
 msgctxt "remote"
 msgid "No one else is connected"
 msgstr "当前无其他用户连接"
 
 #. Translators: Message shown when clipboard content cannot be sent to the remote computer.
-#: _remoteClient\client.py:156
+#: _remoteClient\client.py:161
 msgctxt "remote"
 msgid "Unable to send clipboard"
 msgstr "无法发送剪贴板"
 
 #. Translators: A message indicating that a link has been copied to the clipboard.
-#: _remoteClient\client.py:171
+#: _remoteClient\client.py:176
 msgid "Copied link"
 msgstr "复制链接"
 
 #. Translators: Title of the Remote Access disconnection confirmation dialog.
-#: _remoteClient\client.py:222
+#: _remoteClient\client.py:233
 msgctxt "remote"
 msgid "Confirm Disconnection"
 msgstr "确认断开连接"
 
 #. Translators: Message shown when disconnecting from the remote computer.
-#: _remoteClient\client.py:226
+#: _remoteClient\client.py:237
 msgctxt "remote"
 msgid "Are you sure you want to disconnect from the Remote Access session?"
 msgstr "您确定要断开远程访问会话的连接吗？"
 
 #. Translators: Title of the connection error dialog.
-#: _remoteClient\client.py:268
+#: _remoteClient\client.py:279
 msgid "Error Connecting"
 msgstr "连接错误"
 
 #. Translators: Message shown when unable to connect to the remote computer.
-#: _remoteClient\client.py:270
+#: _remoteClient\client.py:281
 msgid "Unable to connect to the remote computer"
 msgstr "无法连接到远程计算机"
 
 #. Translators: Title of the Remote Access connection dialog.
-#: _remoteClient\client.py:294
+#: _remoteClient\client.py:305
 msgctxt "remote"
 msgid "Connect to Another Computer"
 msgstr "连接到另一台计算机"
 
 #. Translators: Presented when connected to the remote computer.
-#: _remoteClient\client.py:337
+#: _remoteClient\client.py:348
 msgid "Connected"
 msgstr "已连接"
 
 #. Translators: Presented when connection to a remote computer was interupted.
 #. Translators: Message shown when the connection to the remote computer is lost.
-#: _remoteClient\client.py:355 _remoteClient\cues.py:30
+#: _remoteClient\client.py:366 _remoteClient\cues.py:30
 msgid "Disconnected"
 msgstr "已断开连接"
 
-#. Translators: Presented when attempting to switch to controling a remote computer when connected as the controlled computer.
-#: _remoteClient\client.py:512
-msgctxt "remote"
-msgid "Not the controlling computer"
-msgstr "非控制计算机"
-
 #. Translators: Presented when attempting to switch to controling a remote computer when there are no controllable computers in the channel.
-#: _remoteClient\client.py:516
+#: _remoteClient\client.py:527
 msgctxt "remote"
 msgid "No controlled computers are connected"
 msgstr "被控计算机未连接"
 
 #. Translators: Presented when keyboard control is back to the controlling computer.
-#: _remoteClient\client.py:530
+#: _remoteClient\client.py:541
 msgctxt "remote"
 msgid "Controlling local computer"
 msgstr "控制本地计算机"
 
 #. Translators: Presented when sending keyboard keys from the controlling computer to the controlled computer.
-#: _remoteClient\client.py:539
+#: _remoteClient\client.py:550
 msgctxt "remote"
 msgid "Controlling remote computer"
 msgstr "控制远程计算机"
 
 #. Translators: Message shown when trying to connect while already connected.
-#: _remoteClient\client.py:584
+#: _remoteClient\client.py:614
 msgctxt "remote"
 msgid "A Remote Access session is already in progress. Disconnect before starting a new session."
 msgstr "远程访问会话已在进行中。开始新会话前请先断开连接。"
 
 #. Translators: Title of the connection error dialog.
-#: _remoteClient\client.py:587
+#: _remoteClient\client.py:617
 msgctxt "remote"
 msgid "Already Connected"
 msgstr "已连接"
 
 #. Translators: Ask the user if they want to control the remote computer.
-#: _remoteClient\client.py:602
+#: _remoteClient\client.py:632
 #, python-brace-format
 msgctxt "remote"
 msgid "Do you wish to control the computer on server {server} with key {key}?"
@@ -18600,7 +18604,7 @@ msgstr "您要控制远程计算机嗎？\n"
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Ask the user if they want to allow the remote computer to control this computer.
-#: _remoteClient\client.py:608
+#: _remoteClient\client.py:638
 #, python-brace-format
 msgctxt "remote"
 msgid "Do you wish to allow this computer to be controlled on server {server} with key {key}?"
@@ -18608,7 +18612,7 @@ msgstr "您要允许此计算机被控制吗？\n"
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Title of the connection request dialog.
-#: _remoteClient\client.py:614
+#: _remoteClient\client.py:644
 msgctxt "remote"
 msgid "Remote Access Connection Request"
 msgstr "远程访问连接请求"
