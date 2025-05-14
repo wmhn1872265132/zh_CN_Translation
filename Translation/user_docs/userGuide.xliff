@@ -5710,9 +5710,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Ability to [connect to and control another computer running NVDA](#RemoteAccess) for remote assistance or collaboration</source>
-        <target>Ability to [connect to and control another computer running NVDA](#RemoteAccess) for remote assistance or collaboration</target>
+        <target>能够[连接并控制另一台运行 NVDA 的计算机](#RemoteAccess)，以提供远程协助或进行协作</target>
       </segment>
     </unit>
     <unit id="3621dc26-377b-4133-8c66-67736611187a">
@@ -24921,7 +24921,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Option |Behaviour </source>
         <target>选项 |行为 </target>
       </segment>
@@ -25234,18 +25234,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#RemoteSettings}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Remote Access Settings</source>
-        <target>Remote Access Settings</target>
+        <target>远程访问</target>
       </segment>
     </unit>
     <unit id="34d45e86-1a4c-470a-9fb6-4812a2ce7c7e">
       <notes>
         <note appliesTo="source">line: 3109</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This category allows you to configure the behaviour of [Remote Access](#RemoteAccess).</source>
-        <target>This category allows you to configure the behaviour of [Remote Access](#RemoteAccess).</target>
+        <target>该类别用于配置[远程访问](#RemoteAccess)的行为。</target>
       </segment>
     </unit>
     <unit id="e4703b50-8f75-4f41-bd21-2659efb04c3c">
@@ -25254,63 +25254,63 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteEnable}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Enable Remote Access</source>
-        <target>Enable Remote Access</target>
+        <target>启用远程访问</target>
       </segment>
     </unit>
     <unit id="5ed75b2e-5083-4afc-8df2-a1ef193fdba2">
       <notes>
         <note appliesTo="source">line: 3113</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use this checkbox to enable or disable NVDA's Remote Access feature.</source>
-        <target>Use this checkbox to enable or disable NVDA's Remote Access feature.</target>
+        <target>通过该复选框可启用或禁用 NVDA 的远程访问功能。</target>
       </segment>
     </unit>
     <unit id="9fada5ff-5a84-4a80-977e-ec584832d240">
       <notes>
         <note appliesTo="source">line: 3115</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When this is unchecked, the Remote Access feature is entirely unavailable.</source>
-        <target>When this is unchecked, the Remote Access feature is entirely unavailable.</target>
+        <target>取消选中此复选框，远程访问功能将完全不可用。</target>
       </segment>
     </unit>
     <unit id="dda10917-5d77-41cd-8a44-b08932cadedb">
       <notes>
         <note appliesTo="source">line: 3117</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Please note that in order to continue a Remote Access session on secure screens such as User Account Control prompts, you must enable this setting, save the changes, and then [copy your settings to NVDA's system configuration directory](#GeneralSettingsCopySettings).</source>
-        <target>Please note that in order to continue a Remote Access session on secure screens such as User Account Control prompts, you must enable this setting, save the changes, and then [copy your settings to NVDA's system configuration directory](#GeneralSettingsCopySettings).</target>
+        <target>请注意：若要在用户账户控制提示等安全屏幕上保持远程会话，必须启用此设置、保存更改后[将设置拷贝到 NVDA 系统配置目录](#GeneralSettingsCopySettings)。</target>
       </segment>
     </unit>
     <unit id="75044417-01a7-42a4-b008-a49b11a8d746">
       <notes>
         <note appliesTo="source">line: 3118</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Remote Access will only continue sessions started by the installed copy of NVDA on secure desktops.</source>
-        <target>Remote Access will only continue sessions started by the installed copy of NVDA on secure desktops.</target>
+        <target>安全桌面仅会继续由安装版 NVDA 发起的远程访问会话。</target>
       </segment>
     </unit>
     <unit id="584a22fd-b482-4c2b-8b83-7028e6ceb2fd">
       <notes>
         <note appliesTo="source">line: 3119</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This means that you cannot, for instance, start a Remote Access session with a portable copy of NVDA and have the session continue on secure screens.</source>
-        <target>This means that you cannot, for instance, start a Remote Access session with a portable copy of NVDA and have the session continue on secure screens.</target>
+        <target>这意味着，您无法通过便携版 NVDA 发起远程访问会话后，在安全屏幕上继续保持连接。</target>
       </segment>
     </unit>
     <unit id="59c923d6-7942-4e2d-bd70-4916b46ad34a">
       <notes>
         <note appliesTo="source">line: 3121</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The following options are only available if Remote Access is enabled.</source>
-        <target>The following options are only available if Remote Access is enabled.</target>
+        <target>以下选项仅在启用远程访问时可用。</target>
       </segment>
     </unit>
     <unit id="cbb49390-0029-414e-a56a-fc61a7c52c32">
@@ -25319,36 +25319,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteSoundsOrBeeps}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Play sounds instead of beeps</source>
-        <target>Play sounds instead of beeps</target>
+        <target>用音效代替蜂鸣音</target>
       </segment>
     </unit>
     <unit id="8ba7616c-aabe-4798-b52c-0604166a5f21">
       <notes>
         <note appliesTo="source">line: 3125</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use this option to select the type of audio cues played by Remote Access.</source>
-        <target>Use this option to select the type of audio cues played by Remote Access.</target>
+        <target>此选项用于选择远程访问播放的音频提示类型。</target>
       </segment>
     </unit>
     <unit id="a3c63540-f210-465c-bdfd-8d7f999bdd4c">
       <notes>
         <note appliesTo="source">line: 3127</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When checked, NVDA will produce natural-sounding audio cues for Remote Access events.</source>
-        <target>When checked, NVDA will produce natural-sounding audio cues for Remote Access events.</target>
+        <target>勾选时，NVDA会为远程访问事件播放自然音效。</target>
       </segment>
     </unit>
     <unit id="0d0af15b-2303-4501-8ab6-938e0f9d06e5">
       <notes>
         <note appliesTo="source">line: 3128</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When unchecked, NVDA will beep for Remote events.</source>
-        <target>When unchecked, NVDA will beep for Remote events.</target>
+        <target>未选中时，NVDA 将通过蜂鸣声提示远程事件。</target>
       </segment>
     </unit>
     <unit id="f7926c47-0767-4ec0-aff1-fd42b391c4cc">
@@ -25357,36 +25357,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteConfirmDisconnect}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Confirm before disconnecting when controlled</source>
-        <target>Confirm before disconnecting when controlled</target>
+        <target>被控时断开连接前确认</target>
       </segment>
     </unit>
     <unit id="36fe7e4c-6119-4f13-9138-8ad9781efc57">
       <notes>
         <note appliesTo="source">line: 3132</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option controls whether confirmation is required before disconnecting from a Remote Access session when connected as the controlled computer.</source>
-        <target>This option controls whether confirmation is required before disconnecting from a Remote Access session when connected as the controlled computer.</target>
+        <target>此选项用于在作为被控计算机连接时，断开远程访问会话前是否需要确认。</target>
       </segment>
     </unit>
     <unit id="da0acbbd-feb5-4a61-a595-c0c4479636c6">
       <notes>
         <note appliesTo="source">line: 3134</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When checked, NVDA will ask for confirmation before disconnecting.</source>
-        <target>When checked, NVDA will ask for confirmation before disconnecting.</target>
+        <target>选中时，NVDA 将在断开前请求确认。</target>
       </segment>
     </unit>
     <unit id="c64ad95a-8244-483b-a4d2-298aaa04d808">
       <notes>
         <note appliesTo="source">line: 3135</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When unchecked, NVDA will disconnect immediately without confirmation.</source>
-        <target>When unchecked, NVDA will disconnect immediately without confirmation.</target>
+        <target>取消选中时将立即断开，无需确认。</target>
       </segment>
     </unit>
     <unit id="4b142507-9401-4d1f-b8da-cb443c3cb501">
@@ -25395,45 +25395,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnect}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Automatically connect after NVDA starts</source>
-        <target>Automatically connect after NVDA starts</target>
+        <target>NVDA 启动后自动连接</target>
       </segment>
     </unit>
     <unit id="a3c0240c-e753-44ff-9a12-10d41cd30396">
       <notes>
         <note appliesTo="source">line: 3139</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option allows you to automatically establish a Remote Access session when NVDA starts.</source>
-        <target>This option allows you to automatically establish a Remote Access session when NVDA starts.</target>
+        <target>此选项允许在 NVDA 启动时自动建立远程访问会话。</target>
       </segment>
     </unit>
     <unit id="620f9532-0216-4f60-bb66-8c743593e654">
       <notes>
         <note appliesTo="source">line: 3140</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This could be useful, for example, to control your home computer when away from home.</source>
-        <target>This could be useful, for example, to control your home computer when away from home.</target>
+        <target>例如，可用于在外出时控制家用计算机。</target>
       </segment>
     </unit>
     <unit id="a10b52e9-c203-4785-becd-4eae781c7d34">
       <notes>
         <note appliesTo="source">line: 3142</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use caution when enabling this option, as it may increase the risk of unauthorized access to your computer.</source>
-        <target>Use caution when enabling this option, as it may increase the risk of unauthorized access to your computer.</target>
+        <target>请谨慎启用此选项，因为可能增加未经授权访问计算机的风险。</target>
       </segment>
     </unit>
     <unit id="8d685a96-562f-4854-b21c-0cd126cb21d5">
       <notes>
         <note appliesTo="source">line: 3144</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For further details on the following options, please refer to the [Setting Up a Remote Access Session section](#RemoteAccessSetup)</source>
-        <target>For further details on the following options, please refer to the [Setting Up a Remote Access Session section](#RemoteAccessSetup)</target>
+        <target>关于以下选项的详细信息，请参阅[设置远程访问会话章节](#RemoteAccessSetup)。</target>
       </segment>
     </unit>
     <unit id="5015a520-5bed-409d-9f4f-743e2fa0cb6d">
@@ -25442,27 +25442,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnectMode}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Mode</source>
-        <target>Mode</target>
+        <target>模式</target>
       </segment>
     </unit>
     <unit id="ae432baf-3488-4305-8381-8aae0c4e2310">
       <notes>
         <note appliesTo="source">line: 3148</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Select the connection mode for automatic connections.</source>
-        <target>Select the connection mode for automatic connections.</target>
+        <target>选择自动连接时的模式。</target>
       </segment>
     </unit>
     <unit id="f92b4b86-c3b5-4ce6-b4e4-2bf81ec20d86">
       <notes>
         <note appliesTo="source">line: 3150</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</source>
-        <target>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</target>
+        <target>此选项仅在选中 [NVDA 启动后自动连接](#RemoteAutoconnect)时可用。</target>
       </segment>
     </unit>
     <unit id="cd41a94e-2ad8-4085-8167-bba3b861b438">
@@ -25471,9 +25471,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Option |Behaviour </source>
-        <target>Option |Behaviour </target>
+        <target>选项 |行为 </target>
       </segment>
     </unit>
     <unit id="fc75148d-f685-4daf-a643-aa0e7ded2ee0">
@@ -25482,9 +25482,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Allow this computer to be controlled |Use this computer as the "controlled" computer. This allows the operator of the "controlling" computer to use this computer as if they were sitting in front of it. </source>
-        <target>Allow this computer to be controlled |Use this computer as the "controlled" computer. This allows the operator of the "controlling" computer to use this computer as if they were sitting in front of it. </target>
+        <target>允许此计算机被控制 | 将这台计算机作为被控计算机，允许主控计算机的用户如同本地操作般控制此计算机。 </target>
       </segment>
     </unit>
     <unit id="b9e02315-fd92-42e4-941a-68e452bb789f">
@@ -25493,9 +25493,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Control another computer |Use this computer as the "controlling" computer. This allows you to execute commands on the remote computer. </source>
-        <target>Control another computer |Use this computer as the "controlling" computer. This allows you to execute commands on the remote computer. </target>
+        <target>控制另一台计算机 | 将这台计算机作为主控计算机，允许对远程计算机执行操作。 </target>
       </segment>
     </unit>
     <unit id="af02981e-74c9-4832-be1a-9596b2b1ad2a">
@@ -25504,27 +25504,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnectServer}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Server</source>
-        <target>Server</target>
+        <target>服务器</target>
       </segment>
     </unit>
     <unit id="6c98f242-7c5f-434e-acb7-8ce15b4b003b">
       <notes>
         <note appliesTo="source">line: 3159</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Select the server type for automatic connections.</source>
-        <target>Select the server type for automatic connections.</target>
+        <target>选择自动连接的服务器类型。</target>
       </segment>
     </unit>
     <unit id="f5886c51-a6c9-4ca7-850f-ed42eca20fea">
       <notes>
         <note appliesTo="source">line: 3161</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</source>
-        <target>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</target>
+        <target>此选项仅在选中[NVDA 启动后自动连接](#RemoteAutoconnect)时可用。</target>
       </segment>
     </unit>
     <unit id="35ae2c00-7dad-4f5a-8886-e3d3f723c788">
@@ -25533,9 +25533,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Option |Behaviour </source>
-        <target>Option |Behaviour </target>
+        <target>选项 |行为 </target>
       </segment>
     </unit>
     <unit id="ed2c76eb-ca00-46bf-a198-2a1edfe7e652">
@@ -25544,9 +25544,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use existing |Use an existing Remote Access server to mediate the connection (recommended). </source>
-        <target>Use existing |Use an existing Remote Access server to mediate the connection (recommended). </target>
+        <target>使用现有 | 通过既有远程访问服务器建立中继连接（推荐）。 </target>
       </segment>
     </unit>
     <unit id="c4229ecd-8563-4a67-8ed6-823b2f8f890b">
@@ -25555,9 +25555,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Host locally |Use this instance of NVDA as the Remote Access server (advanced). This option may require network configuration that is out of scope for this manual. </source>
-        <target>Host locally |Use this instance of NVDA as the Remote Access server (advanced). This option may require network configuration that is out of scope for this manual. </target>
+        <target>本地托管 | 将当前 NVDA 实例作为远程访问服务器（高级），此选项可能涉及超出本指南范围的网络配置。 </target>
       </segment>
     </unit>
     <unit id="e508195a-301a-4839-a056-a306d6f799a2">
@@ -25566,36 +25566,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnectHost}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Host</source>
-        <target>Host</target>
+        <target>主机</target>
       </segment>
     </unit>
     <unit id="2b42f111-d711-46d4-93e9-f4baa41e1ea1">
       <notes>
         <note appliesTo="source">line: 3170</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use this field to set the URL of the Remote Access server you would like to use for automatic connections.</source>
-        <target>Use this field to set the URL of the Remote Access server you would like to use for automatic connections.</target>
+        <target>在此字段设置自动连接使用的远程访问服务器网址。</target>
       </segment>
     </unit>
     <unit id="a2314d0b-fed3-4a5d-a629-782ecb20a197">
       <notes>
         <note appliesTo="source">line: 3171</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If the server uses a port other than 6837, include it after a colon (eg. `example.com:1234`).</source>
-        <target>If the server uses a port other than 6837, include it after a colon (eg. `example.com:1234`).</target>
+        <target>若服务器使用非 6837 端口，需在网址后附加冒号和端口号（如：`example.com:1234`）。</target>
       </segment>
     </unit>
     <unit id="1c48db19-a2bd-4c29-810c-6a7b38a6269a">
       <notes>
         <note appliesTo="source">line: 3173</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked, and [Server](#RemoteAutoconnectServer) is set to "Use existing".</source>
-        <target>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked, and [Server](#RemoteAutoconnectServer) is set to "Use existing".</target>
+        <target>此选项仅在选中 [NVDA 启动后自动连接](#RemoteAutoconnect)且[服务器](#RemoteAutoconnectServer)设为“使用现有”时可用。</target>
       </segment>
     </unit>
     <unit id="3922ec7e-84f7-4733-b639-2617ff92e68a">
@@ -25604,27 +25604,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnectPort}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Port</source>
-        <target>Port</target>
+        <target>端口</target>
       </segment>
     </unit>
     <unit id="f49141eb-1eed-4825-9e4c-f2a0fc51c141">
       <notes>
         <note appliesTo="source">line: 3177</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use this field to set the TCP port you would like to use for automatic connections.</source>
-        <target>Use this field to set the TCP port you would like to use for automatic connections.</target>
+        <target>在此字段设置自动连接使用的 TCP 端口。</target>
       </segment>
     </unit>
     <unit id="37ce416a-0855-444d-a6cd-828aaba73600">
       <notes>
         <note appliesTo="source">line: 3179</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked, and [Server](#RemoteAutoconnectServer) is set to "Host locally".</source>
-        <target>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked, and [Server](#RemoteAutoconnectServer) is set to "Host locally".</target>
+        <target>此选项仅在选中 [NVDA 启动后自动连接](#RemoteAutoconnect)且[服务器](#RemoteAutoconnectServer)设为“本地托管”时可用。</target>
       </segment>
     </unit>
     <unit id="951b1ca5-229b-4118-b4dd-f6056d1befe8">
@@ -25633,27 +25633,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteAutoconnectKey}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Key</source>
-        <target>Key</target>
+        <target>密钥</target>
       </segment>
     </unit>
     <unit id="b9bde79d-75c9-4096-b11b-84f41c61fb6f">
       <notes>
         <note appliesTo="source">line: 3183</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Use this field to set the key (password) you would like to use for automatic connections.</source>
-        <target>Use this field to set the key (password) you would like to use for automatic connections.</target>
+        <target>在此字段设置自动连接使用的身份验证密钥（密码）。</target>
       </segment>
     </unit>
     <unit id="cc411c22-798f-4e84-8d71-0d917fe47cd4">
       <notes>
         <note appliesTo="source">line: 3185</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</source>
-        <target>This option is only available when [Automatically connect after NVDA starts](#RemoteAutoconnect) is checked.</target>
+        <target>此选项仅在选中 [NVDA 启动后自动连接](#RemoteAutoconnect)时可用。</target>
       </segment>
     </unit>
     <unit id="4214e903-3572-4c71-acef-65b3419d8335">
@@ -25662,45 +25662,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteDeleteFingerprints}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Delete all trusted fingerprints</source>
-        <target>Delete all trusted fingerprints</target>
+        <target>删除所有已信任的指纹</target>
       </segment>
     </unit>
     <unit id="91483535-71a7-4971-83d5-162e7c743e8d">
       <notes>
         <note appliesTo="source">line: 3189</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This button allows you to forget the fingerprints of all previously trusted Remote Access servers.</source>
-        <target>This button allows you to forget the fingerprints of all previously trusted Remote Access servers.</target>
+        <target>此按钮用于清除所有之前受信任的远程访问服务器指纹。</target>
       </segment>
     </unit>
     <unit id="cb352821-53f2-4c81-8da5-d04a2190e726">
       <notes>
         <note appliesTo="source">line: 3190</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This means that you will again be asked whether to connect to all unrecognised Remote Access servers, even ones that you have previously connected to.</source>
-        <target>This means that you will again be asked whether to connect to all unrecognised Remote Access servers, even ones that you have previously connected to.</target>
+        <target>这意味着您将再次被询问是否要连接到所有无法识别的远程访问服务器，包括您之前曾经连接过的服务器。</target>
       </segment>
     </unit>
     <unit id="869c3bb3-208a-45f7-8a08-e3b9c2e82afd">
       <notes>
         <note appliesTo="source">line: 3191</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You will be asked to confirm before all trusted fingerprints are deleted.</source>
-        <target>You will be asked to confirm before all trusted fingerprints are deleted.</target>
+        <target>删除前将进行二次确认。</target>
       </segment>
     </unit>
     <unit id="5a6e6ae6-9b3f-40a3-989d-8dd76024335a">
       <notes>
         <note appliesTo="source">line: 3193</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This option is only available if there are trusted fingerprints stored in your configuration.</source>
-        <target>This option is only available if there are trusted fingerprints stored in your configuration.</target>
+        <target>此选项仅在配置中存在受信指纹时可用。</target>
       </segment>
     </unit>
     <unit id="41cbd374-e298-42ab-badc-9dd6efb312c8">
@@ -28932,45 +28932,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ## </note>
         <note appliesTo="source">suffix:  {#RemoteAccess}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Remote Access</source>
-        <target>Remote Access</target>
+        <target>远程访问</target>
       </segment>
     </unit>
     <unit id="901c6fe7-6d7d-4c92-8afd-8f19dfcf1110">
       <notes>
         <note appliesTo="source">line: 3707</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>With NVDA's built-in remote access feature, you can control another computer running NVDA or allow someone to control your computer.</source>
-        <target>With NVDA's built-in remote access feature, you can control another computer running NVDA or allow someone to control your computer.</target>
+        <target>借助 NVDA 内置的远程访问功能，您可控制另一台运行 NVDA 的计算机，或允许他人控制您的计算机。</target>
       </segment>
     </unit>
     <unit id="292f195a-fc6a-4365-b2ff-29879fd8ac81">
       <notes>
         <note appliesTo="source">line: 3708</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This makes it easy to provide or receive assistance, collaborate, or access your own computer remotely.</source>
-        <target>This makes it easy to provide or receive assistance, collaborate, or access your own computer remotely.</target>
+        <target>该功能便于提供/获取技术支持、开展协作或远程访问自己的计算机。</target>
       </segment>
     </unit>
     <unit id="419acf1f-0ffb-417b-8e90-3df4bcdf18a2">
       <notes>
         <note appliesTo="source">line: 3710</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Remote access is disabled by default for your security.</source>
-        <target>Remote access is disabled by default for your security.</target>
+        <target>出于安全考虑，远程访问功能默认为禁用状态。</target>
       </segment>
     </unit>
     <unit id="ead81db6-306f-43cc-a1f8-40c7328a9c9d">
       <notes>
         <note appliesTo="source">line: 3711</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can enable Remote Access [in Remote Access settings](#RemoteSettings).</source>
-        <target>You can enable Remote Access [in Remote Access settings](#RemoteSettings).</target>
+        <target>您可在[远程访问设置](#RemoteSettings)中启用该功能。</target>
       </segment>
     </unit>
     <unit id="b0890d69-c731-4ac7-ac2b-700a3bcbce31">
@@ -28979,63 +28979,63 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#RemoteAccessGettingStarted}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Getting Started</source>
-        <target>Getting Started</target>
+        <target>开始使用</target>
       </segment>
     </unit>
     <unit id="2f9674a8-2834-44ef-b9db-cda4bb1227d3">
       <notes>
         <note appliesTo="source">line: 3715</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Before you begin, ensure NVDA is installed and running on both computers.</source>
-        <target>Before you begin, ensure NVDA is installed and running on both computers.</target>
+        <target>使用前请确保两台计算机均已安装并运行 NVDA。</target>
       </segment>
     </unit>
     <unit id="88fcd8b4-add6-4ecf-9f4d-1e223ed9d021">
       <notes>
         <note appliesTo="source">line: 3716</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Also ensure that the Enable Remote Access checkbox [in Remote Access settings](#RemoteSettings) is checked on both computers.</source>
-        <target>Also ensure that the Enable Remote Access checkbox [in Remote Access settings](#RemoteSettings) is checked on both computers.</target>
+        <target>还要确保双方计算机均在[远程访问设置](#RemoteSettings)中选中启用远程访问复选框。</target>
       </segment>
     </unit>
     <unit id="09ac6e0e-f092-4b9e-b319-5abcadb9abb8">
       <notes>
         <note appliesTo="source">line: 3717</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The remote access feature will then be available from the Tools menu in NVDA; there's no need for additional downloads or installations.</source>
-        <target>The remote access feature will then be available from the Tools menu in NVDA; there's no need for additional downloads or installations.</target>
+        <target>随后即可在 NVDA 的工具菜单中使用远程访问功能，无需额外下载或安装组件。</target>
       </segment>
     </unit>
     <unit id="eafcf2e7-dfce-4bad-b792-268912a360ca">
       <notes>
         <note appliesTo="source">line: 3719</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If NVDA is running in [secure mode](#SecureMode), you cannot manually initiate a new Remote Access session.</source>
-        <target>If NVDA is running in [secure mode](#SecureMode), you cannot manually initiate a new Remote Access session.</target>
+        <target>若 NVDA 在[安全模式](#SecureMode)下运行，您将无法手动发起新的远程会话。</target>
       </segment>
     </unit>
     <unit id="b98ba472-736b-4064-a635-a06206770515">
       <notes>
         <note appliesTo="source">line: 3720</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>However, NVDA will still automatically start a new Remote Access session if configured to do so with the [Automatically connect after NVDA starts](#RemoteAutoconnect) setting.</source>
-        <target>However, NVDA will still automatically start a new Remote Access session if configured to do so with the [Automatically connect after NVDA starts](#RemoteAutoconnect) setting.</target>
+        <target>但若已启用[NVDA 启动后自动连接](#RemoteAutoconnect)设置，程序仍会自动建立远程会话。</target>
       </segment>
     </unit>
     <unit id="60077139-084d-4afd-b7ad-fb845737bd70">
       <notes>
         <note appliesTo="source">line: 3721</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You can still manually disconnect in secure mode.</source>
-        <target>You can still manually disconnect in secure mode.</target>
+        <target>安全模式下仍可手动断开现有连接。</target>
       </segment>
     </unit>
     <unit id="0d4b737e-ca74-4357-88ff-453f773adacc">
@@ -29044,36 +29044,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#RemoteAccessSetup}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Setting Up a Remote Access Session</source>
-        <target>Setting Up a Remote Access Session</target>
+        <target>建立远程访问会话</target>
       </segment>
     </unit>
     <unit id="f32eba5f-9e5e-44ae-b4ff-535144c504da">
       <notes>
         <note appliesTo="source">line: 3725</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Remote access sessions are configured via the Remote Access connection dialog.</source>
-        <target>Remote access sessions are configured via the Remote Access connection dialog.</target>
+        <target>可通过连接到另一台计算机对话框配置远程访问会话。</target>
       </segment>
     </unit>
     <unit id="c30ddb9a-50c5-416c-a25d-46508dfc7432">
       <notes>
         <note appliesTo="source">line: 3726</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Open the NVDA menu and select Tools, then "Remote Access", then "Connect...".</source>
-        <target>Open the NVDA menu and select Tools, then "Remote Access", then "Connect...".</target>
+        <target>打开 NVDA 菜单，依次选择“工具” -&gt; “远程访问” -&gt; “连接...”。</target>
       </segment>
     </unit>
     <unit id="a85bf4ba-f2a5-4d8d-a16a-3489c727d330">
       <notes>
         <note appliesTo="source">line: 3727</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Or from anywhere press `NVDA+alt+r`.</source>
-        <target>Or from anywhere press `NVDA+alt+r`.</target>
+        <target>或直接按 `NVDA+alt+r` 快捷键。</target>
       </segment>
     </unit>
     <unit id="26584c3b-625c-4312-8d12-f46fee6648c4">
@@ -29082,27 +29082,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#RemoteAccessMode}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Mode Selection (Controlling or Controlled)</source>
-        <target>Mode Selection (Controlling or Controlled)</target>
+        <target>模式选择（主控或被控）</target>
       </segment>
     </unit>
     <unit id="41731c56-a34f-4506-bb60-144bfae68ac9">
       <notes>
         <note appliesTo="source">line: 3731</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You'll need to decide which computer will be controlled (the controlled computer) and which will be controlling (the controlling computer).</source>
-        <target>You'll need to decide which computer will be controlled (the controlled computer) and which will be controlling (the controlling computer).</target>
+        <target>您需确定哪台计算机将被控制（被控计算机），以及哪台计算机将进行控制（主控计算机）。</target>
       </segment>
     </unit>
     <unit id="f64f101a-b693-4442-a9cb-64d2c0e5ee00">
       <notes>
         <note appliesTo="source">line: 3733</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>the mode combo box allows you to choose whether this computer will be controlled (Another person will interact with your computer) or controlling (you will interact with someone else's computer).</source>
-        <target>the mode combo box allows you to choose whether this computer will be controlled (Another person will interact with your computer) or controlling (you will interact with someone else's computer).</target>
+        <target>模式组合框允许您选择允许此计算机被控制（他人将操作您的计算机）还是控制另一台计算机（您将操作他人的计算机）。</target>
       </segment>
     </unit>
     <unit id="e1c1a5cb-7290-4da4-aea3-9702dd592d7b">
@@ -29110,9 +29110,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3735</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you require another person to help you with your computer, choose "Allow this computer to be controlled".</source>
-        <target>If you require another person to help you with your computer, choose "Allow this computer to be controlled".</target>
+        <target>如果您需要他人协助，请选择“允许此计算机被控制”。</target>
       </segment>
     </unit>
     <unit id="b7f7a308-38b8-4a39-8178-ef41f7dfcf7e">
@@ -29120,9 +29120,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3736</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you are going to help someone with their computer, choose "Control another computer".</source>
-        <target>If you are going to help someone with their computer, choose "Control another computer".</target>
+        <target>如果您要帮助他人，请选择"控制另一台计算机"。</target>
       </segment>
     </unit>
     <unit id="010cb88b-782e-4e10-b0b4-24515adf6228">
@@ -29131,18 +29131,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#RemoteAccessJoin}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Connecting to an existing server (Host and Key Provided)</source>
-        <target>Connecting to an existing server (Host and Key Provided)</target>
+        <target>加入现有服务器（已知主机和密钥）</target>
       </segment>
     </unit>
     <unit id="e6e421ec-9b16-49ef-8159-ec0d465d01ff">
       <notes>
         <note appliesTo="source">line: 3740</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In this case, the other person has either started the connection via a relay server, or is hosting the connection locally.</source>
-        <target>In this case, the other person has either started the connection via a relay server, or is hosting the connection locally.</target>
+        <target>当对方已通过中继服务器或本地网络发起连接时。</target>
       </segment>
     </unit>
     <unit id="ae69842b-b04f-4f70-bcbd-aeb074c53172">
@@ -29150,9 +29150,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3742</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For Server, choose "Use existing".</source>
-        <target>For Server, choose "Use existing".</target>
+        <target>在服务器组合框选择使用现有。</target>
       </segment>
     </unit>
     <unit id="5d8fcfa9-7ab8-4b8d-b126-94dedeed10b3">
@@ -29160,9 +29160,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3743</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In the Host field, Enter the host address (and port if also given).</source>
-        <target>In the Host field, Enter the host address (and port if also given).</target>
+        <target>在主机字段输入对方提供的主机地址和端口（如有）。</target>
       </segment>
     </unit>
     <unit id="578430bb-9fd4-44c0-8a9c-eb0dd029fd52">
@@ -29170,18 +29170,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3744</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You may include the port to connect on by appending a colon (":") and the port number to the host address.</source>
-        <target>You may include the port to connect on by appending a colon (":") and the port number to the host address.</target>
+        <target>您可通过在主机地址后附加冒号（“:”）和端口号来包含要连接的端口。</target>
       </segment>
     </unit>
     <unit id="38d8e6b4-a697-4e93-81e9-ec8f19c3e0d4">
       <notes>
         <note appliesTo="source">line: 3745</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, `example.com:1234`.</source>
-        <target>For example, `example.com:1234`.</target>
+        <target>例如，`example.com:1234`。</target>
       </segment>
     </unit>
     <unit id="c0c4cd99-9bc9-46e6-8fb9-1b39fcfc2acc">
@@ -29189,18 +29189,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3746</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>In the Key field, enter the key provided.</source>
-        <target>In the Key field, enter the key provided.</target>
+        <target>在密钥字段输入对方提供的密钥。</target>
       </segment>
     </unit>
     <unit id="878edd88-1664-4aaa-ba54-dbf1e2e36799">
       <notes>
         <note appliesTo="source">line: 3747</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Be careful to type the key exactly as given.</source>
-        <target>Be careful to type the key exactly as given.</target>
+        <target>请准确输入给定的密钥。</target>
       </segment>
     </unit>
     <unit id="49d587fc-7af4-4cce-a2f7-9cfeaf1600f1">
@@ -29208,9 +29208,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3748</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Press OK.</source>
-        <target>Press OK.</target>
+        <target>点击确定。</target>
       </segment>
     </unit>
     <unit id="98fd4d64-bcff-4df7-8bed-2842656ac8ed">
@@ -29219,18 +29219,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#RemoteAccessConnectRelay}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Starting a Connection Via a Relay Server</source>
-        <target>Starting a Connection Via a Relay Server</target>
+        <target>通过中继服务器发起连接</target>
       </segment>
     </unit>
     <unit id="c51463f3-0557-44a0-9bd4-0916072b661a">
       <notes>
         <note appliesTo="source">line: 3752</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If allowing another person to connect to you over the internet, the easiest option is to use a relay server. To do this:</source>
-        <target>If allowing another person to connect to you over the internet, the easiest option is to use a relay server. To do this:</target>
+        <target>若允许他人通过互联网连接您的计算机，最简单的方法是使用中继服务器。操作步骤如下：</target>
       </segment>
     </unit>
     <unit id="b05aa089-8777-487e-a0b1-4c7c0d9a2dd0">
@@ -29238,9 +29238,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3754</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For Server, choose "Use existing".</source>
-        <target>For Server, choose "Use existing".</target>
+        <target>在服务器组合框选择使用现有。</target>
       </segment>
     </unit>
     <unit id="f03852ad-57dc-483f-902d-ef5bae198153">
@@ -29248,18 +29248,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3755</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For host, provide the host name of a relay server, such as `nvdaremote.com`.</source>
-        <target>For host, provide the host name of a relay server, such as `nvdaremote.com`.</target>
+        <target>在主机字段输入中继服务器地址（如 `nvdaremote.com`，译者注：中国用户可[在这里](https://www.nvdacn.com/index.php/archives/844/)查看国内的一些志愿组织/个人贡献的服务器）。</target>
       </segment>
     </unit>
     <unit id="c53b8b77-6350-4f5f-87fe-a4c25fb228d0">
       <notes>
         <note appliesTo="source">line: 3756</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You will need to provide this address to the other person.</source>
-        <target>You will need to provide this address to the other person.</target>
+        <target>需将此地址告知对方。</target>
       </segment>
     </unit>
     <unit id="67d0c8e1-21f7-4e1a-9075-ea48966a7c5c">
@@ -29267,18 +29267,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3757</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You may include the port to connect on by appending a colon (":") and the port number to the host.</source>
-        <target>You may include the port to connect on by appending a colon (":") and the port number to the host.</target>
+        <target>您可通过在主机地址后附加冒号（“:”）和端口号来包含要连接的端口。</target>
       </segment>
     </unit>
     <unit id="4d6dd8e9-fe5a-440e-ad54-60c0faec6a44">
       <notes>
         <note appliesTo="source">line: 3758</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For example, `example.com:1234`.</source>
-        <target>For example, `example.com:1234`.</target>
+        <target>例如，`example.com:1234`。</target>
       </segment>
     </unit>
     <unit id="dada18fb-997b-4047-9346-4f9d438e04a6">
@@ -29286,18 +29286,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3759</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For key: come up with a long, hard to guess key, or press the "Generate Key" button to have one automatically generated.</source>
-        <target>For key: come up with a long, hard to guess key, or press the "Generate Key" button to have one automatically generated.</target>
+        <target>在密钥字段输入一个难以猜测的长密钥，或点击生成密钥按钮自动创建。</target>
       </segment>
     </unit>
     <unit id="c6562b30-a5a0-42e4-9cca-38e9c7880eb4">
       <notes>
         <note appliesTo="source">line: 3760</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You will need to provide this to the other person.</source>
-        <target>You will need to provide this to the other person.</target>
+        <target>需将此密钥告知对方。</target>
       </segment>
     </unit>
     <unit id="8aa95463-145b-4050-a99e-06740a395370">
@@ -29305,9 +29305,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3761</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Note that the key acts as both the identifier for the session and the password, so it is very important it is hard to guess.</source>
-        <target>Note that the key acts as both the identifier for the session and the password, so it is very important it is hard to guess.</target>
+        <target>请注意：该密钥同时作为会话标识符和密码，因此必须确保其难以被猜测。</target>
       </segment>
     </unit>
     <unit id="4e76d0e7-ce86-4e4e-8189-2ccfcb7da8f8">
@@ -29315,9 +29315,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3762</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Press OK.</source>
-        <target>Press OK.</target>
+        <target>点击确定。</target>
       </segment>
     </unit>
     <unit id="883a9a99-5b7a-42ab-a817-f3df77ebda00">
@@ -29325,9 +29325,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3763</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Provide the connection details (such as host and key) to the other person so they can connect.</source>
-        <target>Provide the connection details (such as host and key) to the other person so they can connect.</target>
+        <target>将连接信息（如主机地址和密钥）提供给对方以便其连接。</target>
       </segment>
     </unit>
     <unit id="3f5e8a31-df5a-4fde-8994-ab58a2862b44">
@@ -29336,18 +29336,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: #### </note>
         <note appliesTo="source">suffix:  {#RemoteAccessConnectSelfHosted}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Using NVDA as the server</source>
-        <target>Using NVDA as the server</target>
+        <target>使用 NVDA 作为服务器</target>
       </segment>
     </unit>
     <unit id="109cfb8f-4e5d-4a86-ba85-018e75baa407">
       <notes>
         <note appliesTo="source">line: 3767</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If you do not wish to use a relay server or you are connecting over a local network:</source>
-        <target>If you do not wish to use a relay server or you are connecting over a local network:</target>
+        <target>适用于本地网络连接或不愿使用中继服务器时：</target>
       </segment>
     </unit>
     <unit id="fb335f2e-d0b8-4c17-989d-c5d6770e58f3">
@@ -29355,9 +29355,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3769</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For Server, choose "Host locally".</source>
-        <target>For Server, choose "Host locally".</target>
+        <target>在服务器组合框选择本地托管。</target>
       </segment>
     </unit>
     <unit id="846fc439-9a66-497d-886e-8bc39821671e">
@@ -29365,18 +29365,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3770</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If connecting over the internet, you can press the "Get External IP" button to show your external IP (internet visible) address.</source>
-        <target>If connecting over the internet, you can press the "Get External IP" button to show your external IP (internet visible) address.</target>
+        <target>若通过互联网连接，可点击获取公网 IP 按钮显示您的公网 IP 地址。</target>
       </segment>
     </unit>
     <unit id="aa2e3179-151a-4738-9b56-e062a5333319">
       <notes>
         <note appliesTo="source">line: 3771</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You will need to provide this external IP to the other person.</source>
-        <target>You will need to provide this external IP to the other person.</target>
+        <target>需将此公网 IP 告知对方。</target>
       </segment>
     </unit>
     <unit id="3c02f05b-716a-44ea-a43b-a1ed03f5264b">
@@ -29384,18 +29384,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3772</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If connecting over a local network, you will need to provide the other person with your local IP.</source>
-        <target>If connecting over a local network, you will need to provide the other person with your local IP.</target>
+        <target>若通过局域网连接，需提供本机局域网 IP 地址。</target>
       </segment>
     </unit>
     <unit id="f3375fe8-814b-4575-9b27-c0b18bd41afa">
       <notes>
         <note appliesTo="source">line: 3773</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Locating this is not covered in this documentation.</source>
-        <target>Locating this is not covered in this documentation.</target>
+        <target>本文档不包含如何查找局域网 IP 地址的内容。</target>
       </segment>
     </unit>
     <unit id="65edbd6b-3f1e-4adb-a555-4fb4cbb42e81">
@@ -29403,18 +29403,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3774</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For Port, enter the port you want to use for incoming Remote connections.</source>
-        <target>For Port, enter the port you want to use for incoming Remote connections.</target>
+        <target>在端口字段输入用于远程连接的端口号。</target>
       </segment>
     </unit>
     <unit id="04dd0e4f-c6d9-4dcc-ba47-9c571106c73a">
       <notes>
         <note appliesTo="source">line: 3775</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The other person will also need this.</source>
-        <target>The other person will also need this.</target>
+        <target>对方同样需要此端口号。</target>
       </segment>
     </unit>
     <unit id="7f112026-41f8-425e-83b3-1aa35e99d106">
@@ -29422,9 +29422,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3776</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>This should be a port that is not used by any other services.</source>
-        <target>This should be a port that is not used by any other services.</target>
+        <target>应选择未被其他服务占用的端口。</target>
       </segment>
     </unit>
     <unit id="be83df76-ec79-4c78-846d-bdfeb43094dc">
@@ -29432,9 +29432,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3777</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>By default, Remote Access uses port 6837.</source>
-        <target>By default, Remote Access uses port 6837.</target>
+        <target>远程访问默认使用 6837 端口。</target>
       </segment>
     </unit>
     <unit id="c01ef72c-1bed-4db3-8cc0-80fc6e1a30e8">
@@ -29442,27 +29442,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3778</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If connecting over the internet, the port may need to be forwarded.</source>
-        <target>If connecting over the internet, the port may need to be forwarded.</target>
+        <target>通过互联网连接时可能需要端口转发。</target>
       </segment>
     </unit>
     <unit id="7c7e46ab-fd29-4691-ab41-452a2ef3eb15">
       <notes>
         <note appliesTo="source">line: 3779</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  This documentation does not cover how to forward ports.</source>
-        <target>  This documentation does not cover how to forward ports.</target>
+        <target>本文档不包含端口转发的教程。</target>
       </segment>
     </unit>
     <unit id="59c85e24-7c80-4162-901c-02379194a393">
       <notes>
         <note appliesTo="source">line: 3780</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  You may need to contact your network administrator to do this.</source>
-        <target>  You may need to contact your network administrator to do this.</target>
+        <target>您可能需要联系网络管理员完成此操作。</target>
       </segment>
     </unit>
     <unit id="d995902d-8e11-47a8-9306-aab1445ce6b9">
@@ -29470,18 +29470,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3781</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For key: come up with a long, hard to guess key, or press the "Generate Key" button to have one automatically generated.</source>
-        <target>For key: come up with a long, hard to guess key, or press the "Generate Key" button to have one automatically generated.</target>
+        <target>在密钥字段输入一个难以猜测的长密钥，或点击生成密钥按钮自动创建。</target>
       </segment>
     </unit>
     <unit id="2cc72874-8ac8-405d-a2db-10b6eb8c491f">
       <notes>
         <note appliesTo="source">line: 3782</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>You will need to provide this to the other person.</source>
-        <target>You will need to provide this to the other person.</target>
+        <target>需将此密钥告知对方。</target>
       </segment>
     </unit>
     <unit id="498f6517-451b-4d30-a1d3-e7797c624c4e">
@@ -29489,9 +29489,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3783</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Note that the key acts as both the identifier for the session and the password, so it is very important it is hard to guess.</source>
-        <target>Note that the key acts as both the identifier for the session and the password, so it is very important it is hard to guess.</target>
+        <target>请注意：该密钥同时作为会话标识符和密码，因此必须确保其难以被猜测。</target>
       </segment>
     </unit>
     <unit id="6be70a23-825b-4949-a94c-5788cb14f373">
@@ -29499,9 +29499,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3784</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Press OK.</source>
-        <target>Press OK.</target>
+        <target>点击确定。</target>
       </segment>
     </unit>
     <unit id="67b5c476-ed76-40eb-9652-0f263a8d0a11">
@@ -29509,9 +29509,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3785</note>
         <note appliesTo="source">prefix: 1. </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Provide the connection details (such as host and key) to the other person so they can connect.</source>
-        <target>Provide the connection details (such as host and key) to the other person so they can connect.</target>
+        <target>将连接信息（如主机地址和密钥）提供给对方以便其连接。</target>
       </segment>
     </unit>
     <unit id="d11dbdb9-e13b-4316-accc-bff9461aaaf5">
@@ -29520,18 +29520,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#RemoteAccessUsage}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Using Remote Access</source>
-        <target>Using Remote Access</target>
+        <target>使用远程访问</target>
       </segment>
     </unit>
     <unit id="47a9ec53-119b-432d-8bbd-c957f7844e6c">
       <notes>
         <note appliesTo="source">line: 3789</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Once a Remote Access session is active, you can switch between controlling the remote computer and your own, share your clipboard, and mute the remote session:</source>
-        <target>Once a Remote Access session is active, you can switch between controlling the remote computer and your own, share your clipboard, and mute the remote session:</target>
+        <target>远程访问会话建立后，您可执行以下操作：</target>
       </segment>
     </unit>
     <unit id="3825cc2f-df6e-40ea-b0d9-8235c199d8e1">
@@ -29539,9 +29539,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3791</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Press `NVDA+alt+tab` to toggle between controlling and returning to your own computer.</source>
-        <target>Press `NVDA+alt+tab` to toggle between controlling and returning to your own computer.</target>
+        <target>按 `NVDA+alt+tab` 在控制远程计算机与控制本地计算机之间切换。</target>
       </segment>
     </unit>
     <unit id="3f2f0038-670c-4757-be7d-6ac1e31b15dd">
@@ -29549,9 +29549,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3792</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Send text from your clipboard to the other computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Send clipboard".</source>
-        <target>Send text from your clipboard to the other computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Send clipboard".</target>
+        <target>通过 NVDA 菜单 -&gt; 工具 -&gt; 远程访问 -&gt; 发送剪贴板，可将剪贴板中的文本发送到另一台计算机。</target>
       </segment>
     </unit>
     <unit id="f32a5919-3e28-4cc3-8854-7e52b3335500">
@@ -29559,9 +29559,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3793</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>If connected as the controlling computer, mute the remote computer's speech output on your local computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Mute remote".</source>
-        <target>If connected as the controlling computer, mute the remote computer's speech output on your local computer by opening the NVDA menu, then selecting Tools, then "Remote Access", then "Mute remote".</target>
+        <target>作为主控计算机时，可通过 NVDA 菜单 -&gt; 工具 -&gt; 远程访问 -&gt; 远程静音屏蔽远程计算机的语音输出。</target>
       </segment>
     </unit>
     <unit id="2907e809-9f1b-4de0-8e83-c9f868d89301">
@@ -29570,9 +29570,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#RemoteAccessGestures}</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Remote Access Key Commands Summary</source>
-        <target>Remote Access Key Commands Summary</target>
+        <target>远程访问按键命令汇总</target>
       </segment>
     </unit>
     <unit id="6fbc5a66-5c0d-45e3-8fe9-0b9263cbe0f2">
@@ -29581,9 +29581,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Name |Key |Description</source>
-        <target> Name |Key |Description</target>
+        <target> 名称 | 按键 | 描述</target>
       </segment>
     </unit>
     <unit id="02964c3d-96de-4b70-8168-e68bb245f38e">
@@ -29592,9 +29592,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Toggle Remote connection | `NVDA+alt+r` | Starts a new Remote Access session or, if a session is already in progress, disconnects from it. </source>
-        <target> Toggle Remote connection | `NVDA+alt+r` | Starts a new Remote Access session or, if a session is already in progress, disconnects from it. </target>
+        <target> 切换远程连接 | `NVDA+alt+r` | 建立新远程访问会话，若已有会话则断开连接。 </target>
       </segment>
     </unit>
     <unit id="0b908760-a0ed-4689-800e-a09c29e5d649">
@@ -29603,9 +29603,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Toggle Control | `NVDA+alt+tab` | Switches between controlling the remote and local computer. </source>
-        <target> Toggle Control | `NVDA+alt+tab` | Switches between controlling the remote and local computer. </target>
+        <target> 切换控制权 | `NVDA+alt+tab` | 在控制远程计算机与控制本地计算机之间切换。 </target>
       </segment>
     </unit>
     <unit id="2a6aa6a1-5c2e-4b73-9b05-8dd3a92e040d">
@@ -29614,9 +29614,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Connect | None | Starts a new Remote Access session. Unavailable in [secure mode](#SecureMode). </source>
-        <target> Connect | None | Starts a new Remote Access session. Unavailable in [secure mode](#SecureMode). </target>
+        <target> 连接 | 无 | 建立新的远程访问会话（在[安全模式](#SecureMode)下不可用）。 </target>
       </segment>
     </unit>
     <unit id="771cf83f-a8b9-4d9d-83b9-565428414f6a">
@@ -29625,9 +29625,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Copy link | None | Copies a link to the remote session to the clipboard. </source>
-        <target> Copy link | None | Copies a link to the remote session to the clipboard. </target>
+        <target> 复制链接 | 无 | 将远程会话的链接复制到剪贴板。 </target>
       </segment>
     </unit>
     <unit id="fc4bfc1d-4cb3-42ad-ad29-3d2021915725">
@@ -29636,9 +29636,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Disconnect | None | Ends an existing Remote Access session. </source>
-        <target> Disconnect | None | Ends an existing Remote Access session. </target>
+        <target> 断开 | 无 | 终止当前的远程访问会话。 </target>
       </segment>
     </unit>
     <unit id="056bf4aa-ba4a-4e38-8c79-02459497fcb4">
@@ -29647,9 +29647,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Mute remote | None | Mutes or unmutes the speech coming from the remote computer. </source>
-        <target> Mute remote | None | Mutes or unmutes the speech coming from the remote computer. </target>
+        <target> 远程静音 | 无 | 开关远程计算机的语音输出。 </target>
       </segment>
     </unit>
     <unit id="bcb6fbca-2e51-48a4-a7a3-aa850b7ebfe1">
@@ -29658,9 +29658,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source> Send clipboard | None | Sends the contents of the clipboard to the remote computer. </source>
-        <target> Send clipboard | None | Sends the contents of the clipboard to the remote computer. </target>
+        <target> 发送剪贴板 | 无 | 将剪贴板内容发送到远程计算机。 </target>
       </segment>
     </unit>
     <unit id="94267446-c550-43a5-80a9-d9596e6f85fd">
