@@ -6774,7 +6774,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Composite characters (such as é) are now reported correctly. (#17295, @LeonarddeR)</source>
-        <target>组合字符现能正确读出。 (#17295, @LeonarddeR)</target>
+        <target>组合字符（如é）现能正确读出。 (#17295, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="0f36ac88-bcb5-4559-9448-33a8e9342f24">
