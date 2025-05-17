@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-16 01:06+0000\n"
-"PO-Revision-Date: 2025-05-16 06:10\n"
+"POT-Creation-Date: 2025-05-16 07:34+0000\n"
+"PO-Revision-Date: 2025-05-17 12:37\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -18491,7 +18491,7 @@ msgstr "安全桌面"
 #: _remoteClient\client.py:523
 msgctxt "remote"
 msgid "Not the controlling computer"
-msgstr "非控制计算机"
+msgstr "非主控计算机"
 
 #. Translators: Displayed when muting speech and sounds from the remote computer
 #: _remoteClient\client.py:134
@@ -18557,7 +18557,7 @@ msgstr "已连接"
 #. Translators: Message shown when the connection to the remote computer is lost.
 #: _remoteClient\client.py:366 _remoteClient\cues.py:27
 msgid "Disconnected"
-msgstr "已断开连接"
+msgstr "已断开"
 
 #. Translators: Presented when attempting to switch to controling a remote computer when there are no controllable computers in the channel.
 #: _remoteClient\client.py:527
@@ -18621,7 +18621,7 @@ msgstr "作为被控计算机连接"
 #: _remoteClient\cues.py:43
 msgctxt "remote"
 msgid "Clipboard sent"
-msgstr "剪贴板已发送"
+msgstr "已发送剪贴板"
 
 #. Translators: Message shown when the clipboard is successfully received from the remote computer.
 #: _remoteClient\cues.py:48
