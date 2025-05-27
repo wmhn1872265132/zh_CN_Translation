@@ -4,6 +4,7 @@ Crowdin/*
 !Crowdin/OldXLIFF/README.txt
 Preview/*
 !Preview/*.css
+!Preview/*.ico
 Tools/nvdaL10nUtil.exe
 Tools/NVDA
 Tools/msgmerge.exe
