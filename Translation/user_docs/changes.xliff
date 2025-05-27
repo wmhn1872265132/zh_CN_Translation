@@ -5459,9 +5459,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>New commands have been added to manually refresh an OCR result, and to toggle periodically refreshing OCR results.</source>
-        <target>添加了两个新命令：手动刷新OCR结果和切换定期刷新OCR结果的开关。</target>
+        <target>添加了两个新命令：手动刷新 OCR 结果和切换定期刷新 OCR 结果的开关。</target>
       </segment>
     </unit>
     <unit id="20963f36-9dbc-442d-94cc-1034306850a5">
