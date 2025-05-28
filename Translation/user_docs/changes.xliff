@@ -6259,7 +6259,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>  Prefix matching on command line flags, e.g. using `--di` for `--disable-addons` is no longer supported. (#11644, @CyrilleB79)</source>
-        <target>  命令行参数的前缀匹配功能（例如用 `--di` 代替 `--disable-addons`）已废弃。.(#11644, @CyrilleB79)</target>
+        <target>  命令行参数的前缀匹配功能（例如用 `--di` 代替 `--disable-addons`）已废弃。(#11644, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="09f5159c-e564-4c0c-ae93-236426e2611e">
@@ -6786,7 +6786,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Composite characters (such as é) are now reported correctly. (#17295, @LeonarddeR)</source>
-        <target>修复了组合字符（例如 é）未能被正确读出的问题。(#17295, @LeonarddeR)</target>
+        <target>修复了组合字符（例如 é）未能被正确读出的问题。(#17295, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="0f36ac88-bcb5-4559-9448-33a8e9342f24">
@@ -6954,7 +6954,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Updated wxPython to 4.2.2. (#17181, @dpy013)</source>
-        <target>将 wxPython 更新到 4.2.2.(#17181, @dpy013)</target>
+        <target>将 wxPython 更新到 4.2.2。(#17181, @dpy013)</target>
       </segment>
     </unit>
     <unit id="c25adfab-1ee7-486b-bda1-8c2b3d2a9b38">
