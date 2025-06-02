@@ -24344,7 +24344,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Link type (destination to same page)</source>
-        <target>链接类型（指向同一页面）</target>
+        <target>链接类型（指向与当前页相同的页面）</target>
       </segment>
     </unit>
     <unit id="2e38ba90-c950-45c4-8df2-91032b39ddfc">
