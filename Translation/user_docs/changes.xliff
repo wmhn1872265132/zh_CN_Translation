@@ -6378,7 +6378,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The keyboard settings for "Speak typed characters" and "Speak typed words" now have three options: Off, Only in edit controls, and Always. (#17505, @Cary-rowen)</source>
-        <target>“读出输入字符”和“读出输入单词”的键盘设置现包含三个选项：关闭、仅在编辑控件中、始终。(#17505, @Cary-rowen)</target>
+        <target>“读出输入的字符”和“读出输入的单词”的键盘设置现包含三个选项：关闭、仅在编辑控件中、始终。(#17505, @Cary-rowen)</target>
       </segment>
     </unit>
     <unit id="40802643-728a-4a88-a06c-ce4062fde34b">
@@ -6388,7 +6388,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>By default, "Speak typed characters" is now set to "Only in edit controls".</source>
-        <target>“读出输入字符”选项的默认值已更改为“仅在编辑控件中”。</target>
+        <target>“读出输入的字符”选项的默认值已更改为“仅在编辑控件中”。</target>
       </segment>
     </unit>
     <unit id="684378a3-2c36-43c7-bd73-5fb6088d09be">

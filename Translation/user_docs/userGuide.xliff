@@ -7299,7 +7299,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Speak typed characters |`NVDA+2` |`NVDA+2` |Controls when NVDA announces characters you type. </source>
-        <target>读出输入字符 |`NVDA+2` |`NVDA+2` |控制 NVDA 何时读出输入的字符。 </target>
+        <target>读出输入的字符 |`NVDA+2` |`NVDA+2` |控制 NVDA 何时读出输入的字符。 </target>
       </segment>
     </unit>
     <unit id="7bdd8d70-455c-410f-b0c7-697a0396b2c5">
@@ -7310,7 +7310,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Speak typed words |`NVDA+3` |`NVDA+3` |Controls when NVDA announces words you type. </source>
-        <target>读出输入单词 |`NVDA+3` |`NVDA+3` |控制 NVDA 何时读出输入的单词。 </target>
+        <target>读出输入的单词 |`NVDA+3` |`NVDA+3` |控制 NVDA 何时读出输入的单词。 </target>
       </segment>
     </unit>
     <unit id="9109e753-2205-4e8b-9054-6d39bb42d68c">
@@ -26797,7 +26797,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This setting controls whether characters are spoken by [speak typed characters](#KeyboardSettingsSpeakTypedCharacters) or [speak typed words](#KeyboardSettingsSpeakTypedWords) in situations where the screen does not update (such as password entry) in some terminal programs, such as the Windows Console with UI automation support enabled and Mintty.</source>
-        <target>此设置控制在某些终端程序（例如启用了 UIA 和 Mintty 的 Windows 控制台）屏幕不更新的情况下（例如密码输入）的场景，是否[读出输入字符](#KeyboardSettingsSpeakTypedCharacters)或[读出输入单词](#KeyboardSettingsSpeakTypedWords)。</target>
+        <target>此设置控制在某些终端程序（例如启用了 UIA 和 Mintty 的 Windows 控制台）屏幕不更新的情况下（例如密码输入）的场景，是否[读出输入的字符](#KeyboardSettingsSpeakTypedCharacters)或[读出输入的单词](#KeyboardSettingsSpeakTypedWords)。</target>
       </segment>
     </unit>
     <unit id="c582403d-e30c-427c-aae1-7af11bf4bd95">
