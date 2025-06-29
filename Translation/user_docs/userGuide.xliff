@@ -7319,7 +7319,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report language |Not assigned |Not assigned |Reports text language. Pressing twice shows the information in a window</source>
         <target>读出语言 | 未分配 | 未分配 | 读出光标处文本的语言。连按两次，在浏览模式下显示该信息</target>
       </segment>
@@ -7564,7 +7564,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Heading level 1, 2, etc. |`1`, `2`, etc. |Move to the next heading at the specified level</source>
         <target>1、2、... 级标题 | `1`、`2`、... | 移动到下一个指定级别的标题</target>
       </segment>
@@ -9021,7 +9021,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 480</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Command Prompt and PowerShell running in admin mode</source>
         <target>以管理员身份运行的命令提示符和 Windows PowerShell</target>
       </segment>
@@ -9031,7 +9031,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 481</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Task Manager</source>
         <target>任务管理器</target>
       </segment>
@@ -9041,7 +9041,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 482</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Windows 11 Voice Access</source>
         <target>Windows 11 语音访问</target>
       </segment>
@@ -13348,7 +13348,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1139</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>However, NVDA has a Native Selection Mode which can be turned on in particular Browse Mode documents which can support it.</source>
         <target>但是，NVDA 有一个应用原生选择模式，可在特定的浏览模式文档中打开。</target>
       </segment>
@@ -13357,7 +13357,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1140</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Native Selection causes the document's native selection to follow NVDA's Browse Mode selection, which enables details such as formatting, links, and tables to be copied.</source>
         <target>应用原生选择功能使文档的实际选择跟随 NVDA 的浏览模式选择，从而支持复制格式、链接和表格等详细信息。</target>
       </segment>
@@ -13366,7 +13366,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1141</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Currently, Native Selection Mode is supported in:</source>
         <target>目前，以下程序支持应用原生选择模式：</target>
       </segment>
@@ -13376,7 +13376,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1143</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Mozilla Firefox</source>
         <target>Mozilla Firefox（火狐浏览器）</target>
       </segment>
@@ -13386,7 +13386,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1144</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Mozilla Thunderbird</source>
         <target>Mozilla Thunderbird（雷鸟邮件客户端）</target>
       </segment>
@@ -13396,7 +13396,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1145</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Chrome, Edge, and any browser based on Chromium 134 or newer</source>
         <target>Google Chrome、Microsoft Edge 以及基于 Chromium 134 或更高版本的浏览器</target>
       </segment>
@@ -18411,7 +18411,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#ReportLanguage}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report language changes</source>
         <target>读出语言更改</target>
       </segment>
@@ -18420,7 +18420,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1938</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This checkbox allows you to toggle whether NVDA should report the detected language of the text being read, when the language changes from the default language.</source>
         <target>此复选框用于控制当文本语言与默认语言不同时，NVDA 是否读出检测到的文本语言。</target>
       </segment>
@@ -18429,7 +18429,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1939</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The language configured to be used by default won't be reported.</source>
         <target>已配置为默认使用的语言将不会被读出。</target>
       </segment>
@@ -18438,7 +18438,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1940</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This option is disabled by default.</source>
         <target>默认情况下此选项被禁用。</target>
       </segment>
@@ -18449,7 +18449,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#ReportIfLanguageIsNotSupportedBySynthesizer}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Report when switching to language is not supported by synthesizer</source>
         <target>切换到合成器不支持的语言时提示</target>
       </segment>
@@ -18458,7 +18458,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1944</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>This combo box is used to set how NVDA should report if the language of the text being read is not supported by the current synthesizer.</source>
         <target>此组合框用于设置当前语音合成器不支持所读文本语言时，NVDA 应如何提示。</target>
       </segment>
@@ -18467,7 +18467,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1945</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>If [Automatic Language switching](#SpeechSettingsLanguageSwitching) is disabled, this option won't take effect, and the combo box will be readonly.</source>
         <target>若[自动语言切换](#SpeechSettingsLanguageSwitching)功能被禁用，此选项将不生效，且组合框会变为只读状态。</target>
       </segment>
@@ -18478,7 +18478,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Options |Speech, Beep, Off</source>
         <target>选项 | 语音、提示音、关闭</target>
       </segment>
@@ -18489,7 +18489,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Default |Speech</source>
         <target>默认 | 语音</target>
       </segment>
@@ -23894,7 +23894,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2903</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>If it is disabled, interactive elements, such as links and buttons, will be placed on their own lines.</source>
         <target>若禁用此选项，交互式元素（如链接和按钮）将分别在单独的行中呈现。</target>
       </segment>
@@ -23903,7 +23903,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 2904</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Non-interactive text following a link or button will still follow on the same line for ease of reading.</source>
         <target>非交互式文本（如链接或按钮后的内容）仍将保持在同一行呈现，以确保阅读流畅性。</target>
       </segment>
@@ -31487,7 +31487,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4073</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>For more information, please see the [NVDA Developer Guide](https://download.nvaccess.org/documentation/developerGuide.html).</source>
         <target>有关更多信息，请参阅 [NVDA 开发者指南](https://download.nvaccess.org/documentation/developerGuide.html)。</target>
       </segment>
@@ -32191,7 +32191,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 4190</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Handy Tech displays</source>
         <target>Handy Tech 点显器</target>
       </segment>
@@ -32301,7 +32301,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 4201</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NLS eReader Zoomax</source>
         <target>NLS eReader Zoomax</target>
       </segment>
@@ -32412,7 +32412,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4217</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -33112,7 +33112,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4299</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -33572,7 +33572,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4352</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -33857,7 +33857,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4388</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -34108,7 +34108,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4425</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see your display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -34404,7 +34404,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4465</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -34548,7 +34548,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4488</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -34723,7 +34723,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 4514</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NLS eReader HumanWare</source>
         <target>NLS eReader HumanWare</target>
       </segment>
@@ -34741,7 +34741,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4517</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -35162,7 +35162,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4580</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -35961,7 +35961,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4666</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -36152,7 +36152,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4692</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -38228,7 +38228,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 4952</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please check your BrailleNote's documentation to find where these keys are located.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -40818,7 +40818,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5263</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -41220,7 +41220,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5322</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -41759,7 +41759,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#Zoomax}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NLS eReader Zoomax</source>
         <target>NLS eReader Zoomax</target>
       </segment>
@@ -41768,7 +41768,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5379</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The NLS eReader Zoomax device supports USB or bluetooth connections.</source>
         <target>NLS eReader Zoomax 设备支持通过 USB 或蓝牙连接。</target>
       </segment>
@@ -41777,7 +41777,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5380</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>The Windows 10 and Windows 11 operating systems will automatically detect and install the necessary drivers for this display.</source>
         <target>Windows 10 和 Windows 11 操作系统将自动检测并安装该点显器所需的驱动程序。</target>
       </segment>
@@ -41786,7 +41786,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5381</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>For computers where the Internet connection is disabled or not available, you can manually [download and install the USB to serial CH340 chip driver](https://www.wch-ic.com/downloads/CH341SER_EXE.html) to support this display over USB.</source>
         <target>对于无法连接互联网的计算机，您可手动[下载并安装 USB 转串口 CH340 芯片驱动](https://www.wch-ic.com/downloads/CH341SER_EXE.html)以支持通过 USB 使用该点显器。</target>
       </segment>
@@ -41795,7 +41795,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5383</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>By default, NVDA can automatically detect and connect to this display via USB or bluetooth.</source>
         <target>默认情况下，NVDA 能自动检测并通过 USB 或蓝牙连接该点显器。</target>
       </segment>
@@ -41804,7 +41804,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5384</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>However, when configuring the display, you can also explicitly select "USB" or "Bluetooth" ports to restrict the connection type to be used.</source>
         <target>但在配置点显器时，您也可明确选择 USB 或蓝牙端口来限制所使用的连接类型。</target>
       </segment>
@@ -41813,7 +41813,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5386</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Following are the key assignments for this display with NVDA.</source>
         <target>以下是该点显器使用 NVDA 时的按键分配。</target>
       </segment>
@@ -41822,7 +41822,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5387</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Please see the display's documentation for descriptions of where these keys can be found.</source>
         <target>具体按键位置请参阅点显器随附的文档。</target>
       </segment>
@@ -41833,7 +41833,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source> Name |Key</source>
         <target> 名称 | 按键</target>
       </segment>
@@ -41844,7 +41844,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Scroll braille display back |`d2`</source>
         <target>向后滚动盲文显示 |`d2`</target>
       </segment>
@@ -41855,7 +41855,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Scroll braille display forward |`d5`</source>
         <target>向前滚动盲文显示 |`d5`</target>
       </segment>
@@ -41866,7 +41866,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move braille display to previous line |`d1`</source>
         <target>移动点显器到上一行 |`d1`</target>
       </segment>
@@ -41877,7 +41877,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Move braille display to next line |`d3`</source>
         <target>移动点显器到下一行 |`d3`</target>
       </segment>
@@ -41888,7 +41888,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Route to braille cell |`routing`</source>
         <target>定位盲文单元 |`routing`</target>
       </segment>
@@ -41899,7 +41899,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Up arrow key |`up`</source>
         <target>上光标键 |`up`</target>
       </segment>
@@ -41910,7 +41910,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Down arrow key |`down`</source>
         <target>下光标键 |`down`</target>
       </segment>
@@ -41921,7 +41921,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Left arrow key |`left`</source>
         <target>左光标键 |`left`</target>
       </segment>
@@ -41932,7 +41932,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Right arrow key |`right`</source>
         <target>右光标键 |`right`</target>
       </segment>
@@ -41943,7 +41943,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Enter key |`select`</source>
         <target>回车键 |`select`</target>
       </segment>
