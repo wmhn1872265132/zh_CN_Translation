@@ -8322,9 +8322,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 375</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NV Access, makers of NVDA, are active on [Mastodon](https://fosstodon.org/@NVAccess), [Twitter/X](https://x.com/nvaccess) and [Facebook](https://www.facebook.com/NVAccess).</source>
-        <target>NV Access, makers of NVDA, are active on [Mastodon](https://fosstodon.org/@NVAccess), [Twitter/X](https://x.com/nvaccess) and [Facebook](https://www.facebook.com/NVAccess).</target>
+        <target>NVDA 的开发团队 NV Access 活跃于 [Mastodon](https://fosstodon.org/@NVAccess)、[Twitter/X](https://x.com/nvaccess) 以及 [Facebook](https://www.facebook.com/NVAccess) 社交平台。</target>
       </segment>
     </unit>
     <unit id="46936321-9783-4806-9518-1464a2679946">
@@ -8340,18 +8340,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 377</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>There is a main [NV Access owned email list](https://groups.google.com/a/nvaccess.org/g/nvda-users) and a page full of [other community groups](https://github.com/nvaccess/nvda/wiki/Connect).</source>
-        <target>There is a main [NV Access owned email list](https://groups.google.com/a/nvaccess.org/g/nvda-users) and a page full of [other community groups](https://github.com/nvaccess/nvda/wiki/Connect).</target>
+        <target>有一个主 [NV Access 官方邮件列表](https://groups.google.com/a/nvaccess.org/g/nvda-users) 以及包含[各类社区群组](https://github.com/nvaccess/nvda/wiki/Connect)的汇总页面。</target>
       </segment>
     </unit>
     <unit id="02bcb343-6948-4d57-b460-babaadd25165">
       <notes>
         <note appliesTo="source">line: 379</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>There is also an [NVDA Certified Expert](https://certification.nvaccess.org/) program.</source>
-        <target>另一个是 [NVDA Certified Expert](https://certification.nvaccess.org/)（NVDA 认证专家）项目。</target>
+        <target>还有一个 [NVDA Certified Expert](https://certification.nvaccess.org/)（NVDA 认证专家）项目。</target>
       </segment>
     </unit>
     <unit id="4e0eada1-6951-487d-9d54-13660eea0c6b">

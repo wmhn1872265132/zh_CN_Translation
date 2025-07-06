@@ -6052,9 +6052,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 73</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>When typing into a cell in Microsoft Excel, the braille display is now correctly updated to show the new content. (#18391)</source>
-        <target>When typing into a cell in Microsoft Excel, the braille display is now correctly updated to show the new content. (#18391)</target>
+        <target>修复了在 Microsoft Excel 的单元格中输入内容时，盲文点显器无法正确更新以显示新内容的问题。(#18391)</target>
       </segment>
     </unit>
     <unit id="d20c0153-d1c5-477c-9099-28a28dbef92d">
