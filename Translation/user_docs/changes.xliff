@@ -6074,9 +6074,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 75</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When using NVDA Remote Access, speech from User Account Control screens on the remote computer now works reliably. (#18101, @jcsteh)</source>
-        <target>When using NVDA Remote Access, speech from User Account Control screens on the remote computer now works reliably. (#18101, @jcsteh)</target>
+        <target>修复了使用远程访问时，远程计算机用户帐户控制界面的语音偶尔无声的问题。(#18101，@jcsteh)</target>
       </segment>
     </unit>
     <unit id="d20c0153-d1c5-477c-9099-28a28dbef92d">
@@ -6163,7 +6163,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 87</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA now uses [uv](https://docs.astral.sh/uv/) as Python package/project manager. (#17935, @LeonarddeR)</source>
         <target>NVDA 现在使用 [uv](https://docs.astral.sh/uv/) 作为 Python 包/项目管理器。(#17935, @LeonarddeR)</target>
       </segment>
