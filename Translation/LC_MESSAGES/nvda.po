@@ -18290,7 +18290,7 @@ msgstr "无"
 #: UIAHandler\constants.py:21
 msgctxt "UIAHandler.FillType"
 msgid "color"
-msgstr "顏色：{color}"
+msgstr "顏色"
 
 #. Translators: a style of fill type (to color the inside of a control or text)
 #: UIAHandler\constants.py:23
