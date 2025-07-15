@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="changes.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7437c809faca71540c63fb560e83d0542b3824c8/user_docs/en/changes.md">
+  <file id="changes.md" original="https://raw.githubusercontent.com/nvaccess/nvda/b9ae45286249e39ca11738dc8ef5ccd9e3f71eed/user_docs/en/changes.md">
     <skeleton>
 # $(ID:4bf3ec03-2d43-474a-aef0-92b334e594ed)
 
@@ -74,7 +74,7 @@ $(ID:c3886e8f-9d32-4855-9d4a-6aed02356a15)
 * $(ID:fd77332b-d60c-4817-8306-f55632ba0018)
 * $(ID:49efea65-1510-4c7c-8956-1d0e51d21751)
 * $(ID:5f486c92-625b-45ab-b8a2-f332171bd6d7)
-* $(ID:2f67a398-e35f-4a5f-b968-80f8ca9225ae)
+* $(ID:7e21cc9d-721d-43b3-9b33-49b5c137da93)
 * $(ID:fef32b1e-2a24-4d43-885a-ec1caa5f7811)
 
 ### $(ID:d20c0153-d1c5-477c-9099-28a28dbef92d)
@@ -6059,14 +6059,14 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <target>修复了在 Microsoft Excel 的单元格中输入内容时，盲文点显器无法正确更新以显示新内容的问题。(#18391)</target>
       </segment>
     </unit>
-    <unit id="2f67a398-e35f-4a5f-b968-80f8ca9225ae">
+    <unit id="7e21cc9d-721d-43b3-9b33-49b5c137da93">
       <notes>
         <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
-        <source>Fixed bug where NLS eReader Zoomax driver did not work with all devices. (#18406, @florin-trutiu)</source>
-        <target>修复了某些 NLS 电子盲文阅读器连接时 Zoomax 驱动失效的问题。(#18406, @florin-trutiu)</target>
+      <segment state="initial">
+        <source>Fixed bug when trying to access the Add-on Store from certain environments such as corporates. (#18354)</source>
+        <target>Fixed bug when trying to access the Add-on Store from certain environments such as corporates. (#18354)</target>
       </segment>
     </unit>
     <unit id="fef32b1e-2a24-4d43-885a-ec1caa5f7811">
