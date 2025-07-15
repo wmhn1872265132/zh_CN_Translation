@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-15 02:29+0000\n"
-"PO-Revision-Date: 2025-07-15 02:32\n"
+"PO-Revision-Date: 2025-07-15 02:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -7247,7 +7247,10 @@ msgstr "插件下载失败"
 #, python-brace-format
 msgctxt "addonStore"
 msgid "The website where you are downloading the add-on from has a certificate that is not trusted. Do you want to trust the root certificate for {url}? This will allow you to download add-ons from this website in the future. Only do this if you trust the website. The certificate's SHA256 fingerprint is: {fingerprint}. "
-msgstr ""
+msgstr "您正在下载插件的网站证书不受信任。\n"
+"您是否要信任 {url} 的根证书？\n"
+"这将允许您将来从该网站下载插件。仅当您信任该网站时才执行此操作。\n"
+"证书的 SHA256 指纹：{fingerprint}。"
 
 #. Translators: A message to the user if an add-on download fails
 #: addonStore\network.py:291 addonStore\network.py:322
