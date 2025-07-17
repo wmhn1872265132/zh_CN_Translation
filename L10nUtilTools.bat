@@ -233,7 +233,7 @@ Rem **A 系列命令：通过循环调用另一个L10nUtilTools.bat来分别处�
 :All
 for %%i in (L C U) do (
   cmd /C "%~dp0L10nUtilTools" %Parameter%%%i
-  if not !errorlevel! equ 0 (
+  if !errorlevel! neq 0 (
     echo Error: Command %Parameter%%%i failed with exit code !errorlevel!.
     exit /b !errorlevel!
   )
@@ -247,10 +247,13 @@ Rem 从 Crowdin 下载已翻译的文件
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
 %L10nUtil% downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
-if not %errorlevel% equ 0 (
+if %errorlevel% neq 0 (
   echo Error: %FileName% download failed with exit code %errorlevel%.
   Git restore "%GitAddPath%/%FileName%"
   exit /b %errorlevel%
+)
+if /I %Type%==LC_MESSAGES (
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\CheckPo.ps1"
 )
 if /I %Action%==DownloadAndCommit (goto Commit)
 exit /b %errorlevel%
@@ -265,8 +268,13 @@ if /I %Type%==All (
   set CommitMSG=更新 %FileName%（从 Crowdin）
 )
 git add %AddFileList%
-git commit -m "%CommitMSG%"
-exit /b %errorlevel%
+git diff --cached --quiet
+if %errorlevel% neq 0 (
+  git commit -m "%CommitMSG%"
+) else (
+  echo No changes to commit, skipping commit.
+)
+exit /b 0
 
 Rem 提取之前翻译的 xliff 文件用于上传时比较差异  
 :ReadyUpload
