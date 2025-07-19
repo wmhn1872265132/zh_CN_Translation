@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-15 04:37+0000\n"
-"PO-Revision-Date: 2025-07-15 04:56\n"
+"POT-Creation-Date: 2025-07-18 08:41+0000\n"
+"PO-Revision-Date: 2025-07-19 09:03\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -2107,25 +2107,25 @@ msgid "brown-yellow"
 msgstr "棕黄色"
 
 #. Translators: Shown when one or more add-ons failed to update.
-#: core.py:87
+#: core.py:86
 msgid "The following add-on failed to update: {}."
 msgid_plural "The following add-ons failed to update: {}."
 msgstr[0] "以下插件更新失败：{}。"
 
 #. Translators: Shown when one or more add-ons failed to be uninstalled.
-#: core.py:96
+#: core.py:95
 msgid "The following add-on failed to uninstall: {}."
 msgid_plural "The following add-ons failed to uninstall: {}."
 msgstr[0] "以下插件移除失败：{}。"
 
 #. Translators: Shown when one or more add-ons failed to be installed.
-#: core.py:105
+#: core.py:104
 msgid "The following add-on failed to be installed: {}."
 msgid_plural "The following add-ons failed to be installed: {}."
 msgstr[0] "以下插件安装失败：{}。"
 
 #. Translators: Shown when one or more actions on add-ons failed.
-#: core.py:118
+#: core.py:117
 msgid "Some operations on add-ons failed. See the log file for more details.\n"
 "{}"
 msgstr "对插件的某些操作失败。有关更多详细信息，请参阅日志文件。\n"
@@ -2158,7 +2158,7 @@ msgstr "对插件的某些操作失败。有关更多详细信息，请参阅日
 #. Translators: A title of a message box displayed when the host field is empty and the user tries to generate a key.
 #. Translators: Title of error dialog
 #. Translators: Title of a dialog
-#: core.py:121 documentationUtils.py:74 updateCheck.py:445 updateCheck.py:758
+#: core.py:120 documentationUtils.py:74 updateCheck.py:445 updateCheck.py:758
 #: updateCheck.py:928 gui\__init__.py:238 gui\__init__.py:246
 #: gui\__init__.py:263 gui\addonGui.py:145 gui\addonGui.py:265
 #: gui\addonGui.py:280 gui\configProfiles.py:182 gui\configProfiles.py:217
@@ -2176,46 +2176,46 @@ msgid "Error"
 msgstr "错误"
 
 #. Translators: Shown when NVDA has been started with unknown command line parameters.
-#: core.py:149
+#: core.py:148
 #, python-brace-format
 msgid "The following command line parameters are unknown to NVDA: {params}"
 msgstr "NVDA 无法处理以下未知的命令行参数：{params}"
 
 #. Translators: Title of the dialog letting user know
 #. that command line parameters they provided are unknown.
-#: core.py:154
+#: core.py:153
 msgid "Unknown command line parameters"
 msgstr "未知的命令行参数"
 
 #. Translators: A message informing the user that there are errors in the configuration file.
-#: core.py:163
+#: core.py:162
 msgid "Your configuration file contains errors. Your configuration has been reset to factory defaults.\n"
 "More details about the errors can be found in the log file."
 msgstr "您的配置文件包含错误。您的配置已经被重置为默认设置。\n"
 "如需了解错误详细信息，请查看日志文件。"
 
 #. Translators: The title of the dialog to tell users that there are errors in the configuration file.
-#: core.py:168
+#: core.py:167
 msgid "Configuration File Error"
 msgstr "配置文件错误"
 
-#: core.py:186
+#: core.py:185
 msgid "Your gesture map file contains errors.\n"
 "More details about the errors can be found in the log file."
 msgstr "您的手势映射文件包含错误。\n"
 "如果需要了解此错误的详细信息，请查看日志文件。"
 
-#: core.py:189
+#: core.py:188
 msgid "gesture map File Error"
 msgstr "手势映射文件错误"
 
 #. Translators: This is spoken when NVDA is starting.
-#: core.py:799
+#: core.py:798
 msgid "Loading NVDA. Please wait..."
 msgstr "正在加载 NVDA，请稍后……"
 
 #. Translators: This is shown on a braille display (if one is connected) when NVDA starts.
-#: core.py:941
+#: core.py:940
 msgid "NVDA started"
 msgstr "NVDA 已启动"
 
@@ -17985,21 +17985,21 @@ msgstr "{color1} 到 {color2}"
 #: speech\speech.py:2716
 #, python-brace-format
 msgid "{color} on {backgroundColor}"
-msgstr "文字顏色：{color}，背景顏色：{backgroundColor}"
+msgstr "文字颜色：{color}，背景颜色：{backgroundColor}"
 
 #. Translators: Reported when the text color changes (but not the background color).
 #. {color} will be replaced with the text color.
 #: speech\speech.py:2724
 #, python-brace-format
 msgid "{color}"
-msgstr "文字顏色：{color}"
+msgstr "文字颜色：{color}"
 
 #. Translators: Reported when the background color changes (but not the text color).
 #. {backgroundColor} will be replaced with the background color.
 #: speech\speech.py:2728
 #, python-brace-format
 msgid "{backgroundColor} background"
-msgstr "背景顏色：{backgroundColor}"
+msgstr "背景颜色：{backgroundColor}"
 
 #: speech\speech.py:2738
 #, python-brace-format
@@ -18290,7 +18290,7 @@ msgstr "无"
 #: UIAHandler\constants.py:21
 msgctxt "UIAHandler.FillType"
 msgid "color"
-msgstr "顏色"
+msgstr "颜色"
 
 #. Translators: a style of fill type (to color the inside of a control or text)
 #: UIAHandler\constants.py:23
