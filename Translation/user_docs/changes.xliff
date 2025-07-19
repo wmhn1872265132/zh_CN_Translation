@@ -5775,9 +5775,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Introduced support for Windows 11 Voice Access, including reporting dictated text and microphone status from everywhere (requires NVDA to be installed). (#16862, #17384, @josephsl)</source>
-        <target>支持 Windows 11 语音访问功能，包括全局播报听写文本及麦克风状态（需安装版 NVDA）。(#16862, #17384, @josephsl)</target>
+        <target>支持 Windows 11 语音访问功能，包括全局读出听写文本及麦克风状态（需安装版 NVDA）。(#16862, #17384, @josephsl)</target>
       </segment>
     </unit>
     <unit id="bba5a1e7-12a3-48d2-9c6e-fa031b06540a">
