@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-21 04:31+0000\n"
-"PO-Revision-Date: 2025-07-21 07:08\n"
+"PO-Revision-Date: 2025-07-21 07:46\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -7143,14 +7143,16 @@ msgstr "捐赠完毕(&D)"
 #. on a computer which is being remotely controlled via NVDA Remote Access
 #: updateCheck.py:1022 gui\installerGui.py:456
 msgid "Updating NVDA when connected to NVDA Remote Access as the controlled computer is not recommended. "
-msgstr ""
+msgstr "不建议在作为被控计算机连接到 NVDA 远程访问时更新 NVDA。"
 
 #. Translators: Message shown to users when attempting to update NVDA from an installed copy
 #. on a computer which is being remotely controlled via NVDA Remote Access.
 #: updateCheck.py:1027
 msgid "The currently active connection may not be continued during or after the update. Even if the connection is continued, you will be unable to respond to User Account Control (UAC) prompts from the controlling computer. You should only proceed if you have physical access to the controlled computer.\n\n"
 "Are you sure you want to continue?"
-msgstr ""
+msgstr "更新期间或更新后，当前活动连接可能无法保持。即使连接保持，您也将无法从主控计算机响应用户帐户控制（UAC）提示。\n"
+"仅在您能物理访问被控计算机的情况下才可继续操作。\n\n"
+"您确定要继续吗？"
 
 #. Translators: The title of a dialog.
 #. Translators: The title of a warning dialog.
@@ -12551,14 +12553,16 @@ msgstr "目录已存在"
 #. on a computer which is being remotely controlled via NVDA Remote Access
 #: gui\installerGui.py:462
 msgid "Installing NVDA when connected to NVDA Remote Access as the controlled computer is not recommended. "
-msgstr ""
+msgstr "不建议在作为被控计算机连接到 NVDA 远程访问时安装 NVDA。"
 
 #. Translators: Message shown to users when attempting to install or update NVDA from the launcher
 #. on a computer which is being remotely controlled via NVDA Remote Access
 #: gui\installerGui.py:468
 msgid "You will be unable to respond to User Account Control (UAC) prompts from the controlling computer. You should only proceed if you have physical access to the controlled computer.\n\n"
 "Are you sure you want to continue?"
-msgstr ""
+msgstr "您将无法从主控计算机响应用户帐户控制（UAC）提示。\n"
+"仅在您能物理访问被控计算机的情况下才可继续操作。\n\n"
+"您确定要继续吗？"
 
 #. Translators: The title of the Create Portable NVDA dialog.
 #: gui\installerGui.py:506
