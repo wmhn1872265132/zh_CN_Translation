@@ -29,16 +29,18 @@ jobs:
           if [ $(git rev-parse main) = $(git rev-parse Uploads) ]; then
             echo "main and Uploads are identical"
             echo "should_create_pr=false" >> $GITHUB_OUTPUT
-          elif git merge-base --is-ancestor main Uploads; then
-            echo "Uploads is ahead of main"
-            echo "should_create_pr=true" >> $GITHUB_OUTPUT
           else
-            echo "main is ahead of Uploads or branches have diverged"
-            echo "should_create_pr=false" >> $GITHUB_OUTPUT
+            if [ $(git rev-list --count main..Uploads) -gt 0 ]; then
+              echo "Uploads has commits not in main"
+              echo "should_create_pr=true" >> $GITHUB_OUTPUT
+            else
+              echo "main is up-to-date or ahead of Uploads"
+              echo "should_create_pr=false" >> $GITHUB_OUTPUT
+            fi
           fi
       - name: Find existing PR or create new one
-        id: create-pr
         if: steps.check-diff.outputs.should_create_pr == 'true'
+        id: create-pr
         run: |
           EXISTING_PR=$(gh pr list --base main --head Uploads --state open --json number -q '.[0]')
           if [ -n "$EXISTING_PR" ]; then
