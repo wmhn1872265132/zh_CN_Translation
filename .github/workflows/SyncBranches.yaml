@@ -25,11 +25,16 @@ jobs:
       - name: Check for differences between Uploads and main
         id: check-diff
         run: |
-          if git diff --quiet main Uploads; then
-            echo "No differences between main and Uploads"
-            echo "has_diff=false" >> $GITHUB_OUTPUT
+          if git merge-base --is-ancestor Uploads main; then
+            if ! git diff --quiet main Uploads; then
+              echo "Differences found: main is ahead but Uploads has unique changes"
+              echo "has_diff=true" >> $GITHUB_OUTPUT
+            else
+              echo "No differences: main is ahead or same as Uploads"
+              echo "has_diff=false" >> $GITHUB_OUTPUT
+            fi
           else
-            echo "Differences found between main and Uploads"
+            echo "Differences found: Uploads is ahead of main"
             echo "has_diff=true" >> $GITHUB_OUTPUT
           fi
       - name: Find existing PR or create new one
