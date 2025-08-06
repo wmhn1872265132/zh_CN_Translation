@@ -6160,7 +6160,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Running `scons` from the source repository will automatically suggest a strategy to install uv when it is not yet available.</source>
-        <target>从源仓库运行 `scons` 时，如果 uv 尚未安装，现在将自动提示安装的策略。</target>
+        <target>从源代码仓库运行 `scons` 时，如果 uv 尚未安装，现在将自动提示安装的策略。</target>
       </segment>
     </unit>
     <unit id="5197e604-3980-4e5c-a393-9631443d3a30">
@@ -6170,7 +6170,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Added the "externalPythonDependencies" category as an extra debug logging category. When enabled, debug logging messages from external dependencies (such as comtypes) will be delivered to NVDA's log. (#18067, @LeonarddeR)</source>
-        <target>添加了 "externalPythonDependencies"（外部 Python 依赖）类别作为额外的调试日志记录分类。启用后，来自外部依赖（如 comtypes）的调试日志消息将发送到 NVDA 的日志中。(#18067, @LeonarddeR)</target>
+        <target>添加了“externalPythonDependencies”（外部 Python 依赖）类别作为额外的调试日志记录分类。启用后，来自外部依赖（如 comtypes）的调试日志消息将发送到 NVDA 的日志中。(#18067, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="10054134-1c80-4aec-a21e-ff9747d683e0">
@@ -6180,7 +6180,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="translated">
         <source>Several additions to report the language of the text being read. (#17685, @nvdaes)</source>
-        <target>增加了多项功能，用于读出正在朗读的文本语言。 (#17685, @nvdaes)</target>
+        <target>添加了多项功能，用于读出正在阅读文本的语言。 (#17685, @nvdaes)</target>
       </segment>
     </unit>
     <unit id="38759c3f-d4ef-41f6-92bd-fdec7eedc257">
