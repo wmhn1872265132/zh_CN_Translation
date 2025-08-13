@@ -6244,9 +6244,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 97</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This quick start guide contains three main sections:</source>
-        <target>This quick start guide contains three main sections:</target>
+        <target>这份快速入门指南包括三个主要部分：</target>
       </segment>
     </unit>
     <unit id="4ad97595-9259-4637-95c7-4ff54b1f9c6e">
@@ -6254,9 +6254,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>[Downloading](#GettingAndSettingUpNVDA): Where to get NVDA and steps for downloading it</source>
-        <target>[Downloading](#GettingAndSettingUpNVDA): Where to get NVDA and steps for downloading it</target>
+        <target>[下载](#GettingAndSettingUpNVDA)：获取 NVDA 的途径及下载步骤</target>
       </segment>
     </unit>
     <unit id="39c50957-87ac-47a3-bfd1-27de3dadbbcf">
@@ -6264,9 +6264,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 100</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>[Initial setup](#SettingUpNVDA): Steps to install and setup NVDA</source>
-        <target>[Initial setup](#SettingUpNVDA): Steps to install and setup NVDA</target>
+        <target>[初始设置](#SettingUpNVDA)：安装与配置 NVDA 的步骤</target>
       </segment>
     </unit>
     <unit id="1d865a44-1f7d-47ef-8412-47b43ec507e8">
@@ -6274,18 +6274,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>[Running NVDA](#RunningNVDA): Commonly used keystrokes and NVDA features</source>
-        <target>[Running NVDA](#RunningNVDA): Commonly used keystrokes and NVDA features</target>
+        <target>[运行 NVDA](#RunningNVDA)：常用快捷键与功能特性</target>
       </segment>
     </unit>
     <unit id="a5c7b6a1-8347-4874-b1d7-38cd5d6fc355">
       <notes>
         <note appliesTo="source">line: 103</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>These are followed by information on [adjusting preferences](#Preferences), [using add-ons](#Addons), [participating in the community](#Community) and [getting help](#GettingHelp).</source>
-        <target>These are followed by information on [adjusting preferences](#Preferences), [using add-ons](#Addons), [participating in the community](#Community) and [getting help](#GettingHelp).</target>
+        <target>在这些内容之后是关于如何[调整选项](#Preferences)、[使用插件](#Addons)，以及[参与 NVDA 社区](#Community)并[获取帮助](#GettingHelp)的说明。</target>
       </segment>
     </unit>
     <unit id="5f09ba0c-cf21-4d40-8252-2ebf07b512be">
@@ -18427,18 +18427,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1933</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This option only exists for Microsoft Speech API version 5 (SAPI 5) voices.</source>
-        <target>This option only exists for Microsoft Speech API version 5 (SAPI 5) voices.</target>
+        <target>此选项仅适用于 Microsoft Speech API version 5（SAPI 5）语音。</target>
       </segment>
     </unit>
     <unit id="2cd80416-82b6-4f55-a9e3-987c9cec7d08">
       <notes>
         <note appliesTo="source">line: 1934</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This may improve the responsiveness of some SAPI 5 voices.</source>
-        <target>This may improve the responsiveness of some SAPI 5 voices.</target>
+        <target>这可能会提高某些 SAPI 5 语音的响应能力。</target>
       </segment>
     </unit>
     <unit id="b84b3b73-0a19-472f-85ed-2331d6590ad9">
@@ -18463,9 +18463,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1938</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note that the following features depend on WASAPI, and will be disabled if WASAPI is turned off:</source>
-        <target>Note that the following features depend on WASAPI, and will be disabled if WASAPI is turned off:</target>
+        <target>请注意，以下功能依赖 WASAPI，关闭后将无法使用：</target>
       </segment>
     </unit>
     <unit id="792d184a-9370-4a86-9453-e713f45aab97">
@@ -18473,9 +18473,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1940</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Rate boost</source>
-        <target>Rate boost</target>
+        <target>语速加倍</target>
       </segment>
     </unit>
     <unit id="8547c5f8-d66e-471b-b256-6d60ec77c988">
@@ -18483,9 +18483,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1941</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Leading silence trimming</source>
-        <target>Leading silence trimming</target>
+        <target>去除语音开头的静音</target>
       </segment>
     </unit>
     <unit id="474c9067-1221-4960-8e6c-604b483eb58a">
@@ -18493,18 +18493,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 1942</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Keep audio device awake</source>
-        <target>Keep audio device awake</target>
+        <target>保持音频设备唤醒</target>
       </segment>
     </unit>
     <unit id="c96b4258-082a-4baa-9755-797d29c19fd6">
       <notes>
         <note appliesTo="source">line: 1944</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note that in Advanced settings, there is a similar [option for SAPI 4 voices](#UseWASAPIForSAPI4), not to be confused with this one.</source>
-        <target>Note that in Advanced settings, there is a similar [option for SAPI 4 voices](#UseWASAPIForSAPI4), not to be confused with this one.</target>
+        <target>请注意，在高级设置中有一个类似的[针对 SAPI 4 语音的选项](#UseWASAPIForSAPI4)，请勿与此选项混淆。</target>
       </segment>
     </unit>
     <unit id="aefb6bcc-25d5-4cba-bc91-f2f8c73e756a">
@@ -26654,9 +26654,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 3328</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Where suitable: Microsoft Word version 16.0.15000 or higher on Windows 11, or where the Microsoft Word object model is unavailable</source>
-        <target>Where suitable: Microsoft Word version 16.0.15000 or higher on Windows 11, or where the Microsoft Word object model is unavailable</target>
+        <target>符合要求时：Windows 11 操作系统且 Microsoft Word 版本不低于 16.0.15000，或者传统的 Word 对象模型不可用</target>
       </segment>
     </unit>
     <unit id="45b2aa5d-6516-47eb-ab46-c14be0c7fa21">
@@ -27642,9 +27642,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 3479</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note that in Speech settings, there is a similar [option for SAPI 5 voices](#SpeechSettingsUseWasapi), not to be confused with this one.</source>
-        <target>Note that in Speech settings, there is a similar [option for SAPI 5 voices](#SpeechSettingsUseWasapi), not to be confused with this one.</target>
+        <target>请注意，在语音设置中有一个类似的[针对 SAPI 5 语音的选项](#SpeechSettingsUseWasapi)，请勿与此选项混淆。</target>
       </segment>
     </unit>
     <unit id="e21a8ba0-863c-413d-bdb2-fef30cfb7f17">
@@ -42442,45 +42442,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5471</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>The Dot Pad driver supports automatic detection of USB-connected devices.</source>
-        <target>The Dot Pad driver supports automatic detection of USB-connected devices.</target>
+        <target>Dot Pad 驱动程序支持自动检测通过 USB 连接的设备。</target>
       </segment>
     </unit>
     <unit id="4e1bb076-9cc3-4040-9729-980e19c2f001">
       <notes>
         <note appliesTo="source">line: 5472</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>However, automatic detection is disabled by default due to the device using generic USB identifiers that could conflict with other devices.</source>
-        <target>However, automatic detection is disabled by default due to the device using generic USB identifiers that could conflict with other devices.</target>
+        <target>但由于该设备使用可能与其他设备冲突的通用 USB 标识符，默认情况下自动检测功能处于禁用状态。</target>
       </segment>
     </unit>
     <unit id="327383a5-47b9-4d12-b4de-51534f059b36">
       <notes>
         <note appliesTo="source">line: 5473</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>To enable automatic detection, go to NVDA's Braille settings and check "Dot Pad" in the automatic detection list.</source>
-        <target>To enable automatic detection, go to NVDA's Braille settings and check "Dot Pad" in the automatic detection list.</target>
+        <target>如需启用自动检测，请在选择盲文点显器对话框的自动检测列表中选中“DotPad 盲文/触觉图形显示”。</target>
       </segment>
     </unit>
     <unit id="5c7d5007-abd4-4104-b3ba-7e431fe99b77">
       <notes>
         <note appliesTo="source">line: 5474</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When automatic detection is enabled and a compatible device is detected, NVDA will automatically connect to it.</source>
-        <target>When automatic detection is enabled and a compatible device is detected, NVDA will automatically connect to it.</target>
+        <target>当启用自动检测并识别到兼容设备时，NVDA 将自动连接到该设备。</target>
       </segment>
     </unit>
     <unit id="fae10437-162f-4757-8818-05cd3b50b0a7">
       <notes>
         <note appliesTo="source">line: 5475</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can also manually select a specific USB or Bluetooth virtual serial port if needed.</source>
-        <target>You can also manually select a specific USB or Bluetooth virtual serial port if needed.</target>
+        <target>您也可以根据需要手动选择特定的 USB 或蓝牙虚拟串行端口。</target>
       </segment>
     </unit>
     <unit id="61fc30b0-e187-44ee-8ef0-10096e52680f">
@@ -43306,36 +43306,36 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ### </note>
         <note appliesTo="source">suffix:  {#UninstallingNVDA}</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Uninstalling NVDA</source>
-        <target>Uninstalling NVDA</target>
+        <target>卸载 NVDA</target>
       </segment>
     </unit>
     <unit id="f968e485-a300-4c2b-a6f2-b10cf98ee860">
       <notes>
         <note appliesTo="source">line: 5596</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA's uninstaller is called `uninstall.exe` and resides under the NVDA installation directory, `%ProgramFiles(x86)%\nvda` on 64-bit Windows, or `%ProgramFiles%\nvda` on 32-bit Windows.</source>
-        <target>NVDA's uninstaller is called `uninstall.exe` and resides under the NVDA installation directory, `%ProgramFiles(x86)%\nvda` on 64-bit Windows, or `%ProgramFiles%\nvda` on 32-bit Windows.</target>
+        <target>NVDA 的卸载程序名为 `uninstall.exe`，位于 NVDA 的安装目录下：64 位 Windows 系统路径为 `%ProgramFiles(x86)%\nvda`，32 位 Windows 系统路径为 `%ProgramFiles%\nvda`。</target>
       </segment>
     </unit>
     <unit id="1e697e5d-f8ea-437e-97b2-95a272e0c8e9">
       <notes>
         <note appliesTo="source">line: 5599</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note: It is possible to stop NVDA from starting automatically without needing to uninstall NVDA.</source>
-        <target>Note: It is possible to stop NVDA from starting automatically without needing to uninstall NVDA.</target>
+        <target>注意：您无需卸载 NVDA 即可阻止其自动启动。</target>
       </segment>
     </unit>
     <unit id="80bd7fda-541e-475e-b930-1f388dd52608">
       <notes>
         <note appliesTo="source">line: 5600</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>To stop NVDA starting automatically, please refer to the options: [Start NVDA after I sign in](#GeneralSettingsStartAfterLogOn) and [Use NVDA during sign-in](#GeneralSettingsStartOnLogOnScreen) in NVDA's general settings.</source>
-        <target>To stop NVDA starting automatically, please refer to the options: [Start NVDA after I sign in](#GeneralSettingsStartAfterLogOn) and [Use NVDA during sign-in](#GeneralSettingsStartOnLogOnScreen) in NVDA's general settings.</target>
+        <target>如需设置，请参考 NVDA 常规设置中的[登录后启动 NVDA](#GeneralSettingsStartAfterLogOn)以及[在欢迎界面启用 NVDA](#GeneralSettingsStartOnLogOnScreen)选项。</target>
       </segment>
     </unit>
     <unit id="78471aa2-a82b-4a62-a572-956b2eb37d55">
@@ -43351,18 +43351,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 5604</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Installed copies of NVDA store their configuration including add-ons in `%APPDATA%\nvda`.</source>
-        <target>Installed copies of NVDA store their configuration including add-ons in `%APPDATA%\nvda`.</target>
+        <target>安装版 NVDA 将其配置及插件存储在 `%APPDATA%\NVDA` 文件夹中。</target>
       </segment>
     </unit>
     <unit id="2f993636-a064-4d88-9b5d-a776ed7e0f06">
       <notes>
         <note appliesTo="source">line: 5605</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>These files are not removed by NVDA's uninstaller.</source>
-        <target>These files are not removed by NVDA's uninstaller.</target>
+        <target>NVDA 的卸载程序不会删除这些文件。</target>
       </segment>
     </unit>
     <unit id="8b3a8a3d-3f66-49c6-8793-3ffed70368ff">
