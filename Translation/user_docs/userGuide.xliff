@@ -6285,7 +6285,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>These are followed by information on [adjusting preferences](#Preferences), [using add-ons](#Addons), [participating in the community](#Community) and [getting help](#GettingHelp).</source>
-        <target>在这些内容之后是关于如何[调整选项](#Preferences)、[使用插件](#Addons)，以及[参与 NVDA 社区](#Community)并[获取帮助](#GettingHelp)的说明。</target>
+        <target>在这些内容之后是关于如何[调整选项](#Preferences)、[获取插件](#Addons)，以及[参与 NVDA 社区](#Community)并[获取帮助](#GettingHelp)的说明。</target>
       </segment>
     </unit>
     <unit id="5f09ba0c-cf21-4d40-8252-2ebf07b512be">
