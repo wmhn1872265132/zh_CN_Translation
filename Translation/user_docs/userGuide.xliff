@@ -25774,45 +25774,45 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#RemoteMuteOnLocalControl}</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Mute when controlling the local computer</source>
-        <target>Mute when controlling the local computer</target>
+        <target>控制本地计算机时静音</target>
       </segment>
     </unit>
     <unit id="6cba0605-753a-480c-a98c-b44a4f4fcaf7">
       <notes>
         <note appliesTo="source">line: 3180</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This option controls whether you can hear speech and sounds from the remote computer when controlling the local computer.</source>
-        <target>This option controls whether you can hear speech and sounds from the remote computer when controlling the local computer.</target>
+        <target>此选项用于控制当您操作本地计算机时，是否可以听到远程计算机的语音和声音。</target>
       </segment>
     </unit>
     <unit id="dcbe7bef-1fed-4c3f-9a09-b4b52ecc3ef5">
       <notes>
         <note appliesTo="source">line: 3182</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When checked, Remote Access will be muted automatically when first connecting as the controlling computer, and when switching to controlling the local computer.</source>
-        <target>When checked, Remote Access will be muted automatically when first connecting as the controlling computer, and when switching to controlling the local computer.</target>
+        <target>选中此项后，远程访问将在首次作为主控端连接时自动静音，并在切换到控制本地计算机时保持静音状态。</target>
       </segment>
     </unit>
     <unit id="81a7ab1b-fbf1-489b-80b4-5d2f7948bb42">
       <notes>
         <note appliesTo="source">line: 3183</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When unchecked, Remote Access sessions start unmuted, and must be muted explicitly.</source>
-        <target>When unchecked, Remote Access sessions start unmuted, and must be muted explicitly.</target>
+        <target>取消选中时，远程访问会话将以非静音状态启动，需要手动执行静音操作。</target>
       </segment>
     </unit>
     <unit id="c6638271-ce78-4e38-908d-71a0ba152e85">
       <notes>
         <note appliesTo="source">line: 3185</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can still manually mute or unmute Remote Access when controlling the local computer [via the Remote Access menu](#RemoteAccessUsage), or by assigning a custom gesture using the [Input Gestures dialog](#InputGestures).</source>
-        <target>You can still manually mute or unmute Remote Access when controlling the local computer [via the Remote Access menu](#RemoteAccessUsage), or by assigning a custom gesture using the [Input Gestures dialog](#InputGestures).</target>
+        <target>您仍可在控制本地计算机时通过[远程访问菜单](#RemoteAccessUsage)或通过[按键与手势对话框](#InputGestures)分配自定义快捷键来手动切换静音状态。</target>
       </segment>
     </unit>
     <unit id="4b142507-9401-4d1f-b8da-cb443c3cb501">
@@ -30123,7 +30123,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Send clipboard | None | Sends the contents of the clipboard to the remote computer. </source>
-        <target> 发送剪贴板 | 无 | 将剪贴板内容发送到远程计算机。 </target>
+        <target> 发送剪贴板 | 无 | 发送剪贴板的内容到远程计算机。 </target>
       </segment>
     </unit>
     <unit id="0a7f4c49-6f48-43a5-9d35-8e8aee3de81f">
@@ -30132,9 +30132,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: |</note>
         <note appliesTo="source">suffix: |</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source> Send `control+alt+delete` | None | Sends `control+alt+delete` to the controlled computer. </source>
-        <target> Send `control+alt+delete` | None | Sends `control+alt+delete` to the controlled computer. </target>
+        <target> 发送 `Ctrl+Alt+Delete` | 无 | 发送 `Ctrl+Alt+Delete` 到被控计算机。 </target>
       </segment>
     </unit>
     <unit id="94267446-c550-43a5-80a9-d9596e6f85fd">

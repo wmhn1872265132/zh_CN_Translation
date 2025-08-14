@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-14 07:48+0000\n"
-"PO-Revision-Date: 2025-08-14 07:54\n"
+"PO-Revision-Date: 2025-08-14 08:25\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -13796,7 +13796,7 @@ msgstr "被控时断开连接前确认"
 #: gui\settingsDialogs.py:3410
 msgctxt "remote"
 msgid "&Mute when controlling the local computer"
-msgstr ""
+msgstr "控制本地计算机时静音(&M)"
 
 #. Translators: A checkbox in Remote Access settings to set whether NVDA should automatically connect to a control server on startup.
 #: gui\settingsDialogs.py:3420
