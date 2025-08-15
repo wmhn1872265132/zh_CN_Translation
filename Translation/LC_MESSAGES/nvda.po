@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 04:54+0000\n"
-"PO-Revision-Date: 2025-08-14 08:25\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2025-08-15 13:03+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: nvda.pot\n"
 "X-Crowdin-File-ID: 2\n"
+"X-Generator: Poedit 3.5\n"
 
 #. Translators: A mode  that allows typing in the actual 'native' characters for an east-Asian input method language currently selected, rather than alpha numeric (Roman/English) characters.
 #: NVDAHelper.py:486
@@ -11992,15 +11993,13 @@ msgstr "您尝试打开的设置面板在此系统上不可用。"
 #. Translators: A message when the version number is copied to clipboard
 #. from the about dialog
 #: gui\__init__.py:404
-#, fuzzy
-#| msgid "Copied to clipboard: {text}"
 msgid "Copied to clipboard"
-msgstr "已复制 {text} 到剪贴板"
+msgstr "已复制到剪贴板"
 
 #. Translators: The label for a button to copy the NVDA version number from the about dialog.
 #: gui\__init__.py:410
 msgid "&Copy version number"
-msgstr ""
+msgstr "复制版本号(&C)"
 
 #. Translators: The title of the dialog to show about info for NVDA.
 #: gui\__init__.py:415 gui\__init__.py:864
