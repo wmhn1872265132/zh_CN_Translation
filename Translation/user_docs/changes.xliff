@@ -5609,7 +5609,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>This release includes improvements to Remote Access, SAPI5 voices, braille and the Add-on Store.</source>
-        <target>此版本包含对远程访问、SAPI5 语音、盲文及插件商店的多项改进。</target>
+        <target>本版包含对远程访问、SAPI5 语音、盲文及插件商店等方面的多项改进。</target>
       </segment>
     </unit>
     <unit id="f41a89ed-08c0-48e3-aa05-e080d31a610e">
@@ -5618,7 +5618,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Add-ons in the Add-on Store can now be sorted by minimum/last tested NVDA version and install date.</source>
-        <target>插件商店中的插件支持按最低/最后测试的 NVDA 版本及安装日期进行排序。</target>
+        <target>插件商店中的插件支持按 NVDA 版本最低要求、最后测试的 NVDA 版本以及安装日期进行排序。</target>
       </segment>
     </unit>
     <unit id="7d879cfa-1aca-4286-b37c-f64fd4697755">
@@ -5702,7 +5702,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Add-ons can be sorted by minimum and last tested NVDA version as well as by installation date. (#18440, #18560, @nvdaes, @CyrilleB79)</source>
-        <target>插件现可按NVDA 版本最低要求、最后测试的 NVDA 版本以及安装日期进行排序。(#18440, #18560, @nvdaes, @CyrilleB79)</target>
+        <target>插件现可按 NVDA 版本最低要求、最后测试的 NVDA 版本以及安装日期进行排序。(#18440, #18560, @nvdaes, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="41a84aad-77f9-4b0a-8cdc-8127a7e0015a">
@@ -5879,7 +5879,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The NVDA Remote Access connection dialog now remembers the most recent connection mode, server type and locally hosted port of manual connections. (#18512, #18701)</source>
-        <target>远程访问的连接到另一台计算机对话框现会记住最近连接的模式、服务器类型和本地托管端口。(#18512, #18701)</target>
+        <target>远程访问的连接到另一台计算机对话框现会记住上次手动连接时所选的模式、服务器类型和本地托管端口。(#18512, #18701)</target>
       </segment>
     </unit>
     <unit id="9ff079b7-a64e-4b66-940a-767f60586c07">
