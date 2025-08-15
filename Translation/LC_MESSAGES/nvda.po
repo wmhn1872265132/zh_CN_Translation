@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 08:22+0000\n"
-"PO-Revision-Date: 2025-08-15 13:03+0800\n"
+"PO-Revision-Date: 2025-08-15 16:44+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -566,7 +566,7 @@ msgstr "smp"
 #. Translators: Displayed in braille when an object supports multiple selected items.
 #: braille.py:283
 msgid "msel"
-msgstr ""
+msgstr "msel"
 
 #. Translators: Displayed in braille when an object is not selected.
 #: braille.py:287
@@ -750,7 +750,7 @@ msgstr "vlnk"
 #. Translators: Displayed in braille for a multi select list.
 #: braille.py:715
 msgid "mslst"
-msgstr ""
+msgstr "mslst"
 
 #. Translators: Brailled to indicate the position of an item in a group of items (such as a list).
 #. {number} is replaced with the number of the item in the group.
@@ -11843,10 +11843,8 @@ msgstr "相同页"
 #. Translators: Presented when the control allows multiple selected objects.
 #. For example, a list box that allows selecting multiple items.
 #: controlTypes\state.py:216
-#, fuzzy
-#| msgid "multi line"
 msgid "multi-select"
-msgstr "多行"
+msgstr "可多选"
 
 #. Translators: This is presented when a selectable object (e.g. a list item) is not selected.
 #: controlTypes\state.py:222
@@ -13853,7 +13851,7 @@ msgstr "在对象位置信息不可用时进行推测(&P)"
 #. object presentation settings panel.
 #: gui\settingsDialogs.py:2483
 msgid "Report when lists support &multiple selection"
-msgstr ""
+msgstr "列表支持多选时提示(&M)"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
