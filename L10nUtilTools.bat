@@ -68,6 +68,10 @@ echo GEK：生成热键快速参考的 html 文件；
 echo GEL：生成界面翻译的 mo 文件；  
 echo GET：生成翻译测试文件（不压缩）；  
 echo GEZ：生成翻译测试文件的压缩包；  
+echo GMC：生成更新日志的 Markdown 文件；  
+echo GMU：生成用户指南的 Markdown 文件；  
+echo MHC：从先前创建的 Markdown 文档生成更新日志的 html 文件；  
+echo MHU：从先前创建的 Markdown 文档生成用户指南的 html 文件；  
 echo UDL：从给定的 nvda.pot 更新 nvda.po 的翻译字符串；  
 echo UPC：上传已翻译的 changes.xliff 文件到 Crowdin；  
 echo UPU：上传已翻译的 userGuide.xliff 文件到 Crowdin；  
@@ -130,6 +134,10 @@ Rem 处理标签，初始化变量
 :GEL
 :GET
 :GEZ
+:GMC
+:GMU
+:MHC
+:MHU
 :DLL
 :DLC
 :DLU
@@ -143,6 +151,8 @@ Rem 处理标签，初始化变量
 :UPU
 :UPA
 if /I  %CLI:~0,2%==GE (set Action=GenerateFiles)
+if /I  %CLI:~0,2%==GM (set Action=GenerateMarkdown)
+if /I  %CLI:~0,2%==MH (set Action=GenerateHTML)
 if /I  %CLI:~0,2%==DL (set Action=DownloadFiles)
 if /I  %CLI:~0,2%==DC (
   cd /d "%~dp0"
@@ -266,6 +276,25 @@ for %%i in (%CallForEachParameter%) do (
 if /I "%Action%" == "GenerateFiles" (goto TranslationTest)
 if /I "%Action%" == "DownloadAndCommit" (goto Commit)
 exit /b %errorlevel%
+
+Rem 生成文档的 Markdown 版本
+:GenerateMarkdown
+IF NOT EXIST "%~dp0Preview\Markdown" (MKDir "%~dp0Preview\Markdown")
+IF EXIST "%~dp0Preview\Markdown\%ShortName%.md" (del /f /q "%~dp0Preview\Markdown\%ShortName%.md")
+%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0Preview\Markdown\%ShortName%.md"
+set ExitCode=!errorlevel!
+goto Quit
+
+Rem 从 Markdown 文件生成 HTML 文件  
+:GenerateHTML
+IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 %ShortName%.md，请先生成该文件后重试。',5,'错误');window.close();"
+  exit /b 1
+)
+IF EXIST "%~dp0Preview\%ShortName%.html" (del /f /q "%~dp0Preview\%ShortName%.html")
+%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0Preview\Markdown\%ShortName%.md" "%~dp0Preview\%ShortName%.html"
+set ExitCode=!errorlevel!
+goto Quit
 
 Rem 从 Crowdin 下载已翻译的文件  
 :DownloadFiles
