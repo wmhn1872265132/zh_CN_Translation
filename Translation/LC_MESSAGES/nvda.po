@@ -7521,12 +7521,9 @@ msgstr ""
 "件，但在重新发布时必须包含本协议，同时必须公开原版和修改版的源代码，并附上任"
 "何用本软件的源代码所产生的软件。\n"
 "关于本授权协议的详情,您可以通过“帮助”菜单的“版权信息”访问。\n"
-"您也可参看以下网页：https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n"
-"\n"
-"{name} 是由非赢利组织“NV Access”开发的一个用于协助视障用户的免费且开放源代码"
-"的解决方案。\n"
-"若您觉的 NVDA 很实用，并希望他可以继续发展，请赞助“NV Access”。您可以通"
-"过“NVDA 菜单”下的“捐赠”菜单打开捐赠页面进行捐赠。"
+"您也可参看以下网页：https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n\n"
+"{name} 是由非赢利组织“NV Access”开发的一个用于协助视障用户的免费且开放源代码的解决方案。\n"
+"如果您觉得 NVDA 对您很有帮助，并希望它能不断完善，请考虑向 NV Access 捐款。您可通过 NVDA 菜单中的“立即捐赠”选项完成操作。"
 
 #. Translators: the message that is shown when the user tries to install an add-on
 #. from windows explorer and NVDA is not running.
