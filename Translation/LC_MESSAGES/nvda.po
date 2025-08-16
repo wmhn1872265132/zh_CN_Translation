@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 08:22+0000\n"
-"PO-Revision-Date: 2025-08-15 16:44+0800\n"
+"PO-Revision-Date: 2025-08-16 08:45+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -13851,7 +13851,7 @@ msgstr "在对象位置信息不可用时进行推测(&P)"
 #. object presentation settings panel.
 #: gui\settingsDialogs.py:2483
 msgid "Report when lists support &multiple selection"
-msgstr "列表支持多选时提示(&M)"
+msgstr "读出列表的可多选状态(&M)"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
