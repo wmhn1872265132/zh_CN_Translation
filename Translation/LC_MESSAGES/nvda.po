@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-14 07:48+0000\n"
-"PO-Revision-Date: 2025-08-14 08:25\n"
+"POT-Creation-Date: 2025-08-15 03:44+0000\n"
+"PO-Revision-Date: 2025-08-16 01:21\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4787,7 +4787,7 @@ msgstr "断开与当前远程访问会话的连接"
 #. Translators: A message indicating that the remote client is not connected.
 #: globalCommands.py:5008 _remoteClient\client.py:125
 #: _remoteClient\client.py:152 _remoteClient\client.py:174
-#: _remoteClient\client.py:190 _remoteClient\client.py:550
+#: _remoteClient\client.py:190 _remoteClient\client.py:548
 msgctxt "remote"
 msgid "Not connected"
 msgstr "未连接"
@@ -7212,7 +7212,7 @@ msgstr "{longName}（{name}）\n"
 "关于本授权协议的详情,您可以通过“帮助”菜单的“版权信息”访问。\n"
 "您也可参看以下网页：https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n\n"
 "{name} 是由非赢利组织“NV Access”开发的一个用于协助视障用户的免费且开放源代码的解决方案。\n"
-"若您觉的 NVDA 很实用，并希望他可以继续发展，请赞助“NV Access”。您可以通过“NVDA 菜单”下的“捐赠”菜单打开捐赠页面进行捐赠。"
+"如果您觉得 NVDA 对您很有帮助，并希望它能不断完善，请考虑向 NV Access 捐款。您可通过 NVDA 菜单中的“立即捐赠”选项完成操作。"
 
 #. Translators: the message that is shown when the user tries to install an add-on
 #. from windows explorer and NVDA is not running.
@@ -18578,7 +18578,7 @@ msgstr "安全桌面"
 #. Translators: Presented when attempting to send control+alt+delete when connected as the controlled computer.
 #. Translators: Presented when attempting to switch to controling a remote computer when connected as the controlled computer.
 #: _remoteClient\client.py:129 _remoteClient\client.py:193
-#: _remoteClient\client.py:554
+#: _remoteClient\client.py:552
 msgctxt "remote"
 msgid "Not the controlling computer"
 msgstr "非主控计算机"
@@ -18633,13 +18633,13 @@ msgid "Unable to connect to the remote computer"
 msgstr "无法连接到远程计算机"
 
 #. Translators: Message shown when trying to connect while already connected.
-#: _remoteClient\client.py:318 _remoteClient\client.py:647
+#: _remoteClient\client.py:318 _remoteClient\client.py:645
 msgctxt "remote"
 msgid "A Remote Access session is already in progress. Disconnect before starting a new session."
 msgstr "远程访问会话已在进行中。开始新会话前请先断开连接。"
 
 #. Translators: Title of the connection error dialog.
-#: _remoteClient\client.py:321 _remoteClient\client.py:650
+#: _remoteClient\client.py:321 _remoteClient\client.py:648
 msgctxt "remote"
 msgid "Already Connected"
 msgstr "已连接"
@@ -18655,32 +18655,26 @@ msgstr "连接到另一台计算机"
 msgid "Connected"
 msgstr "已连接"
 
-#. Translators: Presented when connection to a remote computer was interupted.
-#. Translators: Message shown when the connection to the remote computer is lost.
-#: _remoteClient\client.py:396 _remoteClient\cues.py:28
-msgid "Disconnected"
-msgstr "已断开"
-
 #. Translators: Presented when attempting to switch to controling a remote computer when there are no controllable computers in the channel.
-#: _remoteClient\client.py:558
+#: _remoteClient\client.py:556
 msgctxt "remote"
 msgid "No controlled computers are connected"
 msgstr "被控计算机未连接"
 
 #. Translators: Presented when keyboard control is back to the controlling computer.
-#: _remoteClient\client.py:572
+#: _remoteClient\client.py:570
 msgctxt "remote"
 msgid "Controlling local computer"
 msgstr "控制本地计算机"
 
 #. Translators: Presented when sending keyboard keys from the controlling computer to the controlled computer.
-#: _remoteClient\client.py:583
+#: _remoteClient\client.py:581
 msgctxt "remote"
 msgid "Controlling remote computer"
 msgstr "控制远程计算机"
 
 #. Translators: Ask the user if they want to control the remote computer.
-#: _remoteClient\client.py:665
+#: _remoteClient\client.py:663
 #, python-brace-format
 msgctxt "remote"
 msgid "Do you wish to control the computer on server {server} with key {key}?"
@@ -18688,7 +18682,7 @@ msgstr "您要控制远程计算机嗎？\n"
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Ask the user if they want to allow the remote computer to control this computer.
-#: _remoteClient\client.py:671
+#: _remoteClient\client.py:669
 #, python-brace-format
 msgctxt "remote"
 msgid "Do you wish to allow this computer to be controlled on server {server} with key {key}?"
@@ -18696,10 +18690,15 @@ msgstr "您要允许此计算机被控制吗？\n"
 "服务器: {server}，秘钥: {key}"
 
 #. Translators: Title of the connection request dialog.
-#: _remoteClient\client.py:677
+#: _remoteClient\client.py:675
 msgctxt "remote"
 msgid "Remote Access Connection Request"
 msgstr "远程访问连接请求"
+
+#. Translators: Message shown when the connection to the remote computer is lost.
+#: _remoteClient\cues.py:28
+msgid "Disconnected"
+msgstr "已断开"
 
 #. Translators: Presented in direct (client to server) Remote Access connection when the controlled computer is ready.
 #: _remoteClient\cues.py:33
