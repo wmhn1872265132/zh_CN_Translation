@@ -72,6 +72,8 @@ echo GMC：生成更新日志的 Markdown 文件；
 echo GMU：生成用户指南的 Markdown 文件；  
 echo MHC：从先前创建的 Markdown 文档生成更新日志的 html 文件；  
 echo MHU：从先前创建的 Markdown 文档生成用户指南的 html 文件；  
+echo MXC：从先前创建的 Markdown 文档生成更新日志的 xliff 文件；  
+echo MXU：从先前创建的 Markdown 文档生成用户指南的 xliff 文件；  
 echo UDL：从给定的 nvda.pot 更新 nvda.po 的翻译字符串；  
 echo UPC：上传已翻译的 changes.xliff 文件到 Crowdin；  
 echo UPU：上传已翻译的 userGuide.xliff 文件到 Crowdin；  
@@ -138,6 +140,8 @@ Rem 处理标签，初始化变量
 :GMU
 :MHC
 :MHU
+:MXC
+:MXU
 :DLL
 :DLC
 :DLU
@@ -153,6 +157,7 @@ Rem 处理标签，初始化变量
 if /I  %CLI:~0,2%==GE (set Action=GenerateFiles)
 if /I  %CLI:~0,2%==GM (set Action=GenerateMarkdown)
 if /I  %CLI:~0,2%==MH (set Action=GenerateHTML)
+if /I  %CLI:~0,2%==MX (set Action=GenerateXLIFF)
 if /I  %CLI:~0,2%==DL (set Action=DownloadFiles)
 if /I  %CLI:~0,2%==DC (
   cd /d "%~dp0"
@@ -294,6 +299,38 @@ IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
 IF EXIST "%~dp0Preview\%ShortName%.html" (del /f /q "%~dp0Preview\%ShortName%.html")
 %L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0Preview\Markdown\%ShortName%.md" "%~dp0Preview\%ShortName%.html"
 set ExitCode=!errorlevel!
+goto Quit
+
+Rem 从 Markdown 文档生成 xliff
+:GenerateXLIFF
+for /f "usebackq tokens=* delims=" %%L in ("%~dp0.NVDASourceCodePath") do (
+  set "line=%%L"
+  if "!line:~0,1!" neq "#" if "!line:~0,1!" neq ";" (
+    if exist "!line!\source\markdownTranslate.py" (
+      set "NVDASourceCodePath=!line!"
+      goto path_found
+    )
+  )
+)
+if not defined NVDASourceCodePath (
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('为找到本地 NVDA 代码仓库，请在 ".NVDASourceCodePath" 文件中添加您的本地 NVDA 代码仓库路径后重试。',5,'错误');window.close();"
+  exit /b 1
+)
+:path_found
+powershell -ExecutionPolicy Bypass -NoProfile -File "%NVDASourceCodePath%\ensureuv.ps1" --directory "%NVDASourceCodePath%" sync
+if %errorlevel% neq 0 (
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('NVDA 代码仓库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
+  echo 请按任意键退出...
+  Pause>Nul
+  exit /b 1
+)
+IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误');window.close();"
+  exit /b 1
+)
+move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%FileName%"
+uv --directory "%NVDASourceCodePath%" run "%NVDASourceCodePath%\source\markdownTranslate.py" translateXliff -x "%NVDASourceCodePath%\user_docs\en\%FileName%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
+set ExitCode=%errorlevel%
 goto Quit
 
 Rem 从 Crowdin 下载已翻译的文件  

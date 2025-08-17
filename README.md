@@ -94,6 +94,8 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 | `GMU` | 生成用户指南的 Markdown 文件。 |
 | `MHC` | 从先前创建的 Markdown 文档生成更新日志的 html 文件。 |
 | `MHU` | 从先前创建的 Markdown 文档生成用户指南的 html 文件。 |
+| `MXC` | 从先前创建的 Markdown 文档生成更新日志的 xliff 文件。 |
+| `MXU` | 从先前创建的 Markdown 文档生成用户指南的 xliff 文件。 |
 | `UDL` | 从给定的 nvda.pot 更新 nvda.po 的翻译字符串。 |
 | `UPC` | 上传已翻译的 changes.xliff 文件到 Crowdin。 |
 | `UPU` | 上传已翻译的 userGuide.xliff 文件到 Crowdin。 |
@@ -116,6 +118,14 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 - `GET` 命令生成的文件位于 `Preview\Test` 文件夹下，这些文件符合 NVDA 的文件结构，可直接复制到 NVDA 程序所在文件夹进行测试。
 - `GEZ` 命令生成的压缩包位于 `Preview\Archive` 文件夹下，该压缩包符合 NVDA 的文件结构，可直接解压到 NVDA 程序所在文件夹进行测试。
 - `GMC`、`GMU` 命令生成的文件位于 `Preview\Markdown` 文件夹下。
+- `MXC`、`MXU` 命令使用前需要
+
+  - 根据 [创建 NVDA 开发环境（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/dev/createDevEnvironment.md)文档准备 NVDA 本地代码仓库并配置 Python 环境。
+  - 将您的本地 NVDA 代码仓库路径（无需引号）添加到 `.NVDASourceCodePath` 文件中。
+  - 准备必须环境后，通过该命令即可以 NVDA 本地代码仓库当前分支的 `user_docs\en` 中的相应 xliff文件为模板生成所需 xliff 文件。
+    生成的文件会直接替换存储库的原始 xliff 文件以便于将其上传到 Crowdin，因此在执行该命令前，请确保原始文件的翻译更改已提交到存储库。
+    此外，由于该命令生成的 xliff 文件与从 Crowdin 获取文件的缩进不同，因此请勿将使用该命令生成的文件提交到本存储库，可先在本地上传该文件到 Crowdin，随后再从 Crowdin 下载该文件并提交。
+
 - `UDL` 命令使用前，需要将用于更新 nvda.po 的 nvda.pot 翻译模板复制到存储库的 `PotXliff` 文件夹，并且该命令会直接替换存储库的原始 nvda.po 文件，因此在执行该命令前，请确保原始文件的翻译更改已提交到存储库。
 - `UPC`、`UPU` 和 `UPA` 命令使用前，需要将原始 xliff 文件复制到存储库的 `PotXliff` 文件夹，如未检测到所需文件，系统会从存储库的 `main` 分支提取。
 - 从 Crowdin 上传或下载文件时，需要 Crowdin 的个人访问令牌，可从 [Crowdin 的账号设置](https://zh.crowdin.com/settings#api-key)页面创建。
