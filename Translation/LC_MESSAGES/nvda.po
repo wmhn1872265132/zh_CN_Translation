@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-22 01:49+0000\n"
-"PO-Revision-Date: 2025-08-22 01:53\n"
+"PO-Revision-Date: 2025-08-22 01:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -9745,7 +9745,7 @@ msgstr "泰语 2 级盲文"
 #. braille settings dialog.
 #: brailleTables\__tables.py:564
 msgid "Turkish 8 dot computer braille"
-msgstr ""
+msgstr "土耳其语 8 点计算机盲文"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
