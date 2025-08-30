@@ -1,4 +1,4 @@
-name: Upload Translations
+name: Upload NVDA translations to Crowdin
 
 on:
   push:
