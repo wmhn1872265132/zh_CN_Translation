@@ -17,7 +17,7 @@ concurrency:
 jobs:
   Check-NVDA-Repository-Update:
     name: Check NVDA repository update
-    if: ${{ vars.RunCheckPot }}
+    if: ${{ vars.Run_CheckPot_Workflow }}
     runs-on: ubuntu-latest
     outputs:
       has_update: ${{ steps.check_update.outputs.has_update }}
@@ -55,7 +55,8 @@ jobs:
           fi
 
   Determine-Branch:
-    if: ${{ vars.RunCheckPot }}
+    name: Determine branch
+    if: ${{ vars.Run_CheckPot_Workflow }}
     runs-on: ubuntu-latest
     outputs:
       branch: ${{ steps.Determine_branch.outputs.Branch }}
@@ -165,6 +166,7 @@ jobs:
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
               git commit -m "更新 NVDA 界面消息翻译字符串（alpha-${{ steps.Set_Environment_Variables.outputs.commit }}）"
+              git pull --rebase
               git push origin ${{ needs.Determine-Branch.outputs.branch }}:${{ needs.Determine-Branch.outputs.branch }}
           } else {
               Write-Host "No changes to commit, skipping commit and push."
