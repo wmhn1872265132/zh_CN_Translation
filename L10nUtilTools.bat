@@ -304,20 +304,15 @@ goto Quit
 
 Rem 从 Markdown 文档生成 xliff
 :GenerateXLIFF
-for /f "usebackq tokens=* delims=" %%L in ("%~dp0.NVDASourceCodePath") do (
-  set "line=%%L"
-  if "!line:~0,1!" neq "#" if "!line:~0,1!" neq ";" (
-    if exist "!line!\source\markdownTranslate.py" (
-      set "NVDASourceCodePath=!line!"
-      goto path_found
-    )
-  )
+set NVDASourceCodePath=%~dp0Tools\NVDA
+IF NOT EXIST "%NVDASourceCodePath%" (
+  set PromptInformation=请输入您的本地 NVDA 源代码存储库路径（无需引号），按回车键确认。  
+  set TargetPath=%NVDASourceCodePath%
+  set VerifyFile=source\markdownTranslate.py
+  set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
+  goto SetPersonalSourcePath
 )
-if not defined NVDASourceCodePath (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('为找到本地 NVDA 代码仓库，请在 ".NVDASourceCodePath" 文件中添加您的本地 NVDA 代码仓库路径后重试。',5,'错误');window.close();"
-  exit /b 1
-)
-:path_found
+:NVDASourceCodePathSetSuccessfully
 powershell -ExecutionPolicy Bypass -NoProfile -File "%NVDASourceCodePath%\ensureuv.ps1" --directory "%NVDASourceCodePath%" sync
 if %errorlevel% neq 0 (
   mshta "javascript:new ActiveXObject('wscript.shell').popup('NVDA 代码仓库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
