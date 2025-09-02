@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/pcKbBrl/00fae8e8de5c9eb938f55160c49c96deeefc6bb6/readme.md">
+    <skeleton>
+# $(ID:15942fa8-2ccb-4810-90a4-cab58fdeff42)
+
+* $(ID:38888c4d-e0da-4bcb-8e4f-1ad3d6b6303f)
+* $(ID:0d23b248-e30c-4c88-bae7-fdf3da911044)
+* $(ID:9889a1c5-1f81-4269-b176-18c7b588afb3)
+
+$(ID:5aff34c5-1a26-4761-86b6-1ecd12029744)
+$(ID:8f089703-29fb-411c-8e67-e4cb69b0c823)
+
+* $(ID:881d0a39-3c76-43b6-9e6b-650917409aa4)
+* $(ID:8072adb6-1433-4c30-aa30-033b465292eb)
+* $(ID:32d5c0ca-f82b-4907-aa6c-f7aef8acc24a)
+* $(ID:bbd5d7e2-41fd-40c3-a4e0-87069e99266f)
+* $(ID:7eba395e-00aa-4c2d-9ddd-1690474d9387)
+* $(ID:2a7f296e-c485-4813-86f8-cfab0458cbcc)
+* $(ID:4604234a-d7fa-43d4-9454-47965234a62b)
+* $(ID:4a83595c-af7b-46c1-b87b-ac5da1b546c7)
+
+## $(ID:32493b4b-5145-4697-a636-db889fdde60d)
+
+$(ID:b299c168-ffb2-4917-961b-1253a46a2586)
+
+$(ID:d22e0960-cecf-4dab-9061-078d8e4b214d)
+
+$(ID:bb666ef6-4159-43b3-9c7f-0cae0d66050b)
+
+$(ID:77bb772c-e7ed-47a4-8713-22603a5499dd)
+
+$(ID:249980fb-06eb-4645-a50f-c2914908f2fd)
+
+$(ID:e0012a4e-057c-426e-9d4a-7ede240da5f2)
+
+## $(ID:1f47c812-6f3a-4071-91c6-0a52f532dac2)
+
+1. $(ID:47f09080-e92b-44e6-a861-aca89d20c943)
+2. $(ID:d3eaa49d-aa27-4484-b852-126f4f28b7e3)
+	* $(ID:18bb04dc-d183-4714-8560-44144382e881)
+		* $(ID:b8a08fba-9dd8-4818-871d-b79049cdcb53)
+		* $(ID:d6114296-aff1-47b8-93b7-f03929018eb9)
+		* $(ID:5cf707c9-421e-46fa-b288-3103c8d6e36c)
+		* $(ID:b8a2fc07-07e0-4fb1-b693-3e4ce4886c83)
+	* $(ID:cde307b6-ad2e-4923-80ea-94c75f9bbb96)
+		* $(ID:b2ca13c4-747a-4921-a9fb-9c8063098094)
+		* $(ID:179a2402-6555-4690-9c0c-d3d69ac16c5a)
+3. $(ID:a03de755-f952-4d7e-9ceb-bed4245c5de8)
+4. $(ID:85d0d5aa-2b0b-4af4-8e87-6862f49032d0)
+5. $(ID:7d438304-6414-4c4f-b282-be730ad91390)
+
+## $(ID:34974740-7a25-4ed3-bb13-fbdc7accca14)
+
+$(ID:203ba18b-b00d-4468-8ad8-be623fcb92c6)
+$(ID:e369e286-4253-4329-bd92-f10f8badc519)
+
+$(ID:8fd83ae8-92ae-4bae-b315-a958af11c70c)
+$(ID:639b90f4-5a8a-427a-9b18-11984fa17990)
+$(ID:0d19cc71-826d-40f0-96b6-36bf6e0b8f0c)
+$(ID:9c14e75e-ac90-4a02-9cec-dd3d385a2cfd)
+
+## $(ID:d5e14c2d-60b8-48b8-99f1-1a9aece597b7)
+
+* $(ID:ffb78087-8c7a-48bf-9164-69464028cdcb)
+
+## $(ID:22264b05-35b9-4092-96f3-bdeba8cb004d)
+
+* $(ID:4ace459c-ae37-4213-8017-491138fea4f6)
+
+## $(ID:adc0142a-3c7f-4461-a81f-b00a0b7b4968)
+
+* $(ID:35f74130-9655-4fe0-a36b-754643062d9a)
+* $(ID:7ccc91a2-1b5d-47be-b3e6-04fddff41fc5)
+* $(ID:f29179f0-0a15-4200-bb8b-cbfe37ecc3af)
+* $(ID:0e5a644c-7a3c-4ffd-b036-cfba856f7ec8)
+
+## $(ID:1bdd9995-9dc6-4b9b-86f5-01901a192828)
+
+* $(ID:27bba625-12bd-49c2-a968-e70902b66ff2)
+
+## $(ID:2b862dd7-9031-43df-9aba-03537a77f087)
+
+* $(ID:6a608af2-7030-48ae-a126-36b618b0e0b2)
+* $(ID:40252ca1-9277-4b11-849f-97f7a7dad814)
+
+## $(ID:f766f085-36e0-448b-9ba4-94ea482fab92)
+
+* $(ID:da71f401-4d84-4468-9fc7-cde84f889160)
+* $(ID:750ccfa2-acd9-4ea4-9486-c750f58cc356)
+
+## $(ID:c5eff0aa-56f7-45d3-8c20-47749984e422)
+
+* $(ID:07557e5b-7420-4a75-ad20-aba4d8fb286a)
+* $(ID:17e89f46-d6fd-4aca-ad71-551dbedbcb1c)
+* $(ID:fd08cd2f-797b-41ab-a6c7-e9c9c2e900cf)
+* $(ID:99957186-8581-400b-b218-cc42083b49b6)
+* $(ID:31f5dff7-1f93-4005-8a4c-4ada004110a0)
+* $(ID:46055ddc-8ce1-44c6-98e9-1adca2361bc9)
+* $(ID:24d804fc-d50c-431f-955f-bb79cb9dcceb)
+* $(ID:fe0556c4-3d85-44e1-a251-f36f52644a26)
+
+</skeleton>
+    <unit id="15942fa8-2ccb-4810-90a4-cab58fdeff42">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="final">
+        <source>PC Keyboard Braille Input for NVDA</source>
+        <target>PC 盲文键盘输入</target>
+      </segment>
+    </unit>
+    <unit id="38888c4d-e0da-4bcb-8e4f-1ad3d6b6303f">
+      <notes>
+        <note appliesTo="source">line: 4</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Author: NV Access Limited, Noelia Ruiz Martínez</source>
+        <target>作者： NV Access Limited、Noelia Ruiz Martínez</target>
+      </segment>
+    </unit>
+    <unit id="0d23b248-e30c-4c88-bae7-fdf3da911044">
+      <notes>
+        <note appliesTo="source">line: 5</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Copyright: 2012-2023 NV Access Limited, Noelia Ruiz Martínez</source>
+        <target>Copyright: 2012-2023 NV Access Limited, Noelia Ruiz Martínez</target>
+      </segment>
+    </unit>
+    <unit id="9889a1c5-1f81-4269-b176-18c7b588afb3">
+      <notes>
+        <note appliesTo="source">line: 6</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>License: GNU General Public License version 2.0</source>
+        <target>许可证：GNU通用公共许可证版本2.0</target>
+      </segment>
+    </unit>
+    <unit id="5aff34c5-1a26-4761-86b6-1ecd12029744">
+      <notes>
+        <note appliesTo="source">line: 8</note>
+      </notes>
+      <segment state="final">
+        <source>This NVDA add-on allows braille to be entered via the PC keyboard.</source>
+        <target>此插件允许通过 PC 键盘输入盲文。</target>
+      </segment>
+    </unit>
+    <unit id="8f089703-29fb-411c-8e67-e4cb69b0c823">
+      <notes>
+        <note appliesTo="source">line: 9</note>
+      </notes>
+      <segment state="final">
+        <source>Currently, the following keyboard layouts are supported:</source>
+        <target>目前，支持以下键盘布局：</target>
+      </segment>
+    </unit>
+    <unit id="881d0a39-3c76-43b6-9e6b-650917409aa4">
+      <notes>
+        <note appliesTo="source">line: 11</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>English QWERTY keyboard.</source>
+        <target>英文 QWERTY 键盘。</target>
+      </segment>
+    </unit>
+    <unit id="8072adb6-1433-4c30-aa30-033b465292eb">
+      <notes>
+        <note appliesTo="source">line: 12</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>French (France).</source>
+        <target>法语（法国）。</target>
+      </segment>
+    </unit>
+    <unit id="32d5c0ca-f82b-4907-aa6c-f7aef8acc24a">
+      <notes>
+        <note appliesTo="source">line: 13</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>German (Germany).</source>
+        <target>德语（德国）。</target>
+      </segment>
+    </unit>
+    <unit id="bbd5d7e2-41fd-40c3-a4e0-87069e99266f">
+      <notes>
+        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Italian (Italy).</source>
+        <target>意大利语（意大利）。</target>
+      </segment>
+    </unit>
+    <unit id="7eba395e-00aa-4c2d-9ddd-1690474d9387">
+      <notes>
+        <note appliesTo="source">line: 15</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Persian.</source>
+        <target>波斯语。</target>
+      </segment>
+    </unit>
+    <unit id="2a7f296e-c485-4813-86f8-cfab0458cbcc">
+      <notes>
+        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Portuguese (Portugal).</source>
+        <target>葡萄牙语（葡萄牙）。</target>
+      </segment>
+    </unit>
+    <unit id="4604234a-d7fa-43d4-9454-47965234a62b">
+      <notes>
+        <note appliesTo="source">line: 17</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Spanish (Spain and Mexico).</source>
+        <target>西班牙语（西班牙和墨西哥）。</target>
+      </segment>
+    </unit>
+    <unit id="4a83595c-af7b-46c1-b87b-ac5da1b546c7">
+      <notes>
+        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Turkish.</source>
+        <target>土耳其语。</target>
+      </segment>
+    </unit>
+    <unit id="32493b4b-5145-4697-a636-db889fdde60d">
+      <notes>
+        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>How to configure</source>
+        <target>如何配置</target>
+      </segment>
+    </unit>
+    <unit id="b299c168-ffb2-4917-961b-1253a46a2586">
+      <notes>
+        <note appliesTo="source">line: 22</note>
+      </notes>
+      <segment state="final">
+        <source>The add-on can be configured from its category in the NVDA's settings dialog, under NVDA's menu, Preferences submenu. A gesture for opening the add-on settings panel can be assigned from Input gestures dialog, configuration category.</source>
+        <target>可从 NVDA 的设置对话框中的相应类别配置此插件。还可从输入手势对话框的配置类别中分配用于打开插件设置面板的手势。</target>
+      </segment>
+    </unit>
+    <unit id="d22e0960-cecf-4dab-9061-078d8e4b214d">
+      <notes>
+        <note appliesTo="source">line: 24</note>
+      </notes>
+      <segment state="final">
+        <source>Check the corresponding checkbox if you want to type using only one hand, or ensure it's not checked if you prefer to type using the standard mode (two hands).</source>
+        <target>如要使用单手键入，请选中相应的复选框，或者如您希望使用标准模式（双手）键入，请确保不选中该复选框。</target>
+      </segment>
+    </unit>
+    <unit id="bb666ef6-4159-43b3-9c7f-0cae0d66050b">
+      <notes>
+        <note appliesTo="source">line: 26</note>
+      </notes>
+      <segment state="final">
+        <source>You can also select if NVDA should speak a single typed dot (using )the feature of "one hand mode").</source>
+        <target>您还可以选择 NVDA 是否应该读出单个类型点（使用 ）"单手模式"的功能）。</target>
+      </segment>
+    </unit>
+    <unit id="77bb772c-e7ed-47a4-8713-22603a5499dd">
+      <notes>
+        <note appliesTo="source">line: 28</note>
+      </notes>
+      <segment state="final">
+        <source>If you want dots to be sent automatically when typing with one hand, use the spin control to set a timeout greater than 0.</source>
+        <target>如果您希望在单手键入时自动发送点，请使用旋转控件将超时设置为大于 0。</target>
+      </segment>
+    </unit>
+    <unit id="249980fb-06eb-4645-a50f-c2914908f2fd">
+      <notes>
+        <note appliesTo="source">line: 30</note>
+      </notes>
+      <segment state="final">
+        <source>In addition, you can set the characters to send, clear and compose dots when typing with one hand, as well as characters to be ignored in one hand or standard mode.</source>
+        <target>此外，您还可以设置在单手输入时发送、清除和组合点的字符，以及在单手或标准模式下要忽略的字符。</target>
+      </segment>
+    </unit>
+    <unit id="e0012a4e-057c-426e-9d4a-7ede240da5f2">
+      <notes>
+        <note appliesTo="source">line: 32</note>
+      </notes>
+      <segment state="final">
+        <source>It's also possible to restore defaults in the add-on settings panel.</source>
+        <target>还可以在插件设置面板中恢复默认设置。</target>
+      </segment>
+    </unit>
+    <unit id="1f47c812-6f3a-4071-91c6-0a52f532dac2">
+      <notes>
+        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>How to Use</source>
+        <target>如何使用</target>
+      </segment>
+    </unit>
+    <unit id="47f09080-e92b-44e6-a861-aca89d20c943">
+      <notes>
+        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">prefix: 1. </note>
+      </notes>
+      <segment state="final">
+        <source>Press NVDA+0 to enable braille input. This gesture can be changed from Input gestures dialog, Braille category.</source>
+        <target>按 NVDA+0 启用盲文输入。此手势可以从输入手势对话框的盲文类别更改。</target>
+      </segment>
+    </unit>
+    <unit id="d3eaa49d-aa27-4484-b852-126f4f28b7e3">
+      <notes>
+        <note appliesTo="source">line: 37</note>
+        <note appliesTo="source">prefix: 2. </note>
+      </notes>
+      <segment state="final">
+        <source>Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.</source>
+        <target>通过在 PC 键盘上同时按下一组按键来键入盲文，就好像在盲文键盘上键入一样。</target>
+      </segment>
+    </unit>
+    <unit id="18bb04dc-d183-4714-8560-44144382e881">
+      <notes>
+        <note appliesTo="source">line: 38</note>
+        <note appliesTo="source">prefix: 	* </note>
+      </notes>
+      <segment state="final">
+        <source>If you want to enter text using two hands, use the following keys if you work with a QWERTY English keyboard, or the keys located at the corresponding positions in other layouts:</source>
+        <target>如用双手输入文本，请使用 QWERTY 键盘布局的以下按键，或其他键盘布局相应位置的按键：</target>
+      </segment>
+    </unit>
+    <unit id="b8a08fba-9dd8-4818-871d-b79049cdcb53">
+      <notes>
+        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">prefix: 		* </note>
+      </notes>
+      <segment state="final">
+        <source>f, d and s for dots 1, 2 and 3 respectively.</source>
+        <target>f、d 和 s分别代表 1、2 和 3 点。</target>
+      </segment>
+    </unit>
+    <unit id="d6114296-aff1-47b8-93b7-f03929018eb9">
+      <notes>
+        <note appliesTo="source">line: 40</note>
+        <note appliesTo="source">prefix: 		* </note>
+      </notes>
+      <segment state="final">
+        <source>j, k and l for dots 4, 5 and 6 respectively.</source>
+        <target>j、k 和 l分别代表 4、5 和 6 点。</target>
+      </segment>
+    </unit>
+    <unit id="5cf707c9-421e-46fa-b288-3103c8d6e36c">
+      <notes>
+        <note appliesTo="source">line: 41</note>
+        <note appliesTo="source">prefix: 		* </note>
+      </notes>
+      <segment state="final">
+        <source>Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.</source>
+        <target>使用 a 和分号（;）分别代表 7 和 8 点。</target>
+      </segment>
+    </unit>
+    <unit id="b8a2fc07-07e0-4fb1-b693-3e4ce4886c83">
+      <notes>
+        <note appliesTo="source">line: 42</note>
+        <note appliesTo="source">prefix: 		* </note>
+      </notes>
+      <segment state="final">
+        <source>You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p.</source>
+        <target>您也可用上一行中的相应按键，即 q、w、e、r、u、i、o 和 p。</target>
+      </segment>
+    </unit>
+    <unit id="cde307b6-ad2e-4923-80ea-94c75f9bbb96">
+      <notes>
+        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">prefix: 	* </note>
+      </notes>
+      <segment state="final">
+        <source>If you want to type text using one hand, you can compose characters pressing keys simultaneously or in several keystrokes, adding the dots corresponding to the desired character. Press g or h to type the character when you have added all its dots. If you make a mistake building a character, you can clear the dots before typing it by pressing t or y. The keys used in QWERTY English keyboard are the following:</source>
+        <target>如用单手键入文本，则可以同时或多次按键来编写字符，并添加与所需字符相对应的点。添加所有点后，请按g或h键以键入该字符。如果在键入字符时出错，可以在键入字符之前，按t或y清除点。QWERTY 键盘布局中使用的按键如下：</target>
+      </segment>
+    </unit>
+    <unit id="b2ca13c4-747a-4921-a9fb-9c8063098094">
+      <notes>
+        <note appliesTo="source">line: 44</note>
+        <note appliesTo="source">prefix: 		* </note>
+      </notes>
+      <segment state="final">
+        <source>Left hand: f, d, s, r, e, w, a, q for dots 1, 2, 3, 4, 5, 6, 7 and 8.</source>
+        <target>左手： f、 d、 s、 r、 e、 w、 a、 q 分别代表 1、 2、 3、 4、 5、 6、 7 、 8 点。</target>
+      </segment>
+    </unit>
+    <unit id="179a2402-6555-4690-9c0c-d3d69ac16c5a">
+      <notes>
+        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">prefix: 		* </note>
+      </notes>
+      <segment state="final">
+        <source>Right hand: j, k, l, u, i, o, ; (semicolon), p for dots 1, 2, 3, 4, 5, 6, 7 and 8.</source>
+        <target>右手： j、 k、 l、 u、 i、 o、 分号（;）、 p 分别代表 1、 2、 3、 4、 5、 6、 7、 8 点。</target>
+      </segment>
+    </unit>
+    <unit id="a03de755-f952-4d7e-9ceb-bed4245c5de8">
+      <notes>
+        <note appliesTo="source">line: 46</note>
+        <note appliesTo="source">prefix: 3. </note>
+      </notes>
+      <segment state="final">
+        <source>You can press most other keys as normal, including space, backspace, enter and function keys. Take care about not pressing alt+shift, since changing the keyboard layout may affect the entered dots.</source>
+        <target>您可以照常使用大多数其他按键，包括空格键、退格键、回车键和功能键。请注意不要按下 alt + shift，因为更改键盘布局可能会影响键入的点。</target>
+      </segment>
+    </unit>
+    <unit id="85d0d5aa-2b0b-4af4-8e87-6862f49032d0">
+      <notes>
+        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">prefix: 4. </note>
+      </notes>
+      <segment state="final">
+        <source>Press space bar in combination with braille dots to move the system cursor (or report the current line), just if you were using a braille display. For example, space+dot1 to emulate upArrow, space+dot4+dot5+dot6 to emulate control+end, space+dot1+dot4 to report the current line, etc.</source>
+        <target>按下空格键加盲文点组合即可移动系统光标（或读出当前行），即使您使用的是点显器。例如，空格 + 1 点模拟上光标，空格 + 4、 5、 6 点模拟Ctrl + end，空格 + 1、 4 点读出当前行，等等。</target>
+      </segment>
+    </unit>
+    <unit id="7d438304-6414-4c4f-b282-be730ad91390">
+      <notes>
+        <note appliesTo="source">line: 48</note>
+        <note appliesTo="source">prefix: 5. </note>
+      </notes>
+      <segment state="final">
+        <source>Press NVDA+0 to disable braille input.</source>
+        <target>按 NVDA + 0 禁用盲文输入。</target>
+      </segment>
+    </unit>
+    <unit id="34974740-7a25-4ed3-bb13-fbdc7accca14">
+      <notes>
+        <note appliesTo="source">line: 50</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Important Notes</source>
+        <target>重要提示</target>
+      </segment>
+    </unit>
+    <unit id="203ba18b-b00d-4468-8ad8-be623fcb92c6">
+      <notes>
+        <note appliesTo="source">line: 52</note>
+      </notes>
+      <segment state="final">
+        <source>This add-on uses NVDA's in-built braille input support.</source>
+        <target>此插件使用 NVDA 的内置盲文输入支持。</target>
+      </segment>
+    </unit>
+    <unit id="e369e286-4253-4329-bd92-f10f8badc519">
+      <notes>
+        <note appliesTo="source">line: 53</note>
+      </notes>
+      <segment state="final">
+        <source>Therefore, the input table used is that specified in NVDA's Braille Settings dialog.</source>
+        <target>因此，使用的输入表是 NVDA 的盲文设置对话框中指定的输入表。</target>
+      </segment>
+    </unit>
+    <unit id="8fd83ae8-92ae-4bae-b315-a958af11c70c">
+      <notes>
+        <note appliesTo="source">line: 55</note>
+      </notes>
+      <segment state="final">
+        <source>Some keyboards, particularly laptop keyboards, cannot handle certain combinations of keys being pressed.</source>
+        <target>某些键盘，尤其是笔记本电脑键盘，无法处理按下的某些按键组合。</target>
+      </segment>
+    </unit>
+    <unit id="639b90f4-5a8a-427a-9b18-11984fa17990">
+      <notes>
+        <note appliesTo="source">line: 56</note>
+      </notes>
+      <segment state="final">
+        <source>When this happens, certain keys are simply ignored.</source>
+        <target>发生这种情况时，会忽略某些按键。</target>
+      </segment>
+    </unit>
+    <unit id="0d19cc71-826d-40f0-96b6-36bf6e0b8f0c">
+      <notes>
+        <note appliesTo="source">line: 57</note>
+      </notes>
+      <segment state="final">
+        <source>Unfortunately, there is nothing that can be done to fix this, as the keys are simply never received by Windows or NVDA.</source>
+        <target>不幸的是，没有什么办法可以解决此问题，因为 Windows 及 NVDA 从未接收到按键指令。</target>
+      </segment>
+    </unit>
+    <unit id="9c14e75e-ac90-4a02-9cec-dd3d385a2cfd">
+      <notes>
+        <note appliesTo="source">line: 58</note>
+      </notes>
+      <segment state="final">
+        <source>In some cases, using the upper row of keys with either or both hands might help, as your keyboard may allow these keys.</source>
+        <target>在某些情况下，用单手或双手使用上排按键可能会有所帮助，因为键盘可能允许这些按键。</target>
+      </segment>
+    </unit>
+    <unit id="d5e14c2d-60b8-48b8-99f1-1a9aece597b7">
+      <notes>
+        <note appliesTo="source">line: 60</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 44.0.0</source>
+        <target>44.0.0 的更改</target>
+      </segment>
+    </unit>
+    <unit id="ffb78087-8c7a-48bf-9164-69464028cdcb">
+      <notes>
+        <note appliesTo="source">line: 62</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added kannada.cti table.</source>
+        <target>添加了卡纳达语 cti 盲文表。</target>
+      </segment>
+    </unit>
+    <unit id="22264b05-35b9-4092-96f3-bdeba8cb004d">
+      <notes>
+        <note appliesTo="source">line: 64</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 28.0.0</source>
+        <target>28.0.0 的更改</target>
+      </segment>
+    </unit>
+    <unit id="4ace459c-ae37-4213-8017-491138fea4f6">
+      <notes>
+        <note appliesTo="source">line: 66</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Changed default values for One hand mode.</source>
+        <target>更改了单手模式的默认值。</target>
+      </segment>
+    </unit>
+    <unit id="adc0142a-3c7f-4461-a81f-b00a0b7b4968">
+      <notes>
+        <note appliesTo="source">line: 68</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 2023.02.23</source>
+        <target>2023年2月23日的更改</target>
+      </segment>
+    </unit>
+    <unit id="35f74130-9655-4fe0-a36b-754643062d9a">
+      <notes>
+        <note appliesTo="source">line: 70</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added ability to configure keys used to type dots in one hand mode.</source>
+        <target>新增了配置在单手模式下用于输入点的按键的功能。</target>
+      </segment>
+    </unit>
+    <unit id="7ccc91a2-1b5d-47be-b3e6-04fddff41fc5">
+      <notes>
+        <note appliesTo="source">line: 71</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Now you can configure keys that should be ignored when typing in braille.</source>
+        <target>现在您可以设置在输入盲文时要忽略的按键。</target>
+      </segment>
+    </unit>
+    <unit id="f29179f0-0a15-4200-bb8b-cbfe37ecc3af">
+      <notes>
+        <note appliesTo="source">line: 72</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>A restore to defaults button has been added to the add-on settings panel.</source>
+        <target>插件设置面板中添加了恢复默认值按钮。</target>
+      </segment>
+    </unit>
+    <unit id="0e5a644c-7a3c-4ffd-b036-cfba856f7ec8">
+      <notes>
+        <note appliesTo="source">line: 73</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Compatible with NVDA 2023.1.</source>
+        <target>兼容 NVDA 2023.1。</target>
+      </segment>
+    </unit>
+    <unit id="1bdd9995-9dc6-4b9b-86f5-01901a192828">
+      <notes>
+        <note appliesTo="source">line: 75</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 2022.1</source>
+        <target>2022.1 的更改</target>
+      </segment>
+    </unit>
+    <unit id="27bba625-12bd-49c2-a968-e70902b66ff2">
+      <notes>
+        <note appliesTo="source">line: 77</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added ability to configure keys to send and clear dots when writing with one hand. Also, it's possible to set a timeout to send dots automatically, without pressing confirmation keys.</source>
+        <target>添加了配置键以在用单手键入时发送和清除点的功能。此外，可以设置超时自动发送点，而无需按确认键。</target>
+      </segment>
+    </unit>
+    <unit id="2b862dd7-9031-43df-9aba-03537a77f087">
+      <notes>
+        <note appliesTo="source">line: 79</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 2021.1</source>
+        <target>2021.1 的更改</target>
+      </segment>
+    </unit>
+    <unit id="6a608af2-7030-48ae-a126-36b618b0e0b2">
+      <notes>
+        <note appliesTo="source">line: 81</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA won't try to speak dots when One hand mode is not active or if space has been pressed.</source>
+        <target>当单手模式未激活或按下空格时，NVDA 不会尝试说出点。</target>
+      </segment>
+    </unit>
+    <unit id="40252ca1-9277-4b11-849f-97f7a7dad814">
+      <notes>
+        <note appliesTo="source">line: 82</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Compatible with NVDA 2021.1.</source>
+        <target>兼容 NVDA 2021.1。</target>
+      </segment>
+    </unit>
+    <unit id="f766f085-36e0-448b-9ba4-94ea482fab92">
+      <notes>
+        <note appliesTo="source">line: 84</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 2020.1</source>
+        <target>2020.1 的更改</target>
+      </segment>
+    </unit>
+    <unit id="da71f401-4d84-4468-9fc7-cde84f889160">
+      <notes>
+        <note appliesTo="source">line: 86</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>You can press space bar in combination with braille dots to emulate gestures, similar to commands available in braille displays.</source>
+        <target>您可以按空格键加盲文点组合来模拟手势，类似于点显器中可用的命令。</target>
+      </segment>
+    </unit>
+    <unit id="750ccfa2-acd9-4ea4-9486-c750f58cc356">
+      <notes>
+        <note appliesTo="source">line: 87</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added an option to speak single dots typed in one hand mode.</source>
+        <target>添加了一个选项，用于使用单手模式键入单点。</target>
+      </segment>
+    </unit>
+    <unit id="c5eff0aa-56f7-45d3-8c20-47749984e422">
+      <notes>
+        <note appliesTo="source">line: 89</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Contributors</source>
+        <target>贡献者</target>
+      </segment>
+    </unit>
+    <unit id="07557e5b-7420-4a75-ad20-aba4d8fb286a">
+      <notes>
+        <note appliesTo="source">line: 91</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>James Teh</source>
+        <target>James Teh</target>
+      </segment>
+    </unit>
+    <unit id="17e89f46-d6fd-4aca-ad71-551dbedbcb1c">
+      <notes>
+        <note appliesTo="source">line: 92</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Noelia.</source>
+        <target>Noelia.</target>
+      </segment>
+    </unit>
+    <unit id="fd08cd2f-797b-41ab-a6c7-e9c9c2e900cf">
+      <notes>
+        <note appliesTo="source">line: 93</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Mohammadreza Rashad</source>
+        <target>Mohammadreza Rashad</target>
+      </segment>
+    </unit>
+    <unit id="99957186-8581-400b-b218-cc42083b49b6">
+      <notes>
+        <note appliesTo="source">line: 94</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Cagri Dogan</source>
+        <target>Cagri Dogan</target>
+      </segment>
+    </unit>
+    <unit id="31f5dff7-1f93-4005-8a4c-4ada004110a0">
+      <notes>
+        <note appliesTo="source">line: 95</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Bernd Dorer</source>
+        <target>Bernd Dorer</target>
+      </segment>
+    </unit>
+    <unit id="46055ddc-8ce1-44c6-98e9-1adca2361bc9">
+      <notes>
+        <note appliesTo="source">line: 96</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Ângelo Abrantes</source>
+        <target>Ângelo Abrantes</target>
+      </segment>
+    </unit>
+    <unit id="24d804fc-d50c-431f-955f-bb79cb9dcceb">
+      <notes>
+        <note appliesTo="source">line: 97</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Cyrille Bougot</source>
+        <target>Cyrille Bougot</target>
+      </segment>
+    </unit>
+    <unit id="fe0556c4-3d85-44e1-a251-f36f52644a26">
+      <notes>
+        <note appliesTo="source">line: 98</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Abdel.</source>
+        <target>Abdel.</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
