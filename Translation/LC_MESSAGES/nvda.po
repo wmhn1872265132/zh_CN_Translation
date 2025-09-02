@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-30 03:27+0000\n"
+"POT-Creation-Date: 2025-09-02 06:30+0000\n"
 "PO-Revision-Date: 2025-08-22 01:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -2228,7 +2228,7 @@ msgstr "未选择文本"
 #: displayModel.py:556 appModules\powerpnt.py:1223 appModules\soffice.py:99
 #: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:206
 #: NVDAObjects\UIA\__init__.py:194 NVDAObjects\window\edit.py:344
-#: NVDAObjects\window\edit.py:713 NVDAObjects\window\excel.py:1360
+#: NVDAObjects\window\edit.py:707 NVDAObjects\window\excel.py:1360
 #: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1225
 #: virtualBuffers\adobeAcrobat.py:83
 #, python-format
@@ -11070,7 +11070,7 @@ msgid "directory pane"
 msgstr "目录窗格"
 
 #. Translators: Identifies an object that is embedded in a document.
-#: controlTypes\role.py:347 NVDAObjects\window\edit.py:878
+#: controlTypes\role.py:347 NVDAObjects\window\edit.py:872
 msgid "embedded object"
 msgstr "嵌入式对象"
 
@@ -17436,14 +17436,14 @@ msgstr "系列 {seriesName} 的图例项标示 {seriesCount} 的 {seriesIndex}"
 #. Translators: The text color as reported in Wordpad (Automatic) or NVDA log viewer.
 #. Translators: The background color as reported in Wordpad (Automatic) or NVDA log viewer.
 #: NVDAObjects\window\edit.py:381 NVDAObjects\window\edit.py:390
-#: NVDAObjects\window\edit.py:757 NVDAObjects\window\edit.py:769
+#: NVDAObjects\window\edit.py:751 NVDAObjects\window\edit.py:763
 #, python-brace-format
 msgid "{color} (default color)"
 msgstr "{color}（默认颜色）"
 
 #. Translators: The color of text cannot be detected.
 #. Translators: The background color cannot be detected.
-#: NVDAObjects\window\edit.py:763 NVDAObjects\window\edit.py:775
+#: NVDAObjects\window\edit.py:757 NVDAObjects\window\edit.py:769
 msgid "Unknown color"
 msgstr "未知颜色"
 
