@@ -155,9 +155,9 @@ if not defined L10nUtil (
 Rem 处理针对 NVDA 翻译的标签，初始化变量  
 :ProcessingNVDATags
 if /I "%CLI:~0,2%"=="GE" (set Action=GenerateFiles)
-if /I  %CLI:~0,2%==GM (set Action=GenerateMarkdown)
-if /I  %CLI:~0,2%==MH (set Action=GenerateHTML)
-if /I  %CLI:~0,2%==MX (set Action=GenerateXLIFF)
+if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
+if /I "%CLI:~0,2%"=="MH" (set Action=GenerateHTML)
+if /I "%CLI:~0,2%"=="MX" (set Action=GenerateXLIFF)
 if /I "%CLI:~0,2%"=="DL" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="DC" (
   cd /d "%~dp0"
