@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/reportSymbols/d2479237b18b1d317d51e0a7ff62699f06b2533a/readme.md">
+    <skeleton>
+# $(ID:9d06915c-1e7a-40b8-bf15-f1b33e26000d)
+*	$(ID:c53c6f81-dc97-4ff9-803a-4a6fdf6bda4a)
+
+$(ID:348dc395-f6d2-4676-9034-5fa2b930c174)
+
+$(ID:7ae18350-2f80-4eb7-85c2-dd387a4dd39e)
+
+## $(ID:7d8ce96e-4a4e-48a7-a799-f0754b44b624)
+*	$(ID:ea8eb64c-fdda-4176-bafb-e03c145ec31b)
+
+$(ID:16d044fd-03b4-40ca-b566-cd464c98bd2f)
+
+## $(ID:d03d4c73-dfc2-49d2-8cd5-a36f89a8ebe3)
+
+$(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
+
+## $(ID:6a3d3167-7db9-4825-883a-3192e052c8ab)
+
+* $(ID:ba4817ed-66bf-4ce9-a40f-11a7d44dc0ef)
+
+## $(ID:71912be7-e402-4321-92ba-177b1163b142)
+* $(ID:88a6258c-7625-4bfb-897d-3a14f8a8d846)
+
+## $(ID:ed4415dc-75d1-43b6-8451-77b95b783756)
+* $(ID:2fce1298-1cb1-4dae-b3df-9bad943b865c)
+
+## $(ID:b43060f8-8571-4c7a-82cb-deac5dc00a91)
+* $(ID:64be02c4-e148-494a-b2a4-85e4d782cc8c)
+
+## $(ID:def8cfe9-6be1-4553-bcaa-444378e58a73)
+*	$(ID:d7795e0a-55ba-4e48-aaf4-66eb0369dd1d)
+
+## $(ID:6fec747d-a68c-4375-8c4f-c6428fb27294)
+* $(ID:ca0c262f-7aaa-49b3-b00e-41d8b1f3e01a)
+* $(ID:24c240c4-147b-4e6c-b149-42948483b96a)
+
+## $(ID:6bcc2c20-45d4-4321-8261-166496b3c62a)
+* $(ID:ef46b445-99d6-4562-b05d-e1668dd8111e)
+
+## $(ID:c6b4127b-051f-406d-9d7d-c3c09caac0b2)
+*	$(ID:8922bb59-c2cb-4ece-a08f-e82182f1e44d)
+*	$(ID:5d5cbddf-c0cc-4b53-a89e-16428bbfa3b8)
+
+## $(ID:33fce2db-ee7f-4db1-9d3f-89c692244c27)
+*	$(ID:93f8caec-25b0-4760-a201-146df32e8076)
+
+</skeleton>
+    <unit id="9d06915c-1e7a-40b8-bf15-f1b33e26000d">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="final">
+        <source>Report Symbols #</source>
+        <target>读出符号 #</target>
+      </segment>
+    </unit>
+    <unit id="c53c6f81-dc97-4ff9-803a-4a6fdf6bda4a">
+      <notes>
+        <note appliesTo="source">line: 3</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="final">
+        <source>Author: Noelia Ruiz Martínez.</source>
+        <target>作者：Noelia Ruiz Martínez。</target>
+      </segment>
+    </unit>
+    <unit id="348dc395-f6d2-4676-9034-5fa2b930c174">
+      <notes>
+        <note appliesTo="source">line: 5</note>
+      </notes>
+      <segment state="final">
+        <source>This add-on allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of typed characters is turned off in NVDA.</source>
+        <target>即使 NVDA 的“读出输入字符”功能已关闭，该插件也可以读出键入的符号（非字母数字或空白字符）。</target>
+      </segment>
+    </unit>
+    <unit id="7ae18350-2f80-4eb7-85c2-dd387a4dd39e">
+      <notes>
+        <note appliesTo="source">line: 7</note>
+      </notes>
+      <segment state="final">
+        <source>It's based on the old ReportSymbols add-on, developed by the same author. You should uninstall it to use this version.</source>
+        <target>该插件基于由同一作者开发的旧版 ReportSymbols 插件升级而来。在使用该版本之前您应该先卸载旧版本。</target>
+      </segment>
+    </unit>
+    <unit id="7d8ce96e-4a4e-48a7-a799-f0754b44b624">
+      <notes>
+        <note appliesTo="source">line: 9</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Preferences menu ##</source>
+        <target>首选项菜单 ##</target>
+      </segment>
+    </unit>
+    <unit id="ea8eb64c-fdda-4176-bafb-e03c145ec31b">
+      <notes>
+        <note appliesTo="source">line: 10</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="final">
+        <source>Report Symbols settings: Allows to set preferences for the speaking of typed symbols.</source>
+        <target>读出符号设置：用于设置读出符号的首选项。</target>
+      </segment>
+    </unit>
+    <unit id="16d044fd-03b4-40ca-b566-cd464c98bd2f">
+      <notes>
+        <note appliesTo="source">line: 12</note>
+      </notes>
+      <segment state="final">
+        <source>Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.</source>
+        <target>注意：可以在 NVDA 菜单、选项子菜单、按键与手势对话框的配置类别下分配一个打开此设置的快捷键。</target>
+      </segment>
+    </unit>
+    <unit id="d03d4c73-dfc2-49d2-8cd5-a36f89a8ebe3">
+      <notes>
+        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Exclude symbols</source>
+        <target>排除符号</target>
+      </segment>
+    </unit>
+    <unit id="38d8e83b-bbce-4272-9d32-b71fd8e13036">
+      <notes>
+        <note appliesTo="source">line: 16</note>
+      </notes>
+      <segment state="final">
+        <source>From NVDA's menu, Preferences submenu, Input gestures dialog, reportSymbols category, you can assing a gesture to exclude (or include again) symbols to be reported when typing.</source>
+        <target>可以在 NVDA 菜单、选项子菜单、按键与手势对话框的读出符号类别下分配一个快捷键以排除（或再次包含）键入时要读出的符号。</target>
+      </segment>
+    </unit>
+    <unit id="6a3d3167-7db9-4825-883a-3192e052c8ab">
+      <notes>
+        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 29.0.0</source>
+        <target>29.0.0 的变化</target>
+      </segment>
+    </unit>
+    <unit id="ba4817ed-66bf-4ce9-a40f-11a7d44dc0ef">
+      <notes>
+        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added ability to assing gestures to exclude or include symbols to be reported when typing.</source>
+        <target>添加了一个未分配的命令，以排除或包含键入时要读出的符号。</target>
+      </segment>
+    </unit>
+    <unit id="71912be7-e402-4321-92ba-177b1163b142">
+      <notes>
+        <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 8.0</source>
+        <target>8.0 的变化</target>
+      </segment>
+    </unit>
+    <unit id="88a6258c-7625-4bfb-897d-3a14f8a8d846">
+      <notes>
+        <note appliesTo="source">line: 23</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Compatible with NVDA 2023.1.</source>
+        <target>与 NVDA 2023.1 兼容。</target>
+      </segment>
+    </unit>
+    <unit id="ed4415dc-75d1-43b6-8451-77b95b783756">
+      <notes>
+        <note appliesTo="source">line: 25</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 7.0</source>
+        <target>7.0 的变化</target>
+      </segment>
+    </unit>
+    <unit id="2fce1298-1cb1-4dae-b3df-9bad943b865c">
+      <notes>
+        <note appliesTo="source">line: 26</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Compatible with NVDA 2022.1.</source>
+        <target>与 NVDA 2022.1 兼容。</target>
+      </segment>
+    </unit>
+    <unit id="b43060f8-8571-4c7a-82cb-deac5dc00a91">
+      <notes>
+        <note appliesTo="source">line: 28</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 6.0</source>
+        <target>6.0 的变化</target>
+      </segment>
+    </unit>
+    <unit id="64be02c4-e148-494a-b2a4-85e4d782cc8c">
+      <notes>
+        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Compatible with NVDA 2021.1.</source>
+        <target>与 NVDA 2021.1 兼容。</target>
+      </segment>
+    </unit>
+    <unit id="def8cfe9-6be1-4553-bcaa-444378e58a73">
+      <notes>
+        <note appliesTo="source">line: 31</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 5.0 ##</source>
+        <target>5.0 的变化 ##</target>
+      </segment>
+    </unit>
+    <unit id="d7795e0a-55ba-4e48-aaf4-66eb0369dd1d">
+      <notes>
+        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="final">
+        <source>Requires NVDA 2019.3 or later.</source>
+        <target>需要 NVDA 2019.3 或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="6fec747d-a68c-4375-8c4f-c6428fb27294">
+      <notes>
+        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 4.0 ##</source>
+        <target>4.0 的变化 ##</target>
+      </segment>
+    </unit>
+    <unit id="ca0c262f-7aaa-49b3-b00e-41d8b1f3e01a">
+      <notes>
+        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>The add-on settings are shown in the corresponding category of the NVDA Settings dialog.</source>
+        <target>插件设置放置在 NVDA 设置面板的类别中。</target>
+      </segment>
+    </unit>
+    <unit id="24c240c4-147b-4e6c-b149-42948483b96a">
+      <notes>
+        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Requires NVDA 2018.2 or later.</source>
+        <target>需要 NVDA 2018.2 或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="6bcc2c20-45d4-4321-8261-166496b3c62a">
+      <notes>
+        <note appliesTo="source">line: 38</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 3.0 ##</source>
+        <target>3.0 的变化 ##</target>
+      </segment>
+    </unit>
+    <unit id="ef46b445-99d6-4562-b05d-e1668dd8111e">
+      <notes>
+        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added checkboxes for the speaking of spaces, carriage returns and other blank characters.</source>
+        <target>添加了用于读出空格、回车符和其他空白字符的复选框。</target>
+      </segment>
+    </unit>
+    <unit id="c6b4127b-051f-406d-9d7d-c3c09caac0b2">
+      <notes>
+        <note appliesTo="source">line: 41</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 2.0 ##</source>
+        <target>2.0 的变化 ##</target>
+      </segment>
+    </unit>
+    <unit id="8922bb59-c2cb-4ece-a08f-e82182f1e44d">
+      <notes>
+        <note appliesTo="source">line: 42</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="final">
+        <source>The visual presentation of the dialog has been enhanced, adhering to the appearance of the dialogs shown in NVDA.</source>
+        <target>改进了对话框的视觉效果，遵循 NVDA 对话框的统一外观。</target>
+      </segment>
+    </unit>
+    <unit id="5d5cbddf-c0cc-4b53-a89e-16428bbfa3b8">
+      <notes>
+        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="final">
+        <source>Requires NVDA 2016.4 or later.</source>
+        <target>需要 NVDA 2016.4 或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="33fce2db-ee7f-4db1-9d3f-89c692244c27">
+      <notes>
+        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 1.0 ##</source>
+        <target>1.0 的变化 ##</target>
+      </segment>
+    </unit>
+    <unit id="93f8caec-25b0-4760-a201-146df32e8076">
+      <notes>
+        <note appliesTo="source">line: 46</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="final">
+        <source>Initial version.</source>
+        <target>初始版本。</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
