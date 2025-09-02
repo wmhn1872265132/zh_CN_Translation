@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/enhancedTouchGestures/55b897e7cb0b38b0fbfe6a1864a351519b8d1d53/readme.md">
+    <skeleton>
+# $(ID:7b643eaa-c8f3-4a37-ae93-17d442eed359)
+
+* $(ID:47ea226a-4957-4d37-819a-a478d62698d7)
+
+$(ID:4b74ba69-be4d-440c-8ab1-24de2082f868)
+
+$(ID:a8a6a89c-eabf-416b-a90a-ccb0d95a785d)
+
+## $(ID:a5a3a9cc-7c15-4fcf-973d-1504c69d855f)
+
+### $(ID:3c308b88-e28c-4952-a6e9-7841843f989b)
+
+* $(ID:5076c251-13e3-4b92-96fb-c673a8ddcb48)
+* $(ID:9a21dca3-0826-4fc9-a800-c614a0a8bc88)
+* $(ID:aa18f727-379d-43fc-a70a-e8ff74b9a335)
+* $(ID:2f40ee12-e757-48ff-a61f-a10b240dc6d0)
+* $(ID:ea62aafe-0d7f-4166-a34b-9c345fa7455f)
+* $(ID:ef3aeaf6-6289-491f-b1f4-ee2708ff9dfd)
+* $(ID:ee54482b-6a2a-4263-bdc0-dbc0e37050ee)
+* $(ID:0b826f62-f79b-4d99-b3b1-07d0426dff07)
+* $(ID:0d41ee02-e57e-41e8-8c71-95a0ba9a8e16)
+* $(ID:55e3919d-6fc8-4778-a78c-e99de13ed048)
+* $(ID:332421d7-168e-4058-bec4-b63412320b56)
+* $(ID:ad330ded-b374-4a8b-a8ff-9014249190a5)
+
+## $(ID:08772ab2-6589-409a-9c2a-d6e17e34923a)
+
+$(ID:b1b61e96-fb56-498d-8d27-15bec56e9388)
+$(ID:9a097d1f-d6de-4de8-94d8-8e3337393aef)
+## $(ID:b28f0ae6-382e-4e84-9275-37d181338496)
+
+$(ID:8dc80ea6-cc7f-41d1-8f9a-138ae0546b57)
+
+## $(ID:3f2d04d6-2874-4d9d-af86-cf6912edd3db)
+
+* $(ID:00910639-1077-4c11-8799-a344c1e8cf5e)
+
+## $(ID:7d1f26f2-c128-4961-91ab-208e11a08f04)
+
+* $(ID:1ac3177b-a239-4032-8278-be9f64bec6a0)
+
+## $(ID:625e666f-1876-4345-a0d4-bce53863475b)
+
+* $(ID:736b604f-af09-4cc1-bf42-0d4270f91923)
+* $(ID:443732c2-c0a9-4d10-aa0c-8674af1ae065)
+* $(ID:425b4651-5f6b-454b-bacc-f20f7051ccb4)
+
+## $(ID:ebd61620-2a95-4b83-b70f-440c401f0bbb)
+
+* $(ID:d3e23129-491a-4fe1-bbfc-26e134c00ec2)
+
+## $(ID:531eea31-8686-4a8c-ac04-d65af34bf945)
+
+* $(ID:90c6cf08-bfdf-4d41-bb15-709fbec6f6bc)
+
+## $(ID:79bf503f-a045-4c4b-8a81-348e9b6ae93f)
+
+* $(ID:e35f84ab-4bf6-4365-a2f3-54e2a29d1461)
+* $(ID:426d8e5f-a449-44e9-9cd1-8665f7608a79)
+* $(ID:3b33e651-8f70-4ae0-b749-90cb07bd946d)
+  * $(ID:c536edfa-f1b7-4045-a868-e46994fc501c)
+  * $(ID:e707ee02-f0a0-4b12-b211-95d19144083e)
+  * $(ID:1c522700-ea30-48ed-bcd3-733d6eab8728)
+  * $(ID:c9ec55eb-3272-4c83-a29d-6016915e857b)
+* $(ID:39b1c06f-1703-4481-93e0-23c9cfae376e)
+* $(ID:3c4eef8d-2350-473f-98f6-b9acd2acfff8)
+
+## $(ID:bde62a07-7187-4948-9729-a2ee92cc569b)
+
+* $(ID:e1dab631-5a4c-4a4e-a7f8-906e9f398e62)
+* $(ID:8da209a5-4980-494f-8a53-f5b75d5e5d95)
+
+## $(ID:b42ad8a1-9c4f-4d5a-bc34-d1f8be907cdd)
+
+* $(ID:0577c986-43ca-4457-8f35-d6dfab434bc3)
+* $(ID:7fa2a749-bbb3-484e-8568-35a9949700e2)
+* $(ID:45d8f176-e79f-46c4-bae7-d963d2e83974)
+* $(ID:3d88d7c8-cdd5-4240-ae71-fcd956e818fb)
+
+## $(ID:ccfa5105-19a5-4dd6-b519-dca1439b6151)
+
+* $(ID:e6c1814f-4d45-4dc0-8d94-5c86b080b848)
+* $(ID:5fb73e4d-3229-4203-b6b6-b9ba96396335)
+
+## $(ID:e5cc052b-64f1-4cd8-8906-43eb7bab53e2)
+
+* $(ID:d9bd316c-4ecd-48de-b11f-c5caccbcf338)
+
+## $(ID:79cfcde2-0389-45e9-9b1c-ded85ed1637a)
+
+* $(ID:f98489bf-39fe-4c17-8285-75d36065b5a1)
+
+## $(ID:299e128c-6192-4c1d-8df6-c70c843e87d9)
+
+* $(ID:44fa2bd5-9ed5-4fb2-ab0e-0ad6f372712f)
+* $(ID:769d51ad-2ab0-4543-8b25-a93e289da618)
+* $(ID:4ec10163-1a53-4d5d-8d4c-ca0cd25f63ae)
+* $(ID:6bd9731a-e029-4197-b55d-97aa8b2ea484)
+
+## $(ID:bb498fcf-d21d-4bbe-b4c3-c5a0e6b77dfc)
+
+* $(ID:37a6badb-ed53-4c5c-bf9c-84a64ef0c811)
+* $(ID:0876a814-e36e-4215-b778-0d27c3110ee5)
+
+## $(ID:5d3ac60b-d660-42a6-9a45-da909d3b5cb8)
+
+* $(ID:9aa9cd10-b417-41e0-a49d-fbec783a951b)
+* $(ID:d8240050-0f35-40a0-8560-3327625655bc)
+* $(ID:0a6952d1-40a4-496f-aca4-1061efc7b8d5)
+* $(ID:b87bd19a-6068-4650-a5bc-afbba1a31d06)
+* $(ID:d0665d0b-04e1-48fe-9d4d-a6d9adb1b5e7)
+* $(ID:1cfe9e25-1e7b-4c28-b310-aad45280f36f)
+* $(ID:cb1b5d86-e85a-427d-9e32-056ee2f82ed0)
+* $(ID:191e8867-b5e1-4670-aeba-783b19ecd499)
+
+## $(ID:00e6daf9-ba55-4e3b-b79d-135935837500)
+
+* $(ID:fabbde28-21fc-4094-b501-60215d4cd2d3)
+
+## $(ID:0e4af7bc-f76b-4af1-aa85-854ca88d8465)
+
+* $(ID:59c53a86-9c48-4711-ac56-4a251281c44e)
+
+## $(ID:6078cfa5-bbe1-4502-b130-aad762ae3cf6)
+
+* $(ID:ba30ee5e-8e83-4dce-a102-e57cae90cfe9)
+* $(ID:dec9e831-32d2-4174-9bf4-e35b42da5884)
+
+## $(ID:e5cac2dd-55f9-42da-97fb-492aa82fd383)
+
+* $(ID:39853f06-671d-4641-9880-3852cb700b0d)
+
+## $(ID:d675ec00-61ac-4a34-b649-b2c775971c82)
+
+* $(ID:3a8a25a1-e3da-43b4-899b-58ed312d3a7f)
+
+## $(ID:d2be724c-4ed5-4eb0-a4d0-d657289393be)
+
+* $(ID:35b0302c-61bc-475f-ac89-2c02b38fba81)
+
+## $(ID:556e8e9e-323d-436e-b5fc-423b76fbb9df)
+
+* $(ID:1e9ee345-49c7-4adf-84f7-34022d7f75ed)
+
+## $(ID:d3c72603-aed8-40ee-979e-bbf6cb72c66e)
+
+* $(ID:ee1e723d-5e03-4043-840f-b708b81cae00)
+
+## $(ID:1da89407-361a-4520-9373-549ea80b0138)
+
+* $(ID:dab96791-a1b2-4776-b317-f76d0070eb14)
+* $(ID:88029790-2c49-4697-b0ca-ae625272dda6)
+
+## $(ID:fba38066-7b4b-46e6-927f-004b040bee1e)
+
+* $(ID:9aacf990-defe-4e4d-a298-b63815a13865)
+
+## $(ID:e66b4217-1b86-482c-869d-a32b6d30ad24)
+
+* $(ID:4423dc28-af73-44b6-a46d-592fd43d08c3)
+* $(ID:ee21ae7c-75af-4ec7-9a2a-9803873dd14c)
+
+## $(ID:4becfee3-24b3-46c7-bf23-2cfb2d4fff53)
+
+* $(ID:c4c272e6-ae1f-45dd-8b6e-6255f9cc7129)
+* $(ID:167474bf-90b8-4f83-8627-9b4e4a87d07a)
+* $(ID:cda40670-c631-4f88-a025-aa0ed9fd543b)
+* $(ID:b825b2ea-2246-41c6-a084-fa58b4fe3aee)
+* $(ID:2023e139-60d0-4436-bb2d-cd6646fb7ee0)
+
+## $(ID:e4c9f534-18e4-4550-8c77-5d0b20202217)
+
+* $(ID:0ae00104-f2a2-4d68-b29a-b2c7fb6b3143)
+* $(ID:47169787-ee44-4f5c-bcde-eb328af3e99a)
+
+## $(ID:b373b3f3-5596-4527-b9d1-cc23f6667dcf)
+
+* $(ID:477d6e7e-b553-4eaf-b424-526879b0dc85)
+* $(ID:0f0d660b-0440-4d63-978f-3fc177c46ec0)
+
+## $(ID:05f5dcc3-5f37-45eb-81a9-3d8d4950c3d2)
+
+* $(ID:50b9f8f8-7614-4958-a226-cd8fc734afb3)
+* $(ID:996428d9-86b1-47b6-b068-0c8b59a620ab)
+* $(ID:8dcc3051-71b2-48c2-996b-6bc28d1ad727)
+* $(ID:0413c5e2-3f95-4638-bad7-98649bafbb37)
+* $(ID:54c2ee7b-8e69-463d-9ffb-38794fef2d36)
+* $(ID:b6766b85-d5c9-4bc0-a03b-f8d7d972e406)
+
+$(ID:f34169c1-a82e-4d01-b8ea-bf67b81e7a8f)
+
+* $(ID:913e99de-1edf-4dca-8ce6-50420d3874f4)
+
+$(ID:f3fd4f31-57ef-43ee-87dc-1cd9bcf4ac9a)
+
+* $(ID:f9316f44-e0bc-4cb0-865f-d64476b3f519)
+* $(ID:1ad6b19c-05e0-4745-93e3-fe9c09302ea6)
+
+## $(ID:fcf58daa-e07c-4f9d-830d-d47984353051)
+
+* $(ID:c416ea43-290b-4155-a1bb-2bcb0352249f)
+
+$(ID:b8ab122a-0a8a-40f9-891e-f5d937c7a286)
+
+</skeleton>
+    <unit id="7b643eaa-c8f3-4a37-ae93-17d442eed359">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="final">
+        <source>Enhanced Touchscreen Gestures #</source>
+        <target>触摸屏手势增强</target>
+      </segment>
+    </unit>
+    <unit id="47ea226a-4957-4d37-819a-a478d62698d7">
+      <notes>
+        <note appliesTo="source">line: 4</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Authors: Joseph Lee, Kefas Lungu</source>
+        <target>作者: Joseph Lee</target>
+      </segment>
+    </unit>
+    <unit id="4b74ba69-be4d-440c-8ab1-24de2082f868">
+      <notes>
+        <note appliesTo="source">line: 6</note>
+      </notes>
+      <segment state="final">
+        <source>This add-on provides additional touchscreen gestures for NVDA. It also provides a set of gestures for easier browse mode navigation.</source>
+        <target>此插件为 NVDA 提供了更多的触摸屏支持手势。其中包括一组浏览模式导航手势。</target>
+      </segment>
+    </unit>
+    <unit id="a8a6a89c-eabf-416b-a90a-ccb0d95a785d">
+      <notes>
+        <note appliesTo="source">line: 8</note>
+      </notes>
+      <segment state="final">
+        <source>Note: this add-on requires NVDA 2024.1 or later running on a touchscreen computer with Windows 10 or 11.</source>
+        <target>注意：此插件需要在具备触摸屏的 Windows 10 或 11 的计算机上运行，并且需要 NVDA 2024.1 或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="a5a3a9cc-7c15-4fcf-973d-1504c69d855f">
+      <notes>
+        <note appliesTo="source">line: 10</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Commands</source>
+        <target>命令</target>
+      </segment>
+    </unit>
+    <unit id="3c308b88-e28c-4952-a6e9-7841843f989b">
+      <notes>
+        <note appliesTo="source">line: 12</note>
+        <note appliesTo="source">prefix: ### </note>
+      </notes>
+      <segment state="final">
+        <source>Available everywhere</source>
+        <target>随处可用</target>
+      </segment>
+    </unit>
+    <unit id="5076c251-13e3-4b92-96fb-c673a8ddcb48">
+      <notes>
+        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>4 finger double tap: toggle input help mode.</source>
+        <target>4指双击：切换输入帮助模式。</target>
+      </segment>
+    </unit>
+    <unit id="9a21dca3-0826-4fc9-a800-c614a0a8bc88">
+      <notes>
+        <note appliesTo="source">line: 15</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Four finger flick right: toggle touch keyboard (usually enables it).</source>
+        <target>四指向右滑动：切换触摸键盘（通常启用）。</target>
+      </segment>
+    </unit>
+    <unit id="aa18f727-379d-43fc-a70a-e8ff74b9a335">
+      <notes>
+        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Four finger flick left: toggle dictation (Windows+H; Windows 10 Version 1709 or later).</source>
+        <target>四指向左滑动：切换听写（Windows+H；Windows 10 版本 1709 或更高版本）。</target>
+      </segment>
+    </unit>
+    <unit id="2f40ee12-e757-48ff-a61f-a10b240dc6d0">
+      <notes>
+        <note appliesTo="source">line: 17</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>4 finger flick up: report title of the current window.</source>
+        <target>4指向上滑动：读出当前窗口标题。</target>
+      </segment>
+    </unit>
+    <unit id="ea62aafe-0d7f-4166-a34b-9c345fa7455f">
+      <notes>
+        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>4 finger flick down: report status bar text.</source>
+        <target>4指向下滑动：读出状态栏文本。</target>
+      </segment>
+    </unit>
+    <unit id="ef3aeaf6-6289-491f-b1f4-ee2708ff9dfd">
+      <notes>
+        <note appliesTo="source">line: 19</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>3 finger flick down: read current window.</source>
+        <target>3指向下滑动：读取当前窗口。</target>
+      </segment>
+    </unit>
+    <unit id="ee54482b-6a2a-4263-bdc0-dbc0e37050ee">
+      <notes>
+        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>3 finger flick left: report object with focus.</source>
+        <target>3指向左滑动：读出具有焦点的对象。</target>
+      </segment>
+    </unit>
+    <unit id="0b826f62-f79b-4d99-b3b1-07d0426dff07">
+      <notes>
+        <note appliesTo="source">line: 21</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>3 finger flick right: report current navigator object.</source>
+        <target>3指向右滑动：读出当前导航对象。</target>
+      </segment>
+    </unit>
+    <unit id="0d41ee02-e57e-41e8-8c71-95a0ba9a8e16">
+      <notes>
+        <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>3 finger double tap: Cycles through speech symbol levels which determine what symbols are spoken</source>
+        <target>3指双击：在语音符号级别之间循环切换，已确定朗读哪些符号</target>
+      </segment>
+    </unit>
+    <unit id="55e3919d-6fc8-4778-a78c-e99de13ed048">
+      <notes>
+        <note appliesTo="source">line: 23</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>2 finger tripple tap: Quit NVDA!.</source>
+        <target>2指三击：退出 NVDA。</target>
+      </segment>
+    </unit>
+    <unit id="332421d7-168e-4058-bec4-b63412320b56">
+      <notes>
+        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>4 finger tap: Cycles through audio ducking modes.</source>
+        <target>4指单击：在音频闪避模式之间切换。</target>
+      </segment>
+    </unit>
+    <unit id="ad330ded-b374-4a8b-a8ff-9014249190a5">
+      <notes>
+        <note appliesTo="source">line: 25</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Triple tap: Toggles between beeps, speech, beeps and speech, and off.</source>
+        <target>三击：在语音模式之间循环切换。</target>
+      </segment>
+    </unit>
+    <unit id="08772ab2-6589-409a-9c2a-d6e17e34923a">
+      <notes>
+        <note appliesTo="source">line: 27</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Web touch mode</source>
+        <target>网页触摸模式</target>
+      </segment>
+    </unit>
+    <unit id="b1b61e96-fb56-498d-8d27-15bec56e9388">
+      <notes>
+        <note appliesTo="source">line: 29</note>
+      </notes>
+      <segment state="final">
+        <source>This touch mode, available in browse mode, allows you to navigate the document by selected element. To switch to web mode, from browse mode documents, perform 3 finger tap. From this mode, flicking up or down with one finger cycles through available element navigation modes, while flicking right or left with one finger moves to next or previous chosen element, respectively. Once you move away from browse mode documents, object touch mode is used.</source>
+        <target>此触摸模式（在浏览模式下可用）支持按元素导航。要从浏览模式文档切换到 Web 模式，可以使用3指点击。在该模式下，用一个手指向上或向下轻扫，循环切换可用于导航的元素，随后用一个手指向右或向左清扫，根据切换到的元素分别移动到下一个或上一个。退出浏览模式后，则使用对象导航模式。</target>
+      </segment>
+    </unit>
+    <unit id="9a097d1f-d6de-4de8-94d8-8e3337393aef">
+      <notes>
+        <note appliesTo="source">line: 30</note>
+      </notes>
+      <segment state="final">
+        <source>Available web modes are: Default, Links, Buttons, Form fields, Headings, Frames, Tables, Lists, Graphics, and Landmarks.</source>
+        <target>可用的 web 模式有：默认、链接、按钮、表单字段、标题、框架、表格、列表、图形和路标。</target>
+      </segment>
+    </unit>
+    <unit id="b28f0ae6-382e-4e84-9275-37d181338496">
+      <notes>
+        <note appliesTo="source">line: 31</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Synth settings touch mode</source>
+        <target>语音设置模式</target>
+      </segment>
+    </unit>
+    <unit id="8dc80ea6-cc7f-41d1-8f9a-138ae0546b57">
+      <notes>
+        <note appliesTo="source">line: 33</note>
+      </notes>
+      <segment state="final">
+        <source>You can use this mode to quickly change synthesizer settings such as choosing a voice and changing volume. In this mode, use two finger flick left or right to move between synth settings and use two finger flick up and down gestures to change values. This gestures mirrors that of synth settings ring commands on the keyboard.</source>
+        <target>您可以在此模式下快速更改语音合成器设置，例如选择语音和调节音量。在此模式下，使用两个手指向左或向右滑动以在合成器设置之间切换，然后使用两个手指向上和向下清扫来更改相应设置的值。该手势对应于键盘上的语音循环切换。</target>
+      </segment>
+    </unit>
+    <unit id="3f2d04d6-2874-4d9d-af86-cf6912edd3db">
+      <notes>
+        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 25.07</source>
+        <target>版本25.07</target>
+      </segment>
+    </unit>
+    <unit id="00910639-1077-4c11-8799-a344c1e8cf5e">
+      <notes>
+        <note appliesTo="source">line: 37</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Made the add-on code more robust with help from Pyright (a Python static type checker).</source>
+        <target>在Pyright（Python静态类型检查器）的帮助下，使插件代码更加健壮。</target>
+      </segment>
+    </unit>
+    <unit id="7d1f26f2-c128-4961-91ab-208e11a08f04">
+      <notes>
+        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 25.02</source>
+        <target>版本25.02</target>
+      </segment>
+    </unit>
+    <unit id="1ac3177b-a239-4032-8278-be9f64bec6a0">
+      <notes>
+        <note appliesTo="source">line: 41</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Restored limited support for Windows 8.1.</source>
+        <target>恢复了对Windows 8.1的有限支持。</target>
+      </segment>
+    </unit>
+    <unit id="625e666f-1876-4345-a0d4-bce53863475b">
+      <notes>
+        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 25.01</source>
+        <target>版本25.01</target>
+      </segment>
+    </unit>
+    <unit id="736b604f-af09-4cc1-bf42-0d4270f91923">
+      <notes>
+        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Download links for add-on releases are no longer included in add-on documentation. You can download the add-on from NV Access add-on store.</source>
+        <target>文档中不再提供插件的下载链接。您可以从NV Access 插件商店下载插件。</target>
+      </segment>
+    </unit>
+    <unit id="443732c2-c0a9-4d10-aa0c-8674af1ae065">
+      <notes>
+        <note appliesTo="source">line: 46</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Switched linting tool from Flake8 to Ruff and reformatted add-on modules to better align with NVDA coding standards.</source>
+        <target>Lintting 工具从 flake8 转为 ruff，并重新格式化插件模块，以更好地与NVDA编码标准保持一致。</target>
+      </segment>
+    </unit>
+    <unit id="425b4651-5f6b-454b-bacc-f20f7051ccb4">
+      <notes>
+        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Removed support for automatic add-on updates feature from Add-on Updater add-on.</source>
+        <target>从插件更新器中删除了对自动更新的支持。</target>
+      </segment>
+    </unit>
+    <unit id="ebd61620-2a95-4b83-b70f-440c401f0bbb">
+      <notes>
+        <note appliesTo="source">line: 49</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 24.05</source>
+        <target>版本24.05</target>
+      </segment>
+    </unit>
+    <unit id="d3e23129-491a-4fe1-bbfc-26e134c00ec2">
+      <notes>
+        <note appliesTo="source">line: 51</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA 2024.1 or later is required.</source>
+        <target>需要NVDA 2024.1或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="531eea31-8686-4a8c-ac04-d65af34bf945">
+      <notes>
+        <note appliesTo="source">line: 53</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 23.06.1</source>
+        <target>版本23.06.1</target>
+      </segment>
+    </unit>
+    <unit id="90c6cf08-bfdf-4d41-bb15-709fbec6f6bc">
+      <notes>
+        <note appliesTo="source">line: 55</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>audio ducking moved to 4 finger tap due to conflict with speech stops NVDA command.</source>
+        <target>由于跟停止朗读手势存在冲突，将切换音频闪避的手势改为4指单机。</target>
+      </segment>
+    </unit>
+    <unit id="79bf503f-a045-4c4b-8a81-348e9b6ae93f">
+      <notes>
+        <note appliesTo="source">line: 57</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 23.06</source>
+        <target>版本23.06</target>
+      </segment>
+    </unit>
+    <unit id="e35f84ab-4bf6-4365-a2f3-54e2a29d1461">
+      <notes>
+        <note appliesTo="source">line: 59</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Enhanced Touch gestures nvda-addon is now maintained by Kefas Lungu.</source>
+        <target>触摸增强插件目前由  Kefas Lungu 维护。</target>
+      </segment>
+    </unit>
+    <unit id="426d8e5f-a449-44e9-9cd1-8665f7608a79">
+      <notes>
+        <note appliesTo="source">line: 60</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>All gestures in object mode are now available everywhere.</source>
+        <target>现在，对象模式下的所有手势全局生效。</target>
+      </segment>
+    </unit>
+    <unit id="3b33e651-8f70-4ae0-b749-90cb07bd946d">
+      <notes>
+        <note appliesTo="source">line: 61</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>New gestures are now available.</source>
+        <target>支持了新的手势。</target>
+      </segment>
+    </unit>
+    <unit id="c536edfa-f1b7-4045-a868-e46994fc501c">
+      <notes>
+        <note appliesTo="source">line: 62</note>
+        <note appliesTo="source">prefix:   * </note>
+      </notes>
+      <segment state="final">
+        <source>3 finger double tap: Cycles through speech symbol levels which determine what symbols are spoken</source>
+        <target>3指双击：在语音符号级别之间循环切换，已确定朗读哪些符号</target>
+      </segment>
+    </unit>
+    <unit id="e707ee02-f0a0-4b12-b211-95d19144083e">
+      <notes>
+        <note appliesTo="source">line: 63</note>
+        <note appliesTo="source">prefix:   * </note>
+      </notes>
+      <segment state="final">
+        <source>2 finger tripple tap: Quit NVDA!.</source>
+        <target>2指三击：退出 NVDA。</target>
+      </segment>
+    </unit>
+    <unit id="1c522700-ea30-48ed-bcd3-733d6eab8728">
+      <notes>
+        <note appliesTo="source">line: 64</note>
+        <note appliesTo="source">prefix:   * </note>
+      </notes>
+      <segment state="final">
+        <source>4 finger tap: Cycles through audio ducking modes.</source>
+        <target>4指单击：在音频闪避模式之间切换。</target>
+      </segment>
+    </unit>
+    <unit id="c9ec55eb-3272-4c83-a29d-6016915e857b">
+      <notes>
+        <note appliesTo="source">line: 65</note>
+        <note appliesTo="source">prefix:   * </note>
+      </notes>
+      <segment state="final">
+        <source>Triple tap: Toggles between beeps, speech, beeps and speech, and off.</source>
+        <target>三击：在语音模式之间循环切换。</target>
+      </segment>
+    </unit>
+    <unit id="39b1c06f-1703-4481-93e0-23c9cfae376e">
+      <notes>
+        <note appliesTo="source">line: 66</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>In web mode, it is now possible to Use buttons, graphics, and landmarks in addition to the already available browse element list.</source>
+        <target>在Web模式下，除了原有支持导航列表以外，现在还支持按钮，图形和路标的导航。</target>
+      </segment>
+    </unit>
+    <unit id="3c4eef8d-2350-473f-98f6-b9acd2acfff8">
+      <notes>
+        <note appliesTo="source">line: 67</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>In web mode, NVDA is no longer going to say normal, but default when you switch to default navigation from other browse element list. For example, when switching from buttons, NVDA will now say default.</source>
+        <target>在Web模式下，从其他元素类型导航切换到“默认”模式后，NVDA 提示“默认”。</target>
+      </segment>
+    </unit>
+    <unit id="bde62a07-7187-4948-9729-a2ee92cc569b">
+      <notes>
+        <note appliesTo="source">line: 69</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 23.02</source>
+        <target>版本 23.02</target>
+      </segment>
+    </unit>
+    <unit id="e1dab631-5a4c-4a4e-a7f8-906e9f398e62">
+      <notes>
+        <note appliesTo="source">line: 71</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA 2022.4 or later is required.</source>
+        <target>需要 NVDA 2022.4 或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="8da209a5-4980-494f-8a53-f5b75d5e5d95">
+      <notes>
+        <note appliesTo="source">line: 72</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Windows 10 21H2 (November 2021 Update/build 19044) or later is required.</source>
+        <target>需要 Windows 10 21H2（2021 年 11 月更新/内部版本 19044）或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="b42ad8a1-9c4f-4d5a-bc34-d1f8be907cdd">
+      <notes>
+        <note appliesTo="source">line: 74</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 23.01</source>
+        <target>版本23.01</target>
+      </segment>
+    </unit>
+    <unit id="0577c986-43ca-4457-8f35-d6dfab434bc3">
+      <notes>
+        <note appliesTo="source">line: 76</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA 2022.3 or later is required.</source>
+        <target>现在需要NVDA 2022.3或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="7fa2a749-bbb3-484e-8568-35a9949700e2">
+      <notes>
+        <note appliesTo="source">line: 77</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Windows 10 or later is required as Windows 8.1 is no longer supported by Microsoft as of January 2023.</source>
+        <target>需要 Windows 10 或更高版本，因为自 2023 年 1 月起，Microsoft 不再支持 Windows 8.1。</target>
+      </segment>
+    </unit>
+    <unit id="45d8f176-e79f-46c4-bae7-d963d2e83974">
+      <notes>
+        <note appliesTo="source">line: 78</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>It is possible to reassign touch keyboard and dictation toggle commands from input gestures dialog under Enhanced Touch Gestures category.</source>
+        <target>可以从按键与手势对话框中触摸手势增强类别下重新分配触摸键盘和听写切换命令。</target>
+      </segment>
+    </unit>
+    <unit id="3d88d7c8-cdd5-4240-ae71-fcd956e818fb">
+      <notes>
+        <note appliesTo="source">line: 79</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Removed read-only state workaround for touch keyboard keys as it is resolved in Windows 10.</source>
+        <target>删除了触摸键盘键的只读状态解决方法，已在 Windows 10 中得到解决。</target>
+      </segment>
+    </unit>
+    <unit id="ccfa5105-19a5-4dd6-b519-dca1439b6151">
+      <notes>
+        <note appliesTo="source">line: 81</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 22.03</source>
+        <target>版本 22.03</target>
+      </segment>
+    </unit>
+    <unit id="e6c1814f-4d45-4dc0-8d94-5c86b080b848">
+      <notes>
+        <note appliesTo="source">line: 83</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA 2021.3 or later is required.</source>
+        <target>现在需要NVDA 2021.3或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="5fb73e4d-3229-4203-b6b6-b9ba96396335">
+      <notes>
+        <note appliesTo="source">line: 84</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>A warning message will be displayed when attempting to install the add-on on Windows 7, 8, and 8.1.</source>
+        <target>试图在 Windows 7、8 和 8.1 上安装插件时将会显示一条警告消息。</target>
+      </segment>
+    </unit>
+    <unit id="e5cc052b-64f1-4cd8-8906-43eb7bab53e2">
+      <notes>
+        <note appliesTo="source">line: 86</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 21.10</source>
+        <target>版本 21.10</target>
+      </segment>
+    </unit>
+    <unit id="d9bd316c-4ecd-48de-b11f-c5caccbcf338">
+      <notes>
+        <note appliesTo="source">line: 88</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA 2021.2 or later is required due to changes to NVDA that affects this add-on.</source>
+        <target>由于 NVDA 的更改对本插件的影响，您需要使用 NVDA 2021.2 或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="79cfcde2-0389-45e9-9b1c-ded85ed1637a">
+      <notes>
+        <note appliesTo="source">line: 90</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 21.08</source>
+        <target>版本21.08</target>
+      </segment>
+    </unit>
+    <unit id="f98489bf-39fe-4c17-8285-75d36065b5a1">
+      <notes>
+        <note appliesTo="source">line: 92</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Initial support for Windows 11.</source>
+        <target>对 Windows 11 的初步支持。</target>
+      </segment>
+    </unit>
+    <unit id="299e128c-6192-4c1d-8df6-c70c843e87d9">
+      <notes>
+        <note appliesTo="source">line: 94</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 21.01</source>
+        <target>版本21.01</target>
+      </segment>
+    </unit>
+    <unit id="44fa2bd5-9ed5-4fb2-ab0e-0ad6f372712f">
+      <notes>
+        <note appliesTo="source">line: 96</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA 2020.3 or later is required.</source>
+        <target>现在需要NVDA 2020.3或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="769d51ad-2ab0-4543-8b25-a93e289da618">
+      <notes>
+        <note appliesTo="source">line: 97</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>On Windows 10 Version 1709 and later, doing a four finger flick left will toggle dictation (Windows+H).</source>
+        <target>在 Windows 10 版本 1709 及更高版本上，四指向左滑动可切换听写模式 (即 Windows+H)。</target>
+      </segment>
+    </unit>
+    <unit id="4ec10163-1a53-4d5d-8d4c-ca0cd25f63ae">
+      <notes>
+        <note appliesTo="source">line: 98</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Remove dedicated touch interaction support toggle command from the add-on.</source>
+        <target>从插件中删除专用的触摸支持命令。</target>
+      </segment>
+    </unit>
+    <unit id="6bd9731a-e029-4197-b55d-97aa8b2ea484">
+      <notes>
+        <note appliesTo="source">line: 99</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>As touch interaction support can be toggled from NVDA's touch interaction settings panel, a dedicated Enhanced Touch Gestures settings panel has been removed.</source>
+        <target>由于 NVDA 本身支持了触摸交互设置，故此插件删除了设置面板的相关选项。</target>
+      </segment>
+    </unit>
+    <unit id="bb498fcf-d21d-4bbe-b4c3-c5a0e6b77dfc">
+      <notes>
+        <note appliesTo="source">line: 101</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 20.09</source>
+        <target>版本20.09</target>
+      </segment>
+    </unit>
+    <unit id="37a6badb-ed53-4c5c-bf9c-84a64ef0c811">
+      <notes>
+        <note appliesTo="source">line: 103</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Removed ability to let NVDA turn off touch interaction for up to ten seconds (touch command passthrough).</source>
+        <target>删除了让 NVDA 关闭触摸交互10秒（以直接传递触摸命令）的功能。</target>
+      </segment>
+    </unit>
+    <unit id="0876a814-e36e-4215-b778-0d27c3110ee5">
+      <notes>
+        <note appliesTo="source">line: 104</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Removed coordinate announcement beep feature.</source>
+        <target>删除了坐标通知提示音功能。</target>
+      </segment>
+    </unit>
+    <unit id="5d3ac60b-d660-42a6-9a45-da909d3b5cb8">
+      <notes>
+        <note appliesTo="source">line: 106</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 20.07</source>
+        <target>版本20.07</target>
+      </segment>
+    </unit>
+    <unit id="9aa9cd10-b417-41e0-a49d-fbec783a951b">
+      <notes>
+        <note appliesTo="source">line: 108</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added a keyboard command to toggle touch interaction or enable/disable touch passthrough (Control+Alt+NVDA+T).</source>
+        <target>添加了切换启用/禁用触摸 (Ctrl+Alt+NVDA+T) 的键盘命令。</target>
+      </segment>
+    </unit>
+    <unit id="d8240050-0f35-40a0-8560-3327625655bc">
+      <notes>
+        <note appliesTo="source">line: 109</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>As NVDA 2020.1 and later includes a touch command to perform right mouse click (one finger tap and hold), the command has been removed from this add-on. AS a result, NVDA 2020.1 or later is required.</source>
+        <target>由于 NVDA 2020.1 及更高版本包含用于执行鼠标右键单击（单指点击并按住）的触摸命令，该命令已从此插件中删除。因此，需要 NVDA 2020.1 或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="0a6952d1-40a4-496f-aca4-1061efc7b8d5">
+      <notes>
+        <note appliesTo="source">line: 110</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>The ability to let NVDA turn off touch interaction for up to ten seconds (touch command passthrough) is deprecated. In the future this feature will toggle touch interaction instead.</source>
+        <target>让 NVDA 关闭触摸交互10秒（以直接传递触摸命令）的功能已被弃用。将来，此功能使用切换触摸交互代替。</target>
+      </segment>
+    </unit>
+    <unit id="b87bd19a-6068-4650-a5bc-afbba1a31d06">
+      <notes>
+        <note appliesTo="source">line: 111</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>In NVDA development snapshots, due to touch interaction feature changes, touch command passthrough feature and Enhanced Touch Gestures settings panel will be disabled. The command used to enable touch command passthrough will toggle touch interaction instead.</source>
+        <target>在 NVDA 开发快照中，由于触摸交互功能的变化，触摸命令传递功能和增强的触摸手势设置面板将被禁用。用于启用触摸命令传递的命令将改为切换触摸交互。</target>
+      </segment>
+    </unit>
+    <unit id="d0665d0b-04e1-48fe-9d4d-a6d9adb1b5e7">
+      <notes>
+        <note appliesTo="source">line: 112</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Coordinate announcement beep feature is deprecated and will be removed in a future add-on release.</source>
+        <target>坐标通知提示音功能已弃用，并将在未来的附加版本中删除。</target>
+      </segment>
+    </unit>
+    <unit id="1cfe9e25-1e7b-4c28-b310-aad45280f36f">
+      <notes>
+        <note appliesTo="source">line: 113</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Coordinate announcement beep will not be heard while using touch keyboard.</source>
+        <target>使用触摸键盘时不会听到坐标通知提示音。</target>
+      </segment>
+    </unit>
+    <unit id="cb1b5d86-e85a-427d-9e32-056ee2f82ed0">
+      <notes>
+        <note appliesTo="source">line: 114</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA will no longer appear to do nothing or play error tones while exploring modern input facility such as emoji panel via touch.</source>
+        <target>在通过触摸探索现代输入工具（例如表情符号面板）时，NVDA 将不在没有提示或播放错误提示音。</target>
+      </segment>
+    </unit>
+    <unit id="191e8867-b5e1-4670-aeba-783b19ecd499">
+      <notes>
+        <note appliesTo="source">line: 115</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA will present an error message if touch keyboard cannot be activated (four finger flick right).</source>
+        <target>如果无法激活触摸键盘（四指向右滑动），NVDA 将显示错误消息。</target>
+      </segment>
+    </unit>
+    <unit id="00e6daf9-ba55-4e3b-b79d-135935837500">
+      <notes>
+        <note appliesTo="source">line: 117</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 20.06</source>
+        <target>版本20.06</target>
+      </segment>
+    </unit>
+    <unit id="fabbde28-21fc-4094-b501-60215d4cd2d3">
+      <notes>
+        <note appliesTo="source">line: 119</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Resolved many coding style issues and potential bugs with Flake8.</source>
+        <target>使用 Flake8 解决了许多编码样式问题和潜在错误。</target>
+      </segment>
+    </unit>
+    <unit id="0e4af7bc-f76b-4af1-aa85-854ca88d8465">
+      <notes>
+        <note appliesTo="source">line: 121</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 20.04</source>
+        <target>版本20.04</target>
+      </segment>
+    </unit>
+    <unit id="59c53a86-9c48-4711-ac56-4a251281c44e">
+      <notes>
+        <note appliesTo="source">line: 123</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Right mouse click gesture (one finger tap and hold) is now part of NVDA 2020.1.</source>
+        <target>鼠标右键单击手势（一个手指点击并按住）现在是 NVDA 2020.1 的一部分。</target>
+      </segment>
+    </unit>
+    <unit id="6078cfa5-bbe1-4502-b130-aad762ae3cf6">
+      <notes>
+        <note appliesTo="source">line: 125</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 20.01</source>
+        <target>版本20.01</target>
+      </segment>
+    </unit>
+    <unit id="ba30ee5e-8e83-4dce-a102-e57cae90cfe9">
+      <notes>
+        <note appliesTo="source">line: 127</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA 2019.3 or later is required.</source>
+        <target>现在需要NVDA 2019.3或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="dec9e831-32d2-4174-9bf4-e35b42da5884">
+      <notes>
+        <note appliesTo="source">line: 128</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Touch support toggle command (including touch passthrough) will no longer function if touch support is turned off completely.</source>
+        <target>如果完全关闭触摸支持，则触摸支持切换命令（包括触摸传递）将不再起作用。</target>
+      </segment>
+    </unit>
+    <unit id="e5cac2dd-55f9-42da-97fb-492aa82fd383">
+      <notes>
+        <note appliesTo="source">line: 130</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 19.11</source>
+        <target>版本19.11</target>
+      </segment>
+    </unit>
+    <unit id="39853f06-671d-4641-9880-3852cb700b0d">
+      <notes>
+        <note appliesTo="source">line: 132</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added input help messages for additional touch commands.</source>
+        <target>为其他触摸命令添加输入帮助消息。</target>
+      </segment>
+    </unit>
+    <unit id="d675ec00-61ac-4a34-b649-b2c775971c82">
+      <notes>
+        <note appliesTo="source">line: 134</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 19.09</source>
+        <target>版本19.09</target>
+      </segment>
+    </unit>
+    <unit id="3a8a25a1-e3da-43b4-899b-58ed312d3a7f">
+      <notes>
+        <note appliesTo="source">line: 136</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Touch support can now be disabled from everywhere, not just from profiles other than normal profile.</source>
+        <target>触摸支持现在可以从任何地方禁用，而不仅仅是从配置文件以外的正常配置文件。</target>
+      </segment>
+    </unit>
+    <unit id="d2be724c-4ed5-4eb0-a4d0-d657289393be">
+      <notes>
+        <note appliesTo="source">line: 138</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 19.07</source>
+        <target>版本19.07</target>
+      </segment>
+    </unit>
+    <unit id="35b0302c-61bc-475f-ac89-2c02b38fba81">
+      <notes>
+        <note appliesTo="source">line: 140</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Internal changes to support future NVDA releases.</source>
+        <target>内部更改以支持未来的NVDA版本。</target>
+      </segment>
+    </unit>
+    <unit id="556e8e9e-323d-436e-b5fc-423b76fbb9df">
+      <notes>
+        <note appliesTo="source">line: 142</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 18.12</source>
+        <target>版本18.12</target>
+      </segment>
+    </unit>
+    <unit id="1e9ee345-49c7-4adf-84f7-34022d7f75ed">
+      <notes>
+        <note appliesTo="source">line: 144</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Internal changes to support future NVDA releases.</source>
+        <target>内部更改以支持未来的NVDA版本。</target>
+      </segment>
+    </unit>
+    <unit id="d3c72603-aed8-40ee-979e-bbf6cb72c66e">
+      <notes>
+        <note appliesTo="source">line: 146</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 18.08</source>
+        <target>版本18.08</target>
+      </segment>
+    </unit>
+    <unit id="ee1e723d-5e03-4043-840f-b708b81cae00">
+      <notes>
+        <note appliesTo="source">line: 148</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Compatible with NVDA 2018.3 and future versions.</source>
+        <target>兼容NVDA 2018.3和未来版本。</target>
+      </segment>
+    </unit>
+    <unit id="1da89407-361a-4520-9373-549ea80b0138">
+      <notes>
+        <note appliesTo="source">line: 150</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 18.06</source>
+        <target>版本18.06</target>
+      </segment>
+    </unit>
+    <unit id="dab96791-a1b2-4776-b317-f76d0070eb14">
+      <notes>
+        <note appliesTo="source">line: 152</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Add-on settings is now found in new multi-category NVDA Settings screen under "Enhanced Touch Gestures" category. As a result, NVDA 2018.2 is required.</source>
+        <target>现在，“增强触摸手势”的设置已整合进NVDA新版设置。因此，需要NVDA 2018.2。</target>
+      </segment>
+    </unit>
+    <unit id="88029790-2c49-4697-b0ca-ae625272dda6">
+      <notes>
+        <note appliesTo="source">line: 153</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Fixed compatibility issues with wxPython 4.</source>
+        <target>修复了wxPython 4的兼容性问题。</target>
+      </segment>
+    </unit>
+    <unit id="fba38066-7b4b-46e6-927f-004b040bee1e">
+      <notes>
+        <note appliesTo="source">line: 155</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 18.04</source>
+        <target>版本18.04</target>
+      </segment>
+    </unit>
+    <unit id="9aacf990-defe-4e4d-a298-b63815a13865">
+      <notes>
+        <note appliesTo="source">line: 157</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Resolves an issue where touch interaction category in NVDA Settings panel may cause error sounds to be heard due to changes made from this add-on.</source>
+        <target>解决了NVDA设置面板中的触摸交互类别可能导致由于此插件所做的更改而听到错误声音的问题。</target>
+      </segment>
+    </unit>
+    <unit id="e66b4217-1b86-482c-869d-a32b6d30ad24">
+      <notes>
+        <note appliesTo="source">line: 159</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 18.03</source>
+        <target>版本18.03</target>
+      </segment>
+    </unit>
+    <unit id="4423dc28-af73-44b6-a46d-592fd43d08c3">
+      <notes>
+        <note appliesTo="source">line: 161</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA 2018.1 is required.</source>
+        <target>现在需要NVDA 2018.1。</target>
+      </segment>
+    </unit>
+    <unit id="ee21ae7c-75af-4ec7-9a2a-9803873dd14c">
+      <notes>
+        <note appliesTo="source">line: 162</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Because NVDA 2018.1 comes with touch typing checkbox, the checkbox is no longer included in this add-on.</source>
+        <target>由于NVDA 2018.1带有触摸输入复选框，因此此插件中不再包含该复选框。</target>
+      </segment>
+    </unit>
+    <unit id="4becfee3-24b3-46c7-bf23-2cfb2d4fff53">
+      <notes>
+        <note appliesTo="source">line: 164</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 17.12</source>
+        <target>版本17.12</target>
+      </segment>
+    </unit>
+    <unit id="c4c272e6-ae1f-45dd-8b6e-6255f9cc7129">
+      <notes>
+        <note appliesTo="source">line: 166</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Requires NVDA 2017.4. Specifically, this add-on can now handle configuration profile switches.</source>
+        <target>现在需要NVDA 2017.4。具体来说，此插件现在可以处理配置文件切换。</target>
+      </segment>
+    </unit>
+    <unit id="167474bf-90b8-4f83-8627-9b4e4a87d07a">
+      <notes>
+        <note appliesTo="source">line: 167</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>As NVDA 2017.4 includes screen orientation announcement, this feature is no longer part of this add-on.</source>
+        <target>由于NVDA 2017.4包含屏幕方向通知，因此此功能不再是此插件的一部分。</target>
+      </segment>
+    </unit>
+    <unit id="cda40670-c631-4f88-a025-aa0ed9fd543b">
+      <notes>
+        <note appliesTo="source">line: 168</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added a hidden checkbox in Touch Interaction dialog to completely disable touch support (available if profiles other than normal configuration is active).</source>
+        <target>在“触摸交互”对话框中添加了一个隐藏复选框，以完全禁用触摸支持（如果正常配置以外的配置文件处于活动状态。</target>
+      </segment>
+    </unit>
+    <unit id="b825b2ea-2246-41c6-a084-fa58b4fe3aee">
+      <notes>
+        <note appliesTo="source">line: 169</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>If using NVDA 2018.1 or later, Touch Interaction dialog will be listed twice under NVDA's preferences menu. The second item is the dialog that comes with the add-on.</source>
+        <target>如果使用NVDA 2018.1或更高版本，则“触摸交互”对话框将在NvDA的选项菜单下列出两次。第二项是插件随附的对话框。</target>
+      </segment>
+    </unit>
+    <unit id="2023e139-60d0-4436-bb2d-cd6646fb7ee0">
+      <notes>
+        <note appliesTo="source">line: 170</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>In Touch Interaction dialog for the add-on, touch typing mode is no longer shown if using NVDA 2018.1 or later.</source>
+        <target>在插件的“触摸交互”对话框中，如果使用NVDA 2018.1或更高版本，则不再显示触摸键入模式。</target>
+      </segment>
+    </unit>
+    <unit id="e4c9f534-18e4-4550-8c77-5d0b20202217">
+      <notes>
+        <note appliesTo="source">line: 172</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 17.10</source>
+        <target>版本17.10</target>
+      </segment>
+    </unit>
+    <unit id="0ae00104-f2a2-4d68-b29a-b2c7fb6b3143">
+      <notes>
+        <note appliesTo="source">line: 174</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Due to support policy from Microsoft, Windows 8 (original release) is no longer supported.</source>
+        <target>由于Microsoft的支持策略，不再支持Windows 8（原始版本）。</target>
+      </segment>
+    </unit>
+    <unit id="47169787-ee44-4f5c-bcde-eb328af3e99a">
+      <notes>
+        <note appliesTo="source">line: 175</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA will no longer announce screen orientation twice when running NVDA 2017.4 development snapshots.</source>
+        <target>运行NVDA 2017.4开发快照时，NVDA将不再宣布屏幕方向两次。</target>
+      </segment>
+    </unit>
+    <unit id="b373b3f3-5596-4527-b9d1-cc23f6667dcf">
+      <notes>
+        <note appliesTo="source">line: 177</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 17.07.1</source>
+        <target>版本17.07.1</target>
+      </segment>
+    </unit>
+    <unit id="477d6e7e-b553-4eaf-b424-526879b0dc85">
+      <notes>
+        <note appliesTo="source">line: 179</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added an option in touch interaction dialog to manually toggle touch passthrough without use of a timer.</source>
+        <target>在触摸交互对话框中添加了一个选项，可以在不使用计时器的情况下手动切换触摸直通。</target>
+      </segment>
+    </unit>
+    <unit id="0f0d660b-0440-4d63-978f-3fc177c46ec0">
+      <notes>
+        <note appliesTo="source">line: 180</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>With manual passthrough mode off, if touch passthrough is turned on before the passthrough duration expires, touch interaction would be enabled.</source>
+        <target>关闭手动直通模式后，如果在直通持续时间到期之前打开触摸直通，则会启用触摸交互。</target>
+      </segment>
+    </unit>
+    <unit id="05f5dcc3-5f37-45eb-81a9-3d8d4950c3d2">
+      <notes>
+        <note appliesTo="source">line: 182</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 17.07</source>
+        <target>版本17.07</target>
+      </segment>
+    </unit>
+    <unit id="50b9f8f8-7614-4958-a226-cd8fc734afb3">
+      <notes>
+        <note appliesTo="source">line: 184</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added a new dialog named Touch Interaction under NVDA's preferences menu to configure how NVDA works with touchscreens.</source>
+        <target>在NVDA的首选项菜单下添加了一个名为Touch Interaction的新对话框，以配置NVDA如何与触摸屏配合使用。</target>
+      </segment>
+    </unit>
+    <unit id="996428d9-86b1-47b6-b068-0c8b59a620ab">
+      <notes>
+        <note appliesTo="source">line: 185</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>After installing this version, when pressing keys on the touch keyboard, one must double tap the desired key. You can switch back to the old way by enabling touch typing from Touch Interaction dialog.</source>
+        <target>安装此版本后，按下触摸键盘上的按键时，必须双击所需的按键。您可以通过在“触摸交互”对话框中启用触摸键入来切换回旧方法。</target>
+      </segment>
+    </unit>
+    <unit id="8dcc3051-71b2-48c2-996b-6bc28d1ad727">
+      <notes>
+        <note appliesTo="source">line: 186</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added a command (unassigned) to allow NVDA to ignore touch gestures for up to 10 seconds.</source>
+        <target>添加了一个命令（未分配），允许NVDA忽略触摸手势长达10秒。</target>
+      </segment>
+    </unit>
+    <unit id="0413c5e2-3f95-4638-bad7-98649bafbb37">
+      <notes>
+        <note appliesTo="source">line: 187</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added an option in Touch Interaction dialog to allow NVDA to pause touch interaction between 3 to 10 seconds in order to perform touchscreen gestures directly (as though NVDA is not running; default is 5 seconds).</source>
+        <target>在“触摸交互”对话框中添加了一个选项，允许NVDA暂停3到10秒之间的触摸交互，以便直接执行触摸屏手势（就像NVDA未运行;默认为5秒）。</target>
+      </segment>
+    </unit>
+    <unit id="54c2ee7b-8e69-463d-9ffb-38794fef2d36">
+      <notes>
+        <note appliesTo="source">line: 188</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added debug logging messages when performing right clicks (tap and hold) to be recorded in the NVDA log (requires NVDA 2017.1 or later).</source>
+        <target>在执行右键单击（点击并按住）以记录在NVDA日志中时需要添加调试日志消息（需要NVDA 2017.1或更高版本）。</target>
+      </segment>
+    </unit>
+    <unit id="b6766b85-d5c9-4bc0-a03b-f8d7d972e406">
+      <notes>
+        <note appliesTo="source">line: 189</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Due to changes made when playing screen coordinates, NVDA 2017.1 or later is required.</source>
+        <target>由于在播放屏幕坐标时所做的更改，需要NVDA 2017.1或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="f34169c1-a82e-4d01-b8ea-bf67b81e7a8f">
+      <notes>
+        <note appliesTo="source">line: 191</note>
+      </notes>
+      <segment state="final">
+        <source>##Version 17.03</source>
+        <target>##版本 17.03</target>
+      </segment>
+    </unit>
+    <unit id="913e99de-1edf-4dca-8ce6-50420d3874f4">
+      <notes>
+        <note appliesTo="source">line: 193</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Fixed an issue where coordinate announcement beep did not play or an error tone played instead when using NVDA 2017.1 or later.</source>
+        <target>修复了使用NVDA 2017.1或更高版本时未播放坐标公告蜂鸣声或播放错误音的问题。</target>
+      </segment>
+    </unit>
+    <unit id="f3fd4f31-57ef-43ee-87dc-1cd9bcf4ac9a">
+      <notes>
+        <note appliesTo="source">line: 195</note>
+      </notes>
+      <segment state="final">
+        <source>##Version 16.12</source>
+        <target>##版本 16.12</target>
+      </segment>
+    </unit>
+    <unit id="f9316f44-e0bc-4cb0-865f-d64476b3f519">
+      <notes>
+        <note appliesTo="source">line: 197</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Web touch mode works in Microsoft Edge, Microsoft Word and others where browse mode is used.</source>
+        <target>Web触摸模式适用于Microsoft Edge，Microsoft Word和其他使用浏览模式的模式。</target>
+      </segment>
+    </unit>
+    <unit id="1ad6b19c-05e0-4745-93e3-fe9c09302ea6">
+      <notes>
+        <note appliesTo="source">line: 198</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added lists and landmarks to web touch mode elements.</source>
+        <target>为web触摸模式元素添加了列表和标记。</target>
+      </segment>
+    </unit>
+    <unit id="fcf58daa-e07c-4f9d-830d-d47984353051">
+      <notes>
+        <note appliesTo="source">line: 200</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 16.06</source>
+        <target>版本16.06</target>
+      </segment>
+    </unit>
+    <unit id="c416ea43-290b-4155-a1bb-2bcb0352249f">
+      <notes>
+        <note appliesTo="source">line: 202</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Initial stable version.</source>
+        <target>发布初始版本。</target>
+      </segment>
+    </unit>
+    <unit id="b8ab122a-0a8a-40f9-891e-f5d937c7a286">
+      <notes>
+        <note appliesTo="source">line: 204</note>
+      </notes>
+      <segment state="final">
+        <source>[1]: https://addons.nvda-project.org/files/get.php?file=ets</source>
+        <target>[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedTouchGestures</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
