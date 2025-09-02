@@ -2,7 +2,9 @@
 
 该存储库用于日常维护 NVDA 简体中文翻译。
 
-### 翻译测试
+## 翻译 NVDA 主程序
+
+### 测试翻译
 
 如需测试翻译，请
 
@@ -73,7 +75,24 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 7. 当到达 NV Access 宣布的 Translatable string freeze 时间后，除非 NV Access 宣布延长 Translatable string freeze 的时间，否则不应再向 `Uploads` 分支推送任何翻译更改，在此之后如有其他翻译更改，请将其推送到适用于 alpha 开发周期的 `version_year.version_major` 分支。
 
-### L10nUtilTools.bat 的使用说明
+## 翻译 NVDA 插件
+
+该存储库可自动上传和下载在 [Crowdin 的 nvdaAddons 项目](https://zh.crowdin.com/project/nvdaaddons)中注册的插件的翻译。
+
+- 可在 `version_year.version_major` 分支的 `Translation/Addons` 文件夹提交针对这些插件的翻译。
+
+  - 应以插件 ID 命名存储插件翻译的文件夹。
+  - 插件的界面翻译命名为 `nvda.po`。
+  - 插件的文档翻译命名为 `readme.xliff`。
+
+- 提交到该存储库的插件翻译会在每天00:00(UTC) 自动更新。
+- 还可在任意分支手动运行 [Update Addons Translations from Crowdin 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateAddonTranslations.yaml)来新增或更新指定的插件翻译。
+
+  - 留空 Add-on ID 字段会更新该存储库已有插件的翻译。
+  - 在 Add-on ID 字段填写特定的插件 ID，如该存储库不包含该插件的翻译，则将其下载到存储库，否则更新该插件的翻译。
+  - 如需填写多个插件 ID，多个ID之间使用空格（ ）分隔。
+
+## L10nUtilTools.bat 的使用说明
 
 通过该工具，可快速调用 nvdaL10nUtil 及其他程序对翻译进行处理，主要可
 
@@ -83,11 +102,13 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 - 上传已翻译的文件到 Crowdin
 - 从 Crowdin 下载已翻译的文件，并支持将其自动提交到您的本地仓库
 
-#### 支持的命令参数
+### 支持的命令
 
-下面简单介绍该工具支持的命令参数，可通过运行该工具后输入，亦可通过命令行直接传入：
+下面简单介绍该工具支持的命令，可通过运行该工具后输入，亦可通过命令行直接传入：
 
-| 参数 | 作用 |
+#### 翻译 NVDA 主程序的命令
+
+| 命令 | 作用 |
 | --- | --- |
 | `GEC` | 生成更新日志的 html 文件。 |
 | `GEU` | 生成用户指南的 html 文件。 |
@@ -101,7 +122,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 | `MHU` | 从先前创建的 Markdown 文档生成用户指南的 html 文件。 |
 | `MXC` | 从先前创建的 Markdown 文档生成更新日志的 xliff 文件。 |
 | `MXU` | 从先前创建的 Markdown 文档生成用户指南的 xliff 文件。 |
-| `UDL` | 从给定的 nvda.pot 更新 nvda.po 的翻译字符串。 |
+| `UDL`\* | 从给定的 nvda.pot 更新 nvda.po 的翻译字符串。 |
 | `UPC` | 上传已翻译的 changes.xliff 文件到 Crowdin。 |
 | `UPU` | 上传已翻译的 userGuide.xliff 文件到 Crowdin。 |
 | `UPL` | 上传已翻译的 nvda.po 文件到 Crowdin。 |
@@ -114,11 +135,27 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 | `DCU` | 从 Crowdin 下载已翻译的 userGuide.xliff 文件并将其提交到存储库。 |
 | `DCL` | 从 Crowdin 下载已翻译的 nvda.po 文件并将其提交到存储库。 |
 | `DCA` | 从 Crowdin 下载所有已翻译的文件并将其提交到存储库。 |
-| `CLE` | 清理上述命令生成的所有文件。 |
+
+#### 翻译 NVDA 插件的命令
+
+| 命令 | 作用 |
+| --- | --- |
+| `MXX`\* | 使用插件的 readme.md 文档生成可上传的 XLIFF 文件。 |
+| `UAP`\* | 上传指定插件的界面翻译到 Crowdin。 |
+| `UAX`\* | 上传指定插件的文档翻译到 Crowdin。 |
+| `DAP`\* | 从 Crowdin 下载指定插件的界面翻译。 |
+| `DAX`\* | 从 Crowdin 下载指定插件的文档翻译。 |
+
+#### 通用命令
+
+| 命令 | 作用 |
+| --- | --- |
+| `CLE` | 清理翻译 NVDA 主程序和插件命令生成的所有文件。 |
 | 其他命令 | 退出本工具。 |
 
-#### 注意
+### 注意
 
+- 执行标有 `*` 的命令时，可能需要与该工具进行交互或配置必要的运行环境，请根据提示输入信息或配置运行环境后，该命令才可正确执行。
 - `GEC`、`GEU`、`GEK`、`GEL`、`MHC`、`MHU` 命令生成的文件位于 `Preview` 文件夹下，为了兼容 Poedit 的使用习惯，`GEL` 命令还会在 nvda.po 的所在文件夹创建 nvda.mo 的复本。
 - `GET` 命令生成的文件位于 `Preview\Test` 文件夹下，这些文件符合 NVDA 的文件结构，可直接复制到 NVDA 程序所在文件夹进行测试。
 - `GEZ` 命令生成的压缩包位于 `Preview\Archive` 文件夹下，该压缩包符合 NVDA 的文件结构，可直接解压到 NVDA 程序所在文件夹进行测试。
@@ -140,11 +177,22 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 - 从 Crowdin 下载的已翻译文件会直接替换存储库的原始文件，在执行下载命令前，请确保原始翻译文件已提交并上传到 Crowdin。
 - 下载并提交系列命令只会提交已下载的翻译文件到本地存储库，可手动将其推送到远程仓库或撤销更改。
+- 翻译 NVDA 插件系列命令主要供 GitHUB Actions 工作流使用，文档仅作为备注，不对这些命令的使用方法做过多介绍。
 
-### 其他注意事项
+## 其他注意事项
 
 1. 该存储库的 `main` 分支用于保存发布版本的翻译以供将文档上传到 Crowdin 时的差异比较，因此除更新发布版本的翻译外，不应向该分支提交任何更改。
 2. 请尽量通过该存储库提交 NVDA 简体中文的翻译更改，以避免提交的翻译不慎被自动化流程覆盖的可能。
+3. 该存储库的部分工作流的正常运行依赖于指定的存储库[变量](https://docs.github.com/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository)和[机密](https://docs.github.com/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets#creating-secrets-for-a-repository)。
+   Fork 该存储库时，只有正确设置这些变量和机密，相应的工作流才能正常运行。
+   这些变量和机密的名称、值、影响的工作流及作用如下：
+
+   | 类型 | 名称 | 值 | 影响的工作流 | 作用 |
+   | --- | --- | --- | --- | --- |
+   | 变量 | Run_CheckPot_Workflow | 任意内容 | `CheckPot.yaml` | 避免该工作流在 Fork 存储库中自动运行 |
+   | 变量 | Run_Addon_Translations_Workflow | 任意内容 | `UpdateAddonTranslations.yaml`、`UploadAddonTranslations.yaml` | 避免这些工作流在 Fork 存储库中自动运行 |
+   | 机密 | NVDA_CROWDIN | 具有译文读写权限的 [Crowdin 个人访问令牌](https://zh.crowdin.com/settings#api-key) | `UpdateAddonTranslations.yaml`、`UpdateTranslations.yaml`、`Upload.yaml`、`UploadAddonTranslations.yaml` | 从 Crowdin 上传和下载翻译时使用 |
+   | 机密 | PULLREQUESTTONVDA | 具有 public_repo 和 workflow 权限的 [GitHUB Personal Access Tokens (Classic)](https://github.com/settings/tokens/new) | `PullRequestToNVDA.yaml` | 在 nvaccess/nvda 存储库创建 PR 时使用 |
 
 [1]: #%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E7%BF%BB%E8%AF%91
 [2]: #l10nutiltoolsbat-%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
