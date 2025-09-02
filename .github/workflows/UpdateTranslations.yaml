@@ -1,4 +1,4 @@
-name: Update Translations from Crowdin
+name: Update NVDA Translations from Crowdin
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           ref: Uploads
@@ -36,7 +36,8 @@ jobs:
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
               git commit -m "更新翻译（从 Crowdin）"
-              git push origin
+              git pull --rebase
+              git push
               echo "has_changes=true" >> $env:GITHUB_OUTPUT
           } else {
               Write-Host "No changes to commit, skipping commit and push."

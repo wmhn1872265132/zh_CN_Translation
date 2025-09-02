@@ -1,4 +1,4 @@
-name: Upload Translations
+name: Upload NVDA translations to Crowdin
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - name: Install dependencies
@@ -83,6 +83,7 @@ jobs:
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
               git commit -m "更新已上传的翻译文件（从 Crowdin）"
+              git pull --rebase
               git push origin ${{ github.ref_name }}
               echo "has_changes=true" >> $env:GITHUB_OUTPUT
           } else {

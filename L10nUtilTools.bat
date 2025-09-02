@@ -4,34 +4,7 @@ chcp 65001>Nul
 Title L10n Util Tools
 
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
-Rem 设置 nvdaL10nUtil 程序路径  
-for %%F in (
-  "%ProgramFiles%\NVDA\l10nUtil.exe"
-  "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
-  "%~dp0Tools\NVDA\source\l10nUtil.py"
-) do (
-  if exist %%F (
-    if "%%~F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
-      set "L10nUtil=uv --directory "%~dp0Tools\NVDA" run %%F"
-    ) else (
-      set "L10nUtil=%%F"
-    )
-  )
-  if defined L10nUtil (
-    echo %%l10nUtil%% is set to !l10nUtil!.
-    goto CheckCLI
-  )
-)
-
-Rem 检查 %L10nUtil% 是否存在  
-if not defined L10nUtil (
-  echo l10nUtil program not found.
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
-  exit /b 1
-)
-
 Rem 判断是否从命令行传入参数  
-:CheckCLI
 if not "%1"=="" (
   set ProcessCLI=%1
   if not "!ProcessCLI:_=!"=="!ProcessCLI!" (goto ProcessCLI)
@@ -123,7 +96,7 @@ msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvd
 set ExitCode=%errorlevel%
 goto Quit
 
-Rem 处理标签，初始化变量  
+Rem 设置 nvdaL10nUtil 程序路径  
 :GEC
 :GEU
 :GEK
@@ -142,57 +115,85 @@ Rem 处理标签，初始化变量
 :UPC
 :UPU
 :UPA
-if /I  %CLI:~0,2%==GE (set Action=GenerateFiles)
-if /I  %CLI:~0,2%==DL (set Action=DownloadFiles)
-if /I  %CLI:~0,2%==DC (
+for %%F in (
+  "%ProgramFiles%\NVDA\l10nUtil.exe"
+  "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
+  "%~dp0Tools\NVDA\source\l10nUtil.py"
+) do (
+  if exist %%F (
+    if "%%~F"=="%~dp0Tools\NVDA\source\l10nUtil.py" (
+      set "L10nUtil=uv --directory "%~dp0Tools\NVDA" run %%F"
+    ) else (
+      set "L10nUtil=%%F"
+    )
+  )
+  if defined L10nUtil (
+    echo %%l10nUtil%% is set to !l10nUtil!.
+    goto ProcessingNVDATags
+  )
+)
+
+Rem 检查 %L10nUtil% 是否存在  
+if not defined L10nUtil (
+  echo l10nUtil program not found.
+  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
+  exit /b 1
+)
+
+Rem 处理针对 NVDA 翻译的标签，初始化变量  
+:ProcessingNVDATags
+if /I "%CLI:~0,2%"=="GE" (set Action=GenerateFiles)
+if /I "%CLI:~0,2%"=="DL" (set Action=DownloadFiles)
+if /I "%CLI:~0,2%"=="DC" (
   cd /d "%~dp0"
   set Action=DownloadAndCommit
 )
-if /I  %CLI:~0,2%==UP (set Action=UploadFiles)
-if /I %CLI:~2,1%==T (
+if /I "%CLI:~0,2%"=="UP" (set Action=UploadFiles)
+if /I "%CLI:~2,1%"=="T" (
   set Type=Test
   set CallForEachParameter=L C U K
   goto CallForEach
 )
-if /I %CLI:~2,1%==Z (
+if /I "%CLI:~2,1%"=="Z" (
   set Type=Archive
   set CallForEachParameter=L C U K
   goto CallForEach
 )
-if /I %CLI:~2,1%==A (
+if /I "%CLI:~2,1%"=="A" (
   set Type=All
   set CallForEachParameter=L C U
-  if /I %Action%==DownloadAndCommit (
+  if /I "%Action%"=="DownloadAndCommit" (
     set Parameter=DL
   )
   goto CallForEach
 )
-if /I %CLI:~2,1%==L (
+if /I "%CLI:~2,1%"=="L" (
   set Type=LC_MESSAGES
   set GitAddPath=Translation/LC_MESSAGES
   set TranslationPath=%~dp0Translation\LC_MESSAGES
   set FileName=nvda.po
   set ShortName=nvda
 )
-if /I %CLI:~2,1%==C (
+if /I "%CLI:~2,1%"=="C" (
   set Type=Docs
   set FileName=changes.xliff
   set ShortName=changes
 )
-if /I %CLI:~2,1%==U (
+if /I "%CLI:~2,1%"=="U" (
   set Type=Docs
   set FileName=userGuide.xliff
   set ShortName=userGuide
 )
-if /I %CLI:~2,1%==K (
+if /I "%CLI:~2,1%"=="K" (
   set Type=Docs
   set FileName=userGuide.xliff
   set ShortName=keyCommands
 )
-if /I %Type%==Docs (
+if /I "%Type%"=="Docs" (
   set GitAddPath=Translation/user_docs
   set TranslationPath=%~dp0Translation\user_docs
 )
+set CrowdinFilePath=%FileName%
 goto %Action%
 
 Rem 生成翻译预览系列命令  
@@ -272,22 +273,22 @@ Rem 从 Crowdin 下载已翻译的文件
 :DownloadAndCommit
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
-%L10nUtil% downloadTranslationFile zh-CN "%FileName%" "%DownloadFilename%"
+%L10nUtil% downloadTranslationFile zh-CN "%CrowdinFilePath%" "%DownloadFilename%"
 if %errorlevel% neq 0 (
   echo Error: %FileName% download failed with exit code %errorlevel%.
   set ExitCode=%errorlevel%
   Git restore "%GitAddPath%/%FileName%"
   goto Quit
 )
-if /I %Type%==LC_MESSAGES (
-powershell -ExecutionPolicy Bypass -File "%~dp0Tools\CheckPo.ps1"
+if /I "%Type%"=="LC_MESSAGES" (
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\CheckPo.ps1" "%DownloadFilename%"
 )
-if /I %Action%==DownloadAndCommit (goto Commit)
+if /I "%Action%"=="DownloadAndCommit" (goto Commit)
 exit /b 0
 
 Rem 将下载的翻译文件提交到存储库  
 :Commit
-if /I %Type%==All (
+if /I "%Type%"=="All" (
   set AddFileList="Translation/LC_MESSAGES/*.po" "Translation/user_docs/*.xliff"
   set CommitMSG=更新翻译（从 Crowdin）
 ) else (
@@ -319,15 +320,73 @@ goto Upload
 
 Rem 上传已翻译的文件到 Crowdin
 :UploadFiles
-if /I %Type%==Docs (
+if /I "%Type%"=="Docs" (
   goto ReadyUpload
 ) else (
   set Parameter= 
 )
 :Upload
-%L10nUtil% uploadTranslationFile zh-CN "%FileName%" "%TranslationPath%\%FileName%" %Parameter%
+%L10nUtil% uploadTranslationFile zh-CN "%CrowdinFilePath%" "%TranslationPath%\%FileName%" %Parameter%
 set ExitCode=%errorlevel%
 goto Quit
+
+Rem 处理针对插件翻译的标签，初始化变量  
+:MXX
+:UAP
+:UAX
+:DAP
+:DAX
+set AddonName=%2
+if not defined AddonName (
+  cls
+  echo 请输入插件 ID，按回车键确认。  
+  set /p AddonName=
+)
+set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
+IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
+  set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
+  set TargetPath=%CrowdinRegistrationSourcePath%
+  set VerifyFile=utils\l10nUtil.py
+  set PathSetSuccessfully=CrowdinRegistrationPathSetSuccessfully
+  goto SetPersonalSourcePath
+)
+:CrowdinRegistrationPathSetSuccessfully
+set L10nUtil=python "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
+if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
+if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
+if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
+if /I "%CLI:~2,1%"=="P" (
+  set Type=LC_MESSAGES
+  set CrowdinFilePath=%AddonName%.pot
+  set FileName=nvda.po
+)
+if /I "%CLI:~2,1%"=="X" (
+  set CrowdinFilePath=%AddonName%.xliff
+  set FileName=readme.xliff
+)
+set TranslationPath=%~dp0Translation\Addons\%AddonName%
+IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
+goto %Action%
+
+Rem 从插件的 Markdown 文档生成 xliff
+:GenerateAddonXLIFF
+Python "%CrowdinRegistrationSourcePath%\utils\markdownTranslate.py" translateXliff -x "%CrowdinRegistrationSourcePath%\%AddonName%\%AddonName%.xliff" -l zh-CN -p "%~dp0Preview\Markdown\readme.md" -o "%~dp0PotXliff\%AddonName%.xliff"
+set ExitCode=%errorlevel%
+if %ExitCode% neq 0 (goto Quit)
+move /Y "%~dp0PotXliff\%AddonName%.xliff" "%TranslationPath%\%FileName%"
+exit /b 0
+
+Rem 设置本地存储库路径  
+:SetPersonalSourcePath
+cls
+echo %PromptInformation%
+set /p PersonalSourcePath=
+IF NOT EXIST "%PersonalSourcePath%\%VerifyFile%" (
+  set PromptInformation=存储库路径输入错误，请重新输入。  
+  goto SetPersonalSourcePath
+)
+MKLINK /J "%TargetPath%" "%PersonalSourcePath%"
+goto %PathSetSuccessfully%
 
 Rem 清理本工具生成的所有文件  
 :CLE

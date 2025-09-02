@@ -1,4 +1,4 @@
-name: Build Translation Test
+name: Build NVDA translation test files
 
 on:
   push:
@@ -8,19 +8,22 @@ on:
       - "20*"
     paths:
       - 'Translation/**'
+      - '!Translation/Addons/**'
   pull_request:
     branches:
       - "*"
     paths:
       - 'Translation/**'
+      - '!Translation/Addons/**'
   workflow_dispatch:
 
 jobs:
   build:
+    name: Build translation test files
     runs-on: windows-latest
     steps:
       - name: Checkout ${{ github.repository }} repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install dependencies
         uses: ./.github/workflows/InstallDependencies
       - run: ${{ github.workspace }}/L10nUtilTools.bat BD_TEST
