@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/customNotifications/4a3a3ed99688a926e327555b438c7438df13d0df/readme.md">
+    <skeleton>
+# $(ID:d7573d02-ef41-47b4-8c8e-2cfe55531574)
+*	$(ID:cb973406-1725-47ff-88c9-5c0fea4ee9d3)
+
+$(ID:a1a5ecbb-5919-4c01-92ec-6f7238749eec)
+
+$(ID:5f3d5d98-3eda-4155-b2b1-8f239106057b)
+
+## $(ID:be56ae38-fd1f-45a7-9473-595ddf3342c0)
+
+$(ID:ac98b354-8c42-42df-b5d7-442e92002d17)
+
+* $(ID:373873c8-377a-41cf-afec-81c9b6fdd888)
+* $(ID:cceaf010-c61e-4776-a92b-d52cdb90869b)
+* $(ID:627873cb-68ef-4fe2-81b5-23b71719a162)
+* $(ID:b4622ccc-ec9c-4b55-a3de-ced2a8e36b99)
+* $(ID:48c7bf99-a8cd-420e-ab6d-14400a96db6a)
+* $(ID:88485f9e-9b8f-4f99-85f6-9cd068aad578)
+
+$(ID:c1d87dbd-0cef-4061-a3f0-f86a13ce69d8)
+
+## $(ID:025268e4-9fee-4048-b554-21dc3030d921)
+
+* $(ID:ef2ea836-052d-413e-9a40-47d54b434d78)
+
+</skeleton>
+    <unit id="d7573d02-ef41-47b4-8c8e-2cfe55531574">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="final">
+        <source>Custom Notifications #</source>
+        <target>自定义通知 #</target>
+      </segment>
+    </unit>
+    <unit id="cb973406-1725-47ff-88c9-5c0fea4ee9d3">
+      <notes>
+        <note appliesTo="source">line: 3</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="final">
+        <source>Authors: José Fischer, Noelia Ruiz Martínez</source>
+        <target>作者: José Fischer, Noelia Ruiz Martínez</target>
+      </segment>
+    </unit>
+    <unit id="a1a5ecbb-5919-4c01-92ec-6f7238749eec">
+      <notes>
+        <note appliesTo="source">line: 5</note>
+      </notes>
+      <segment state="final">
+        <source>This add-on is used to customize toast notifications.</source>
+        <target>该插件用于自定义toast通知.</target>
+      </segment>
+    </unit>
+    <unit id="5f3d5d98-3eda-4155-b2b1-8f239106057b">
+      <notes>
+        <note appliesTo="source">line: 7</note>
+      </notes>
+      <segment state="final">
+        <source>You can choose to read the whole notification or just the application which sends it, and if notifications will be spoken, displayed in braille or both.</source>
+        <target>您可以选择阅读整个通知或仅阅读发送通知的应用程序，还可以配置单独使用语音或盲文，抑或同时用两者来呈现通知。</target>
+      </segment>
+    </unit>
+    <unit id="be56ae38-fd1f-45a7-9473-595ddf3342c0">
+      <notes>
+        <note appliesTo="source">line: 9</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Settings ##</source>
+        <target>设置 ##</target>
+      </segment>
+    </unit>
+    <unit id="ac98b354-8c42-42df-b5d7-442e92002d17">
+      <notes>
+        <note appliesTo="source">line: 11</note>
+      </notes>
+      <segment state="final">
+        <source>Go to NVDA's menu, Preferences submenu, Settings, and select the Custom Notifications category. There you'll find the following controls:</source>
+        <target>转到nvda的菜单、选项、设置，然后选择自定义通知类别，您将会看到以下设置:</target>
+      </segment>
+    </unit>
+    <unit id="373873c8-377a-41cf-afec-81c9b6fdd888">
+      <notes>
+        <note appliesTo="source">line: 13</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>A checkbox to choose if notifications should be truncated, checked by default.</source>
+        <target>一个名为截取通知的复选框,用于开关截取通知功能，默认状态为开启.</target>
+      </segment>
+    </unit>
+    <unit id="cceaf010-c61e-4776-a92b-d52cdb90869b">
+      <notes>
+        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>An edit box to set the start limit of notifications, empty by default.</source>
+        <target>一个编辑框，用于键入一个或一系列字符，该字符会提示插件开始截取通知消息，默认情况下为空，被截取的通知消息并不包含该字符.</target>
+      </segment>
+    </unit>
+    <unit id="627873cb-68ef-4fe2-81b5-23b71719a162">
+      <notes>
+        <note appliesTo="source">line: 15</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>An edit box to set the end limit of notifications, ", " (comma space) by default.</source>
+        <target>一个编辑框，用于键入一个或一系列字符，该字符会提示插件停止截取通知消息，默认情况下为", "(逗号空格),被截取的通知消息并不包含该字符.</target>
+      </segment>
+    </unit>
+    <unit id="b4622ccc-ec9c-4b55-a3de-ced2a8e36b99">
+      <notes>
+        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>A list of checkboxes to select if notifications should be spoken and displayed in braille, both checked by default.</source>
+        <target>一个复选框列表，用于选择通知显示模式，分为语音和盲文，默认情况下两者都处于选中状态.</target>
+      </segment>
+    </unit>
+    <unit id="48c7bf99-a8cd-420e-ab6d-14400a96db6a">
+      <notes>
+        <note appliesTo="source">line: 17</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>An edit box to type a text to send a test notification, to get an idea of how NVDA will present toasts.</source>
+        <target>一个编辑框，用于键入测试文本，可以通过发送这条测试消息以了解NVDA将如何呈现toast。</target>
+      </segment>
+    </unit>
+    <unit id="88485f9e-9b8f-4f99-85f6-9cd068aad578">
+      <notes>
+        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>If the previous edit box contains text, a button to send a notification, so you can test if your selected  settings work fine for you.</source>
+        <target>如果上一个编辑框包含文本，则显示一个测试按钮，以便您可以测试所选设置是否适合您。</target>
+      </segment>
+    </unit>
+    <unit id="c1d87dbd-0cef-4061-a3f0-f86a13ce69d8">
+      <notes>
+        <note appliesTo="source">line: 20</note>
+      </notes>
+      <segment state="final">
+        <source>You can assign a gesture to open the add-on settings panel, and to toggle various add-on settings, from NVDA's menu, Preferences submenu, Input gestures dialog, Configuration category.</source>
+        <target>您可以从NVDA的菜单、选项子菜单、案件与首饰对话框、配置类别中，为该插件配置首饰，包括打开自定义通知的设置面板，切换自定义通知的各种功能开关。</target>
+      </segment>
+    </unit>
+    <unit id="025268e4-9fee-4048-b554-21dc3030d921">
+      <notes>
+        <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 2.0.0 ##</source>
+        <target>2.0.0的更改 ##</target>
+      </segment>
+    </unit>
+    <unit id="ef2ea836-052d-413e-9a40-47d54b434d78">
+      <notes>
+        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>In the add-on settings panel, added an edit box to set the start limit of notifications.</source>
+        <target>在插件设置面板中，添加了一个编辑框,用于输入截取通知的开始字符。</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
