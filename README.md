@@ -1,6 +1,8 @@
 # NVDA 简体中文翻译
 
-该存储库用于日常维护 NVDA 简体中文翻译。
+该存储库用于集中管理 NVDA 主程序及插件的简体中文翻译，以实现近似于原 SVN 翻译系统的体验。
+
+有关如何翻译 NVDA 的更多信息，请参看 [NVDA 开发者指南](https://download.nvaccess.org/documentation/developerGuide.html)的 [Translation](https://download.nvaccess.org/documentation/developerGuide.html#translation) 章节。
 
 ## 翻译 NVDA 主程序
 
