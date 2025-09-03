@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 03:26+0000\n"
+"POT-Creation-Date: 2025-09-03 09:18+0000\n"
 "PO-Revision-Date: 2025-08-22 01:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -15418,85 +15418,85 @@ msgid "ID:"
 msgstr "ID："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:271
+#: gui\addonStoreGui\controls\details.py:274
 msgctxt "addonStore"
 msgid "Installed version:"
 msgstr "已安装版本："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:277
+#: gui\addonStoreGui\controls\details.py:280
 msgctxt "addonStore"
 msgid "Minimum NVDA version:"
 msgstr "NVDA 版本最低要求："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:283
+#: gui\addonStoreGui\controls\details.py:286
 msgctxt "addonStore"
 msgid "Last tested NVDA version:"
 msgstr "最后测试的 NVDA 版本："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:290
+#: gui\addonStoreGui\controls\details.py:293
 msgctxt "addonStore"
 msgid "Available version:"
 msgstr "可用版本："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:295
+#: gui\addonStoreGui\controls\details.py:298
 msgctxt "addonStore"
 msgid "Channel:"
 msgstr "通道："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:303
+#: gui\addonStoreGui\controls\details.py:306
 msgctxt "addonStore"
 msgid "Incompatible Reason:"
 msgstr "不兼容原因："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:311
+#: gui\addonStoreGui\controls\details.py:314
 msgctxt "addonStore"
 msgid "Homepage:"
 msgstr "主页："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:318
+#: gui\addonStoreGui\controls\details.py:321
 msgctxt "addonStore"
 msgid "License:"
 msgstr "许可证："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:324
+#: gui\addonStoreGui\controls\details.py:327
 msgctxt "addonStore"
 msgid "License URL:"
 msgstr "许可证网址："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:330
+#: gui\addonStoreGui\controls\details.py:333
 msgctxt "addonStore"
 msgid "Download URL:"
 msgstr "下载地址："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:336
+#: gui\addonStoreGui\controls\details.py:339
 msgctxt "addonStore"
 msgid "Source URL:"
 msgstr "来源："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:343
+#: gui\addonStoreGui\controls\details.py:346
 msgctxt "addonStore"
 msgid "Reviews URL:"
 msgstr "评论网址："
 
 #. Translators: Label for an extra detail field for the selected add-on in the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:351
+#: gui\addonStoreGui\controls\details.py:354
 msgctxt "addonStore"
 msgid "Install date:"
 msgstr "安装日期："
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
-#: gui\addonStoreGui\controls\details.py:359
+#: gui\addonStoreGui\controls\details.py:362
 msgctxt "addonStore"
 msgid "Publication date:"
 msgstr "发布日期："
@@ -15946,7 +15946,7 @@ msgstr "最后测试的 NVDA 版本"
 
 #. Translators: An option of a combo box to sort columns in the add-on store, in ascending order.
 #. {column} will be replaced with the column display string.
-#: gui\addonStoreGui\viewModels\addonList.py:397
+#: gui\addonStoreGui\viewModels\addonList.py:400
 #, python-brace-format
 msgctxt "addonStore"
 msgid "{column} (ascending)"
@@ -15954,7 +15954,7 @@ msgstr "{column}（升序）"
 
 #. Translators: An option of a combo box to sort columns in the add-on store, in descending order.
 #. {column} will be replaced with the column display string.
-#: gui\addonStoreGui\viewModels\addonList.py:407
+#: gui\addonStoreGui\viewModels\addonList.py:410
 #, python-brace-format
 msgctxt "addonStore"
 msgid "{column} (descending)"
