@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-02 06:30+0000\n"
+"POT-Creation-Date: 2025-09-03 01:16+0000\n"
 "PO-Revision-Date: 2025-08-22 01:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -28,7 +28,7 @@ msgstr "未知"
 
 #. Translators: This is presented when errors are found in an appModule
 #. (example output: error in appModule explorer).
-#: appModuleHandler.py:289
+#: appModuleHandler.py:290
 #, python-format
 msgid "Error in appModule %s"
 msgstr "错误的程序模块 %s"
@@ -77,19 +77,19 @@ msgstr "区域"
 
 #. Translators: An audio ducking mode which specifies how NVDA affects the volume of other applications.
 #. See the Audio Ducking Mode section of the User Guide for details.
-#: audioDucking.py:44
+#: audioDucking.py:46
 msgid "No ducking"
 msgstr "不闪避"
 
 #. Translators: An audio ducking mode which specifies how NVDA affects the volume of other applications.
 #. See the Audio Ducking Mode section of the User Guide for details.
-#: audioDucking.py:47
+#: audioDucking.py:49
 msgid "Duck when outputting speech and sounds"
 msgstr "输出语音和声音时闪避"
 
 #. Translators: An audio ducking mode which specifies how NVDA affects the volume of other applications.
 #. See the Audio Ducking Mode section of the User Guide for details.
-#: audioDucking.py:50
+#: audioDucking.py:52
 msgid "Always duck"
 msgstr "总是闪避"
 
@@ -2227,8 +2227,8 @@ msgstr "未选择文本"
 #. Translators: Abbreviation for points, a measurement of font size.
 #: displayModel.py:556 appModules\powerpnt.py:1223 appModules\soffice.py:99
 #: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:206
-#: NVDAObjects\UIA\__init__.py:194 NVDAObjects\window\edit.py:344
-#: NVDAObjects\window\edit.py:707 NVDAObjects\window\excel.py:1360
+#: NVDAObjects\UIA\__init__.py:194 NVDAObjects\window\edit.py:345
+#: NVDAObjects\window\edit.py:708 NVDAObjects\window\excel.py:1360
 #: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1225
 #: virtualBuffers\adobeAcrobat.py:83
 #, python-format
@@ -2409,7 +2409,7 @@ msgstr "工具"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: a touch screen gesture
-#: globalCommands.py:108 touchHandler.py:206
+#: globalCommands.py:108 touchHandler.py:208
 msgid "Touch screen"
 msgstr "触摸屏"
 
@@ -6968,40 +6968,40 @@ msgstr "声调"
 msgid "Use modern audio output system (WASAPI)"
 msgstr "使用现代音频输出系统（WASAPI）"
 
-#: touchHandler.py:32
+#: touchHandler.py:34
 msgid "text mode"
 msgstr "文本模式"
 
-#: touchHandler.py:33
+#: touchHandler.py:35
 msgid "object mode"
 msgstr "对象模式"
 
 #. Translators: a touch screen action performed once
-#: touchHandler.py:133
+#: touchHandler.py:135
 #, python-brace-format
 msgid "single {action}"
 msgstr "{action}一次"
 
 #. Translators: a touch screen action performed twice
-#: touchHandler.py:135
+#: touchHandler.py:137
 #, python-brace-format
 msgid "double {action}"
 msgstr "{action}两次"
 
 #. Translators: a touch screen action performed 3 times
-#: touchHandler.py:137
+#: touchHandler.py:139
 #, python-brace-format
 msgid "tripple {action}"
 msgstr "{action}三次"
 
 #. Translators: a touch screen action performed 4 times
-#: touchHandler.py:139
+#: touchHandler.py:141
 #, python-brace-format
 msgid "quadruple {action}"
 msgstr "{action}四次"
 
 #. Translators: a touch screen action using multiple fingers
-#: touchHandler.py:199
+#: touchHandler.py:201
 #, python-brace-format
 msgid "{numFingers} finger {action}"
 msgid_plural "{numFingers} finger {action}"
@@ -8659,14 +8659,14 @@ msgid "{textAttribute} off"
 msgstr "{textAttribute} 关"
 
 #. Translators: a measurement in inches
-#: appModules\soffice.py:422 NVDAObjects\IAccessible\__init__.py:118
+#: appModules\soffice.py:422 NVDAObjects\IAccessible\__init__.py:119
 #, python-brace-format
 msgid "{val:.2f} inch"
 msgid_plural "{val:.2f} inches"
 msgstr[0] "{val:.2f} 英寸"
 
 #. Translators: a measurement in centimetres
-#: appModules\soffice.py:430 NVDAObjects\IAccessible\__init__.py:126
+#: appModules\soffice.py:430 NVDAObjects\IAccessible\__init__.py:127
 #, python-brace-format
 msgid "{val:.2f} centimetre"
 msgid_plural "{val:.2f} centimetres"
@@ -11070,7 +11070,7 @@ msgid "directory pane"
 msgstr "目录窗格"
 
 #. Translators: Identifies an object that is embedded in a document.
-#: controlTypes\role.py:347 NVDAObjects\window\edit.py:872
+#: controlTypes\role.py:347 NVDAObjects\window\edit.py:873
 msgid "embedded object"
 msgstr "嵌入式对象"
 
@@ -16085,82 +16085,82 @@ msgid "Math interaction not supported."
 msgstr "Math 交互不被支持。"
 
 #. Translators: A mode  that allows typing in the actual 'native' characters for an east-Asian input method language currently selected, rather than alpha numeric (Roman/English) characters.
-#: NVDAHelper\__init__.py:518
+#: NVDAHelper\__init__.py:528
 msgid "Native input"
 msgstr "本地输入"
 
 #. Translators: a mode that lets you type in alpha numeric (roman/english) characters, rather than 'native' characters for the east-Asian input method  language currently selected.
-#: NVDAHelper\__init__.py:520
+#: NVDAHelper\__init__.py:530
 msgid "Alpha numeric input"
 msgstr "字母数字输入"
 
 #. Translators: for East-Asian input methods, a mode that allows typing in full-shaped (full double-byte) characters, rather than the smaller half-shaped ones.
-#: NVDAHelper\__init__.py:524
+#: NVDAHelper\__init__.py:534
 msgid "Full shaped mode"
 msgstr "全角模式"
 
 #. Translators: for East-Asian input methods, a mode that allows typing in half-shaped (single-byte) characters, rather than the larger full-shaped (double-byte) ones.
-#: NVDAHelper\__init__.py:526
+#: NVDAHelper\__init__.py:536
 msgid "Half shaped mode"
 msgstr "半角模式"
 
 #. Translators: For Japanese character input: half-shaped (single-byte) alpha numeric (roman/english) mode.
-#: NVDAHelper\__init__.py:532 NVDAHelper\__init__.py:542
+#: NVDAHelper\__init__.py:542 NVDAHelper\__init__.py:552
 msgid "half alphanumeric"
 msgstr "半角字母数字"
 
 #. Translators: For Japanese character input: half-shaped (single-byte) Katacana input mode.
-#: NVDAHelper\__init__.py:534
+#: NVDAHelper\__init__.py:544
 msgid "half katakana"
 msgstr "半角片假名"
 
 #. Translators: For Japanese character input: alpha numeric (roman/english) mode.
-#: NVDAHelper\__init__.py:536 NVDAHelper\__init__.py:546
+#: NVDAHelper\__init__.py:546 NVDAHelper\__init__.py:556
 msgid "alphanumeric"
 msgstr "字母数字"
 
 #. Translators: For Japanese character input: Hiragana input mode.
-#: NVDAHelper\__init__.py:538
+#: NVDAHelper\__init__.py:548
 msgid "hiragana"
 msgstr "平假名"
 
 #. Translators: For Japanese character input: Katacana input mode.
-#: NVDAHelper\__init__.py:540
+#: NVDAHelper\__init__.py:550
 msgid "katakana"
 msgstr "片假名"
 
 #. Translators: For Japanese character input: half katakana roman input mode.
-#: NVDAHelper\__init__.py:544
+#: NVDAHelper\__init__.py:554
 msgid "half katakana roman"
 msgstr "半角罗马片假名"
 
 #. Translators: For Japanese character input: Hiragana Roman input mode.
-#: NVDAHelper\__init__.py:548
+#: NVDAHelper\__init__.py:558
 msgid "hiragana roman"
 msgstr "罗马平假名"
 
 #. Translators: For Japanese character input: Katacana Roman input mode.
-#: NVDAHelper\__init__.py:550
+#: NVDAHelper\__init__.py:560
 msgid "katakana roman"
 msgstr "罗马片假名"
 
 #. Translators: a message when the IME open status changes to opened
-#: NVDAHelper\__init__.py:592
+#: NVDAHelper\__init__.py:602
 msgid "IME opened"
 msgstr "输入法指示器已打开"
 
 #. Translators: a message when the IME open status changes to closed
-#: NVDAHelper\__init__.py:595
+#: NVDAHelper\__init__.py:605
 msgid "IME closed"
 msgstr "输入法指示器已关闭"
 
 #. Translators: the label for an unknown language when switching input methods.
-#: NVDAHelper\__init__.py:632
+#: NVDAHelper\__init__.py:642
 msgid "unknown language"
 msgstr "未知语言"
 
 #. Translators: The label for an unknown input method when switching input methods.
-#: NVDAHelper\__init__.py:658
+#: NVDAHelper\__init__.py:668
 msgid "unknown input method"
 msgstr "未知输入法"
 
@@ -16249,7 +16249,7 @@ msgstr "移动焦点和导航对象到最后一行"
 msgid "Composition"
 msgstr "上屏"
 
-#: NVDAObjects\IAccessible\__init__.py:2508
+#: NVDAObjects\IAccessible\__init__.py:2509
 msgid "Taskbar"
 msgstr "任务栏"
 
@@ -17435,15 +17435,15 @@ msgstr "系列 {seriesName} 的图例项标示 {seriesCount} 的 {seriesIndex}"
 #. Translators: The background color as reported in Wordpad (Automatic) or NVDA log viewer.
 #. Translators: The text color as reported in Wordpad (Automatic) or NVDA log viewer.
 #. Translators: The background color as reported in Wordpad (Automatic) or NVDA log viewer.
-#: NVDAObjects\window\edit.py:381 NVDAObjects\window\edit.py:390
-#: NVDAObjects\window\edit.py:751 NVDAObjects\window\edit.py:763
+#: NVDAObjects\window\edit.py:382 NVDAObjects\window\edit.py:391
+#: NVDAObjects\window\edit.py:752 NVDAObjects\window\edit.py:764
 #, python-brace-format
 msgid "{color} (default color)"
 msgstr "{color}（默认颜色）"
 
 #. Translators: The color of text cannot be detected.
 #. Translators: The background color cannot be detected.
-#: NVDAObjects\window\edit.py:757 NVDAObjects\window\edit.py:769
+#: NVDAObjects\window\edit.py:758 NVDAObjects\window\edit.py:770
 msgid "Unknown color"
 msgstr "未知颜色"
 
