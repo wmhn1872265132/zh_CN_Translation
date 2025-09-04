@@ -392,6 +392,7 @@ set ExitCode=%errorlevel%
 goto Quit
 
 Rem 处理针对插件翻译的标签，初始化变量  
+:GMX
 :MXX
 :UAP
 :UAX
@@ -413,6 +414,7 @@ IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
 )
 :CrowdinRegistrationPathSetSuccessfully
 set L10nUtil=python "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
+if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
@@ -424,6 +426,7 @@ if /I "%CLI:~2,1%"=="P" (
 if /I "%CLI:~2,1%"=="X" (
   set CrowdinFilePath=%AddonName%.xliff
   set FileName=readme.xliff
+  set ShortName=readme
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
