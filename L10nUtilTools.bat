@@ -451,9 +451,9 @@ goto %PathSetSuccessfully%
 
 Rem 清理本工具生成的所有文件  
 :CLE
-rd /s /q "%~dp0PotXliff"
-rd /s /q "%~dp0Preview"
-Git restore PotXliff/* Preview/*
+git clean -fX "%~dp0PotXliff"
+git clean -fX "%~dp0Preview"
+git clean -fX "%~dp0Translation\Addons"
 set ExitCode=%errorlevel%
 goto Quit
 
