@@ -248,9 +248,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Sometimes an image is worth a 1000 words: use the new emoji to liven up your instant message and to let your friends know how you’re feeling.</source>
-        <target>Sometimes an image is worth a 1000 words: use the new emoji to liven up your instant message and to let your friends know how you’re feeling.</target>
+        <target>有时一图胜千言：使用全新表情符号来活跃您的即时聊天氛围，让朋友们实时感知您的情绪状态。</target>
       </segment>
     </unit>
     <unit id="eb204ecc-b6da-46d7-ade8-13ed06b13f48">
@@ -307,7 +307,7 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
       </notes>
       <segment state="final">
         <source>In the list of emoticons (alt+L) are displayed on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the corresponding character.</source>
-        <target>表情符号列表（alt + L）分别显示在三列上：表情符号的名称，表情符号的类型（标准表情符号或表情符号），相应的字符。</target>
+        <target>表情符号列表（alt + L）按三列显示：表情符号的名称，表情符号的类型（标准表情符号或表情符号），相应的字符。</target>
       </segment>
     </unit>
     <unit id="cd7b6168-bd8a-405e-acae-86809d053bee">
@@ -342,18 +342,18 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
       <notes>
         <note appliesTo="source">line: 32</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>If you want to copy various symbols, use the Add button to append them to the Symbols to copy edit box.</source>
-        <target>If you want to copy various symbols, use the Add button to append them to the Symbols to copy edit box.</target>
+        <target>如需复制多个符号，可点击"添加"按钮将其追加至"待复制符号"编辑框。</target>
       </segment>
     </unit>
     <unit id="25f8f796-466c-4cf1-bc6c-9b5c74d77925">
       <notes>
         <note appliesTo="source">line: 34</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Then, press OK and the selected emoji or symbol, or the symbols contained in the mentioned edit box, will be copied to your clipboard, ready for pasting.</source>
-        <target>Then, press OK and the selected emoji or symbol, or the symbols contained in the mentioned edit box, will be copied to your clipboard, ready for pasting.</target>
+        <target>点击确认后，选定的表情符号或编辑框内的所有符号内容将复制到剪贴板，随时准备粘贴。</target>
       </segment>
     </unit>
     <unit id="0716cf10-6c0e-4310-a85f-52768ba13673">
@@ -361,27 +361,27 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Associate gestures to symbols ##</source>
-        <target>Associate gestures to symbols ##</target>
+        <target>为符号配置快捷键 ##</target>
       </segment>
     </unit>
     <unit id="8953fdab-3316-40da-a348-378d9aa470e1">
       <notes>
         <note appliesTo="source">line: 38</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>From NVDA's menu, Preferences submenu, Input gestures dialog, category Insert symbols or Copy symbols, you can configure NVDA to type symbols through associated gestures.</source>
-        <target>From NVDA's menu, Preferences submenu, Input gestures dialog, category Insert symbols or Copy symbols, you can configure NVDA to type symbols through associated gestures.</target>
+        <target>通过 NVDA 菜单、选项子菜单、按键与手势对话框，在插入符号或复制符号类别下，可配置通过关联快捷键直接输入符号的功能。</target>
       </segment>
     </unit>
     <unit id="2b64b25d-02a1-4657-91ef-7ad6b15fa513">
       <notes>
         <note appliesTo="source">line: 40</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>You can use the Edit field edit box to reduce the number of symbols presented, so that this category can be expanded faster.</source>
-        <target>You can use the Edit field edit box to reduce the number of symbols presented, so that this category can be expanded faster.</target>
+        <target>您可通过编辑字段减少显示的符号数量，从而加快类别展开速度。</target>
       </segment>
     </unit>
     <unit id="c982e467-ce45-40da-9e20-becf64c23545">
@@ -498,9 +498,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
       <notes>
         <note appliesTo="source">line: 66</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>If symbols inserted using associated gestures aren't spoken in your system, even when NVDA is configured to speak typed characters, you can try to enable a checkbox to ensure the speaking of inserted symbols.</source>
-        <target>If symbols inserted using associated gestures aren't spoken in your system, even when NVDA is configured to speak typed characters, you can try to enable a checkbox to ensure the speaking of inserted symbols.</target>
+        <target>若通过关联手势插入的符号在系统中未触发语音反馈（即使已配置 NVDA 读出输入的字符），可尝试启用复选框确保插入的符号被读出。</target>
       </segment>
     </unit>
     <unit id="898ff8d5-6cfa-42bc-a200-f4f4d830c011">
@@ -568,7 +568,7 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
       </notes>
       <segment state="final">
         <source>Not assigned: open a browseable message showing the symbol where the review cursor is positioned, so that the whole description can be reviewed in browse mode.</source>
-        <target>未分配: 打开显示浏览光标所在位置的符号的可浏览消息, 以便可以在浏览模式下浏览整个描述。</target>
+        <target>未分配: 打开显示查看光标所在位置的符号的可浏览消息, 以便可以在浏览模式下浏览整个描述。</target>
       </segment>
     </unit>
     <unit id="51e61102-e4da-4e9c-a4af-a53ddcac2020">
@@ -578,16 +578,16 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
       </notes>
       <segment state="final">
         <source>Not assigned: open a browseable message showing the symbol where the caret is positioned, so that the whole description can be reviewed in browse mode.</source>
-        <target>未分配: 打开显示插入符号所在位置的符号的可浏览消息, 以便可以在浏览模式下查看整个描述。</target>
+        <target>未分配: 打开显示系统光标所在位置的符号的可浏览消息, 以便可以在浏览模式下查看整个描述。</target>
       </segment>
     </unit>
     <unit id="60972d7d-a5b1-44a8-b0ca-68524a386484">
       <notes>
         <note appliesTo="source">line: 81</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note: On Windows 10 and higher, it's also possible to use the built-in emoji panel.</source>
-        <target>Note: On Windows 10 and higher, it's also possible to use the built-in emoji panel.</target>
+        <target>注意：在 Windows 10 及更高版本上，也可使用内置的表情符号面板。</target>
       </segment>
     </unit>
     <unit id="dda9ed6b-4aa3-4868-8b4d-05384bf427ff">
@@ -595,9 +595,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 83</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 34.0.0</source>
-        <target>Changes for 34.0.0</target>
+        <target>版本 34.0.0</target>
       </segment>
     </unit>
     <unit id="eb491fee-5b2b-4c5e-a5e6-f85bd2e40bcf">
@@ -605,9 +605,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 85</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added ability to copy to clipboard, and paste individual symbols, useful when gestures associated with Insert symbols scripts don't work.</source>
-        <target>Added ability to copy to clipboard, and paste individual symbols, useful when gestures associated with Insert symbols scripts don't work.</target>
+        <target>新增单符号复制到剪贴板并粘贴的功能，当插入符号脚本关联的快捷键失效时尤为实用。</target>
       </segment>
     </unit>
     <unit id="1ef74068-467d-44c8-86da-451cf8b64803">
@@ -615,9 +615,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 33.0.0</source>
-        <target>Changes for 33.0.0</target>
+        <target>版本 33.0.0</target>
       </segment>
     </unit>
     <unit id="3a795abf-ed44-40ef-b43a-f3de1ff71710">
@@ -625,9 +625,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Fixed bug in Save and export dictionaries.</source>
-        <target>Fixed bug in Save and export dictionaries.</target>
+        <target>修复了保存和导出词典时的错误。</target>
       </segment>
     </unit>
     <unit id="57b2c6c8-365f-44ee-b4bf-db13208ca472">
@@ -635,9 +635,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 91</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added copy and close buttons to messages presented in browse mode.</source>
-        <target>Added copy and close buttons to messages presented in browse mode.</target>
+        <target>在浏览模式显示的消息中添加了复制和关闭按钮。</target>
       </segment>
     </unit>
     <unit id="d8be3b1c-0df1-4990-b93e-feb779590b5e">
@@ -645,9 +645,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When using commands to insert symbols, they may be spoken according to the speak typed characters option.</source>
-        <target>When using commands to insert symbols, they may be spoken according to the speak typed characters option.</target>
+        <target>使用命令插入符号时，可根据“读出输入的字符”选项读出符号。</target>
       </segment>
     </unit>
     <unit id="4e2c6e0b-3f58-4e71-badd-f17e85f68b75">
@@ -655,9 +655,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 94</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 22.0.0 ##</source>
-        <target>Changes for 22.0.0 ##</target>
+        <target>版本 22.0.0 ##</target>
       </segment>
     </unit>
     <unit id="e69338ad-e682-49f8-9d73-686c989ce097">
@@ -665,9 +665,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Requires NVDA 2023.2 or later.</source>
-        <target>Requires NVDA 2023.2 or later.</target>
+        <target>需要 NVDA 2023.2 或更高版本。</target>
       </segment>
     </unit>
     <unit id="e4655956-b3e7-42e6-8658-bc31f598c373">
@@ -675,9 +675,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 98</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 17.0 ##</source>
-        <target>Changes for 17.0 ##</target>
+        <target>版本 17.0 ##</target>
       </segment>
     </unit>
     <unit id="a7d50061-03e3-4d2c-a820-003a49fac4ce">
@@ -685,9 +685,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 100</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added ability to associate gestures to type symbols.</source>
-        <target>Added ability to associate gestures to type symbols.</target>
+        <target>添加了将手势与输入符号相关联的功能。</target>
       </segment>
     </unit>
     <unit id="7c3812ca-a475-49b8-bf78-2d0df5de53bd">
@@ -695,9 +695,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Added ability to copy various symbols at the same time.</source>
-        <target>Added ability to copy various symbols at the same time.</target>
+        <target>增加了同时复制多个符号的功能。</target>
       </segment>
     </unit>
     <unit id="73648312-a0c8-465e-a56c-099499480fef">
@@ -705,9 +705,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 16.0 ##</source>
-        <target>Changes for 16.0 ##</target>
+        <target>版本 16.0 ##</target>
       </segment>
     </unit>
     <unit id="98b9b2a3-8a5b-497b-bc4b-f9ef2ad456e0">
@@ -715,9 +715,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 105</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Compatible with NVDA 2023.1.</source>
-        <target>Compatible with NVDA 2023.1.</target>
+        <target>与 NVDA 2023.1 兼容。</target>
       </segment>
     </unit>
     <unit id="fc65e9a5-ca0a-417b-8dc9-a406124536c6">
@@ -725,9 +725,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 107</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for 15.0 ##</source>
-        <target>Changes for 15.0 ##</target>
+        <target>版本 15.0 ##</target>
       </segment>
     </unit>
     <unit id="ec3aedcf-64b2-44a4-b926-696db19428c9">
@@ -735,9 +735,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 109</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Requires NVDA 2022.1 or later.</source>
-        <target>Requires NVDA 2022.1 or later.</target>
+        <target>需要 NVDA 2022.1 或更高版本。</target>
       </segment>
     </unit>
     <unit id="915985cd-e3c4-4071-9c1f-317c0103abe4">
@@ -745,9 +745,9 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
         <note appliesTo="source">line: 110</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Cannot be used in secure mode.</source>
-        <target>Cannot be used in secure mode.</target>
+        <target>无法在安全模式下使用。</target>
       </segment>
     </unit>
     <unit id="3403d7d2-47fd-4264-83ad-942d9d9831af">
@@ -757,7 +757,7 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
       </notes>
       <segment state="final">
         <source>Changes for 14.0 ##</source>
-        <target>14.0更新日志 ##</target>
+        <target>版本 14.0 ##</target>
       </segment>
     </unit>
     <unit id="24dfd95a-0451-441c-b53e-73ed8a147096">
@@ -777,7 +777,7 @@ $(ID:60972d7d-a5b1-44a8-b0ca-68524a386484)
       </notes>
       <segment state="final">
         <source>Changes for 13.0 ##</source>
-        <target>13.0更新日志 ##</target>
+        <target>版本 13.0 ##</target>
       </segment>
     </unit>
     <unit id="86b1cc0d-9adf-4fc4-a830-0724f698d3ee">
