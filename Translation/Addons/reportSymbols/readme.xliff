@@ -1,55 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/reportSymbols/d2479237b18b1d317d51e0a7ff62699f06b2533a/readme.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/reportSymbols/32b13bcfd395d69d3f8602c1ab6ee0de56c675d0/readme.md">
     <skeleton>
-# $(ID:9d06915c-1e7a-40b8-bf15-f1b33e26000d)
-*	$(ID:c53c6f81-dc97-4ff9-803a-4a6fdf6bda4a)
+# $(ID:bae70ae4-d394-47d3-b0d0-4dad269b07cb)
+*	$(ID:f4453463-103f-4a8a-b3a2-2e1c107d53ea)
 
-$(ID:348dc395-f6d2-4676-9034-5fa2b930c174)
+$(ID:c86ffc61-b593-4b08-99ad-d5b7c47198d2)
 
-$(ID:7ae18350-2f80-4eb7-85c2-dd387a4dd39e)
+$(ID:cf822f69-2974-406b-9ab5-a96731c6b5b0)
 
-## $(ID:7d8ce96e-4a4e-48a7-a799-f0754b44b624)
-*	$(ID:ea8eb64c-fdda-4176-bafb-e03c145ec31b)
+## $(ID:f4ff94e7-580a-4670-99da-76d1b75146c8)
+*	$(ID:7bb336cc-7c04-4f5a-8200-1af0fb0a357c)
 
-$(ID:16d044fd-03b4-40ca-b566-cd464c98bd2f)
+$(ID:7300f297-05a8-4901-a53d-f69222aff9c0)
 
-## $(ID:d03d4c73-dfc2-49d2-8cd5-a36f89a8ebe3)
+## $(ID:f7657ce1-6de9-453e-85e3-c0e4c7656417)
 
-$(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
+$(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
 
-## $(ID:6a3d3167-7db9-4825-883a-3192e052c8ab)
+## $(ID:85654def-3dd2-4489-8683-b894d494e6c9)
 
-* $(ID:ba4817ed-66bf-4ce9-a40f-11a7d44dc0ef)
+* $(ID:5ecc432b-9162-4dc1-873a-3d2cab88d031)
 
-## $(ID:71912be7-e402-4321-92ba-177b1163b142)
-* $(ID:88a6258c-7625-4bfb-897d-3a14f8a8d846)
+## $(ID:1ae7fc9a-e5e4-450a-b953-223ea6cb5b74)
+* $(ID:0e35a96c-a2ce-46d8-9a5a-36e6f7ace430)
 
-## $(ID:ed4415dc-75d1-43b6-8451-77b95b783756)
-* $(ID:2fce1298-1cb1-4dae-b3df-9bad943b865c)
+## $(ID:28371c8a-5478-4eeb-810c-fa339ba011d9)
+* $(ID:626e98de-defe-4b03-ac94-42d0cd7fa460)
 
-## $(ID:b43060f8-8571-4c7a-82cb-deac5dc00a91)
-* $(ID:64be02c4-e148-494a-b2a4-85e4d782cc8c)
+## $(ID:ed534f4a-da0d-4b3d-a5d5-b3d4267302be)
+* $(ID:abd5e7f8-1935-420e-957f-ad3cd4978b19)
 
-## $(ID:def8cfe9-6be1-4553-bcaa-444378e58a73)
-*	$(ID:d7795e0a-55ba-4e48-aaf4-66eb0369dd1d)
+## $(ID:27304df4-1856-4444-8761-40bc5b388544)
+*	$(ID:9f434456-b5f0-45a5-963f-0d7e760bd9f0)
 
-## $(ID:6fec747d-a68c-4375-8c4f-c6428fb27294)
-* $(ID:ca0c262f-7aaa-49b3-b00e-41d8b1f3e01a)
-* $(ID:24c240c4-147b-4e6c-b149-42948483b96a)
+## $(ID:d064953e-22de-4d64-94e1-9fa2c2d17a3e)
+* $(ID:696b2983-9449-4401-b79e-d44f208df14b)
+* $(ID:2d62cabb-4038-49e2-8cf2-85777a2db41a)
 
-## $(ID:6bcc2c20-45d4-4321-8261-166496b3c62a)
-* $(ID:ef46b445-99d6-4562-b05d-e1668dd8111e)
+## $(ID:dffa8396-b6c7-4d0b-a2af-414146a3dd90)
+* $(ID:795b8af3-94a1-456f-894f-50818ad4b35c)
 
-## $(ID:c6b4127b-051f-406d-9d7d-c3c09caac0b2)
-*	$(ID:8922bb59-c2cb-4ece-a08f-e82182f1e44d)
-*	$(ID:5d5cbddf-c0cc-4b53-a89e-16428bbfa3b8)
+## $(ID:3d4acec7-9b42-417b-8bb0-ae61f7be8ea1)
+*	$(ID:464ae4fb-74a2-4dfc-afb2-fccec3d46d8c)
+*	$(ID:9d06a18d-6d01-431e-8cce-302c8309d594)
 
-## $(ID:33fce2db-ee7f-4db1-9d3f-89c692244c27)
-*	$(ID:93f8caec-25b0-4760-a201-146df32e8076)
-
+## $(ID:e4114029-e50e-44ac-a315-8385121b7692)
+*	$(ID:57da05e5-5897-4cf0-9199-a2a2f80584bd)
 </skeleton>
-    <unit id="9d06915c-1e7a-40b8-bf15-f1b33e26000d">
+    <unit id="bae70ae4-d394-47d3-b0d0-4dad269b07cb">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -59,7 +58,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>读出符号 #</target>
       </segment>
     </unit>
-    <unit id="c53c6f81-dc97-4ff9-803a-4a6fdf6bda4a">
+    <unit id="f4453463-103f-4a8a-b3a2-2e1c107d53ea">
       <notes>
         <note appliesTo="source">line: 3</note>
         <note appliesTo="source">prefix: *	</note>
@@ -69,7 +68,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>作者：Noelia Ruiz Martínez。</target>
       </segment>
     </unit>
-    <unit id="348dc395-f6d2-4676-9034-5fa2b930c174">
+    <unit id="c86ffc61-b593-4b08-99ad-d5b7c47198d2">
       <notes>
         <note appliesTo="source">line: 5</note>
       </notes>
@@ -78,7 +77,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>即使 NVDA 的“读出输入字符”功能已关闭，该插件也可以读出键入的符号（非字母数字或空白字符）。</target>
       </segment>
     </unit>
-    <unit id="7ae18350-2f80-4eb7-85c2-dd387a4dd39e">
+    <unit id="cf822f69-2974-406b-9ab5-a96731c6b5b0">
       <notes>
         <note appliesTo="source">line: 7</note>
       </notes>
@@ -87,7 +86,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>该插件基于由同一作者开发的旧版 ReportSymbols 插件升级而来。在使用该版本之前您应该先卸载旧版本。</target>
       </segment>
     </unit>
-    <unit id="7d8ce96e-4a4e-48a7-a799-f0754b44b624">
+    <unit id="f4ff94e7-580a-4670-99da-76d1b75146c8">
       <notes>
         <note appliesTo="source">line: 9</note>
         <note appliesTo="source">prefix: ## </note>
@@ -97,7 +96,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>首选项菜单 ##</target>
       </segment>
     </unit>
-    <unit id="ea8eb64c-fdda-4176-bafb-e03c145ec31b">
+    <unit id="7bb336cc-7c04-4f5a-8200-1af0fb0a357c">
       <notes>
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: *	</note>
@@ -107,7 +106,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>读出符号设置：用于设置读出符号的首选项。</target>
       </segment>
     </unit>
-    <unit id="16d044fd-03b4-40ca-b566-cd464c98bd2f">
+    <unit id="7300f297-05a8-4901-a53d-f69222aff9c0">
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
@@ -116,7 +115,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>注意：可以在 NVDA 菜单、选项子菜单、按键与手势对话框的配置类别下分配一个打开此设置的快捷键。</target>
       </segment>
     </unit>
-    <unit id="d03d4c73-dfc2-49d2-8cd5-a36f89a8ebe3">
+    <unit id="f7657ce1-6de9-453e-85e3-c0e4c7656417">
       <notes>
         <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix: ## </note>
@@ -126,7 +125,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>排除符号</target>
       </segment>
     </unit>
-    <unit id="38d8e83b-bbce-4272-9d32-b71fd8e13036">
+    <unit id="73bbeef4-2616-4e2c-86b0-6b54692d591e">
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
@@ -135,7 +134,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>可以在 NVDA 菜单、选项子菜单、按键与手势对话框的读出符号类别下分配一个快捷键以排除（或再次包含）键入时要读出的符号。</target>
       </segment>
     </unit>
-    <unit id="6a3d3167-7db9-4825-883a-3192e052c8ab">
+    <unit id="85654def-3dd2-4489-8683-b894d494e6c9">
       <notes>
         <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix: ## </note>
@@ -145,7 +144,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>29.0.0 的变化</target>
       </segment>
     </unit>
-    <unit id="ba4817ed-66bf-4ce9-a40f-11a7d44dc0ef">
+    <unit id="5ecc432b-9162-4dc1-873a-3d2cab88d031">
       <notes>
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
@@ -155,7 +154,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>添加了一个未分配的命令，以排除或包含键入时要读出的符号。</target>
       </segment>
     </unit>
-    <unit id="71912be7-e402-4321-92ba-177b1163b142">
+    <unit id="1ae7fc9a-e5e4-450a-b953-223ea6cb5b74">
       <notes>
         <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: ## </note>
@@ -165,7 +164,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>8.0 的变化</target>
       </segment>
     </unit>
-    <unit id="88a6258c-7625-4bfb-897d-3a14f8a8d846">
+    <unit id="0e35a96c-a2ce-46d8-9a5a-36e6f7ace430">
       <notes>
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: * </note>
@@ -175,7 +174,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>与 NVDA 2023.1 兼容。</target>
       </segment>
     </unit>
-    <unit id="ed4415dc-75d1-43b6-8451-77b95b783756">
+    <unit id="28371c8a-5478-4eeb-810c-fa339ba011d9">
       <notes>
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: ## </note>
@@ -185,7 +184,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>7.0 的变化</target>
       </segment>
     </unit>
-    <unit id="2fce1298-1cb1-4dae-b3df-9bad943b865c">
+    <unit id="626e98de-defe-4b03-ac94-42d0cd7fa460">
       <notes>
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: * </note>
@@ -195,7 +194,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>与 NVDA 2022.1 兼容。</target>
       </segment>
     </unit>
-    <unit id="b43060f8-8571-4c7a-82cb-deac5dc00a91">
+    <unit id="ed534f4a-da0d-4b3d-a5d5-b3d4267302be">
       <notes>
         <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix: ## </note>
@@ -205,7 +204,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>6.0 的变化</target>
       </segment>
     </unit>
-    <unit id="64be02c4-e148-494a-b2a4-85e4d782cc8c">
+    <unit id="abd5e7f8-1935-420e-957f-ad3cd4978b19">
       <notes>
         <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: * </note>
@@ -215,7 +214,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>与 NVDA 2021.1 兼容。</target>
       </segment>
     </unit>
-    <unit id="def8cfe9-6be1-4553-bcaa-444378e58a73">
+    <unit id="27304df4-1856-4444-8761-40bc5b388544">
       <notes>
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: ## </note>
@@ -225,7 +224,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>5.0 的变化 ##</target>
       </segment>
     </unit>
-    <unit id="d7795e0a-55ba-4e48-aaf4-66eb0369dd1d">
+    <unit id="9f434456-b5f0-45a5-963f-0d7e760bd9f0">
       <notes>
         <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix: *	</note>
@@ -235,7 +234,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>需要 NVDA 2019.3 或更高版本。</target>
       </segment>
     </unit>
-    <unit id="6fec747d-a68c-4375-8c4f-c6428fb27294">
+    <unit id="d064953e-22de-4d64-94e1-9fa2c2d17a3e">
       <notes>
         <note appliesTo="source">line: 34</note>
         <note appliesTo="source">prefix: ## </note>
@@ -245,7 +244,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>4.0 的变化 ##</target>
       </segment>
     </unit>
-    <unit id="ca0c262f-7aaa-49b3-b00e-41d8b1f3e01a">
+    <unit id="696b2983-9449-4401-b79e-d44f208df14b">
       <notes>
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
@@ -255,7 +254,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>插件设置放置在 NVDA 设置面板的类别中。</target>
       </segment>
     </unit>
-    <unit id="24c240c4-147b-4e6c-b149-42948483b96a">
+    <unit id="2d62cabb-4038-49e2-8cf2-85777a2db41a">
       <notes>
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: * </note>
@@ -265,7 +264,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>需要 NVDA 2018.2 或更高版本。</target>
       </segment>
     </unit>
-    <unit id="6bcc2c20-45d4-4321-8261-166496b3c62a">
+    <unit id="dffa8396-b6c7-4d0b-a2af-414146a3dd90">
       <notes>
         <note appliesTo="source">line: 38</note>
         <note appliesTo="source">prefix: ## </note>
@@ -275,7 +274,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>3.0 的变化 ##</target>
       </segment>
     </unit>
-    <unit id="ef46b445-99d6-4562-b05d-e1668dd8111e">
+    <unit id="795b8af3-94a1-456f-894f-50818ad4b35c">
       <notes>
         <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: * </note>
@@ -285,7 +284,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>添加了用于读出空格、回车符和其他空白字符的复选框。</target>
       </segment>
     </unit>
-    <unit id="c6b4127b-051f-406d-9d7d-c3c09caac0b2">
+    <unit id="3d4acec7-9b42-417b-8bb0-ae61f7be8ea1">
       <notes>
         <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: ## </note>
@@ -295,7 +294,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>2.0 的变化 ##</target>
       </segment>
     </unit>
-    <unit id="8922bb59-c2cb-4ece-a08f-e82182f1e44d">
+    <unit id="464ae4fb-74a2-4dfc-afb2-fccec3d46d8c">
       <notes>
         <note appliesTo="source">line: 42</note>
         <note appliesTo="source">prefix: *	</note>
@@ -305,7 +304,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>改进了对话框的视觉效果，遵循 NVDA 对话框的统一外观。</target>
       </segment>
     </unit>
-    <unit id="5d5cbddf-c0cc-4b53-a89e-16428bbfa3b8">
+    <unit id="9d06a18d-6d01-431e-8cce-302c8309d594">
       <notes>
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: *	</note>
@@ -315,7 +314,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>需要 NVDA 2016.4 或更高版本。</target>
       </segment>
     </unit>
-    <unit id="33fce2db-ee7f-4db1-9d3f-89c692244c27">
+    <unit id="e4114029-e50e-44ac-a315-8385121b7692">
       <notes>
         <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: ## </note>
@@ -325,7 +324,7 @@ $(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
         <target>1.0 的变化 ##</target>
       </segment>
     </unit>
-    <unit id="93f8caec-25b0-4760-a201-146df32e8076">
+    <unit id="57da05e5-5897-4cf0-9199-a2a2f80584bd">
       <notes>
         <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix: *	</note>

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2025-08-17 06:55+0000\n"
-"PO-Revision-Date: 2025-09-02 11:15\n"
+"PO-Revision-Date: 2025-09-05 05:10\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -41,19 +41,19 @@ msgstr "读出其他空白字符(&T)"
 #: addon/globalPlugins/reportSymbols.py:143
 #, python-brace-format
 msgid "{symbol} excluded from symbols to report"
-msgstr ""
+msgstr "{symbol} 已从要读出的符号中排除"
 
 #. Translators: Reported when a symbol has been removed to excludedSymbols.
 #: addon/globalPlugins/reportSymbols.py:147
 #, python-brace-format
 msgid "{symbol} included in symbols to report"
-msgstr ""
+msgstr "{symbol} 已包含在要读出的符号中"
 
 #. Translators: Message presented in input help mode.
 #: addon/globalPlugins/reportSymbols.py:156
 #, python-format
 msgid "Excludes or includes the %s symbol in the set of signs to be reported when typing"
-msgstr ""
+msgstr "在输入时）将 %s 符号排除或包含在要读出的符号集合中"
 
 #. Translators: message presented in input mode.
 #: addon/globalPlugins/reportSymbols.py:164
