@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-05 01:15+0000\n"
-"PO-Revision-Date: 2025-09-05 10:17+0800\n"
+"PO-Revision-Date: 2025-09-05 10:46+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -2699,7 +2699,7 @@ msgstr "读出字体大小"
 msgid ""
 "Cycles font attribute reporting between speech, braille, speech and braille, "
 "and off."
-msgstr "循环切换字体属性提示方式，包括语音、盲文、语音和盲文、不提示。"
+msgstr "在字体属性的提示方式之间循环切换，包括语音、盲文、语音和盲文、不提示。"
 
 #. Translators: A state in which font attributes are not reported.
 #: globalCommands.py:663
@@ -2873,14 +2873,14 @@ msgstr "读出行号"
 #. Translators: Input help mode message for toggle report line indentation command.
 #: globalCommands.py:839
 msgid "Cycles through line indentation settings"
-msgstr "在行缩进朗读模式之间循环切换"
+msgstr "在行缩进的提示方式之间循环切换"
 
 #. Translators: A message reported when cycling through line indentation settings.
 #. {mode} will be replaced with the mode; i.e. Off, Speech, Tones or Both Speech and Tones.
 #: globalCommands.py:851
 #, python-brace-format
 msgid "Report line indentation {mode}"
-msgstr "行缩进提示 {mode}"
+msgstr "{mode}提示行缩进"
 
 #. Translators: Input help mode message for toggle ignore blank lines for line indentation reporting command.
 #: globalCommands.py:855
@@ -10298,14 +10298,14 @@ msgstr "关闭"
 #: config\configFlags.py:170
 msgctxt "line indentation setting"
 msgid "Speech"
-msgstr "仅语音"
+msgstr "语音"
 
 #. Translators: A choice in a combo box in the document formatting dialog to report indentation
 #. with tones.
 #: config\configFlags.py:173
 msgctxt "line indentation setting"
 msgid "Tones"
-msgstr "仅提示音"
+msgstr "提示音"
 
 #. Translators: A choice in a combo box in the document formatting dialog to report indentation with both
 #. Speech and tones.
