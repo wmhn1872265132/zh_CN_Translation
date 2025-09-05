@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-05 06:25+0000\n"
-"PO-Revision-Date: 2025-09-05 10:46+0800\n"
+"PO-Revision-Date: 2025-09-05 15:24+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -9559,10 +9559,8 @@ msgstr "日本 (Kantenji) 文学盲文"
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
 #: brailleTables\__tables.py:327
-#, fuzzy
-#| msgid "Japanese (Kantenji) literary braille"
 msgid "Japanese (Rokuten Kanji) Braille"
-msgstr "日本 (Kantenji) 文学盲文"
+msgstr "日语六点汉字盲文"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
