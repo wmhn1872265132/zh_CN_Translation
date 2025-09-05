@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-05 01:15+0000\n"
-"PO-Revision-Date: 2025-08-22 01:58\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2025-09-05 10:17+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: nvda.pot\n"
 "X-Crowdin-File-ID: 2\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.7\n"
 
 #. Translators: shown when an addon API version string is unknown
 #. Translators: The word for an unknown control type.
@@ -2830,18 +2830,15 @@ msgstr "读出文本样式"
 
 #. Translators: Input help mode message for toggle report spelling errors command.
 #: globalCommands.py:792
-#, fuzzy
-#| msgid "Cycles through options for when to speak typed words."
 msgid "Cycles through options for how to report spelling errors"
-msgstr "在读出输入的单词的选项之间切换。"
+msgstr "在拼写错误的提示方式之间循环切换"
 
 #. Translators: Reported when the user cycles through the choices to report spelling errors.
 #. {mode} will be replaced with the mode; e.g. Off, Speech, Sound.
 #: globalCommands.py:802
-#, fuzzy, python-brace-format
-#| msgid "report spelling errors on"
+#, python-brace-format
 msgid "Report spelling errors {mode}"
-msgstr "读出拼写错误"
+msgstr "{mode}提示拼写错误"
 
 #. Translators: Input help mode message for toggle report pages command.
 #: globalCommands.py:807
@@ -10319,8 +10316,6 @@ msgstr "语音和提示音"
 
 #. Translators: A value reported by the cycle script defining how spelling errors are reported.
 #: config\configFlags.py:201
-#, fuzzy
-#| msgid "Off"
 msgctxt "reportSpellingErrorsSetting"
 msgid "Off"
 msgstr "关闭"
@@ -10328,8 +10323,6 @@ msgstr "关闭"
 #. Translators: A value reported by the cycle script defining how spelling errors are reported, also used
 #. as choice in a checklist box in the document formatting dialog to report spelling errors with speech.
 #: config\configFlags.py:204
-#, fuzzy
-#| msgid "Speech"
 msgctxt "reportSpellingErrorsSetting"
 msgid "Speech"
 msgstr "语音"
@@ -10337,18 +10330,12 @@ msgstr "语音"
 #. Translators: A value reported by the cycle script defining how spelling errors are reported, also used
 #. as choice in a checklist box in the document formatting dialog to report spelling errors with a sound.
 #: config\configFlags.py:207
-#, fuzzy
-#| msgctxt "action"
-#| msgid "Sound"
 msgctxt "reportSpellingErrorsSetting"
 msgid "Sound"
-msgstr "动作按钮: 声音"
+msgstr "提示音"
 
 #. Translators: A value reported by the cycle script defining how spelling errors are reported.
 #: config\configFlags.py:211
-#, fuzzy
-#| msgctxt "line indentation setting"
-#| msgid "Both Speech and Tones"
 msgctxt "reportSpellingErrorsSetting"
 msgid "Speech and sound"
 msgstr "语音和提示音"
