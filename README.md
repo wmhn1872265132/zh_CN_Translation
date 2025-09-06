@@ -2,7 +2,7 @@
 
 该存储库用于集中管理 NVDA 主程序及插件的简体中文翻译，以实现近似于原 SVN 翻译系统的体验。
 
-有关如何翻译 NVDA 的更多信息，请参看 [NVDA 开发者指南](https://download.nvaccess.org/documentation/developerGuide.html)的 [Translation](https://download.nvaccess.org/documentation/developerGuide.html#translation) 章节。
+有关如何翻译 NVDA 的更多信息，请参看 [NVDA 开发者指南（英语）](https://download.nvaccess.org/documentation/developerGuide.html)的 [Translation](https://download.nvaccess.org/documentation/developerGuide.html#translation) 章节。
 
 ## 翻译 NVDA 主程序
 
@@ -189,10 +189,10 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
    | 类型 | 名称 | 值 | 影响的工作流 | 作用 |
    | --- | --- | --- | --- | --- |
    | 变量 | Run_NVDA_Translations_Workflow | 任意内容 | `PullRequestToNVDA.yaml`、`UpdateTranslations.yaml`、`Upload.yaml` | 控制这些工作流是否运行，当此变量不存在时，这些工作流将被跳过 |
-   | 变量 | Run_CheckPot_Workflow | 任意内容 | `CheckPot.yaml` | 避免该工作流在 Fork 存储库中自动运行 |
-   | 变量 | Run_Addon_Translations_Workflow | 任意内容 | `UpdateAddonTranslations.yaml`、`UploadAddonTranslations.yaml` | 避免这些工作流在 Fork 存储库中自动运行 |
-   | 机密 | NVDA_CROWDIN | 具有译文读写权限的 [Crowdin 个人访问令牌](https://zh.crowdin.com/settings#api-key) | `UpdateAddonTranslations.yaml`、`UpdateTranslations.yaml`、`Upload.yaml`、`UploadAddonTranslations.yaml` | 从 Crowdin 上传和下载翻译时使用 |
-   | 机密 | PULLREQUESTTONVDA | 具有 public_repo 和 workflow 权限的 [GitHUB Personal Access Tokens (Classic)](https://github.com/settings/tokens/new) | `PullRequestToNVDA.yaml` | 在 nvaccess/nvda 存储库创建 PR 时使用 |
+   | 变量 | Run_CheckPot_Workflow | 任意内容 | `CheckPot.yaml` | 控制该工作流是否运行，当此变量不存在时，该工作流将被跳过 |
+   | 变量 | Run_Addon_Translations_Workflow | 任意内容 | `UpdateAddonTranslations.yaml`、`UploadAddonTranslations.yaml` | 控制这些工作流是否运行，当此变量不存在时，这些工作流将被跳过 |
+   | 机密 | NVDA_CROWDIN | 具有译文读写权限的 [Crowdin 个人访问令牌](https://zh.crowdin.com/settings#api-key) | `UpdateAddonTranslations.yaml`、`UpdateTranslations.yaml`、`Upload.yaml`、`UploadAddonTranslations.yaml` | 从 Crowdin 上传和下载翻译时验证身份 |
+   | 机密 | PULLREQUESTTONVDA | 具有 public_repo 和 workflow 权限的 [GitHUB Personal Access Tokens (Classic)](https://github.com/settings/tokens/new) | `PullRequestToNVDA.yaml` | 在 nvaccess/nvda 存储库创建 PR 时验证身份 |
 
 [1]: #%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E7%BF%BB%E8%AF%91
 [2]: #l10nutiltoolsbat-%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
