@@ -6117,9 +6117,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>For `IAccessible` objects, the `flowsFrom` and `flowsTo` properties will now raise a `NotImplementedError` for MSAA (non-IA2) objects. (#18416, @LeonarddeR)</source>
-        <target>For `IAccessible` objects, the `flowsFrom` and `flowsTo` properties will now raise a `NotImplementedError` for MSAA (non-IA2) objects. (#18416, @LeonarddeR)</target>
+        <target>对于 `IAccessible` 对象，其 `flowsFrom` 和 `flowsTo` 属性现在会对 MSAA (非 IA2) 对象抛出 `NotImplementedError`。(#18416, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="5220ddaf-59ce-456b-9b8b-f66200103cd6">
@@ -6127,9 +6127,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 73</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The `nvda_dmp` utility has been removed. (#18480, @codeofdusk)</source>
-        <target>The `nvda_dmp` utility has been removed. (#18480, @codeofdusk)</target>
+        <target>移除了 `nvda_dmp` 程序。(#18480, @codeofdusk)</target>
       </segment>
     </unit>
     <unit id="f61e9244-0d56-46b9-ab2a-b0fedd95be66">
@@ -6137,9 +6137,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>`comInterfaces_sconscript` has been updated to make the generated files in `comInterfaces` work better with IDEs. (#17608, @gexgd0419)</source>
-        <target>`comInterfaces_sconscript` has been updated to make the generated files in `comInterfaces` work better with IDEs. (#17608, @gexgd0419)</target>
+        <target>更新了 `comInterfaces_sconscript`，使其在 `comInterfaces` 中生成的文件能更好地用于 IDE。(#17608, @gexgd0419)</target>
       </segment>
     </unit>
     <unit id="b60467e9-5440-4043-90f5-790987742f63">
@@ -6147,9 +6147,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 75</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>NVDA now configures `wx.lib.agw.persist.PersistenceManager` on GUI initialisation. (#18601)</source>
-        <target>NVDA now configures `wx.lib.agw.persist.PersistenceManager` on GUI initialisation. (#18601)</target>
+        <target>NVDA 现在会在 GUI 初始化时配置 `wx.lib.agw.persist.PersistenceManager`。(#18601)</target>
       </segment>
     </unit>
     <unit id="5cbceb29-4c2d-4866-9394-f7d823750eab">
@@ -6167,9 +6167,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 79</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>The following symbols in `synthDrivers.sapi5` are deprecated with no replacement: (#18300, @gexgd0419)</source>
-        <target>The following symbols in `synthDrivers.sapi5` are deprecated with no replacement: (#18300, @gexgd0419)</target>
+        <target>`synthDrivers.sapi5` 中的以下符号已弃用且无替代方案： (#18300, @gexgd0419)</target>
       </segment>
     </unit>
     <unit id="5c310bc4-28cc-41c5-ac06-a04d360ad922">
@@ -6177,7 +6177,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 80</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>`LP_c_ubyte`</source>
         <target>`LP_c_ubyte`</target>
       </segment>
@@ -6187,7 +6187,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 81</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>`LP_c_ulong`</source>
         <target>`LP_c_ulong`</target>
       </segment>
@@ -6197,7 +6197,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 82</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>`LP__ULARGE_INTEGER`</source>
         <target>`LP__ULARGE_INTEGER`</target>
       </segment>
@@ -6207,7 +6207,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 83</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>`SynthDriver.isSpeaking`</source>
         <target>`SynthDriver.isSpeaking`</target>
       </segment>
@@ -6217,9 +6217,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 84</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>`easeOfAccess.RegistryKey` and `config.RegistryKey` is deprecated, use `config.registry.RegistryKey` instead. (#18608)</source>
-        <target>`easeOfAccess.RegistryKey` and `config.RegistryKey` is deprecated, use `config.registry.RegistryKey` instead. (#18608)</target>
+        <target>`easeOfAccess.RegistryKey` 和 `config.RegistryKey` 已弃用，请改用 `config.registry.RegistryKey`。(#18608)</target>
       </segment>
     </unit>
     <unit id="bb747d9e-5d1e-48d2-84f5-89c96d755a00">
@@ -6227,18 +6227,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 85</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Importing `DEFAULT_EXTENSIONS` from `md2html` is deprecated.</source>
-        <target>Importing `DEFAULT_EXTENSIONS` from `md2html` is deprecated.</target>
+        <target>从 `md2html` 导入 `DEFAULT_EXTENSIONS` 的做法已弃用。</target>
       </segment>
     </unit>
     <unit id="ffdab4b2-5995-42fb-9165-ca254496befd">
       <notes>
         <note appliesTo="source">line: 86</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>Importing from `md2html` is discouraged. (#18638)</source>
-        <target>Importing from `md2html` is discouraged. (#18638)</target>
+        <target>不建议从 `md2html` 导入。</target>
       </segment>
     </unit>
     <unit id="58b2f98c-6705-4ac1-b96c-34020c02e46f">
