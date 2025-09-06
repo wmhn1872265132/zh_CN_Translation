@@ -188,6 +188,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
    | 类型 | 名称 | 值 | 影响的工作流 | 作用 |
    | --- | --- | --- | --- | --- |
+   | 变量 | Run_NVDA_Translations_Workflow | 任意内容 | `PullRequestToNVDA.yaml`、`UpdateTranslations.yaml`、`Upload.yaml` | 控制这些工作流是否运行，当此变量不存在时，这些工作流将被跳过 |
    | 变量 | Run_CheckPot_Workflow | 任意内容 | `CheckPot.yaml` | 避免该工作流在 Fork 存储库中自动运行 |
    | 变量 | Run_Addon_Translations_Workflow | 任意内容 | `UpdateAddonTranslations.yaml`、`UploadAddonTranslations.yaml` | 避免这些工作流在 Fork 存储库中自动运行 |
    | 机密 | NVDA_CROWDIN | 具有译文读写权限的 [Crowdin 个人访问令牌](https://zh.crowdin.com/settings#api-key) | `UpdateAddonTranslations.yaml`、`UpdateTranslations.yaml`、`Upload.yaml`、`UploadAddonTranslations.yaml` | 从 Crowdin 上传和下载翻译时使用 |
