@@ -6041,7 +6041,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>It is important that people anywhere in the world, no matter what language they speak, get equal access to technology.</source>
-        <target>让世界上所有的人，无论使用何种语言，都可以公平且无障碍的使用辅助工具是非常重要的。</target>
+        <target>让世界上所有的人，无论使用何种语言，都可以公平且无障碍地使用辅助工具是非常重要的。</target>
       </segment>
     </unit>
     <unit id="7a9ae708-df12-44e3-b8f2-1ee4d245efc2">
@@ -6543,7 +6543,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>The year and version changes between updates to reflect the current release.</source>
-        <target>年份和表示版本信息的其他数字会随更新而改变，以反应最近发布的版本。</target>
+        <target>年份和表示版本信息的其他数字会随更新而改变，以反映最近发布的版本。</target>
       </segment>
     </unit>
     <unit id="f5455ce9-c9c9-4349-8e71-c248bd6cfcff">
@@ -10068,7 +10068,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Right-click on the NVDA icon located in the Windows system tray</source>
-        <target>用右键单机位于系统托盘上的 NVDA 图标</target>
+        <target>用右键单击位于系统托盘上的 NVDA 图标</target>
       </segment>
     </unit>
     <unit id="7f021bf8-4f60-46f5-879b-572aaadcdc25">
@@ -10465,7 +10465,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>The system focus, also known simply as the focus, is the [object](#Objects) which receives keys typed on the keyboard.</source>
-        <target>系统焦点，或被简单的称之为焦点，就是一个用来接收键盘输入的[对象](#Objects)。</target>
+        <target>系统焦点，或被简单地称之为焦点，就是一个用来接收键盘输入的[对象](#Objects)。</target>
       </segment>
     </unit>
     <unit id="23f66eb1-5ac5-41ca-9c9d-0b4f8e235a81">
@@ -10948,7 +10948,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When you move to an object, NVDA will report it similarly to the way it reports the system focus.</source>
-        <target>当您移动到一个对象时，NVDA 将用语系统焦点相似的方式进行朗读。</target>
+        <target>当您移动到一个对象时，NVDA 将语系统焦点相似的方式进行朗读。</target>
       </segment>
     </unit>
     <unit id="10d3b179-ed16-4ee9-a6c3-5da7e54e315a">
@@ -11271,7 +11271,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Note: numpad keys require the Num Lock to be turned off to work properly.</source>
-        <target>请注意，数字键盘必须处于关闭状态下数字键盘的按键才能正常工作。</target>
+        <target>请注意，只有在数字锁定 (Num Lock) 关闭时，数字键盘上的这些快捷键才能正常工作。</target>
       </segment>
     </unit>
     <unit id="fd0f2f6d-3872-498c-b6c7-46b42dbf9945">
@@ -15440,7 +15440,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Solid yellow highlights the virtual caret used in browse mode (where there is no physical caret such as in web browsers).</source>
-        <target>黄色虚线表示浏览模式的虚拟光标（通常是在浏览器里面出现）</target>
+        <target>黄色虚线表示浏览模式的虚拟光标（常见于浏览器等环境）。</target>
       </segment>
     </unit>
     <unit id="88d4faf1-1fcf-41f2-929d-888fc923bb74">
@@ -15776,7 +15776,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>NVDA provides its own extra features for some applications to make certain tasks easier or to provide access to functionality which is not otherwise accessible to screen reader users.</source>
-        <target>NVDA 为一些特定的应用程序提供了独有的额外特性，让您可以更加便捷更加高校的完成某些任务，还令某些其他屏幕阅读器用户无法访问的功能可用。</target>
+        <target>NVDA 为一些特定的应用程序提供了独有的额外特性，让您可以更加便捷更加高效的完成某些任务，还令某些其他屏幕阅读器用户无法访问的功能可用。</target>
       </segment>
     </unit>
     <unit id="2c227b4d-cc6c-4895-bb8d-1790e6f70e37">
@@ -17234,7 +17234,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To make it easier to find the kind of settings you want to change, the dialog displays a list of configuration categories to choose from.</source>
-        <target>为了易于使用，对话框中有一个包含配置类别的列表，使得所有设置项分门别类、仅仅有条。</target>
+        <target>为了易于使用，对话框中有一个包含配置类别的列表，使得所有设置项分门别类、井井有条。</target>
       </segment>
     </unit>
     <unit id="096573f6-79ff-45b3-93f0-b50004bd5fd6">
@@ -23903,7 +23903,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>After reading or precomposition data has been combined into a valid pictographic symbol, most input methods place this symbol into a composition string for temporary storage along with other combined symbols before they are finally inserted into the document.</source>
-        <target>在完成预上屏之后，数据已经被组合成一个笔画图形，在他们最终被输入到文档之前，大多数输入法将这些图形放入上屏(conposition)字串之内暂时存储。</target>
+        <target>在完成预上屏之后，数据已经被组合成一个笔画图形，在他们最终被输入到文档之前，大多数输入法将这些图形放入上屏(composition)字串之内暂时存储。</target>
       </segment>
     </unit>
     <unit id="f4323fd9-26bf-405a-90cd-1bac3753d52f">
@@ -24207,7 +24207,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When on, NVDA will treat these as normal tables, reporting them based on [Document Formatting Settings](#DocumentFormattingSettings) and locating them with quick navigation commands.</source>
-        <target>如果启用，NVDA 会把他们当作普通的列表对待，依照[文档格式设置](#DocumentFormattingSettings)来朗读，并可使用快捷命令进行快速定位。</target>
+        <target>如果启用，NVDA 会将其视为普通的列表，依照[文档格式设置](#DocumentFormattingSettings)来朗读，并可使用单键导航进行快速定位。</target>
       </segment>
     </unit>
     <unit id="b359c37b-1873-4c0f-95d6-36ff9e83b23e">
@@ -27321,7 +27321,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>This feature is available and enabled by default on Windows 10 versions 1607 and later when UI Automation is unavailable or disabled.</source>
-        <target>默认情况下，在 Windows 10 版本 1607 之后，当 UI Automation 不可用或被禁用时，NVDA 就会启用此功																																																																																																																																						能。</target>
+        <target>默认情况下，在 Windows 10 版本 1607 之后，当 UI Automation 不可用或被禁用时，NVDA 就会启用此功能。</target>
       </segment>
     </unit>
     <unit id="6b52fa39-5ef7-406f-813a-4a21b1395a7f">
@@ -28865,7 +28865,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Additional information is also shown for active profiles, indicating whether they are manually activated, triggered and/or being edited.</source>
-        <target>显示在激活配置的附加信息指示，他们是否需要手动激活，已关联或正在编辑。</target>
+        <target>显示在激活配置的附加信息指示，它们是否需要手动激活，已关联或正在编辑。</target>
       </segment>
     </unit>
     <unit id="e4417518-69d1-4507-8c55-0b37140cb49b">
@@ -33067,7 +33067,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Toggle shift key |brailleSpaceBar+dot7+dot8</source>
-        <target>按下或放开 Shift 键 | railleSpaceBar+7、8 点</target>
+        <target>按下或放开 Shift 键 | brailleSpaceBar+7、8 点</target>
       </segment>
     </unit>
     <unit id="7ceb2102-22c8-487a-98ff-de11dfae310e">
@@ -43007,7 +43007,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>For example, a useful option is `--disable-addons`, which tells NVDA to suspend all running add-ons.</source>
-        <target>一个实用的选项是 `--disable-addons`，它指示 NVDA 启动时不加载插件。</target>
+        <target>一个实用的选项是 `--disable-addons`，它指示 NVDA 启动时禁用所有已加载的插件。</target>
       </segment>
     </unit>
     <unit id="5e55f1d0-c7bf-4cb0-bfb0-84a1f53f6a84">
