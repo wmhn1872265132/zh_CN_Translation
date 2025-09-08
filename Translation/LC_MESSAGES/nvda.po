@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-05 07:26+0000\n"
+"POT-Creation-Date: 2025-09-08 01:19+0000\n"
 "PO-Revision-Date: 2025-09-05 15:24+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -7827,9 +7827,15 @@ msgstr ""
 #: addonStore\models\version.py:128
 #, python-brace-format
 msgctxt "addonStore"
-msgid "An updated version of this add-on is required. This add-on was last tested with NVDA {lastTestedNVDAVersion}. NVDA requires this add-on to be tested with NVDA {nvdaVersion} or higher. You can enable this add-on at your own risk. "
-msgstr "您安装的插件版本太旧，需要更新。\n"
-"该插件已在 NVDA {lastTestedNVDAVersion} 测试。此版本的 NVDA 要求该插件在 {nvdaVersion} 或更高版本的 NVDA 进行测试。\n"
+msgid ""
+"An updated version of this add-on is required. This add-on was last tested "
+"with NVDA {lastTestedNVDAVersion}. NVDA requires this add-on to be tested "
+"with NVDA {nvdaVersion} or higher. You can enable this add-on at your own "
+"risk. "
+msgstr ""
+"您安装的插件版本太旧，需要更新。\n"
+"该插件已在 NVDA {lastTestedNVDAVersion} 测试。此版本的 NVDA 要求该插件在 "
+"{nvdaVersion} 或更高版本的 NVDA 进行测试。\n"
 "您需要自行承担启用该插件的风险。"
 
 #. Translators: A message indicating that some add-ons will be disabled
@@ -12792,7 +12798,9 @@ msgid ""
 "\t\t\tAll of your user defined gestures, whether previously set or defined "
 "during this session, will be lost.\n"
 "\t\t\tThis cannot be undone."
-msgstr "您是否要将所有按键与手势重置为默认值？\n\n"
+msgstr ""
+"您是否要将所有按键与手势重置为默认值？\n"
+"\n"
 "\t\t\t重置后，您先前保存和设置的所有按键与手势都将丢失。\n"
 "\t\t\t该操作无法撤销。"
 
@@ -13273,8 +13281,10 @@ msgstr "在欢迎界面启用 NVDA（需要管理员权限）"
 #. current user settings to system settings (to allow current
 #. settings to be used in secure screens such as User Account
 #. Control (UAC) dialog).
-#: gui\settingsDialogs.py:913
-msgid "Use currently saved settings during sign-in and on secure screens (requires administrator privileges)"
+#: gui\settingsDialogs.py:914
+msgid ""
+"Use currently saved settings during sign-in and on secure screens (requires "
+"administrator privileges)"
 msgstr "应用已保存的配置到欢迎界面和其他安全界面（需要管理员权限）"
 
 #. Translators: The label of a checkbox in general settings to toggle automatic checking for updated versions of NVDA.
@@ -16105,82 +16115,82 @@ msgid "Math interaction not supported."
 msgstr "Math 交互不被支持。"
 
 #. Translators: A mode  that allows typing in the actual 'native' characters for an east-Asian input method language currently selected, rather than alpha numeric (Roman/English) characters.
-#: NVDAHelper\__init__.py:529
+#: NVDAHelper\__init__.py:496
 msgid "Native input"
 msgstr "本地输入"
 
 #. Translators: a mode that lets you type in alpha numeric (roman/english) characters, rather than 'native' characters for the east-Asian input method  language currently selected.
-#: NVDAHelper\__init__.py:531
+#: NVDAHelper\__init__.py:498
 msgid "Alpha numeric input"
 msgstr "字母数字输入"
 
 #. Translators: for East-Asian input methods, a mode that allows typing in full-shaped (full double-byte) characters, rather than the smaller half-shaped ones.
-#: NVDAHelper\__init__.py:535
+#: NVDAHelper\__init__.py:502
 msgid "Full shaped mode"
 msgstr "全角模式"
 
 #. Translators: for East-Asian input methods, a mode that allows typing in half-shaped (single-byte) characters, rather than the larger full-shaped (double-byte) ones.
-#: NVDAHelper\__init__.py:537
+#: NVDAHelper\__init__.py:504
 msgid "Half shaped mode"
 msgstr "半角模式"
 
 #. Translators: For Japanese character input: half-shaped (single-byte) alpha numeric (roman/english) mode.
-#: NVDAHelper\__init__.py:543 NVDAHelper\__init__.py:553
+#: NVDAHelper\__init__.py:510 NVDAHelper\__init__.py:520
 msgid "half alphanumeric"
 msgstr "半角字母数字"
 
 #. Translators: For Japanese character input: half-shaped (single-byte) Katacana input mode.
-#: NVDAHelper\__init__.py:545
+#: NVDAHelper\__init__.py:512
 msgid "half katakana"
 msgstr "半角片假名"
 
 #. Translators: For Japanese character input: alpha numeric (roman/english) mode.
-#: NVDAHelper\__init__.py:547 NVDAHelper\__init__.py:557
+#: NVDAHelper\__init__.py:514 NVDAHelper\__init__.py:524
 msgid "alphanumeric"
 msgstr "字母数字"
 
 #. Translators: For Japanese character input: Hiragana input mode.
-#: NVDAHelper\__init__.py:549
+#: NVDAHelper\__init__.py:516
 msgid "hiragana"
 msgstr "平假名"
 
 #. Translators: For Japanese character input: Katacana input mode.
-#: NVDAHelper\__init__.py:551
+#: NVDAHelper\__init__.py:518
 msgid "katakana"
 msgstr "片假名"
 
 #. Translators: For Japanese character input: half katakana roman input mode.
-#: NVDAHelper\__init__.py:555
+#: NVDAHelper\__init__.py:522
 msgid "half katakana roman"
 msgstr "半角罗马片假名"
 
 #. Translators: For Japanese character input: Hiragana Roman input mode.
-#: NVDAHelper\__init__.py:559
+#: NVDAHelper\__init__.py:526
 msgid "hiragana roman"
 msgstr "罗马平假名"
 
 #. Translators: For Japanese character input: Katacana Roman input mode.
-#: NVDAHelper\__init__.py:561
+#: NVDAHelper\__init__.py:528
 msgid "katakana roman"
 msgstr "罗马片假名"
 
 #. Translators: a message when the IME open status changes to opened
-#: NVDAHelper\__init__.py:603
+#: NVDAHelper\__init__.py:570
 msgid "IME opened"
 msgstr "输入法指示器已打开"
 
 #. Translators: a message when the IME open status changes to closed
-#: NVDAHelper\__init__.py:606
+#: NVDAHelper\__init__.py:573
 msgid "IME closed"
 msgstr "输入法指示器已关闭"
 
 #. Translators: the label for an unknown language when switching input methods.
-#: NVDAHelper\__init__.py:643
+#: NVDAHelper\__init__.py:610
 msgid "unknown language"
 msgstr "未知语言"
 
 #. Translators: The label for an unknown input method when switching input methods.
-#: NVDAHelper\__init__.py:669
+#: NVDAHelper\__init__.py:636
 msgid "unknown input method"
 msgstr "未知输入法"
 
