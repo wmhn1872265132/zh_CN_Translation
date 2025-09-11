@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-11 01:18+0000\n"
-"PO-Revision-Date: 2025-09-05 15:24+0800\n"
+"PO-Revision-Date: 2025-09-11 12:37+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -6756,77 +6756,77 @@ msgstr "波形"
 #: msoAutoShapeTypes.py:726
 msgctxt "action"
 msgid "Back"
-msgstr "动作按钮: 后退或前一项"
+msgstr "后退或上一个"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 #: msoAutoShapeTypes.py:729
 msgctxt "action"
 msgid "Beginning"
-msgstr "动作按钮: 开始"
+msgstr "开始"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 #: msoAutoShapeTypes.py:732
 msgctxt "action"
 msgid "Document"
-msgstr "动作按钮: 文档"
+msgstr "文档"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 #: msoAutoShapeTypes.py:735
 msgctxt "action"
 msgid "End"
-msgstr "动作按钮: 结束"
+msgstr "结束"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 #: msoAutoShapeTypes.py:738
 msgctxt "action"
 msgid "Next"
-msgstr "动作按钮: 下一张"
+msgstr "前进或下一个"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 #: msoAutoShapeTypes.py:741
 msgctxt "action"
 msgid "Help"
-msgstr "动作按钮: 帮助"
+msgstr "帮助"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 #: msoAutoShapeTypes.py:744
 msgctxt "action"
 msgid "Home"
-msgstr "动作按钮: 第一张"
+msgstr "主页"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 #: msoAutoShapeTypes.py:747
 msgctxt "action"
 msgid "Information"
-msgstr "动作按钮: 信息"
+msgstr "信息"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 #: msoAutoShapeTypes.py:750
 msgctxt "action"
 msgid "Movie"
-msgstr "动作按钮: 影片"
+msgstr "影片"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 #: msoAutoShapeTypes.py:753
 msgctxt "shape"
 msgid "Return"
-msgstr "动作按钮: 返回"
+msgstr "返回"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 #: msoAutoShapeTypes.py:756
 msgctxt "action"
 msgid "Sound"
-msgstr "动作按钮: 声音"
+msgstr "声音"
 
 #: pythonConsole.py:38
 msgid "Type help(object) to get help about object."
