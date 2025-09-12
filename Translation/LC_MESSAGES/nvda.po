@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 01:18+0000\n"
+"POT-Creation-Date: 2025-09-12 06:25+0000\n"
 "PO-Revision-Date: 2025-09-11 12:37+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -383,7 +383,7 @@ msgstr "hlght"
 #. Translators: Displayed in braille when an object is a comment.
 #. Translators: Displayed in braille when there is a comment for a spreadsheet cell or piece of text in a document.
 #. Translators: Brailled when text contains a generic comment.
-#: braille.py:231 braille.py:280 braille.py:1194
+#: braille.py:231 braille.py:280 braille.py:1202
 msgid "cmnt"
 msgstr "cmnt"
 
@@ -657,7 +657,7 @@ msgstr "有 %s"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
-#: braille.py:707 braille.py:1172
+#: braille.py:707 braille.py:1180
 #, python-format
 msgid "h%s"
 msgstr "h%s"
@@ -668,7 +668,7 @@ msgid "vlnk"
 msgstr "vlnk"
 
 #. Translators: Displayed in braille for a multi select list.
-#: braille.py:718
+#: braille.py:726
 msgid "mslst"
 msgstr "mslst"
 
@@ -678,65 +678,65 @@ msgstr "mslst"
 #. Translators: Spoken to indicate the position of an item in a group of items (such as a list).
 #. {number} is replaced with the number of the item in the group.
 #. {total} is replaced with the total number of items in the group.
-#: braille.py:765 speech\speech.py:2122
+#: braille.py:773 speech\speech.py:2122
 #, python-brace-format
 msgid "{number} of {total}"
 msgstr "，{total} 之 {number} 项"
 
 #. Translators: Displayed in braille when an object (e.g. a tree view item) has a hierarchical level.
 #. %s is replaced with the level.
-#: braille.py:769
+#: braille.py:777
 #, python-format
 msgid "lv %s"
 msgstr "%s 级"
 
 #. Translators: Displayed in braille for the table cell row numbers when a cell spans multiple rows.
 #. Occurences of %s are replaced with the corresponding row numbers.
-#: braille.py:775
+#: braille.py:783
 #, python-brace-format
 msgid "r{rowNumber}-{rowSpan}"
 msgstr "{rowNumber} 到 {rowSpan} 行"
 
 #. Translators: Displayed in braille for a table cell row number.
 #. %s is replaced with the row number.
-#: braille.py:782
+#: braille.py:790
 #, python-brace-format
 msgid "r{rowNumber}"
 msgstr "{rowNumber} 行"
 
 #. Translators: Displayed in braille for the table cell column numbers when a cell spans multiple columns.
 #. Occurences of %s are replaced with the corresponding column numbers.
-#: braille.py:792
+#: braille.py:800
 #, python-brace-format
 msgid "c{columnNumber}-{columnSpan}"
 msgstr "{columnNumber} 到 {columnSpan} 列"
 
 #. Translators: Displayed in braille for a table cell column number.
 #. %s is replaced with the column number.
-#: braille.py:799
+#: braille.py:807
 #, python-brace-format
 msgid "c{columnNumber}"
 msgstr "{columnNumber} 列"
 
 #. Translators: Displayed in braille at the end of a control field such as a list or table.
 #. %s is replaced with the control's role.
-#: braille.py:1016
+#: braille.py:1024
 #, python-format
 msgid "%s end"
 msgstr "%s 行尾"
 
 #. Translators: Brailled when text contains a draft comment.
-#: braille.py:1188
+#: braille.py:1196
 msgid "drft cmnt"
 msgstr "草稿批注"
 
 #. Translators: Brailled when text contains a resolved comment.
-#: braille.py:1191
+#: braille.py:1199
 msgid "rslvd cmnt"
 msgstr "已解决批注"
 
 #. Translators: brailled when text contains a bookmark
-#: braille.py:1202
+#: braille.py:1210
 msgid "bkmk"
 msgstr "书签"
 
@@ -748,40 +748,40 @@ msgstr "书签"
 #. consider overwriting this (e.g. for Ge'ez ፨).
 #. You can also use Unicode Braille such as ⠘⠏.
 #. Ensure this is consistent with other strings with the context "paragraphMarker".
-#: braille.py:1229
+#: braille.py:1237
 msgctxt "paragraphMarker"
 msgid "¶"
 msgstr "¶"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3676
+#: braille.py:3684
 msgid "Dot firm&ness"
 msgstr "点字硬度(&N)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3689
+#: braille.py:3697
 msgid "Braille inp&ut"
 msgstr "启用盲文输入(&U)"
 
 #. Translators: Label for a setting in braille settings dialog.
-#: braille.py:3699
+#: braille.py:3707
 msgid "&HID keyboard input simulation"
 msgstr "模拟 HID 键盘(&H)"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#: braille.py:3863
+#: braille.py:3871
 msgid "Unknown braille display"
 msgstr "未知盲文点显器"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#: braille.py:3904
+#: braille.py:3912
 #, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
 msgstr "蓝牙串行设备：{port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
-#: braille.py:3913 brailleDisplayDrivers\ecoBraille.py:399
+#: braille.py:3921 brailleDisplayDrivers\ecoBraille.py:399
 #: brailleDisplayDrivers\papenmeier_serial.py:81
 #, python-brace-format
 msgid "Serial: {portName}"
@@ -16279,7 +16279,7 @@ msgstr "移动焦点和导航对象到最后一行"
 msgid "Composition"
 msgstr "上屏"
 
-#: NVDAObjects\IAccessible\__init__.py:2505
+#: NVDAObjects\IAccessible\__init__.py:2509
 msgid "Taskbar"
 msgstr "任务栏"
 
