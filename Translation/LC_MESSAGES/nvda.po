@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-12 06:25+0000\n"
-"PO-Revision-Date: 2025-09-11 12:37+0800\n"
+"PO-Revision-Date: 2025-09-14 10:59+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4219,7 +4219,7 @@ msgstr "禁用朗读查看器"
 #. Translators: The message announced when enabling speech viewer.
 #: globalCommands.py:3614
 msgid "speech viewer enabled"
-msgstr "起用朗读查看器"
+msgstr "启用朗读查看器"
 
 #. Translators: Input help mode message for toggle Braille viewer command.
 #: globalCommands.py:3622
@@ -4707,7 +4707,7 @@ msgstr "不支持触摸模式"
 #. Translators: Presented when support of touch interaction has been enabled
 #: globalCommands.py:4487
 msgid "Touch interaction enabled"
-msgstr "起用触摸模式"
+msgstr "启用触摸模式"
 
 #. Translators: Presented when support of touch interaction has been disabled
 #: globalCommands.py:4490
