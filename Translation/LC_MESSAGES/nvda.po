@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 06:25+0000\n"
+"POT-Creation-Date: 2025-09-15 01:20+0000\n"
 "PO-Revision-Date: 2025-09-14 10:59+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -5563,28 +5563,28 @@ msgid "Somali"
 msgstr "索马里语"
 
 #. Translators: Reported when mouse cursor shape changes (example output: edit cursor).
-#: mouseHandler.py:279
+#: mouseHandler.py:274
 #, python-format
 msgid "%s cursor"
 msgstr "%s光标"
 
 #. Translators: This is presented when the left mouse button is locked down (used for drag and drop).
-#: mouseHandler.py:383
+#: mouseHandler.py:378
 msgid "Left mouse button lock"
 msgstr "按下鼠标左键"
 
 #. Translators: This is presented when the left mouse button lock is released (used for drag and drop).
-#: mouseHandler.py:390
+#: mouseHandler.py:385
 msgid "Left mouse button unlock"
 msgstr "松开鼠标左键"
 
 #. Translators: This is presented when the right mouse button is locked down (used for drag and drop).
-#: mouseHandler.py:402
+#: mouseHandler.py:397
 msgid "Right mouse button locked"
 msgstr "按下鼠标右键"
 
 #. Translators: This is presented when the right mouse button lock is released (used for drag and drop).
-#: mouseHandler.py:409
+#: mouseHandler.py:404
 msgid "Right mouse button unlocked"
 msgstr "松开鼠标右键"
 
