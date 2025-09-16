@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2025-09-14 17:01+0000\n"
-"PO-Revision-Date: 2025-09-15 12:38\n"
+"PO-Revision-Date: 2025-09-16 03:17\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -250,12 +250,12 @@ msgstr "时钟铃声(&S):"
 #. Translators: This is the label for a checkbox in the Clock settings dialog.
 #: addon/globalPlugins/clock/clockSettingsGUI.py:67
 msgid "&Separate hour and intermediate minute chimes"
-msgstr ""
+msgstr "区分整点与分钟铃声(&S)"
 
 #. Translators: This is the label for a combo box in the Clock settings dialog.
 #: addon/globalPlugins/clock/clockSettingsGUI.py:70
 msgid "Intermediate minutes chime &sound:"
-msgstr ""
+msgstr "分钟铃声(&S)"
 
 #. Translators: This is the label for a checkbox in the Clock settings dialog.
 #: addon/globalPlugins/clock/clockSettingsGUI.py:73
@@ -413,13 +413,13 @@ msgstr "现在是 {hours}:{minutes}:{seconds}"
 #: addon/globalPlugins/clock/formats.py:108
 #, python-brace-format
 msgid "{fmt} (24-hour format)"
-msgstr ""
+msgstr "{fmt}（24 小时制）"
 
 #. Translators: A way to display 12-hour formats in the time display formats list in the settings panel.
 #: addon/globalPlugins/clock/formats.py:110
 #, python-brace-format
 msgid "{fmt} (12-hour format)"
-msgstr ""
+msgstr "{fmt}（12 小时制）"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
