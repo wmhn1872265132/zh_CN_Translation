@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2025-09-15 08:18+0000\n"
-"PO-Revision-Date: 2025-09-15 08:27\n"
+"PO-Revision-Date: 2025-09-16 07:26\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 #: buildVars.py:17
 msgid "Review Cursor Copier"
-msgstr "查看光标剪贴板"
+msgstr "查看光标复制器"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
