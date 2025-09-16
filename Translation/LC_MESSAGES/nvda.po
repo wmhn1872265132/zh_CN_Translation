@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 06:26+0000\n"
+"POT-Creation-Date: 2025-09-16 09:19+0000\n"
 "PO-Revision-Date: 2025-09-14 10:59+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -2409,7 +2409,7 @@ msgstr "工具"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: a touch screen gesture
-#: globalCommands.py:109 touchHandler.py:218
+#: globalCommands.py:109 touchHandler.py:232
 msgid "Touch screen"
 msgstr "触摸屏"
 
@@ -6965,40 +6965,40 @@ msgstr "声调"
 msgid "Use modern audio output system (WASAPI)"
 msgstr "使用现代音频输出系统（WASAPI）"
 
-#: touchHandler.py:45
+#: touchHandler.py:59
 msgid "text mode"
 msgstr "文本模式"
 
-#: touchHandler.py:46
+#: touchHandler.py:60
 msgid "object mode"
 msgstr "对象模式"
 
 #. Translators: a touch screen action performed once
-#: touchHandler.py:145
+#: touchHandler.py:159
 #, python-brace-format
 msgid "single {action}"
 msgstr "{action}一次"
 
 #. Translators: a touch screen action performed twice
-#: touchHandler.py:147
+#: touchHandler.py:161
 #, python-brace-format
 msgid "double {action}"
 msgstr "{action}两次"
 
 #. Translators: a touch screen action performed 3 times
-#: touchHandler.py:149
+#: touchHandler.py:163
 #, python-brace-format
 msgid "tripple {action}"
 msgstr "{action}三次"
 
 #. Translators: a touch screen action performed 4 times
-#: touchHandler.py:151
+#: touchHandler.py:165
 #, python-brace-format
 msgid "quadruple {action}"
 msgstr "{action}四次"
 
 #. Translators: a touch screen action using multiple fingers
-#: touchHandler.py:211
+#: touchHandler.py:225
 #, python-brace-format
 msgid "{numFingers} finger {action}"
 msgid_plural "{numFingers} finger {action}"
@@ -14988,7 +14988,7 @@ msgstr "启用"
 #. Translators: Options label on a vision enhancement provider on the vision settings category panel
 #. Translators: The label for a group box containing the NVDA highlighter options.
 #: gui\settingsDialogs.py:5462
-#: visionEnhancementProviders\NVDAHighlighter.py:308
+#: visionEnhancementProviders\NVDAHighlighter.py:309
 #: visionEnhancementProviders\screenCurtain.py:251
 msgid "Options:"
 msgstr "选项："
@@ -19163,30 +19163,30 @@ msgstr "关闭屏幕布局"
 
 #. Translators: shown for a highlighter setting that toggles
 #. highlighting the system focus.
-#: visionEnhancementProviders\NVDAHighlighter.py:219
+#: visionEnhancementProviders\NVDAHighlighter.py:220
 msgid "Highlight system fo&cus"
 msgstr "高亮显示系统焦点(&C)"
 
 #. Translators: shown for a highlighter setting that toggles
 #. highlighting the browse mode cursor.
-#: visionEnhancementProviders\NVDAHighlighter.py:222
+#: visionEnhancementProviders\NVDAHighlighter.py:223
 msgid "Highlight browse &mode cursor"
 msgstr "高亮显示浏览模式光标(&M)"
 
 #. Translators: shown for a highlighter setting that toggles
 #. highlighting the navigator object.
-#: visionEnhancementProviders\NVDAHighlighter.py:225
+#: visionEnhancementProviders\NVDAHighlighter.py:226
 msgid "Highlight navigator &object"
 msgstr "高亮显示导航对象(&O)"
 
 #. Translators: Description for NVDA's built-in screen highlighter.
-#: visionEnhancementProviders\NVDAHighlighter.py:244
+#: visionEnhancementProviders\NVDAHighlighter.py:245
 msgid "Visual Highlight"
 msgstr "高亮显示"
 
 #. Translators: The label for a checkbox that enables / disables focus highlighting
 #. in the NVDA Highlighter vision settings panel.
-#: visionEnhancementProviders\NVDAHighlighter.py:297
+#: visionEnhancementProviders\NVDAHighlighter.py:298
 msgid "&Enable Highlighting"
 msgstr "启用高亮显示(&E)"
 
