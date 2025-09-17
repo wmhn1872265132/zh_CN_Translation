@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2025-09-15 07:05+0000\n"
-"PO-Revision-Date: 2025-09-15 08:10\n"
+"PO-Revision-Date: 2025-09-17 01:46\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20,37 +20,37 @@ msgstr ""
 #. Translators: The long label of the days field.
 #: addon/globalPlugins/DayOfTheWeek.py:41
 msgid "You can select a day with the vertical arrows"
-msgstr "使用上下光标选择一天"
+msgstr "使用上下光标选择日期"
 
 #. Translators: The short label of the days field.
 #: addon/globalPlugins/DayOfTheWeek.py:43
 msgid "Select a day"
-msgstr "选择一天"
+msgstr "选择日"
 
 #. Translators: The long label of the months field.
 #: addon/globalPlugins/DayOfTheWeek.py:45
 msgid "You can select a month with the vertical arrows"
-msgstr "使用上下光标选择一月"
+msgstr "使用上下光标选择月份"
 
 #. Translators: The short label of the months field.
 #: addon/globalPlugins/DayOfTheWeek.py:47
 msgid "Select a month"
-msgstr "选择一月"
+msgstr "选择月"
 
 #. Translators: The long label of the years field.
 #: addon/globalPlugins/DayOfTheWeek.py:49
 msgid "You can select a year with the vertical arrows"
-msgstr "使用上下光标选择一年"
+msgstr "使用上下光标选择年份"
 
 #. Translators: The short label of the years field.
 #: addon/globalPlugins/DayOfTheWeek.py:51
 msgid "Select a year"
-msgstr "选择一年"
+msgstr "选择年"
 
 #. Translators: The title of the Date Dialog.
 #: addon/globalPlugins/DayOfTheWeek.py:102
 msgid "Get the day of the week"
-msgstr "获取星期几"
+msgstr "星期查询"
 
 #. Translators: A label for a list in a dialog.
 #: addon/globalPlugins/DayOfTheWeek.py:106
@@ -60,7 +60,7 @@ msgstr "输入或选择一个日期"
 #. Translators: The title of a dialog.
 #: addon/globalPlugins/DayOfTheWeek.py:164
 msgid "Your day"
-msgstr "你的一天"
+msgstr "这天是"
 
 #. Translators: The title of the add-on configuration dialog box.
 #: addon/globalPlugins/DayOfTheWeek.py:172
@@ -73,42 +73,42 @@ msgstr "插件{0}配置"
 #. to be shown on installation and add-on information found in Add-ons Manager.
 #: addon/globalPlugins/DayOfTheWeek.py:175 buildVars.py:23
 msgid "Day of the week"
-msgstr "某天星期几"
+msgstr "星期查询"
 
 #. Translators: Level for short announces of labels.
 #: addon/globalPlugins/DayOfTheWeek.py:179
 msgid "Short"
-msgstr "短"
+msgstr "简略"
 
 #. Translators: Level for long announces of labels.
 #: addon/globalPlugins/DayOfTheWeek.py:182
 msgid "Long"
-msgstr "长"
+msgstr "详细"
 
 #. Translators: Level to disable announces of labels.
 #: addon/globalPlugins/DayOfTheWeek.py:185
 msgid "Off"
-msgstr "开"
+msgstr "关闭"
 
 #. Translators: The label of the checkbox to enable or disable the date selector accessibility.
 #: addon/globalPlugins/DayOfTheWeek.py:190
 msgid "En&able the accessibility of the date selector:"
-msgstr "使用日期选择器的可访问性："
+msgstr "启用日期选择器的无障碍访问(&A)"
 
 #. Translators: The label for an item to select the level of the announces of labels.
 #: addon/globalPlugins/DayOfTheWeek.py:192
 msgid "Level of the announces of &labels:"
-msgstr "公告级别和标签："
+msgstr "标签播报级别(&L)"
 
 #: addon/globalPlugins/DayOfTheWeek.py:195
 msgid "Enable announcements of the current date field value only, when moving &vertically:"
-msgstr "当移动垂直时，仅启用当前日期字段值的通知："
+msgstr "垂直移动时仅读出当前日期字段的值(&V)"
 
 #. Translators: Item in the tools menu for the Addon dayOfTheWeek.
 #: addon/globalPlugins/DayOfTheWeek.py:587
 #: addon/globalPlugins/DayOfTheWeek.py:600
 msgid "Day of the &week..."
-msgstr "&Day of the week..."
+msgstr "查询星期(&W)..."
 
 #. Translators: The tooltyp text for the dayOfTheWeek item.
 #. Translators: The tooltyp text for the first item in the dayOfTheWeek add-on submenu.
@@ -126,13 +126,13 @@ msgstr "{0}插件和设置"
 #. Translators: The name of the first item in the dayOfTheWeek add-on submenu.
 #: addon/globalPlugins/DayOfTheWeek.py:608
 msgid "Search a &day"
-msgstr "搜索一天"
+msgstr "搜索日期(&D)"
 
 #. Translators: The name of the second item in the dayOfTheWeek add-on submenu.
 #: addon/globalPlugins/DayOfTheWeek.py:617
 #, python-brace-format
 msgid "{0} add-on se&ttings"
-msgstr "&{0}插件设置"
+msgstr "{0}插件设置(&T)"
 
 #. Translators: The tooltyp text for the second item in the dayOfTheWeek add-on submenu.
 #: addon/globalPlugins/DayOfTheWeek.py:619
@@ -147,7 +147,7 @@ msgstr "允许您查看所选日期是星期几。"
 #: addon/globalPlugins/DayOfTheWeek.py:663
 #, python-brace-format
 msgid "Allows you to open the {0} add-on settings dialog."
-msgstr "允许您打开{0}加载项设置对话框。"
+msgstr "允许您打开{0}插件设置对话框。"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
