@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 09:19+0000\n"
+"POT-Creation-Date: 2025-09-17 01:17+0000\n"
 "PO-Revision-Date: 2025-09-14 10:59+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -5485,14 +5485,14 @@ msgstr "笔记本"
 
 #. Translators: Reported for an unknown key press.
 #. %s will be replaced with the key code.
-#: keyboardHandler.py:561
+#: keyboardHandler.py:563
 #, python-format
 msgid "unknown %s"
 msgstr "%s 未知"
 
 #. Translators: a state that denotes a control is currently on
 #. E.g. a switch control.
-#: keyboardHandler.py:631 synthSettingsRing.py:117 controlTypes\state.py:202
+#: keyboardHandler.py:633 synthSettingsRing.py:117 controlTypes\state.py:202
 #: gui\speechDict.py:198
 msgid "on"
 msgstr "开"
@@ -5501,7 +5501,7 @@ msgstr "开"
 #. Translators: An option for progress bar output in the Object Presentation dialog
 #. which disables reporting of progress bars.
 #. See Progress bar output in the Object Presentation Settings section of the User Guide.
-#: keyboardHandler.py:631 synthSettingsRing.py:117 controlTypes\state.py:231
+#: keyboardHandler.py:633 synthSettingsRing.py:117 controlTypes\state.py:231
 #: gui\settingsDialogs.py:2422 gui\speechDict.py:198
 msgid "off"
 msgstr "关"
@@ -5509,13 +5509,13 @@ msgstr "关"
 #. Translators: Used when describing keys on the system keyboard with a particular layout.
 #. %s is replaced with the layout name.
 #. For example, in English, this might produce "laptop keyboard".
-#: keyboardHandler.py:750
+#: keyboardHandler.py:752
 #, python-format
 msgid "%s keyboard"
 msgstr "%s键盘"
 
 #. Translators: Used when describing keys on the system keyboard applying to all layouts.
-#: keyboardHandler.py:755
+#: keyboardHandler.py:757
 msgid "keyboard, all layouts"
 msgstr "键盘，所有布局"
 
