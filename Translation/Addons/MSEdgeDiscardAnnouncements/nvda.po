@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2025-09-15 07:03+0000\n"
-"PO-Revision-Date: 2025-09-15 07:54\n"
+"PO-Revision-Date: 2025-09-17 03:55\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -145,11 +145,11 @@ msgstr "在地址栏中输入时显示建议"
 #. to be shown on installation and add-on information found in Add-ons Manager.
 #: buildVars.py:23
 msgid "Microsoft Edge discard announcements"
-msgstr "禁止 Microsoft Edge UIA 通知"
+msgstr "Microsoft Edge 通知过滤)"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:26
 msgid "Discards UIA announcements in Microsoft Edge such as page loading and refreshing, opening and closing tabs and windows."
-msgstr "禁止提示 Microsoft Edge 中的部分 UIA 通知，例如页面加载/刷新、打开/关闭选项卡/窗口等。"
+msgstr "过滤 Microsoft Edge 中的部分 UIA 通知，例如页面加载/刷新、打开/关闭选项卡/窗口等。"
 
