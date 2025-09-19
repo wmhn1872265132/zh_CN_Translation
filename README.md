@@ -22,9 +22,29 @@
 
 **请注意：此页面的文件具有时效性，文件过期后将无法下载。**
 
+### 存储库文件结构介绍
+
+此存储库根目录所包含的文件和文件夹的作用简述如下：
+
+- `.github`：用于存储 GitHUB 相关的文件，如工作流文件、PR 模板文件等；
+- `PotXliff`：用于供 L10nUtilTools.bat 存储临时文件，有关详细信息，请参看[L10nUtilTools.bat 的使用说明][2]章节；
+- `Preview`：用于存储 L10nUtilTools.bat 生成的翻译预览文件以及将 MD 转换为 XLIFF 的原始 Markdown 文件，有关详细信息，请参看[L10nUtilTools.bat 的使用说明][2]章节；
+- `Tools`：用于存储 L10nUtilTools.bat 所调用的工具和存储库源代码或其链接；
+- `Translation`：用于存储所有需要翻译的文件，这也是主要的工作文件夹，其中
+
+  - `Translation\Addons` 用于存储插件的翻译文件，每个插件的翻译均存储在以插件 ID 命名的子文件夹中；
+  - `Translation\LC_MESSAGES` 用于存储 NVDA 界面消息的翻译文件，有关翻译该文件的方式和注意事项请参看 [Translating NVDA's interface（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/translating/crowdin.md#translating-nvdas-interface)；
+  - `Translation\miscDeps` 用于存储 NVDA 的字符描述、手势配置和符号朗读规则文件，有关翻译这些文件的方式和注意事项请参看[NVDA 开发者指南（英语）](https://download.nvaccess.org/documentation/developerGuide.html)的 [Character Descriptions](https://download.nvaccess.org/documentation/developerGuide.html#characterDescriptions)、[Gestures](https://download.nvaccess.org/documentation/developerGuide.html#TranslatingGestures) 和 [Symbol Pronunciation](https://download.nvaccess.org/documentation/developerGuide.html#symbolPronunciation) 章节；
+  - `Translation\user_docs` 用于存储 NVDA 的更新日志和用户指南的 XLIFF 文件，有关翻译这些文件的方式和注意事项请参看 [Translating User Documentation（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/translating/crowdin.md#translating-user-documentation)；
+
+- `.gitattributes` 和 `.gitignore`：用于配置 Git 的必要文件；
+- `L10nUtilTools.bat`：用于处理翻译的批处理脚本，具体使用方法和注意事项，请参看[L10nUtilTools.bat 的使用说明][2]章节。
+- `LICENSE`：许可协议文件。
+- `README.md`：此说明文档。
+
 ### alpha 开发周期的翻译
 
-可在 `version_year.version_major` 分支提前翻译 alpha 开发周期的界面消息、手势、字符以及符号描述，修改或完善现有翻译，以供 alpha 测试。
+可在 `version_year.version_major` 分支提前翻译 alpha 开发周期的界面消息、字符描述、手势配置以及符号朗读规则，修改或完善现有翻译，以供 alpha 测试。
 
 alpha 开发周期界面消息的翻译字符串将由 GitHub Actions 在满足下列条件时从 NVDA 源代码自动更新：
 
@@ -35,7 +55,7 @@ alpha 开发周期界面消息的翻译字符串将由 GitHub Actions 在满足�
 
 更新后的nvda.po文件会被提交回 `version_year.version_major` 分支。
 
-由于文档的翻译字符串必须由 NV Access 构建，在 alpha 开发周期将无法翻译。
+由于文档的翻译字符串必须由 NV Access 构建，因此在 alpha 开发周期将无法更新，仅可对现有翻译进行改进。
 
 #### 注意
 
@@ -98,11 +118,12 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 通过该工具，可快速调用 nvdaL10nUtil 及其他程序对翻译进行处理，主要可
 
-- 生成翻译御览
-- 生成翻译测试的压缩包
-- 使用给定的 nvda.pot 更新 nvda.po 的翻译字符串。
+- 生成 NVDA 主程序的翻译御览
+- 生成 NVDA 主程序的翻译测试压缩包
+- 使用给定的 nvda.pot 更新 NVDA 主程序的界面消息翻译字符串
+- Markdown 和 XLIFF 的互转换
 - 上传已翻译的文件到 Crowdin
-- 从 Crowdin 下载已翻译的文件，并支持将其自动提交到您的本地仓库
+- 从 Crowdin 下载已翻译的文件，并支持将 NVDA 主程序的翻译文件自动提交到您的本地仓库
 
 ### 支持的命令
 
@@ -154,6 +175,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 | 命令 | 作用 |
 | --- | --- |
 | `CLE` | 清理翻译 NVDA 主程序和插件命令生成的所有文件。 |
+| `help` | 显示可用命令。 |
 | 其他命令 | 退出本工具。 |
 
 ### 注意
@@ -164,9 +186,12 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 - `GEZ` 命令生成的压缩包位于 `Preview\Archive` 文件夹下，该压缩包符合 NVDA 的文件结构，可直接解压到 NVDA 程序所在文件夹进行测试。
 - `GMC`、`GMU` 命令生成的文件位于 `Preview\Markdown` 文件夹下。
 - `MXC`、`MXU` 命令使用前需要根据 [创建 NVDA 开发环境（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/dev/createDevEnvironment.md)文档准备 NVDA 本地代码仓库并配置 Python 环境。
-  准备必须环境后，通过上述命令即可以 NVDA 本地代码仓库当前分支的 `user_docs\en` 中的相应 xliff文件为模板生成所需 xliff 文件。
+
+  准备必须环境后，通过上述命令即可以 NVDA 本地代码仓库当前分支的 `user_docs\en` 中的相应 xliff 文件为模板生成所需 xliff 文件。
+
   生成的文件会直接替换存储库的原始 xliff 文件以便于将其上传到 Crowdin，因此在执行该命令前，请确保原始文件的翻译更改已提交到存储库。
-  由于该命令生成的 xliff 文件与从 Crowdin 获取文件的缩进不同，因此请勿将使用该命令生成的文件提交到本存储库，可先在本地上传该文件到 Crowdin，随后再从 Crowdin 下载该文件并提交。
+
+  由于该命令生成的 xliff 文件与从 Crowdin 获取文件的缩进不同，因此请勿将使用该命令生成的文件直接提交到本存储库，可先在本地上传该文件到 Crowdin，随后再从 Crowdin 下载该文件并提交。
 - `UDL` 命令使用前，需要将用于更新 nvda.po 的 nvda.pot 翻译模板复制到存储库的 `PotXliff` 文件夹，并且该命令会直接替换存储库的原始 nvda.po 文件，因此在执行该命令前，请确保原始文件的翻译更改已提交到存储库。
 - `UPC`、`UPU` 和 `UPA` 命令使用前，需要将原始 xliff 文件复制到存储库的 `PotXliff` 文件夹，如未检测到所需文件，系统会从存储库的 `main` 分支提取。
 - 从 Crowdin 上传或下载文件时，需要 Crowdin 的个人访问令牌，可从 [Crowdin 的账号设置](https://zh.crowdin.com/settings#api-key)页面创建。
@@ -176,7 +201,12 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 - 从 Crowdin 下载的已翻译文件会直接替换存储库的原始文件，在执行下载命令前，请确保原始翻译文件已提交并上传到 Crowdin。
 - 下载并提交系列命令只会提交已下载的翻译文件到本地存储库，可手动将其推送到远程仓库或撤销更改。
-- 翻译 NVDA 插件系列命令主要供 GitHUB Actions 工作流使用，文档仅作为备注，不对这些命令的使用方法做过多介绍。
+- 翻译 NVDA 插件系列命令使用前需要在本地克隆 [CrowdinRegistration 存储库](https://github.com/nvdaaddons/CrowdinRegistration)并安装 [uv](https://github.com/astral-sh/uv#installation)，如已配置 NVDA Python 运行环境，则无需再次手动安装 uv。
+- `MXX` 命令使用前需要将指定插件的 `readme.md` 文档复制到 `Preview\Markdown` 文件夹下，随后通过该命令即可以 CrowdinRegistration 本地代码仓库当前分支的相应插件文档的 xliff 文件为模板生成所需 readme.xliff 文件。
+
+  生成的文件会直接替换存储库的原始 xliff 文件以便于将其上传到 Crowdin，因此在执行该命令前，请确保原始文件的翻译更改已提交到存储库。
+
+  由于该命令生成的 xliff 文件与从 Crowdin 获取文件的缩进不同，因此请勿将使用该命令生成的文件直接提交到本存储库，可先在本地上传该文件到 Crowdin，随后再从 Crowdin 下载该文件并提交。
 
 ## 其他注意事项
 
