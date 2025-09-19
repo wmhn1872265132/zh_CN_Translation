@@ -31,10 +31,20 @@ set "CLI=%CLIPart1%%CLIPart2%"
 echo %%CLI%% is set to %CLI%, start executing the command.
 goto goto
 
-Rem 打印可用命令  
+Rem 打印欢迎语  
 :Echo
 cls
-echo 欢迎使用 L10nUtilTools，请输入要执行的操作，按回车键确认。  
+echo 欢迎使用 L10nUtilTools，请输入要执行的命令，按回车键确认。  
+echo 如需查看可用命令，请输入 help 并按回车键。  
+
+Rem 等待用户输入  
+set /p CLI=
+goto goto
+
+Rem 打印可用命令  
+:help
+cls
+echo 此工具目前支持下列命令：  
 echo GEC：生成更新日志的 html 文件；  
 echo GEU：生成用户指南的 html 文件；  
 echo GEK：生成热键快速参考的 html 文件；  
@@ -48,6 +58,8 @@ echo MHU：从先前创建的 Markdown 文档生成用户指南的 html 文件�
 echo MXC：从先前创建的 Markdown 文档生成更新日志的 xliff 文件；  
 echo MXU：从先前创建的 Markdown 文档生成用户指南的 xliff 文件；  
 echo UDL：从给定的 nvda.pot 更新 nvda.po 的翻译字符串；  
+echo 按任意键继续查看...  
+Pause>Nul
 echo UPC：上传已翻译的 changes.xliff 文件到 Crowdin；  
 echo UPU：上传已翻译的 userGuide.xliff 文件到 Crowdin；  
 echo UPL：上传已翻译的 nvda.po 文件到 Crowdin；  
@@ -60,12 +72,22 @@ echo DCC：从 Crowdin 下载已翻译的 changes.xliff 文件并将其提交到
 echo DCU：从 Crowdin 下载已翻译的 userGuide.xliff 文件并将其提交到存储库；  
 echo DCL：从 Crowdin 下载已翻译的 nvda.po 文件并将其提交到存储库；  
 echo DCA：从 Crowdin 下载所有已翻译的文件并将其提交到存储库；  
+echo 按任意键继续查看...  
+Pause>Nul
+echo GMX：使用指定插件的 readme.xliff 生成 Markdown 文件；  
+echo MXX：使用指定插件的 readme.md 文档生成可上传的 XLIFF 文件；  
+echo UAP：上传指定插件的界面翻译到 Crowdin；  
+echo UAX：上传指定插件的文档翻译到 Crowdin；  
+echo DAP：从 Crowdin 下载指定插件的界面翻译；  
+echo DAX：从 Crowdin 下载指定插件的文档翻译；  
 echo CLE：清理上述命令生成的所有文件；  
 echo 其他命令：退出本工具。  
 echo 上述选项还可通过命令行直接传入。  
-
-Rem 等待用户输入  
-set /p CLI=
+echo 有关这些命令的更多信息，请阅读 README.md 中的《L10nUtilTools.bat 的使用说明》章节。  
+choice /M "如需返回输入命令界面请按 1，退出此工具请按 0。" /c 10 /N
+set Select=%errorlevel%
+if /I "%Select%" == "1" (goto echo)
+exit /b 0
 
 Rem 初始化变量，跳转到用户输入的命令或退出  
 :goto
