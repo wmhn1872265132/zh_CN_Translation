@@ -391,7 +391,7 @@ if /I "%Type%"=="Docs" (
 set ExitCode=%errorlevel%
 goto Quit
 
-Rem 处理针对插件翻译的标签，初始化变量  
+Rem 处理针对插件翻译的标签，初始化变量及运行环境  
 :GMX
 :MXX
 :UAP
@@ -413,6 +413,11 @@ IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
   goto SetPersonalSourcePath
 )
 :CrowdinRegistrationPathSetSuccessfully
+IF NOT EXIST "%CrowdinRegistrationSourcePath%\miscDeps" (
+  MKDir "%CrowdinRegistrationSourcePath%\miscDeps\tools"
+  echo *>"%CrowdinRegistrationSourcePath%\miscDeps\.gitignore"
+  MKLINK /H "%CrowdinRegistrationSourcePath%\miscDeps\tools\msgfmt.exe" "%~dp0Tools\msgfmt.exe"
+)
 set L10nUtil=uv --directory "%CrowdinRegistrationSourcePath%" run "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
 if NOT "%GITHUB_ACTIONS%" == "true" (
   uv --directory "%CrowdinRegistrationSourcePath%" sync

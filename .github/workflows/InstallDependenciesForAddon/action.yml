@@ -12,12 +12,6 @@ runs:
         ref: main
         path: ${{ github.workspace }}/Tools/CrowdinRegistration
         sparse-checkout: utils
-    - name: Checkout miscDeps
-      uses: actions/checkout@v5
-      with:
-        repository: nvaccess/nvda-misc-deps
-        path: ${{ github.workspace }}/Tools/CrowdinRegistration/miscDeps
-        sparse-checkout: tools
     - name: Install uv
       uses: astral-sh/setup-uv@v6
     - name: Prepare Python Dependencies
