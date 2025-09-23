@@ -10,7 +10,7 @@ on:
 jobs:
   Pull-Request-To-NVDA:
     name: Pull Request to NVDA
-    if: github.repository == 'nvdacn/zh_CN_Translation'
+    if: ${{ vars.Run_NVDA_Translations_Workflow }}
     runs-on: ubuntu-latest
     env:
       BaseOwner: nvaccess
