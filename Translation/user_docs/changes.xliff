@@ -5753,7 +5753,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>2026.1</source>
         <target>2026.1</target>
       </segment>
@@ -5763,9 +5763,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 6</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Important notes</source>
-        <target>Important notes</target>
+        <target>重要提示</target>
       </segment>
     </unit>
     <unit id="e8df108e-31c6-4cff-84af-5ed4aac569ed">
@@ -5773,9 +5773,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 8</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>This release breaks compatibility with existing add-ons.</source>
-        <target>This release breaks compatibility with existing add-ons.</target>
+        <target>这是一个打破插件 API 兼容性的版本。</target>
       </segment>
     </unit>
     <unit id="a62ffec9-ce30-4f96-92de-a2d58a4102cb">
@@ -5783,18 +5783,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 9</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Windows 8.1 is no longer supported.</source>
-        <target>Windows 8.1 is no longer supported.</target>
+        <target>Windows 8.1 不再受支持。</target>
       </segment>
     </unit>
     <unit id="d5dc56cd-5a6e-4fdc-a1df-214d66de772e">
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Windows 10 is the minimum Windows version supported.</source>
-        <target>Windows 10 is the minimum Windows version supported.</target>
+        <target>Windows 10 是支持的最低 Windows 版本。</target>
       </segment>
     </unit>
     <unit id="325ea1ac-9067-41f4-bc68-33fb78dbb97c">
@@ -5821,9 +5821,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>New Features</source>
-        <target>New Features</target>
+        <target>新特性</target>
       </segment>
     </unit>
     <unit id="674e1a6d-57ff-43b5-8d7d-cbf6af1a5550">
@@ -5880,9 +5880,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes</source>
-        <target>Changes</target>
+        <target>改进</target>
       </segment>
     </unit>
     <unit id="0a312766-3e83-4861-ad64-fd45ef717ca5">
@@ -5988,9 +5988,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Bug Fixes</source>
-        <target>Bug Fixes</target>
+        <target>错误修复</target>
       </segment>
     </unit>
     <unit id="4b44a032-6b74-431b-9881-f30627ffe230">
@@ -6058,18 +6058,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 44</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Changes for Developers</source>
-        <target>Changes for Developers</target>
+        <target>开发者需要了解的变化</target>
       </segment>
     </unit>
     <unit id="45e63999-8cda-490f-baf2-3095f90a5b5e">
       <notes>
         <note appliesTo="source">line: 46</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Please refer to [the developer guide](https://download.nvaccess.org/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</source>
-        <target>Please refer to [the developer guide](https://download.nvaccess.org/documentation/developerGuide.html#API) for information on NVDA's API deprecation and removal process.</target>
+        <target>有关 NVDA 的 API 弃用和删除流程的信息，请参阅[开发者指南](https://download.nvaccess.org/documentation/developerGuide.html#API)。</target>
       </segment>
     </unit>
     <unit id="9ff85b5a-15bc-4aea-b9eb-bb96cc9c80f5">
@@ -6077,18 +6077,18 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 48</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note: this is an Add-on API compatibility breaking release.</source>
-        <target>Note: this is an Add-on API compatibility breaking release.</target>
+        <target>注意：此版本会影响插件的 API 兼容性。</target>
       </segment>
     </unit>
     <unit id="0ecba401-0581-4fcd-8378-7aa0af51751d">
       <notes>
         <note appliesTo="source">line: 49</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Add-ons will need to be re-tested and have their manifest updated.</source>
-        <target>Add-ons will need to be re-tested and have their manifest updated.</target>
+        <target>需要重新测试插件并更新其清单文件。</target>
       </segment>
     </unit>
     <unit id="4b166566-0d39-4bb5-93ce-fb811061abb3">
@@ -6155,27 +6155,27 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>API Breaking Changes</source>
-        <target>API Breaking Changes</target>
+        <target>API 重大变更</target>
       </segment>
     </unit>
     <unit id="7323a887-abec-495e-a2f3-c2f9e85028b1">
       <notes>
         <note appliesTo="source">line: 59</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>These are breaking API changes.</source>
-        <target>These are breaking API changes.</target>
+        <target>以下是一些会破坏现有插件兼容性的 API 改动。</target>
       </segment>
     </unit>
     <unit id="ee56e16b-1d34-4d91-bb7c-b0efe45e65db">
       <notes>
         <note appliesTo="source">line: 60</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Please open a GitHub issue if your add-on has an issue with updating to the new API.</source>
-        <target>Please open a GitHub issue if your add-on has an issue with updating to the new API.</target>
+        <target>如果您的插件在更新到新 API 后出现问题，请随时在 GitHub 上提交 issue 报告。</target>
       </segment>
     </unit>
     <unit id="1df29a2f-7345-4ede-bb87-16409f495225">
@@ -6183,9 +6183,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 62</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>NVDA is now built with Python 3.13. (#18591)</source>
-        <target>NVDA is now built with Python 3.13. (#18591)</target>
+        <target>NVDA 现在使用 Python 3.13 进行构建。(#18591)</target>
       </segment>
     </unit>
     <unit id="b5739562-1de4-4085-ac7c-05e20074d59a">
@@ -6358,9 +6358,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 81</note>
         <note appliesTo="source">prefix: #### </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Deprecations</source>
-        <target>Deprecations</target>
+        <target>弃用</target>
       </segment>
     </unit>
     <unit id="df486e37-71b0-445f-a9e9-0c187641ffaa">
