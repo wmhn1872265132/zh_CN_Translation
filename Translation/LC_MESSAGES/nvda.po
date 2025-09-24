@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-23 06:27+0000\n"
+"POT-Creation-Date: 2025-09-24 01:16+0000\n"
 "PO-Revision-Date: 2025-09-14 10:59+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -2100,8 +2100,8 @@ msgstr ""
 #. Translators: A title of a message box displayed when the host field is empty and the user tries to generate a key.
 #. Translators: Title of error dialog
 #. Translators: Title of a dialog
-#: core.py:120 documentationUtils.py:74 updateCheck.py:430 updateCheck.py:745
-#: updateCheck.py:917 gui\__init__.py:237 gui\__init__.py:245
+#: core.py:120 documentationUtils.py:74 updateCheck.py:438 updateCheck.py:753
+#: updateCheck.py:925 gui\__init__.py:237 gui\__init__.py:245
 #: gui\__init__.py:262 gui\addonGui.py:145 gui\addonGui.py:265
 #: gui\addonGui.py:280 gui\configProfiles.py:182 gui\configProfiles.py:219
 #: gui\configProfiles.py:272 gui\configProfiles.py:284
@@ -7170,18 +7170,18 @@ msgid "Copied: {text}"
 msgstr "已复制 {text}"
 
 #. Translators: The title of the dialog displayed while manually checking for an NVDA update.
-#: updateCheck.py:398
+#: updateCheck.py:406
 msgid "Checking for Update"
 msgstr "正在检查更新"
 
 #. Translators: The progress message displayed while manually checking for an NVDA update.
-#: updateCheck.py:400
+#: updateCheck.py:408
 msgid "Checking for update"
 msgstr "正在检查更新"
 
 #. Translators: A suggestion of what to do when checking for NVDA updates fails and an update mirror is being used.
 #. {url} will be replaced with the mirror URL.
-#: updateCheck.py:409
+#: updateCheck.py:417
 #, python-brace-format
 msgctxt "updateCheck"
 msgid ""
@@ -7191,14 +7191,14 @@ msgid ""
 msgstr "请检查网络连接，并确保更新镜像网址 {url} 有效。"
 
 #. Translators: Presented when fetching add-on data from the store fails and the default metadata URL is being used.
-#: updateCheck.py:416
+#: updateCheck.py:424
 msgctxt "updateCheck"
 msgid "Unable to establish a connection to the NV Access server."
 msgstr "无法连接到 NV Access 服务器。"
 
 #. Translators: A message indicating that an error occurred while checking for an update to NVDA.
 #. tip will be replaced with a context sensitive suggestion of next steps.
-#: updateCheck.py:422
+#: updateCheck.py:430
 #, python-brace-format
 msgctxt "updateCheck"
 msgid ""
@@ -7210,18 +7210,18 @@ msgstr ""
 
 #. Translators: The title of the dialog informing the user about an NVDA update.
 #. Translators: The title of the dialog asking the user to apply an NVDA update.
-#: updateCheck.py:493 updateCheck.py:633
+#: updateCheck.py:501 updateCheck.py:641
 msgid "NVDA Update"
 msgstr "NVDA 更新"
 
 #. Translators: A message indicating that no update to NVDA is available.
-#: updateCheck.py:509
+#: updateCheck.py:517
 msgid "No update available."
 msgstr "无可用更新。"
 
 #. Translators: A message indicating that an update to NVDA has been downloaded and is ready to be
 #. applied.
-#: updateCheck.py:514
+#: updateCheck.py:522
 #, python-brace-format
 msgid ""
 "Update to NVDA version {version} has been downloaded and is ready to be "
@@ -7230,88 +7230,88 @@ msgstr "NVDA 版本 {version} 已下载并准备就绪。"
 
 #. Translators: The label of a button to review add-ons prior to NVDA update.
 #. Translators: The label of a button to launch the add-on compatibility review dialog.
-#: updateCheck.py:539 updateCheck.py:661 gui\installerGui.py:286
+#: updateCheck.py:547 updateCheck.py:669 gui\installerGui.py:286
 msgid "&Review add-ons..."
 msgstr "查看插件(&R)..."
 
 #. Translators: The label of a button to apply a pending NVDA update.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:545
+#: updateCheck.py:553
 #, python-brace-format
 msgid "&Update to NVDA {version}"
 msgstr "更新到 NVDA {version}(&U)"
 
 #. Translators: The label of a button to re-download a pending NVDA update.
-#: updateCheck.py:555
+#: updateCheck.py:563
 msgid "Re-&download update"
 msgstr "重新下载更新(&R)"
 
 #. Translators: A message indicating that an updated version of NVDA is available.
 #. {version} will be replaced with the version; e.g. 2011.3.
-#: updateCheck.py:560
+#: updateCheck.py:568
 #, python-brace-format
 msgid "NVDA version {version} is available."
 msgstr "NVDA 新版本 {version} 可用。"
 
 #. Translators: The label of a button to download an NVDA update.
-#: updateCheck.py:564
+#: updateCheck.py:572
 msgid "&Download update"
 msgstr "下载更新(&D)"
 
 #. Translators: The label of a button to remind the user later about performing some action.
-#: updateCheck.py:569 gui\startupDialogs.py:310
+#: updateCheck.py:577 gui\startupDialogs.py:310
 msgid "Remind me &later"
 msgstr "稍后提醒我(&L)"
 
 #. Translators: The label of a button to close a dialog.
 #. Translators: The close button on an NVDA dialog. This button will dismiss the dialog.
-#: updateCheck.py:578 gui\addonGui.py:378
+#: updateCheck.py:586 gui\addonGui.py:378
 msgid "&Close"
 msgstr "关闭(&C)"
 
 #. Translators: A message indicating that an update to NVDA is ready to be applied.
-#: updateCheck.py:637
+#: updateCheck.py:645
 #, python-brace-format
 msgid "Update to NVDA version {version} is ready to be applied.\n"
 msgstr "NVDA 版本 {version} 已准备就绪。\n"
 
 #. Translators: The label of a button to update NVDA.
-#: updateCheck.py:664
+#: updateCheck.py:672
 msgid "&Update now"
 msgstr "立即更新(&U)"
 
 #. Translators: The label of a button to postpone an NVDA update.
-#: updateCheck.py:677
+#: updateCheck.py:685
 msgid "&Postpone update"
 msgstr "推迟更新(&D)"
 
 #. Translators: The message when a downloaded update file could not be preserved.
-#: updateCheck.py:743
+#: updateCheck.py:751
 msgid "Unable to postpone update."
 msgstr "无法推迟更新."
 
 #. Translators: The title of the dialog displayed while downloading an NVDA update.
-#: updateCheck.py:802
+#: updateCheck.py:810
 msgid "Downloading Update"
 msgstr "正在下载更新"
 
 #. Translators: The progress message indicating that a connection is being established.
-#: updateCheck.py:804
+#: updateCheck.py:812
 msgid "Connecting"
 msgstr "正在连接"
 
 #. Translators: The progress message indicating that a download is in progress.
-#: updateCheck.py:897
+#: updateCheck.py:905
 msgid "Downloading"
 msgstr "正在下载"
 
 #. Translators: A message indicating that an error occurred while downloading an update to NVDA.
-#: updateCheck.py:916
+#: updateCheck.py:924
 msgid "Error downloading update."
 msgstr "下载更新时出错。"
 
 #. Translators: The message requesting donations from users.
-#: updateCheck.py:939
+#: updateCheck.py:947
 msgid ""
 "We need your help in order to continue to improve NVDA.\n"
 "This project relies primarily on donations and grants. By donating, you are "
@@ -7329,32 +7329,32 @@ msgstr ""
 "感谢您对我们的支持。"
 
 #. Translators: The title of the dialog requesting donations from users.
-#: updateCheck.py:948
+#: updateCheck.py:956
 msgid "Please Donate"
 msgstr "请捐赠"
 
 #. Translators: The label of the button to donate
 #. in the "Please Donate" dialog.
 #. Translators: The label for the menu item to open donate page.
-#: updateCheck.py:957 gui\__init__.py:716
+#: updateCheck.py:965 gui\__init__.py:716
 msgid "&Donate"
 msgstr "立即捐赠(&D)"
 
 #. Translators: The label of the button to decline donation
 #. in the "Please Donate" dialog.
-#: updateCheck.py:962
+#: updateCheck.py:970
 msgid "&Not now"
 msgstr "暂不捐赠(&N)"
 
 #. Translators: The label of a button to indicate that the user is finished donating
 #. in the "Please Donate" dialog.
-#: updateCheck.py:978
+#: updateCheck.py:986
 msgid "&Done"
 msgstr "捐赠完毕(&D)"
 
 #. Translators: Message shown to users when attempting to update NVDA
 #. on a computer which is being remotely controlled via NVDA Remote Access
-#: updateCheck.py:1007 gui\installerGui.py:452
+#: updateCheck.py:1015 gui\installerGui.py:452
 msgid ""
 "Updating NVDA when connected to NVDA Remote Access as the controlled "
 "computer is not recommended. "
@@ -7362,7 +7362,7 @@ msgstr "不建议在作为被控计算机连接到 NVDA 远程访问时更新 NV
 
 #. Translators: Message shown to users when attempting to update NVDA from an installed copy
 #. on a computer which is being remotely controlled via NVDA Remote Access.
-#: updateCheck.py:1012
+#: updateCheck.py:1020
 msgid ""
 "The currently active connection may not be continued during or after the "
 "update. Even if the connection is continued, you will be unable to respond "
@@ -7384,7 +7384,7 @@ msgstr ""
 #. copy settings for use in secure screens.
 #. Translators: Title of the warning message.
 #. Translators: Title of warning dialog
-#: updateCheck.py:1018 gui\_SetURLDialog.py:113 gui\configProfiles.py:500
+#: updateCheck.py:1026 gui\_SetURLDialog.py:113 gui\configProfiles.py:500
 #: gui\installerGui.py:344 gui\installerGui.py:469 gui\settingsDialogs.py:1040
 #: gui\settingsDialogs.py:1980 visionEnhancementProviders\screenCurtain.py:152
 #: _remoteClient\dialogs.py:291
