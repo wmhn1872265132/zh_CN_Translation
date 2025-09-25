@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-25 03:33+0000\n"
-"PO-Revision-Date: 2025-09-25 10:04+0800\n"
+"PO-Revision-Date: 2025-09-25 12:14+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -15535,7 +15535,7 @@ msgstr "发布日期："
 #: gui\addonStoreGui\controls\details.py:370
 msgctxt "addonStore"
 msgid "VirusTotal scan results:"
-msgstr ""
+msgstr "VirusTotal 扫描结果："
 
 #. Translators: Summary of VirusTotal scan results for the selected add-on.
 #. {malicious} is the number of vendors that detected the add-on as malicious,
@@ -15548,12 +15548,13 @@ msgid ""
 "{malicious} out of {total} malware scanners detected this add-on as "
 "potentially malicious."
 msgstr ""
+"{total} 款恶意软件扫描程序中的 {malicious} 款将此插件标记为潜在恶意软件。"
 
 #. Translators: Label for an extra detail field for the selected add-on. In the add-on store dialog.
 #: gui\addonStoreGui\controls\details.py:385
 msgctxt "addonStore"
 msgid "VirusTotal scan URL:"
-msgstr ""
+msgstr "VirusTotal 扫描网址："
 
 #. Translators: A button in the addon installation warning / blocked dialog which shows
 #. more information about the addon
@@ -16099,7 +16100,7 @@ msgstr "社区评论（英文网页）(&V)"
 #: gui\addonStoreGui\viewModels\store.py:266
 msgctxt "addonStore"
 msgid "VirusTotal scan results"
-msgstr ""
+msgstr "VirusTotal 扫描结果"
 
 #. Translators: Label for an action that shows changelog for the selected addon
 #: gui\addonStoreGui\viewModels\store.py:273
