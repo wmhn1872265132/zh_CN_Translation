@@ -7087,7 +7087,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Remote Access now returns control to the local computer if it locks while controlling the remote computer. (#18951)</source>
-        <target>修复了在控制远程计算机时，若本地计算机锁定，控制权无法返回的错误。(#18951)</target>
+        <target>修复了使用远程访问控制远程计算机时，若本地计算机锁定，控制权无法返回的错误。(#18951)</target>
       </segment>
     </unit>
     <unit id="3ed4cdd2-f214-47d5-9579-85301a16852c">
