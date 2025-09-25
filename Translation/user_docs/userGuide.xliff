@@ -5994,9 +5994,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Note that Windows 10 versions older than 22H2 and Windows Server versions older than 2022 are no longer under active support by NV Access.</source>
-        <target>Note that Windows 10 versions older than 22H2 and Windows Server versions older than 2022 are no longer under active support by NV Access.</target>
+        <target>请注意，低于版本 22H2 的 Windows 10 和低于 2022 的 Windows Server 不再受 NV Access 的主动支持。</target>
       </segment>
     </unit>
     <unit id="e24c9ba8-0668-4378-82a9-3a170ed73b7f">
@@ -23548,27 +23548,27 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ##### </note>
         <note appliesTo="source">suffix:  {#ReportMultiSelect}</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>Report when lists support multiple selection</source>
-        <target>Report when lists support multiple selection</target>
+        <target>读出列表的可多选状态</target>
       </segment>
     </unit>
     <unit id="08f204ee-0378-40a0-b091-7753f757ed47">
       <notes>
         <note appliesTo="source">line: 2833</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>When this option is enabled, NVDA will report when a list box supports selecting multiple items.</source>
-        <target>When this option is enabled, NVDA will report when a list box supports selecting multiple items.</target>
+        <target>启用此选项后，当列表框支持选中多个项目时，NVDA 将给出提示。</target>
       </segment>
     </unit>
     <unit id="aba743e9-539a-4778-8acd-13fa6d73be77">
       <notes>
         <note appliesTo="source">line: 2834</note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>As it is usually possible to infer multiple selection support from the context of a list box, this option is disabled by default.</source>
-        <target>As it is usually possible to infer multiple selection support from the context of a list box, this option is disabled by default.</target>
+        <target>由于通常可以从列表框的上下文推断其是否支持多选，因此默认禁用此选项。</target>
       </segment>
     </unit>
     <unit id="9516f4a2-a0f3-462b-aa6e-d277f555aaa2">
