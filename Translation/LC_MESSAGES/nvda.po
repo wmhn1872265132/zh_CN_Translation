@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-25 03:33+0000\n"
+"POT-Creation-Date: 2025-09-25 06:27+0000\n"
 "PO-Revision-Date: 2025-09-25 12:14+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -16103,13 +16103,13 @@ msgid "VirusTotal scan results"
 msgstr "VirusTotal 扫描结果"
 
 #. Translators: Label for an action that shows changelog for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:273
+#: gui\addonStoreGui\viewModels\store.py:274
 msgctxt "addonStore"
 msgid "&What's new"
 msgstr "更新日志(&W)"
 
 #. Translators: Title for a message showing changes for the current add-on version.
-#: gui\addonStoreGui\viewModels\store.py:281
+#: gui\addonStoreGui\viewModels\store.py:282
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Changes for {curVersion}"
@@ -16117,7 +16117,7 @@ msgstr "{curVersion} 版本更新日志"
 
 #. Translators: The message displayed when the add-on cannot be enabled.
 #. {addon} is replaced with the add-on name.
-#: gui\addonStoreGui\viewModels\store.py:377
+#: gui\addonStoreGui\viewModels\store.py:378
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Could not enable the add-on: {addon}."
@@ -16125,7 +16125,7 @@ msgstr "无法启用插件：{addon}"
 
 #. Translators: The message displayed when the add-on cannot be disabled.
 #. {addon} is replaced with the add-on name.
-#: gui\addonStoreGui\viewModels\store.py:384
+#: gui\addonStoreGui\viewModels\store.py:385
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Could not disable the add-on: {addon}."
