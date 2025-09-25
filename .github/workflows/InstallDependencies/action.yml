@@ -52,9 +52,9 @@ runs:
         }
         $firstLine = $lines[0].Trim()
         Write-Host "Using Python version line: $firstLine"
-        if ($firstLine -match 'cpython-(\d+\.\d+(\.\d+)?)-windows-(x86|x86_64)') {
+        if ($firstLine -match 'cpython-([\d\.]+)-windows-(x86|x86_64)') {
           $version = $matches[1]
-          $arch = $matches[4]
+          $arch = $matches[2]
           if ($arch -eq "x86_64") {
             $architecture = "x64"
           } else {
