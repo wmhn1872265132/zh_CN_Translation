@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-24 01:16+0000\n"
+"POT-Creation-Date: 2025-09-25 01:34+0000\n"
 "PO-Revision-Date: 2025-09-14 10:59+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -4893,7 +4893,7 @@ msgid "Could not enable screen curtain"
 msgstr "无法开启黑屏"
 
 #. Translators: Warning message when trying to enable the screen curtain when OCR is active.
-#: globalCommands.py:4900 visionEnhancementProviders\screenCurtain.py:287
+#: globalCommands.py:4900 visionEnhancementProviders\screenCurtain.py:234
 msgid "Could not enable screen curtain when performing content recognition"
 msgstr "识别期间无法开启黑屏"
 
@@ -7386,7 +7386,7 @@ msgstr ""
 #. Translators: Title of warning dialog
 #: updateCheck.py:1026 gui\_SetURLDialog.py:113 gui\configProfiles.py:500
 #: gui\installerGui.py:344 gui\installerGui.py:469 gui\settingsDialogs.py:1040
-#: gui\settingsDialogs.py:1980 visionEnhancementProviders\screenCurtain.py:152
+#: gui\settingsDialogs.py:1980 visionEnhancementProviders\screenCurtain.py:99
 #: _remoteClient\dialogs.py:291
 msgid "Warning"
 msgstr "警告"
@@ -12305,7 +12305,7 @@ msgstr "关于插件(&A)..."
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. agree to enabling the curtain.
 #: gui\addonGui.py:73 gui\message.py:328 gui\startupDialogs.py:302
-#: visionEnhancementProviders\screenCurtain.py:176
+#: visionEnhancementProviders\screenCurtain.py:123
 msgid "&Yes"
 msgstr "是(&Y)"
 
@@ -12316,7 +12316,7 @@ msgstr "是(&Y)"
 #. Translators: A button in the screen curtain warning dialog which allows the user to
 #. disagree to enabling the curtain.
 #: gui\addonGui.py:83 gui\message.py:330 gui\startupDialogs.py:306
-#: visionEnhancementProviders\screenCurtain.py:185
+#: visionEnhancementProviders\screenCurtain.py:132
 msgid "&No"
 msgstr "否(&N)"
 
@@ -14989,7 +14989,7 @@ msgstr "启用"
 #. Translators: The label for a group box containing the NVDA highlighter options.
 #: gui\settingsDialogs.py:5462
 #: visionEnhancementProviders\NVDAHighlighter.py:309
-#: visionEnhancementProviders\screenCurtain.py:251
+#: visionEnhancementProviders\screenCurtain.py:198
 msgid "Options:"
 msgstr "选项："
 
@@ -15533,33 +15533,33 @@ msgstr "发布日期："
 
 #. Translators: A button in the addon installation warning / blocked dialog which shows
 #. more information about the addon
-#: gui\addonStoreGui\controls\messageDialogs.py:70
+#: gui\addonStoreGui\controls\messageDialogs.py:69
 msgctxt "addonStore"
 msgid "&About add-on..."
 msgstr "关于插件(&A)..."
 
 #. Translators: A button in the addon installation blocked dialog which will confirm the available action.
-#: gui\addonStoreGui\controls\messageDialogs.py:78
+#: gui\addonStoreGui\controls\messageDialogs.py:77
 msgctxt "addonStore"
 msgid "&Yes"
 msgstr "是(&Y)"
 
 #. Translators: A button in the addon installation blocked dialog which will dismiss the dialog.
-#: gui\addonStoreGui\controls\messageDialogs.py:86
+#: gui\addonStoreGui\controls\messageDialogs.py:85
 msgctxt "addonStore"
 msgid "&No"
 msgstr "否(&N)"
 
 #. Translators: A checkbox in the dialog to remember the choice made when installing or enabling
 #. incompatible add-ons, or when removing add-ons.
-#: gui\addonStoreGui\controls\messageDialogs.py:97
+#: gui\addonStoreGui\controls\messageDialogs.py:96
 msgctxt "addonStore"
 msgid "Remember this choice for subsequent add-ons"
 msgstr "记住此选择"
 
 #. Translators: The message displayed when updating an add-on, but the installed version
 #. identifier can not be compared with the version to be installed.
-#: gui\addonStoreGui\controls\messageDialogs.py:118
+#: gui\addonStoreGui\controls\messageDialogs.py:117
 #, python-brace-format
 msgctxt "addonStore"
 msgid ""
@@ -15573,15 +15573,15 @@ msgstr ""
 "您仍要安装该插件吗？"
 
 #. Translators: The title of a dialog presented when an error occurs.
-#: gui\addonStoreGui\controls\messageDialogs.py:133
-#: gui\addonStoreGui\controls\messageDialogs.py:189
+#: gui\addonStoreGui\controls\messageDialogs.py:132
+#: gui\addonStoreGui\controls\messageDialogs.py:188
 msgctxt "addonStore"
 msgid "Install add-on"
 msgstr "安装插件"
 
 #. Translators: Presented when attempting to remove the selected add-on.
 #. {addon} is replaced with the add-on name.
-#: gui\addonStoreGui\controls\messageDialogs.py:151
+#: gui\addonStoreGui\controls\messageDialogs.py:150
 #, python-brace-format
 msgctxt "addonStore"
 msgid ""
@@ -15590,14 +15590,14 @@ msgid ""
 msgstr "您确认要从 NVDA 中移除 {addon} 插件吗？ 确认后不可撤销。"
 
 #. Translators: Title for message asking if the user really wishes to remove the selected Add-on.
-#: gui\addonStoreGui\controls\messageDialogs.py:156
+#: gui\addonStoreGui\controls\messageDialogs.py:155
 msgctxt "addonStore"
 msgid "Remove add-on"
 msgstr "移除插件"
 
 #. Translators: The message displayed when installing an add-on package that is incompatible
 #. because the add-on is too old for the running version of NVDA.
-#: gui\addonStoreGui\controls\messageDialogs.py:174
+#: gui\addonStoreGui\controls\messageDialogs.py:173
 #, python-brace-format
 msgctxt "addonStore"
 msgid ""
@@ -15614,7 +15614,7 @@ msgstr ""
 
 #. Translators: The message displayed when enabling an add-on package that is incompatible
 #. because the add-on is too old for the running version of NVDA.
-#: gui\addonStoreGui\controls\messageDialogs.py:207
+#: gui\addonStoreGui\controls\messageDialogs.py:206
 #, python-brace-format
 msgctxt "addonStore"
 msgid ""
@@ -15630,14 +15630,14 @@ msgstr ""
 "启用该插件可能会导致 NVDA 不稳定或无法正常运行。是否仍要启用？"
 
 #. Translators: The title of a dialog presented when an error occurs.
-#: gui\addonStoreGui\controls\messageDialogs.py:222
+#: gui\addonStoreGui\controls\messageDialogs.py:221
 msgctxt "addonStore"
 msgid "Enable add-on"
 msgstr "启用插件"
 
 #. Translators: The message displayed when installing an add-on package is prohibited,
 #. because it requires a later version of NVDA than is currently installed.
-#: gui\addonStoreGui\controls\messageDialogs.py:238
+#: gui\addonStoreGui\controls\messageDialogs.py:237
 #, python-brace-format
 msgid ""
 "Installation of {summary} {version} has been blocked. The minimum NVDA "
@@ -15648,13 +15648,13 @@ msgstr ""
 "{minimumNVDAVersion}，您当前的 NVDA 版本为 {NVDAVersion}"
 
 #. Translators: The title of a dialog presented when an error occurs.
-#: gui\addonStoreGui\controls\messageDialogs.py:250
+#: gui\addonStoreGui\controls\messageDialogs.py:249
 msgctxt "addonStore"
 msgid "Add-on installation failure"
 msgstr "插件安装失败"
 
 #. Translators: A message asking the user if they really wish to install an addon.
-#: gui\addonStoreGui\controls\messageDialogs.py:263
+#: gui\addonStoreGui\controls\messageDialogs.py:262
 #, python-brace-format
 msgid ""
 "Are you sure you want to install this add-on?\n"
@@ -15666,13 +15666,13 @@ msgstr ""
 "插件: {summary} {version}"
 
 #. Translators: Title for message asking if the user really wishes to install an Addon.
-#: gui\addonStoreGui\controls\messageDialogs.py:275
+#: gui\addonStoreGui\controls\messageDialogs.py:274
 msgctxt "addonStore"
 msgid "Add-on Installation"
 msgstr "插件安装"
 
 #. Translators: message shown in the Addon Information dialog.
-#: gui\addonStoreGui\controls\messageDialogs.py:287
+#: gui\addonStoreGui\controls\messageDialogs.py:286
 #, python-brace-format
 msgctxt "addonStore"
 msgid ""
@@ -15685,52 +15685,52 @@ msgstr ""
 "描述：{description}\n"
 
 #. Translators: the publisher part of the About Add-on information
-#: gui\addonStoreGui\controls\messageDialogs.py:297
+#: gui\addonStoreGui\controls\messageDialogs.py:296
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Publisher: {publisher}\n"
 msgstr "发布者：{publisher}\n"
 
 #. Translators: the author part of the About Add-on information
-#: gui\addonStoreGui\controls\messageDialogs.py:300
+#: gui\addonStoreGui\controls\messageDialogs.py:299
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Author: {author}\n"
 msgstr "作者：{author}\n"
 
 #. Translators: the url part of the About Add-on information
-#: gui\addonStoreGui\controls\messageDialogs.py:303
+#: gui\addonStoreGui\controls\messageDialogs.py:302
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Homepage: {url}\n"
 msgstr "主页：{url}\n"
 
 #. Translators: the minimum NVDA version part of the About Add-on information
-#: gui\addonStoreGui\controls\messageDialogs.py:307
+#: gui\addonStoreGui\controls\messageDialogs.py:306
 msgctxt "addonStore"
 msgid "Minimum required NVDA version: {}\n"
 msgstr "NVDA 版本最低要求：{}\n"
 
 #. Translators: the last NVDA version tested part of the About Add-on information
-#: gui\addonStoreGui\controls\messageDialogs.py:312
+#: gui\addonStoreGui\controls\messageDialogs.py:311
 msgctxt "addonStore"
 msgid "Last NVDA version tested: {}\n"
 msgstr "最后测试的 NVDA 版本：{}\n"
 
 #. Translators: title for the Addon Information dialog
-#: gui\addonStoreGui\controls\messageDialogs.py:315
+#: gui\addonStoreGui\controls\messageDialogs.py:314
 msgctxt "addonStore"
 msgid "Add-on Information"
 msgstr "插件信息"
 
 #. Translators: The warning of a dialog
-#: gui\addonStoreGui\controls\messageDialogs.py:329
+#: gui\addonStoreGui\controls\messageDialogs.py:328
 msgctxt "addonStore"
 msgid "Add-on Store Warning"
 msgstr "插件商店警告"
 
 #. Translators: Warning that is displayed before using the Add-on Store.
-#: gui\addonStoreGui\controls\messageDialogs.py:336
+#: gui\addonStoreGui\controls\messageDialogs.py:335
 msgctxt "addonStore"
 msgid ""
 "Add-ons are created by the NVDA community and are not vetted by NV Access. "
@@ -15742,104 +15742,57 @@ msgstr ""
 "能不受限制，可以访问您的个人信息乃至整个系统。"
 
 #. Translators: The label of a checkbox in the add-on store warning dialog
-#: gui\addonStoreGui\controls\messageDialogs.py:358
+#: gui\addonStoreGui\controls\messageDialogs.py:357
 msgctxt "addonStore"
 msgid "&Don't show this message again"
 msgstr "不再显示此消息(&D)"
 
 #. Translators: The label of a button in a dialog
-#: gui\addonStoreGui\controls\messageDialogs.py:366
+#: gui\addonStoreGui\controls\messageDialogs.py:365
 msgctxt "addonStore"
 msgid "&OK"
 msgstr "确定(&O)"
 
 #. Translators: The warning of a dialog
-#: gui\addonStoreGui\controls\messageDialogs.py:390
+#: gui\addonStoreGui\controls\messageDialogs.py:389
 msgctxt "addonStore"
 msgid "Add-on updates available"
 msgstr "插件更新可用"
 
 #. Translators: Message displayed when updates are available for some installed add-ons.
-#: gui\addonStoreGui\controls\messageDialogs.py:418
+#: gui\addonStoreGui\controls\messageDialogs.py:417
 msgctxt "addonStore"
 msgid "Updates are available for some of your installed add-ons. "
 msgstr "您安装的某些插件可更新。"
 
 #. Translators: The label of a button in a dialog
-#: gui\addonStoreGui\controls\messageDialogs.py:431
+#: gui\addonStoreGui\controls\messageDialogs.py:430
 msgctxt "addonStore"
 msgid "Open Add-on &Store"
 msgstr "打开插件商店(&S)"
 
 #. Translators: The label of a button in a dialog
-#: gui\addonStoreGui\controls\messageDialogs.py:439
+#: gui\addonStoreGui\controls\messageDialogs.py:438
 msgctxt "addonStore"
 msgid "&Update all"
 msgstr "全部更新(&U)"
 
 #. Translators: The label of a button in a dialog
-#: gui\addonStoreGui\controls\messageDialogs.py:444
+#: gui\addonStoreGui\controls\messageDialogs.py:443
 msgctxt "addonStore"
 msgid "&Close"
 msgstr "关闭(&C)"
 
-#. Translators: the label for the addons list in the updatable addons dialog.
-#: gui\addonStoreGui\controls\messageDialogs.py:449
-msgctxt "addonStore"
-msgid "Updatable Add-ons"
-msgstr "可更新的插件"
-
-#. Translators: Label for an extra detail field for an add-on. In the add-on store UX.
-#. Translators: The name of the column that contains names of addons.
-#: gui\addonStoreGui\controls\messageDialogs.py:457
-#: gui\addonStoreGui\viewModels\addonList.py:62
-msgctxt "addonStore"
-msgid "Name"
-msgstr "名称"
-
-#. Translators: Label for an extra detail field for an add-on. In the add-on store UX.
-#. Translators: The name of the column that contains the installed addon's version string.
-#: gui\addonStoreGui\controls\messageDialogs.py:459
-#: gui\addonStoreGui\viewModels\addonList.py:73
-msgctxt "addonStore"
-msgid "Installed version"
-msgstr "已安装版本"
-
-#. Translators: Label for an extra detail field for an add-on. In the add-on store UX.
-#. Translators: The name of the column that contains the available addon's version string.
-#: gui\addonStoreGui\controls\messageDialogs.py:461
-#: gui\addonStoreGui\viewModels\addonList.py:79
-msgctxt "addonStore"
-msgid "Available version"
-msgstr "可用版本"
-
-#. Translators: Label for an extra detail field for an add-on. In the add-on store UX.
-#. Translators: The name of the column that contains the channel of the addon (e.g stable, beta, dev).
-#: gui\addonStoreGui\controls\messageDialogs.py:463
-#: gui\addonStoreGui\viewModels\addonList.py:85
-msgctxt "addonStore"
-msgid "Channel"
-msgstr "通道"
-
-#. Translators: Label for an extra detail field for an add-on. In the add-on store UX.
-#. Translators: The name of the column that contains the status of the addon.
-#. e.g. available, downloading installing
-#: gui\addonStoreGui\controls\messageDialogs.py:465
-#: gui\addonStoreGui\viewModels\addonList.py:68
-msgctxt "addonStore"
-msgid "Status"
-msgstr "状态"
-
 #. Translators: Message shown when updating add-ons in the updatable add-ons dialog
 #. Translators: Message shown when updating add-ons automatically
-#: gui\addonStoreGui\controls\messageDialogs.py:504
-#: gui\addonStoreGui\controls\messageDialogs.py:594
+#: gui\addonStoreGui\controls\messageDialogs.py:485
+#: gui\addonStoreGui\controls\messageDialogs.py:575
 msgctxt "addonStore"
 msgid "Updating add-ons..."
 msgstr "正在更新插件……"
 
 #. Translators: Message shown when updating add-ons automatically
-#: gui\addonStoreGui\controls\messageDialogs.py:632
+#: gui\addonStoreGui\controls\messageDialogs.py:613
 msgctxt "addonStore"
 msgid "Add-ons updated, restart NVDA to activate changes"
 msgstr "插件已更新，请重启 NVDA 使更改生效"
@@ -15938,6 +15891,37 @@ msgctxt "addonStore"
 msgid "Choose Add-on Package File"
 msgstr "选择插件包"
 
+#. Translators: The name of the column that contains names of addons.
+#: gui\addonStoreGui\viewModels\addonList.py:62
+msgctxt "addonStore"
+msgid "Name"
+msgstr "名称"
+
+#. Translators: The name of the column that contains the status of the addon.
+#. e.g. available, downloading installing
+#: gui\addonStoreGui\viewModels\addonList.py:68
+msgctxt "addonStore"
+msgid "Status"
+msgstr "状态"
+
+#. Translators: The name of the column that contains the installed addon's version string.
+#: gui\addonStoreGui\viewModels\addonList.py:73
+msgctxt "addonStore"
+msgid "Installed version"
+msgstr "已安装版本"
+
+#. Translators: The name of the column that contains the available addon's version string.
+#: gui\addonStoreGui\viewModels\addonList.py:79
+msgctxt "addonStore"
+msgid "Available version"
+msgstr "可用版本"
+
+#. Translators: The name of the column that contains the channel of the addon (e.g stable, beta, dev).
+#: gui\addonStoreGui\viewModels\addonList.py:85
+msgctxt "addonStore"
+msgid "Channel"
+msgstr "通道"
+
 #. Translators: The name of the column that contains the addon's publisher.
 #: gui\addonStoreGui\viewModels\addonList.py:90
 msgctxt "addonStore"
@@ -15991,105 +15975,120 @@ msgid "{column} (descending)"
 msgstr "{column}（降序）"
 
 #. Translators: Label for an action that installs the selected addon
-#: gui\addonStoreGui\viewModels\store.py:117
+#: gui\addonStoreGui\viewModels\store.py:119
 msgctxt "addonStore"
 msgid "&Install"
 msgstr "安装(&I)"
 
 #. Translators: Label for an action that installs the selected addon
-#: gui\addonStoreGui\viewModels\store.py:124
+#: gui\addonStoreGui\viewModels\store.py:126
 msgctxt "addonStore"
 msgid "&Install (override incompatibility)"
 msgstr "安装（忽略不兼容）(&I)"
 
 #. Translators: Label for an action that updates the selected addon
-#: gui\addonStoreGui\viewModels\store.py:131
+#: gui\addonStoreGui\viewModels\store.py:133
 msgctxt "addonStore"
 msgid "&Update"
 msgstr "更新(&U)"
 
 #. Translators: Label for an action that installs the selected addon
-#: gui\addonStoreGui\viewModels\store.py:138
+#: gui\addonStoreGui\viewModels\store.py:140
 msgctxt "addonStore"
 msgid "&Update (override incompatibility)"
 msgstr "更新（忽略不兼容）(&U)"
 
 #. Translators: Label for an action that retries the selected addon
-#: gui\addonStoreGui\viewModels\store.py:145
+#: gui\addonStoreGui\viewModels\store.py:147
 msgctxt "addonStore"
 msgid "Re&try install"
 msgstr "重试(&T)"
 
 #. Translators: Label for an action that replaces the selected addon with
 #. an add-on store version.
-#: gui\addonStoreGui\viewModels\store.py:153
+#: gui\addonStoreGui\viewModels\store.py:155
 msgctxt "addonStore"
 msgid "Re&place"
 msgstr "替换(&P)"
 
 #. Translators: Label for an action that cancels the installation of the selected addon
-#: gui\addonStoreGui\viewModels\store.py:160
+#: gui\addonStoreGui\viewModels\store.py:162
 msgctxt "addonStore"
 msgid "Ca&ncel install"
 msgstr "取消安装(&N)"
 
 #. Translators: Label for an action that disables the selected addon
-#: gui\addonStoreGui\viewModels\store.py:167
+#: gui\addonStoreGui\viewModels\store.py:169
 msgctxt "addonStore"
 msgid "&Disable"
 msgstr "禁用(&D)"
 
 #. Translators: Label for an action that enables the selected addon
-#: gui\addonStoreGui\viewModels\store.py:174
+#: gui\addonStoreGui\viewModels\store.py:176
 msgctxt "addonStore"
 msgid "&Enable"
 msgstr "启用(&E)"
 
 #. Translators: Label for an action that enables the selected addon
-#: gui\addonStoreGui\viewModels\store.py:181
+#: gui\addonStoreGui\viewModels\store.py:183
 msgctxt "addonStore"
 msgid "&Enable (override incompatibility)"
 msgstr "启用（忽略不兼容）(&E)"
 
 #. Translators: Label for an action that removes the selected addon
-#: gui\addonStoreGui\viewModels\store.py:188
+#: gui\addonStoreGui\viewModels\store.py:190
 msgctxt "addonStore"
 msgid "&Remove"
 msgstr "移除(&R)"
 
 #. Translators: Label for an action that opens help for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:204
+#: gui\addonStoreGui\viewModels\store.py:206
 msgctxt "addonStore"
 msgid "&Help"
 msgstr "帮助(&H)"
 
 #. Translators: Label for an action that opens the homepage for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:222
+#: gui\addonStoreGui\viewModels\store.py:224
 msgctxt "addonStore"
 msgid "Ho&mepage"
 msgstr "主页(&M)"
 
 #. Translators: Label for an action that opens the license for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:229
+#: gui\addonStoreGui\viewModels\store.py:231
 msgctxt "addonStore"
 msgid "&License"
 msgstr "许可(&L)"
 
 #. Translators: Label for an action that opens the source code for the selected addon
-#: gui\addonStoreGui\viewModels\store.py:243
+#: gui\addonStoreGui\viewModels\store.py:245
 msgctxt "addonStore"
 msgid "Source &Code"
 msgstr "源代码(&C)"
 
 #. Translators: Label for an action that opens the webpage to see and send feedback for the selected add-on
-#: gui\addonStoreGui\viewModels\store.py:250
+#: gui\addonStoreGui\viewModels\store.py:252
 msgctxt "addonStore"
 msgid "Community re&views"
 msgstr "社区评论（英文网页）(&V)"
 
+#. Translators: Label for an action that shows changelog for the selected addon
+#: gui\addonStoreGui\viewModels\store.py:266
+#, fuzzy
+#| msgid "What's new"
+msgctxt "addonStore"
+msgid "&What's new"
+msgstr "更新日志"
+
+#. Translators: Title for a message showing changes for the current add-on version.
+#: gui\addonStoreGui\viewModels\store.py:274
+#, python-brace-format
+msgctxt "addonStore"
+msgid "Changes for {curVersion}"
+msgstr ""
+
 #. Translators: The message displayed when the add-on cannot be enabled.
 #. {addon} is replaced with the add-on name.
-#: gui\addonStoreGui\viewModels\store.py:346
+#: gui\addonStoreGui\viewModels\store.py:370
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Could not enable the add-on: {addon}."
@@ -16097,7 +16096,7 @@ msgstr "无法启用插件：{addon}"
 
 #. Translators: The message displayed when the add-on cannot be disabled.
 #. {addon} is replaced with the add-on name.
-#: gui\addonStoreGui\viewModels\store.py:353
+#: gui\addonStoreGui\viewModels\store.py:377
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Could not disable the add-on: {addon}."
@@ -19192,24 +19191,24 @@ msgstr "启用高亮显示(&E)"
 
 #. Translators: Name for a vision enhancement provider that disables output to the screen,
 #. making it black.
-#: visionEnhancementProviders\screenCurtain.py:97
+#: visionEnhancementProviders\screenCurtain.py:44
 msgid "Screen Curtain"
 msgstr "黑屏"
 
 #. Translators: Description for a Screen Curtain setting that shows a warning when loading
 #. the screen curtain.
-#: visionEnhancementProviders\screenCurtain.py:101
+#: visionEnhancementProviders\screenCurtain.py:48
 msgid "Always &show a warning when loading Screen Curtain"
 msgstr "开启黑屏时始终显示警告(&S)"
 
 #. Translators: Description for a screen curtain setting to play sounds when enabling/disabling the curtain
-#: visionEnhancementProviders\screenCurtain.py:104
+#: visionEnhancementProviders\screenCurtain.py:51
 msgid "&Play sound when toggling Screen Curtain"
 msgstr "开启黑屏时播放声音(&P)"
 
 #. Translators: A warning shown when activating the screen curtain.
 #. the translation of "Screen Curtain" should match the "translated name"
-#: visionEnhancementProviders\screenCurtain.py:137
+#: visionEnhancementProviders\screenCurtain.py:84
 msgid ""
 "Enabling Screen Curtain will make the screen of your computer completely "
 "black. Ensure you will be able to navigate without any use of your screen "
@@ -19222,7 +19221,7 @@ msgstr ""
 "您想继续吗？"
 
 #. Translators: option to enable screen curtain in the vision settings panel
-#: visionEnhancementProviders\screenCurtain.py:239
+#: visionEnhancementProviders\screenCurtain.py:186
 msgid "Make screen black (immediate effect)"
 msgstr "开启黑屏（立即生效）"
 
@@ -19678,6 +19677,10 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgctxt "addonStore"
+#~ msgid "Updatable Add-ons"
+#~ msgstr "可更新的插件"
 
 #~ msgid "Toggles on and off the reporting of spelling errors"
 #~ msgstr "切换读出拼写错误的开关"
