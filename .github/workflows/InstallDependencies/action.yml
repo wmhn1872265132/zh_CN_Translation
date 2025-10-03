@@ -52,5 +52,5 @@ runs:
           cd /d "${{ github.workspace }}\Tools\NVDA"
           git submodule update --init miscDeps
         )
-        echo UV_MANAGED_PYTHON=true >> "%GITHUB_ENV%"
+        echo UV_MANAGED_PYTHON=true>> "%GITHUB_ENV%"
         uv --managed-python --directory "${{ github.workspace }}\Tools\NVDA" sync
