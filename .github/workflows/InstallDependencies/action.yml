@@ -50,7 +50,7 @@ runs:
         $lines = Get-Content "${{ github.workspace }}/Tools/NVDA/.python-versions" | Where-Object {
           $_.Trim() -ne "" -and $_.Trim() -notmatch "^\s*#"
         }
-        $firstLine = $lines[0].Trim()
+        $firstLine = $lines[0]
         Write-Host "Using Python version line: $firstLine"
         if ($firstLine -match 'cpython-([\d\.]+)-windows-(x86|x86_64)') {
           $version = $matches[1]
