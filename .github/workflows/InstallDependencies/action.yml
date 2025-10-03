@@ -43,36 +43,11 @@ runs:
         file-name: gettext.zip
         location: ${{ github.workspace }}/PotXliff/Temp
         sha256: c14d844f4950e14189fe47795700172f019ec2f5430bfa068a7a909ff784f45c
-    - name: Read Python version
-      id: python-version
-      shell: pwsh
-      run: |
-        $lines = Get-Content "${{ github.workspace }}/Tools/NVDA/.python-versions" | Where-Object {
-          $_.Trim() -ne "" -and $_.Trim() -notmatch "^\s*#"
-        }
-        $firstLine = $lines[0]
-        Write-Host "Using Python version line: $firstLine"
-        if ($firstLine -match 'cpython-([\d\.]+)-windows-(x86|x86_64)') {
-          $version = $matches[1]
-          $arch = $matches[2]
-          if ($arch -eq "x86_64") {
-            $architecture = "x64"
-          } else {
-            $architecture = $arch
-          }
-          Write-Host "Parsed Python version: $version"
-          Write-Host "Parsed architecture: $architecture"
-          "python_version=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-          "python_architecture=$architecture" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-        } else {
-          Write-Error "Error: Could not parse Python version and architecture from: $firstLine"
-          exit 1
-        }
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
-        python-version: ${{ steps.python-version.outputs.python_version }}
-        architecture: ${{ steps.python-version.outputs.python_architecture }}
+        python-version: '3.13.7'
+        architecture: x64
     - name: Install uv
       uses: astral-sh/setup-uv@v5
     - name: Create Python virtual environment
