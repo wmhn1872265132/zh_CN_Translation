@@ -64,7 +64,7 @@ jobs:
         id: Determine_branch
         # uses: nvdacn/zh_CN_Translation/.github/actions/DetermineBranch@Uploads
         uses: wmhn1872265132/zh_CN_Translation/.github/actions/DetermineBranch@DetermineBranch
-        - run: echo "${{ steps.Determine_branch.outputs.Branch }}"
+      - run: echo "${{ steps.Determine_branch.outputs.Branch }}"
 
   Update-NVDA-po:
     name: Automatically update NVDA.po
