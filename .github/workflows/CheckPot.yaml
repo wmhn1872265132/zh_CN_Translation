@@ -56,7 +56,6 @@ jobs:
 
   Determine-Branch:
     name: Determine branch
-    if: ${{ vars.Run_CheckPot_Workflow }}
     runs-on: ubuntu-latest
     outputs:
       branch: ${{ steps.Determine_branch.outputs.Branch }}
