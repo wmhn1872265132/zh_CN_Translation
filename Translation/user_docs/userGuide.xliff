@@ -14074,7 +14074,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Microsoft Word provides linear symbol-based navigation through the equations itself and supports inputting math using several syntaxes, including LaTeX.</source>
-        <target>Microsoft Word 提供了基于线性格式的数学公式导航支持，同时支持使用包括 LateX 在内的多种语法输入数学公式。</target>
+        <target>Microsoft Word 提供了基于符号的线性公式导航，并支持使用包括 LaTeX 在内的多种语法输入数学内容。</target>
       </segment>
     </unit>
     <unit id="51afb819-3c62-4e25-8de8-7ef9feda2b95">

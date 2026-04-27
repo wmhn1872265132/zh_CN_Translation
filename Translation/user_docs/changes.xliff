@@ -5996,7 +5996,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>This release includes support for reading math content with MathCAT, which is now built-in to NVDA.</source>
-        <target>此版本包含使用 MathCAT 阅读数学内容的支持，MathCAT 现已内置于 NVDA。</target>
+        <target>此版本内置 MathCAT，支持阅读数学内容。</target>
       </segment>
     </unit>
     <unit id="557a0d6f-5412-4c2f-8fde-77af154e7840">
@@ -6014,7 +6014,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Spelling and grammar errors can now be reported with a sound instead of speech when reading.</source>
-        <target>现可用提示音而非语音提示阅读时的拼写和语法错误。</target>
+        <target>阅读时，拼写和语法错误现在可以改用提示音而不只是语音提示。</target>
       </segment>
     </unit>
     <unit id="a7c77d1e-58ec-40fc-85b3-b992cf789571">
@@ -6023,7 +6023,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>You can now configure NVDA to automatically say all after successfully recognizing content, such as with Windows OCR.</source>
-        <target>您可配置 NVDA 在成功识别内容（例如使用 Windows OCR）后自动读出所有内容。</target>
+        <target>现在可以将 NVDA 配置为在成功识别内容（如使用 Windows OCR）后自动全文朗读识别结果。</target>
       </segment>
     </unit>
     <unit id="66c6028a-b902-4990-a8e4-b8c6c1bacf40">
@@ -6086,7 +6086,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Other braille bug fixes, including in Microsoft Outlook and LibreOffice Writer, have also been added.</source>
-        <target>还修复了其他的一些有关盲文的错误，包括在 Microsoft Outlook 和 LibreOffice Writer 中的问题。</target>
+        <target>还修复了 Microsoft Outlook 和 LibreOffice Writer 等场景中的其他盲文相关问题。</target>
       </segment>
     </unit>
     <unit id="6b0a5a33-752b-4c98-abb7-6cd97803c4a6">
@@ -6104,7 +6104,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>This may make it possible to access previously inaccessible "screen reader only" content on some websites.</source>
-        <target>这或许能访问那些网站上以前无法访问的“仅屏幕阅读器可见”的内容。</target>
+        <target>这可让部分网站中以往无法访问的“仅屏幕阅读器可见”内容变得可访问。</target>
       </segment>
     </unit>
     <unit id="92d96b3c-4716-403b-bc6b-26191f6f0ce6">
@@ -6203,7 +6203,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Additionally, Screen Curtain's settings are now configuration profile independent.</source>
-        <target>此外，黑屏的设置现在不受独立配置影响。</target>
+        <target>此外，黑屏设置不再受控于独立配置。</target>
       </segment>
     </unit>
     <unit id="9bfeb960-887f-45bf-8c35-96fc76a508c5">
@@ -6599,7 +6599,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>Updated Liblouis braille translator to [3.36.0](https://github.com/liblouis/liblouis/releases/tag/v3.36.0). (#18848, #19315, @LeonarddeR)</source>
-        <target>将 LibLouis 盲文翻译器更新到 [3.36.0](https://github.com/liblouis/liblouis/releases/tag/v3.36.0)。(#18848, #19315, @LeonarddeR)</target>
+        <target>将 Liblouis 盲文翻译器更新到 [3.36.0](https://github.com/liblouis/liblouis/releases/tag/v3.36.0)。(#18848, #19315, @LeonarddeR)</target>
       </segment>
     </unit>
     <unit id="2a684b5f-edce-497f-a8d5-8dd0de8af827">
@@ -6648,7 +6648,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>  Also added emoji localizations for Luxembourgish. (#19293, @OzancanKaratas)</source>
-        <target>  同时为卢森堡语添加了表情符号本地化支持。(#19293, @OzancanKaratas)</target>
+        <target>  同时添加了卢森堡语表情符号本地化。(#19293, @OzancanKaratas)</target>
       </segment>
     </unit>
     <unit id="4afbc323-b0e3-4d10-b822-e13c8245a06e">
@@ -6736,7 +6736,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
       </notes>
       <segment state="final">
         <source>The state of the Screen Curtain is no longer dependent on the configuration profile in use. (#10476)</source>
-        <target>黑屏的设置现在不受独立配置影响。(#10476)</target>
+        <target>黑屏状态不再受控于独立配置。(#10476)</target>
       </segment>
     </unit>
     <unit id="349aec2f-5080-4715-b221-6ae282db9fd7">
