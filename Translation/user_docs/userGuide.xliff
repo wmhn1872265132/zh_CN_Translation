@@ -14320,7 +14320,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>When you wish to return to the document, simply press the escape key.</source>
-        <target>当您希望返回到文档时，只需按下 esc 键即可。</target>
+        <target>当您希望返回到文档时，只需按下 `Esc` 即可。</target>
       </segment>
     </unit>
     <unit id="80f459bb-3a2c-467b-a7ec-936e4736bb7e">
@@ -14338,7 +14338,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To activate the button or the element containing the formula, press ctrl+enter.</source>
-        <target>要激活按钮或包含公式的元素，请按 Ctrl+回车。</target>
+        <target>要激活按钮或包含公式的元素，请按 `Ctrl+回车`。</target>
       </segment>
     </unit>
     <unit id="60f7a109-da84-463b-b289-bf2d620057cf">
@@ -14377,7 +14377,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>`home` / `end` moves to the start/end of the expression.</source>
-        <target>`行首`键 / `行尾`键移到表达式开头/结尾。</target>
+        <target>`行首` / `行尾` 可移到表达式开头/结尾。</target>
       </segment>
     </unit>
     <unit id="a28c44d0-1c3c-428b-93fa-142e73708ca8">
@@ -14387,7 +14387,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>`space` reads your current position.</source>
-        <target>`空格`键朗读当前位置。</target>
+        <target>`空格` 可朗读当前位置。</target>
       </segment>
     </unit>
     <unit id="fff2d698-9b30-423d-8ba4-772fbc87451b">
@@ -14397,7 +14397,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>`shift+upArrow` / `shift+downArrow` will change the mode of navigation, which will be discussed in more detail in the following section.</source>
-        <target>`Shift+上光标`键 / `Shift+下光标`键可切换导航模式，下一节会详细说明。</target>
+        <target>`Shift+上光标` / `Shift+下光标` 可切换导航模式，下一节会详细说明。</target>
       </segment>
     </unit>
     <unit id="f1b5cd76-14e0-4877-96b0-eea3e5b43148">
@@ -14406,7 +14406,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>To start navigation: press `NVDA+alt+m` or `space` to enter math navigation mode, press `esc` to exit.</source>
-        <target>开始导航：按 `NVDA+Alt+M` 或 `空格`键进入数学导航模式，按 `Esc`键退出。</target>
+        <target>开始导航：按 `NVDA+Alt+M` 或 `空格` 进入数学导航模式，按 `Esc` 退出。</target>
       </segment>
     </unit>
     <unit id="b54b2175-0b47-4e68-b909-b2f176d1a6f0">
@@ -14559,7 +14559,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to previous | `leftArrow` </source>
-        <target> 移到上一个 | `左光标`键 </target>
+        <target> 移到上一个 | `左光标` </target>
       </segment>
     </unit>
     <unit id="16e7200f-c983-4495-a026-1b1e93ff1042">
@@ -14570,7 +14570,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to previous cell in a table, or previous digit if in columnar math | `control+leftArrow` or `control+alt+leftArrow` </source>
-        <target> 移到表格中的上一个单元格；若位于竖式数学中，则移到上一位数字 | `Ctrl+左光标`键 或 `Ctrl+Alt+左光标`键 </target>
+        <target> 移到表格中的上一个单元格；若位于竖式数学中，则移到上一位数字 | `Ctrl+左光标` 或 `Ctrl+Alt+左光标` </target>
       </segment>
     </unit>
     <unit id="afc7638a-2df3-4f22-aa06-712680badcfc">
@@ -14581,7 +14581,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Read previous | `shift+leftArrow` </source>
-        <target> 朗读上一个 | `Shift+左光标`键 </target>
+        <target> 朗读上一个 | `Shift+左光标` </target>
       </segment>
     </unit>
     <unit id="94c30109-30c4-4e3f-948a-0db75b8cf27f">
@@ -14592,7 +14592,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Describe previous | `control+shift+leftArrow` </source>
-        <target> 描述上一个 | `Ctrl+Shift+左光标`键 </target>
+        <target> 描述上一个 | `Ctrl+Shift+左光标` </target>
       </segment>
     </unit>
     <unit id="ac6c7881-fea6-4062-945b-d2190fd827dc">
@@ -14603,7 +14603,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to next | `rightArrow` </source>
-        <target> 移到下一个 | `右光标`键 </target>
+        <target> 移到下一个 | `右光标` </target>
       </segment>
     </unit>
     <unit id="70a45f4b-ad78-4312-b915-6925e8446310">
@@ -14614,7 +14614,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to next cell in a table, or next digit if in columnar math | `control+rightArrow` or `control+alt+rightArrow` </source>
-        <target> 移到表格中的下一个单元格；若位于竖式数学中，则移到下一位数字 | `Ctrl+右光标`键 或 `Ctrl+Alt+右光标`键 </target>
+        <target> 移到表格中的下一个单元格；若位于竖式数学中，则移到下一位数字 | `Ctrl+右光标` 或 `Ctrl+Alt+右光标` </target>
       </segment>
     </unit>
     <unit id="8cfb899d-ccf0-4b71-889a-a26c4ae27b75">
@@ -14625,7 +14625,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Read next | `shift+rightArrow` </source>
-        <target> 朗读下一个 | `Shift+右光标`键 </target>
+        <target> 朗读下一个 | `Shift+右光标` </target>
       </segment>
     </unit>
     <unit id="91809748-80bb-4c9b-aa86-90e009b3c00e">
@@ -14636,7 +14636,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Describe next | `control+shift+rightArrow` </source>
-        <target> 描述下一个 | `Ctrl+Shift+右光标`键 </target>
+        <target> 描述下一个 | `Ctrl+Shift+右光标` </target>
       </segment>
     </unit>
     <unit id="05e87a38-6df2-4c25-8e1b-e0608bf4b981">
@@ -14647,7 +14647,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Zoom out | `upArrow` </source>
-        <target> 退出内层 | `上光标`键 </target>
+        <target> 退出内层 | `上光标` </target>
       </segment>
     </unit>
     <unit id="6232e14b-17a8-46d0-9feb-ba8754e1213c">
@@ -14658,7 +14658,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to cell above in a table, or digit above in columnar math | `control+upArrow` or `control+alt+upArrow` </source>
-        <target> 移到表格中的上方单元格；若位于竖式数学中，则移到上方数字 | `Ctrl+上光标`键 或 `Ctrl+Alt+上光标`键 </target>
+        <target> 移到表格中的上方单元格；若位于竖式数学中，则移到上方数字 | `Ctrl+上光标` 或 `Ctrl+Alt+上光标` </target>
       </segment>
     </unit>
     <unit id="0be7a18b-4ccd-4c3b-94c6-64e8a55cdbd8">
@@ -14669,7 +14669,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Change Navigation Mode (Enhanced/Simple/Character) to larger | `shift+upArrow` </source>
-        <target> 将导航模式（增强/简单/字符）切换到更大粒度 | `Shift+上光标`键 </target>
+        <target> 将导航模式（增强/简单/字符）切换到更大粒度 | `Shift+上光标` </target>
       </segment>
     </unit>
     <unit id="fbbd6c80-dc64-45ac-a54b-9ac607fadbce">
@@ -14680,7 +14680,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Zoom out all the way | `control+shift+upArrow` </source>
-        <target> 退出到最外层 | `Ctrl+Shift+上光标`键 </target>
+        <target> 退出到最外层 | `Ctrl+Shift+上光标` </target>
       </segment>
     </unit>
     <unit id="328ca18e-1751-4915-9ca6-f57d2c89b04d">
@@ -14691,7 +14691,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Zoom in | `downArrow` </source>
-        <target> 进入内层 | `下光标`键 </target>
+        <target> 进入内层 | `下光标` </target>
       </segment>
     </unit>
     <unit id="24c76c91-ae34-4bc9-9e20-2962a467db2f">
@@ -14702,7 +14702,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to cell below in a table, or digit below in columnar math | `control+downArrow` or `control+alt+downArrow` </source>
-        <target> 移到表格中的下方单元格；若位于竖式数学中，则移到下方数字 | `Ctrl+下光标`键 或 `Ctrl+Alt+下光标`键 </target>
+        <target> 移到表格中的下方单元格；若位于竖式数学中，则移到下方数字 | `Ctrl+下光标` 或 `Ctrl+Alt+下光标` </target>
       </segment>
     </unit>
     <unit id="5f876e86-46e7-481d-9765-0a5f711e1c80">
@@ -14713,7 +14713,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Change Navigation Mode (Enhanced/Simple/Character) to smaller | `shift+downArrow` </source>
-        <target> 将导航模式（增强/简单/字符）切换到更小粒度 | `Shift+下光标`键 </target>
+        <target> 将导航模式（增强/简单/字符）切换到更小粒度 | `Shift+下光标` </target>
       </segment>
     </unit>
     <unit id="83530780-0811-42eb-9ae5-1ee3cc56196c">
@@ -14724,7 +14724,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Zoom in all the way | `control+shift+downArrow` </source>
-        <target> 进入到最内层 | `Ctrl+Shift+下光标`键 </target>
+        <target> 进入到最内层 | `Ctrl+Shift+下光标` </target>
       </segment>
     </unit>
     <unit id="4236bfeb-e54e-42c9-bd64-86cee076a1f1">
@@ -14735,7 +14735,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Where am I | `enter` </source>
-        <target> 当前位置 | `回车`键 </target>
+        <target> 当前位置 | `回车` </target>
       </segment>
     </unit>
     <unit id="85698060-2cd7-4326-825a-20e12942ce04">
@@ -14746,7 +14746,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Global Where am I | `control+enter` </source>
-        <target> 全局当前位置 | `Ctrl+回车`键 </target>
+        <target> 全局当前位置 | `Ctrl+回车` </target>
       </segment>
     </unit>
     <unit id="827bd1c0-2d35-40a3-b858-f3e10f14f4ee">
@@ -14801,7 +14801,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Read current | `space` </source>
-        <target> 朗读当前项 | `空格`键 </target>
+        <target> 朗读当前项 | `空格` </target>
       </segment>
     </unit>
     <unit id="66af7d50-76c1-4be1-9910-d94663353bbe">
@@ -14812,7 +14812,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Read current cell | `control+space` </source>
-        <target> 朗读当前单元格 | `Ctrl+空格`键 </target>
+        <target> 朗读当前单元格 | `Ctrl+空格` </target>
       </segment>
     </unit>
     <unit id="62bedbf1-e433-44fa-8a0f-14ff03addfcd">
@@ -14823,7 +14823,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Toggle "speech mode" to Read or Describe | `shift+space` </source>
-        <target> 将“语音模式”切换为朗读或描述 | `Shift+空格`键 </target>
+        <target> 将“语音模式”切换为朗读或描述 | `Shift+空格` </target>
       </segment>
     </unit>
     <unit id="77dbf92d-f0bd-4066-89ff-ebb23b3e58e8">
@@ -14834,7 +14834,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Describe current | `control+shift+space` </source>
-        <target> 描述当前项 | `Ctrl+Shift+空格`键 </target>
+        <target> 描述当前项 | `Ctrl+Shift+空格` </target>
       </segment>
     </unit>
     <unit id="b4f76a95-5800-40f2-86cd-8b6593121425">
@@ -14845,7 +14845,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to start of expression | `home` </source>
-        <target> 移到表达式开头 | `行首`键 </target>
+        <target> 移到表达式开头 | `行首` </target>
       </segment>
     </unit>
     <unit id="fbd5428a-ee30-41d3-ab5c-15f68d856580">
@@ -14856,7 +14856,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to start of line | `control+home` </source>
-        <target> 移到行首 | `Ctrl+行首`键 </target>
+        <target> 移到行首 | `Ctrl+行首` </target>
       </segment>
     </unit>
     <unit id="3a7b99d2-4c93-45a5-b3d5-834fb85a507c">
@@ -14867,7 +14867,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to start of column in table, or move to digit at top in columnar math | `shift+home` </source>
-        <target> 移到表格列首；若位于竖式数学中，则移到顶部数字 | `Shift+行首`键 </target>
+        <target> 移到表格列首；若位于竖式数学中，则移到顶部数字 | `Shift+行首` </target>
       </segment>
     </unit>
     <unit id="fadf7bd0-0879-45ed-b5be-dc0988a36f42">
@@ -14878,7 +14878,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to end of expression | `end` </source>
-        <target> 移到表达式末尾 | `行尾`键 </target>
+        <target> 移到表达式末尾 | `行尾` </target>
       </segment>
     </unit>
     <unit id="1f549a93-ce8e-4cef-86dd-e60d54b2755e">
@@ -14889,7 +14889,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to end of line | `control+end` </source>
-        <target> 移到行尾 | `Ctrl+行尾`键 </target>
+        <target> 移到行尾 | `Ctrl+行尾` </target>
       </segment>
     </unit>
     <unit id="fa80a97e-221e-4af8-9f3f-d88089504c79">
@@ -14900,7 +14900,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move to end of column in table, or move to digit at bottom in columnar math | `shift+end` </source>
-        <target> 移到表格列尾；若位于竖式数学中，则移到底部数字 | `Shift+行尾`键 </target>
+        <target> 移到表格列尾；若位于竖式数学中，则移到底部数字 | `Shift+行尾` </target>
       </segment>
     </unit>
     <unit id="673a174f-b93d-49c4-939e-433a58ae70d0">
@@ -14911,7 +14911,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source> Move back to last position | `backspace` </source>
-        <target> 返回上一个位置 | `退格`键 </target>
+        <target> 返回上一个位置 | `退格` </target>
       </segment>
     </unit>
     <unit id="7b9fcf89-07fe-421f-9565-785103a55d0a">
@@ -14967,7 +14967,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>Pressing `backspace` will take you back to where you were, which is not always the same as moving to the left.</source>
-        <target>按 `退格`键会返回先前所在的位置，这并不总是等同于向左移动。</target>
+        <target>按 `退格` 会返回先前所在的位置，这并不总是等同于向左移动。</target>
       </segment>
     </unit>
     <unit id="ae777923-58e9-4b0e-9ef2-a232571163be">
@@ -14976,7 +14976,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>For example, if `rightArrow` moved you out of a fraction, `backspace` will take you back to where you were in the denominator and `leftArrow` will land on the entire fraction.</source>
-        <target>例如，如果按 `右光标`键使您移出了一个分式，`退格`键会把您带回分母中原来的位置，而 `左光标`键会落在整个分式上。</target>
+        <target>例如，如果按 `右光标` 使您移出了一个分式，`退格` 会把您带回分母中原来的位置，而 `左光标` 会落在整个分式上。</target>
       </segment>
     </unit>
     <unit id="ac76b8ee-e783-48dc-8abc-0544cdcc9a55">
@@ -15003,7 +15003,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       </notes>
       <segment state="final">
         <source>However, at any time during navigation, you can switch navigation modes using `shift+upArrow/downArrow` to take advantage of the differing strengths of each navigation mode.</source>
-        <target>不过，在导航过程中，您随时可以使用 `Shift+上光标`键 / `Shift+下光标`键切换导航模式，以利用不同导航模式的各自优势。</target>
+        <target>不过，在导航过程中，您随时可以使用 `Shift+上光标` / `Shift+下光标` 切换导航模式，以利用不同导航模式的各自优势。</target>
       </segment>
     </unit>
     <unit id="8fbc04ab-c5bf-4d7d-a0b8-2b1ab7d15e9b">
