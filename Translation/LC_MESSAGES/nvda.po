@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 02:30+0000\n"
+"POT-Creation-Date: 2026-04-28 02:37+0000\n"
 "PO-Revision-Date: 2026-04-28 08:16+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -15776,9 +15776,11 @@ msgstr "无法为 Vision Enhancement Provider 配置用户界面，因此无法�
 msgid "Magnifier"
 msgstr "放大镜"
 
-#. Translators: The label for a setting in magnifier settings to select the default zoom level.
+#. Translators: The label for a setting in magnifier settings to select the zoom level.
 #: gui\settingsDialogs.py:6040
-msgid "Default &zoom level:"
+#, fuzzy
+#| msgid "Default &zoom level:"
+msgid "&Zoom level:"
 msgstr "默认放大级别(&Z)"
 
 #. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
@@ -15788,12 +15790,17 @@ msgstr "平移步长（%）(&P)："
 
 #. Translators: The label for a setting in magnifier settings to select the default filter
 #: gui\settingsDialogs.py:6088
-msgid "Default &filter:"
-msgstr "默认颜色滤镜(&F)"
+#, fuzzy
+#| msgctxt "inputGestures"
+#| msgid "&Filter by:"
+msgid "&filter:"
+msgstr "查找(&F):"
 
-#. Translators: The label for a setting in magnifier settings to select the default full-screen mode
+#. Translators: The label for a setting in magnifier settings to select the full-screen mode
 #: gui\settingsDialogs.py:6103
-msgid "Default &fullscreen mode:"
+#, fuzzy
+#| msgid "Default &fullscreen mode:"
+msgid "&fullscreen mode:"
 msgstr "默认全屏模式(&F)"
 
 #. Translators: The label for a setting in magnifier settings to select whether true center is used in full-screen mode
@@ -21006,7 +21013,7 @@ msgid "{zoomLevel}x"
 msgstr "{zoomLevel} 倍"
 
 #. Translators: Message announced when the magnifier stops due to an unrecoverable error.
-#: _magnifier\fullscreenMagnifier.py:164
+#: _magnifier\fullscreenMagnifier.py:173
 msgctxt "magnifier"
 msgid "Magnifier stopped due to an error. Please restart it."
 msgstr "放大镜因错误而停止。请将其重启。"
@@ -21038,163 +21045,169 @@ msgid "Magnifier spotlight stopped"
 msgstr "显示放大视图"
 
 #. Translators: Action description for zooming in.
-#: _magnifier\utils\types.py:52
+#: _magnifier\utils\types.py:59
 msgctxt "magnifier action"
 msgid "zoom in"
 msgstr "放大"
 
 #. Translators: Action description for zooming out.
-#: _magnifier\utils\types.py:54
+#: _magnifier\utils\types.py:61
 msgctxt "magnifier action"
 msgid "zoom out"
 msgstr "缩小"
 
 #. Translators: Action description for panning left.
-#: _magnifier\utils\types.py:56
+#: _magnifier\utils\types.py:63
 msgctxt "magnifier action"
 msgid "pan left"
 msgstr "左移"
 
 #. Translators: Action description for panning right.
-#: _magnifier\utils\types.py:58
+#: _magnifier\utils\types.py:65
 msgctxt "magnifier action"
 msgid "pan right"
 msgstr "右移"
 
 #. Translators: Action description for panning up.
-#: _magnifier\utils\types.py:60
+#: _magnifier\utils\types.py:67
 msgctxt "magnifier action"
 msgid "pan up"
 msgstr "上移"
 
 #. Translators: Action description for panning down.
-#: _magnifier\utils\types.py:62
+#: _magnifier\utils\types.py:69
 msgctxt "magnifier action"
 msgid "pan down"
 msgstr "下移"
 
 #. Translators: Action description for panning to left edge.
-#: _magnifier\utils\types.py:64
+#: _magnifier\utils\types.py:71
 msgctxt "magnifier action"
 msgid "pan to left edge"
 msgstr "移到左边"
 
 #. Translators: Action description for panning to right edge.
-#: _magnifier\utils\types.py:66
+#: _magnifier\utils\types.py:73
 msgctxt "magnifier action"
 msgid "pan to right edge"
 msgstr "移到右边"
 
 #. Translators: Action description for panning to top edge.
-#: _magnifier\utils\types.py:68
+#: _magnifier\utils\types.py:75
 msgctxt "magnifier action"
 msgid "pan to top edge"
 msgstr "移到顶边"
 
 #. Translators: Action description for panning to bottom edge.
-#: _magnifier\utils\types.py:70
+#: _magnifier\utils\types.py:77
 msgctxt "magnifier action"
 msgid "pan to bottom edge"
 msgstr "移到底边"
 
 #. Translators: Action description for toggling settings.
-#: _magnifier\utils\types.py:72
+#: _magnifier\utils\types.py:79
 msgctxt "magnifier action"
 msgid "toggle follow settings"
 msgstr "切换跟随设置"
 
 #. Translators: Action description for toggling color filters.
-#: _magnifier\utils\types.py:74
+#: _magnifier\utils\types.py:81
 msgctxt "magnifier action"
 msgid "toggle filters"
 msgstr "切换颜色滤镜"
 
 #. Translators: Action description for changing full-screen mode.
-#: _magnifier\utils\types.py:76
+#: _magnifier\utils\types.py:83
 msgctxt "magnifier action"
 msgid "change full-screen mode"
 msgstr "更改全屏模式"
 
 #. Translators: Action description for starting spotlight mode.
-#: _magnifier\utils\types.py:78
+#: _magnifier\utils\types.py:85
 msgctxt "magnifier action"
 msgid "start spotlight mode"
 msgstr "显示标准视图"
 
 #. Translators: Focus type for magnifier to follow - mouse cursor.
-#: _magnifier\utils\types.py:94
+#: _magnifier\utils\types.py:101
 msgctxt "magnifier follow focus type"
 msgid "Mouse"
 msgstr "鼠标"
 
 #. Translators: Focus type for magnifier to follow - system focus (active element).
-#: _magnifier\utils\types.py:96
+#: _magnifier\utils\types.py:103
 msgctxt "magnifier follow focus type"
 msgid "System focus"
 msgstr "系统焦点"
 
 #. Translators: Focus type for magnifier to follow - review cursor position.
-#: _magnifier\utils\types.py:98
+#: _magnifier\utils\types.py:105
 msgctxt "magnifier follow focus type"
 msgid "Review cursor"
 msgstr "查看光标"
 
 #. Translators: Focus type for magnifier to follow - navigator object position.
-#: _magnifier\utils\types.py:100
+#: _magnifier\utils\types.py:107
 msgctxt "magnifier follow focus type"
 msgid "Navigator object"
 msgstr "导航对象"
 
 #. Translators: Magnifier type - full-screen mode.
-#: _magnifier\utils\types.py:115
+#: _magnifier\utils\types.py:123
 msgctxt "magnifier"
 msgid "Fullscreen"
 msgstr "全屏"
 
+#. Translators: Magnifier type - fixed mode.
+#: _magnifier\utils\types.py:125
+msgctxt "magnifier"
+msgid "Fixed"
+msgstr ""
+
 #. Translators: Magnifier type - docked mode.
-#: _magnifier\utils\types.py:117
+#: _magnifier\utils\types.py:127
 msgctxt "magnifier"
 msgid "Docked"
 msgstr "停靠"
 
 #. Translators: Magnifier type - lens mode.
-#: _magnifier\utils\types.py:119
+#: _magnifier\utils\types.py:129
 msgctxt "magnifier"
 msgid "Lens"
 msgstr "镜头"
 
 #. Translators: Magnifier focus mode - center mouse/focus on screen.
-#: _magnifier\utils\types.py:155
+#: _magnifier\utils\types.py:156
 msgctxt "magnifier"
 msgid "Center"
 msgstr "居中"
 
 #. Translators: Magnifier focus mode - follow focus at screen borders.
-#: _magnifier\utils\types.py:157
+#: _magnifier\utils\types.py:158
 msgctxt "magnifier"
 msgid "Border"
 msgstr "边缘"
 
 #. Translators: Magnifier focus mode - maintain relative position.
-#: _magnifier\utils\types.py:159
+#: _magnifier\utils\types.py:160
 msgctxt "magnifier"
 msgid "Relative"
 msgstr "相对"
 
 #. Translators: Magnifier color filter - no filter applied.
-#: _magnifier\utils\types.py:172
+#: _magnifier\utils\types.py:173
 msgctxt "magnifier"
 msgid "Normal"
 msgstr "正常"
 
 #. Translators: Magnifier color filter - grayscale/black and white.
-#: _magnifier\utils\types.py:174
+#: _magnifier\utils\types.py:175
 msgctxt "magnifier"
 msgid "Grayscale"
 msgstr "灰度"
 
 #. Translators: Magnifier color filter - inverted colors.
-#: _magnifier\utils\types.py:176
+#: _magnifier\utils\types.py:177
 msgctxt "magnifier"
 msgid "Inverted"
 msgstr "反转"
@@ -21604,6 +21617,9 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgid "Default &filter:"
+#~ msgstr "默认颜色滤镜(&F)"
 
 #, python-format
 #~ msgid "%s mode"
