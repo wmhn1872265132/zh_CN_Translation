@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-29 05:13+0000\n"
-"PO-Revision-Date: 2026-04-28 12:14\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2026-04-28 00:44+0000\n"
+"PO-Revision-Date: 2026-04-29 13:13+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -15778,10 +15778,8 @@ msgstr "放大镜"
 
 #. Translators: The label for a setting in magnifier settings to select the zoom level.
 #: gui\settingsDialogs.py:6040
-#, fuzzy
-#| msgid "Default &zoom level:"
 msgid "&Zoom level:"
-msgstr "默认放大级别(&Z)"
+msgstr "放大级别(&Z)"
 
 #. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
 #: gui\settingsDialogs.py:6069
@@ -15790,18 +15788,13 @@ msgstr "平移步长（%）(&P)："
 
 #. Translators: The label for a setting in magnifier settings to select the default filter
 #: gui\settingsDialogs.py:6088
-#, fuzzy
-#| msgctxt "inputGestures"
-#| msgid "&Filter by:"
 msgid "&filter:"
-msgstr "查找(&F):"
+msgstr "颜色滤镜(&F)"
 
 #. Translators: The label for a setting in magnifier settings to select the full-screen mode
 #: gui\settingsDialogs.py:6103
-#, fuzzy
-#| msgid "Default &fullscreen mode:"
 msgid "&fullscreen mode:"
-msgstr "默认全屏模式(&F)"
+msgstr "全屏模式(&F)"
 
 #. Translators: The label for a setting in magnifier settings to select whether true center is used in full-screen mode
 #: gui\settingsDialogs.py:6117
