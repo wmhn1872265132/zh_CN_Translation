@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-28 00:44+0000\n"
+"POT-Creation-Date: 2026-04-29 05:13+0000\n"
 "PO-Revision-Date: 2026-04-28 12:14\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -7998,27 +7998,27 @@ msgid "Failed to install add-on from %s"
 msgstr "从 %s 安装插件失败"
 
 #. Translators: A title for a dialog notifying a user of an add-on download failure.
-#: addonStore\network.py:256
+#: addonStore\network.py:330
 msgctxt "addonStore"
 msgid "Add-on download failure"
 msgstr "插件下载失败"
 
 #. Translators: A message to the user if an add-on download fails
-#: addonStore\network.py:279
+#: addonStore\network.py:352
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Unable to download add-on: {name}"
 msgstr "插件 {name} 无法下载"
 
 #. Translators: A message to the user if an add-on download fails
-#: addonStore\network.py:289
+#: addonStore\network.py:362
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Unable to save add-on as a file: {name}"
 msgstr "插件 {name} 无法另存为文件"
 
 #. Translators: A message to the user if an add-on download is not safe
-#: addonStore\network.py:301
+#: addonStore\network.py:378
 #, python-brace-format
 msgctxt "addonStore"
 msgid "Add-on download not safe: checksum failed for {name}"
