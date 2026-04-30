@@ -172,12 +172,12 @@ if defined Gettext (
 if /I "%CLI%"=="UTC" (goto MergeBranch)
 
 Rem 从给定的 nvda.pot 更新界面翻译字符串  
-IF NOT EXIST "%~dp0PotXliff\nvda.pot" (
-  powershell -command "(New-Object -ComObject wscript.shell).Popup('请将要合并的 nvda.pot 文件复制到 PotXliff 文件夹后重试。',5,'未找到文件')"
+IF NOT EXIST "%~dp0ProcessTranslation\PotPo\nvda.pot" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('请将要合并的 nvda.pot 文件复制到 ProcessTranslation\PotPo 文件夹后重试。',5,'未找到文件',16)"
   exit /b 1
 )
 CD /D %Gettext% 
-msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvda.po" "%~dp0PotXliff\nvda.pot"
+msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvda.po" "%~dp0ProcessTranslation\PotPo\nvda.pot"
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -368,20 +368,20 @@ exit /b %errorlevel%
 
 Rem 生成文档的 Markdown 版本
 :GenerateMarkdown
-IF NOT EXIST "%~dp0Preview\Markdown" (MKDir "%~dp0Preview\Markdown")
-IF EXIST "%~dp0Preview\Markdown\%ShortName%.md" (del /f /q "%~dp0Preview\Markdown\%ShortName%.md")
-%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0Preview\Markdown\%ShortName%.md"
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown" (MKDir "%~dp0ProcessTranslation\Markdown")
+IF EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (del /f /q "%~dp0ProcessTranslation\Markdown\%ShortName%.md")
+%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Markdown\%ShortName%.md"
 set ExitCode=!errorlevel!
 goto Quit
 
 Rem 从 Markdown 文件生成 HTML 文件  
 :GenerateHTML
-IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先生成该文件后重试。',5,'错误')"
   exit /b 1
 )
 IF EXIST "%~dp0Preview\%ShortName%.html" (del /f /q "%~dp0Preview\%ShortName%.html")
-%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0Preview\Markdown\%ShortName%.md" "%~dp0Preview\%ShortName%.html"
+%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0ProcessTranslation\Markdown\%ShortName%.md" "%~dp0Preview\%ShortName%.html"
 set ExitCode=!errorlevel!
 goto Quit
 
@@ -408,7 +408,7 @@ if /I "%L10NSourceCodePath%" =="exe" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('使用 l10nUtil.exe 时不支持此命令。' + [char]10 + '请删除 l10nUtil.exe，并在本地克隆 nvaccess/nvdaL10n 存储库后重试。',10,'错误',16)"
   exit /b 1
 )
-IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (
   powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误')"
   exit /b 1
 )
@@ -417,9 +417,9 @@ IF NOT EXIST "%SourceXLIFFPath%" (
   exit /b 1
 )
 IF EXIST "%TranslationPath%\%FileName%" (
-  move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%ShortName%.xliff"
+  move /Y "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Xliff\%ShortName%.xliff"
 )
-uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
+uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0ProcessTranslation\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -461,16 +461,15 @@ exit /b 0
 
 Rem 提取之前翻译的 xliff 文件用于上传时比较差异  
 :ReadyUpload
-set TempFolder=%~dp0PotXliff\Temp
-set OldFile=%TempFolder%\%FileName%.old
-set Parameter=--old "%OldFile%"
-IF EXIST "%TempFolder%" (rd /s /q "%TempFolder%")
-MKDir "%TempFolder%"
-IF Not EXIST "%~dp0PotXliff\%FileName%" (
-  git archive --output "./PotXliff/Temp/%FileName%.zip" main %GitAddPath%/%FileName%
-  "%~dp0Tools\7Zip\7z.exe" e "%TempFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%~dp0PotXliff"
+set "ArchiveFolder=%~dp0ProcessTranslation\Archive"
+set "XliffFolder=%~dp0ProcessTranslation\Xliff"
+set "Parameter=--old "%XliffFolder%\%FileName%""
+IF EXIST "%ArchiveFolder%" (rd /s /q "%ArchiveFolder%")
+MKDir "%ArchiveFolder%"
+IF Not EXIST "%XliffFolder%\%FileName%" (
+  git archive --output "%ArchiveFolder%\%FileName%.zip" main %GitAddPath%/%FileName%
+  "%~dp0Tools\7Zip\7z.exe" -sccUTF-8 -bsp0 -bso0 e "%ArchiveFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%XliffFolder%"
 )
-MKLINK /H "%OldFile%" "%~dp0PotXliff\%FileName%"
 goto Upload
 
 Rem 上传已翻译的文件到 Crowdin
@@ -569,6 +568,7 @@ exit /b %errorlevel%
 Rem 清理本工具生成的所有文件  
 :CLE
 git clean -fX "%~dp0PotXliff"
+git clean -fX "%~dp0ProcessTranslation"
 git clean -fX "%~dp0Preview"
 git clean -fX "%~dp0Translation\Addons"
 for /f "delims=" %%a in ('dir /ad /b /s "%~dp0Translation\Addons" ^| sort /r') do (
