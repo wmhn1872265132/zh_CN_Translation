@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-30 02:38+0000\n"
-"PO-Revision-Date: 2026-04-29 13:13+0800\n"
+"PO-Revision-Date: 2026-05-01 15:11+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -17135,7 +17135,7 @@ msgstr "Math 交互不被支持。"
 #. Translators: The name of the category of MathCAT navigation commands in the Input Gestures dialog.
 #: mathPres\MathCAT\MathCAT.py:50
 msgid "MathCat navigation"
-msgstr ""
+msgstr "MathCat 导航"
 
 #. Translators: this message reports an error in starting navigation of math.
 #: mathPres\MathCAT\MathCAT.py:92
@@ -17256,13 +17256,13 @@ msgstr ""
 #: mathPres\MathCAT\navCommands.py:62
 msgctxt "math"
 msgid "Move to cell or digit above in math"
-msgstr ""
+msgstr "移到表格中的上方单元格；若位于竖式数学中，则移到上方数字"
 
 #. Translators: Input help message for the command to move to the cell or digit below in math.
 #: mathPres\MathCAT\navCommands.py:68
 msgctxt "math"
 msgid "Move to cell or digit below in math"
-msgstr ""
+msgstr "移到表格中的下方单元格；若位于竖式数学中，则移到下方数字"
 
 #. Translators: Input help message for the command to read the previous item in math.
 #: mathPres\MathCAT\navCommands.py:74
@@ -17280,13 +17280,13 @@ msgstr ""
 #: mathPres\MathCAT\navCommands.py:88
 msgctxt "math"
 msgid "Change math navigation mode to larger"
-msgstr ""
+msgstr "将数学导航模式切换到更大粒度"
 
 #. Translators: Input help message for the command to change the math navigation mode to smaller.
 #: mathPres\MathCAT\navCommands.py:94
 msgctxt "math"
 msgid "Change math navigation mode to smaller"
-msgstr ""
+msgstr "将数学导航模式切换到更小粒度"
 
 #. Translators: Input help message for the command to describe the previous item in math.
 #: mathPres\MathCAT\navCommands.py:100
@@ -17340,7 +17340,7 @@ msgstr ""
 #: mathPres\MathCAT\navCommands.py:154
 msgctxt "math"
 msgid "Toggle math speech mode between read and describe"
-msgstr ""
+msgstr "将数学语音模式切换为朗读或描述"
 
 #. Translators: Input help message for the command to describe the current item in math.
 #: mathPres\MathCAT\navCommands.py:160
@@ -17352,7 +17352,7 @@ msgstr ""
 #: mathPres\MathCAT\navCommands.py:167
 msgctxt "math"
 msgid "Move to start of math expression"
-msgstr ""
+msgstr "移到数学表达式的开头"
 
 #. Translators: Input help message for the command to move to the start of a line in math.
 #: mathPres\MathCAT\navCommands.py:173
@@ -17364,13 +17364,13 @@ msgstr ""
 #: mathPres\MathCAT\navCommands.py:179
 msgctxt "math"
 msgid "Move to start of column in math"
-msgstr ""
+msgstr "移到表格列首；若位于竖式数学中，则移到顶部数字"
 
 #. Translators: Input help message for the command to move to the end of a math expression.
 #: mathPres\MathCAT\navCommands.py:185
 msgctxt "math"
 msgid "Move to end of math expression"
-msgstr ""
+msgstr "移到数学表达式的末尾"
 
 #. Translators: Input help message for the command to move to the end of a line in math.
 #: mathPres\MathCAT\navCommands.py:191
@@ -17382,41 +17382,41 @@ msgstr ""
 #: mathPres\MathCAT\navCommands.py:197
 msgctxt "math"
 msgid "Move to end of column in math"
-msgstr ""
+msgstr "移到表格列尾；若位于竖式数学中，则移到底部数字"
 
 #. Translators: Input help message for the command to move back to the last position in math.
 #: mathPres\MathCAT\navCommands.py:203
 msgctxt "math"
 msgid "Move back to last position in math"
-msgstr ""
+msgstr "返回数学中的上一个位置"
 
 #. Translators: Input help message for the command to jump to a placemarker in math; {n} is replaced with the placemarker number.
 #: mathPres\MathCAT\navCommands.py:216
 #, python-brace-format
 msgctxt "math"
 msgid "Jump to placemarker {n} in math"
-msgstr ""
+msgstr "跳转到数学中的位置标记 {n}"
 
 #. Translators: Input help message for the command to set a placemarker in math; {n} is replaced with the placemarker number.
 #: mathPres\MathCAT\navCommands.py:222
 #, python-brace-format
 msgctxt "math"
 msgid "Set placemarker {n} in math"
-msgstr ""
+msgstr "在数学中设置位置标记 {n}"
 
 #. Translators: Input help message for the command to read a placemarker in math; {n} is replaced with the placemarker number.
 #: mathPres\MathCAT\navCommands.py:228
 #, python-brace-format
 msgctxt "math"
 msgid "Read placemarker {n} in math"
-msgstr ""
+msgstr "朗读数学中的位置标记 {n}"
 
 #. Translators: Input help message for the command to describe a placemarker in math; {n} is replaced with the placemarker number.
 #: mathPres\MathCAT\navCommands.py:235
 #, python-brace-format
 msgctxt "math"
 msgid "Describe placemarker {n} in math"
-msgstr ""
+msgstr "描述数学中的位置标记 {n}"
 
 #. Translators: Learning disabilities includes dyslexia and ADHD
 #. category of impairment that MathCAT supports: people with learning disabilities
@@ -21010,7 +21010,7 @@ msgstr "{zoomLevel} 倍"
 msgctxt "magnifier"
 msgid ""
 "Cannot start magnifier. Another magnifier application may already be running."
-msgstr ""
+msgstr "无法启动放大镜。另一个放大应用可能已在运行。"
 
 #. Translators: Message announced when the magnifier stops due to an unrecoverable error.
 #: _magnifier\fullscreenMagnifier.py:202
@@ -21162,7 +21162,7 @@ msgstr "全屏"
 #: _magnifier\utils\types.py:125
 msgctxt "magnifier"
 msgid "Fixed"
-msgstr ""
+msgstr "固定"
 
 #. Translators: Magnifier type - docked mode.
 #: _magnifier\utils\types.py:127
