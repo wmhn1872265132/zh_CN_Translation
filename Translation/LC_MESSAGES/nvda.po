@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-06 02:33+0000\n"
-"PO-Revision-Date: 2026-05-05 20:32+0800\n"
+"PO-Revision-Date: 2026-05-06 15:21+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20917,33 +20917,23 @@ msgstr "无法启动放大镜：黑屏已开启，请先关闭黑屏。"
 
 #. Translators: Message announced when starting the NVDA magnifier.
 #: _magnifier\commands.py:116
-#, fuzzy, python-brace-format
-#| msgctxt "magnifier"
-#| msgid ""
-#| "Starting magnifier with {zoomLevel} zoom level, {filter} filter, and "
-#| "{fullscreenMode} full-screen mode"
+#, python-brace-format
 msgctxt "magnifier"
 msgid ""
 "Starting {magnifiedView} magnifier with {zoomLevel} zoom level, {filter} "
 "filter, and {fullscreenMode} full-screen mode"
 msgstr ""
-"开启放大镜，放大级别： {zoomLevel}，颜色滤镜：{filter}，全屏模式："
-"{fullscreenMode}"
+"开启{magnifiedView}放大镜，放大级别： {zoomLevel}，颜色滤镜：{filter}，全屏模"
+"式：{fullscreenMode}"
 
 #. Translators: Message announced when starting the NVDA magnifier.
 #: _magnifier\commands.py:127
-#, fuzzy, python-brace-format
-#| msgctxt "magnifier"
-#| msgid ""
-#| "Starting magnifier with {zoomLevel} zoom level, {filter} filter, and "
-#| "{fullscreenMode} full-screen mode"
+#, python-brace-format
 msgctxt "magnifier"
 msgid ""
 "Starting {magnifiedView} magnifier with {zoomLevel} zoom level and {filter} "
 "filter"
-msgstr ""
-"开启放大镜，放大级别： {zoomLevel}，颜色滤镜：{filter}，全屏模式："
-"{fullscreenMode}"
+msgstr "开启{magnifiedView}放大镜，放大级别： {zoomLevel}，颜色滤镜：{filter}"
 
 #. Translators: Message announced when arriving at the {edge} edge.
 #: _magnifier\commands.py:174
@@ -20961,12 +20951,10 @@ msgstr "{filter}颜色滤镜"
 
 #. Translators: Message announced when changing the magnifier view with {view} being the new magnifier view.
 #: _magnifier\commands.py:221
-#, fuzzy, python-brace-format
-#| msgctxt "magnifier"
-#| msgid "Color filter changed to {filter}"
+#, python-brace-format
 msgctxt "magnifier"
 msgid "Magnifier view changed to {view}"
-msgstr "{filter}颜色滤镜"
+msgstr "{view} 放大视图"
 
 #. Translators: Message announced when toggling a follow setting with {setting} being the name of the setting and {state} being either "enabled" or "disabled".
 #: _magnifier\commands.py:244
@@ -21152,11 +21140,9 @@ msgstr "切换颜色滤镜"
 
 #. Translators: Action description for changing magnifier view.
 #: _magnifier\utils\types.py:84
-#, fuzzy
-#| msgid "Pan the magnifier view up"
 msgctxt "magnifier action"
 msgid "change magnifier view"
-msgstr "上移放大视图"
+msgstr "更改放大视图"
 
 #. Translators: Action description for changing full-screen mode.
 #: _magnifier\utils\types.py:86
