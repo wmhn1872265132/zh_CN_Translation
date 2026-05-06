@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:41+0000\n"
+"POT-Creation-Date: 2026-05-06 02:33+0000\n"
 "PO-Revision-Date: 2026-05-05 20:32+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -20878,37 +20878,37 @@ msgid "Secure Desktop"
 msgstr "安全桌面"
 
 #. Translators: Short name for the left edge, used in messages.
-#: _magnifier\commands.py:39 _magnifier\commands.py:59
+#: _magnifier\commands.py:41 _magnifier\commands.py:61
 msgctxt "magnifier"
 msgid "left"
 msgstr "左"
 
 #. Translators: Short name for the right edge, used in messages.
-#: _magnifier\commands.py:44 _magnifier\commands.py:64
+#: _magnifier\commands.py:46 _magnifier\commands.py:66
 msgctxt "magnifier"
 msgid "right"
 msgstr "右"
 
 #. Translators: Short name for the top edge, used in messages.
-#: _magnifier\commands.py:49 _magnifier\commands.py:69
+#: _magnifier\commands.py:51 _magnifier\commands.py:71
 msgctxt "magnifier"
 msgid "top"
 msgstr "顶"
 
 #. Translators: Short name for the bottom edge, used in messages.
-#: _magnifier\commands.py:54 _magnifier\commands.py:74
+#: _magnifier\commands.py:56 _magnifier\commands.py:76
 msgctxt "magnifier"
 msgid "bottom"
 msgstr "底"
 
 #. Translators: Message announced when stopping the NVDA magnifier.
-#: _magnifier\commands.py:91
+#: _magnifier\commands.py:93
 msgctxt "magnifier"
 msgid "Exiting magnifier"
 msgstr "关闭放大镜"
 
 #. Translators: Message announced when trying to start magnifier while Screen Curtain is active.
-#: _magnifier\commands.py:100
+#: _magnifier\commands.py:102
 msgctxt "magnifier"
 msgid ""
 "Cannot start magnifier: Screen Curtain is active. Please disable Screen "
@@ -20916,89 +20916,117 @@ msgid ""
 msgstr "无法启动放大镜：黑屏已开启，请先关闭黑屏。"
 
 #. Translators: Message announced when starting the NVDA magnifier.
-#: _magnifier\commands.py:114
-#, python-brace-format
+#: _magnifier\commands.py:116
+#, fuzzy, python-brace-format
+#| msgctxt "magnifier"
+#| msgid ""
+#| "Starting magnifier with {zoomLevel} zoom level, {filter} filter, and "
+#| "{fullscreenMode} full-screen mode"
 msgctxt "magnifier"
 msgid ""
-"Starting magnifier with {zoomLevel} zoom level, {filter} filter, and "
-"{fullscreenMode} full-screen mode"
+"Starting {magnifiedView} magnifier with {zoomLevel} zoom level, {filter} "
+"filter, and {fullscreenMode} full-screen mode"
+msgstr ""
+"开启放大镜，放大级别： {zoomLevel}，颜色滤镜：{filter}，全屏模式："
+"{fullscreenMode}"
+
+#. Translators: Message announced when starting the NVDA magnifier.
+#: _magnifier\commands.py:127
+#, fuzzy, python-brace-format
+#| msgctxt "magnifier"
+#| msgid ""
+#| "Starting magnifier with {zoomLevel} zoom level, {filter} filter, and "
+#| "{fullscreenMode} full-screen mode"
+msgctxt "magnifier"
+msgid ""
+"Starting {magnifiedView} magnifier with {zoomLevel} zoom level and {filter} "
+"filter"
 msgstr ""
 "开启放大镜，放大级别： {zoomLevel}，颜色滤镜：{filter}，全屏模式："
 "{fullscreenMode}"
 
 #. Translators: Message announced when arriving at the {edge} edge.
-#: _magnifier\commands.py:161
+#: _magnifier\commands.py:174
 #, python-brace-format
 msgctxt "magnifier"
 msgid "{edge} edge"
 msgstr "{edge}边"
 
 #. Translators: Message announced when changing the color filter with {filter} being the new color filter.
-#: _magnifier\commands.py:183
+#: _magnifier\commands.py:197
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Color filter changed to {filter}"
 msgstr "{filter}颜色滤镜"
 
+#. Translators: Message announced when changing the magnifier view with {view} being the new magnifier view.
+#: _magnifier\commands.py:221
+#, fuzzy, python-brace-format
+#| msgctxt "magnifier"
+#| msgid "Color filter changed to {filter}"
+msgctxt "magnifier"
+msgid "Magnifier view changed to {view}"
+msgstr "{filter}颜色滤镜"
+
 #. Translators: Message announced when toggling a follow setting with {setting} being the name of the setting and {state} being either "enabled" or "disabled".
-#: _magnifier\commands.py:206
+#: _magnifier\commands.py:244
 #, python-brace-format
 msgctxt "magnifier"
 msgid "{setting} {state}"
 msgstr "{state}跟随{setting}"
 
 #. Translators: State of the follow setting being toggled enabled.
-#: _magnifier\commands.py:212
+#: _magnifier\commands.py:250
 msgctxt "magnifier"
 msgid "enabled"
 msgstr "启用"
 
 #. Translators: State of the follow setting being toggled disabled.
-#: _magnifier\commands.py:218
+#: _magnifier\commands.py:256
 msgctxt "magnifier"
 msgid "disabled"
 msgstr "禁用"
 
 #. Translators: State of all follow settings being toggled disabled.
-#: _magnifier\commands.py:236
+#: _magnifier\commands.py:274
 msgctxt "magnifier"
 msgid "All follow settings disabled"
 msgstr "禁用跟随"
 
 #. Translators: State of all follow settings being restored.
-#: _magnifier\commands.py:242
+#: _magnifier\commands.py:280
 msgctxt "magnifier"
 msgid "All follow settings restored"
 msgstr "恢复跟随"
 
 #. Translators: Message announced when changing the full-screen mode with {mode} being the new full-screen mode.
-#: _magnifier\commands.py:268
+#: _magnifier\commands.py:307
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Full-screen mode changed to {mode}"
 msgstr "{mode}全屏模式"
 
 #. Translators: Message announced when trying to start spotlight mode while it's already active.
-#: _magnifier\commands.py:291
+#: _magnifier\commands.py:331
 msgctxt "magnifier"
 msgid "Spotlight mode is already active"
 msgstr "已显示标准视图"
 
 #. Translators: Message announced when spotlight mode is started.
-#: _magnifier\commands.py:301
+#: _magnifier\commands.py:341
 msgctxt "magnifier"
 msgid "Spotlight mode started"
 msgstr "暂时显示标准视图"
 
 #. Translators: Message announced when the magnifier is not active.
-#: _magnifier\commands.py:325
+#: _magnifier\commands.py:365
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not active."
 msgstr "放大镜未开启时无法{action}。"
 
 #. Translators: Message announced when the magnifier is not full-screen.
-#: _magnifier\commands.py:350
+#: _magnifier\commands.py:390
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not full-screen."
@@ -21012,20 +21040,20 @@ msgid "{zoomLevel}x"
 msgstr "{zoomLevel} 倍"
 
 #. Translators: Message when NVDA's Magnifier cannot start because another magnifier is already running.
-#: _magnifier\fullscreenMagnifier.py:83
+#: _magnifier\fullscreenMagnifier.py:81
 msgctxt "magnifier"
 msgid ""
 "Cannot start magnifier. Another magnifier application may already be running."
 msgstr "无法启动放大镜。另一个放大应用可能已在运行。"
 
 #. Translators: Message announced when the magnifier stops due to an unrecoverable error.
-#: _magnifier\fullscreenMagnifier.py:202
+#: _magnifier\fullscreenMagnifier.py:200
 msgctxt "magnifier"
 msgid "Magnifier stopped due to an error. Please restart it."
 msgstr "放大镜因错误而停止。请将其重启。"
 
 #. Translators: Message when trying to enable magnifier while screen curtain is active
-#: _magnifier\magnifier.py:132
+#: _magnifier\magnifier.py:140
 msgctxt "magnifier"
 msgid ""
 "Cannot enable magnifier: screen curtain is active. Please disable screen "
@@ -21033,13 +21061,13 @@ msgid ""
 msgstr "无法启用放大镜：黑屏已开启，请先关闭黑屏。"
 
 #. Translators: Spoken message when magnifier is disabled due to screen curtain being enabled.
-#: _magnifier\magnifier.py:223
+#: _magnifier\magnifier.py:231
 msgctxt "magnifier"
 msgid "Magnifier is active, disabling it before enabling screen curtain"
 msgstr "已开启放大镜，开启黑屏前请先将其关闭"
 
 #. Translators: Spoken message when magnifier is re-enabled after screen curtain is disabled.
-#: _magnifier\magnifier.py:241
+#: _magnifier\magnifier.py:249
 msgctxt "magnifier"
 msgid "Magnifier was active before screen curtain, re-enabling it"
 msgstr "已重启放大镜"
@@ -21051,169 +21079,177 @@ msgid "Magnifier spotlight stopped"
 msgstr "显示放大视图"
 
 #. Translators: Action description for zooming in.
-#: _magnifier\utils\types.py:59
+#: _magnifier\utils\types.py:60
 msgctxt "magnifier action"
 msgid "zoom in"
 msgstr "放大"
 
 #. Translators: Action description for zooming out.
-#: _magnifier\utils\types.py:61
+#: _magnifier\utils\types.py:62
 msgctxt "magnifier action"
 msgid "zoom out"
 msgstr "缩小"
 
 #. Translators: Action description for panning left.
-#: _magnifier\utils\types.py:63
+#: _magnifier\utils\types.py:64
 msgctxt "magnifier action"
 msgid "pan left"
 msgstr "左移"
 
 #. Translators: Action description for panning right.
-#: _magnifier\utils\types.py:65
+#: _magnifier\utils\types.py:66
 msgctxt "magnifier action"
 msgid "pan right"
 msgstr "右移"
 
 #. Translators: Action description for panning up.
-#: _magnifier\utils\types.py:67
+#: _magnifier\utils\types.py:68
 msgctxt "magnifier action"
 msgid "pan up"
 msgstr "上移"
 
 #. Translators: Action description for panning down.
-#: _magnifier\utils\types.py:69
+#: _magnifier\utils\types.py:70
 msgctxt "magnifier action"
 msgid "pan down"
 msgstr "下移"
 
 #. Translators: Action description for panning to left edge.
-#: _magnifier\utils\types.py:71
+#: _magnifier\utils\types.py:72
 msgctxt "magnifier action"
 msgid "pan to left edge"
 msgstr "移到左边"
 
 #. Translators: Action description for panning to right edge.
-#: _magnifier\utils\types.py:73
+#: _magnifier\utils\types.py:74
 msgctxt "magnifier action"
 msgid "pan to right edge"
 msgstr "移到右边"
 
 #. Translators: Action description for panning to top edge.
-#: _magnifier\utils\types.py:75
+#: _magnifier\utils\types.py:76
 msgctxt "magnifier action"
 msgid "pan to top edge"
 msgstr "移到顶边"
 
 #. Translators: Action description for panning to bottom edge.
-#: _magnifier\utils\types.py:77
+#: _magnifier\utils\types.py:78
 msgctxt "magnifier action"
 msgid "pan to bottom edge"
 msgstr "移到底边"
 
 #. Translators: Action description for toggling settings.
-#: _magnifier\utils\types.py:79
+#: _magnifier\utils\types.py:80
 msgctxt "magnifier action"
 msgid "toggle follow settings"
 msgstr "切换跟随设置"
 
 #. Translators: Action description for toggling color filters.
-#: _magnifier\utils\types.py:81
+#: _magnifier\utils\types.py:82
 msgctxt "magnifier action"
 msgid "toggle filters"
 msgstr "切换颜色滤镜"
 
+#. Translators: Action description for changing magnifier view.
+#: _magnifier\utils\types.py:84
+#, fuzzy
+#| msgid "Pan the magnifier view up"
+msgctxt "magnifier action"
+msgid "change magnifier view"
+msgstr "上移放大视图"
+
 #. Translators: Action description for changing full-screen mode.
-#: _magnifier\utils\types.py:83
+#: _magnifier\utils\types.py:86
 msgctxt "magnifier action"
 msgid "change full-screen mode"
 msgstr "更改全屏模式"
 
 #. Translators: Action description for starting spotlight mode.
-#: _magnifier\utils\types.py:85
+#: _magnifier\utils\types.py:88
 msgctxt "magnifier action"
 msgid "start spotlight mode"
 msgstr "显示标准视图"
 
 #. Translators: Focus type for magnifier to follow - mouse cursor.
-#: _magnifier\utils\types.py:101
+#: _magnifier\utils\types.py:104
 msgctxt "magnifier follow focus type"
 msgid "Mouse"
 msgstr "鼠标"
 
 #. Translators: Focus type for magnifier to follow - system focus (active element).
-#: _magnifier\utils\types.py:103
+#: _magnifier\utils\types.py:106
 msgctxt "magnifier follow focus type"
 msgid "System focus"
 msgstr "系统焦点"
 
 #. Translators: Focus type for magnifier to follow - review cursor position.
-#: _magnifier\utils\types.py:105
+#: _magnifier\utils\types.py:108
 msgctxt "magnifier follow focus type"
 msgid "Review cursor"
 msgstr "查看光标"
 
 #. Translators: Focus type for magnifier to follow - navigator object position.
-#: _magnifier\utils\types.py:107
+#: _magnifier\utils\types.py:110
 msgctxt "magnifier follow focus type"
 msgid "Navigator object"
 msgstr "导航对象"
 
-#. Translators: Magnifier type - full-screen mode.
-#: _magnifier\utils\types.py:123
+#. Translators: Magnifier view - full-screen mode.
+#: _magnifier\utils\types.py:126
 msgctxt "magnifier"
 msgid "Fullscreen"
 msgstr "全屏"
 
-#. Translators: Magnifier type - fixed mode.
-#: _magnifier\utils\types.py:125
+#. Translators: Magnifier view - fixed mode.
+#: _magnifier\utils\types.py:128
 msgctxt "magnifier"
 msgid "Fixed"
 msgstr "固定"
 
-#. Translators: Magnifier type - docked mode.
-#: _magnifier\utils\types.py:127
+#. Translators: Magnifier view - docked mode.
+#: _magnifier\utils\types.py:130
 msgctxt "magnifier"
 msgid "Docked"
 msgstr "停靠"
 
-#. Translators: Magnifier type - lens mode.
-#: _magnifier\utils\types.py:129
+#. Translators: Magnifier view - lens mode.
+#: _magnifier\utils\types.py:132
 msgctxt "magnifier"
 msgid "Lens"
 msgstr "镜头"
 
 #. Translators: Magnifier focus mode - center mouse/focus on screen.
-#: _magnifier\utils\types.py:156
+#: _magnifier\utils\types.py:159
 msgctxt "magnifier"
 msgid "Center"
 msgstr "居中"
 
 #. Translators: Magnifier focus mode - follow focus at screen borders.
-#: _magnifier\utils\types.py:158
+#: _magnifier\utils\types.py:161
 msgctxt "magnifier"
 msgid "Border"
 msgstr "边缘"
 
 #. Translators: Magnifier focus mode - maintain relative position.
-#: _magnifier\utils\types.py:160
+#: _magnifier\utils\types.py:163
 msgctxt "magnifier"
 msgid "Relative"
 msgstr "相对"
 
 #. Translators: Magnifier color filter - no filter applied.
-#: _magnifier\utils\types.py:173
+#: _magnifier\utils\types.py:176
 msgctxt "magnifier"
 msgid "Normal"
 msgstr "正常"
 
 #. Translators: Magnifier color filter - grayscale/black and white.
-#: _magnifier\utils\types.py:175
+#: _magnifier\utils\types.py:178
 msgctxt "magnifier"
 msgid "Grayscale"
 msgstr "灰度"
 
 #. Translators: Magnifier color filter - inverted colors.
-#: _magnifier\utils\types.py:177
+#: _magnifier\utils\types.py:180
 msgctxt "magnifier"
 msgid "Inverted"
 msgstr "反转"
