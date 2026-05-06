@@ -1,6 +1,6 @@
 # NVDA 简体中文翻译
 
-该存储库用于集中管理 NVDA 主程序及插件的简体中文翻译，以实现近似于原 SVN 翻译系统的体验。
+此存储库用于集中管理 NVDA 主程序及插件的简体中文翻译，以实现近似于原 SVN 翻译系统的体验。
 
 有关如何翻译 NVDA 的更多信息，请参看 [NVDA 开发者指南（英语）](https://download.nvaccess.org/documentation/developerGuide.html)的 [Translation](https://download.nvaccess.org/documentation/developerGuide.html#translation) 章节。
 
@@ -81,10 +81,10 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 2. 等待工作流运行完成。
 3. 拉取 `Uploads` 分支到本地仓库，请勿在拉取远程 `Uploads` 分支前向本地 `Uploads` 分支提交新的翻译更改，以避免合并冲突。
-4. 当推送 `Translation/miscDeps` 文件夹中的翻译到 `Uploads` 分支时，GitHub Actions 会自动在 nvaccess/nvda 存储库的 beta分支创建Pull request。
+4. 当推送 `Translation\miscDeps` 文件夹中的翻译到 `Uploads` 分支时，GitHub Actions 会自动在 nvaccess/nvda 存储库的 beta分支创建Pull request。
 
-   - PR 初始为 Draft 状态，此时仍可向 `Uploads` 分支推送 `Translation/miscDeps` 文件夹中的翻译更改。
-   - 当准备让 NV Access 合并这些更改到 NVDA 时，请通知 PR 的作者或 NV Access 将 PR 标记为 Ready for review，在此之后不应再向 `Uploads` 分支推送 `Translation/miscDeps` 文件夹中的翻译更改。
+   - PR 初始为 Draft 状态，此时仍可向 `Uploads` 分支推送 `Translation\miscDeps` 文件夹中的翻译更改。
+   - 当准备让 NV Access 合并这些更改到 NVDA 时，请通知 PR 的作者或 NV Access 将 PR 标记为 Ready for review，在此之后不应再向 `Uploads` 分支推送 `Translation\miscDeps` 文件夹中的翻译更改。
 
 5. 仅可使用该功能上传 NVDA beta 开发周期的翻译。
 6. 当 NVDA 的 [beta 发布通道](https://download.nvaccess.org/releases/beta/)有新版本发布时，请通过 Pull request 将 `Uploads` 合并到 `main`。
@@ -99,19 +99,19 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 ## 翻译 NVDA 插件
 
-该存储库可自动上传和下载在 [Crowdin 的 nvdaAddons 项目](https://zh.crowdin.com/project/nvdaaddons)中注册的插件的翻译。
+此存储库可自动上传和下载在 [Crowdin 的 nvdaAddons 项目](https://zh.crowdin.com/project/nvdaaddons)中注册的插件的翻译。
 
-- 可在 `version_year.version_major` 分支的 `Translation/Addons` 文件夹提交针对这些插件的翻译。
+- 可在 `version_year.version_major` 分支的 `Translation\Addons` 文件夹提交针对这些插件的翻译。
 
   - 应以插件 ID 命名存储插件翻译的文件夹。
   - 插件的界面翻译命名为 `nvda.po`。
   - 插件的文档翻译命名为 `readme.xliff`。
 
-- 提交到该存储库的插件翻译会在每天05:00(UTC) 自动更新。
+- 提交到此存储库的插件翻译会在每天05:00(UTC) 自动更新。
 - 还可在任意分支手动运行 [Update Addons Translations from Crowdin 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/UpdateAddonTranslations.yaml)来新增或更新指定的插件翻译。
 
-  - 留空 Add-on ID 字段会更新该存储库已有插件的翻译。
-  - 在 Add-on ID 字段填写特定的插件 ID，如该存储库不包含该插件的翻译，则将其下载到存储库，否则更新该插件的翻译。
+  - 留空 Add-on ID 字段会更新此存储库已有插件的翻译。
+  - 在 Add-on ID 字段填写特定的插件 ID，如此存储库不包含该插件的翻译，则将其下载到存储库，否则更新该插件的翻译。
   - 如需填写多个插件 ID，多个ID之间使用空格（ ）分隔。
 
 ## L10nUtilTools.bat 的使用说明
@@ -125,7 +125,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 - 上传已翻译的文件到 Crowdin
 - 从 Crowdin 下载已翻译的文件，并支持将 NVDA 主程序的翻译文件自动提交到您的本地仓库
 
-目前，NVDA 的翻译（Markdown 转换到 xliff 命令除外）由 NVDA 提供的 l10nUtil 进行管理，插件的翻译以及 NVDA 的 Markdown 转换到 xliff 命令由 [nvdaL10n](https://github.com/nvaccess/nvdaL10n) 提供的 l10nUtil 进行管理。
+目前，NVDA 的翻译（Markdown 转换到 xliff 命令除外）由 NVDA 提供的 l10nUtil 进行管理，插件的翻译以及 NVDA 的 Markdown 转换到 xliff 命令由 nvdaL10n 提供的 l10nUtil 进行管理。
 
 ### 支持的命令
 
@@ -185,7 +185,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 
 ### 注意
 
-- 如要使用 nvdaL10n 提供的 l10nUtil，需根据 [Installation and Building an Executable](https://github.com/nvaccess/nvdaL10n#installation-and-building-an-executable) 中提供的说明配置 python 虚拟环境或[下载 l10nUtil.exe](https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe)，并将下载的文件放在本存储库的 `Tools` 文件夹中；
+- 如要使用 nvdaL10n 提供的 l10nUtil，需根据 [Installation and Building an Executable（英语）](https://github.com/nvaccess/nvdaL10n#installation-and-building-an-executable) 中提供的说明配置 python 虚拟环境或[下载 l10nUtil.exe](https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe)，并将下载的文件放在此存储库的 `Tools` 文件夹中；
 - 执行标有 `*` 的命令时，可能需要与该工具进行交互或配置必要的运行环境，请根据提示输入信息或配置运行环境后，该命令才可正确执行。
 - `GEC`、`GEU`、`GEK`、`GEL`、`MHC`、`MHU` 命令生成的文件位于 `Preview` 文件夹下，为了兼容 Poedit 的使用习惯，`GEL` 命令还会在 nvda.po 的所在文件夹创建 nvda.mo 的复本。
 - `GET` 命令生成的文件位于 `Preview\Test` 文件夹下，这些文件符合 NVDA 的文件结构，可直接复制到 NVDA 程序所在文件夹进行测试。
@@ -193,9 +193,9 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 - `GMC`、`GMU`、`GMX` 命令生成的文件位于 `ProcessTranslation\Markdown` 文件夹下。
 - `MXC`、`MXU` 命令使用前需要克隆 [NVDA](https://github.com/nvaccess/nvda) 源代码到本地，随后即可以本地代码仓库当前分支的 `user_docs\en` 中的相应 xliff 文件为模板生成所需 xliff 文件。
 
-  生成的文件会直接替换本存储库的原始 xliff 文件以便于将其上传到 Crowdin，因此在执行该命令前，请确保原始文件的翻译更改已提交。
+  生成的文件会直接替换此存储库的原始 xliff 文件以便于将其上传到 Crowdin，因此在执行该命令前，请确保原始文件的翻译更改已提交。
 
-  由于该命令生成的 xliff 文件与从 Crowdin 获取文件的缩进不同，因此请勿将使用该命令生成的文件直接提交到本存储库，可先在本地上传该文件到 Crowdin，随后再从 Crowdin 下载该文件并提交。
+  由于该命令生成的 xliff 文件与从 Crowdin 获取文件的缩进不同，因此请勿将使用该命令生成的文件直接提交到此存储库，可先在本地上传该文件到 Crowdin，随后再从 Crowdin 下载该文件并提交。
 
 - `UDL` 命令使用前，需要将用于更新 nvda.po 的 nvda.pot 翻译模板复制到存储库的 `ProcessTranslation\PotPo` 文件夹，并且该命令会直接替换存储库的原始 nvda.po 文件，因此在执行该命令前，请确保原始文件的翻译更改已提交到存储库。
 - `UPC`、`UPU` 和 `UPA` 命令使用前，需要将原始 xliff 文件复制到存储库的 `ProcessTranslation\Xliff` 文件夹，如未检测到所需文件，系统会从存储库的 `main` 分支提取。
@@ -208,18 +208,18 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 - 下载并提交系列命令只会提交已下载的翻译文件到本地存储库，可手动将其推送到远程仓库或撤销更改。
 - `MXX` 命令使用前需要将指定插件的 `readme.md` 文档重命名为插件 ID.md 并复制到 `ProcessTranslation\Markdown` 文件夹下，随后通过该命令即可以相应插件本地代码仓库当前分支文档的 xliff 文件为模板生成所需 readme.xliff 文件。
 
-  生成的文件会直接替换本存储库的原始 xliff 文件以便于将其上传到 Crowdin，因此在执行该命令前，请确保原始文件的翻译更改已提交。
+  生成的文件会直接替换此存储库的原始 xliff 文件以便于将其上传到 Crowdin，因此在执行该命令前，请确保原始文件的翻译更改已提交。
 
-  由于该命令生成的 xliff 文件与从 Crowdin 获取文件的缩进不同，因此请勿将使用该命令生成的文件直接提交到本存储库，可先在本地上传该文件到 Crowdin，随后再从 Crowdin 下载该文件并提交。
+  由于该命令生成的 xliff 文件与从 Crowdin 获取文件的缩进不同，因此请勿将使用该命令生成的文件直接提交到此存储库，可先在本地上传该文件到 Crowdin，随后再从 Crowdin 下载该文件并提交。
 
 - `UTC` 命令可利用 msgmerge 更新翻译后保留历史翻译的特性来快速解决 po 文件的合并冲突，但有时仍可导致部分翻译丢失，因此如无大量合并冲突需要处理，仍应首选通过手动解决冲突的方式进行合并。
 
 ## 其他注意事项
 
-1. 该存储库的 `main` 分支用于保存发布版本的翻译以供将文档上传到 Crowdin 时的差异比较，因此除更新发布版本的翻译外，不应向该分支提交任何更改。
-2. 请尽量通过该存储库提交 NVDA 简体中文的翻译更改，以避免提交的翻译不慎被自动化流程覆盖的可能。
-3. 该存储库的部分工作流的正常运行依赖于指定的存储库[变量](https://docs.github.com/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository)和[机密](https://docs.github.com/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets#creating-secrets-for-a-repository)。
-   Fork 该存储库时，只有正确设置这些变量和机密，相应的工作流才能正常运行。
+1. 此存储库的 `main` 分支用于保存发布版本的翻译以供将文档上传到 Crowdin 时的差异比较，因此除更新发布版本的翻译外，不应向该分支提交任何更改。
+2. 请尽量通过此存储库提交 NVDA 简体中文的翻译更改，以避免提交的翻译不慎被自动化流程覆盖的可能。
+3. 此存储库的部分工作流的正常运行依赖于指定的存储库[变量](https://docs.github.com/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository)和[机密](https://docs.github.com/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets#creating-secrets-for-a-repository)。
+   Fork 此存储库时，只有正确设置这些变量和机密，相应的工作流才能正常运行。
    这些变量和机密的名称、值、影响的工作流及作用如下：
 
    | 类型 | 名称 | 值 | 影响的工作流 | 作用 |
