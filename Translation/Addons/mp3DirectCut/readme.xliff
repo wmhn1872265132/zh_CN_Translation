@@ -1,242 +1,248 @@
-<?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/mp3DirectCut/767c898f81505885f88406b89cf177f43d952075/readme.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/abdel792/mp3DirectCut/b21b4243fc765e07c90bf61e82879bbb414c7d10/readme.md">
     <skeleton>
-$(ID:13e2c32b-9b90-43f5-8c57-e22bae167f08)
+$(ID:15cc7ab7-30a6-488d-bdbc-7022256a7573)
 
-* $(ID:7347f451-ac30-42d4-8641-d9a179715264)
-* $(ID:ff3e64a6-6da4-432d-a8d8-ed56526a0ef7)
-* $(ID:1e16a7bd-03d3-4126-8afc-5da07e37d3ae)
+* $(ID:6bb1e0f7-1830-4b4d-b627-2b96e189b9ed)
 
-# $(ID:45e5774e-4f09-495e-8969-b91975752f07)
+# $(ID:7fe450b3-aef0-4239-a842-98020d8e9d42)
 
-$(ID:1baeb79a-e508-47b2-9950-5dcd26ae3902)
+$(ID:9ce1b91c-df34-49a9-9eb2-ad1a69c19d19)
 
-$(ID:47f1bc6d-5765-4646-9cf7-33d91d338242)
+$(ID:9aafc51d-520d-4342-a134-5e6d87d64ee3)
 
-## $(ID:463cdc82-ecd6-4c29-a790-0ec9081f6396)
+## $(ID:c7c41bb6-65c7-4051-aae5-ec20e956d271)
 
-$(ID:3f6d16d4-3e48-44b3-8011-0c68c4e347e2)
+$(ID:57b5ada1-0a8a-4dcb-b11e-02a314573ad1)
 
-* $(ID:14a99921-e499-4f04-99cc-cdd6c1c86b59)
+* $(ID:784d1047-e603-4ae1-a45c-1bc70404877f)
 
-    * $(ID:dfad8cfc-4d02-4dbd-81d2-94bd6e78569d)
+    * $(ID:31d51de0-1b7f-44cc-8931-938fad4225b8)
 
-* $(ID:1417a7ad-a563-4f6b-ac43-7f7dea331ab8)
+* $(ID:6d740b88-1d4b-4452-8345-be94fb4766fb)
 
-    * $(ID:02e45e49-55be-4bfe-ae02-24a99149a51c)
-    * $(ID:285f9b31-8221-481d-8184-7395cb69210f)
+    * $(ID:77a8851c-23d7-4348-af99-87490cd0cfc5)
+    * $(ID:15d5d527-2129-46ca-87d1-dc00832a9eb4)
 
-* $(ID:6ab9c324-86b2-47f2-ba49-0b77d50d1c8e)
+* $(ID:0d344c04-6cdc-48a1-bee5-5583ed5cfa89)
 
-    * $(ID:c47ed13d-f881-41b8-9c0c-efbdfa204502)
-    * $(ID:969be4b6-6805-4b5b-af06-6cfce372c2ac)
+    * $(ID:7ac6a745-4519-421f-a022-a79e2926e241)
+    * $(ID:85d69d3e-3f7d-4424-ad1e-c1221209a574)
 
-* $(ID:2488e7aa-d088-4e07-bcfa-a009cfd7177c)
+* $(ID:3eb47558-7419-4432-84e9-7531d9a8f077)
 
-    * $(ID:69b1e352-0ac2-48a5-8507-769607a519fe)
+    * $(ID:c8f34d55-2a7c-4679-9c7e-24018ff81ac0)
 
-* $(ID:da03e8aa-ede9-4467-8f17-b5a433e42511)
+* $(ID:41251e66-93b8-4cb4-b834-6882c8dee1ea)
 
-    * $(ID:93cc5a94-8016-4dfe-9012-555aa96e8874)
+    * $(ID:2af33010-1b7a-431b-9294-44c99bd807a6)
 
-* $(ID:1a143e33-5b5b-4cfe-9f59-507942f0ef99)
+* $(ID:ab4d924a-0731-4ae9-9547-327803433db6)
 
-    * $(ID:80f6b3f8-db32-41e8-8c18-57b4f778bf83)
-    * $(ID:26536769-46c0-45f2-aa85-3bdcdd418e93)
+    * $(ID:65fc61a2-5cd9-47c4-bea3-aeb24c4a3da7)
+    * $(ID:066fe64d-51fe-4d6d-b4c4-aaaf9a5ec429)
 
-* $(ID:343efea4-5e2c-4cc6-9fa4-312767973cc4)
+* $(ID:40285bb2-3f77-46f9-9df5-bed836f993bb)
 
-    * $(ID:6d2f4f6a-7759-48b3-b1b8-ba5e52cbadd9)
+    * $(ID:0853888c-1458-4340-89b8-232d6cf493e0)
 
-* $(ID:826edcb3-4cfb-458f-875a-eabac0a169c7)
+* $(ID:561340d8-2b6e-4aeb-bd7a-cadfad7d06b7)
 
-    * $(ID:7516505a-5ff5-4981-a608-1568976046fe)
-    * $(ID:a724ed50-1d04-407d-9d7b-80e70e748323)
+    * $(ID:04c813d2-00d2-4f78-8b59-3c9d3ed289f1)
+    * $(ID:ff48f8e5-cc58-4560-b58c-c8ebb9f30976)
 
-* $(ID:90fcb94b-d826-41b5-b220-832a2dd466b5)
+* $(ID:bf819f1c-81f8-4a99-af19-df0915c50874)
 
-    * $(ID:0ecaf8f3-90ae-43d7-adb6-7bbb55635f97)
-    * $(ID:78d3b3b8-426d-40d9-9224-e12f043ff920)
-    * $(ID:af7b35e2-edcf-4991-b893-a6781fcb20b2)
-    * $(ID:03fdf638-9e6e-4821-8ba1-9cbd2a0265d2)
+    * $(ID:869d8dc1-2c5a-48f1-92f0-f70c94d68fa4)
+    * $(ID:ca5dbdf7-79da-43ef-9178-46e5c66f26ab)
+    * $(ID:fb48ef47-9d8a-4002-8039-5041e2badaa5)
+    * $(ID:374146e0-e5f6-4707-93cf-5312c3ad3e3f)
 
-* $(ID:037120a5-1f18-42dc-a490-25d108093517)
+* $(ID:21204286-1d1a-40e0-b08b-947f207bec5b)
 
-    * $(ID:a0313091-58f0-404a-bf5a-c9d0e6e85cd2)
+    * $(ID:a4a4890b-8bc7-46e8-b9f8-f6d1cedff681)
 
-* $(ID:f09d1d52-66bd-4340-bd9c-938921929620)
+* $(ID:d046aed0-379f-4a66-a324-dd7c43a4d823)
 
-    * $(ID:2f34a311-9be4-401e-9840-894d70ee1d07)
+    * $(ID:d924ec63-bd63-4db8-ba8f-c6b9f894fc69)
 
-* $(ID:01a839cc-35ea-4ac3-8666-1919e9b6b753)
+* $(ID:be5964c1-bc15-4e08-9e67-59732d0f9f23)
 
-    * $(ID:8a9f2278-9f5d-480e-8b45-3ca74c607e2a)
-    * $(ID:7a77b062-302b-4c3d-8c87-f9e8018715dc)
+    * $(ID:e0dddad0-4745-4d13-9b8a-25019ac99eb5)
+    * $(ID:4d12081b-31df-4180-b8f6-b72455a014e4)
 
-* $(ID:8a2ebe55-4cdf-4fe6-bb5d-262b22510ac4)
+* $(ID:0eb8a4f4-cbcf-4e41-a3d6-ffc726da50d6)
 
-    * $(ID:89a82dee-a077-480b-91ca-e1f7c216374d)
+    * $(ID:6fd76d03-faab-4e85-b109-b6504f104879)
 
-* $(ID:f114af7b-808b-4c0e-8b49-2862e2d59f4b)
+* $(ID:e9c28d21-7f75-432c-87c6-de026acc54cd)
 
-    * $(ID:8f3d66c6-b83d-4221-81fe-7e192556d47d)
-    * $(ID:269fd8ed-0a5b-4f2f-b753-6a38a2d8dbde)
+    * $(ID:3d62b71c-f5a4-4ff8-b86d-2ec131f370d9)
+    * $(ID:e5cb7b7a-2600-46b3-8407-95d229638d18)
 
-* $(ID:5cdfb089-7457-48ac-bd1a-84d9eb15306b)
+* $(ID:1f72492f-83fd-41a9-a2bd-94dd167bd572)
 
-    * $(ID:e851b29d-13b4-4d24-920a-c79776bc2675)
-    * $(ID:1f605b61-5111-4dce-96a8-30d52684bf72)
+    * $(ID:256a3243-38e9-4c81-8855-dd98de6b5dc3)
+    * $(ID:885f6056-2203-4e59-b773-2f2b00077313)
 
-* $(ID:676b33f2-10fb-4253-b432-b581cba86257)
+* $(ID:6952939c-84fb-4a5c-b092-4573d3e7e73d)
 
-    * $(ID:f62b8368-439c-463c-8536-86fa729006f0)
+    * $(ID:cce34cf6-d56f-4d89-a5ad-c36ece5f6fd1)
 
-* $(ID:c856de0d-7508-4f14-bd53-ec0ab6d85057)
+* $(ID:91c17148-80c0-4f48-82f4-1f629a7d30e6)
 
-    * $(ID:561be79e-79fa-4a5e-a547-9024fe1470b9)
-    * $(ID:dbf89cde-2c8a-4ed5-9999-93b614bf3fcb)
+    * $(ID:a66fb2c0-425d-4c5e-bb23-660101913bf6)
+    * $(ID:81d26f77-73b5-4089-9cd0-193d47ca9f8f)
 
-* $(ID:cf3a18ac-bb2f-4d3f-a83b-6839cb9941c2)
+* $(ID:09c6fa64-137f-43a0-92e2-1ca2dc11588d)
 
-    * $(ID:385c3404-d53f-4fc1-b917-23f5565b8c32)
+    * $(ID:f646022d-d6a2-4f7e-80bc-15910e96a992)
 
-* $(ID:8b72a48b-474c-43b0-8387-60e7ba659ab8)
+* $(ID:e05d123b-d273-45e5-a397-5a888929c6b9)
 
-    * $(ID:c599e9b7-71d4-4e75-be9a-d8df034f84a3)
+    * $(ID:39c19f59-b3ce-450f-b4e8-bfcd9971027f)
 
-* $(ID:e7fe3bd1-1b54-4679-b231-5736c7738f0f)
+* $(ID:26727fd7-a9a0-4127-998b-5a2bfa9afdb8)
 
-    * $(ID:9b7e5ecc-f711-48fd-baac-137bf297b7e0)
+    * $(ID:a4ea4b94-649e-4bb5-b75b-a626a38ec985)
 
-* $(ID:34792cd2-a398-43bf-8269-a90d524754c3)
+* $(ID:d25d50a7-ee1a-4db9-8907-f47184473ca6)
 
-    * $(ID:63b2d844-6010-40b5-a032-ed41cbb2aa88)
+    * $(ID:0ae0ca79-b9d0-4b7b-b776-5edb74aa00f3)
 
-* $(ID:386ad842-ad4b-4a08-aeb1-cc82ba3caf75)
+* $(ID:774b59c1-16d0-4325-82ad-e015b15a1d07)
 
-    * $(ID:4bf33aec-e656-4d5e-baba-64c00249500a)
+    * $(ID:60e97ee5-87d1-42c8-804c-cae44321f2b7)
 
-* $(ID:009c2c8a-1c18-4429-a4b1-731421141ff9)
+* $(ID:5d770696-b224-49e0-a155-424881d41b50)
 
-    * $(ID:bda56e75-2961-4cc7-a3d5-ea53175f9550)
-    * $(ID:8daa51ed-6937-49cf-b1a4-6bdb85c08c1d)
-    * $(ID:62549db6-02d8-473f-8075-0a85c1db3e18)
-    * $(ID:3f999390-b48d-43eb-81bb-ffe210b5e438)
-    * $(ID:38b6de6f-b64a-4ad0-8667-702be0994cea)
+    * $(ID:6ebf7dcb-c7f6-4e96-b643-97862dde168a)
+    * $(ID:95e299c3-774f-49ed-be1a-f015d8687e68)
+    * $(ID:1360f3a1-e2a2-4604-8910-307dabeb0c4b)
+    * $(ID:3450ccda-1a6a-4f1d-bfea-2a41e8a18979)
+    * $(ID:a6229a09-1280-4024-a194-00a0d6b9f094)
 
-* $(ID:34d318c9-3dcb-46cf-8943-771b1a8c284b)
+* $(ID:5c1188ef-bf27-49a9-8aa7-a8ab1eeb5050)
 
-    * $(ID:5455a15a-777e-4741-8186-4424c7230dc0)
-    * $(ID:2c26e0dc-cdd5-428b-a4c7-46606fd716de)
-    * $(ID:3b4bd1fd-0221-4b4c-a0ff-7c5b4243c1a1)
-    * $(ID:37223e90-9b92-42c8-a2d3-00d17b95afd3)
+    * $(ID:2ccb60cc-deb4-4759-b5d1-8569c17c4ac3)
+    * $(ID:8587aa60-72fa-45e1-85b3-bef47af45536)
+    * $(ID:3b60c040-0666-4852-9919-a7ca3e8e9547)
+    * $(ID:1930cf54-8269-4766-88a3-fd0c34ea979f)
 
-* $(ID:08bc486d-9d20-4b56-9fba-6fa2574077e9)
+* $(ID:1ae6c9dc-3b75-4fdb-87b0-509643273cf2)
 
-    * $(ID:98ac7851-4b58-4689-8afe-e59a243018a9)
+    * $(ID:f72906d0-903f-4643-a840-b50f1e2fb11b)
 
-## $(ID:08a84ca4-e4e7-4552-b469-5aca7460e8ac)
+## $(ID:f9012e3b-bdb8-4ea8-8e4f-5e6299201b98)
 
-* $(ID:3cd121c0-ee46-4e9d-8835-b0ba352ce59f)
+* $(ID:a7a9723a-969c-4096-8738-5e5238cab364)
 
-## $(ID:b0a7f1df-9f90-4fc4-9ed3-f8d89a261e6f)
+## $(ID:535bb5a3-f4bf-44a1-b316-19b52a8a4fbf)
 
-* $(ID:6eceb620-1ca4-4033-8c79-d42228e82775)
-* $(ID:c8406f81-6d26-4e58-8fb1-15a648e02952)
-* $(ID:c5c879cd-dfd9-4a21-a0d0-19adf87928dd)
+* $(ID:dca7b40c-c7d6-4c07-80fc-d1ffe3a613da)
 
-## $(ID:ba0a0dc2-2786-4420-8b2e-46f85937fa8c)
+## $(ID:a6cd643e-e863-4e71-8336-422818e540c3)
 
-* $(ID:47a5183c-e6ec-4d33-ad7b-88e07e5c7000)
-* $(ID:27cd38b8-09ab-4a36-b8d9-2120cf2345ee)
+* $(ID:a7143ffb-df9a-4b29-98ee-ad964f856529)
+* $(ID:367c3319-0b4c-48cf-97db-9601ec7e297e)
 
-## $(ID:dfaa1371-e5b0-4627-ab7a-43b41bb5b458)
+## $(ID:fb11100f-af79-4b1e-9f91-c3e8b4dde50e)
 
-* $(ID:f987f535-2e68-4b21-99d3-84ebbf9b29ed)
- * $(ID:f2e37bc3-3794-48e9-a744-bb3c5b5a0e6f)
- * $(ID:3a661f9e-cec6-4a2a-a7f0-634807fcd3bb)
- * $(ID:c00d7ced-1d31-40bf-a974-856e6ed07a15)
-* $(ID:3d40066d-19de-4d7b-8d18-c5e85354ff10)
+* $(ID:8d2a481b-d856-4e1b-9487-cb7bdb7f575b)
 
-## $(ID:07d25ca4-a45c-4674-83f7-cc0fa6a7ee76)
+## $(ID:e8c3613c-76bc-47f2-a109-905c8d80cd68)
 
-* $(ID:682848e2-b2a9-4a69-9e5d-2700c7612c76)
+* $(ID:0547d854-afa5-4506-afe3-6502ca19e14f)
+* $(ID:ba637e04-378b-4124-a4fa-71bab1525a17)
+* $(ID:c5c62c63-0b24-4eba-9d13-32a8d3da5460)
 
-## $(ID:d2d9f085-4248-420b-8f4c-4df2ddbae4ab)
+## $(ID:83bef9b5-1d3a-46f2-a3ab-03982c6468cb)
 
-* $(ID:ebbdd611-7e7f-401c-8255-cb7dee44c5cb)
-* $(ID:14eca2a6-c5e7-4f62-9f9b-c55c4b5c7121)
+* $(ID:fbb5ed8e-4427-49fd-a5d6-bf28c190a627)
+* $(ID:570346fe-adb6-4882-bb04-41a43c4c092f)
 
-## $(ID:c6262ed5-46a0-4623-99b7-3cdf65ff9bed)
+## $(ID:8d4c8c27-e3f4-4100-9cc9-826b00060908)
 
-* $(ID:a995f3f7-95aa-4371-9188-fa576457e072)
-* $(ID:c05909bc-a11c-4028-9450-8bad04f460c6)
-* $(ID:cd1920c7-ad1e-46ba-a602-6cf54f355981)
+* $(ID:e8ba4749-c53d-4e41-8c0d-50451b173fe8)
+ * $(ID:86673b46-6f5b-43a9-9039-f84f7d29be8e)
+ * $(ID:e5e8e4e2-8e2c-4415-9334-1df71a3e1e06)
+ * $(ID:3fb3755d-dbc9-472c-9b64-9ff6dbaa780d)
+* $(ID:7d97be7c-536c-400b-8ccf-b204db994ce1)
 
-## $(ID:341154e0-df8e-4feb-a2ff-dd01c8d3eab0)
+## $(ID:ad3f8142-fe30-478a-a8c8-aeafdd06998f)
 
-* $(ID:c50872bc-27b1-4c03-846a-39cb71844bf2)
-* $(ID:a3983a0c-8031-4176-864d-67842a7c94e2)
+* $(ID:d3b7925d-fb1c-49e7-b4a8-1227f3db3049)
 
-## $(ID:c4d263ff-8f40-4ed2-8176-dc9ac2b2f653)
+## $(ID:d9097ac2-cb6e-4e4f-ba2e-64fe24ffa9cd)
 
-* $(ID:e6801a52-c529-4e15-891d-294e34f21541)
-* $(ID:2748192c-f069-431e-9c0e-2b3642d4f6eb)
-* $(ID:ea95c0d6-9aab-4946-bf6a-73fdc07a3901)
+* $(ID:440ccc06-78e5-4e3a-8ac8-8ef37166503a)
+* $(ID:f3cba72e-0e21-4d7c-a19c-052a2260b5ee)
 
-## $(ID:2ab55415-b698-4f12-a151-2886daa12557)
+## $(ID:5a38b213-2e92-48af-b07f-21f487768369)
 
-* $(ID:41814829-5d56-438d-9dc9-3dbff6ecefcc)
-* $(ID:f995246f-e6f9-4d8c-86c5-65657f960fe6)
-* $(ID:0b01c061-d23e-418f-97b9-808b387f18e1)
-* $(ID:3c686428-791f-4b2e-a42a-d63fb06b8157)
+* $(ID:b61da808-117d-41cc-bc09-e399226fa8c2)
+* $(ID:b082a9fa-786a-4ddd-af1d-2f1ce19be204)
+* $(ID:2259785f-110b-43f1-8a5a-b45f6e4cf2c3)
 
-## $(ID:61369089-5e36-4671-8051-a084b3d598ea)
+## $(ID:78004108-5e77-4a9b-bfeb-4f44db669f79)
 
-* $(ID:bdb55962-7a40-46be-9a25-17127ee53557)
+* $(ID:555b17c6-0554-4f77-bd41-763c2255c79b)
+* $(ID:17fba8c8-be11-4e89-9d4c-a6b3a00116c8)
 
-## $(ID:7dd91d5d-448b-4f1b-846f-42f4459e8b27)
+## $(ID:bfa2beb5-3886-4d1f-a08e-a4b51c6bbb09)
 
-* $(ID:a2c6f6f4-50c5-4333-87b2-d28b960db2ed)
-* $(ID:e8ca3dc6-a010-4070-823a-cb52b369ea00)
-* $(ID:250cdd21-a539-4f15-aa5c-f1c2a90ec3f3)
-* $(ID:f742c0cd-fd77-4590-962c-0143421ee630)
-* $(ID:65eb39b0-60e4-450c-86d5-c65783c9dc20)
-* $(ID:ff773ab8-6fff-4177-885c-3add39d529f9)
-* $(ID:ffe3be39-ed75-46e1-acb2-4118608b021a)
+* $(ID:049e69e4-cb7b-4ff9-a68e-71f93bbaa588)
+* $(ID:5ea81326-7124-4de6-9ed3-8c471a2bc530)
+* $(ID:ebc9e777-f514-403e-8492-df853eeb0135)
 
-## $(ID:338021a8-4c75-43ae-94bb-c7aba6b5f33f)
+## $(ID:fb15792e-375a-4a52-a964-91dfe099885a)
 
-* $(ID:e76545e3-2278-4c34-9f35-48820c2ed772)
-* $(ID:25d435ba-1636-4fe1-83e3-d2f9e6e1d36e)
-* $(ID:5d3cb539-8af4-4686-9ed6-e93d4d65c269)
-* $(ID:00ba7911-3e60-4c00-a04f-a7d7ba664bf3)
-* $(ID:f0610897-9f4a-47f0-850f-1b39ed6db6fc)
+* $(ID:bb694f90-fb0e-43f5-86df-6f992f468dcb)
+* $(ID:13377e56-0297-463d-954b-9c2c6013407b)
+* $(ID:8af1f182-54e9-4a85-a051-06aca43e97e5)
+* $(ID:ec3534ce-a5ea-492d-9910-f15fad2c2b25)
 
-## $(ID:f5b42a73-9a2e-4a0d-9300-c4f63a2f5bad)
+## $(ID:3d0c1129-471c-4d30-89fa-5157afa8826e)
 
-* $(ID:c230185f-6540-4a42-afa0-4b1924b1c81b)
-* $(ID:965cacaf-d745-4965-b0ae-d0431ca1c321)
-* $(ID:dbd5e09c-d4cc-4326-aa03-b0d492b7a5e9)
+* $(ID:4c8f3649-86c3-4be8-b8e3-8bf910db74c3)
 
-## $(ID:8b008948-f667-4160-9c1d-7a57f15d5886)
+## $(ID:ff80c7a4-c3a2-4d8e-acdd-bad6d34dbe91)
 
-* $(ID:eb71b85d-66b7-4bd0-93d0-c8951e9cc36b)
+* $(ID:3994a96d-e5b5-482a-90e5-44a0f26e523e)
+* $(ID:0723139d-297c-4104-9ff9-cf7e1cec54ec)
+* $(ID:822ae60e-e135-4832-b5e9-8b4f7bae0f8e)
+* $(ID:32c63e6f-8198-4598-b2ff-bfcb47f55c2a)
+* $(ID:0b9efe32-2f7a-42a4-8e7d-8cfd4c458b2c)
+* $(ID:6b841444-4564-4d46-9b0f-b2c98eabdb55)
+* $(ID:d1223c53-24c4-4aee-aef1-d577fe3558ff)
 
-    * $(ID:70cebd46-215f-430b-8e57-72879745ab9d)
+## $(ID:2f24720c-581d-4c2e-9c63-8a50f2f33d31)
 
-* $(ID:bb249b8a-2a39-4c25-87c0-24c7897a5334)
+* $(ID:f50ad6ad-f924-45a1-b8b4-cf8b115beea0)
+* $(ID:381a677c-465a-42a8-9da8-02fc8fc48cdb)
+* $(ID:7e87bae5-51e4-4ae4-84d7-ad025e19925c)
+* $(ID:bace97ef-93cd-4be6-9852-4cdfc410f757)
+* $(ID:17cdde9a-7093-49b8-b15b-4096f619bce3)
 
-## $(ID:9554ce70-0ae4-42f1-8e29-3a05ea54af5b)
+## $(ID:eb1a9451-bc68-4776-96f5-6696e0aadf92)
 
-* $(ID:bbc49d80-9746-4cdb-be10-8e3abe8afc55)
+* $(ID:6f4b1496-9d5c-4136-85bf-6496ae1f57fa)
+* $(ID:43b3f68d-fae1-4c98-b358-265b3325d4d5)
+* $(ID:dca4453d-ed14-4b56-8d69-8eef77403ead)
 
-$(ID:a70e327f-7ce2-444d-a5c1-3da06b8459cf)
+## $(ID:37f76c8f-2142-4149-89f9-64fe45b70564)
 
-$(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
+* $(ID:b745dcfc-a9f6-4147-8c18-46eaec33d5ae)
+
+    * $(ID:f3b1d27b-b43f-4336-9ed1-5a4957ac041b)
+
+* $(ID:6614c1b5-c8d9-469e-bb42-1bda56e4e902)
+
+## $(ID:7e9091ba-bc2b-4b53-9696-6820736cc37f)
+
+* $(ID:7f153327-12f0-4dcf-8526-10a537cf5daa)
 </skeleton>
-    <unit id="13e2c32b-9b90-43f5-8c57-e22bae167f08">
+    <unit id="15cc7ab7-30a6-488d-bdbc-7022256a7573">
       <notes>
         <note appliesTo="source">line: 2</note>
       </notes>
@@ -245,39 +251,19 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target># mp3DirectCut 无障碍增强插件</target>
       </segment>
     </unit>
-    <unit id="7347f451-ac30-42d4-8641-d9a179715264">
+    <unit id="6bb1e0f7-1830-4b4d-b627-2b96e189b9ed">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Author(s) : Abdel, Rémy, Abdellah zineddine, Jean-François COLAS</source>
+        <source>Author(s) : Abdel, Rémy, Abdellah zineddine, Jean-François COLAS.</source>
         <target>作者：Abdel, Rémy, Abdellah zineddine, Jean-François COLAS</target>
       </segment>
     </unit>
-    <unit id="ff3e64a6-6da4-432d-a8d8-ed56526a0ef7">
-      <notes>
-        <note appliesTo="source">line: 5</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Download [stable version][1]</source>
-        <target>下载 [稳定版][1]</target>
-      </segment>
-    </unit>
-    <unit id="1e16a7bd-03d3-4126-8afc-5da07e37d3ae">
+    <unit id="7fe450b3-aef0-4239-a842-98020d8e9d42">
       <notes>
         <note appliesTo="source">line: 6</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Download [development version][2]</source>
-        <target>下载 [开发版][2]</target>
-      </segment>
-    </unit>
-    <unit id="45e5774e-4f09-495e-8969-b91975752f07">
-      <notes>
-        <note appliesTo="source">line: 8</note>
         <note appliesTo="source">prefix: # </note>
       </notes>
       <segment state="final">
@@ -285,27 +271,27 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>功能概述 #</target>
       </segment>
     </unit>
-    <unit id="1baeb79a-e508-47b2-9950-5dcd26ae3902">
+    <unit id="9ce1b91c-df34-49a9-9eb2-ad1a69c19d19">
       <notes>
-        <note appliesTo="source">line: 10</note>
+        <note appliesTo="source">line: 8</note>
       </notes>
       <segment state="final">
         <source>This add-on improves the accessibility of the software mp3DirectCut with NVDA.</source>
         <target>此插件显著提升 NVDA 屏幕阅读器在 mp3DirectCut 软件中的无障碍访问体验。</target>
       </segment>
     </unit>
-    <unit id="47f1bc6d-5765-4646-9cf7-33d91d338242">
+    <unit id="9aafc51d-520d-4342-a134-5e6d87d64ee3">
       <notes>
-        <note appliesTo="source">line: 12</note>
+        <note appliesTo="source">line: 10</note>
       </notes>
       <segment state="final">
         <source>It has been tested with versions of mp3DirectCut ranging from 212 up to 233.</source>
         <target>已测试兼容 mp3DirectCut 212 至 233 版本。</target>
       </segment>
     </unit>
-    <unit id="463cdc82-ecd6-4c29-a790-0ec9081f6396">
+    <unit id="c7c41bb6-65c7-4051-aae5-ec20e956d271">
       <notes>
-        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -313,18 +299,18 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>键盘快捷键 ##</target>
       </segment>
     </unit>
-    <unit id="3f6d16d4-3e48-44b3-8011-0c68c4e347e2">
+    <unit id="57b5ada1-0a8a-4dcb-b11e-02a314573ad1">
       <notes>
-        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">line: 14</note>
       </notes>
       <segment state="final">
         <source>This addon offers the following commands:</source>
         <target>此插件提供以下快捷键：</target>
       </segment>
     </unit>
-    <unit id="14a99921-e499-4f04-99cc-cdd6c1c86b59">
+    <unit id="784d1047-e603-4ae1-a45c-1bc70404877f">
       <notes>
-        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -332,9 +318,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>B 键</target>
       </segment>
     </unit>
-    <unit id="dfad8cfc-4d02-4dbd-81d2-94bd6e78569d">
+    <unit id="31d51de0-1b7f-44cc-8931-938fad4225b8">
       <notes>
-        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -342,9 +328,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>确认标记区间B的开头。</target>
       </segment>
     </unit>
-    <unit id="1417a7ad-a563-4f6b-ac43-7f7dea331ab8">
+    <unit id="6d740b88-1d4b-4452-8345-be94fb4766fb">
       <notes>
-        <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -352,9 +338,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+B</target>
       </segment>
     </unit>
-    <unit id="02e45e49-55be-4bfe-ae02-24a99149a51c">
+    <unit id="77a8851c-23d7-4348-af99-87490cd0cfc5">
       <notes>
-        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -362,9 +348,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>标记区间B的开头。</target>
       </segment>
     </unit>
-    <unit id="285f9b31-8221-481d-8184-7395cb69210f">
+    <unit id="15d5d527-2129-46ca-87d1-dc00832a9eb4">
       <notes>
-        <note appliesTo="source">line: 25</note>
+        <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -372,9 +358,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>双击读出选择区段总时长。</target>
       </segment>
     </unit>
-    <unit id="6ab9c324-86b2-47f2-ba49-0b77d50d1c8e">
+    <unit id="0d344c04-6cdc-48a1-bee5-5583ed5cfa89">
       <notes>
-        <note appliesTo="source">line: 27</note>
+        <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -382,9 +368,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+D</target>
       </segment>
     </unit>
-    <unit id="c47ed13d-f881-41b8-9c0c-efbdfa204502">
+    <unit id="7ac6a745-4519-421f-a022-a79e2926e241">
       <notes>
-        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -392,9 +378,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>读出从文件开始到播放光标的时长。</target>
       </segment>
     </unit>
-    <unit id="969be4b6-6805-4b5b-af06-6cfce372c2ac">
+    <unit id="85d69d3e-3f7d-4424-ad1e-c1221209a574">
       <notes>
-        <note appliesTo="source">line: 30</note>
+        <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -402,9 +388,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>双击读出文件总时长。</target>
       </segment>
     </unit>
-    <unit id="2488e7aa-d088-4e07-bcfa-a009cfd7177c">
+    <unit id="3eb47558-7419-4432-84e9-7531d9a8f077">
       <notes>
-        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -412,9 +398,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+R</target>
       </segment>
     </unit>
-    <unit id="69b1e352-0ac2-48a5-8507-769607a519fe">
+    <unit id="c8f34d55-2a7c-4679-9c7e-24018ff81ac0">
       <notes>
-        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -422,9 +408,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>确认所选内容已被取消。</target>
       </segment>
     </unit>
-    <unit id="da03e8aa-ede9-4467-8f17-b5a433e42511">
+    <unit id="41251e66-93b8-4cb4-b834-6882c8dee1ea">
       <notes>
-        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">line: 34</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -432,9 +418,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+R</target>
       </segment>
     </unit>
-    <unit id="93cc5a94-8016-4dfe-9012-555aa96e8874">
+    <unit id="2af33010-1b7a-431b-9294-44c99bd807a6">
       <notes>
-        <note appliesTo="source">line: 38</note>
+        <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -442,9 +428,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>读出从播放光标到文件末尾的剩余时间。</target>
       </segment>
     </unit>
-    <unit id="1a143e33-5b5b-4cfe-9f59-507942f0ef99">
+    <unit id="ab4d924a-0731-4ae9-9547-327803433db6">
       <notes>
-        <note appliesTo="source">line: 40</note>
+        <note appliesTo="source">line: 38</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -452,9 +438,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+E</target>
       </segment>
     </unit>
-    <unit id="80f6b3f8-db32-41e8-8c18-57b4f778bf83">
+    <unit id="65fc61a2-5cd9-47c4-bea3-aeb24c4a3da7">
       <notes>
-        <note appliesTo="source">line: 42</note>
+        <note appliesTo="source">line: 40</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -462,9 +448,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>标记区间N的结束位置。</target>
       </segment>
     </unit>
-    <unit id="26536769-46c0-45f2-aa85-3bdcdd418e93">
+    <unit id="066fe64d-51fe-4d6d-b4c4-aaaf9a5ec429">
       <notes>
-        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -472,9 +458,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>双击读出区间B和N的位置和时长。</target>
       </segment>
     </unit>
-    <unit id="343efea4-5e2c-4cc6-9fa4-312767973cc4">
+    <unit id="40285bb2-3f77-46f9-9df5-bed836f993bb">
       <notes>
-        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -482,9 +468,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+P</target>
       </segment>
     </unit>
-    <unit id="6d2f4f6a-7759-48b3-b1b8-ba5e52cbadd9">
+    <unit id="0853888c-1458-4340-89b8-232d6cf493e0">
       <notes>
-        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -492,9 +478,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>读出当前文件的分段编号与总段数。</target>
       </segment>
     </unit>
-    <unit id="826edcb3-4cfb-458f-875a-eabac0a169c7">
+    <unit id="561340d8-2b6e-4aeb-bd7a-cadfad7d06b7">
       <notes>
-        <note appliesTo="source">line: 49</note>
+        <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -502,9 +488,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+空格</target>
       </segment>
     </unit>
-    <unit id="7516505a-5ff5-4981-a608-1568976046fe">
+    <unit id="04c813d2-00d2-4f78-8b59-3c9d3ed289f1">
       <notes>
-        <note appliesTo="source">line: 51</note>
+        <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -512,9 +498,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>录音时检测音量表实时电平。</target>
       </segment>
     </unit>
-    <unit id="a724ed50-1d04-407d-9d7b-80e70e748323">
+    <unit id="ff48f8e5-cc58-4560-b58c-c8ebb9f30976">
       <notes>
-        <note appliesTo="source">line: 52</note>
+        <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -522,9 +508,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>双击重置电平检测。</target>
       </segment>
     </unit>
-    <unit id="90fcb94b-d826-41b5-b220-832a2dd466b5">
+    <unit id="bf819f1c-81f8-4a99-af19-df0915c50874">
       <notes>
-        <note appliesTo="source">line: 54</note>
+        <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -532,9 +518,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>下光标键</target>
       </segment>
     </unit>
-    <unit id="0ecaf8f3-90ae-43d7-adb6-7bbb55635f97">
+    <unit id="869d8dc1-2c5a-48f1-92f0-f70c94d68fa4">
       <notes>
-        <note appliesTo="source">line: 56</note>
+        <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -542,9 +528,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>读出播放头当前位置。</target>
       </segment>
     </unit>
-    <unit id="78d3b3b8-426d-40d9-9224-e12f043ff920">
+    <unit id="ca5dbdf7-79da-43ef-9178-46e5c66f26ab">
       <notes>
-        <note appliesTo="source">line: 57</note>
+        <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -552,9 +538,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>若存在选择区段，将光标定位至选择结束标记点 N 并读出其位置。</target>
       </segment>
     </unit>
-    <unit id="af7b35e2-edcf-4991-b893-a6781fcb20b2">
+    <unit id="fb48ef47-9d8a-4002-8039-5041e2badaa5">
       <notes>
-        <note appliesTo="source">line: 58</note>
+        <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -562,9 +548,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>在音量对话框中读出下光标键可调整的数值。</target>
       </segment>
     </unit>
-    <unit id="03fdf638-9e6e-4821-8ba1-9cbd2a0265d2">
+    <unit id="374146e0-e5f6-4707-93cf-5312c3ad3e3f">
       <notes>
-        <note appliesTo="source">line: 59</note>
+        <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -572,9 +558,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>此数值默认不读出。</target>
       </segment>
     </unit>
-    <unit id="037120a5-1f18-42dc-a490-25d108093517">
+    <unit id="21204286-1d1a-40e0-b08b-947f207bec5b">
       <notes>
-        <note appliesTo="source">line: 61</note>
+        <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -582,9 +568,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>End 键</target>
       </segment>
     </unit>
-    <unit id="a0313091-58f0-404a-bf5a-c9d0e6e85cd2">
+    <unit id="a4a4890b-8bc7-46e8-b9f8-f6d1cedff681">
       <notes>
-        <note appliesTo="source">line: 63</note>
+        <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -592,9 +578,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>将播放光标移至文件末尾并读出总时长。</target>
       </segment>
     </unit>
-    <unit id="f09d1d52-66bd-4340-bd9c-938921929620">
+    <unit id="d046aed0-379f-4a66-a324-dd7c43a4d823">
       <notes>
-        <note appliesTo="source">line: 65</note>
+        <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -602,9 +588,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Home 键</target>
       </segment>
     </unit>
-    <unit id="2f34a311-9be4-401e-9840-894d70ee1d07">
+    <unit id="d924ec63-bd63-4db8-ba8f-c6b9f894fc69">
       <notes>
-        <note appliesTo="source">line: 67</note>
+        <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -612,9 +598,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>将播放光标移至文件开头。</target>
       </segment>
     </unit>
-    <unit id="01a839cc-35ea-4ac3-8666-1919e9b6b753">
+    <unit id="be5964c1-bc15-4e08-9e67-59732d0f9f23">
       <notes>
-        <note appliesTo="source">line: 69</note>
+        <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -622,9 +608,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>左光标键</target>
       </segment>
     </unit>
-    <unit id="8a9f2278-9f5d-480e-8b45-3ca74c607e2a">
+    <unit id="e0dddad0-4745-4d13-9b8a-25019ac99eb5">
       <notes>
-        <note appliesTo="source">line: 71</note>
+        <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -632,9 +618,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>播放时后退 1 秒并读出当前时长。</target>
       </segment>
     </unit>
-    <unit id="7a77b062-302b-4c3d-8c87-f9e8018715dc">
+    <unit id="4d12081b-31df-4180-b8f6-b72455a014e4">
       <notes>
-        <note appliesTo="source">line: 72</note>
+        <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -642,9 +628,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>读出当前时长可在 mp3directcut 选项配置。</target>
       </segment>
     </unit>
-    <unit id="8a2ebe55-4cdf-4fe6-bb5d-262b22510ac4">
+    <unit id="0eb8a4f4-cbcf-4e41-a3d6-ffc726da50d6">
       <notes>
-        <note appliesTo="source">line: 74</note>
+        <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -652,9 +638,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>N 键</target>
       </segment>
     </unit>
-    <unit id="89a82dee-a077-480b-91ca-e1f7c216374d">
+    <unit id="6fd76d03-faab-4e85-b109-b6504f104879">
       <notes>
-        <note appliesTo="source">line: 76</note>
+        <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -662,9 +648,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>确认选择结束标记点 N 已正确放置。</target>
       </segment>
     </unit>
-    <unit id="f114af7b-808b-4c0e-8b49-2862e2d59f4b">
+    <unit id="e9c28d21-7f75-432c-87c6-de026acc54cd">
       <notes>
-        <note appliesTo="source">line: 78</note>
+        <note appliesTo="source">line: 76</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -672,9 +658,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Page Down 键</target>
       </segment>
     </unit>
-    <unit id="8f3d66c6-b83d-4221-81fe-7e192556d47d">
+    <unit id="3d62b71c-f5a4-4ff8-b86d-2ec131f370d9">
       <notes>
-        <note appliesTo="source">line: 80</note>
+        <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -682,9 +668,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>播放时前进 10 秒并读出当前时长。</target>
       </segment>
     </unit>
-    <unit id="269fd8ed-0a5b-4f2f-b753-6a38a2d8dbde">
+    <unit id="e5cb7b7a-2600-46b3-8407-95d229638d18">
       <notes>
-        <note appliesTo="source">line: 81</note>
+        <note appliesTo="source">line: 79</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -692,9 +678,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>读出当前时长可在 mp3directcut 选项配置。</target>
       </segment>
     </unit>
-    <unit id="5cdfb089-7457-48ac-bd1a-84d9eb15306b">
+    <unit id="1f72492f-83fd-41a9-a2bd-94dd167bd572">
       <notes>
-        <note appliesTo="source">line: 83</note>
+        <note appliesTo="source">line: 81</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -702,9 +688,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Page Up 键</target>
       </segment>
     </unit>
-    <unit id="e851b29d-13b4-4d24-920a-c79776bc2675">
+    <unit id="256a3243-38e9-4c81-8855-dd98de6b5dc3">
       <notes>
-        <note appliesTo="source">line: 85</note>
+        <note appliesTo="source">line: 83</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -712,9 +698,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>播放时后退 10 秒并读出当前时长。</target>
       </segment>
     </unit>
-    <unit id="1f605b61-5111-4dce-96a8-30d52684bf72">
+    <unit id="885f6056-2203-4e59-b773-2f2b00077313">
       <notes>
-        <note appliesTo="source">line: 86</note>
+        <note appliesTo="source">line: 84</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -722,9 +708,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>读出当前时长可在 mp3directcut 选项配置。</target>
       </segment>
     </unit>
-    <unit id="676b33f2-10fb-4253-b432-b581cba86257">
+    <unit id="6952939c-84fb-4a5c-b092-4573d3e7e73d">
       <notes>
-        <note appliesTo="source">line: 88</note>
+        <note appliesTo="source">line: 86</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -732,9 +718,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>R 键</target>
       </segment>
     </unit>
-    <unit id="f62b8368-439c-463c-8536-86fa729006f0">
+    <unit id="cce34cf6-d56f-4d89-a5ad-c36ece5f6fd1">
       <notes>
-        <note appliesTo="source">line: 90</note>
+        <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -742,9 +728,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>准备录音并提示可按空格键开始。</target>
       </segment>
     </unit>
-    <unit id="c856de0d-7508-4f14-bd53-ec0ab6d85057">
+    <unit id="91c17148-80c0-4f48-82f4-1f629a7d30e6">
       <notes>
-        <note appliesTo="source">line: 92</note>
+        <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -752,9 +738,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>右光标键</target>
       </segment>
     </unit>
-    <unit id="561be79e-79fa-4a5e-a547-9024fe1470b9">
+    <unit id="a66fb2c0-425d-4c5e-bb23-660101913bf6">
       <notes>
-        <note appliesTo="source">line: 94</note>
+        <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -762,9 +748,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>播放时前进 1 秒并读出当前时长。</target>
       </segment>
     </unit>
-    <unit id="dbf89cde-2c8a-4ed5-9999-93b614bf3fcb">
+    <unit id="81d26f77-73b5-4089-9cd0-193d47ca9f8f">
       <notes>
-        <note appliesTo="source">line: 95</note>
+        <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -772,9 +758,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>读出当前时长可在 mp3directcut 选项配置。</target>
       </segment>
     </unit>
-    <unit id="cf3a18ac-bb2f-4d3f-a83b-6839cb9941c2">
+    <unit id="09c6fa64-137f-43a0-92e2-1ca2dc11588d">
       <notes>
-        <note appliesTo="source">line: 97</note>
+        <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -782,9 +768,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+右光标键</target>
       </segment>
     </unit>
-    <unit id="385c3404-d53f-4fc1-b917-23f5565b8c32">
+    <unit id="f646022d-d6a2-4f7e-80bc-15910e96a992">
       <notes>
-        <note appliesTo="source">line: 99</note>
+        <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -792,9 +778,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>跳至下一分割点并读出当前时长。</target>
       </segment>
     </unit>
-    <unit id="8b72a48b-474c-43b0-8387-60e7ba659ab8">
+    <unit id="e05d123b-d273-45e5-a397-5a888929c6b9">
       <notes>
-        <note appliesTo="source">line: 101</note>
+        <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -802,9 +788,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+左光标键</target>
       </segment>
     </unit>
-    <unit id="c599e9b7-71d4-4e75-be9a-d8df034f84a3">
+    <unit id="39c19f59-b3ce-450f-b4e8-bfcd9971027f">
       <notes>
-        <note appliesTo="source">line: 103</note>
+        <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -812,9 +798,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>跳至上一分割点并读出当前时长。</target>
       </segment>
     </unit>
-    <unit id="e7fe3bd1-1b54-4679-b231-5736c7738f0f">
+    <unit id="26727fd7-a9a0-4127-998b-5a2bfa9afdb8">
       <notes>
-        <note appliesTo="source">line: 105</note>
+        <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -822,9 +808,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Shift+右光标键</target>
       </segment>
     </unit>
-    <unit id="9b7e5ecc-f711-48fd-baac-137bf297b7e0">
+    <unit id="a4ea4b94-649e-4bb5-b75b-a626a38ec985">
       <notes>
-        <note appliesTo="source">line: 107</note>
+        <note appliesTo="source">line: 105</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -832,9 +818,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>播放时前进 0.04 秒并读出当前时长。</target>
       </segment>
     </unit>
-    <unit id="34792cd2-a398-43bf-8269-a90d524754c3">
+    <unit id="d25d50a7-ee1a-4db9-8907-f47184473ca6">
       <notes>
-        <note appliesTo="source">line: 109</note>
+        <note appliesTo="source">line: 107</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -842,9 +828,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Shift+左光标键</target>
       </segment>
     </unit>
-    <unit id="63b2d844-6010-40b5-a032-ed41cbb2aa88">
+    <unit id="0ae0ca79-b9d0-4b7b-b776-5edb74aa00f3">
       <notes>
-        <note appliesTo="source">line: 111</note>
+        <note appliesTo="source">line: 109</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -852,9 +838,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>播放时后退 0.04 秒并读出当前时长。</target>
       </segment>
     </unit>
-    <unit id="386ad842-ad4b-4a08-aeb1-cc82ba3caf75">
+    <unit id="774b59c1-16d0-4325-82ad-e015b15a1d07">
       <notes>
-        <note appliesTo="source">line: 113</note>
+        <note appliesTo="source">line: 111</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -862,9 +848,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>S 键</target>
       </segment>
     </unit>
-    <unit id="4bf33aec-e656-4d5e-baba-64c00249500a">
+    <unit id="60e97ee5-87d1-42c8-804c-cae44321f2b7">
       <notes>
-        <note appliesTo="source">line: 115</note>
+        <note appliesTo="source">line: 113</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -872,9 +858,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>停止播放并读出当前时长。</target>
       </segment>
     </unit>
-    <unit id="009c2c8a-1c18-4429-a4b1-731421141ff9">
+    <unit id="5d770696-b224-49e0-a155-424881d41b50">
       <notes>
-        <note appliesTo="source">line: 117</note>
+        <note appliesTo="source">line: 115</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -882,9 +868,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>空格键</target>
       </segment>
     </unit>
-    <unit id="bda56e75-2961-4cc7-a3d5-ea53175f9550">
+    <unit id="6ebf7dcb-c7f6-4e96-b643-97862dde168a">
       <notes>
-        <note appliesTo="source">line: 119</note>
+        <note appliesTo="source">line: 117</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -892,9 +878,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>录音准备就绪时：开始录音。</target>
       </segment>
     </unit>
-    <unit id="8daa51ed-6937-49cf-b1a4-6bdb85c08c1d">
+    <unit id="95e299c3-774f-49ed-be1a-f015d8687e68">
       <notes>
-        <note appliesTo="source">line: 120</note>
+        <note appliesTo="source">line: 118</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -902,9 +888,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>录音过程中：停止录音并将光标置于开头。</target>
       </segment>
     </unit>
-    <unit id="62549db6-02d8-473f-8075-0a85c1db3e18">
+    <unit id="1360f3a1-e2a2-4604-8910-307dabeb0c4b">
       <notes>
-        <note appliesTo="source">line: 121</note>
+        <note appliesTo="source">line: 119</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -912,9 +898,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>文件加载后：开始播放。</target>
       </segment>
     </unit>
-    <unit id="3f999390-b48d-43eb-81bb-ffe210b5e438">
+    <unit id="3450ccda-1a6a-4f1d-bfea-2a41e8a18979">
       <notes>
-        <note appliesTo="source">line: 122</note>
+        <note appliesTo="source">line: 120</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -922,9 +908,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>播放过程中：暂停播放并读出当前时长。</target>
       </segment>
     </unit>
-    <unit id="38b6de6f-b64a-4ad0-8667-702be0994cea">
+    <unit id="a6229a09-1280-4024-a194-00a0d6b9f094">
       <notes>
-        <note appliesTo="source">line: 123</note>
+        <note appliesTo="source">line: 121</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -932,9 +918,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>暂停状态时：从当前位置继续播放。</target>
       </segment>
     </unit>
-    <unit id="34d318c9-3dcb-46cf-8943-771b1a8c284b">
+    <unit id="5c1188ef-bf27-49a9-8aa7-a8ab1eeb5050">
       <notes>
-        <note appliesTo="source">line: 125</note>
+        <note appliesTo="source">line: 123</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -942,9 +928,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>上光标键</target>
       </segment>
     </unit>
-    <unit id="5455a15a-777e-4741-8186-4424c7230dc0">
+    <unit id="2ccb60cc-deb4-4759-b5d1-8569c17c4ac3">
       <notes>
-        <note appliesTo="source">line: 127</note>
+        <note appliesTo="source">line: 125</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -952,9 +938,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>读出播放头当前位置。</target>
       </segment>
     </unit>
-    <unit id="2c26e0dc-cdd5-428b-a4c7-46606fd716de">
+    <unit id="8587aa60-72fa-45e1-85b3-bef47af45536">
       <notes>
-        <note appliesTo="source">line: 128</note>
+        <note appliesTo="source">line: 126</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -962,9 +948,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>若存在选择区段，将光标定位至选择起始标记点 B 并读出其位置。</target>
       </segment>
     </unit>
-    <unit id="3b4bd1fd-0221-4b4c-a0ff-7c5b4243c1a1">
+    <unit id="3b60c040-0666-4852-9919-a7ca3e8e9547">
       <notes>
-        <note appliesTo="source">line: 129</note>
+        <note appliesTo="source">line: 127</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -972,9 +958,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>在音量对话框中读出上光标键可调整的数值。</target>
       </segment>
     </unit>
-    <unit id="37223e90-9b92-42c8-a2d3-00d17b95afd3">
+    <unit id="1930cf54-8269-4766-88a3-fd0c34ea979f">
       <notes>
-        <note appliesTo="source">line: 130</note>
+        <note appliesTo="source">line: 128</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -982,9 +968,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>此数值默认不读出。</target>
       </segment>
     </unit>
-    <unit id="08bc486d-9d20-4b56-9fba-6fa2574077e9">
+    <unit id="1ae6c9dc-3b75-4fdb-87b0-509643273cf2">
       <notes>
-        <note appliesTo="source">line: 132</note>
+        <note appliesTo="source">line: 130</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -992,9 +978,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>NVDA+H</target>
       </segment>
     </unit>
-    <unit id="98ac7851-4b58-4689-8afe-e59a243018a9">
+    <unit id="f72906d0-903f-4643-a840-b50f1e2fb11b">
       <notes>
-        <note appliesTo="source">line: 134</note>
+        <note appliesTo="source">line: 132</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -1002,9 +988,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>打开插件帮助文档。</target>
       </segment>
     </unit>
-    <unit id="08a84ca4-e4e7-4552-b469-5aca7460e8ac">
+    <unit id="f9012e3b-bdb8-4ea8-8e4f-5e6299201b98">
       <notes>
-        <note appliesTo="source">line: 136</note>
+        <note appliesTo="source">line: 134</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1012,9 +998,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>兼容性 ##</target>
       </segment>
     </unit>
-    <unit id="3cd121c0-ee46-4e9d-8835-b0ba352ce59f">
+    <unit id="a7a9723a-969c-4096-8738-5e5238cab364">
       <notes>
-        <note appliesTo="source">line: 138</note>
+        <note appliesTo="source">line: 136</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1022,9 +1008,79 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>此插件兼容 NVDA 2019.3 及更高版本。</target>
       </segment>
     </unit>
-    <unit id="b0a7f1df-9f90-4fc4-9ed3-f8d89a261e6f">
+    <unit id="535bb5a3-f4bf-44a1-b316-19b52a8a4fbf">
+      <notes>
+        <note appliesTo="source">line: 138</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 20240327.0.0</source>
+        <target>20240327.0.0 版本变更</target>
+      </segment>
+    </unit>
+    <unit id="dca7b40c-c7d6-4c07-80fc-d1ffe3a613da">
       <notes>
         <note appliesTo="source">line: 140</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Fixed a bug that caused a log error when reloading plugins, thanks to Rob, from nvda-addons mailing list;</source>
+        <target>修复了重新加载插件时导致日志错误的问题，感谢来自 NVDA 插件邮件列表的 Rob；</target>
+      </segment>
+    </unit>
+    <unit id="a6cd643e-e863-4e71-8336-422818e540c3">
+      <notes>
+        <note appliesTo="source">line: 142</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 20240326.0.0</source>
+        <target>20240326.0.0 版本变更</target>
+      </segment>
+    </unit>
+    <unit id="a7143ffb-df9a-4b29-98ee-ad964f856529">
+      <notes>
+        <note appliesTo="source">line: 144</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Updated compatibility for nvda-2024.1.;</source>
+        <target>兼容 NVDA 2024.1；</target>
+      </segment>
+    </unit>
+    <unit id="367c3319-0b4c-48cf-97db-9601ec7e297e">
+      <notes>
+        <note appliesTo="source">line: 145</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Deleted download link from readme, the download link for future updates will now only be available from the add-on store.</source>
+        <target>从 readme 文件中删除了下载链接，未来更新的下载链接只能从插件商店获取。</target>
+      </segment>
+    </unit>
+    <unit id="fb11100f-af79-4b1e-9f91-c3e8b4dde50e">
+      <notes>
+        <note appliesTo="source">line: 147</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 20231229.0.0 ##</source>
+        <target>20231229.0.0 版本变更 ##</target>
+      </segment>
+    </unit>
+    <unit id="8d2a481b-d856-4e1b-9487-cb7bdb7f575b">
+      <notes>
+        <note appliesTo="source">line: 149</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.</source>
+        <target>添加了一个向后兼容的实现来支持手动朗读模式，该模式很快将在 NVDA 2024.1 中提供。</target>
+      </segment>
+    </unit>
+    <unit id="e8c3613c-76bc-47f2-a109-905c8d80cd68">
+      <notes>
+        <note appliesTo="source">line: 151</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1032,9 +1088,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>20231007.0.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="6eceb620-1ca4-4033-8c79-d42228e82775">
+    <unit id="0547d854-afa5-4506-afe3-6502ca19e14f">
       <notes>
-        <note appliesTo="source">line: 142</note>
+        <note appliesTo="source">line: 153</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1042,9 +1098,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>设置分割点后按 Ctrl+N 打开分割属性窗口时，增加窗口标题的无障碍提示（包含分段索引）</target>
       </segment>
     </unit>
-    <unit id="c8406f81-6d26-4e58-8fb1-15a648e02952">
+    <unit id="ba637e04-378b-4124-a4fa-71bab1525a17">
       <notes>
-        <note appliesTo="source">line: 143</note>
+        <note appliesTo="source">line: 154</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1052,9 +1108,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>阅读模式下通过小键盘数字键 1-6 移动选择起止标记后，自动从新位置开始播放；</target>
       </segment>
     </unit>
-    <unit id="c5c879cd-dfd9-4a21-a0d0-19adf87928dd">
+    <unit id="c5c62c63-0b24-4eba-9d13-32a8d3da5460">
       <notes>
-        <note appliesTo="source">line: 144</note>
+        <note appliesTo="source">line: 155</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1062,9 +1118,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>修复从音轨开头按 Ctrl+Shift+R 查询剩余时间时的错误。</target>
       </segment>
     </unit>
-    <unit id="ba0a0dc2-2786-4420-8b2e-46f85937fa8c">
+    <unit id="83bef9b5-1d3a-46f2-a3ab-03982c6468cb">
       <notes>
-        <note appliesTo="source">line: 146</note>
+        <note appliesTo="source">line: 157</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1072,9 +1128,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>20230728.0.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="47a5183c-e6ec-4d33-ad7b-88e07e5c7000">
+    <unit id="fbb5ed8e-4427-49fd-a5d6-bf28c190a627">
       <notes>
-        <note appliesTo="source">line: 148</note>
+        <note appliesTo="source">line: 159</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1082,9 +1138,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>对代码应用 flake8 和 mypy 规范；</target>
       </segment>
     </unit>
-    <unit id="27cd38b8-09ab-4a36-b8d9-2120cf2345ee">
+    <unit id="570346fe-adb6-4882-bb04-41a43c4c092f">
       <notes>
-        <note appliesTo="source">line: 149</note>
+        <note appliesTo="source">line: 160</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1092,9 +1148,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>将 NVDA 版本最低要求改为 2019.3 以支持 Python 3 类型注解。</target>
       </segment>
     </unit>
-    <unit id="dfaa1371-e5b0-4627-ab7a-43b41bb5b458">
+    <unit id="8d4c8c27-e3f4-4100-9cc9-826b00060908">
       <notes>
-        <note appliesTo="source">line: 151</note>
+        <note appliesTo="source">line: 162</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1102,9 +1158,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>20230607.0.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="f987f535-2e68-4b21-99d3-84ebbf9b29ed">
+    <unit id="e8ba4749-c53d-4e41-8c0d-50451b173fe8">
       <notes>
-        <note appliesTo="source">line: 153</note>
+        <note appliesTo="source">line: 164</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1112,9 +1168,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>新增以下工作流：</target>
       </segment>
     </unit>
-    <unit id="f2e37bc3-3794-48e9-a744-bb3c5b5a0e6f">
+    <unit id="86673b46-6f5b-43a9-9039-f84f7d29be8e">
       <notes>
-        <note appliesTo="source">line: 154</note>
+        <note appliesTo="source">line: 165</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="final">
@@ -1122,9 +1178,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>auto-update-translations：自动从 NVDA 翻译系统更新翻译。</target>
       </segment>
     </unit>
-    <unit id="3a661f9e-cec6-4a2a-a7f0-634807fcd3bb">
+    <unit id="e5e8e4e2-8e2c-4415-9334-1df71a3e1e06">
       <notes>
-        <note appliesTo="source">line: 155</note>
+        <note appliesTo="source">line: 166</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="final">
@@ -1132,9 +1188,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>release-on-tag.yaml：推送新标签时自动构建发布插件；</target>
       </segment>
     </unit>
-    <unit id="c00d7ced-1d31-40bf-a974-856e6ed07a15">
+    <unit id="3fb3755d-dbc9-472c-9b64-9ff6dbaa780d">
       <notes>
-        <note appliesTo="source">line: 156</note>
+        <note appliesTo="source">line: 167</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="final">
@@ -1142,9 +1198,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>manual-release.yaml：手动构建发布新版本插件。</target>
       </segment>
     </unit>
-    <unit id="3d40066d-19de-4d7b-8d18-c5e85354ff10">
+    <unit id="7d97be7c-536c-400b-8ccf-b204db994ce1">
       <notes>
-        <note appliesTo="source">line: 157</note>
+        <note appliesTo="source">line: 168</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1152,9 +1208,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>更新翻译。</target>
       </segment>
     </unit>
-    <unit id="07d25ca4-a45c-4674-83f7-cc0fa6a7ee76">
+    <unit id="ad3f8142-fe30-478a-a8c8-aeafdd06998f">
       <notes>
-        <note appliesTo="source">line: 159</note>
+        <note appliesTo="source">line: 170</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1162,9 +1218,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>20230508.0.0 及后续版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="682848e2-b2a9-4a69-9e5d-2700c7612c76">
+    <unit id="d3b7925d-fb1c-49e7-b4a8-1227f3db3049">
       <notes>
-        <note appliesTo="source">line: 161</note>
+        <note appliesTo="source">line: 172</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1172,9 +1228,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>根据商店规范调整版本号、NVDA 版本最低要求及下载链接。</target>
       </segment>
     </unit>
-    <unit id="d2d9f085-4248-420b-8f4c-4df2ddbae4ab">
+    <unit id="d9097ac2-cb6e-4e4f-ba2e-64fe24ffa9cd">
       <notes>
-        <note appliesTo="source">line: 163</note>
+        <note appliesTo="source">line: 174</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1182,9 +1238,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>20.12 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="ebbdd611-7e7f-401c-8255-cb7dee44c5cb">
+    <unit id="440ccc06-78e5-4e3a-8ac8-8ef37166503a">
       <notes>
-        <note appliesTo="source">line: 165</note>
+        <note appliesTo="source">line: 176</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1192,9 +1248,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>适配最新版 mp3directcut：录音和播放期间停止语音输出；</target>
       </segment>
     </unit>
-    <unit id="14eca2a6-c5e7-4f62-9f9b-c55c4b5c7121">
+    <unit id="f3cba72e-0e21-4d7c-a19c-052a2260b5ee">
       <notes>
-        <note appliesTo="source">line: 166</note>
+        <note appliesTo="source">line: 177</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1202,9 +1258,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>修复 Python 3 版 NVDA 的剩余时间读取功能。</target>
       </segment>
     </unit>
-    <unit id="c6262ed5-46a0-4623-99b7-3cdf65ff9bed">
+    <unit id="5a38b213-2e92-48af-b07f-21f487768369">
       <notes>
-        <note appliesTo="source">line: 168</note>
+        <note appliesTo="source">line: 179</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1212,9 +1268,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>19.02 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="a995f3f7-95aa-4371-9188-fa576457e072">
+    <unit id="b61da808-117d-41cc-bc09-e399226fa8c2">
       <notes>
-        <note appliesTo="source">line: 170</note>
+        <note appliesTo="source">line: 181</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1222,9 +1278,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>在 NVDA 2018.2 及以上版本的设置面板中添加插件配置；</target>
       </segment>
     </unit>
-    <unit id="c05909bc-a11c-4028-9450-8bad04f460c6">
+    <unit id="b082a9fa-786a-4ddd-af1d-2f1ce19be204">
       <notes>
-        <note appliesTo="source">line: 171</note>
+        <note appliesTo="source">line: 182</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1232,9 +1288,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>采用 YY.MM 格式版本编号（2位年份+小数点+2位月份）</target>
       </segment>
     </unit>
-    <unit id="cd1920c7-ad1e-46ba-a602-6cf54f355981">
+    <unit id="2259785f-110b-43f1-8a5a-b45f6e4cf2c3">
       <notes>
-        <note appliesTo="source">line: 172</note>
+        <note appliesTo="source">line: 183</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1242,9 +1298,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>适配 NVDA 2019.1 启用的新插件版本格式。</target>
       </segment>
     </unit>
-    <unit id="341154e0-df8e-4feb-a2ff-dd01c8d3eab0">
+    <unit id="78004108-5e77-4a9b-bfeb-4f44db669f79">
       <notes>
-        <note appliesTo="source">line: 174</note>
+        <note appliesTo="source">line: 185</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1252,9 +1308,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>4.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="c50872bc-27b1-4c03-846a-39cb71844bf2">
+    <unit id="555b17c6-0554-4f77-bd41-763c2255c79b">
       <notes>
-        <note appliesTo="source">line: 176</note>
+        <note appliesTo="source">line: 187</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1262,9 +1318,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>同时支持 Python 2.7 和 3；</target>
       </segment>
     </unit>
-    <unit id="a3983a0c-8031-4176-864d-67842a7c94e2">
+    <unit id="17fba8c8-be11-4e89-9d4c-a6b3a00116c8">
       <notes>
-        <note appliesTo="source">line: 177</note>
+        <note appliesTo="source">line: 188</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1272,9 +1328,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>修复插件路径包含非 ASCII 字符时的错误。</target>
       </segment>
     </unit>
-    <unit id="c4d263ff-8f40-4ed2-8176-dc9ac2b2f653">
+    <unit id="bfa2beb5-3886-4d1f-a08e-a4b51c6bbb09">
       <notes>
-        <note appliesTo="source">line: 179</note>
+        <note appliesTo="source">line: 190</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1282,9 +1338,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>3.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="e6801a52-c529-4e15-891d-294e34f21541">
+    <unit id="049e69e4-cb7b-4ff9-a68e-71f93bbaa588">
       <notes>
-        <note appliesTo="source">line: 181</note>
+        <note appliesTo="source">line: 192</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1292,9 +1348,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>使用 gui.guiHelper 模块确保插件配置对话框正确显示；</target>
       </segment>
     </unit>
-    <unit id="2748192c-f069-431e-9c0e-2b3642d4f6eb">
+    <unit id="5ea81326-7124-4de6-9ed3-8c471a2bc530">
       <notes>
-        <note appliesTo="source">line: 182</note>
+        <note appliesTo="source">line: 193</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1302,9 +1358,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>使用 format 方法替代 %s 进行字符串格式化；</target>
       </segment>
     </unit>
-    <unit id="ea95c0d6-9aab-4946-bf6a-73fdc07a3901">
+    <unit id="ebc9e777-f514-403e-8492-df853eeb0135">
       <notes>
-        <note appliesTo="source">line: 183</note>
+        <note appliesTo="source">line: 194</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1312,9 +1368,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>遵循开发指南规范。</target>
       </segment>
     </unit>
-    <unit id="2ab55415-b698-4f12-a151-2886daa12557">
+    <unit id="fb15792e-375a-4a52-a964-91dfe099885a">
       <notes>
-        <note appliesTo="source">line: 185</note>
+        <note appliesTo="source">line: 196</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1322,9 +1378,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>2.3 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="41814829-5d56-438d-9dc9-3dbff6ecefcc">
+    <unit id="bb694f90-fb0e-43f5-86df-6f992f468dcb">
       <notes>
-        <note appliesTo="source">line: 187</note>
+        <note appliesTo="source">line: 198</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1332,9 +1388,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>为插件添加 GPL 许可证；</target>
       </segment>
     </unit>
-    <unit id="f995246f-e6f9-4d8c-86c5-65657f960fe6">
+    <unit id="13377e56-0297-463d-954b-9c2c6013407b">
       <notes>
-        <note appliesTo="source">line: 188</note>
+        <note appliesTo="source">line: 199</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1342,9 +1398,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>将选择结束标记查询快捷键从 Ctrl+Shift+N 改为 Ctrl+Shift+E（因新版 mp3DirectCut 中原快捷键失效）</target>
       </segment>
     </unit>
-    <unit id="0b01c061-d23e-418f-97b9-808b387f18e1">
+    <unit id="8af1f182-54e9-4a85-a051-06aca43e97e5">
       <notes>
-        <note appliesTo="source">line: 189</note>
+        <note appliesTo="source">line: 200</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1352,9 +1408,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>添加 Ctrl+R 快捷键确认选择已取消；</target>
       </segment>
     </unit>
-    <unit id="3c686428-791f-4b2e-a42a-d63fb06b8157">
+    <unit id="ec3534ce-a5ea-492d-9910-f15fad2c2b25">
       <notes>
-        <note appliesTo="source">line: 190</note>
+        <note appliesTo="source">line: 201</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1362,9 +1418,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>优化 appModule/mp3directcut.py 代码。</target>
       </segment>
     </unit>
-    <unit id="61369089-5e36-4671-8051-a084b3d598ea">
+    <unit id="3d0c1129-471c-4d30-89fa-5157afa8826e">
       <notes>
-        <note appliesTo="source">line: 192</note>
+        <note appliesTo="source">line: 203</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1372,9 +1428,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>2.2 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="bdb55962-7a40-46be-9a25-17127ee53557">
+    <unit id="4c8f3649-86c3-4be8-b8e3-8bf910db74c3">
       <notes>
-        <note appliesTo="source">line: 194</note>
+        <note appliesTo="source">line: 205</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1382,9 +1438,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>修正选择标记位置查询脚本。</target>
       </segment>
     </unit>
-    <unit id="7dd91d5d-448b-4f1b-846f-42f4459e8b27">
+    <unit id="ff80c7a4-c3a2-4d8e-acdd-bad6d34dbe91">
       <notes>
-        <note appliesTo="source">line: 196</note>
+        <note appliesTo="source">line: 207</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1392,9 +1448,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>2.1.1 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="a2c6f6f4-50c5-4333-87b2-d28b960db2ed">
+    <unit id="3994a96d-e5b5-482a-90e5-44a0f26e523e">
       <notes>
-        <note appliesTo="source">line: 198</note>
+        <note appliesTo="source">line: 209</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1402,9 +1458,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>移除总时长专用脚本，将其整合至已用时间查询脚本；</target>
       </segment>
     </unit>
-    <unit id="e8ca3dc6-a010-4070-823a-cb52b369ea00">
+    <unit id="0723139d-297c-4104-9ff9-cf7e1cec54ec">
       <notes>
-        <note appliesTo="source">line: 199</note>
+        <note appliesTo="source">line: 210</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1412,9 +1468,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>在配置选项中单独设置空格键相关播报的启用/禁用；</target>
       </segment>
     </unit>
-    <unit id="250cdd21-a539-4f15-aa5c-f1c2a90ec3f3">
+    <unit id="822ae60e-e135-4832-b5e9-8b4f7bae0f8e">
       <notes>
-        <note appliesTo="source">line: 200</note>
+        <note appliesTo="source">line: 211</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1422,9 +1478,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>在配置选项中单独设置选择标记放置提示的启用/禁用；</target>
       </segment>
     </unit>
-    <unit id="f742c0cd-fd77-4590-962c-0143421ee630">
+    <unit id="32c63e6f-8198-4598-b2ff-bfcb47f55c2a">
       <notes>
-        <note appliesTo="source">line: 201</note>
+        <note appliesTo="source">line: 212</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1432,9 +1488,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>跳转分割点时增加读出当前分段编号；</target>
       </segment>
     </unit>
-    <unit id="65eb39b0-60e4-450c-86d5-c65783c9dc20">
+    <unit id="0b9efe32-2f7a-42a4-8e7d-8cfd4c458b2c">
       <notes>
-        <note appliesTo="source">line: 202</note>
+        <note appliesTo="source">line: 213</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1442,9 +1498,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>修正垂直方向键相关播报；</target>
       </segment>
     </unit>
-    <unit id="ff773ab8-6fff-4177-885c-3add39d529f9">
+    <unit id="6b841444-4564-4d46-9b0f-b2c98eabdb55">
       <notes>
-        <note appliesTo="source">line: 203</note>
+        <note appliesTo="source">line: 214</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1452,9 +1508,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>添加 NVDA+H 打开插件帮助功能；</target>
       </segment>
     </unit>
-    <unit id="ffe3be39-ed75-46e1-acb2-4118608b021a">
+    <unit id="d1223c53-24c4-4aee-aef1-d577fe3558ff">
       <notes>
-        <note appliesTo="source">line: 204</note>
+        <note appliesTo="source">line: 215</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1462,9 +1518,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>将插件配置菜单从"工具"菜单移至"选项"菜单。</target>
       </segment>
     </unit>
-    <unit id="338021a8-4c75-43ae-94bb-c7aba6b5f33f">
+    <unit id="2f24720c-581d-4c2e-9c63-8a50f2f33d31">
       <notes>
-        <note appliesTo="source">line: 206</note>
+        <note appliesTo="source">line: 217</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1472,9 +1528,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>2.1 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="e76545e3-2278-4c34-9f35-48820c2ed772">
+    <unit id="f50ad6ad-f924-45a1-b8b4-cf8b115beea0">
       <notes>
-        <note appliesTo="source">line: 208</note>
+        <note appliesTo="source">line: 219</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1482,9 +1538,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>添加 Ctrl+右光标键跳至下一分割点并读出；</target>
       </segment>
     </unit>
-    <unit id="25d435ba-1636-4fe1-83e3-d2f9e6e1d36e">
+    <unit id="381a677c-465a-42a8-9da8-02fc8fc48cdb">
       <notes>
-        <note appliesTo="source">line: 209</note>
+        <note appliesTo="source">line: 220</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1492,9 +1548,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>添加 Ctrl+左光标键跳至上一分割点并读出；</target>
       </segment>
     </unit>
-    <unit id="5d3cb539-8af4-4686-9ed6-e93d4d65c269">
+    <unit id="7e87bae5-51e4-4ae4-84d7-ad025e19925c">
       <notes>
-        <note appliesTo="source">line: 210</note>
+        <note appliesTo="source">line: 221</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1502,9 +1558,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>添加 Shift+右光标键前进 0.04 秒并读出；</target>
       </segment>
     </unit>
-    <unit id="00ba7911-3e60-4c00-a04f-a7d7ba664bf3">
+    <unit id="bace97ef-93cd-4be6-9852-4cdfc410f757">
       <notes>
-        <note appliesTo="source">line: 211</note>
+        <note appliesTo="source">line: 222</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1512,9 +1568,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>添加 Shift+左光标键后退 0.04 秒并读出；</target>
       </segment>
     </unit>
-    <unit id="f0610897-9f4a-47f0-850f-1b39ed6db6fc">
+    <unit id="17cdde9a-7093-49b8-b15b-4096f619bce3">
       <notes>
-        <note appliesTo="source">line: 212</note>
+        <note appliesTo="source">line: 223</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1522,9 +1578,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>将插件摘要从"for mp3DirectCut"改为"mp3DirectCut"。</target>
       </segment>
     </unit>
-    <unit id="f5b42a73-9a2e-4a0d-9300-c4f63a2f5bad">
+    <unit id="eb1a9451-bc68-4776-96f5-6696e0aadf92">
       <notes>
-        <note appliesTo="source">line: 214</note>
+        <note appliesTo="source">line: 225</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1532,9 +1588,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>2.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="c230185f-6540-4a42-afa0-4b1924b1c81b">
+    <unit id="6f4b1496-9d5c-4136-85bf-6496ae1f57fa">
       <notes>
-        <note appliesTo="source">line: 216</note>
+        <note appliesTo="source">line: 227</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1542,9 +1598,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>添加 Ctrl+Shift+R 查询剩余时间；</target>
       </segment>
     </unit>
-    <unit id="965cacaf-d745-4965-b0ae-d0431ca1c321">
+    <unit id="43b3f68d-fae1-4c98-b358-265b3325d4d5">
       <notes>
-        <note appliesTo="source">line: 217</note>
+        <note appliesTo="source">line: 228</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1552,9 +1608,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>修复包含小时的时长读取问题；</target>
       </segment>
     </unit>
-    <unit id="dbd5e09c-d4cc-4326-aa03-b0d492b7a5e9">
+    <unit id="dca4453d-ed14-4b56-8d69-8eef77403ead">
       <notes>
-        <note appliesTo="source">line: 218</note>
+        <note appliesTo="source">line: 229</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1562,9 +1618,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>增加毫秒与百分秒的区分能力。</target>
       </segment>
     </unit>
-    <unit id="8b008948-f667-4160-9c1d-7a57f15d5886">
+    <unit id="37f76c8f-2142-4149-89f9-64fe45b70564">
       <notes>
-        <note appliesTo="source">line: 220</note>
+        <note appliesTo="source">line: 231</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1572,9 +1628,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>1.1 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="eb71b85d-66b7-4bd0-93d0-c8951e9cc36b">
+    <unit id="b745dcfc-a9f6-4147-8c18-46eaec33d5ae">
       <notes>
-        <note appliesTo="source">line: 222</note>
+        <note appliesTo="source">line: 233</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1582,9 +1638,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>在输入手势设置中增加 mp3DirectCut 分类。；</target>
       </segment>
     </unit>
-    <unit id="70cebd46-215f-430b-8e57-72879745ab9d">
+    <unit id="f3b1d27b-b43f-4336-9ed1-5a4957ac041b">
       <notes>
-        <note appliesTo="source">line: 224</note>
+        <note appliesTo="source">line: 235</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -1592,9 +1648,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>该分类仅在使用该软件时可见。</target>
       </segment>
     </unit>
-    <unit id="bb249b8a-2a39-4c25-87c0-24c7897a5334">
+    <unit id="6614c1b5-c8d9-469e-bb42-1bda56e4e902">
       <notes>
-        <note appliesTo="source">line: 226</note>
+        <note appliesTo="source">line: 237</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1602,9 +1658,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>在 NVDA 工具菜单中添加"mp3DirectCut 配置"项，可启用/禁用自动消息；</target>
       </segment>
     </unit>
-    <unit id="9554ce70-0ae4-42f1-8e29-3a05ea54af5b">
+    <unit id="7e9091ba-bc2b-4b53-9696-6820736cc37f">
       <notes>
-        <note appliesTo="source">line: 228</note>
+        <note appliesTo="source">line: 239</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1612,32 +1668,14 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>1.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="bbc49d80-9746-4cdb-be10-8e3abe8afc55">
+    <unit id="7f153327-12f0-4dcf-8526-10a537cf5daa">
       <notes>
-        <note appliesTo="source">line: 230</note>
+        <note appliesTo="source">line: 241</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
         <source>Initial version.</source>
         <target>初始版本。</target>
-      </segment>
-    </unit>
-    <unit id="a70e327f-7ce2-444d-a5c1-3da06b8459cf">
-      <notes>
-        <note appliesTo="source">line: 232</note>
-      </notes>
-      <segment state="final">
-        <source>[1]: https://www.nvaccess.org/addonStore/legacy?file=mp3DirectCut</source>
-        <target>[1]: https://www.nvaccess.org/addonStore/legacy?file=mp3DirectCut</target>
-      </segment>
-    </unit>
-    <unit id="b40d4bca-c971-4900-9d7a-a4df26d05592">
-      <notes>
-        <note appliesTo="source">line: 234</note>
-      </notes>
-      <segment state="final">
-        <source>[2]: https://www.nvaccess.org/addonStore/legacy?file=mp3DirectCut</source>
-        <target>[2]: https://www.nvaccess.org/addonStore/legacy?file=mp3DirectCut</target>
       </segment>
     </unit>
   </file>
