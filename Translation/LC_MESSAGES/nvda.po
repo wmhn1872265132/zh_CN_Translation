@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-08 05:29+0000\n"
-"PO-Revision-Date: 2026-05-06 15:21+0800\n"
+"PO-Revision-Date: 2026-05-08 15:33+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -7486,13 +7486,13 @@ msgstr[0] "{numFingers}指{action}"
 #: touchTracker.py:40
 msgctxt "touch action"
 msgid "pinch in"
-msgstr ""
+msgstr "双指捏合"
 
 #. Translators: a touch screen gesture where two fingers move away from each other (zoom in)
 #: touchTracker.py:42
 msgctxt "touch action"
 msgid "pinch out"
-msgstr ""
+msgstr "双指张开"
 
 #. Translators: a very quick touch and release of a finger on a touch screen
 #: touchTracker.py:44
