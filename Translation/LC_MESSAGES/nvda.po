@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-08 02:41+0000\n"
+"POT-Creation-Date: 2026-05-08 05:29+0000\n"
 "PO-Revision-Date: 2026-05-06 15:21+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -7482,62 +7482,74 @@ msgid "{numFingers} finger {action}"
 msgid_plural "{numFingers} finger {action}"
 msgstr[0] "{numFingers}指{action}"
 
+#. Translators: a touch screen gesture where two fingers move toward each other (zoom out)
+#: touchTracker.py:40
+msgctxt "touch action"
+msgid "pinch in"
+msgstr ""
+
+#. Translators: a touch screen gesture where two fingers move away from each other (zoom in)
+#: touchTracker.py:42
+msgctxt "touch action"
+msgid "pinch out"
+msgstr ""
+
 #. Translators: a very quick touch and release of a finger on a touch screen
-#: touchTracker.py:32
+#: touchTracker.py:44
 msgctxt "touch action"
 msgid "tap"
 msgstr "点击"
 
 #. Translators: a very quick touch and release, then another touch with no release, on a touch screen
-#: touchTracker.py:34
+#: touchTracker.py:46
 msgctxt "touch action"
 msgid "tap and hold"
 msgstr "点击后按住"
 
 #. Translators: a touch with no release, on a touch screen.
-#: touchTracker.py:36
+#: touchTracker.py:48
 msgctxt "touch action"
 msgid "hold"
 msgstr "按住"
 
 #. Translators: a quick swipe of a finger in an up direction, on a touch screen.
-#: touchTracker.py:38
+#: touchTracker.py:50
 msgctxt "touch action"
 msgid "flick up"
 msgstr "向上滑动"
 
 #. Translators: a quick swipe of a finger in an down direction, on a touch screen.
-#: touchTracker.py:40
+#: touchTracker.py:52
 msgctxt "touch action"
 msgid "flick down"
 msgstr "向下滑动"
 
 #. Translators: a quick swipe of a finger in a left direction, on a touch screen.
-#: touchTracker.py:42
+#: touchTracker.py:54
 msgctxt "touch action"
 msgid "flick left"
 msgstr "向左滑动"
 
 #. Translators: a quick swipe of a finger in a right direction, on a touch screen.
-#: touchTracker.py:44
+#: touchTracker.py:56
 msgctxt "touch action"
 msgid "flick right"
 msgstr "向右滑动"
 
 #. Translators:  a finger has been held on the touch screen long enough to be considered as hovering
-#: touchTracker.py:46
+#: touchTracker.py:58
 msgctxt "touch action"
 msgid "hover down"
 msgstr "停住"
 
 #. Translators: A finger is still touching the touch screen and is moving around with out breaking contact.
-#: touchTracker.py:48
+#: touchTracker.py:60
 msgctxt "touch action"
 msgid "hover"
 msgstr "移动"
 
 #. Translators: a finger that was hovering (touching the touch screen for a long time) has been released
-#: touchTracker.py:50
+#: touchTracker.py:62
 msgctxt "touch action"
 msgid "hover up"
 msgstr "抬起"
