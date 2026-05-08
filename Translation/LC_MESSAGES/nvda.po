@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-07 02:35+0000\n"
+"POT-Creation-Date: 2026-05-08 02:41+0000\n"
 "PO-Revision-Date: 2026-05-06 15:21+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -20916,7 +20916,7 @@ msgid ""
 msgstr "无法启动放大镜：黑屏已开启，请先关闭黑屏。"
 
 #. Translators: Message announced when starting the NVDA magnifier.
-#: _magnifier\commands.py:116
+#: _magnifier\commands.py:115
 #, python-brace-format
 msgctxt "magnifier"
 msgid ""
@@ -20927,7 +20927,7 @@ msgstr ""
 "式：{fullscreenMode}"
 
 #. Translators: Message announced when starting the NVDA magnifier.
-#: _magnifier\commands.py:127
+#: _magnifier\commands.py:126
 #, python-brace-format
 msgctxt "magnifier"
 msgid ""
@@ -20936,85 +20936,85 @@ msgid ""
 msgstr "开启{magnifiedView}放大镜，放大级别： {zoomLevel}，颜色滤镜：{filter}"
 
 #. Translators: Message announced when arriving at the {edge} edge.
-#: _magnifier\commands.py:174
+#: _magnifier\commands.py:173
 #, python-brace-format
 msgctxt "magnifier"
 msgid "{edge} edge"
 msgstr "{edge}边"
 
 #. Translators: Message announced when changing the color filter with {filter} being the new color filter.
-#: _magnifier\commands.py:197
+#: _magnifier\commands.py:196
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Color filter changed to {filter}"
 msgstr "{filter}颜色滤镜"
 
 #. Translators: Message announced when changing the magnifier view with {view} being the new magnifier view.
-#: _magnifier\commands.py:221
+#: _magnifier\commands.py:220
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Magnifier view changed to {view}"
 msgstr "{view} 放大视图"
 
 #. Translators: Message announced when toggling a follow setting with {setting} being the name of the setting and {state} being either "enabled" or "disabled".
-#: _magnifier\commands.py:244
+#: _magnifier\commands.py:243
 #, python-brace-format
 msgctxt "magnifier"
 msgid "{setting} {state}"
 msgstr "{state}跟随{setting}"
 
 #. Translators: State of the follow setting being toggled enabled.
-#: _magnifier\commands.py:250
+#: _magnifier\commands.py:249
 msgctxt "magnifier"
 msgid "enabled"
 msgstr "启用"
 
 #. Translators: State of the follow setting being toggled disabled.
-#: _magnifier\commands.py:256
+#: _magnifier\commands.py:255
 msgctxt "magnifier"
 msgid "disabled"
 msgstr "禁用"
 
 #. Translators: State of all follow settings being toggled disabled.
-#: _magnifier\commands.py:274
+#: _magnifier\commands.py:273
 msgctxt "magnifier"
 msgid "All follow settings disabled"
 msgstr "禁用跟随"
 
 #. Translators: State of all follow settings being restored.
-#: _magnifier\commands.py:280
+#: _magnifier\commands.py:279
 msgctxt "magnifier"
 msgid "All follow settings restored"
 msgstr "恢复跟随"
 
 #. Translators: Message announced when changing the full-screen mode with {mode} being the new full-screen mode.
-#: _magnifier\commands.py:307
+#: _magnifier\commands.py:306
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Full-screen mode changed to {mode}"
 msgstr "{mode}全屏模式"
 
 #. Translators: Message announced when trying to start spotlight mode while it's already active.
-#: _magnifier\commands.py:331
+#: _magnifier\commands.py:330
 msgctxt "magnifier"
 msgid "Spotlight mode is already active"
 msgstr "已显示标准视图"
 
 #. Translators: Message announced when spotlight mode is started.
-#: _magnifier\commands.py:341
+#: _magnifier\commands.py:340
 msgctxt "magnifier"
 msgid "Spotlight mode started"
 msgstr "暂时显示标准视图"
 
 #. Translators: Message announced when the magnifier is not active.
-#: _magnifier\commands.py:365
+#: _magnifier\commands.py:364
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not active."
 msgstr "放大镜未开启时无法{action}。"
 
 #. Translators: Message announced when the magnifier is not full-screen.
-#: _magnifier\commands.py:390
+#: _magnifier\commands.py:389
 #, python-brace-format
 msgctxt "magnifier"
 msgid "Cannot {action} when Magnifier is not full-screen."
@@ -21028,7 +21028,7 @@ msgid "{zoomLevel}x"
 msgstr "{zoomLevel} 倍"
 
 #. Translators: Message when NVDA's Magnifier cannot start because another magnifier is already running.
-#: _magnifier\fullscreenMagnifier.py:81
+#: _magnifier\fullscreenMagnifier.py:78
 msgctxt "magnifier"
 msgid ""
 "Cannot start magnifier. Another magnifier application may already be running."
