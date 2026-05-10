@@ -1,113 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/dayOfTheWeek/367a2876e6c620e583281a78a529c59141eb596d/readme.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/abdel792/dayOfTheWeek/471b982d2635730671985669ae28fae048123d63/readme.md">
     <skeleton>
-# $(ID:a545efed-1daf-4871-8f1e-ed965384f8ce)
+# $(ID:e8b44740-1d7e-4f78-ba39-b5d41c1111d5)
 
-* $(ID:00a79b64-5ae4-4980-8ff2-373a9c25763b)
-* $(ID:509640f4-39de-4836-bd0e-e6944819778c)
-* $(ID:f6a8bff6-5d91-46a6-8de2-1046efee478c)
+* $(ID:6707d00b-77f8-432f-b87b-760772500ff4)
 
-$(ID:e252d51e-bf85-434a-a388-ae8d569f83c4)
+$(ID:ccffd147-9a12-467b-ad33-7f98c339dbd5)
 
-$(ID:302ce67a-af78-4452-b1b6-e6524a401f67)
+$(ID:32bf4e4f-08ed-4f43-b50f-1d2527951e06)
 
-* $(ID:414813ca-0b9c-4d18-92d2-a6bfa0a3eaa6)
+* $(ID:2dc425a6-be4b-4930-82e9-05dca78965c1)
 
-    * $(ID:e78c4942-5d38-4350-b406-3d0a2db7ed98)
-    * $(ID:b0094696-f2c4-4ea6-8d40-4c3039fd759e)
-    * $(ID:70f00355-bd91-45d7-82ba-5cdec8fed510)
+    * $(ID:7ae4b5e0-51ee-4cb1-9b39-c456ba0b9d5a)
+    * $(ID:bc4fad54-f2e6-42ec-a502-3ed69ee61245)
+    * $(ID:16fbddfd-79f9-4f1a-831a-3f86f86c3829)
 
-* $(ID:5d73d67f-3c58-45b9-932e-cb950228561f)
+* $(ID:678ad63a-1a47-4150-aead-2aa100e53881)
 
-    * $(ID:fe3bfa0d-85c5-4368-95c5-32f3d6015023)
-    * $(ID:ba8da11b-0c9b-4fe3-b214-26ac9ac6c07f)
+    * $(ID:c14dddd1-b927-46b0-a1a0-b9cd47264559)
+    * $(ID:dcd16c89-1d99-4f74-8445-b79a471fab30)
 
-        * $(ID:c83a20eb-6c4e-4e91-b1d6-cefbbf6a7a08)
-        * $(ID:cb9260c4-fe8d-4994-a3a2-15fa29cd9fbb)
-        * $(ID:cbca1892-523c-48e8-8691-58cbf83347f0)
+        * $(ID:fe4edf45-173b-4627-9ca5-9d0094924953)
+        * $(ID:1ec20dd3-b9f4-434f-b756-323dbebdd22a)
+        * $(ID:840f5192-5242-40f8-8ad7-31a8c46bee87)
 
-    * $(ID:bf99243f-9de5-448c-91a5-8f374ae7fc79)
-    * $(ID:314bb712-00de-49cd-bf0d-360411ae4bac)
-    * $(ID:6d6e02b6-4363-440e-bddd-2614f4c55c9d)
+    * $(ID:b16399c5-0324-4a0e-98dd-83eca64375ab)
+    * $(ID:020fe712-5144-44c8-9c29-ca842e324c36)
+    * $(ID:4e71dcd5-855f-41d2-b67b-62330ab40551)
 
-## $(ID:d9f61fd2-3f32-48bf-8448-bd3267b6c85f)
+## $(ID:213ca5f3-c3c6-4459-ad56-9de24af3a4c3)
 
-* $(ID:318be477-9ebd-4981-b133-77f9333398d9)
-* $(ID:a934937f-6ab1-4d4a-8832-32aae6835065)
-* $(ID:10cdd217-7a45-40bf-b8ec-7fb352ffc6d3)
+* $(ID:e2d8f5be-eab5-42a7-878c-37732ed45060)
+* $(ID:07371d37-6fef-4945-9da7-ac3b15af69c8)
+* $(ID:4166ff38-6e11-4b15-a272-f267d54981be)
 
-## $(ID:c0575537-90d2-4987-8142-d2b8cb1bf44a)
+## $(ID:9dcc3463-47bb-41a3-bda4-cdc3ce68a86f)
 
-* $(ID:d4f91307-e307-4dcf-8ac8-dbe620c89f86)
+* $(ID:d9738eb9-b140-4234-98a5-ff74f742936c)
 
-## $(ID:e005da4d-7884-4a6c-b8c4-7d0cdb6933f9)
+## $(ID:42a564d9-9c5f-488a-9a21-287310579025)
 
-* $(ID:59b741f8-c10d-47c7-87e6-e1cfd8fdc8b1)
+* $(ID:62c69398-3946-44e6-846c-09211de96372)
+* $(ID:94b9ba69-9c1b-4c41-8123-b69100321f22)
 
-## $(ID:08636b05-9903-4e5f-b11c-dfb050d376fa)
+## $(ID:4d9ed136-ce7c-4054-99da-07c9c95a83c3)
 
-* $(ID:4314b97a-fdfa-4a11-b89b-7c4db8975bfc)
-* $(ID:f600f918-6d76-4f6c-9ee5-7103290db9b2)
+* $(ID:e98a6bff-26f2-46aa-ab68-f22f3fc09367)
 
-## $(ID:ae0e1c2c-7516-4a7c-a3ab-1d6adf1b9352)
+## $(ID:aef3926e-752e-4147-9006-9975caec45ae)
 
-* $(ID:f4417246-226b-4284-b0a7-5527175da46e)
- * $(ID:bdbe77a3-f20c-4e51-bee4-1aa70d6c4d11)
- * $(ID:f768b3f0-1a81-426d-92b0-98ca50dc1e61)
- * $(ID:52f455d0-a1b8-4092-8ffc-4fd6f05194fd)
-* $(ID:d8f3f873-628e-415c-91e9-f0aabdcaa521)
+* $(ID:3d77f3c3-9fa7-4f8b-89d2-edb0cfb02697)
 
-## $(ID:45223ac3-1d1e-4dea-9cf9-27382a615d20)
+## $(ID:017777d6-1c05-4340-80a5-51c98f4cf170)
 
-* $(ID:7904027a-5b36-44de-890b-a3151aa0e69c)
+* $(ID:4e79afaf-480e-47dd-9650-89480f93c10a)
+* $(ID:8ca5515d-614b-439a-9ffe-bb719c457ae4)
 
-## $(ID:a1e6b78c-2ba7-4f70-a97c-0d599452260a)
+## $(ID:cc85543a-4f3e-4bc3-8ab7-1d156a1d36e2)
 
-* $(ID:f7a32736-d391-4039-988b-5b98f85a8657)
-* $(ID:600ce0df-1368-4bed-933e-2dd1752ff97b)
+* $(ID:f299030b-b708-4c73-bd44-9bea4226a21f)
+ * $(ID:6afdc940-b22d-4df8-ad97-650824a92263)
+ * $(ID:a2981ebd-fbcc-492c-bd97-b528f8359866)
+ * $(ID:00dacac6-4a6d-4ee6-9fad-0fb38e58129e)
+* $(ID:024ede3d-829f-411e-bb37-a5b375056405)
 
-## $(ID:98576fd7-71cf-440f-b6fb-ef1c9a0523a1)
+## $(ID:5bd22fb0-c574-437b-9182-59464f94666b)
 
-* $(ID:516b4c9a-545c-4a7f-b20c-4965d8dc4f26)
-* $(ID:ead5eddc-cac5-45cd-9c3f-0ea6bc1c876b)
-* $(ID:e98adebf-8ffa-49fd-a42a-3ce8afb94191)
+* $(ID:fdbdf227-85d0-4d80-9938-fc3889f5f955)
 
-## $(ID:e78cde0a-1862-4a47-89c9-6e1222935294)
+## $(ID:80307f5f-b3bb-47c9-9404-0817ba2871df)
 
-* $(ID:01efe0f7-18b5-4647-a534-e16729763615)
-* $(ID:5935917b-59a3-4b27-a407-66f41efe1395)
+* $(ID:44ce895e-a530-4709-987c-90070897d16a)
+* $(ID:b64c9837-ca10-444b-932e-e4afcea96587)
 
-## $(ID:45faa1c5-0aa5-49d4-b477-0396da5ca76a)
+## $(ID:67994f44-6ad7-4743-a8d4-5daa698821df)
 
-* $(ID:1b01f73f-6ab9-4ffe-877e-8eda1aeb145e)
-* $(ID:5a66f80b-0c9d-400f-a916-21ae37032ee2)
+* $(ID:2a7bcdb7-2070-42c2-b80f-329d9e9a9cd9)
+* $(ID:4d4134f8-fa18-4094-944b-4cbf41f2e8dc)
+* $(ID:e0d244d0-a5ce-4374-84b5-bf2bad48c0bb)
 
-## $(ID:a95187a3-3d7a-49d0-9701-891415a19a5e)
+## $(ID:ae44cc15-4bb3-4fee-a2b9-66353165636c)
 
-* $(ID:65f5ac85-cfca-4e03-bf31-2ca47d838bf6)
-* $(ID:c68423d9-b7f0-4cfc-acdb-150aa5b668d8)
-* $(ID:f9efa63e-6878-4fd8-b7c2-4aab2f83aec4)
-* $(ID:a03df1fd-bbf1-48b4-bf0a-7973a7ffd9e5)
-* $(ID:d67eaba4-99e4-49d7-9278-36c68b7a16cd)
-* $(ID:b647bf27-6e30-4291-bc7b-f419b4ec8389)
+* $(ID:e4df9014-11e2-4d00-82d2-565a93994001)
+* $(ID:1129c43f-d20e-4cb8-ab20-2472b62c4b73)
 
-## $(ID:4b8493e1-7e70-4166-bfba-1388ab654396)
+## $(ID:eec88a2f-b559-42cd-ba97-f8ba53e888b9)
 
-* $(ID:40460713-cad4-4be7-a8a3-da59331dc006)
-* $(ID:a3686c7d-2368-463d-b05c-94773fb1c272)
-* $(ID:54f7340a-6f77-4c55-b85c-2c9582d63442)
-* $(ID:b08bce87-5fd3-42fe-a1b9-33e1c86d869b)
+* $(ID:d7318e55-f48b-449e-92c6-4bc54388a130)
+* $(ID:e065ee76-b26b-491d-8ade-cbf1497f4edc)
 
-## $(ID:c4708aa8-d0a0-4f8f-ac89-aaeca4a9d94b)
+## $(ID:edb2aab4-fd2b-403c-ad35-386be9b8cd14)
 
-* $(ID:a674be84-6c9c-4f84-92b5-254f5a5b66f3)
+* $(ID:1a890d53-e762-4318-a803-55f2792195c7)
+* $(ID:a5cc02ca-f813-4615-899d-e283d54a88dc)
+* $(ID:ae8dc7a0-b7ba-4d36-9bda-15fb15205351)
+* $(ID:96d63875-127f-45f9-994f-f71fa976e04f)
+* $(ID:75f1f33a-7479-4f7e-9ff9-acaed69ec446)
+* $(ID:629e7d78-7d14-437e-ae90-a561023fe3db)
 
-$(ID:b7e8b0e2-9d6a-4a29-bcbc-6b9e9deb7655)
+## $(ID:a83a29b0-0cd9-4a24-88d8-ed250fcdf4e3)
 
-$(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
+* $(ID:d0fa5c11-3037-400e-813f-6999e2cc7928)
+* $(ID:fb6d272d-c1df-47db-96a7-114641903d9a)
+* $(ID:73ab8be5-c88f-4101-8542-fa9064223071)
+* $(ID:b5555d94-93b7-4397-b587-90ffa828450b)
+
+## $(ID:41444730-26f2-43c6-9afc-1ec1eb0ea480)
+
+* $(ID:94df48e4-59bc-418a-9177-d0e71e233b49)
 </skeleton>
-    <unit id="a545efed-1daf-4871-8f1e-ed965384f8ce">
+    <unit id="e8b44740-1d7e-4f78-ba39-b5d41c1111d5">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -117,7 +119,7 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>星期查询</target>
       </segment>
     </unit>
-    <unit id="00a79b64-5ae4-4980-8ff2-373a9c25763b">
+    <unit id="6707d00b-77f8-432f-b87b-760772500ff4">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
@@ -127,47 +129,27 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>作者：Abdel, Noelia。</target>
       </segment>
     </unit>
-    <unit id="509640f4-39de-4836-bd0e-e6944819778c">
-      <notes>
-        <note appliesTo="source">line: 5</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>download [stable version][1]</source>
-        <target>下载[稳定版][1]</target>
-      </segment>
-    </unit>
-    <unit id="f6a8bff6-5d91-46a6-8de2-1046efee478c">
+    <unit id="ccffd147-9a12-467b-ad33-7f98c339dbd5">
       <notes>
         <note appliesTo="source">line: 6</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>download [development version][2]</source>
-        <target>下载[开发版][2]</target>
-      </segment>
-    </unit>
-    <unit id="e252d51e-bf85-434a-a388-ae8d569f83c4">
-      <notes>
-        <note appliesTo="source">line: 8</note>
       </notes>
       <segment state="final">
         <source>This add-on allows you to find a day of the week corresponding to a chosen date.</source>
         <target>此插件可查询指定日期对应的星期信息。</target>
       </segment>
     </unit>
-    <unit id="302ce67a-af78-4452-b1b6-e6524a401f67">
+    <unit id="32bf4e4f-08ed-4f43-b50f-1d2527951e06">
       <notes>
-        <note appliesTo="source">line: 10</note>
+        <note appliesTo="source">line: 8</note>
       </notes>
       <segment state="final">
         <source>It adds a submenu in the NVDA Tools menu named "Day of the week", containing 2 items:</source>
         <target>在 NVDA 工具菜单中新增名为"星期查询"的子菜单，包含两个功能项：</target>
       </segment>
     </unit>
-    <unit id="414813ca-0b9c-4d18-92d2-a6bfa0a3eaa6">
+    <unit id="2dc425a6-be4b-4930-82e9-05dca78965c1">
       <notes>
-        <note appliesTo="source">line: 12</note>
+        <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -175,9 +157,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>第一项可查询星期，将打开包含3个控件的对话框：</target>
       </segment>
     </unit>
-    <unit id="e78c4942-5d38-4350-b406-3d0a2db7ed98">
+    <unit id="7ae4b5e0-51ee-4cb1-9b39-c456ba0b9d5a">
       <notes>
-        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -185,9 +167,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>用于选择或输入日期的组合框；</target>
       </segment>
     </unit>
-    <unit id="b0094696-f2c4-4ea6-8d40-4c3039fd759e">
+    <unit id="bc4fad54-f2e6-42ec-a502-3ed69ee61245">
       <notes>
-        <note appliesTo="source">line: 15</note>
+        <note appliesTo="source">line: 13</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -195,9 +177,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>"确定"按钮：显示包含星期信息的消息框；</target>
       </segment>
     </unit>
-    <unit id="70f00355-bd91-45d7-82ba-5cdec8fed510">
+    <unit id="16fbddfd-79f9-4f1a-831a-3f86f86c3829">
       <notes>
-        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -205,9 +187,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>"取消"按钮：关闭对话框。</target>
       </segment>
     </unit>
-    <unit id="5d73d67f-3c58-45b9-932e-cb950228561f">
+    <unit id="678ad63a-1a47-4150-aead-2aa100e53881">
       <notes>
-        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -215,9 +197,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>第二项星期查询插件设置可打开参数设置界面，用于指定是否播报日期字段标签，包含以下元素：</target>
       </segment>
     </unit>
-    <unit id="fe3bfa0d-85c5-4368-95c5-32f3d6015023">
+    <unit id="c14dddd1-b927-46b0-a1a0-b9cd47264559">
       <notes>
-        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -225,9 +207,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>启用日期选择器的无障碍访问；</target>
       </segment>
     </unit>
-    <unit id="ba8da11b-0c9b-4fe3-b214-26ac9ac6c07f">
+    <unit id="dcd16c89-1d99-4f74-8445-b79a471fab30">
       <notes>
-        <note appliesTo="source">line: 21</note>
+        <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -235,9 +217,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>标签播报级别（提供3种选项）：</target>
       </segment>
     </unit>
-    <unit id="c83a20eb-6c4e-4e91-b1d6-cefbbf6a7a08">
+    <unit id="fe4edf45-173b-4627-9ca5-9d0094924953">
       <notes>
-        <note appliesTo="source">line: 23</note>
+        <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix:         * </note>
       </notes>
       <segment state="final">
@@ -245,9 +227,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>详细（默认选择）；</target>
       </segment>
     </unit>
-    <unit id="cb9260c4-fe8d-4994-a3a2-15fa29cd9fbb">
+    <unit id="1ec20dd3-b9f4-434f-b756-323dbebdd22a">
       <notes>
-        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix:         * </note>
       </notes>
       <segment state="final">
@@ -255,9 +237,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>简略（简短播报）；</target>
       </segment>
     </unit>
-    <unit id="cbca1892-523c-48e8-8691-58cbf83347f0">
+    <unit id="840f5192-5242-40f8-8ad7-31a8c46bee87">
       <notes>
-        <note appliesTo="source">line: 25</note>
+        <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix:         * </note>
       </notes>
       <segment state="final">
@@ -265,9 +247,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>关闭（禁用标签播报）。</target>
       </segment>
     </unit>
-    <unit id="bf99243f-9de5-448c-91a5-8f374ae7fc79">
+    <unit id="b16399c5-0324-4a0e-98dd-83eca64375ab">
       <notes>
-        <note appliesTo="source">line: 27</note>
+        <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -275,9 +257,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>垂直移动时仅播报当前日期字段值；</target>
       </segment>
     </unit>
-    <unit id="314bb712-00de-49cd-bf0d-360411ae4bac">
+    <unit id="020fe712-5144-44c8-9c29-ca842e324c36">
       <notes>
-        <note appliesTo="source">line: 28</note>
+        <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -285,9 +267,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>"确定"按钮：保存配置；</target>
       </segment>
     </unit>
-    <unit id="6d6e02b6-4363-440e-bddd-2614f4c55c9d">
+    <unit id="4e71dcd5-855f-41d2-b67b-62330ab40551">
       <notes>
-        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="final">
@@ -295,9 +277,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>"取消"按钮：取消并关闭对话框。</target>
       </segment>
     </unit>
-    <unit id="d9f61fd2-3f32-48bf-8448-bd3267b6c85f">
+    <unit id="213ca5f3-c3c6-4459-ad56-9de24af3a4c3">
       <notes>
-        <note appliesTo="source">line: 31</note>
+        <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -305,9 +287,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>注意事项 ##</target>
       </segment>
     </unit>
-    <unit id="318be477-9ebd-4981-b133-77f9333398d9">
+    <unit id="e2d8f5be-eab5-42a7-878c-37732ed45060">
       <notes>
-        <note appliesTo="source">line: 33</note>
+        <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -315,9 +297,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>按 Esc 键可快速关闭对话框；</target>
       </segment>
     </unit>
-    <unit id="a934937f-6ab1-4d4a-8832-32aae6835065">
+    <unit id="07371d37-6fef-4945-9da7-ac3b15af69c8">
       <notes>
-        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -325,9 +307,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>可在"输入手势"菜单的"星期查询"类别中为这些对话框分配快捷键；</target>
       </segment>
     </unit>
-    <unit id="10cdd217-7a45-40bf-b8ec-7fb352ffc6d3">
+    <unit id="4166ff38-6e11-4b15-a272-f267d54981be">
       <notes>
-        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -335,9 +317,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>若使用 NVDA 2018.2 或更高版本，工具菜单中仅显示日期查询项，插件设置将整合至 NVDA 设置面板。</target>
       </segment>
     </unit>
-    <unit id="c0575537-90d2-4987-8142-d2b8cb1bf44a">
+    <unit id="9dcc3463-47bb-41a3-bda4-cdc3ce68a86f">
       <notes>
-        <note appliesTo="source">line: 37</note>
+        <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -345,9 +327,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>兼容性 ##</target>
       </segment>
     </unit>
-    <unit id="d4f91307-e307-4dcf-8ac8-dbe620c89f86">
+    <unit id="d9738eb9-b140-4234-98a5-ff74f742936c">
       <notes>
-        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -355,9 +337,59 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>此插件兼容 NVDA 2019.3 及更高版本。</target>
       </segment>
     </unit>
-    <unit id="e005da4d-7884-4a6c-b8c4-7d0cdb6933f9">
+    <unit id="42a564d9-9c5f-488a-9a21-287310579025">
+      <notes>
+        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 20240326.0.0</source>
+        <target>20240326.0.0 版本变更</target>
+      </segment>
+    </unit>
+    <unit id="62c69398-3946-44e6-846c-09211de96372">
       <notes>
         <note appliesTo="source">line: 41</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Updated compatibility for nvda-2024.1.;</source>
+        <target>兼容 NVDA 2024.1；</target>
+      </segment>
+    </unit>
+    <unit id="94b9ba69-9c1b-4c41-8123-b69100321f22">
+      <notes>
+        <note appliesTo="source">line: 42</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Deleted download link from readme, the download link for future updates will now only be available from the add-on store.</source>
+        <target>从 readme 文件中删除了下载链接，未来更新的下载链接只能从插件商店获取。</target>
+      </segment>
+    </unit>
+    <unit id="4d9ed136-ce7c-4054-99da-07c9c95a83c3">
+      <notes>
+        <note appliesTo="source">line: 44</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 20231229.0.0 ##</source>
+        <target>20231229.0.0 版本变更 ##</target>
+      </segment>
+    </unit>
+    <unit id="e98a6bff-26f2-46aa-ab68-f22f3fc09367">
+      <notes>
+        <note appliesTo="source">line: 46</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.</source>
+        <target>添加了一个向后兼容的实现来支持手动朗读模式，该模式很快将在 NVDA 2024.1 中提供。</target>
+      </segment>
+    </unit>
+    <unit id="aef3926e-752e-4147-9006-9975caec45ae">
+      <notes>
+        <note appliesTo="source">line: 48</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -365,9 +397,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>20231015.0.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="59b741f8-c10d-47c7-87e6-e1cfd8fdc8b1">
+    <unit id="3d77f3c3-9fa7-4f8b-89d2-edb0cfb02697">
       <notes>
-        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -375,9 +407,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>修复了在最新版 NVDA 中使用上光标导航日期选择器时检测到的错误。</target>
       </segment>
     </unit>
-    <unit id="08636b05-9903-4e5f-b11c-dfb050d376fa">
+    <unit id="017777d6-1c05-4340-80a5-51c98f4cf170">
       <notes>
-        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -385,9 +417,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>20230728.0.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="4314b97a-fdfa-4a11-b89b-7c4db8975bfc">
+    <unit id="4e79afaf-480e-47dd-9650-89480f93c10a">
       <notes>
-        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -395,9 +427,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>对代码应用 flake8 和 mypy 规范；</target>
       </segment>
     </unit>
-    <unit id="f600f918-6d76-4f6c-9ee5-7103290db9b2">
+    <unit id="8ca5515d-614b-439a-9ffe-bb719c457ae4">
       <notes>
-        <note appliesTo="source">line: 48</note>
+        <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -405,9 +437,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>将最低支持的 NVDA 版本改为 2019.3 以支持 Python 3 的类型注解。</target>
       </segment>
     </unit>
-    <unit id="ae0e1c2c-7516-4a7c-a3ab-1d6adf1b9352">
+    <unit id="cc85543a-4f3e-4bc3-8ab7-1d156a1d36e2">
       <notes>
-        <note appliesTo="source">line: 50</note>
+        <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -415,9 +447,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>20230607.0.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="f4417246-226b-4284-b0a7-5527175da46e">
+    <unit id="f299030b-b708-4c73-bd44-9bea4226a21f">
       <notes>
-        <note appliesTo="source">line: 52</note>
+        <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -425,9 +457,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>新增以下工作流：</target>
       </segment>
     </unit>
-    <unit id="bdbe77a3-f20c-4e51-bee4-1aa70d6c4d11">
+    <unit id="6afdc940-b22d-4df8-ad97-650824a92263">
       <notes>
-        <note appliesTo="source">line: 53</note>
+        <note appliesTo="source">line: 60</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="final">
@@ -435,9 +467,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>auto-update-translations：自动从 NVDA 翻译系统更新翻译。</target>
       </segment>
     </unit>
-    <unit id="f768b3f0-1a81-426d-92b0-98ca50dc1e61">
+    <unit id="a2981ebd-fbcc-492c-bd97-b528f8359866">
       <notes>
-        <note appliesTo="source">line: 54</note>
+        <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="final">
@@ -445,9 +477,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>release-on-tag.yaml：推送新标签时自动构建和发布插件；</target>
       </segment>
     </unit>
-    <unit id="52f455d0-a1b8-4092-8ffc-4fd6f05194fd">
+    <unit id="00dacac6-4a6d-4ee6-9fad-0fb38e58129e">
       <notes>
-        <note appliesTo="source">line: 55</note>
+        <note appliesTo="source">line: 62</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="final">
@@ -455,9 +487,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>manual-release.yaml：手动构建和发布新版本插件。</target>
       </segment>
     </unit>
-    <unit id="d8f3f873-628e-415c-91e9-f0aabdcaa521">
+    <unit id="024ede3d-829f-411e-bb37-a5b375056405">
       <notes>
-        <note appliesTo="source">line: 56</note>
+        <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -465,9 +497,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>更新翻译。</target>
       </segment>
     </unit>
-    <unit id="45223ac3-1d1e-4dea-9cf9-27382a615d20">
+    <unit id="5bd22fb0-c574-437b-9182-59464f94666b">
       <notes>
-        <note appliesTo="source">line: 58</note>
+        <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -475,9 +507,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>20230508.0.0 及后续版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="7904027a-5b36-44de-890b-a3151aa0e69c">
+    <unit id="fdbdf227-85d0-4d80-9938-fc3889f5f955">
       <notes>
-        <note appliesTo="source">line: 60</note>
+        <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -485,9 +517,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>根据商店规范/要求调整版本号、最低 NVDA 版本要求和下载链接。</target>
       </segment>
     </unit>
-    <unit id="a1e6b78c-2ba7-4f70-a97c-0d599452260a">
+    <unit id="80307f5f-b3bb-47c9-9404-0817ba2871df">
       <notes>
-        <note appliesTo="source">line: 62</note>
+        <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -495,9 +527,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>19.02 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="f7a32736-d391-4039-988b-5b98f85a8657">
+    <unit id="44ce895e-a530-4709-987c-90070897d16a">
       <notes>
-        <note appliesTo="source">line: 64</note>
+        <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -505,9 +537,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>采用 YY.MM 格式版本编号（2位数年份+小数点+2位数月份）；</target>
       </segment>
     </unit>
-    <unit id="600ce0df-1368-4bed-933e-2dd1752ff97b">
+    <unit id="b64c9837-ca10-444b-932e-e4afcea96587">
       <notes>
-        <note appliesTo="source">line: 65</note>
+        <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -515,9 +547,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>适配 NVDA 2019.1 起启用的新插件版本格式。</target>
       </segment>
     </unit>
-    <unit id="98576fd7-71cf-440f-b6fb-ef1c9a0523a1">
+    <unit id="67994f44-6ad7-4743-a8d4-5daa698821df">
       <notes>
-        <note appliesTo="source">line: 67</note>
+        <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -525,9 +557,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>6.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="516b4c9a-545c-4a7f-b20c-4965d8dc4f26">
+    <unit id="2a7bcdb7-2070-42c2-b80f-329d9e9a9cd9">
       <notes>
-        <note appliesTo="source">line: 69</note>
+        <note appliesTo="source">line: 76</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -535,9 +567,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>为 NVDA 2018.2 及以上版本将插件设置整合至 NVDA 设置面板；</target>
       </segment>
     </unit>
-    <unit id="ead5eddc-cac5-45cd-9c3f-0ea6bc1c876b">
+    <unit id="4d4134f8-fa18-4094-944b-4cbf41f2e8dc">
       <notes>
-        <note appliesTo="source">line: 70</note>
+        <note appliesTo="source">line: 77</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -545,9 +577,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>将日期查询功能移至工具菜单；</target>
       </segment>
     </unit>
-    <unit id="e98adebf-8ffa-49fd-a42a-3ce8afb94191">
+    <unit id="e0d244d0-a5ce-4374-84b5-bf2bad48c0bb">
       <notes>
-        <note appliesTo="source">line: 71</note>
+        <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -555,9 +587,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>实现插件与 2018.2 之前版本（含设置面板）的向后兼容。</target>
       </segment>
     </unit>
-    <unit id="e78cde0a-1862-4a47-89c9-6e1222935294">
+    <unit id="ae44cc15-4bb3-4fee-a2b9-66353165636c">
       <notes>
-        <note appliesTo="source">line: 73</note>
+        <note appliesTo="source">line: 80</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -565,9 +597,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>5.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="01efe0f7-18b5-4647-a534-e16729763615">
+    <unit id="e4df9014-11e2-4d00-82d2-565a93994001">
       <notes>
-        <note appliesTo="source">line: 75</note>
+        <note appliesTo="source">line: 82</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -575,9 +607,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>增加对 wxPython 4.0 和 Python 3 的兼容性；</target>
       </segment>
     </unit>
-    <unit id="5935917b-59a3-4b27-a407-66f41efe1395">
+    <unit id="1129c43f-d20e-4cb8-ab20-2472b62c4b73">
       <notes>
-        <note appliesTo="source">line: 76</note>
+        <note appliesTo="source">line: 83</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -585,9 +617,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>修复插件路径包含非 ASCII 字符时的错误。</target>
       </segment>
     </unit>
-    <unit id="45faa1c5-0aa5-49d4-b477-0396da5ca76a">
+    <unit id="eec88a2f-b559-42cd-ba97-f8ba53e888b9">
       <notes>
-        <note appliesTo="source">line: 78</note>
+        <note appliesTo="source">line: 85</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -595,9 +627,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>4.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="1b01f73f-6ab9-4ffe-877e-8eda1aeb145e">
+    <unit id="d7318e55-f48b-449e-92c6-4bc54388a130">
       <notes>
-        <note appliesTo="source">line: 80</note>
+        <note appliesTo="source">line: 87</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -605,9 +637,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>现可识别用户选择的所有区域日期格式；</target>
       </segment>
     </unit>
-    <unit id="5a66f80b-0c9d-400f-a916-21ae37032ee2">
+    <unit id="e065ee76-b26b-491d-8ade-cbf1497f4edc">
       <notes>
-        <note appliesTo="source">line: 81</note>
+        <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -615,9 +647,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>实现插件与 2016.4 之前版本（含 gui.guiHelper 模块）的向后兼容。</target>
       </segment>
     </unit>
-    <unit id="a95187a3-3d7a-49d0-9701-891415a19a5e">
+    <unit id="edb2aab4-fd2b-403c-ad35-386be9b8cd14">
       <notes>
-        <note appliesTo="source">line: 83</note>
+        <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -625,9 +657,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>3.1 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="65f5ac85-cfca-4e03-bf31-2ca47d838bf6">
+    <unit id="1a890d53-e762-4318-a803-55f2792195c7">
       <notes>
-        <note appliesTo="source">line: 85</note>
+        <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -635,9 +667,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>恢复原有星期格式以支持更多语言识别；</target>
       </segment>
     </unit>
-    <unit id="c68423d9-b7f0-4cfc-acdb-150aa5b668d8">
+    <unit id="a5cc02ca-f813-4615-899d-e283d54a88dc">
       <notes>
-        <note appliesTo="source">line: 86</note>
+        <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -645,9 +677,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>改进日期选择器无障碍访问，支持识别"日"、"月"、"年"三个字段及其对应值；</target>
       </segment>
     </unit>
-    <unit id="f9efa63e-6878-4fd8-b7c2-4aab2f83aec4">
+    <unit id="ae8dc7a0-b7ba-4d36-9bda-15fb15205351">
       <notes>
-        <note appliesTo="source">line: 87</note>
+        <note appliesTo="source">line: 94</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -655,9 +687,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>新增格鲁吉亚语的星期识别支持；</target>
       </segment>
     </unit>
-    <unit id="a03df1fd-bbf1-48b4-bf0a-7973a7ffd9e5">
+    <unit id="96d63875-127f-45f9-994f-f71fa976e04f">
       <notes>
-        <note appliesTo="source">line: 88</note>
+        <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -665,9 +697,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>增加配置对话框用于启用/禁用日期选择器的无障碍访问；</target>
       </segment>
     </unit>
-    <unit id="d67eaba4-99e4-49d7-9278-36c68b7a16cd">
+    <unit id="75f1f33a-7479-4f7e-9ff9-acaed69ec446">
       <notes>
-        <note appliesTo="source">line: 89</note>
+        <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -675,9 +707,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>将插件子菜单从"工具"移至"选项"；</target>
       </segment>
     </unit>
-    <unit id="b647bf27-6e30-4291-bc7b-f419b4ec8389">
+    <unit id="629e7d78-7d14-437e-ae90-a561023fe3db">
       <notes>
-        <note appliesTo="source">line: 90</note>
+        <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -685,9 +717,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>更改插件类别为"星期查询"。</target>
       </segment>
     </unit>
-    <unit id="4b8493e1-7e70-4166-bfba-1388ab654396">
+    <unit id="a83a29b0-0cd9-4a24-88d8-ed250fcdf4e3">
       <notes>
-        <note appliesTo="source">line: 92</note>
+        <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -695,9 +727,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>2.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="40460713-cad4-4be7-a8a3-da59331dc006">
+    <unit id="d0fa5c11-3037-400e-813f-6999e2cc7928">
       <notes>
-        <note appliesTo="source">line: 94</note>
+        <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -705,9 +737,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>采用 gui.guiHelper 模块确保日期查询对话框正确显示；</target>
       </segment>
     </unit>
-    <unit id="a3686c7d-2368-463d-b05c-94773fb1c272">
+    <unit id="fb6d272d-c1df-47db-96a7-114641903d9a">
       <notes>
-        <note appliesTo="source">line: 95</note>
+        <note appliesTo="source">line: 102</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -715,9 +747,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>为插件添加 GPL 许可证；</target>
       </segment>
     </unit>
-    <unit id="54f7340a-6f77-4c55-b85c-2c9582d63442">
+    <unit id="73ab8be5-c88f-4101-8542-fa9064223071">
       <notes>
-        <note appliesTo="source">line: 96</note>
+        <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -725,9 +757,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>翻译星期名称以实现多语言正常运作；</target>
       </segment>
     </unit>
-    <unit id="b08bce87-5fd3-42fe-a1b9-33e1c86d869b">
+    <unit id="b5555d94-93b7-4397-b587-90ffa828450b">
       <notes>
-        <note appliesTo="source">line: 97</note>
+        <note appliesTo="source">line: 104</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -735,9 +767,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>更改日期格式以避免编码错误。</target>
       </segment>
     </unit>
-    <unit id="c4708aa8-d0a0-4f8f-ac89-aaeca4a9d94b">
+    <unit id="41444730-26f2-43c6-9afc-1ec1eb0ea480">
       <notes>
-        <note appliesTo="source">line: 99</note>
+        <note appliesTo="source">line: 106</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -745,32 +777,14 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>1.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="a674be84-6c9c-4f84-92b5-254f5a5b66f3">
+    <unit id="94df48e4-59bc-418a-9177-d0e71e233b49">
       <notes>
-        <note appliesTo="source">line: 101</note>
+        <note appliesTo="source">line: 108</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
         <source>Initial version.</source>
         <target>初始版本。</target>
-      </segment>
-    </unit>
-    <unit id="b7e8b0e2-9d6a-4a29-bcbc-6b9e9deb7655">
-      <notes>
-        <note appliesTo="source">line: 103</note>
-      </notes>
-      <segment state="final">
-        <source>[1]: https://www.nvaccess.org/addonStore/legacy?file=dayOfTheWeek</source>
-        <target>[1]: https://www.nvaccess.org/addonStore/legacy?file=dayOfTheWeek</target>
-      </segment>
-    </unit>
-    <unit id="093dea0a-f31e-41ef-a881-1f19f20041d8">
-      <notes>
-        <note appliesTo="source">line: 105</note>
-      </notes>
-      <segment state="final">
-        <source>[2]: https://www.nvaccess.org/addonStore/legacy?file=dayOfTheWeek</source>
-        <target>[2]: https://www.nvaccess.org/addonStore/legacy?file=dayOfTheWeek</target>
       </segment>
     </unit>
   </file>
