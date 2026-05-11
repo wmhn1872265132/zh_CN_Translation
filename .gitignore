@@ -7,7 +7,13 @@ Preview/*
 !Preview/Markdown/.gitkeep
 !Preview/*.css
 !Preview/*.ico
-Tools/nvdaL10nUtil.exe
+ProcessTranslation/*
+!ProcessTranslation/*/.gitkeep
+Tools/XLIFFTemplate/*
+!Tools/XLIFFTemplate/.gitkeep
 Tools/CrowdinRegistration
 Tools/NVDA
+Tools/NVDAL10n
+Tools/L10nUtil.exe
+Tools/L10nUtil.yaml
 Tools/msgmerge.exe

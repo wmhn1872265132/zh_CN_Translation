@@ -1,128 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="clipContentsDesigner.md" original="https://raw.githubusercontent.com/nvaccess/nvda/d855e6f22dff2a9197507a4634b3cd83924fd097/addons/clipContentsDesigner/clipContentsDesigner.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaes/clipContentsDesigner/ffd0ffb5af755413f73b9e0fc4b438db23e30098/readme.md">
     <skeleton>
-# $(ID:4c8d1be9-73a6-491a-a949-96258e35a98d)
-*	$(ID:18199327-3830-48d2-a80c-8bb62f8a69c6)
+# $(ID:bfab70a9-fcd8-4c78-a917-55ccc6326ad3)
+*	$(ID:7b77af2c-5908-47de-aa5f-81f034282626)
 
-$(ID:79ace965-e741-4972-9080-d9aa92b8f9ab)
-$(ID:b5cafb2a-3588-422b-b65b-f9bd54df720a)
+$(ID:49a38051-9029-4a90-b304-7906c3702ffa)
+$(ID:5b888f0c-b0a7-4e19-b981-433df73d9760)
 
-## $(ID:544d0723-5914-4744-afeb-f43bf70fcfc5)
-*	$(ID:3a92eeb1-0cb5-47ac-9a84-06cbdaff9769)
-*	$(ID:e55d9007-2c0d-461f-a89d-9ffb4871cb7a)
-*	 $(ID:648eb6b4-f932-436b-8162-5edbf81c3a78)
-*	 $(ID:e3fe5a8f-d523-44a4-b7b6-22ea76935396)
-*	 $(ID:66604071-7c2c-4ff6-a7f7-f066df4e55bd)
-
-
-## $(ID:d9a5e248-096b-452b-9889-e5027cf64bd0)
-
-$(ID:3dcda967-c8aa-40c5-9e59-b8a744c86c88)
-
-$(ID:9c2e49f9-8693-4258-9580-bf7f895d21e1)
-
-* $(ID:a64a2fce-7f48-4277-895a-543caf076d93)
-* $(ID:21e3ff61-d967-40ae-a945-5a68b02d76ee)
-* $(ID:af041fd6-fc6c-4bd7-8e1c-31c538300d37)
-* $(ID:bf49aa9b-8105-4a5d-8c1f-eb2d1280d31e)
-* $(ID:0f8e78cf-0276-415a-a76a-75618eb62bc9)
-* $(ID:23244838-39e3-40e7-9515-eda5e68cb37d)
-* $(ID:829de254-0b58-441f-b865-e7af0d5ee46c)
-
-$(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
-
-*	$(ID:83cfc341-d3c2-4cbb-a5f4-af3df52faec2)
-* $(ID:d70c979b-5918-4ee3-8f81-78d33d8cd017)
-
-## $(ID:88d0b786-c4a1-4475-a2d9-66a8d116c664)
-* $(ID:e61c4a5f-52c6-410b-b712-6925ad01ac73)
-* $(ID:37bebb31-971e-49cc-9c2e-c99b411b6f65)
+## $(ID:108af303-b50d-46c3-80c5-de07468b4ade)
+*	$(ID:34f5387e-b8db-42d7-9bed-8a36705c50ec)
+*	$(ID:fdd0c65f-3d61-4523-addc-b5726370aca5)
+*	 $(ID:fd775394-76bb-4066-9a74-62d083e54bfa)
+*	 $(ID:74686d59-a16e-473d-b1b3-45778ad36a86)
+*	 $(ID:946833fe-76ad-437a-b378-1677551029e8)
 
 
-## $(ID:9c55ce8d-b74a-4974-b0b4-99fec07f4bd0)
-* $(ID:9433de32-b015-4092-8ab9-06d134fdbc2f)
+## $(ID:f5244b0e-e27a-4196-b43d-f249e45bc21a)
 
-## $(ID:0b21507b-7ab5-431c-9145-6062983dc1d5)
-* $(ID:c1bbdf35-b05c-4fb2-a14a-bbe03e3146ad)
-* $(ID:616704af-7512-4d25-b929-763e04ada094)
+$(ID:35f95fca-a75a-49b7-bca9-23d16d81d242)
 
-## $(ID:060d9f80-282f-433a-81d5-2a2144d7992b)
-* $(ID:72049308-f2b9-4faa-88fc-77aea3c1ea8a)
+$(ID:928c1a9f-8e5c-4693-a3ca-504cd494fdf4)
 
-## $(ID:78218b39-6355-46b5-bd52-19cdf38c5854)
-* $(ID:110bdb90-c758-4778-b4b3-33e0c5042c8c)
+* $(ID:effc3a42-1f97-47f4-83c1-85a0a408d797)
+* $(ID:ac9f4a03-2414-411a-9560-11f1954a6c57)
+* $(ID:46845048-a6d6-420d-9748-0cd90d97adac)
+* $(ID:d10226ac-a370-4af2-b7d9-463e8dd81744)
+* $(ID:6579341a-b636-46ed-8bd4-98204cfd610e)
+* $(ID:bbfc87e7-4d4a-46a5-91b8-9bb754f86ea9)
+* $(ID:c53b0351-e755-47c7-85db-5dad3e41eb32)
+* $(ID:379a92e7-8a19-4b35-9cd7-3605914908a1)
 
-## $(ID:85b97a14-32a2-494e-8a2c-8f4d4f20c50c)
-* $(ID:ea8e78cb-99d8-45d0-98fc-46471c4ece6f)
-* $(ID:07239a63-5af2-47c5-9710-a5d29e5ae674)
+$(ID:03e6d320-4757-4a35-acc0-3b2b8ee2730c)
 
-## $(ID:50fb8775-c1c0-4b20-8dd6-a5b9589dd6e4)
-* $(ID:94a82e45-6386-4414-8e62-e677ab5ca04a)
+*	$(ID:75e74744-0f13-4cf6-9e77-6e711c1537a2)
+* $(ID:149eca64-4510-4b36-8d6e-f2256344a13b)
 
-## $(ID:a13e5fe7-eebc-42f8-842c-a7404857a8e4)
-* $(ID:f5744194-6939-4784-a8bc-a8ab1b314d95)
-* $(ID:c4860aa6-b8d9-4567-a56b-e76a43da5820)
-* $(ID:3e025161-5641-4d3c-8cb7-01601899924f)
-* $(ID:dff746de-0a37-4f30-bea6-b11682ff9ea1)
-* $(ID:1aaf8afc-1ca3-45cc-bc88-559fb97b13c5)
 
-## $(ID:1d04db62-25ab-4fa2-a0af-fadfa1e57f39)
-* $(ID:678b85a2-9ed9-4236-9564-bc140377e309)
+## $(ID:33edf68f-e9f2-49cb-9eec-bad7b271da9b)
+* $(ID:976b3605-cd90-4f31-a949-81a6a6fa509a)
 
-## $(ID:21fad360-d67b-43a6-a867-032e89938b69)
-* $(ID:013a9976-f480-4e32-8ddb-bd2fe80c1679)
-* $(ID:54139217-d47e-4294-b56f-667bd7d61ca4)
 
-## $(ID:9e7afd59-cede-4cc2-b15f-1160dba9f886)
-* $(ID:62667cb2-b188-4408-a1b2-deb6786d21de)
-* $(ID:ebdb8ab9-c832-4609-ba53-cbe7400b4d6a)
+## $(ID:321e8e0b-b00d-4cac-9783-1f3df2a705db)
+* $(ID:445a4dd4-1d73-4bf3-9991-d7a9e4b22cf7)
+* $(ID:8acf0b95-1ba4-4a71-9be3-443464bff3a7)
 
-## $(ID:6f8861cb-3966-4428-ae61-b99ca53101cc)
 
-* $(ID:78b03359-ba12-462f-bd22-398a772242b5)
-* $(ID:cc13963c-7b84-455e-a342-991c02162d7b)
-* $(ID:365287af-fc78-49e8-a8bb-22533eb5e8bd)
+## $(ID:2f57f453-04b7-4f50-8030-b8b6cf7134f9)
+* $(ID:4700b7df-1cdb-4837-bc74-2df232117d10)
 
-## $(ID:ee18f2cf-6597-420f-aa6f-41e57a43cc7b)
+## $(ID:7bbd0b67-4f5f-40b3-86bb-ab35b5c2985e)
+* $(ID:5af1dbb0-75b5-411c-b36c-2110b1dafe4b)
+* $(ID:f47a1ce7-f59a-4a7f-9802-f24298e33758)
 
-* $(ID:c846494d-195c-4886-92b2-2f91547ec976)
-* $(ID:7d2500a6-35d5-4b15-88e3-195ab692ae0e)
+## $(ID:ed59ac65-b408-4c11-9401-b976b0274976)
+* $(ID:6c399ed2-ac60-47cb-b057-cfceb05b8093)
 
-## $(ID:9e36927a-fd90-4357-9985-925555857240)
+## $(ID:d9f58a5c-8de8-4b66-817c-316067d1438a)
+* $(ID:5f223027-1103-4d74-95ed-0c4f26c82b3a)
 
-* $(ID:05c134d1-3545-46de-bd14-78c478af93a2)
+## $(ID:cdba4228-547a-4e97-a433-36056e54865e)
+* $(ID:74a59025-657b-4b31-92bb-f4b2ab33c3e5)
+* $(ID:413a1ea1-fbec-4dbc-b5b2-d7b28f477a9d)
 
-## $(ID:284b596a-5018-4bf6-85da-6d1abe65e5fc)
+## $(ID:ca07e17e-b5c9-4eee-99e9-d0fcc751f644)
+* $(ID:23fbbe39-46fe-4f6c-867f-d87b2332f7e1)
 
-*	 $(ID:d6266c16-fc02-4dc9-83bc-fc55c6ffdb91)
-*	$(ID:d9145e30-2209-4993-a276-36ecc21b3300)
-*	 $(ID:a46ad47d-8808-4d49-a16c-b220b4239647)
-*	$(ID:cf11d9ef-347d-410d-83af-1105ea5ce1bd)
+## $(ID:1c441c65-6954-42a8-87ca-dec6c1299388)
+* $(ID:d7522606-44f7-412b-815a-95089ae4a094)
+* $(ID:2aff4a14-5326-4857-8a66-28c9ebdead0b)
+* $(ID:e54bd249-3a36-469d-bb26-49d740bfb9a5)
+* $(ID:ce2588c6-eff6-479d-9701-9da7c06344d3)
+* $(ID:561471b8-a371-4a98-bd7d-143dd6463233)
 
-## $(ID:eb130246-33a8-42ef-94de-8f6b74b7e37d)
+## $(ID:e0989441-982d-48cb-9656-001d94a97f2b)
+* $(ID:7c884ec7-2816-4595-b648-fe14bac44807)
 
-*	$(ID:2c92441c-5174-407f-8a0d-9fd20555660b)
-*	$(ID:4351ba1f-b513-4406-b3f8-680e1b48a499)
+## $(ID:1aa14da7-a0e8-458f-a15f-77f618a02152)
+* $(ID:cef3a5d0-15b3-4716-835d-37ba62ba975c)
+* $(ID:3d0cb8a3-6882-4d49-b871-b1c977f41c17)
 
-## $(ID:baf3972d-8d5f-4064-9537-a9c0c2e6844c)
-*	$(ID:37bdddc0-3282-4f6e-acd9-06b6f82e1d6d)
-*	$(ID:fa2424f0-eb04-4c0b-8523-a664ae14f873)
+## $(ID:294a56af-2b63-4a50-9012-44d38ee47f14)
+* $(ID:dd0b5058-65e2-4113-bf99-c03b85d0c46f)
+* $(ID:6c67d6de-5b7f-4821-b12e-3b74b755ef8a)
 
-## $(ID:70b962f3-e96e-4e76-9e10-7303864672a2)
-*	$(ID:51f081c0-780d-4468-97e6-7960edd48406)
-*	$(ID:4a64e4d5-2de2-4a05-a7e5-e665ad44fa92)
-*	$(ID:98be79b3-4c2a-42d3-8d11-e899f86ebc3d)
-*	$(ID:335e0dc7-8de4-42ea-bc2b-a37bc992e7b1)
+## $(ID:cc9b17fd-615a-41a6-afda-a45e96d6b1de)
 
-## $(ID:3e3844d1-6b9f-4c46-84cb-6ad26cbf82f9)
-*	$(ID:8459196f-8b1d-40d1-8611-236a7a8514ca)
+* $(ID:afd62010-1e26-432a-82a8-cadff3f8c6c1)
+* $(ID:3d077508-b4bb-4ec3-a2d2-b6271331d161)
+* $(ID:ccba3cda-5e46-49e2-8b72-df36ce3e4e79)
 
-## $(ID:556177f1-82fe-4025-b0f9-87f193e2f5a1)
-*	$(ID:8c8ed892-b362-47ff-a66a-4bdb51c9f033)
+## $(ID:69415f10-7404-4bd8-85b5-414151b7a8bb)
 
+* $(ID:72b119b8-2270-4750-b341-b030da44882d)
+* $(ID:f922aa58-e694-4eb0-bdd0-e738ea6a6d47)
+
+## $(ID:fd0f6a70-5e82-4bed-9ca2-40dbb9400e51)
+
+* $(ID:4429f138-09d7-4f9b-ad9c-7c210d18e900)
+
+## $(ID:392f21e5-2d44-4d44-80c4-ea55ce0474ee)
+
+*	 $(ID:c627d66a-e14f-4218-85af-58f716a315ac)
+*	$(ID:8cbf09bc-6f44-4f7a-b994-add8a4f41f6c)
+*	 $(ID:20b5dac6-ffa1-4e9c-81e9-c3e40dddafc9)
+*	$(ID:0787b40e-9c09-4638-b62c-a81109ccab76)
+
+## $(ID:1135bd12-f38c-4d98-981f-55493a9538ba)
+
+*	$(ID:c20ff2c8-f1d7-4abe-a623-2bd964ee7bfe)
+*	$(ID:c5814f5c-9899-403c-a78e-8fe097a67a01)
+
+## $(ID:357d091d-50d1-45dc-917d-ba3b9d88925c)
+*	$(ID:0097e46f-9386-46a8-af55-204d6ad98e2e)
+*	$(ID:de987d93-b09a-4623-8873-37d112af4e45)
+
+## $(ID:9e021f3f-5243-44cf-809a-ca63040dc8f9)
+*	$(ID:f859f8ab-171f-4a3c-ada6-d49dca3bb14d)
+*	$(ID:aaac0f2d-91bd-4912-a50c-d2c03f720723)
+*	$(ID:b074e3c8-ecde-4fb8-a085-a4e12ee73450)
+*	$(ID:85176d08-7ae1-460e-99ac-d6d61c774c00)
+
+## $(ID:bca2e966-2929-45b2-99cd-d2be0171e7dc)
+*	$(ID:8d7c9633-f0b0-4291-a40c-fa67be92abac)
+
+## $(ID:4c972a16-d4f1-44ec-a076-62238cba36ed)
+*	$(ID:11f66fab-ee52-45d9-89dc-f6e99c2d5c4b)
 </skeleton>
-    <unit id="4c8d1be9-73a6-491a-a949-96258e35a98d">
+    <unit id="bfab70a9-fcd8-4c78-a917-55ccc6326ad3">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -132,7 +136,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>剪贴板内容编辑器 #</target>
       </segment>
     </unit>
-    <unit id="18199327-3830-48d2-a80c-8bb62f8a69c6">
+    <unit id="7b77af2c-5908-47de-aa5f-81f034282626">
       <notes>
         <note appliesTo="source">line: 3</note>
         <note appliesTo="source">prefix: *	</note>
@@ -142,7 +146,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>作者: Noelia、Abdel。</target>
       </segment>
     </unit>
-    <unit id="79ace965-e741-4972-9080-d9aa92b8f9ab">
+    <unit id="49a38051-9029-4a90-b304-7906c3702ffa">
       <notes>
         <note appliesTo="source">line: 5</note>
       </notes>
@@ -151,7 +155,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>此插件用于向剪贴板添加文本，当您希望将文本部分连接在一起以准备粘贴时，这可能很有用。</target>
       </segment>
     </unit>
-    <unit id="b5cafb2a-3588-422b-b65b-f9bd54df720a">
+    <unit id="5b888f0c-b0a7-4e19-b981-433df73d9760">
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
@@ -160,7 +164,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>剪贴板内容也可以清除或者用浏览模式逐字逐句查看。</target>
       </segment>
     </unit>
-    <unit id="544d0723-5914-4744-afeb-f43bf70fcfc5">
+    <unit id="108af303-b50d-46c3-80c5-de07468b4ade">
       <notes>
         <note appliesTo="source">line: 8</note>
         <note appliesTo="source">prefix: ## </note>
@@ -170,7 +174,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>键盘快捷键 ##</target>
       </segment>
     </unit>
-    <unit id="3a92eeb1-0cb5-47ac-9a84-06cbdaff9769">
+    <unit id="34f5387e-b8db-42d7-9bed-8a36705c50ec">
       <notes>
         <note appliesTo="source">line: 9</note>
         <note appliesTo="source">prefix: *	</note>
@@ -180,7 +184,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>NVDA+windows+c: 将选定的文本，表示MathML对象的Unicode盲文字符或已使用浏览光标标记的字符串添加到剪贴板。</target>
       </segment>
     </unit>
-    <unit id="e55d9007-2c0d-461f-a89d-9ffb4871cb7a">
+    <unit id="fdd0c65f-3d61-4523-addc-b5726370aca5">
       <notes>
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: *	</note>
@@ -190,7 +194,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>NVDA+windows+x: 清除剪贴板内容。</target>
       </segment>
     </unit>
-    <unit id="648eb6b4-f932-436b-8162-5edbf81c3a78">
+    <unit id="fd775394-76bb-4066-9a74-62d083e54bfa">
       <notes>
         <note appliesTo="source">line: 11</note>
         <note appliesTo="source">prefix: *	 </note>
@@ -200,7 +204,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>未分配：复制到剪贴板（或从剪贴板剪切），可能需要事先确认。</target>
       </segment>
     </unit>
-    <unit id="e3fe5a8f-d523-44a4-b7b6-22ea76935396">
+    <unit id="74686d59-a16e-473d-b1b3-45778ad36a86">
       <notes>
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: *	 </note>
@@ -210,7 +214,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>未分配：在浏览模式下以 HTML 格式显示剪贴板文本；若剪贴板为空或包含不可浏览内容（例如从 Windows 资源管理器复制的文件或文件夹），则会进行语音提示。</target>
       </segment>
     </unit>
-    <unit id="66604071-7c2c-4ff6-a7f7-f066df4e55bd">
+    <unit id="946833fe-76ad-437a-b378-1677551029e8">
       <notes>
         <note appliesTo="source">line: 13</note>
         <note appliesTo="source">prefix: *	 </note>
@@ -220,7 +224,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>未分配：在浏览模式下以纯文本格式显示剪贴板文本；若剪贴板为空或包含不可浏览内容（例如从 Windows 资源管理器复制的文件或文件夹），则会进行语音提示。</target>
       </segment>
     </unit>
-    <unit id="d9a5e248-096b-452b-9889-e5027cf64bd0">
+    <unit id="f5244b0e-e27a-4196-b43d-f249e45bc21a">
       <notes>
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: ## </note>
@@ -230,7 +234,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>剪贴板内容编辑器设置 ##</target>
       </segment>
     </unit>
-    <unit id="3dcda967-c8aa-40c5-9e59-b8a744c86c88">
+    <unit id="35f95fca-a75a-49b7-bca9-23d16d81d242">
       <notes>
         <note appliesTo="source">line: 18</note>
       </notes>
@@ -239,7 +243,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>此面板可通过 NVDA 菜单、选项子菜单、设置对话框访问。</target>
       </segment>
     </unit>
-    <unit id="9c2e49f9-8693-4258-9580-bf7f895d21e1">
+    <unit id="928c1a9f-8e5c-4693-a3ca-504cd494fdf4">
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
@@ -248,7 +252,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>包含以下选项：</target>
       </segment>
     </unit>
-    <unit id="a64a2fce-7f48-4277-895a-543caf076d93">
+    <unit id="effc3a42-1f97-47f4-83c1-85a0a408d797">
       <notes>
         <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: * </note>
@@ -258,7 +262,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>输入用作剪贴板内容分隔符的字符串：可设置分隔符，用于在粘贴全部添加文本后定位文本段落。</target>
       </segment>
     </unit>
-    <unit id="21e3ff61-d967-40ae-a945-5a68b02d76ee">
+    <unit id="ac9f4a03-2414-411a-9560-11f1954a6c57">
       <notes>
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: * </note>
@@ -268,7 +272,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>在剪贴数据前添加文本：还可选择添加文本是追加至末尾还是插入至开头。</target>
       </segment>
     </unit>
-    <unit id="af041fd6-fc6c-4bd7-8e1c-31c538300d37">
+    <unit id="46845048-a6d6-420d-9748-0cd90d97adac">
       <notes>
         <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: * </note>
@@ -278,7 +282,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>选择需要预先确认的操作：您可为每个可用操作选择立即执行或确认后执行。可用操作包括：添加文本、清空剪贴板、模拟复制和模拟剪切。</target>
       </segment>
     </unit>
-    <unit id="bf49aa9b-8105-4a5d-8c1f-eb2d1280d31e">
+    <unit id="d10226ac-a370-4af2-b7d9-463e8dd81744">
       <notes>
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: * </note>
@@ -288,7 +292,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>在以下情况下执行选定操作前请求确认：可选择始终请求确认、仅当剪贴板包含文本时请求确认、或当剪贴板不为空时请求确认（例如复制了文件而非文本时）。</target>
       </segment>
     </unit>
-    <unit id="0f8e78cf-0276-415a-a76a-75618eb62bc9">
+    <unit id="6579341a-b636-46ed-8bd4-98204cfd610e">
       <notes>
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: * </note>
@@ -298,7 +302,7 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>在浏览模式下以 HTML 格式显示剪贴板文本：若您正在学习 HTML 标记语言，可选择 HTML 预格式化文本或网页浏览器呈现的 HTML 格式，以了解 NVDA 在浏览器中渲染 HTML 代码的效果。预格式化与常规 HTML 的区别在于：前者会保留连续空格和换行符，后者则会压缩这些空白字符。例如编写 h1、h2、li、pre 等 HTML 标签，选中并复制文本到剪贴板后，使用此插件即可在浏览模式中查看效果。</target>
       </segment>
     </unit>
-    <unit id="23244838-39e3-40e7-9515-eda5e68cb37d">
+    <unit id="bbfc87e7-4d4a-46a5-91b8-9bb754f86ea9">
       <notes>
         <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix: * </note>
@@ -308,9 +312,19 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>浏览模式下显示剪贴板文本的最大字符数：请注意，若剪贴板包含大段文本，提高此限制可能导致性能问题。默认限制为 100000 个字符。</target>
       </segment>
     </unit>
-    <unit id="829de254-0b58-441f-b865-e7af0d5ee46c">
+    <unit id="c53b0351-e755-47c7-85db-5dad3e41eb32">
       <notes>
         <note appliesTo="source">line: 28</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Show configuration dialog when updating: Uncheck this if you don't want to see a dialog to configure emulate copy and cut when updating the add-on.</source>
+        <target>更新时显示配置对话框：如您不想在更新插件时看到配置模拟复制和剪切的对话框，请取消选中此选项。</target>
+      </segment>
+    </unit>
+    <unit id="379a92e7-8a19-4b35-9cd7-3605914908a1">
+      <notes>
+        <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -318,18 +332,18 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>恢复默认值。</target>
       </segment>
     </unit>
-    <unit id="3a1cbbf7-71f2-4b49-b260-8e08e98de20b">
+    <unit id="03e6d320-4757-4a35-acc0-3b2b8ee2730c">
       <notes>
-        <note appliesTo="source">line: 30</note>
+        <note appliesTo="source">line: 31</note>
       </notes>
       <segment state="final">
         <source>Notes:</source>
         <target>注意:</target>
       </segment>
     </unit>
-    <unit id="83cfc341-d3c2-4cbb-a5f4-af3df52faec2">
+    <unit id="75e74744-0f13-4cf6-9e77-6e711c1537a2">
       <notes>
-        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -337,9 +351,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>当NVDA消息框仍处于打开状态时，将不会请求确认。此类情况下操作将立即执行。</target>
       </segment>
     </unit>
-    <unit id="d70c979b-5918-4ee3-8f81-78d33d8cd017">
+    <unit id="149eca64-4510-4b36-8d6e-f2256344a13b">
       <notes>
-        <note appliesTo="source">line: 33</note>
+        <note appliesTo="source">line: 34</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -347,9 +361,29 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>模拟复制和模拟剪切命令意味着启用这些功能时，插件将接管 Ctrl+C 和 Ctrl+X 组合键。这可允许选择在执行这些按键对应操作前是否请求确认。</target>
       </segment>
     </unit>
-    <unit id="88d0b786-c4a1-4475-a2d9-66a8d116c664">
+    <unit id="33edf68f-e9f2-49cb-9eec-bad7b271da9b">
       <notes>
-        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">line: 37</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 49.0.0</source>
+        <target>版本 49.0.0</target>
+      </segment>
+    </unit>
+    <unit id="976b3605-cd90-4f31-a949-81a6a6fa509a">
+      <notes>
+        <note appliesTo="source">line: 38</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added a checkbox to decide if a configuration dialog should be shown when the add-on is updated.</source>
+        <target>添加了一个复选框，以决定是否在插件更新时显示配置对话框。</target>
+      </segment>
+    </unit>
+    <unit id="321e8e0b-b00d-4cac-9783-1f3df2a705db">
+      <notes>
+        <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -357,9 +391,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本 46.0.0</target>
       </segment>
     </unit>
-    <unit id="e61c4a5f-52c6-410b-b712-6925ad01ac73">
+    <unit id="445a4dd4-1d73-4bf3-9991-d7a9e4b22cf7">
       <notes>
-        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">line: 42</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -367,9 +401,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>NVDA 将在浏览模式消息中清理 HTML 内容。</target>
       </segment>
     </unit>
-    <unit id="37bebb31-971e-49cc-9c2e-c99b411b6f65">
+    <unit id="8acf0b95-1ba4-4a71-9be3-443464bff3a7">
       <notes>
-        <note appliesTo="source">line: 37</note>
+        <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -377,9 +411,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>除 Esc 键外，新增可关闭浏览模式消息的按钮。</target>
       </segment>
     </unit>
-    <unit id="9c55ce8d-b74a-4974-b0b4-99fec07f4bd0">
+    <unit id="2f57f453-04b7-4f50-8030-b8b6cf7134f9">
       <notes>
-        <note appliesTo="source">line: 40</note>
+        <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -387,9 +421,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本 40.0.0</target>
       </segment>
     </unit>
-    <unit id="9433de32-b015-4092-8ab9-06d134fdbc2f">
+    <unit id="4700b7df-1cdb-4837-bc74-2df232117d10">
       <notes>
-        <note appliesTo="source">line: 41</note>
+        <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -397,9 +431,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>添加了对希伯来语键盘的支持。</target>
       </segment>
     </unit>
-    <unit id="0b21507b-7ab5-431c-9145-6062983dc1d5">
+    <unit id="7bbd0b67-4f5f-40b3-86bb-ab35b5c2985e">
       <notes>
-        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -407,9 +441,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本 22.0.0</target>
       </segment>
     </unit>
-    <unit id="c1bbdf35-b05c-4fb2-a14a-bbe03e3146ad">
+    <unit id="5af1dbb0-75b5-411c-b36c-2110b1dafe4b">
       <notes>
-        <note appliesTo="source">line: 44</note>
+        <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -417,9 +451,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>在插件设置面板中添加了恢复默认值的按钮。</target>
       </segment>
     </unit>
-    <unit id="616704af-7512-4d25-b929-763e04ada094">
+    <unit id="f47a1ce7-f59a-4a7f-9802-f24298e33758">
       <notes>
-        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">line: 51</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -427,9 +461,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>此插件无法在安全模式下运行。</target>
       </segment>
     </unit>
-    <unit id="060d9f80-282f-433a-81d5-2a2144d7992b">
+    <unit id="ed59ac65-b408-4c11-9401-b976b0274976">
       <notes>
-        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">line: 53</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -437,9 +471,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本 17.0</target>
       </segment>
     </unit>
-    <unit id="72049308-f2b9-4faa-88fc-77aea3c1ea8a">
+    <unit id="6c399ed2-ac60-47cb-b057-cfceb05b8093">
       <notes>
-        <note appliesTo="source">line: 48</note>
+        <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -447,9 +481,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>与 NVDA 2023.1 兼容。</target>
       </segment>
     </unit>
-    <unit id="78218b39-6355-46b5-bd52-19cdf38c5854">
+    <unit id="d9f58a5c-8de8-4b66-817c-316067d1438a">
       <notes>
-        <note appliesTo="source">line: 50</note>
+        <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -457,9 +491,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本 16.0</target>
       </segment>
     </unit>
-    <unit id="110bdb90-c758-4778-b4b3-33e0c5042c8c">
+    <unit id="5f223027-1103-4d74-95ed-0c4f26c82b3a">
       <notes>
-        <note appliesTo="source">line: 51</note>
+        <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -467,9 +501,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>要求 NVDA 2022.1 或更高版本。</target>
       </segment>
     </unit>
-    <unit id="85b97a14-32a2-494e-8a2c-8f4d4f20c50c">
+    <unit id="cdba4228-547a-4e97-a433-36056e54865e">
       <notes>
-        <note appliesTo="source">line: 53</note>
+        <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -477,9 +511,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本 15.0</target>
       </segment>
     </unit>
-    <unit id="ea8e78cb-99d8-45d0-98fc-46471c4ece6f">
+    <unit id="74a59025-657b-4b31-92bb-f4b2ab33c3e5">
       <notes>
-        <note appliesTo="source">line: 54</note>
+        <note appliesTo="source">line: 60</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -487,9 +521,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>将文本添加到剪贴板的命令再次出现在按键与手势对话框中。</target>
       </segment>
     </unit>
-    <unit id="07239a63-5af2-47c5-9710-a5d29e5ae674">
+    <unit id="413a1ea1-fbec-4dbc-b5b2-d7b28f477a9d">
       <notes>
-        <note appliesTo="source">line: 55</note>
+        <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -497,9 +531,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>修复了用波斯语键盘复制和剪切的手势，感谢 Mohammadhosein Ghezelsofla。</target>
       </segment>
     </unit>
-    <unit id="50fb8775-c1c0-4b20-8dd6-a5b9589dd6e4">
+    <unit id="ca07e17e-b5c9-4eee-99e9-d0fcc751f644">
       <notes>
-        <note appliesTo="source">line: 57</note>
+        <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -507,9 +541,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本 14.0</target>
       </segment>
     </unit>
-    <unit id="94a82e45-6386-4414-8e62-e677ab5ca04a">
+    <unit id="23fbbe39-46fe-4f6c-867f-d87b2332f7e1">
       <notes>
-        <note appliesTo="source">line: 58</note>
+        <note appliesTo="source">line: 64</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -517,9 +551,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>与 NVDA 2021.1 兼容。</target>
       </segment>
     </unit>
-    <unit id="a13e5fe7-eebc-42f8-842c-a7404857a8e4">
+    <unit id="1c441c65-6954-42a8-87ca-dec6c1299388">
       <notes>
-        <note appliesTo="source">line: 60</note>
+        <note appliesTo="source">line: 66</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -527,9 +561,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本 13.0</target>
       </segment>
     </unit>
-    <unit id="f5744194-6939-4784-a8bc-a8ab1b314d95">
+    <unit id="d7522606-44f7-412b-815a-95089ae4a094">
       <notes>
-        <note appliesTo="source">line: 61</note>
+        <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -537,9 +571,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>修复了设置面板的视觉布局问题，感谢 Cyrille Bougot。</target>
       </segment>
     </unit>
-    <unit id="c4860aa6-b8d9-4567-a56b-e76a43da5820">
+    <unit id="2aff4a14-5326-4857-8a66-28c9ebdead0b">
       <notes>
-        <note appliesTo="source">line: 62</note>
+        <note appliesTo="source">line: 68</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -547,9 +581,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>文档改进。</target>
       </segment>
     </unit>
-    <unit id="3e025161-5641-4d3c-8cb7-01601899924f">
+    <unit id="e54bd249-3a36-469d-bb26-49d740bfb9a5">
       <notes>
-        <note appliesTo="source">line: 63</note>
+        <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -557,9 +591,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>新增剪贴板内容编辑器分类，可在此分类为此插件的所有可用命令分配按键或手势。</target>
       </segment>
     </unit>
-    <unit id="dff746de-0a37-4f30-bea6-b11682ff9ea1">
+    <unit id="ce2588c6-eff6-479d-9701-9da7c06344d3">
       <notes>
-        <note appliesTo="source">line: 64</note>
+        <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -567,9 +601,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>修复了浏览器中启用焦点模式时使用模拟复制功能存在的错误。</target>
       </segment>
     </unit>
-    <unit id="1aaf8afc-1ca3-45cc-bc88-559fb97b13c5">
+    <unit id="561471b8-a371-4a98-bd7d-143dd6463233">
       <notes>
-        <note appliesTo="source">line: 65</note>
+        <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -577,9 +611,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>现可为以原始文本格式显示剪贴板文本内容和以 HTML 格式显示剪贴板文本内容分别分配不同快捷键。设置面板中的剪贴板文本显示格式选项已相应调整为两个 HTML 格式选项。</target>
       </segment>
     </unit>
-    <unit id="1d04db62-25ab-4fa2-a0af-fadfa1e57f39">
+    <unit id="e0989441-982d-48cb-9656-001d94a97f2b">
       <notes>
-        <note appliesTo="source">line: 67</note>
+        <note appliesTo="source">line: 73</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -587,9 +621,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本 12.0</target>
       </segment>
     </unit>
-    <unit id="678b85a2-9ed9-4236-9564-bc140377e309">
+    <unit id="7c884ec7-2816-4595-b648-fe14bac44807">
       <notes>
-        <note appliesTo="source">line: 68</note>
+        <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -597,9 +631,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>修复了在 LibreOffice Writer 等应用程序中使用模拟复制时的错误。</target>
       </segment>
     </unit>
-    <unit id="21fad360-d67b-43a6-a867-032e89938b69">
+    <unit id="1aa14da7-a0e8-458f-a15f-77f618a02152">
       <notes>
-        <note appliesTo="source">line: 70</note>
+        <note appliesTo="source">line: 76</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -607,9 +641,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本11.0</target>
       </segment>
     </unit>
-    <unit id="013a9976-f480-4e32-8ddb-bd2fe80c1679">
+    <unit id="cef3a5d0-15b3-4716-835d-37ba62ba975c">
       <notes>
-        <note appliesTo="source">line: 71</note>
+        <note appliesTo="source">line: 77</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -617,9 +651,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>现可通过 NVDA 标准命令（NVDA+F9 与 NVDA+F10）添加由查看光标标记的文本。NVDA+Windows+F9快捷键已被停用，以实现与新增 NVDA+Shift+F9 命令的更好整合。</target>
       </segment>
     </unit>
-    <unit id="54139217-d47e-4294-b56f-667bd7d61ca4">
+    <unit id="3d0cb8a3-6882-4d49-b871-b1c977f41c17">
       <notes>
-        <note appliesTo="source">line: 72</note>
+        <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -627,9 +661,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>需要NVDA 2019.3或更高版本。</target>
       </segment>
     </unit>
-    <unit id="9e7afd59-cede-4cc2-b15f-1160dba9f886">
+    <unit id="294a56af-2b63-4a50-9012-44d38ee47f14">
       <notes>
-        <note appliesTo="source">line: 74</note>
+        <note appliesTo="source">line: 80</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -637,9 +671,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本10.0</target>
       </segment>
     </unit>
-    <unit id="62667cb2-b188-4408-a1b2-deb6786d21de">
+    <unit id="dd0b5058-65e2-4113-bf99-c03b85d0c46f">
       <notes>
-        <note appliesTo="source">line: 75</note>
+        <note appliesTo="source">line: 81</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -647,9 +681,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>修复了用于显示剪贴板文本的对话框中的错误，当其标题包含非拉丁字符时。</target>
       </segment>
     </unit>
-    <unit id="ebdb8ab9-c832-4609-ba53-cbe7400b4d6a">
+    <unit id="6c67d6de-5b7f-4821-b12e-3b74b755ef8a">
       <notes>
-        <note appliesTo="source">line: 76</note>
+        <note appliesTo="source">line: 82</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -657,9 +691,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>修复阿拉伯语键盘使用剪辑内容设计器的错误。已由Abdel修复，有插件作者添加。</target>
       </segment>
     </unit>
-    <unit id="6f8861cb-3966-4428-ae61-b99ca53101cc">
+    <unit id="cc9b17fd-615a-41a6-afda-a45e96d6b1de">
       <notes>
-        <note appliesTo="source">line: 78</note>
+        <note appliesTo="source">line: 84</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -667,9 +701,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本9.0</target>
       </segment>
     </unit>
-    <unit id="78b03359-ba12-462f-bd22-398a772242b5">
+    <unit id="afd62010-1e26-432a-82a8-cadff3f8c6c1">
       <notes>
-        <note appliesTo="source">line: 80</note>
+        <note appliesTo="source">line: 86</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -677,9 +711,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>新增了在浏览模式下显示剪贴板文本的功能。</target>
       </segment>
     </unit>
-    <unit id="cc13963c-7b84-455e-a342-991c02162d7b">
+    <unit id="3d077508-b4bb-4ec3-a2d2-b6271331d161">
       <notes>
-        <note appliesTo="source">line: 81</note>
+        <note appliesTo="source">line: 87</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -687,9 +721,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>添加了一个选项，用于选择在剪贴板不为空时追加内容时是否需要确认，例如，剪贴板里面已有复制的文件或文件夹。</target>
       </segment>
     </unit>
-    <unit id="365287af-fc78-49e8-a8bb-22533eb5e8bd">
+    <unit id="ccba3cda-5e46-49e2-8b72-df36ce3e4e79">
       <notes>
-        <note appliesTo="source">line: 82</note>
+        <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -697,9 +731,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>需要NVDA 2018.4或更高版本。</target>
       </segment>
     </unit>
-    <unit id="ee18f2cf-6597-420f-aa6f-41e57a43cc7b">
+    <unit id="69415f10-7404-4bd8-85b5-414151b7a8bb">
       <notes>
-        <note appliesTo="source">line: 84</note>
+        <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -707,9 +741,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本8.0 ##</target>
       </segment>
     </unit>
-    <unit id="c846494d-195c-4886-92b2-2f91547ec976">
+    <unit id="72b119b8-2270-4750-b341-b030da44882d">
       <notes>
-        <note appliesTo="source">line: 86</note>
+        <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -717,9 +751,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>插件设置显示在NVDA设置对话框的相应类别中。</target>
       </segment>
     </unit>
-    <unit id="7d2500a6-35d5-4b15-88e3-195ab692ae0e">
+    <unit id="f922aa58-e694-4eb0-bdd0-e738ea6a6d47">
       <notes>
-        <note appliesTo="source">line: 87</note>
+        <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -727,9 +761,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>需要NVDA 2018.2或更高版本。</target>
       </segment>
     </unit>
-    <unit id="9e36927a-fd90-4357-9985-925555857240">
+    <unit id="fd0f6a70-5e82-4bed-9ca2-40dbb9400e51">
       <notes>
-        <note appliesTo="source">line: 89</note>
+        <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -737,9 +771,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本7.0</target>
       </segment>
     </unit>
-    <unit id="05c134d1-3545-46de-bd14-78c478af93a2">
+    <unit id="4429f138-09d7-4f9b-ad9c-7c210d18e900">
       <notes>
-        <note appliesTo="source">line: 91</note>
+        <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -747,9 +781,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>在安装时配置模拟复制和模拟剪切功能的对话框中，如果选择否，将删除这些功能的命令，以便您可以恢复control + c和control + x的正常行为。</target>
       </segment>
     </unit>
-    <unit id="284b596a-5018-4bf6-85da-6d1abe65e5fc">
+    <unit id="392f21e5-2d44-4d44-80c4-ea55ce0474ee">
       <notes>
-        <note appliesTo="source">line: 93</note>
+        <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -757,9 +791,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本6.0</target>
       </segment>
     </unit>
-    <unit id="d6266c16-fc02-4dc9-83bc-fc55c6ffdb91">
+    <unit id="c627d66a-e14f-4218-85af-58f716a315ac">
       <notes>
-        <note appliesTo="source">line: 95</note>
+        <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: *	 </note>
       </notes>
       <segment state="final">
@@ -767,9 +801,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>新增选项：可选择是否需要在确认后执行可用操作。</target>
       </segment>
     </unit>
-    <unit id="d9145e30-2209-4993-a276-36ecc21b3300">
+    <unit id="8cbf09bc-6f44-4f7a-b994-add8a4f41f6c">
       <notes>
-        <note appliesTo="source">line: 96</note>
+        <note appliesTo="source">line: 102</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -777,9 +811,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>新增模拟复制与模拟剪切命令，可通过按键与手势对话框分配快捷键。</target>
       </segment>
     </unit>
-    <unit id="a46ad47d-8808-4d49-a16c-b220b4239647">
+    <unit id="20b5dac6-ffa1-4e9c-81e9-c3e40dddafc9">
       <notes>
-        <note appliesTo="source">line: 97</note>
+        <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix: *	 </note>
       </notes>
       <segment state="final">
@@ -787,9 +821,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>安装时新增模拟复制与模拟剪切功能配置对话框。此功能可添加 Ctrl+C 与 Ctrl+X 快捷键执行复制/剪切操作，并在触发这些快捷键时询问是否替换剪贴板内容。</target>
       </segment>
     </unit>
-    <unit id="cf11d9ef-347d-410d-83af-1105ea5ce1bd">
+    <unit id="0787b40e-9c09-4638-b62c-a81109ccab76">
       <notes>
-        <note appliesTo="source">line: 98</note>
+        <note appliesTo="source">line: 104</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -797,9 +831,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>修正了 script_add 脚本（Windows+NVDA+C 快捷键）的说明文档。</target>
       </segment>
     </unit>
-    <unit id="eb130246-33a8-42ef-94de-8f6b74b7e37d">
+    <unit id="1135bd12-f38c-4d98-981f-55493a9538ba">
       <notes>
-        <note appliesTo="source">line: 100</note>
+        <note appliesTo="source">line: 106</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -807,9 +841,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本5.0 ##</target>
       </segment>
     </unit>
-    <unit id="2c92441c-5174-407f-8a0d-9fd20555660b">
+    <unit id="c20ff2c8-f1d7-4abe-a623-2bd964ee7bfe">
       <notes>
-        <note appliesTo="source">line: 102</note>
+        <note appliesTo="source">line: 108</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -817,9 +851,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>对话框的视觉呈现得到了增强，并且遵循NVDA中显示的对话框的外观。</target>
       </segment>
     </unit>
-    <unit id="4351ba1f-b513-4406-b3f8-680e1b48a499">
+    <unit id="c5814f5c-9899-403c-a78e-8fe097a67a01">
       <notes>
-        <note appliesTo="source">line: 103</note>
+        <note appliesTo="source">line: 109</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -827,9 +861,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>需要NVDA 2016.4或更高版本。</target>
       </segment>
     </unit>
-    <unit id="baf3972d-8d5f-4064-9537-a9c0c2e6844c">
+    <unit id="357d091d-50d1-45dc-917d-ba3b9d88925c">
       <notes>
-        <note appliesTo="source">line: 105</note>
+        <note appliesTo="source">line: 111</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -837,9 +871,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本4.0 ##</target>
       </segment>
     </unit>
-    <unit id="37bdddc0-3282-4f6e-acd9-06b6f82e1d6d">
+    <unit id="0097e46f-9386-46a8-af55-204d6ad98e2e">
       <notes>
-        <note appliesTo="source">line: 106</note>
+        <note appliesTo="source">line: 112</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -847,9 +881,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>插件设置由NVDA配置管理，因此标准配置文件可用于保存不同的分隔符，并且不需要在重新安装时复制导入设置。</target>
       </segment>
     </unit>
-    <unit id="fa2424f0-eb04-4c0b-8523-a664ae14f873">
+    <unit id="de987d93-b09a-4623-8873-37d112af4e45">
       <notes>
-        <note appliesTo="source">line: 107</note>
+        <note appliesTo="source">line: 113</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -857,9 +891,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>现在，可以使用“剪辑内容设计器”设置对话框中的“添加剪辑前数据”复选框，选择是添加还是添加文本。</target>
       </segment>
     </unit>
-    <unit id="70b962f3-e96e-4e76-9e10-7303864672a2">
+    <unit id="9e021f3f-5243-44cf-809a-ca63040dc8f9">
       <notes>
-        <note appliesTo="source">line: 109</note>
+        <note appliesTo="source">line: 115</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -867,9 +901,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本3.0 ##</target>
       </segment>
     </unit>
-    <unit id="51f081c0-780d-4468-97e6-7960edd48406">
+    <unit id="f859f8ab-171f-4a3c-ada6-d49dca3bb14d">
       <notes>
-        <note appliesTo="source">line: 110</note>
+        <note appliesTo="source">line: 116</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -877,9 +911,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>如果安装了MathPlayer，则可以将MathML对象的盲文表示添加到剪贴板。</target>
       </segment>
     </unit>
-    <unit id="4a64e4d5-2de2-4a05-a7e5-e665ad44fa92">
+    <unit id="aaac0f2d-91bd-4912-a50c-d2c03f720723">
       <notes>
-        <note appliesTo="source">line: 111</note>
+        <note appliesTo="source">line: 117</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -887,9 +921,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>如果未设置分隔符，则只会在添加的文本段之间放置一行。</target>
       </segment>
     </unit>
-    <unit id="98be79b3-4c2a-42d3-8d11-e899f86ebc3d">
+    <unit id="b074e3c8-ecde-4fb8-a085-a4e12ee73450">
       <notes>
-        <note appliesTo="source">line: 112</note>
+        <note appliesTo="source">line: 118</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -897,9 +931,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>可以指定快捷键来打开“剪辑内容设计器”设置对话框。</target>
       </segment>
     </unit>
-    <unit id="335e0dc7-8de4-42ea-bc2b-a37bc992e7b1">
+    <unit id="85176d08-7ae1-460e-99ac-d6d61c774c00">
       <notes>
-        <note appliesTo="source">line: 113</note>
+        <note appliesTo="source">line: 119</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -907,9 +941,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>在设置对话框中添加了一个复选框，用于选择是否应复制分隔符以在重新安装插件时导入。</target>
       </segment>
     </unit>
-    <unit id="3e3844d1-6b9f-4c46-84cb-6ad26cbf82f9">
+    <unit id="bca2e966-2929-45b2-99cd-d2be0171e7dc">
       <notes>
-        <note appliesTo="source">line: 115</note>
+        <note appliesTo="source">line: 121</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -917,9 +951,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本2.0 ##</target>
       </segment>
     </unit>
-    <unit id="8459196f-8b1d-40d1-8611-236a7a8514ca">
+    <unit id="8d7c9633-f0b0-4291-a40c-fa67be92abac">
       <notes>
-        <note appliesTo="source">line: 116</note>
+        <note appliesTo="source">line: 122</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">
@@ -927,9 +961,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>印地语字符可以用作添加内容之间的分隔符。</target>
       </segment>
     </unit>
-    <unit id="556177f1-82fe-4025-b0f9-87f193e2f5a1">
+    <unit id="4c972a16-d4f1-44ec-a076-62238cba36ed">
       <notes>
-        <note appliesTo="source">line: 118</note>
+        <note appliesTo="source">line: 124</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -937,9 +971,9 @@ $(ID:3a1cbbf7-71f2-4b49-b260-8e08e98de20b)
         <target>版本1.0 ##</target>
       </segment>
     </unit>
-    <unit id="8c8ed892-b362-47ff-a66a-4bdb51c9f033">
+    <unit id="11f66fab-ee52-45d9-89dc-f6e99c2d5c4b">
       <notes>
-        <note appliesTo="source">line: 119</note>
+        <note appliesTo="source">line: 125</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="final">

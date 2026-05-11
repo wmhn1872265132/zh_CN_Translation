@@ -2,9 +2,60 @@
 setlocal enabledelayedexpansion
 chcp 65001>Nul
 Title L10n Util Tools
-
 Rem 为避免出现编码错误，请在行末是中文字符的行尾添加两个空格  
+
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+goto CheckCLI
+:L10nUtil
+
+Rem 设置 L10nUtil 程序路径  
+set L10NSourceCodePath=%~dp0Tools\NVDAL10n
+set L10nUtil=uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\l10nUtil.py"
+if "%GITHUB_ACTIONS%" == "true" (
+  Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+  goto %goto%
+
+  goto CheckCLI
+)
+IF NOT EXIST "%L10NSourceCodePath%" (
+  IF EXIST "%~dp0Tools\l10nUtil.exe" (
+    set "L10nUtil="%~dp0Tools\l10nUtil.exe""
+    set "L10NSourceCodePath=exe"
+  Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+  goto %goto%
+
+    goto CheckCLI
+  )
+  set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
+  set TargetPath=%L10NSourceCodePath%
+  set VerifyFile=source\l10nUtil.py
+  set PathSetSuccessfully=NVDAL10NSourceCodePathSetSuccessfully
+  goto SetPersonalSourcePath
+)
+
+:NVDAL10NSourceCodePathSetSuccessfully
+Rem 检查是否安装 uv
+where uv >nul 2>nul
+if "!errorlevel!" neq "0" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未检测到 uv 包管理器，请先安装 uv 后再运行此脚本。',10,'错误',16)"
+  exit /b 1
+)
+
+Rem 配置 Python虚拟环境  
+uv --directory "%L10NSourceCodePath%" sync
+if !errorlevel! neq 0 (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDAL10n 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误',16)"
+  echo 请按任意键退出...
+  Pause>Nul
+  exit /b 1
+)
+cls
+
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+goto %goto%
+
 Rem 判断是否从命令行传入参数  
+:CheckCLI
 if not "%1"=="" (
   set ProcessCLI=%1
   if not "!ProcessCLI:_=!"=="!ProcessCLI!" (goto ProcessCLI)
@@ -77,9 +128,12 @@ Pause>Nul
 echo GMX：使用指定插件的 readme.xliff 生成 Markdown 文件；  
 echo MXX：使用指定插件的 readme.md 文档生成可上传的 XLIFF 文件；  
 echo UAP：上传指定插件的界面翻译到 Crowdin；  
-echo UAM：上传指定插件的文档翻译到 Crowdin；  
+echo UAX：上传指定插件的文档翻译到 Crowdin；  
+echo UAM：从 ProcessTranslation\Markdown 文件夹上传指定插件的 Markdown 文档翻译到 Crowdin；  
 echo DAP：从 Crowdin 下载指定插件的界面翻译；  
-echo DAM：从 Crowdin 下载指定插件的文档翻译；  
+echo DAX：从 Crowdin 下载指定插件的文档翻译；  
+echo DAM：从 Crowdin 下载指定插件的 Markdown 文档翻译到 ProcessTranslation\Markdown 文件夹；  
+echo UTC：将 Uploads 分支合并到当前分支，并自动解决 po 文件的合并冲突；  
 echo CLE：清理上述命令生成的所有文件；  
 echo 其他命令：退出本工具。  
 echo 上述选项还可通过命令行直接传入。  
@@ -94,11 +148,11 @@ Rem 初始化变量，跳转到用户输入的命令或退出
 set ExitCode=0
 set Parameter=%CLI:~0,2%
 cls
-goto %CLI% >Nul
+goto %CLI% >nul 2>nul
 exit
 
-Rem 从给定的 nvda.pot 更新界面翻译字符串  
 :UDL
+:UTC
 Rem 设置 GettextTools 程序路径  
 for %%F in (
   "%ProgramFiles(x86)%\Poedit\GettextTools\bin"
@@ -112,19 +166,21 @@ if defined Gettext (
   echo %%Gettext%% is set to !Gettext!.
 ) Else (
   echo Poedit program not found.
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('请安装 Poedit 后重试。',5,'错误');window.close();"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('请安装 Poedit 后重试。',5,'错误',16)"
   exit /b 1
 )
-IF NOT EXIST "%~dp0PotXliff\nvda.pot" (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('请将要合并的 nvda.pot 文件复制到 PotXliff 文件夹后重试。',5,'未找到文件');window.close();"
+if /I "%CLI%"=="UTC" (goto MergeBranch)
+
+Rem 从给定的 nvda.pot 更新界面翻译字符串  
+IF NOT EXIST "%~dp0ProcessTranslation\PotPo\nvda.pot" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('请将要合并的 nvda.pot 文件复制到 ProcessTranslation\PotPo 文件夹后重试。',5,'未找到文件',16)"
   exit /b 1
 )
 CD /D %Gettext% 
-msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvda.po" "%~dp0PotXliff\nvda.pot"
+msgmerge.exe --update --backup=none --previous "%~dp0Translation\LC_MESSAGES\nvda.po" "%~dp0ProcessTranslation\PotPo\nvda.pot"
 set ExitCode=%errorlevel%
 goto Quit
 
-Rem 设置 nvdaL10nUtil 程序路径  
 :GEC
 :GEU
 :GEK
@@ -149,6 +205,7 @@ Rem 设置 nvdaL10nUtil 程序路径
 :UPC
 :UPU
 :UPA
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
 for %%F in (
   "%ProgramFiles%\NVDA\l10nUtil.exe"
   "%ProgramFiles(x86)%\NVDA\l10nUtil.exe"
@@ -166,16 +223,15 @@ for %%F in (
     goto ProcessingNVDATags
   )
 )
-
 Rem 检查 %L10nUtil% 是否存在  
 if not defined L10nUtil (
   echo l10nUtil program not found.
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误');window.close();"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 l10nUtil 程序，请安装 NVDA 2025.1.0.35381或以上版本后重试。',5,'错误')"
   exit /b 1
 )
+:ProcessingNVDATags
 
 Rem 处理针对 NVDA 翻译的标签，初始化变量  
-:ProcessingNVDATags
 if /I "%CLI:~0,2%"=="GE" (set Action=GenerateFiles)
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI:~0,2%"=="MH" (set Action=GenerateHTML)
@@ -231,6 +287,8 @@ if /I "%Type%"=="Docs" (
   set TranslationPath=%~dp0Translation\user_docs
 )
 set CrowdinFilePath=%FileName%
+Rem 在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时取消注释下一行  
+::set "Config=--config=nvda"
 goto %Action%
 
 Rem 生成翻译预览系列命令  
@@ -278,12 +336,15 @@ if /I "%Type%" == "Test" (
 )
 
 Rem 获取当前分支名称、系统的日期和时间作为翻译测试压缩包的部分名称  
-for /f "delims=" %%o in ('git branch --show-current') do set Branch=%%o
-set DateTime=%date:~8,2%%date:~11,2%%time:~0,2%%time:~3,2%
-If "%DateTime:~4,1%" == " " (
-  set VersionInfo=%DateTime:~0,4%0%DateTime:~5,3%
-) Else (
-  set VersionInfo=%DateTime%
+for /f "usebackq delims=" %%o in (
+  `git branch --show-current`
+) do (
+  set "Branch=%%o"
+)
+for /f "usebackq delims=" %%i in (
+  `powershell -Command "Get-Date -Format 'MMddHHmm'"`
+) do (
+  set "VersionInfo=%%i"
 )
 
 Rem 生成翻译测试压缩包  
@@ -307,47 +368,58 @@ exit /b %errorlevel%
 
 Rem 生成文档的 Markdown 版本
 :GenerateMarkdown
-IF NOT EXIST "%~dp0Preview\Markdown" (MKDir "%~dp0Preview\Markdown")
-IF EXIST "%~dp0Preview\Markdown\%ShortName%.md" (del /f /q "%~dp0Preview\Markdown\%ShortName%.md")
-%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0Preview\Markdown\%ShortName%.md"
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown" (MKDir "%~dp0ProcessTranslation\Markdown")
+IF EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (del /f /q "%~dp0ProcessTranslation\Markdown\%ShortName%.md")
+%L10nUtil% xliff2md "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Markdown\%ShortName%.md"
 set ExitCode=!errorlevel!
 goto Quit
 
 Rem 从 Markdown 文件生成 HTML 文件  
 :GenerateHTML
-IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 %ShortName%.md，请先生成该文件后重试。',5,'错误');window.close();"
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先生成该文件后重试。',5,'错误')"
   exit /b 1
 )
 IF EXIST "%~dp0Preview\%ShortName%.html" (del /f /q "%~dp0Preview\%ShortName%.html")
-%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0Preview\Markdown\%ShortName%.md" "%~dp0Preview\%ShortName%.html"
+%L10nUtil% md2html -l zh_CN -t %ShortName% "%~dp0ProcessTranslation\Markdown\%ShortName%.md" "%~dp0Preview\%ShortName%.html"
 set ExitCode=!errorlevel!
 goto Quit
 
 Rem 从 Markdown 文档生成 xliff
 :GenerateXLIFF
-set NVDASourceCodePath=%~dp0Tools\NVDA
+set "NVDASourceCodePath=%~dp0Tools\XLIFFTemplate\NVDA"
+set "SourceXLIFFPath=%NVDASourceCodePath%\user_docs\en\%ShortName%.xliff"
 IF NOT EXIST "%NVDASourceCodePath%" (
   set PromptInformation=请输入您的本地 NVDA 源代码存储库路径（无需引号），按回车键确认。  
   set TargetPath=%NVDASourceCodePath%
-  set VerifyFile=source\markdownTranslate.py
-  set PathSetSuccessfully=NVDASourceCodePathSetSuccessfully
+  set "VerifyFile=user_docs\en\%ShortName%.xliff"
+  set "PathSetSuccessfully=XLIFFTemplatePathSetSuccessfully"
   goto SetPersonalSourcePath
 )
-:NVDASourceCodePathSetSuccessfully
-powershell -ExecutionPolicy Bypass -NoProfile -File "%NVDASourceCodePath%\ensureuv.ps1" --directory "%NVDASourceCodePath%" sync
-if %errorlevel% neq 0 (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('NVDA 代码仓库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
-  echo 请按任意键退出...
-  Pause>Nul
+:XLIFFTemplatePathSetSuccessfully
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+if not defined L10NSourceCodePath (
+  set "goto=L10NExe"
+  goto L10nUtil
+)
+:L10NExe
+
+if /I "%L10NSourceCodePath%" =="exe" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('使用 l10nUtil.exe 时不支持此命令。' + [char]10 + '请删除 l10nUtil.exe，并在本地克隆 nvaccess/nvdaL10n 存储库后重试。',10,'错误',16)"
   exit /b 1
 )
-IF NOT EXIST "%~dp0Preview\Markdown\%ShortName%.md" (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误');window.close();"
+IF NOT EXIST "%~dp0ProcessTranslation\Markdown\%ShortName%.md" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 %ShortName%.md，请先创建该文件后重试。',5,'错误')"
   exit /b 1
 )
-move /Y "%TranslationPath%\%FileName%" "%~dp0PotXliff\%FileName%"
-uv --directory "%NVDASourceCodePath%" run "%NVDASourceCodePath%\source\markdownTranslate.py" translateXliff -x "%NVDASourceCodePath%\user_docs\en\%FileName%" -l zh-CN -p "%~dp0Preview\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
+IF NOT EXIST "%SourceXLIFFPath%" (
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('未找到 "%SourceXLIFFPath%"，请确保该文件存在后重试。',5,'错误',16)"
+  exit /b 1
+)
+IF EXIST "%TranslationPath%\%FileName%" (
+  move /Y "%TranslationPath%\%FileName%" "%~dp0ProcessTranslation\Xliff\%ShortName%.xliff"
+)
+uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\source\markdownTranslate.py" translateXliff -x "%SourceXLIFFPath%" -l zh-CN -p "%~dp0ProcessTranslation\Markdown\%ShortName%.md" -o "%TranslationPath%\%FileName%"
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -356,7 +428,7 @@ Rem 从 Crowdin 下载已翻译的文件
 :DownloadAndCommit
 set DownloadFilename=%TranslationPath%\%FileName%
 IF EXIST "%DownloadFilename%" (del /f /q "%DownloadFilename%")
-%L10nUtil% downloadTranslationFile zh-CN "%CrowdinFilePath%" "%DownloadFilename%"
+%L10nUtil% downloadTranslationFile zh-CN "%CrowdinFilePath%" "%DownloadFilename%" %Config%
 if %errorlevel% neq 0 (
   echo Error: %FileName% download failed with exit code %errorlevel%.
   set ExitCode=%errorlevel%
@@ -364,7 +436,7 @@ if %errorlevel% neq 0 (
   goto Quit
 )
 if /I "%Type%"=="LC_MESSAGES" (
-powershell -ExecutionPolicy Bypass -File "%~dp0Tools\CheckPo.ps1" "%DownloadFilename%"
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckPo.ps1" "%DownloadFilename%"
 )
 if /I "%Action%"=="DownloadAndCommit" (goto Commit)
 exit /b 0
@@ -389,16 +461,15 @@ exit /b 0
 
 Rem 提取之前翻译的 xliff 文件用于上传时比较差异  
 :ReadyUpload
-set TempFolder=%~dp0PotXliff\Temp
-set OldFile=%TempFolder%\%FileName%.old
-set Parameter=--old "%OldFile%"
-IF EXIST "%TempFolder%" (rd /s /q "%TempFolder%")
-MKDir "%TempFolder%"
-IF Not EXIST "%~dp0PotXliff\%FileName%" (
-  git archive --output "./PotXliff/Temp/%FileName%.zip" main %GitAddPath%/%FileName%
-  "%~dp0Tools\7Zip\7z.exe" e "%TempFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%~dp0PotXliff"
+set "ArchiveFolder=%~dp0ProcessTranslation\Archive"
+set "XliffFolder=%~dp0ProcessTranslation\Xliff"
+set "Parameter=--old "%XliffFolder%\%FileName%""
+IF EXIST "%ArchiveFolder%" (rd /s /q "%ArchiveFolder%")
+MKDir "%ArchiveFolder%"
+IF Not EXIST "%XliffFolder%\%FileName%" (
+  git archive --output "%ArchiveFolder%\%FileName%.zip" main %GitAddPath%/%FileName%
+  "%~dp0Tools\7Zip\7z.exe" -sccUTF-8 -bsp0 -bso0 e "%ArchiveFolder%\%FileName%.zip" "Translation\user_docs\%FileName%" -aoa -o"%XliffFolder%"
 )
-MKLINK /H "%OldFile%" "%~dp0PotXliff\%FileName%"
 goto Upload
 
 Rem 上传已翻译的文件到 Crowdin
@@ -406,10 +477,10 @@ Rem 上传已翻译的文件到 Crowdin
 if /I "%Type%"=="Docs" (
   goto ReadyUpload
 ) else (
-  set Parameter= 
+  set "Parameter="
 )
 :Upload
-%L10nUtil% uploadTranslationFile zh-CN "%CrowdinFilePath%" "%TranslationPath%\%FileName%" %Parameter%
+%L10nUtil% uploadTranslationFile zh-CN "%CrowdinFilePath%" "%TranslationPath%\%FileName%" %Parameter% %Config%
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -417,44 +488,33 @@ Rem 处理针对插件翻译的标签，初始化变量及运行环境
 :GMX
 :MXX
 :UAP
+:UAX
 :UAM
 :DAP
+:DAX
 :DAM
+Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+set "goto=setConfigFilename"
+goto L10nUtil
+:setConfigFilename
+
+set "ConfigFilename=%~dp0Tools\l10nUtil.yaml"
+set "Config=--config="!ConfigFilename!""
 set AddonName=%2
 if not defined AddonName (
   cls
   echo 请输入插件 ID，按回车键确认。  
   set /p AddonName=
 )
-set CrowdinRegistrationSourcePath=%~dp0Tools\CrowdinRegistration
-IF NOT EXIST "%CrowdinRegistrationSourcePath%" (
-  set PromptInformation=请输入您的本地 CrowdinRegistration 存储库路径（无需引号），按回车键确认。  
-  set TargetPath=%CrowdinRegistrationSourcePath%
-  set VerifyFile=utils\l10nUtil.py
-  set PathSetSuccessfully=CrowdinRegistrationPathSetSuccessfully
-  goto SetPersonalSourcePath
-)
-:CrowdinRegistrationPathSetSuccessfully
-IF NOT EXIST "%CrowdinRegistrationSourcePath%\miscDeps" (
-  MKDir "%CrowdinRegistrationSourcePath%\miscDeps\tools"
-  echo *>"%CrowdinRegistrationSourcePath%\miscDeps\.gitignore"
-  MKLINK /H "%CrowdinRegistrationSourcePath%\miscDeps\tools\msgfmt.exe" "%~dp0Tools\msgfmt.exe"
-)
-set L10nUtil=uv --directory "%CrowdinRegistrationSourcePath%" run "%CrowdinRegistrationSourcePath%\utils\l10nUtil.py"
-if NOT "%GITHUB_ACTIONS%" == "true" (
-  uv --directory "%CrowdinRegistrationSourcePath%" sync
-  if !errorlevel! neq 0 (
-    mshta "javascript:new ActiveXObject('wscript.shell').popup('CrowdinRegistration 存储库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
-    echo 请按任意键退出...
-    Pause>Nul
-    exit /b 1
-  )
-  cls
-)
 if /I "%CLI:~0,2%"=="GM" (set Action=GenerateMarkdown)
 if /I "%CLI%"=="MXX" (set Action=GenerateAddonXLIFF)
 if /I "%CLI:~0,2%"=="DA" (set Action=DownloadFiles)
 if /I "%CLI:~0,2%"=="UA" (set Action=UploadFiles)
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\CheckAddonID.ps1" "%~dp0Tools\Scripts\ProjectList.txt"
+if %errorlevel% neq 0 (
+  set ExitCode=%errorlevel%
+  goto Quit
+)
 if /I "%CLI:~2,1%"=="P" (
   set Type=LC_MESSAGES
   set CrowdinFilePath=%AddonName%.pot
@@ -463,29 +523,30 @@ if /I "%CLI:~2,1%"=="P" (
 if /I "%CLI:~2,1%"=="X" (
   set CrowdinFilePath=%AddonName%.xliff
   set FileName=readme.xliff
-  set ShortName=readme
-)
-if /I "%CLI:~2,1%"=="M" (
-  set CrowdinFilePath=%AddonName%.md
-  set FileName=readme.md
-  set ShortName=readme
-  findstr /i "%AddonName%.xliff" "%CrowdinRegistrationSourcePath%\utils\files.json" >nul
-  if not !errorlevel! EQU 1 (
-    set CrowdinFilePath=%AddonName%.xliff
-    set FileName=%AddonName%.xliff
-  )
+  set ShortName=%AddonName%
 )
 set TranslationPath=%~dp0Translation\Addons\%AddonName%
+if /I "%CLI:~2,1%"=="M" (
+  set CrowdinFilePath=%AddonName%.md
+  set FileName=%AddonName%.md
+  set TranslationPath=%~dp0ProcessTranslation\Markdown
+)
 IF NOT EXIST "%TranslationPath%" (MKDir "%TranslationPath%")
+set GitAddPath=Translation/Addons/%AddonName%
 goto %Action%
 
 Rem 从插件的 Markdown 文档生成 xliff
 :GenerateAddonXLIFF
-uv --directory "%CrowdinRegistrationSourcePath%" run "%CrowdinRegistrationSourcePath%\utils\markdownTranslate.py" translateXliff -x "%CrowdinRegistrationSourcePath%\addons\%AddonName%\%AddonName%.xliff" -l zh-CN -p "%~dp0Preview\Markdown\readme.md" -o "%~dp0PotXliff\%AddonName%.xliff"
-set ExitCode=%errorlevel%
-if %ExitCode% neq 0 (goto Quit)
-move /Y "%~dp0PotXliff\%AddonName%.xliff" "%TranslationPath%\%FileName%"
-exit /b 0
+set "AddonSourcePath=%~dp0Tools\XLIFFTemplate\%AddonName%"
+set "SourceXLIFFPath=%AddonSourcePath%\%AddonName%.xliff"
+IF NOT EXIST "%AddonSourcePath%" (
+  set "PromptInformation=请输入您的本地 %AddonName% 插件的存储库路径（无需引号），按回车键确认。"
+  set "TargetPath=%AddonSourcePath%"
+  set "VerifyFile=%AddonName%.xliff"
+  set "PathSetSuccessfully=XLIFFTemplatePathSetSuccessfully"
+  goto SetPersonalSourcePath
+)
+goto XLIFFTemplatePathSetSuccessfully
 
 Rem 设置本地存储库路径  
 :SetPersonalSourcePath
@@ -499,11 +560,20 @@ IF NOT EXIST "%PersonalSourcePath%\%VerifyFile%" (
 MKLINK /J "%TargetPath%" "%PersonalSourcePath%"
 goto %PathSetSuccessfully%
 
+Rem 将 Uploads 分支合并到当前分支，并自动解决 po 文件的合并冲突  
+:MergeBranch
+powershell -ExecutionPolicy Bypass -File "%~dp0Tools\Scripts\AutoMerge.ps1"
+exit /b %errorlevel%
+
 Rem 清理本工具生成的所有文件  
 :CLE
 git clean -fX "%~dp0PotXliff"
+git clean -fX "%~dp0ProcessTranslation"
 git clean -fX "%~dp0Preview"
 git clean -fX "%~dp0Translation\Addons"
+for /f "delims=" %%a in ('dir /ad /b /s "%~dp0Translation\Addons" ^| sort /r') do (
+  rd "%%a" 2>nul
+)
 set ExitCode=%errorlevel%
 goto Quit
 
@@ -511,7 +581,7 @@ Rem 处理退出代码
 :Quit
 if /I "%GITHUB_ACTIONS%" == "true" (exit /b %ExitCode%)
 if %ExitCode% neq 0 (
-  mshta "javascript:new ActiveXObject('wscript.shell').popup('某些操作未能成功完成，有关详细信息，请查看命令窗口。',5,'错误');window.close();"
+  powershell -command "(New-Object -ComObject wscript.shell).Popup('某些操作未能成功完成，有关详细信息，请查看命令窗口。',5,'错误',16)" >nul
   echo 请按任意键退出...
   Pause>Nul
   exit /b %ExitCode%

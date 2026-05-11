@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/objPad/69661fae159dfc73d6c15d4b6839a9e09449252f/readme.md">
+  <file id="objPad.md" original="https://raw.githubusercontent.com/nvaccess/nvda/bf5b1e15c50bf55a8c5d8aa74d284df221fcdd59/addons/objPad/objPad.md">
     <skeleton>
 # $(ID:5283505a-9378-4cb6-a519-63b32266933b)
 
 * $(ID:b9b243d3-293a-4f1b-a5d9-2c0177fda3a1)
-* $(ID:c1e6eeae-4078-4c10-be7c-be8ef6e70d9e)
 
 $(ID:744af5c0-d903-42ac-b077-775dbd8b8860)
 
@@ -19,7 +18,7 @@ $(ID:a2a2877f-fbc9-4156-b9ce-5fff56fd6264)
 
 * $(ID:1236b1b1-658a-4dbe-870b-a7faf37e3aa4)
 * $(ID:f21452b2-7c61-4483-8e4c-bec30d1be19f)
-* $(ID:ac47dd71-f3ce-49be-af03-bab19d9e2cef)
+* $(ID:5f036ce7-c672-4ca1-bdb9-c9eb14378282)
 * $(ID:5c946557-7299-4fd2-ba95-f8f51598ee1d)
 
 $(ID:7d61662f-20f4-4c66-8f79-a437dd8cf5fe)
@@ -30,7 +29,7 @@ $(ID:7d61662f-20f4-4c66-8f79-a437dd8cf5fe)
 * $(ID:09ea47cc-639f-4050-b182-309bef86d9e2)
 * $(ID:e91cd177-b871-4936-8443-f29567c34718)
 
-$(ID:6741f0bd-aae2-42cc-930f-ab930a119375)
+$(ID:2f762356-ec17-476a-a66a-98d1c85304ad)
 
 * $(ID:cd646de9-0dcd-4bd1-99bc-d7ca5c59a99d)
 * $(ID:dff58265-6ccf-4f40-a79f-3b33b87fe2aa)
@@ -47,6 +46,15 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
 * $(ID:c55209ad-169f-46d5-b7be-219abed6c664)
 * $(ID:6d6e6e8c-4dec-4268-a52d-9095895cc460)
 * $(ID:a238d750-ec3d-4bfc-8390-de546e5021a9)
+
+## $(ID:cc64aae4-2448-4f6f-82dd-64322b8f2f9e)
+
+* $(ID:5d5197b5-8ee1-43a4-bf2c-ca370c14356d)
+
+## $(ID:49ba3c1b-6252-49ff-82fe-39b564ab22ef)
+
+* $(ID:2fab215f-c54d-4eb2-a065-7d7e5180b9bb)
+* $(ID:83089c75-ecf2-4aa4-9b79-6b905d5639bf)
 
 ## $(ID:daa7d878-9d80-4125-b781-8419de0cf489)
 
@@ -124,19 +132,9 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
         <target>作者：Christopher Duffley &lt;nvda@chrisduffley.com&gt;, originally by Joseph Lee, Cleverson Uliana and others</target>
       </segment>
     </unit>
-    <unit id="c1e6eeae-4078-4c10-be7c-be8ef6e70d9e">
-      <notes>
-        <note appliesTo="source">line: 5</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>NVDA compatibility: 2022.4 and later</source>
-        <target>NVDA 兼容性：2022.4 及更高版本</target>
-      </segment>
-    </unit>
     <unit id="744af5c0-d903-42ac-b077-775dbd8b8860">
       <notes>
-        <note appliesTo="source">line: 7</note>
+        <note appliesTo="source">line: 6</note>
       </notes>
       <segment state="final">
         <source>This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.</source>
@@ -145,7 +143,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="48dbdc23-9970-4a6b-9e09-ca972a3b45b0">
       <notes>
-        <note appliesTo="source">line: 9</note>
+        <note appliesTo="source">line: 8</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -155,7 +153,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="b1fac300-40a2-42a4-8eef-e58b9232a5f7">
       <notes>
-        <note appliesTo="source">line: 11</note>
+        <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -165,7 +163,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="1aa25e1d-9559-4e12-a831-10ac8b0ae580">
       <notes>
-        <note appliesTo="source">line: 13</note>
+        <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -175,7 +173,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="a2a2877f-fbc9-4156-b9ce-5fff56fd6264">
       <notes>
-        <note appliesTo="source">line: 15</note>
+        <note appliesTo="source">line: 14</note>
       </notes>
       <segment state="final">
         <source>The add-on provides four ways to use arrow keys:</source>
@@ -184,7 +182,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="1236b1b1-658a-4dbe-870b-a7faf37e3aa4">
       <notes>
-        <note appliesTo="source">line: 17</note>
+        <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -194,7 +192,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="f21452b2-7c61-4483-8e4c-bec30d1be19f">
       <notes>
-        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -202,19 +200,19 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
         <target>对象导航：使用光标键移动到下一个/上一个/父/第一个子对象。</target>
       </segment>
     </unit>
-    <unit id="ac47dd71-f3ce-49be-af03-bab19d9e2cef">
+    <unit id="5f036ce7-c672-4ca1-bdb9-c9eb14378282">
       <notes>
-        <note appliesTo="source">line: 19</note>
+        <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Web: use arrow keys to cycle through elements and move between them.</source>
-        <target>网页模式：使用光标键循环切换元素类型并在相应元素之间移动。</target>
+        <source>Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.</source>
+        <target>浏览模式：使用光标键循环切换元素类型并在相应元素之间移动。</target>
       </segment>
     </unit>
     <unit id="5c946557-7299-4fd2-ba95-f8f51598ee1d">
       <notes>
-        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -224,7 +222,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="7d61662f-20f4-4c66-8f79-a437dd8cf5fe">
       <notes>
-        <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">line: 21</note>
       </notes>
       <segment state="final">
         <source>The following commands are available with arrow keys set to object nav:</source>
@@ -233,7 +231,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="55f3a776-ddb1-49ff-8c42-4fa3a9aca8da">
       <notes>
-        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -243,7 +241,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="4d1b1e7c-fa1f-45bc-a127-fce836da8ecc">
       <notes>
-        <note appliesTo="source">line: 25</note>
+        <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -253,7 +251,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="6f51bd7f-629b-4f32-9682-79e9cf8e8816">
       <notes>
-        <note appliesTo="source">line: 26</note>
+        <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -263,7 +261,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="09ea47cc-639f-4050-b182-309bef86d9e2">
       <notes>
-        <note appliesTo="source">line: 27</note>
+        <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -273,7 +271,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="e91cd177-b871-4936-8443-f29567c34718">
       <notes>
-        <note appliesTo="source">line: 28</note>
+        <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -281,18 +279,18 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
         <target>空格或回车：激活。</target>
       </segment>
     </unit>
-    <unit id="6741f0bd-aae2-42cc-930f-ab930a119375">
+    <unit id="2f762356-ec17-476a-a66a-98d1c85304ad">
       <notes>
-        <note appliesTo="source">line: 30</note>
+        <note appliesTo="source">line: 29</note>
       </notes>
       <segment state="final">
-        <source>With web mode active (elements are normal or moving by object, link, form field, heading, frame, table, list, landmark):</source>
-        <target>光标键设置为网页模式时（元素正常或按对象，链接，表单字段，标题，框架，表格，列表，路标移动）：</target>
+        <source>With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):</source>
+        <target>光标键设置为浏览模式时（元素正常或按对象、链接、表单字段、标题、框架、表格、列表、路标、嵌入式对象、文本段落移动）：</target>
       </segment>
     </unit>
     <unit id="cd646de9-0dcd-4bd1-99bc-d7ca5c59a99d">
       <notes>
-        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -302,7 +300,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="dff58265-6ccf-4f40-a79f-3b33b87fe2aa">
       <notes>
-        <note appliesTo="source">line: 33</note>
+        <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -312,7 +310,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="abdc5bfa-2217-4f9c-8446-18d09c27a2ac">
       <notes>
-        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -322,7 +320,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="3be84ca4-9051-4a7f-9bba-34aa50e8ba9d">
       <notes>
-        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">line: 34</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -332,7 +330,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="0f1108dd-0ef6-46aa-acab-bf14e8e66160">
       <notes>
-        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -342,7 +340,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="c0a09add-2803-4d85-a996-54e17827a38e">
       <notes>
-        <note appliesTo="source">line: 38</note>
+        <note appliesTo="source">line: 37</note>
       </notes>
       <segment state="final">
         <source>With scan mode active:</source>
@@ -351,7 +349,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="3da73b97-51ac-4f64-9966-9daddbff1c3a">
       <notes>
-        <note appliesTo="source">line: 40</note>
+        <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -361,7 +359,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="27b4c89a-20d7-4698-a64b-7731d4804b4b">
       <notes>
-        <note appliesTo="source">line: 41</note>
+        <note appliesTo="source">line: 40</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -371,7 +369,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="343b26b0-d5bc-493d-9fc5-1af4b5555fe1">
       <notes>
-        <note appliesTo="source">line: 42</note>
+        <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -381,7 +379,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="76857b7e-2dce-4417-8deb-302dd7e95620">
       <notes>
-        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">line: 42</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -391,7 +389,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="c55209ad-169f-46d5-b7be-219abed6c664">
       <notes>
-        <note appliesTo="source">line: 44</note>
+        <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -401,7 +399,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="6d6e6e8c-4dec-4268-a52d-9095895cc460">
       <notes>
-        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">line: 44</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -411,7 +409,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="a238d750-ec3d-4bfc-8390-de546e5021a9">
       <notes>
-        <note appliesTo="source">line: 46</note>
+        <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -419,9 +417,59 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
         <target>空格或回车：激活。</target>
       </segment>
     </unit>
+    <unit id="cc64aae4-2448-4f6f-82dd-64322b8f2f9e">
+      <notes>
+        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 26.03</source>
+        <target>版本 26.03</target>
+      </segment>
+    </unit>
+    <unit id="5d5197b5-8ee1-43a4-bf2c-ca370c14356d">
+      <notes>
+        <note appliesTo="source">line: 49</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.</source>
+        <target>将“web 模式”重命名为“浏览模式”，因为此模式将涵盖其他情况，包括 Word 365中的浏览模式。</target>
+      </segment>
+    </unit>
+    <unit id="49ba3c1b-6252-49ff-82fe-39b564ab22ef">
+      <notes>
+        <note appliesTo="source">line: 51</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Version 26.02</source>
+        <target>版本 26.02</target>
+      </segment>
+    </unit>
+    <unit id="2fab215f-c54d-4eb2-a065-7d7e5180b9bb">
+      <notes>
+        <note appliesTo="source">line: 53</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>NVDA 2025.3.2 or later is required.</source>
+        <target>需要 NVDA 2025.3.2 或更高版本。</target>
+      </segment>
+    </unit>
+    <unit id="83089c75-ecf2-4aa4-9b79-6b905d5639bf">
+      <notes>
+        <note appliesTo="source">line: 54</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added embedded object and text paragraph navigation to web mode.</source>
+        <target>在 web 模式下添加了嵌入式对象和文本段落导航。</target>
+      </segment>
+    </unit>
     <unit id="daa7d878-9d80-4125-b781-8419de0cf489">
       <notes>
-        <note appliesTo="source">line: 48</note>
+        <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -431,7 +479,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="be6debd9-0d33-4c09-8132-0409c6edf986">
       <notes>
-        <note appliesTo="source">line: 50</note>
+        <note appliesTo="source">line: 58</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -441,7 +489,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="cad07a88-21aa-47e6-b4a2-105cedaf0b77">
       <notes>
-        <note appliesTo="source">line: 51</note>
+        <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -451,7 +499,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="04a2182f-eb25-4da1-8a3d-f14565937eff">
       <notes>
-        <note appliesTo="source">line: 53</note>
+        <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -461,7 +509,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="7d901f22-7037-455a-bfb5-0969c38514d8">
       <notes>
-        <note appliesTo="source">line: 55</note>
+        <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -471,7 +519,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="39785835-2a76-47be-aed2-e01d747f8c06">
       <notes>
-        <note appliesTo="source">line: 57</note>
+        <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -481,7 +529,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="3878af00-3878-4b00-bc05-b3996338b769">
       <notes>
-        <note appliesTo="source">line: 59</note>
+        <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -491,7 +539,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="d2c4bba7-bcbc-4b82-9cbf-7525df2ffe78">
       <notes>
-        <note appliesTo="source">line: 61</note>
+        <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -501,7 +549,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="f2210835-5922-4248-ba6a-22410f2f9f05">
       <notes>
-        <note appliesTo="source">line: 63</note>
+        <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -511,7 +559,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="5d5d5679-f419-4082-b7fc-ddcfcafbb120">
       <notes>
-        <note appliesTo="source">line: 64</note>
+        <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -521,7 +569,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="c810b104-9a17-491e-bdc5-66019c5bf6fd">
       <notes>
-        <note appliesTo="source">line: 66</note>
+        <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -531,7 +579,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="abd64c94-2b67-4691-ad35-c9eaefbe2f34">
       <notes>
-        <note appliesTo="source">line: 68</note>
+        <note appliesTo="source">line: 76</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -541,7 +589,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="9fd75a09-ddf9-4789-8a10-1da3a6dd7146">
       <notes>
-        <note appliesTo="source">line: 69</note>
+        <note appliesTo="source">line: 77</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -551,7 +599,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="e2e0ccee-1588-4804-91cf-2b114ff119fe">
       <notes>
-        <note appliesTo="source">line: 71</note>
+        <note appliesTo="source">line: 79</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -561,7 +609,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="f74034cf-595b-468b-a4ed-461d8218e288">
       <notes>
-        <note appliesTo="source">line: 73</note>
+        <note appliesTo="source">line: 81</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -571,7 +619,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="33bc574e-368d-4b5d-a7af-94fc8fa47b56">
       <notes>
-        <note appliesTo="source">line: 75</note>
+        <note appliesTo="source">line: 83</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -581,7 +629,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="1b00fc19-ee0a-44a7-a841-641b11c02164">
       <notes>
-        <note appliesTo="source">line: 77</note>
+        <note appliesTo="source">line: 85</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -591,7 +639,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="c05fb50b-ff58-43ce-a741-ef27820bfd87">
       <notes>
-        <note appliesTo="source">line: 79</note>
+        <note appliesTo="source">line: 87</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -601,7 +649,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="03bdd86e-32f4-4e3a-95b0-d0b5e9b3d0c4">
       <notes>
-        <note appliesTo="source">line: 81</note>
+        <note appliesTo="source">line: 89</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -611,7 +659,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="ab27224b-175a-4bed-a0d8-092aef8eaed0">
       <notes>
-        <note appliesTo="source">line: 83</note>
+        <note appliesTo="source">line: 91</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -621,7 +669,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="49c4c2b6-4b80-4850-bb16-b5574e5a2418">
       <notes>
-        <note appliesTo="source">line: 85</note>
+        <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -631,7 +679,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="210ea0dd-77e0-4f6a-a94e-eba97f8d2efb">
       <notes>
-        <note appliesTo="source">line: 87</note>
+        <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -641,7 +689,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="df4d8a82-ec6f-4cae-807b-f34fbbfb8502">
       <notes>
-        <note appliesTo="source">line: 89</note>
+        <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -651,7 +699,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="cd7c1c21-4025-4765-aaed-107a8b8c83f5">
       <notes>
-        <note appliesTo="source">line: 90</note>
+        <note appliesTo="source">line: 98</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -661,7 +709,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="95bab673-8641-4ec2-9406-2b99a2587c51">
       <notes>
-        <note appliesTo="source">line: 92</note>
+        <note appliesTo="source">line: 100</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -671,7 +719,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="2d71d740-9160-4c7e-a337-b2cb286ff6ef">
       <notes>
-        <note appliesTo="source">line: 94</note>
+        <note appliesTo="source">line: 102</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -681,7 +729,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="27e687da-f1d9-46cd-900d-60934eaa0a48">
       <notes>
-        <note appliesTo="source">line: 96</note>
+        <note appliesTo="source">line: 104</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -691,7 +739,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="6ac52288-8746-44f5-b492-0cdb2edc6464">
       <notes>
-        <note appliesTo="source">line: 98</note>
+        <note appliesTo="source">line: 106</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -701,7 +749,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="263cde7e-1e94-4245-9aef-601551bac343">
       <notes>
-        <note appliesTo="source">line: 100</note>
+        <note appliesTo="source">line: 108</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -711,7 +759,7 @@ $(ID:c0a09add-2803-4d85-a996-54e17827a38e)
     </unit>
     <unit id="c7f00b2c-9e38-4ba0-bf63-cbc2351bca6d">
       <notes>
-        <note appliesTo="source">line: 102</note>
+        <note appliesTo="source">line: 110</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
