@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-23 12:41+0000\n"
-"PO-Revision-Date: 2026-05-20 15:26+0800\n"
-"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"PO-Revision-Date: 2026-05-23 12:53\n"
+"Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,6 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: nvda.pot\n"
 "X-Crowdin-File-ID: 2\n"
-"X-Generator: Poedit 3.9\n"
 
 #. Translators: shown when an addon API version string is unknown
 #. Translators: The word for an unknown control type.
@@ -11004,7 +11003,7 @@ msgstr "调试（DEBUG）"
 #. without redacting secrets).
 #: config\configFlags.py:441
 msgid "debug (unredacted)"
-msgstr ""
+msgstr "调试（未脱敏）（DEBUG_UNREDACTED）"
 
 #. Translators: Label for a value in the Play a sound for logged errors combobox, in the Advanced settings.
 #: config\configFlags.py:464
@@ -15825,10 +15824,8 @@ msgstr "开启放大镜（立即生效）(&E)"
 
 #. Translators: The label for a setting in magnifier settings to select the zoom level.
 #: gui\settingsDialogs.py:6069
-#, fuzzy
-#| msgid "&Zoom level:"
 msgid "&Zoom (%):"
-msgstr "放大级别(&Z)"
+msgstr "放大级别（%）(&Z)："
 
 #. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
 #: gui\settingsDialogs.py:6089
@@ -15887,21 +15884,15 @@ msgstr "隐私和安全"
 
 #. Translators: Warning shown when enabling the "debug (unredacted)" log level from NVDA settings.
 #: gui\settingsDialogs.py:6237
-#, fuzzy
-#| msgid ""
-#| "Setting the logging level to secrets will write sensitive information to "
-#| "the log without redaction, including passwords, API keys, or other "
-#| "private data. Only enable this temporarily if you explicitly need "
-#| "unredacted diagnostic logs. Do you want to continue?"
 msgid ""
 "Setting the logging level to \"debug (unredacted)\" will write sensitive "
 "information to the log without redaction, including passwords, API keys, or "
 "other private data. Only enable this temporarily if you explicitly need "
 "unredacted diagnostic logs. Do you want to continue?"
 msgstr ""
-"将日志记录级别设置为“机密”会将敏感信息（包括密码、API 密钥或其他私有数据）未"
-"经编辑地写入日志。仅在明确需要未经过滤的诊断日志时才应临时启用此级别。是否继"
-"续？"
+"将日志级别设置为“调试（未脱敏）”会将敏感信息（包括密码、API 密钥或其他私人数"
+"据）未经编辑地写入日志。仅在明确需要未脱敏的诊断日志时才应临时启用此级别。是"
+"否继续？"
 
 #. Translators: Title of the warning dialog shown when enabling the "debug (unredacted)" log level.
 #: gui\settingsDialogs.py:6244
