@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-21 05:12+0000\n"
-"PO-Revision-Date: 2026-05-23 11:55\n"
+"PO-Revision-Date: 2026-05-23 12:36\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -10649,7 +10649,7 @@ msgstr "调试（DEBUG）"
 #. without redacting secrets).
 #: config\configFlags.py:441
 msgid "debug (unredacted)"
-msgstr ""
+msgstr "调试（未脱敏）（DEBUG_UNREDACTED）"
 
 #. Translators: Label for a value in the Play a sound for logged errors combobox, in the Advanced settings.
 #: config\configFlags.py:464
@@ -15259,7 +15259,7 @@ msgstr "开启放大镜（立即生效）(&E)"
 #. Translators: The label for a setting in magnifier settings to select the zoom level.
 #: gui\settingsDialogs.py:6066
 msgid "&Zoom (%):"
-msgstr ""
+msgstr "放大级别（%）(&Z)："
 
 #. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
 #: gui\settingsDialogs.py:6086
@@ -15319,7 +15319,7 @@ msgstr "隐私和安全"
 #. Translators: Warning shown when enabling the "debug (unredacted)" log level from NVDA settings.
 #: gui\settingsDialogs.py:6234
 msgid "Setting the logging level to \"debug (unredacted)\" will write sensitive information to the log without redaction, including passwords, API keys, or other private data. Only enable this temporarily if you explicitly need unredacted diagnostic logs. Do you want to continue?"
-msgstr ""
+msgstr "将日志级别设置为“调试（未脱敏）”会将敏感信息（包括密码、API 密钥或其他私人数据）未经脱敏地写入日志。仅在您明确需要未脱敏的诊断日志时临时启用此级别。是否继续？"
 
 #. Translators: Title of the warning dialog shown when enabling the "debug (unredacted)" log level.
 #: gui\settingsDialogs.py:6241
