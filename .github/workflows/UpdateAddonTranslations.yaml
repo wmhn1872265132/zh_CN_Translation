@@ -1,8 +1,6 @@
 name: Update Addons Translations from Crowdin
 
 on:
-  schedule:
-    - cron: '0 5 * * *'
   workflow_dispatch:
     inputs:
       Addon_ID:
@@ -16,13 +14,8 @@ jobs:
   Determine-Branch:
     name: Determine branch
     if: ${{ vars.Run_Addon_Translations_Workflow }}
-    runs-on: ubuntu-latest
-    outputs:
-      branch: ${{ steps.Determine_branch.outputs.Branch }}
-    steps:
-      - name: Determine branch name
-        id: Determine_branch
-        uses: nvdacn/zh_CN_Translation/.github/actions/DetermineBranch@Uploads
+    uses: ./.github/workflows/DetermineBranch.yaml
+    secrets: inherit
 
   Update-Addon-Translations:
     name: Update addon translations from Crowdin
@@ -35,7 +28,7 @@ jobs:
           fetch-depth: 0
           ref: ${{ needs.Determine-Branch.outputs.branch }}
       - name: Install dependencies
-        uses: ./.github/actions/InstallDependenciesForAddon
+        uses: ./.github/actions/InstallDependencies
       - name: Configure environment
         shell: pwsh
         run: |

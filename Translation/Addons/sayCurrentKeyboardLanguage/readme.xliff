@@ -1,80 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/sayCurrentKeyboardLanguage/ee3b62a098d9d6397bfa38e50d0df237842d0c29/readme.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/abdel792/sayCurrentKeyboardLanguage/204425c548b435c353d6badbdd18bd18db020084/readme.md">
     <skeleton>
-# $(ID:c1e888d1-6598-4d9a-878f-f2f013b91e29)
+# $(ID:e8781d6c-75b4-4c1e-a1fc-a2bd6db67f8c)
 
-* $(ID:e3fd542b-fe64-49e4-8116-d372603e3000)
-* $(ID:645010bf-06d9-4f70-a915-8f93e8e5d4af)
-* $(ID:3f023123-7f9d-4f46-9e4d-e496fe02abbd)
+* $(ID:aa8d8388-aea4-4f06-969a-ed4dd9c59f55)
 
-# $(ID:a64a73e4-1792-447f-ad7f-a791ae48baef)
+# $(ID:46cc2c06-49af-4f8d-b34f-22ef48c12749)
 
-$(ID:15769e74-646a-4470-8253-d844ffabca12)
+$(ID:1ca94560-70c8-4d69-b80d-f527ae85f6cf)
 
-$(ID:732522f1-410d-4fa8-ba75-c98a6462d999)
+$(ID:df3aced6-7e92-495f-ac12-9ff837c1dbf4)
 
-$(ID:27992c55-4bb7-40ad-bf12-3168f4e5d5e5)
+$(ID:ab0201a7-8814-4fe5-bc28-96c3652c8ec4)
 
-$(ID:3e5b3217-b86b-4de6-8f13-1d43a6979372)
+$(ID:b7807bed-9f0b-432b-9cd8-65097792c899)
 
-## $(ID:cc373d58-10c1-4e9f-babb-bfb460771230)
+## $(ID:4181ca48-b609-441f-964a-c05c6c48c8e7)
 
-$(ID:ab5a6376-fa5c-42b0-bb43-4cd036a22e6c)
+$(ID:e89bc316-b972-4994-8fb6-7691960049ea)
 
-* $(ID:08dff4ad-c496-49a2-ab39-d9e16a0a2aaf)
-* $(ID:4b16e37b-1eeb-4af8-8fe0-3ae9430e273f)
-* $(ID:4f06f28a-79df-4bed-9248-5b5a126ba73f)
-* $(ID:75dfab30-bed8-4c30-968b-2aef4817ab51)
-* $(ID:fa5d4f9c-d2af-408d-88aa-66d6322a13b5)
-* $(ID:ad85d654-72ab-4742-a380-96eb3c3d2cd8)
-* $(ID:9f74c5fe-272f-4116-b4e5-6ea6eb2262f1)
-* $(ID:8341184a-6247-4204-a7f0-12f0dfccd4c5)
-* $(ID:ea8f9a29-cd92-4b47-9ebc-8810b6aa7748)
+* $(ID:b583dbad-baef-44aa-aaa9-d8ca7e1bf0a0)
+* $(ID:01f514d4-b715-4eea-b57d-ca9a9d736ff6)
+* $(ID:1a38ad57-fd9d-4454-beff-f8d1d3489142)
+* $(ID:5d4fb15f-b9ce-4bfa-8d8e-24134df76457)
+* $(ID:377502b9-76be-4452-b965-7e4e18ca0f8d)
+* $(ID:c6b5770a-0b7f-432c-b7f4-4753f197cb11)
+* $(ID:f886f39a-6131-4517-bded-6cf740a1e26d)
+* $(ID:a322ac48-b60b-431f-8bb9-74eafd9e2ead)
+* $(ID:a68005e0-7f1a-44e7-a6c3-1c633785932e)
 
-## $(ID:13be35fd-0610-4728-a489-dd948e182818)
+## $(ID:bd96adb2-de8d-48b2-933e-08b4b913b1c3)
 
-* $(ID:7edd7bec-2cf8-46ec-9e57-5b519a734c0b)
+* $(ID:5619d902-3cc7-4a70-8fe1-ba5cd457a2e8)
 
-## $(ID:6f820f84-e899-4e3b-b254-8429f759e970)
+## $(ID:45366e9f-700e-4fef-b827-fc6f7051f998)
 
-* $(ID:c6f9d4d2-ab06-435c-b3cd-9cb8b83e7a3e)
-* $(ID:863528ee-8130-455d-88ee-527a61b759ec)
-* $(ID:d855856a-fe4f-4d14-b348-35279a7f26fd)
+* $(ID:dbda8e7f-42aa-48e5-a68e-cd5433e382b3)
+* $(ID:b9e491db-0dbe-4c08-9c8c-b1d02216c929)
 
-## $(ID:b9be92a1-9235-41a5-bd5e-94c80489b705)
+## $(ID:7bb02630-ca50-4c05-b3b6-93fca48c4dfa)
 
-* $(ID:86797f84-ccd8-46e1-aec9-473a931b5816)
- * $(ID:1c5e8925-42a5-4c2b-a587-bd3af7c74c0d)
- * $(ID:72fbde72-29a8-400e-a872-1ab719548064)
- * $(ID:b120dba5-8eb9-4386-980b-28db26d4a8e5)
-* $(ID:dee2c8db-f636-4494-814d-07d8df3097b3)
+* $(ID:b1ee0729-3cbc-4d39-b6c2-06cea21531f8)
 
-## $(ID:1d248cd1-9e01-4df7-b710-64ef3f5f0fe7)
+## $(ID:8a8d88aa-9120-4256-8289-710c23a82056)
 
-* $(ID:4539a0d6-9da2-43aa-b290-67330ad46b4b)
+* $(ID:7827af59-952f-4e16-ac96-04da7f596bea)
+* $(ID:3d7503ff-f14a-4cbd-98ef-c39c8c9ab5b1)
+* $(ID:1984e5ae-9e96-41bb-875f-c98ccd01c310)
 
-## $(ID:24d98b79-2cf9-4291-a60e-0c6123f3cf89)
+## $(ID:18446378-919a-4fd3-a02d-175d663670a3)
 
-* $(ID:51046f1b-910c-4e90-bb81-a52e65d8b4d5)
-* $(ID:b1d53e8b-ed07-48d8-bdc3-6963c83864d1)
+* $(ID:ecbd11b2-596c-4b4a-a296-acdb2ee96303)
+ * $(ID:a29a65e4-d2df-4576-a991-46914396c8dd)
+ * $(ID:f82e9294-e21d-4419-a4b3-654a3c279228)
+ * $(ID:4f7cfd58-e7c6-4fde-84aa-dbad5d923a29)
+* $(ID:beb22c88-544d-42c2-97f0-0607b0880128)
 
-## $(ID:13cedf7e-3d6f-4abd-ba40-d8328de7a352)
+## $(ID:5b0d8174-9334-4565-8cb7-13adebbf68d0)
 
-* $(ID:071c5727-540e-4f38-95ad-2f8090c3f1f7)
-* $(ID:8f40f45f-996f-4b44-aa37-dcfec98ae1a7)
-* $(ID:38235bcd-ee3e-4095-9de8-8b0e806361b9)
-* $(ID:fbcc131c-d7b7-4a35-bc90-182f8c6d8b3e)
+* $(ID:f67855fa-c104-4f6e-ba78-3d8f7a4662ac)
 
-## $(ID:1581a924-c5f3-4b30-aee7-4063c8df131e)
+## $(ID:0bda87e8-b2ba-4572-9cbd-04a1fe942c62)
 
-* $(ID:a056aa14-963b-4a79-8892-e50e5631076d)
+* $(ID:6a19fa9c-b274-4236-a87f-da2f514b1ac5)
+* $(ID:aedde715-d783-4eb2-8613-e5b32c0e1249)
 
-$(ID:a34db77a-1e69-4085-9627-e46c5c104157)
+## $(ID:51d12edd-1538-41a9-ab41-cfd052b21ead)
 
-$(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
+* $(ID:52528a38-b6f3-42a1-8d14-c5ec5254f5bc)
+* $(ID:9cbc3c56-0dcb-4357-836b-275160081dd7)
+* $(ID:02bcdd4c-e2f6-4f17-a867-ef771d811b7a)
+* $(ID:4cfc3dcd-cbab-4eba-b2f3-07d187412ab4)
+
+## $(ID:a4910b1f-e677-46d5-a24d-34bd8bca5a6b)
+
+* $(ID:ce57d439-8ddd-4916-b551-38af1c521b7b)
 </skeleton>
-    <unit id="c1e888d1-6598-4d9a-878f-f2f013b91e29">
+    <unit id="e8781d6c-75b4-4c1e-a1fc-a2bd6db67f8c">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -84,39 +86,19 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>读出当前键盘语言</target>
       </segment>
     </unit>
-    <unit id="e3fd542b-fe64-49e4-8116-d372603e3000">
+    <unit id="aa8d8388-aea4-4f06-969a-ed4dd9c59f55">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Author(s): Abdel, Noelia;</source>
+        <source>Author(s): Abdel, Noelia.</source>
         <target>作者：Abdel, Noelia；</target>
       </segment>
     </unit>
-    <unit id="645010bf-06d9-4f70-a915-8f93e8e5d4af">
-      <notes>
-        <note appliesTo="source">line: 5</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Download [stable version][1];</source>
-        <target>下载 [稳定版][1]</target>
-      </segment>
-    </unit>
-    <unit id="3f023123-7f9d-4f46-9e4d-e496fe02abbd">
+    <unit id="46cc2c06-49af-4f8d-b34f-22ef48c12749">
       <notes>
         <note appliesTo="source">line: 6</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Download [development version][2].</source>
-        <target>下载 [开发版][2]</target>
-      </segment>
-    </unit>
-    <unit id="a64a73e4-1792-447f-ad7f-a791ae48baef">
-      <notes>
-        <note appliesTo="source">line: 8</note>
         <note appliesTo="source">prefix: # </note>
       </notes>
       <segment state="final">
@@ -124,45 +106,45 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>功能概述 #</target>
       </segment>
     </unit>
-    <unit id="15769e74-646a-4470-8253-d844ffabca12">
+    <unit id="1ca94560-70c8-4d69-b80d-f527ae85f6cf">
       <notes>
-        <note appliesTo="source">line: 10</note>
+        <note appliesTo="source">line: 8</note>
       </notes>
       <segment state="final">
         <source>This addon was created following a request from a member on the nvda-addons mailing list.</source>
         <target>此插件由 nvda-addons 邮件列表成员的请求而开发。</target>
       </segment>
     </unit>
-    <unit id="732522f1-410d-4fa8-ba75-c98a6462d999">
+    <unit id="df3aced6-7e92-495f-ac12-9ff837c1dbf4">
       <notes>
-        <note appliesTo="source">line: 12</note>
+        <note appliesTo="source">line: 10</note>
       </notes>
       <segment state="final">
         <source>It provides a script without gesture, which allows to retrieve and give the language of the current keyboard.</source>
         <target>提供了一个未分配快捷键的命令，可用于获取并读出当前键盘语言。</target>
       </segment>
     </unit>
-    <unit id="27992c55-4bb7-40ad-bf12-3168f4e5d5e5">
+    <unit id="ab0201a7-8814-4fe5-bc28-96c3652c8ec4">
       <notes>
-        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">line: 12</note>
       </notes>
       <segment state="final">
         <source>If pressed twice, gives the default language of the system.</source>
         <target>连按两次将读出系统默认语言。</target>
       </segment>
     </unit>
-    <unit id="3e5b3217-b86b-4de6-8f13-1d43a6979372">
+    <unit id="b7807bed-9f0b-432b-9cd8-65097792c899">
       <notes>
-        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">line: 14</note>
       </notes>
       <segment state="final">
         <source>At the first version of this module, it had been proposed as simple globalPlugin to paste in the configuration directory of NVDA, it was then transformed into addon.</source>
         <target>该模块的初始版本曾建议以全局插件形式直接粘贴至 NVDA 配置目录使用，现已正式转换为插件形式发布。</target>
       </segment>
     </unit>
-    <unit id="cc373d58-10c1-4e9f-babb-bfb460771230">
+    <unit id="4181ca48-b609-441f-964a-c05c6c48c8e7">
       <notes>
-        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -170,18 +152,18 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>使用说明 ##</target>
       </segment>
     </unit>
-    <unit id="ab5a6376-fa5c-42b0-bb43-4cd036a22e6c">
+    <unit id="e89bc316-b972-4994-8fb6-7691960049ea">
       <notes>
-        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">line: 18</note>
       </notes>
       <segment state="final">
         <source>To set a gesture to the script giving the keyboard language, follow these steps:</source>
         <target>为读出键盘语言命令设置快捷键的操作步骤：</target>
       </segment>
     </unit>
-    <unit id="08dff4ad-c496-49a2-ab39-d9e16a0a2aaf">
+    <unit id="b583dbad-baef-44aa-aaa9-d8ca7e1bf0a0">
       <notes>
-        <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -189,9 +171,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>按 NVDA+N 打开 NVDA 菜单；</target>
       </segment>
     </unit>
-    <unit id="4b16e37b-1eeb-4af8-8fe0-3ae9430e273f">
+    <unit id="01f514d4-b715-4eea-b57d-ca9a9d736ff6">
       <notes>
-        <note appliesTo="source">line: 23</note>
+        <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -199,9 +181,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>进入"选项"菜单；</target>
       </segment>
     </unit>
-    <unit id="4f06f28a-79df-4bed-9248-5b5a126ba73f">
+    <unit id="1a38ad57-fd9d-4454-beff-f8d1d3489142">
       <notes>
-        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -209,9 +191,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>选择"输入手势"菜单。</target>
       </segment>
     </unit>
-    <unit id="75dfab30-bed8-4c30-968b-2aef4817ab51">
+    <unit id="5d4fb15f-b9ce-4bfa-8d8e-24134df76457">
       <notes>
-        <note appliesTo="source">line: 25</note>
+        <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -219,9 +201,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>选择“输入”类别后按右光标键展开。</target>
       </segment>
     </unit>
-    <unit id="fa5d4f9c-d2af-408d-88aa-66d6322a13b5">
+    <unit id="377502b9-76be-4452-b965-7e4e18ca0f8d">
       <notes>
-        <note appliesTo="source">line: 26</note>
+        <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -229,9 +211,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>定位至"给出正在使用的键盘的语言。如果按两次，则给出系统的默认语言"项；</target>
       </segment>
     </unit>
-    <unit id="ad85d654-72ab-4742-a380-96eb3c3d2cd8">
+    <unit id="c6b5770a-0b7f-432c-b7f4-4753f197cb11">
       <notes>
-        <note appliesTo="source">line: 27</note>
+        <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -239,9 +221,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>按 Alt+A 添加快捷键，按下 NVDA+F4 或其他快捷键；</target>
       </segment>
     </unit>
-    <unit id="9f74c5fe-272f-4116-b4e5-6ea6eb2262f1">
+    <unit id="f886f39a-6131-4517-bded-6cf740a1e26d">
       <notes>
-        <note appliesTo="source">line: 28</note>
+        <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -249,9 +231,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>按上光标键将输入的快捷键设为全局生效；</target>
       </segment>
     </unit>
-    <unit id="8341184a-6247-4204-a7f0-12f0dfccd4c5">
+    <unit id="a322ac48-b60b-431f-8bb9-74eafd9e2ead">
       <notes>
-        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -259,9 +241,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>按回车确认，Tab 键跳至"确定"按钮后再次回车；</target>
       </segment>
     </unit>
-    <unit id="ea8f9a29-cd92-4b47-9ebc-8810b6aa7748">
+    <unit id="a68005e0-7f1a-44e7-a6c3-1c633785932e">
       <notes>
-        <note appliesTo="source">line: 30</note>
+        <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -269,9 +251,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>此后使用自定义手势即可触发键盘语言播报功能。</target>
       </segment>
     </unit>
-    <unit id="13be35fd-0610-4728-a489-dd948e182818">
+    <unit id="bd96adb2-de8d-48b2-933e-08b4b913b1c3">
       <notes>
-        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -279,9 +261,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>兼容性 ##</target>
       </segment>
     </unit>
-    <unit id="7edd7bec-2cf8-46ec-9e57-5b519a734c0b">
+    <unit id="5619d902-3cc7-4a70-8fe1-ba5cd457a2e8">
       <notes>
-        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -289,9 +271,59 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>此插件兼容 NVDA 2019.3 及更高版本。</target>
       </segment>
     </unit>
-    <unit id="6f820f84-e899-4e3b-b254-8429f759e970">
+    <unit id="45366e9f-700e-4fef-b827-fc6f7051f998">
+      <notes>
+        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 20240326.0.0</source>
+        <target>20240326.0.0 版本变更</target>
+      </segment>
+    </unit>
+    <unit id="dbda8e7f-42aa-48e5-a68e-cd5433e382b3">
       <notes>
         <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Updated compatibility for nvda-2024.1;</source>
+        <target>兼容 NVDA 2024.1；</target>
+      </segment>
+    </unit>
+    <unit id="b9e491db-0dbe-4c08-9c8c-b1d02216c929">
+      <notes>
+        <note appliesTo="source">line: 37</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Deleted download link from readme, the download link for future updates will now only be available from the add-on store.</source>
+        <target>删除了帮助文档中的下载链接，未来更新的下载链接只能从插件商店获得。</target>
+      </segment>
+    </unit>
+    <unit id="7bb02630-ca50-4c05-b3b6-93fca48c4dfa">
+      <notes>
+        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="final">
+        <source>Changes for 20231229.0.0 ##</source>
+        <target>20231229.0.0 版本变更 ##</target>
+      </segment>
+    </unit>
+    <unit id="b1ee0729-3cbc-4d39-b6c2-06cea21531f8">
+      <notes>
+        <note appliesTo="source">line: 41</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.</source>
+        <target>添加了一个向后兼容的实现来支持手动朗读模式，该模式很快将在 NVDA 2024.1 中提供。</target>
+      </segment>
+    </unit>
+    <unit id="8a8d88aa-9120-4256-8289-710c23a82056">
+      <notes>
+        <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -299,9 +331,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>20230729.0.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="c6f9d4d2-ab06-435c-b3cd-9cb8b83e7a3e">
+    <unit id="7827af59-952f-4e16-ac96-04da7f596bea">
       <notes>
-        <note appliesTo="source">line: 38</note>
+        <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -309,9 +341,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>对代码应用 flake8 和 mypy 规范；</target>
       </segment>
     </unit>
-    <unit id="863528ee-8130-455d-88ee-527a61b759ec">
+    <unit id="3d7503ff-f14a-4cbd-98ef-c39c8c9ab5b1">
       <notes>
-        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -319,9 +351,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>最低支持版本调整为 NVDA 2019.3 以支持 Python 3 类型注解。</target>
       </segment>
     </unit>
-    <unit id="d855856a-fe4f-4d14-b348-35279a7f26fd">
+    <unit id="1984e5ae-9e96-41bb-875f-c98ccd01c310">
       <notes>
-        <note appliesTo="source">line: 40</note>
+        <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -329,9 +361,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>移除原 NVDA+F4 默认快捷键，允许用户自定义。</target>
       </segment>
     </unit>
-    <unit id="b9be92a1-9235-41a5-bd5e-94c80489b705">
+    <unit id="18446378-919a-4fd3-a02d-175d663670a3">
       <notes>
-        <note appliesTo="source">line: 42</note>
+        <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -339,9 +371,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>20230607.0.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="86797f84-ccd8-46e1-aec9-473a931b5816">
+    <unit id="ecbd11b2-596c-4b4a-a296-acdb2ee96303">
       <notes>
-        <note appliesTo="source">line: 44</note>
+        <note appliesTo="source">line: 51</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -349,9 +381,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>新增以下工作流：</target>
       </segment>
     </unit>
-    <unit id="1c5e8925-42a5-4c2b-a587-bd3af7c74c0d">
+    <unit id="a29a65e4-d2df-4576-a991-46914396c8dd">
       <notes>
-        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="final">
@@ -359,9 +391,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>auto-update-translations：自动从 NVDA 翻译系统更新翻译。</target>
       </segment>
     </unit>
-    <unit id="72fbde72-29a8-400e-a872-1ab719548064">
+    <unit id="f82e9294-e21d-4419-a4b3-654a3c279228">
       <notes>
-        <note appliesTo="source">line: 46</note>
+        <note appliesTo="source">line: 53</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="final">
@@ -369,9 +401,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>release-on-tag.yaml：推送新标签时自动构建发布插件；</target>
       </segment>
     </unit>
-    <unit id="b120dba5-8eb9-4386-980b-28db26d4a8e5">
+    <unit id="4f7cfd58-e7c6-4fde-84aa-dbad5d923a29">
       <notes>
-        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="final">
@@ -379,9 +411,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>manual-release.yaml：手动构建发布新版本插件。</target>
       </segment>
     </unit>
-    <unit id="dee2c8db-f636-4494-814d-07d8df3097b3">
+    <unit id="beb22c88-544d-42c2-97f0-0607b0880128">
       <notes>
-        <note appliesTo="source">line: 48</note>
+        <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -389,9 +421,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>更新翻译。</target>
       </segment>
     </unit>
-    <unit id="1d248cd1-9e01-4df7-b710-64ef3f5f0fe7">
+    <unit id="5b0d8174-9334-4565-8cb7-13adebbf68d0">
       <notes>
-        <note appliesTo="source">line: 50</note>
+        <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -399,9 +431,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>20230426.0.0 及后续版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="4539a0d6-9da2-43aa-b290-67330ad46b4b">
+    <unit id="f67855fa-c104-4f6e-ba78-3d8f7a4662ac">
       <notes>
-        <note appliesTo="source">line: 52</note>
+        <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -409,9 +441,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>根据商店规范调整版本号、NVDA 版本最低要求及下载链接。</target>
       </segment>
     </unit>
-    <unit id="24d98b79-2cf9-4291-a60e-0c6123f3cf89">
+    <unit id="0bda87e8-b2ba-4572-9cbd-04a1fe942c62">
       <notes>
-        <note appliesTo="source">line: 54</note>
+        <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -419,9 +451,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>19.02 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="51046f1b-910c-4e90-bb81-a52e65d8b4d5">
+    <unit id="6a19fa9c-b274-4236-a87f-da2f514b1ac5">
       <notes>
-        <note appliesTo="source">line: 56</note>
+        <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -429,9 +461,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>采用 YY.MM 格式版本编号（2位年份+小数点+2位月份）；</target>
       </segment>
     </unit>
-    <unit id="b1d53e8b-ed07-48d8-bdc3-6963c83864d1">
+    <unit id="aedde715-d783-4eb2-8613-e5b32c0e1249">
       <notes>
-        <note appliesTo="source">line: 57</note>
+        <note appliesTo="source">line: 64</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -439,9 +471,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>适配 NVDA 2019.1 启用的新插件版本格式。</target>
       </segment>
     </unit>
-    <unit id="13cedf7e-3d6f-4abd-ba40-d8328de7a352">
+    <unit id="51d12edd-1538-41a9-ab41-cfd052b21ead">
       <notes>
-        <note appliesTo="source">line: 59</note>
+        <note appliesTo="source">line: 66</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -449,9 +481,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>1.1 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="071c5727-540e-4f38-95ad-2f8090c3f1f7">
+    <unit id="52528a38-b6f3-42a1-8d14-c5ec5254f5bc">
       <notes>
-        <note appliesTo="source">line: 61</note>
+        <note appliesTo="source">line: 68</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -459,9 +491,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>插件名称由 getCurKeyboardLanguage 更改为 sayCurrentKeyboardLanguage；</target>
       </segment>
     </unit>
-    <unit id="8f40f45f-996f-4b44-aa37-dcfec98ae1a7">
+    <unit id="9cbc3c56-0dcb-4357-836b-275160081dd7">
       <notes>
-        <note appliesTo="source">line: 62</note>
+        <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -469,9 +501,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>添加 GPL 许可证；</target>
       </segment>
     </unit>
-    <unit id="38235bcd-ee3e-4095-9de8-8b0e806361b9">
+    <unit id="02bcdd4c-e2f6-4f17-a867-ef771d811b7a">
       <notes>
-        <note appliesTo="source">line: 63</note>
+        <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -479,9 +511,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>将脚本归类至"系统状态"类别；</target>
       </segment>
     </unit>
-    <unit id="fbcc131c-d7b7-4a35-bc90-182f8c6d8b3e">
+    <unit id="4cfc3dcd-cbab-4eba-b2f3-07d187412ab4">
       <notes>
-        <note appliesTo="source">line: 64</note>
+        <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -489,9 +521,9 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>修复代码中的若干错误。</target>
       </segment>
     </unit>
-    <unit id="1581a924-c5f3-4b30-aee7-4063c8df131e">
+    <unit id="a4910b1f-e677-46d5-a24d-34bd8bca5a6b">
       <notes>
-        <note appliesTo="source">line: 66</note>
+        <note appliesTo="source">line: 73</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -499,32 +531,14 @@ $(ID:70ca9c6c-6b5a-4c89-a492-f345d838a9fa)
         <target>1.0 版本变更 ##</target>
       </segment>
     </unit>
-    <unit id="a056aa14-963b-4a79-8892-e50e5631076d">
+    <unit id="ce57d439-8ddd-4916-b551-38af1c521b7b">
       <notes>
-        <note appliesTo="source">line: 68</note>
+        <note appliesTo="source">line: 75</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
         <source>Initial version.</source>
         <target>初始版本。</target>
-      </segment>
-    </unit>
-    <unit id="a34db77a-1e69-4085-9627-e46c5c104157">
-      <notes>
-        <note appliesTo="source">line: 70</note>
-      </notes>
-      <segment state="final">
-        <source>[1]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage</source>
-        <target>[1]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage</target>
-      </segment>
-    </unit>
-    <unit id="70ca9c6c-6b5a-4c89-a492-f345d838a9fa">
-      <notes>
-        <note appliesTo="source">line: 72</note>
-      </notes>
-      <segment state="final">
-        <source>[2]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage</source>
-        <target>[2]: https://www.nvaccess.org/addonStore/legacy?file=sayCurrentKeyboardLanguage</target>
       </segment>
     </unit>
   </file>
