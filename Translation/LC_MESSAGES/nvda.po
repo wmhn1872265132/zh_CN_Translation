@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-01 05:06+0000\n"
-"PO-Revision-Date: 2026-06-01 13:35+0800\n"
+"PO-Revision-Date: 2026-06-01 13:53+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -4893,7 +4893,7 @@ msgstr "选中第一个到最后一个盲文单元格的文本。"
 #. Translators: Reported when selection via multiple routing keys is not possible.
 #: globalCommands.py:4256
 msgid "Cannot select from braille routing keys"
-msgstr "无法通过定位盲文单元按键进行选择"
+msgstr "无法通过光标定位按键进行选择"
 
 #. Translators: Reported when selection via multiple routing keys is not supported by the focused control.
 #: globalCommands.py:4263
