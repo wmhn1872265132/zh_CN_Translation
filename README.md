@@ -124,7 +124,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 - 上传已翻译的文件到 Crowdin
 - 从 Crowdin 下载已翻译的文件，并支持将 NVDA 主程序的翻译文件自动提交到您的本地仓库
 
-目前，NVDA 的翻译（Markdown 转换到 xliff 命令除外）由 NVDA 提供的 l10nUtil 进行管理，插件的翻译以及 NVDA 的 Markdown 转换到 xliff 命令由 nvdaL10n 提供的 l10nUtil 进行管理。
+目前，NVDA 的翻译由 NVDA 提供的 l10nUtil 进行管理，插件的翻译由 nvdaL10n 提供的 l10nUtil 进行管理。
 
 ### 支持的命令
 
@@ -191,7 +191,9 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 - `GET` 命令生成的文件位于 `Preview\Test` 文件夹下，这些文件符合 NVDA 的文件结构，可直接复制到 NVDA 程序所在文件夹进行测试。
 - `GEZ` 命令生成的压缩包位于 `Preview\Archive` 文件夹下，该压缩包符合 NVDA 的文件结构，可直接解压到 NVDA 程序所在文件夹进行测试。
 - `GMC`、`GMU`、`GMX` 命令生成的文件位于 `ProcessTranslation\Markdown` 文件夹下。
-- `MXC`、`MXU` 命令使用前需要克隆 [NVDA](https://github.com/nvaccess/nvda) 源代码到本地，随后即可以本地代码仓库当前分支的 `user_docs\en` 中的相应 xliff 文件为模板生成所需 xliff 文件。
+- `MXC`、`MXU` 命令使用前需要根据 [创建 NVDA 开发环境（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/dev/createDevEnvironment.md)文档准备 NVDA 本地代码仓库并配置 Python 环境。
+
+  准备必须环境后，通过上述命令即可以 NVDA 本地代码仓库当前分支的 `user_docs\en` 中的相应 xliff 文件为模板生成所需 xliff 文件。
 
   生成的文件会直接替换此存储库的原始 xliff 文件以便于将其上传到 Crowdin，因此在执行该命令前，请确保原始文件的翻译更改已提交。
 
