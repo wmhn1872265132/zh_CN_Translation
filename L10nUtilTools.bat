@@ -398,6 +398,16 @@ IF NOT EXIST "%NVDASourceCodePath%" (
 )
 :XLIFFTemplatePathSetSuccessfully
 Rem 此段代码将在 NVDA 使用 nvdaL10n 提供的 L10nUtil 时删除  
+if /I "%Action%"=="GenerateXLIFF" (
+  powershell -ExecutionPolicy Bypass -NoProfile -File "%NVDASourceCodePath%\ensureuv.ps1" --directory "%NVDASourceCodePath%" sync
+  if !errorlevel! neq 0 (
+    powershell -command "(New-Object -ComObject wscript.shell).Popup('NVDA 代码仓库的 Python 环境配置失败，有关详细信息，请查看命令窗口。',5,'错误',16)" >nul
+    echo 请按任意键退出...
+    Pause>Nul
+    exit /b 1
+  )
+  set "L10NSourceCodePath=%NVDASourceCodePath%"
+)
 if not defined L10NSourceCodePath (
   set "goto=L10NExe"
   goto L10nUtil
