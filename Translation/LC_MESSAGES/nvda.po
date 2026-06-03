@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-01 05:06+0000\n"
+"POT-Creation-Date: 2026-06-03 04:58+0000\n"
 "PO-Revision-Date: 2026-06-01 13:53+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -2395,7 +2395,7 @@ msgstr ""
 #: gui\installerGui.py:126 gui\installerGui.py:210 gui\installerGui.py:701
 #: gui\installerGui.py:718 gui\installerGui.py:790 gui\logViewer.py:112
 #: gui\logViewer.py:143 gui\message.py:160 gui\settingsDialogs.py:1044
-#: gui\settingsDialogs.py:6011 gui\settingsDialogs.py:6870
+#: gui\settingsDialogs.py:6011 gui\settingsDialogs.py:6854
 #: gui\startupDialogs.py:127 _remoteClient\dialogs.py:67
 #: _remoteClient\dialogs.py:306 _remoteClient\dialogs.py:430
 msgid "Error"
@@ -7896,7 +7896,7 @@ msgstr ""
 #. Translators: Title of warning dialog
 #: updateCheck.py:1026 gui\_SetURLDialog.py:113 gui\configProfiles.py:500
 #: gui\installerGui.py:444 gui\installerGui.py:602 gui\settingsDialogs.py:1964
-#: gui\settingsDialogs.py:6327 screenCurtain\_screenCurtain.py:70
+#: gui\settingsDialogs.py:6311 screenCurtain\_screenCurtain.py:70
 #: _remoteClient\dialogs.py:291
 msgid "Warning"
 msgstr "警告"
@@ -13414,7 +13414,7 @@ msgstr "查找(&F):"
 #. Translators: The label of a button to add a gesture in the Input Gestures dialog.
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:615 gui\settingsDialogs.py:6758 gui\speechDict.py:212
+#: gui\inputGestures.py:615 gui\settingsDialogs.py:6742 gui\speechDict.py:212
 msgid "&Add"
 msgstr "添加(&A)"
 
@@ -13896,7 +13896,7 @@ msgstr "类别(&C)："
 #. Translators: This is the label for the general settings panel.
 #. Translators: name of a grouping in Privacy and Security settings
 #. which contains miscellaneous settings.
-#: gui\settingsDialogs.py:809 gui\settingsDialogs.py:6391
+#: gui\settingsDialogs.py:809 gui\settingsDialogs.py:6375
 msgid "General"
 msgstr "常规"
 
@@ -15840,72 +15840,67 @@ msgid "Magnifier"
 msgstr "放大镜"
 
 #. Translators: The label for a setting in magnifier settings to enable or disable the magnifier.
-#: gui\settingsDialogs.py:6090
+#: gui\settingsDialogs.py:6089
 msgid "&Enable magnifier (immediate effect)"
 msgstr "开启放大镜（立即生效）(&E)"
 
 #. Translators: The label for a setting in magnifier settings to select the zoom level.
-#: gui\settingsDialogs.py:6102
+#: gui\settingsDialogs.py:6101
 msgid "&Zoom (%):"
 msgstr "放大级别（%）(&Z)："
 
 #. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
-#: gui\settingsDialogs.py:6124
+#: gui\settingsDialogs.py:6123
 msgid "&Panning step size (%):"
 msgstr "平移步长（%）(&P)："
 
 #. Translators: The label for a setting in magnifier settings to select the default filter
-#: gui\settingsDialogs.py:6146
+#: gui\settingsDialogs.py:6145
 msgid "F&ilter:"
 msgstr "颜色滤镜(&I)"
 
 #. Translators: The label for a setting in magnifier settings to select the full-screen mode
-#: gui\settingsDialogs.py:6163
+#: gui\settingsDialogs.py:6162
 msgid "&Fullscreen mode:"
 msgstr "全屏模式(&F)"
 
 #. Translators: The label for a setting in magnifier settings to select whether true center is used in full-screen mode
-#: gui\settingsDialogs.py:6177
+#: gui\settingsDialogs.py:6176
 msgid "Use &true center in fullscreen mode"
 msgstr "在全屏模式下保持焦点居中(&T)"
 
 #. Translators: This is the label for a group of focus options in the magnifier settings panel
-#: gui\settingsDialogs.py:6195
+#: gui\settingsDialogs.py:6194
 msgid "Focus"
 msgstr "聚焦"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the mouse
-#: gui\settingsDialogs.py:6203
+#: gui\settingsDialogs.py:6202
 msgid "Follow &mouse"
 msgstr "跟随鼠标(&M)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the system focus
-#: gui\settingsDialogs.py:6205
+#: gui\settingsDialogs.py:6204
 msgid "Follow &system focus"
 msgstr "跟随系统焦点(&S)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the review cursor
-#: gui\settingsDialogs.py:6207
+#: gui\settingsDialogs.py:6206
 msgid "Follow &review cursor"
 msgstr "跟随查看光标(&R)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the navigator object
-#: gui\settingsDialogs.py:6210
+#: gui\settingsDialogs.py:6209
 msgid "Follow &navigator object"
 msgstr "跟随导航对象(&N)"
 
-#. Translators: The label for a checkbox to keep the mouse pointer centered in the magnifier view
-#: gui\settingsDialogs.py:6227
-msgid "Keep mouse pointer &centered in magnifier view"
-msgstr "在放大视图中保持鼠标指针居中(&C)"
-
 #. Translators: The title of the privacy and security category in NVDA's settings.
-#: gui\settingsDialogs.py:6295
+#: gui\settingsDialogs.py:6279
 msgid "Privacy and Security"
 msgstr "隐私和安全"
 
 #. Translators: Warning shown when enabling the "debug (unredacted)" log level from NVDA settings.
-#: gui\settingsDialogs.py:6308
+#: gui\settingsDialogs.py:6292
 msgid ""
 "Setting the logging level to \"debug (unredacted)\" will write sensitive "
 "information to the log without redaction, including passwords, API keys, or "
@@ -15917,12 +15912,12 @@ msgstr ""
 "否继续？"
 
 #. Translators: Title of the warning dialog shown when enabling the "debug (unredacted)" log level.
-#: gui\settingsDialogs.py:6315
+#: gui\settingsDialogs.py:6299
 msgid "High risk logging level"
 msgstr "高风险日志级别"
 
 #. Translators: Warning shown when enabling a logging level above info from NVDA settings.
-#: gui\settingsDialogs.py:6320
+#: gui\settingsDialogs.py:6304
 msgid ""
 "Setting the logging level above info may record sensitive information such "
 "as typed input, speech output, or other private data in the log. Only enable "
@@ -15935,121 +15930,121 @@ msgstr ""
 
 #. Translators: Name for a feature that disables output to the screen,
 #. making it black.
-#: gui\settingsDialogs.py:6345
+#: gui\settingsDialogs.py:6329
 msgid "Screen Curtain"
 msgstr "黑屏"
 
 #. Translators: option to enable screen curtain in the privacy and security settings panel
-#: gui\settingsDialogs.py:6354
+#: gui\settingsDialogs.py:6338
 msgid "Make screen black (immediate effect)"
 msgstr "开启黑屏（立即生效）"
 
 #. Translators: Description for a screen curtain setting to play sounds when enabling/disabling the curtain
-#: gui\settingsDialogs.py:6383
+#: gui\settingsDialogs.py:6367
 msgid "&Play sound when toggling Screen Curtain"
 msgstr "开启黑屏时播放声音(&P)"
 
 #. Translators: The label for a setting in privacy and security settings to select NVDA's logging level
-#: gui\settingsDialogs.py:6398
+#: gui\settingsDialogs.py:6382
 msgid "L&ogging level:"
 msgstr "日志记录级别(&O):"
 
 #. Translators: The label of a checkbox in privacy and security settings to toggle allowing of usage stats gathering
-#: gui\settingsDialogs.py:6421
+#: gui\settingsDialogs.py:6405
 msgid "Allow NV Access to gather NVDA usage statistics"
 msgstr "允许 NV Access 收集 NVDA 使用统计信息"
 
 #. Translators: This is the label for the NVDA settings dialog.
-#: gui\settingsDialogs.py:6542
+#: gui\settingsDialogs.py:6526
 msgid "NVDA Settings"
 msgstr "NVDA 设置"
 
 #. Translators: The profile name for normal configuration
-#: gui\settingsDialogs.py:6598
+#: gui\settingsDialogs.py:6582
 msgid "normal configuration"
 msgstr "通用"
 
 #. Translators: This is the label for the add symbol dialog.
-#: gui\settingsDialogs.py:6633
+#: gui\settingsDialogs.py:6617
 msgid "Add Symbol"
 msgstr "添加符号"
 
 #. Translators: This is the label for the edit field in the add symbol dialog.
-#: gui\settingsDialogs.py:6638
+#: gui\settingsDialogs.py:6622
 msgid "&Symbol:"
 msgstr "符号(&S)："
 
 #. Translators: This is the label for the symbol pronunciation dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: gui\settingsDialogs.py:6668
+#: gui\settingsDialogs.py:6652
 #, python-format
 msgid "Symbol Pronunciation (%s)"
 msgstr "标点符号(%s)"
 
 #. Translators: The label of a text field to search for symbols in the speech symbols dialog.
-#: gui\settingsDialogs.py:6682
+#: gui\settingsDialogs.py:6666
 msgctxt "speechSymbols"
 msgid "&Filter by:"
 msgstr "查找(&F):"
 
 #. Translators: The label for symbols list in symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6691
+#: gui\settingsDialogs.py:6675
 msgid "&Symbols"
 msgstr "符号(&S)"
 
 #. Translators: The label for a column in symbols list used to identify a symbol.
-#: gui\settingsDialogs.py:6701
+#: gui\settingsDialogs.py:6685
 msgid "Symbol"
 msgstr "符号"
 
 #. Translators: The label for a column in symbols list used to identify a replacement.
 #. Translators: The label for a column in dictionary entries list and in a list of symbols
 #. from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: gui\settingsDialogs.py:6703 gui\speechDict.py:188
+#: gui\settingsDialogs.py:6687 gui\speechDict.py:188
 msgid "Replacement"
 msgstr "替换文本"
 
 #. Translators: The label for a column in symbols list used to identify a symbol's speech level (either none, some, most, all or character).
-#: gui\settingsDialogs.py:6705
+#: gui\settingsDialogs.py:6689
 msgid "Level"
 msgstr "级别"
 
 #. Translators: The label for a column in symbols list which specifies when the actual symbol will be sent to the synthesizer (preserved).
 #. See the "Punctuation/Symbol Pronunciation" section of the User Guide for details.
-#: gui\settingsDialogs.py:6708
+#: gui\settingsDialogs.py:6692
 msgid "Preserve"
 msgstr "传递"
 
 #. Translators: The label for the group of controls in symbol pronunciation dialog to change the pronunciation of a symbol.
-#: gui\settingsDialogs.py:6712
+#: gui\settingsDialogs.py:6696
 msgid "Change selected symbol"
 msgstr "更改所选符号"
 
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 #. Translators: This is a label for an edit field in add dictionary entry dialog
 #. and in punctuation/symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6730 gui\speechDict.py:52
+#: gui\settingsDialogs.py:6714 gui\speechDict.py:52
 msgid "&Replacement"
 msgstr "替换文本(&R)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change the speech level of a symbol.
-#: gui\settingsDialogs.py:6739
+#: gui\settingsDialogs.py:6723
 msgid "&Level"
 msgstr "级别(&L)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change when a symbol is sent to the synthesizer.
-#: gui\settingsDialogs.py:6746
+#: gui\settingsDialogs.py:6730
 msgid "&Send actual symbol to synthesizer"
 msgstr "发送标点本身到合成器(&S)"
 
 #. Translators: The label for a button in the Symbol Pronunciation dialog to remove a symbol.
-#: gui\settingsDialogs.py:6761
+#: gui\settingsDialogs.py:6745
 msgid "Re&move"
 msgstr "移除(&M)"
 
 #. Translators: An error reported in the Symbol Pronunciation dialog
 #. when adding a symbol that is already present.
-#: gui\settingsDialogs.py:6868
+#: gui\settingsDialogs.py:6852
 #, python-format
 msgid "Symbol \"%s\" is already present."
 msgstr "标点“%s”已存在."
@@ -21091,20 +21086,20 @@ msgid "{zoomLevel}x"
 msgstr "{zoomLevel} 倍"
 
 #. Translators: Message when NVDA's Magnifier cannot start because another magnifier is already running.
-#: _magnifier\fullscreenMagnifier.py:77
+#: _magnifier\fullscreenMagnifier.py:76
 msgctxt "magnifier"
 msgid ""
 "Cannot start magnifier. Another magnifier application may already be running."
 msgstr "无法启动放大镜。另一个放大应用可能已在运行。"
 
 #. Translators: Message announced when the magnifier stops due to an unrecoverable error.
-#: _magnifier\fullscreenMagnifier.py:199
+#: _magnifier\fullscreenMagnifier.py:198
 msgctxt "magnifier"
 msgid "Magnifier stopped due to an error. Please restart it."
 msgstr "放大镜因错误而停止。请将其重启。"
 
 #. Translators: Message when trying to enable magnifier while screen curtain is active
-#: _magnifier\magnifier.py:181
+#: _magnifier\magnifier.py:179
 msgctxt "magnifier"
 msgid ""
 "Cannot enable magnifier: screen curtain is active. Please disable screen "
@@ -21112,13 +21107,13 @@ msgid ""
 msgstr "无法启用放大镜：黑屏已开启，请先关闭黑屏。"
 
 #. Translators: Spoken message when magnifier is disabled due to screen curtain being enabled.
-#: _magnifier\magnifier.py:272
+#: _magnifier\magnifier.py:268
 msgctxt "magnifier"
 msgid "Magnifier is active, disabling it before enabling screen curtain"
 msgstr "已开启放大镜，开启黑屏前请先将其关闭"
 
 #. Translators: Spoken message when magnifier is re-enabled after screen curtain is disabled.
-#: _magnifier\magnifier.py:290
+#: _magnifier\magnifier.py:286
 msgctxt "magnifier"
 msgid "Magnifier was active before screen curtain, re-enabling it"
 msgstr "已重启放大镜"
@@ -21696,6 +21691,9 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgid "Keep mouse pointer &centered in magnifier view"
+#~ msgstr "在放大视图中保持鼠标指针居中(&C)"
 
 #~ msgid "secrets"
 #~ msgstr "机密（SECRETS）"
