@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-03 11:18+0000\n"
-"PO-Revision-Date: 2026-06-01 13:53+0800\n"
+"PO-Revision-Date: 2026-06-04 09:19+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -5333,10 +5333,8 @@ msgstr "平移放大视图到底边"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5222
-#, fuzzy
-#| msgid "Keep mouse pointer &centered in magnifier view"
 msgid "Moves the mouse cursor to the center of the magnified view"
-msgstr "在放大视图中保持鼠标指针居中(&C)"
+msgstr "将鼠标光标移动到放大视图的中心"
 
 #. Translators: Describes a command.
 #: globalCommands.py:5235
@@ -21225,7 +21223,7 @@ msgstr "显示标准视图"
 #: _magnifier\utils\types.py:91
 msgctxt "magnifier action"
 msgid "move mouse to view"
-msgstr ""
+msgstr "移动鼠标到视图"
 
 #. Translators: Focus type for magnifier to follow - mouse cursor.
 #: _magnifier\utils\types.py:107
