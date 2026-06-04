@@ -2917,14 +2917,14 @@ msgstr "切换到上一个可用的语音控制选项"
 #. Translators: Input help mode message for toggling keyboard layout.
 #: globalCommands.py:571
 msgid "Toggles between desktop and laptop keyboard layout"
-msgstr "切换键盘配置（台式机或笔记本）"
+msgstr "切换键盘布局（台式机或笔记本）"
 
 #. Translators: Reported when the user toggles keyboard layout.
 #. {layout} will be replaced with the new keyboard layout, i.e. desktop or laptop
 #: globalCommands.py:584
 #, python-brace-format
 msgid "{layout} layout"
-msgstr "{layout}配置"
+msgstr "{layout}布局"
 
 #. Translators: Input help mode message for cycling the reporting of typed characters.
 #: globalCommands.py:589
@@ -14220,7 +14220,7 @@ msgstr "键盘"
 #. Translators: The label of a combobox in the Welcome dialog.
 #: gui\settingsDialogs.py:2006 gui\startupDialogs.py:68
 msgid "&Keyboard layout:"
-msgstr "键盘配置(&K):"
+msgstr "键盘布局(&K):"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
@@ -21106,7 +21106,7 @@ msgid "Magnifier stopped due to an error. Please restart it."
 msgstr "放大镜因错误而停止。请将其重启。"
 
 #. Translators: Message when trying to enable magnifier while screen curtain is active
-#: _magnifier\magnifier.py:181
+#: _magnifier\magnifier.py:179
 msgctxt "magnifier"
 msgid ""
 "Cannot enable magnifier: screen curtain is active. Please disable screen "
