@@ -7355,9 +7355,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 189</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The focus is on the "Keyboard Layout" drop-down.</source>
-        <target>此时的焦点位于“键盘配置”组合框。</target>
+        <target>此时的焦点位于“键盘布局”组合框。</target>
       </segment>
     </unit>
     <unit id="b0e7b584-a09a-4805-a286-86a5dcf4cc6e">
@@ -7373,9 +7373,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 191</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>If desired, press `downArrow` to choose "Laptop" keyboard layout to reassign number pad functions to other keys.</source>
-        <target>如果愿意，可以按`下光标`选择“笔记本”键盘配置，将数字键盘的功能分配到其他按键上。</target>
+        <target>如果愿意，可以按`下光标`选择“笔记本”键盘布局，将数字键盘的功能分配到其他按键上。</target>
       </segment>
     </unit>
     <unit id="8c03482e-7f30-4a5f-a188-da0235b8dd06">
@@ -7410,18 +7410,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 195</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Note that the keyboard layout is set separately from the NVDA modifier key.</source>
-        <target>注意：键盘配置和 NVDA 键的设置不会相互影响。</target>
+        <target>注意：键盘布局和 NVDA 键的设置不会相互影响。</target>
       </segment>
     </unit>
     <unit id="5cc6c082-8bbe-44fd-9887-2f36a0259bf8">
       <notes>
         <note appliesTo="source">line: 196</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The NVDA key and keyboard layout can be changed later from the Keyboard Settings.</source>
-        <target>此后，NVDA 键和键盘配置还可以在键盘设置中被修改。</target>
+        <target>此后，NVDA 键和键盘布局还可以在键盘设置中被修改。</target>
       </segment>
     </unit>
     <unit id="fe2a1f78-0563-4820-9914-738af1cbcfb4">
@@ -9853,9 +9853,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 541</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>Notable exceptions to this are the text review commands for the desktop keyboard layout which just use the numpad keys by themselves, but there are some other exceptions as well.</source>
-        <target>需要注意的是，NVDA 的台式机键盘方案中，进行文本查看仅需使用数字键盘（小键盘）的按键，但也有一些例外。</target>
+        <target>需要注意的是，NVDA 的台式机键盘布局中，进行文本查看仅需使用数字键盘（小键盘）的按键，但也有一些例外。</target>
       </segment>
     </unit>
     <unit id="905357df-7712-49ed-abdc-1cd26f431ab6">
@@ -9918,9 +9918,9 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 553</note>
       </notes>
-      <segment state="final">
+      <segment state="translated">
         <source>The Desktop layout makes heavy use of the numpad (with Num Lock off).</source>
-        <target>大量台式机键盘的快捷键依靠关闭状态下的数字键盘。</target>
+        <target>大量台式机键盘布局的快捷键依靠关闭状态下的数字键盘。</target>
       </segment>
     </unit>
     <unit id="68dd0ccd-00cb-4298-9bf6-220b48472c9b">
