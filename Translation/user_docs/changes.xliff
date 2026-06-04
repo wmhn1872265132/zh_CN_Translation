@@ -6561,7 +6561,7 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Added an unassigned command to toggle keyboard layout. (#19211, @CyrilleB79)</source>
         <target>新增了一个未分配命令，用于切换键盘布局。(#19211, @CyrilleB79)</target>
       </segment>
