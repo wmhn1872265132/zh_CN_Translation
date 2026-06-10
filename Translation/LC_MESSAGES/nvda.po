@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-04 04:52+0000\n"
+"POT-Creation-Date: 2026-06-10 04:24+0000\n"
 "PO-Revision-Date: 2026-06-04 09:19+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1897,7 +1897,7 @@ msgstr "标题(&H)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: browseMode.py:1445 NVDAObjects\window\excel.py:762
+#: browseMode.py:1445 NVDAObjects\window\excel.py:773
 msgid "&Form fields"
 msgstr "表单(&F)"
 
@@ -2395,7 +2395,7 @@ msgstr ""
 #: gui\installerGui.py:126 gui\installerGui.py:210 gui\installerGui.py:701
 #: gui\installerGui.py:718 gui\installerGui.py:790 gui\logViewer.py:112
 #: gui\logViewer.py:143 gui\message.py:160 gui\settingsDialogs.py:1044
-#: gui\settingsDialogs.py:6011 gui\settingsDialogs.py:6854
+#: gui\settingsDialogs.py:6011 gui\settingsDialogs.py:6876
 #: gui\startupDialogs.py:127 _remoteClient\dialogs.py:67
 #: _remoteClient\dialogs.py:306 _remoteClient\dialogs.py:430
 msgid "Error"
@@ -2517,7 +2517,7 @@ msgstr "未选择文本"
 #: displayModel.py:556 appModules\powerpnt.py:1223 appModules\soffice.py:99
 #: controlTypes\formatFields.py:53 NVDAObjects\JAB\__init__.py:206
 #: NVDAObjects\UIA\__init__.py:194 NVDAObjects\window\edit.py:339
-#: NVDAObjects\window\edit.py:702 NVDAObjects\window\excel.py:1362
+#: NVDAObjects\window\edit.py:702 NVDAObjects\window\excel.py:1373
 #: NVDAObjects\window\scintilla.py:154 NVDAObjects\window\winword.py:1285
 #: virtualBuffers\adobeAcrobat.py:83
 #, python-format
@@ -7901,7 +7901,7 @@ msgstr ""
 #. Translators: Title of warning dialog
 #: updateCheck.py:1026 gui\_SetURLDialog.py:113 gui\configProfiles.py:500
 #: gui\installerGui.py:444 gui\installerGui.py:602 gui\settingsDialogs.py:1964
-#: gui\settingsDialogs.py:6311 screenCurtain\_screenCurtain.py:70
+#: gui\settingsDialogs.py:6333 screenCurtain\_screenCurtain.py:70
 #: _remoteClient\dialogs.py:291
 msgid "Warning"
 msgstr "警告"
@@ -13419,7 +13419,7 @@ msgstr "查找(&F):"
 #. Translators: The label of a button to add a gesture in the Input Gestures dialog.
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:615 gui\settingsDialogs.py:6742 gui\speechDict.py:212
+#: gui\inputGestures.py:615 gui\settingsDialogs.py:6764 gui\speechDict.py:212
 msgid "&Add"
 msgstr "添加(&A)"
 
@@ -13899,9 +13899,12 @@ msgid "&Categories:"
 msgstr "类别(&C)："
 
 #. Translators: This is the label for the general settings panel.
+#. Translators: This is the label for a group of general magnifier options in the
+#. magnifier settings panel
 #. Translators: name of a grouping in Privacy and Security settings
 #. which contains miscellaneous settings.
-#: gui\settingsDialogs.py:809 gui\settingsDialogs.py:6375
+#: gui\settingsDialogs.py:809 gui\settingsDialogs.py:6090
+#: gui\settingsDialogs.py:6397
 msgid "General"
 msgstr "常规"
 
@@ -15845,67 +15848,78 @@ msgid "Magnifier"
 msgstr "放大镜"
 
 #. Translators: The label for a setting in magnifier settings to enable or disable the magnifier.
-#: gui\settingsDialogs.py:6089
+#: gui\settingsDialogs.py:6098
 msgid "&Enable magnifier (immediate effect)"
 msgstr "开启放大镜（立即生效）(&E)"
 
 #. Translators: The label for a setting in magnifier settings to select the zoom level.
-#: gui\settingsDialogs.py:6101
+#: gui\settingsDialogs.py:6112
 msgid "&Zoom (%):"
 msgstr "放大级别（%）(&Z)："
 
-#. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
-#: gui\settingsDialogs.py:6123
-msgid "&Panning step size (%):"
-msgstr "平移步长（%）(&P)："
-
 #. Translators: The label for a setting in magnifier settings to select the default filter
-#: gui\settingsDialogs.py:6145
+#: gui\settingsDialogs.py:6134
 msgid "F&ilter:"
 msgstr "颜色滤镜(&I)"
 
-#. Translators: The label for a setting in magnifier settings to select the full-screen mode
-#: gui\settingsDialogs.py:6162
-msgid "&Fullscreen mode:"
-msgstr "全屏模式(&F)"
+#. Translators: The label for a setting in magnifier settings to select whether true center is used
+#: gui\settingsDialogs.py:6151
+msgid "&True center tracking"
+msgstr ""
 
-#. Translators: The label for a setting in magnifier settings to select whether true center is used in full-screen mode
-#: gui\settingsDialogs.py:6176
-msgid "Use &true center in fullscreen mode"
-msgstr "在全屏模式下保持焦点居中(&T)"
+#. Translators: The label for a setting in magnifier settings to select the pan step size (in percentage).
+#: gui\settingsDialogs.py:6165
+msgid "&Panning step size (%):"
+msgstr "平移步长（%）(&P)："
 
 #. Translators: This is the label for a group of focus options in the magnifier settings panel
-#: gui\settingsDialogs.py:6194
+#: gui\settingsDialogs.py:6187
 msgid "Focus"
 msgstr "聚焦"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the mouse
-#: gui\settingsDialogs.py:6202
+#: gui\settingsDialogs.py:6195
 msgid "Follow &mouse"
 msgstr "跟随鼠标(&M)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the system focus
-#: gui\settingsDialogs.py:6204
+#: gui\settingsDialogs.py:6197
 msgid "Follow &system focus"
 msgstr "跟随系统焦点(&S)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the review cursor
-#: gui\settingsDialogs.py:6206
+#: gui\settingsDialogs.py:6199
 msgid "Follow &review cursor"
 msgstr "跟随查看光标(&R)"
 
 #. Translators: The label for a setting in magnifier settings to select whether the magnifier view should follow the navigator object
-#: gui\settingsDialogs.py:6209
+#: gui\settingsDialogs.py:6202
 msgid "Follow &navigator object"
 msgstr "跟随导航对象(&N)"
 
+#. Translators: This is the label for a group of fullscreen magnifier options in the
+#. magnifier settings panel
+#: gui\settingsDialogs.py:6220
+#, fuzzy
+#| msgctxt "magnifier"
+#| msgid "Fullscreen"
+msgid "Fullscreen"
+msgstr "全屏"
+
+#. Translators: The label for a setting in magnifier settings to select the full-screen mode
+#: gui\settingsDialogs.py:6228
+#, fuzzy
+#| msgid "Focus mode"
+msgid "Focus &mode:"
+msgstr "焦点模式"
+
 #. Translators: The title of the privacy and security category in NVDA's settings.
-#: gui\settingsDialogs.py:6279
+#: gui\settingsDialogs.py:6301
 msgid "Privacy and Security"
 msgstr "隐私和安全"
 
 #. Translators: Warning shown when enabling the "debug (unredacted)" log level from NVDA settings.
-#: gui\settingsDialogs.py:6292
+#: gui\settingsDialogs.py:6314
 msgid ""
 "Setting the logging level to \"debug (unredacted)\" will write sensitive "
 "information to the log without redaction, including passwords, API keys, or "
@@ -15917,12 +15931,12 @@ msgstr ""
 "否继续？"
 
 #. Translators: Title of the warning dialog shown when enabling the "debug (unredacted)" log level.
-#: gui\settingsDialogs.py:6299
+#: gui\settingsDialogs.py:6321
 msgid "High risk logging level"
 msgstr "高风险日志级别"
 
 #. Translators: Warning shown when enabling a logging level above info from NVDA settings.
-#: gui\settingsDialogs.py:6304
+#: gui\settingsDialogs.py:6326
 msgid ""
 "Setting the logging level above info may record sensitive information such "
 "as typed input, speech output, or other private data in the log. Only enable "
@@ -15935,121 +15949,121 @@ msgstr ""
 
 #. Translators: Name for a feature that disables output to the screen,
 #. making it black.
-#: gui\settingsDialogs.py:6329
+#: gui\settingsDialogs.py:6351
 msgid "Screen Curtain"
 msgstr "黑屏"
 
 #. Translators: option to enable screen curtain in the privacy and security settings panel
-#: gui\settingsDialogs.py:6338
+#: gui\settingsDialogs.py:6360
 msgid "Make screen black (immediate effect)"
 msgstr "开启黑屏（立即生效）"
 
 #. Translators: Description for a screen curtain setting to play sounds when enabling/disabling the curtain
-#: gui\settingsDialogs.py:6367
+#: gui\settingsDialogs.py:6389
 msgid "&Play sound when toggling Screen Curtain"
 msgstr "开启黑屏时播放声音(&P)"
 
 #. Translators: The label for a setting in privacy and security settings to select NVDA's logging level
-#: gui\settingsDialogs.py:6382
+#: gui\settingsDialogs.py:6404
 msgid "L&ogging level:"
 msgstr "日志记录级别(&O):"
 
 #. Translators: The label of a checkbox in privacy and security settings to toggle allowing of usage stats gathering
-#: gui\settingsDialogs.py:6405
+#: gui\settingsDialogs.py:6427
 msgid "Allow NV Access to gather NVDA usage statistics"
 msgstr "允许 NV Access 收集 NVDA 使用统计信息"
 
 #. Translators: This is the label for the NVDA settings dialog.
-#: gui\settingsDialogs.py:6526
+#: gui\settingsDialogs.py:6548
 msgid "NVDA Settings"
 msgstr "NVDA 设置"
 
 #. Translators: The profile name for normal configuration
-#: gui\settingsDialogs.py:6582
+#: gui\settingsDialogs.py:6604
 msgid "normal configuration"
 msgstr "通用"
 
 #. Translators: This is the label for the add symbol dialog.
-#: gui\settingsDialogs.py:6617
+#: gui\settingsDialogs.py:6639
 msgid "Add Symbol"
 msgstr "添加符号"
 
 #. Translators: This is the label for the edit field in the add symbol dialog.
-#: gui\settingsDialogs.py:6622
+#: gui\settingsDialogs.py:6644
 msgid "&Symbol:"
 msgstr "符号(&S)："
 
 #. Translators: This is the label for the symbol pronunciation dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: gui\settingsDialogs.py:6652
+#: gui\settingsDialogs.py:6674
 #, python-format
 msgid "Symbol Pronunciation (%s)"
 msgstr "标点符号(%s)"
 
 #. Translators: The label of a text field to search for symbols in the speech symbols dialog.
-#: gui\settingsDialogs.py:6666
+#: gui\settingsDialogs.py:6688
 msgctxt "speechSymbols"
 msgid "&Filter by:"
 msgstr "查找(&F):"
 
 #. Translators: The label for symbols list in symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6675
+#: gui\settingsDialogs.py:6697
 msgid "&Symbols"
 msgstr "符号(&S)"
 
 #. Translators: The label for a column in symbols list used to identify a symbol.
-#: gui\settingsDialogs.py:6685
+#: gui\settingsDialogs.py:6707
 msgid "Symbol"
 msgstr "符号"
 
 #. Translators: The label for a column in symbols list used to identify a replacement.
 #. Translators: The label for a column in dictionary entries list and in a list of symbols
 #. from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: gui\settingsDialogs.py:6687 gui\speechDict.py:188
+#: gui\settingsDialogs.py:6709 gui\speechDict.py:188
 msgid "Replacement"
 msgstr "替换文本"
 
 #. Translators: The label for a column in symbols list used to identify a symbol's speech level (either none, some, most, all or character).
-#: gui\settingsDialogs.py:6689
+#: gui\settingsDialogs.py:6711
 msgid "Level"
 msgstr "级别"
 
 #. Translators: The label for a column in symbols list which specifies when the actual symbol will be sent to the synthesizer (preserved).
 #. See the "Punctuation/Symbol Pronunciation" section of the User Guide for details.
-#: gui\settingsDialogs.py:6692
+#: gui\settingsDialogs.py:6714
 msgid "Preserve"
 msgstr "传递"
 
 #. Translators: The label for the group of controls in symbol pronunciation dialog to change the pronunciation of a symbol.
-#: gui\settingsDialogs.py:6696
+#: gui\settingsDialogs.py:6718
 msgid "Change selected symbol"
 msgstr "更改所选符号"
 
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 #. Translators: This is a label for an edit field in add dictionary entry dialog
 #. and in punctuation/symbol pronunciation dialog.
-#: gui\settingsDialogs.py:6714 gui\speechDict.py:52
+#: gui\settingsDialogs.py:6736 gui\speechDict.py:52
 msgid "&Replacement"
 msgstr "替换文本(&R)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change the speech level of a symbol.
-#: gui\settingsDialogs.py:6723
+#: gui\settingsDialogs.py:6745
 msgid "&Level"
 msgstr "级别(&L)"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change when a symbol is sent to the synthesizer.
-#: gui\settingsDialogs.py:6730
+#: gui\settingsDialogs.py:6752
 msgid "&Send actual symbol to synthesizer"
 msgstr "发送标点本身到合成器(&S)"
 
 #. Translators: The label for a button in the Symbol Pronunciation dialog to remove a symbol.
-#: gui\settingsDialogs.py:6745
+#: gui\settingsDialogs.py:6767
 msgid "Re&move"
 msgstr "移除(&M)"
 
 #. Translators: An error reported in the Symbol Pronunciation dialog
 #. when adding a symbol that is already present.
-#: gui\settingsDialogs.py:6852
+#: gui\settingsDialogs.py:6874
 #, python-format
 msgid "Symbol \"%s\" is already present."
 msgstr "标点“%s”已存在."
@@ -19006,221 +19020,221 @@ msgstr "未知颜色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Excel controls the pattern.
-#: NVDAObjects\window\excel.py:245
+#: NVDAObjects\window\excel.py:246
 msgid "automatic"
 msgstr "自动"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Checkerboard
-#: NVDAObjects\window\excel.py:248
+#: NVDAObjects\window\excel.py:249
 msgid "diagonal crosshatch"
 msgstr "对角线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Criss-cross lines
-#: NVDAObjects\window\excel.py:251
+#: NVDAObjects\window\excel.py:252
 msgid "thin diagonal crosshatch"
 msgstr "薄对角线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark diagonal lines running from the upper left to the lower right
-#: NVDAObjects\window\excel.py:254
+#: NVDAObjects\window\excel.py:255
 msgid "reverse diagonal stripe"
 msgstr "反向对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 12.5% gray
-#: NVDAObjects\window\excel.py:258
+#: NVDAObjects\window\excel.py:259
 #, no-python-format
 msgid "12.5% gray"
 msgstr "12.5% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 25% gray
-#: NVDAObjects\window\excel.py:262
+#: NVDAObjects\window\excel.py:263
 #, no-python-format
 msgid "25% gray"
 msgstr "25% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 50% gray
-#: NVDAObjects\window\excel.py:266
+#: NVDAObjects\window\excel.py:267
 #, no-python-format
 msgid "50% gray"
 msgstr "50% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 75% gray
-#: NVDAObjects\window\excel.py:270
+#: NVDAObjects\window\excel.py:271
 #, no-python-format
 msgid "75% gray"
 msgstr "75% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 6.25% gray
-#: NVDAObjects\window\excel.py:274
+#: NVDAObjects\window\excel.py:275
 #, no-python-format
 msgid "6.25% gray"
 msgstr "6.25% 灰色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Grid
-#: NVDAObjects\window\excel.py:277
+#: NVDAObjects\window\excel.py:278
 msgid "thin horizontal crosshatch"
 msgstr "细的水平线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark horizontal lines
-#: NVDAObjects\window\excel.py:280
+#: NVDAObjects\window\excel.py:281
 msgid "horizontal stripe"
 msgstr "水平条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light diagonal lines running from the upper left to the lower right
-#: NVDAObjects\window\excel.py:283
+#: NVDAObjects\window\excel.py:284
 msgid "thin reverse diagonal stripe"
 msgstr "薄反向对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light horizontal lines
-#: NVDAObjects\window\excel.py:286
+#: NVDAObjects\window\excel.py:287
 msgid "thin horizontal stripe"
 msgstr "细线水平条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light diagonal lines running from the lower left to the upper right
-#: NVDAObjects\window\excel.py:289
+#: NVDAObjects\window\excel.py:290
 msgid "thin diagonal stripe"
 msgstr "薄对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Light vertical bars
-#: NVDAObjects\window\excel.py:292
+#: NVDAObjects\window\excel.py:293
 msgid "thin vertical stripe"
 msgstr "细线垂直条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. No pattern
-#: NVDAObjects\window\excel.py:295 speech\speech.py:2810
+#: NVDAObjects\window\excel.py:296 speech\speech.py:2810
 msgid "none"
 msgstr "无"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 75% dark moire
-#: NVDAObjects\window\excel.py:298
+#: NVDAObjects\window\excel.py:299
 msgid "thick diagonal crosshatch"
 msgstr "厚对角线交叉阴影"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Solid color
-#: NVDAObjects\window\excel.py:301
+#: NVDAObjects\window\excel.py:302
 msgid "solid"
 msgstr "原色"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark diagonal lines running from the lower left to the upper right
-#: NVDAObjects\window\excel.py:304
+#: NVDAObjects\window\excel.py:305
 msgid "diagonal stripe"
 msgstr "对角线条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. Dark vertical bars
-#: NVDAObjects\window\excel.py:307
+#: NVDAObjects\window\excel.py:308
 msgid "vertical stripe"
 msgstr "垂直条纹"
 
 #. Translators: A type of background pattern in Microsoft Excel.
-#: NVDAObjects\window\excel.py:309
+#: NVDAObjects\window\excel.py:310
 msgid "linear gradient"
 msgstr "线性渐变"
 
 #. Translators: A type of background pattern in Microsoft Excel.
-#: NVDAObjects\window\excel.py:311
+#: NVDAObjects\window\excel.py:312
 msgid "rectangular gradient"
 msgstr "矩形渐变"
 
 #. Translators: the description for the elements list command in Microsoft Excel.
-#: NVDAObjects\window\excel.py:743
+#: NVDAObjects\window\excel.py:754
 msgid "Lists various types of elements in this spreadsheet"
 msgstr "在此列表中列举了各种类型的元素"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:753 NVDAObjects\window\winword.py:2235
+#: NVDAObjects\window\excel.py:764 NVDAObjects\window\winword.py:2235
 msgid "&Charts"
 msgstr "图表(&C)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:756
+#: NVDAObjects\window\excel.py:767
 msgid "N&otes"
 msgstr "注释(&O)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:759
+#: NVDAObjects\window\excel.py:770
 msgid "Fo&rmulas"
 msgstr "公式(&R)"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
-#: NVDAObjects\window\excel.py:765
+#: NVDAObjects\window\excel.py:776
 msgid "&Sheets"
 msgstr "表格(&S)"
 
 #. Translators: Used to express an address range in excel.
-#: NVDAObjects\window\excel.py:797 NVDAObjects\window\excel.py:1795
+#: NVDAObjects\window\excel.py:808 NVDAObjects\window\excel.py:1806
 #, python-brace-format
 msgid "{start} through {end}"
 msgstr "{start} 到 {end}"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1286 NVDAObjects\window\winword.py:1776
+#: NVDAObjects\window\excel.py:1297 NVDAObjects\window\winword.py:1776
 msgid "Bold off"
 msgstr "关闭粗体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1288 NVDAObjects\window\winword.py:1773
+#: NVDAObjects\window\excel.py:1299 NVDAObjects\window\winword.py:1773
 msgid "Bold on"
 msgstr "打开粗体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1300 NVDAObjects\window\winword.py:1794
+#: NVDAObjects\window\excel.py:1311 NVDAObjects\window\winword.py:1794
 msgid "Italic off"
 msgstr "关闭斜体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1302 NVDAObjects\window\winword.py:1791
+#: NVDAObjects\window\excel.py:1313 NVDAObjects\window\winword.py:1791
 msgid "Italic on"
 msgstr "打开斜体"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
 #. Translators: a message when toggling formatting in Microsoft word
-#: NVDAObjects\window\excel.py:1314 NVDAObjects\window\winword.py:1823
+#: NVDAObjects\window\excel.py:1325 NVDAObjects\window\winword.py:1823
 msgid "Underline off"
 msgstr "关闭下划线"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
-#: NVDAObjects\window\excel.py:1316
+#: NVDAObjects\window\excel.py:1327
 msgid "Underline on"
 msgstr "打开下划线"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
-#: NVDAObjects\window\excel.py:1328
+#: NVDAObjects\window\excel.py:1339
 msgid "Strikethrough off"
 msgstr "删除线关"
 
 #. Translators: a message when toggling formatting in Microsoft Excel
-#: NVDAObjects\window\excel.py:1330
+#: NVDAObjects\window\excel.py:1341
 msgid "Strikethrough on"
 msgstr "删除线开"
 
 #. Translators: the description for a script for Excel
-#: NVDAObjects\window\excel.py:1666
+#: NVDAObjects\window\excel.py:1677
 msgid ""
 "Sets the current cell as start of column header. Pressing once will set this "
 "cell as the first column header for any cell lower and to the right of it "
@@ -19231,31 +19245,31 @@ msgstr ""
 "其右方和下方的单元格在内都属于此区域，连按两次清除此单元格的列标题设置。"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1678
+#: NVDAObjects\window\excel.py:1689
 #, python-brace-format
 msgid "Set {address} as start of column headers"
 msgstr "设置 {address} 为列标题的开始单元"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1682
+#: NVDAObjects\window\excel.py:1693
 #, python-brace-format
 msgid "Already set {address} as start of column headers"
 msgstr "{address} 已设为列标题的开始单元"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1687
+#: NVDAObjects\window\excel.py:1698
 #, python-brace-format
 msgid "Removed {address} from column headers"
 msgstr "{address} 已从列标题中移除"
 
 #. Translators: a message reported in the SetColumnHeader script for Excel.
-#: NVDAObjects\window\excel.py:1691
+#: NVDAObjects\window\excel.py:1702
 #, python-brace-format
 msgid "Cannot find {address} in column headers"
 msgstr "无法再列标题中找到 {address}"
 
 #. Translators: the description for a script for Excel
-#: NVDAObjects\window\excel.py:1697
+#: NVDAObjects\window\excel.py:1708
 msgid ""
 "Sets the current cell as start of row headers. Pressing once will set this "
 "cell as the first row header for any cell lower and to the right of it "
@@ -19266,47 +19280,47 @@ msgstr ""
 "其右方和下方的单元格在内都属于此区域，连按两次清除此单元格的行标题设置。"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1709
+#: NVDAObjects\window\excel.py:1720
 #, python-brace-format
 msgid "Set {address} as start of row headers"
 msgstr "设置 {address} 为航标题的开始单元"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1713
+#: NVDAObjects\window\excel.py:1724
 #, python-brace-format
 msgid "Already set {address} as start of row headers"
 msgstr "{address} 已设为行标题的开始单元"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1718
+#: NVDAObjects\window\excel.py:1729
 #, python-brace-format
 msgid "Removed {address}    from row headers"
 msgstr "{address} 已从行标题中移除"
 
 #. Translators: a message reported in the SetRowHeader script for Excel.
-#: NVDAObjects\window\excel.py:1721
+#: NVDAObjects\window\excel.py:1732
 #, python-brace-format
 msgid "Cannot find {address}    in row headers"
 msgstr "无法在行标题中找到 {address}"
 
 #. Translators: a message reported in the get location text script for Excel. {0} is replaced with the name of the excel worksheet, and {1} is replaced with the row and column identifier EG "G4"
-#: NVDAObjects\window\excel.py:1823
+#: NVDAObjects\window\excel.py:1834
 #, python-brace-format
 msgid "Sheet {0}, {1}"
 msgstr "表格 {0}、{1}"
 
-#: NVDAObjects\window\excel.py:1903
+#: NVDAObjects\window\excel.py:1914
 #, python-brace-format
 msgid "Input Message is {title}: {message}"
 msgstr "输入消息为 {title}：{message}"
 
-#: NVDAObjects\window\excel.py:1905
+#: NVDAObjects\window\excel.py:1916
 #, python-brace-format
 msgid "Input Message is {message}"
 msgstr "输入的消息为 {message}"
 
 #. Translators: the description for a script for Excel
-#: NVDAObjects\window\excel.py:1920
+#: NVDAObjects\window\excel.py:1931
 msgid ""
 "Reports the note on the current cell. If pressed twice, presents the "
 "information in browse mode"
@@ -19314,22 +19328,22 @@ msgstr "读出当前单元格的注释。连按两次，在浏览模式下显示
 
 #. Translators: title for note on the current Excel cell dialog.
 #. Translators: Title for the note editing  dialog
-#: NVDAObjects\window\excel.py:1937 NVDAObjects\window\excel.py:1956
+#: NVDAObjects\window\excel.py:1948 NVDAObjects\window\excel.py:1967
 msgid "Note"
 msgstr "注释"
 
 #. Translators: A message in Excel when there is no note
-#: NVDAObjects\window\excel.py:1941
+#: NVDAObjects\window\excel.py:1952
 msgid "Not on a note"
 msgstr "不在注释中"
 
 #. Translators: the description  for a script for Excel
-#: NVDAObjects\window\excel.py:1945
+#: NVDAObjects\window\excel.py:1956
 msgid "Opens the note editing dialog"
 msgstr "打开注释编辑对话框"
 
 #. Translators: Dialog text for the note editing dialog
-#: NVDAObjects\window\excel.py:1954
+#: NVDAObjects\window\excel.py:1965
 #, python-brace-format
 msgid "Editing note for cell {address}"
 msgstr "正在编辑单元 {address} 的注释"
@@ -19337,7 +19351,7 @@ msgstr "正在编辑单元 {address} 的注释"
 #. Translators: This is presented in Excel to show the current selection, for example 'a1 c3 through a10 c10'
 #. Beware to keep two spaces between the address and the content. Otherwise some synthesizer
 #. may mix the address and the content when the cell contains a 3-digit number.
-#: NVDAObjects\window\excel.py:2010
+#: NVDAObjects\window\excel.py:2041
 #, python-brace-format
 msgid "{firstAddress}  {firstContent} through {lastAddress}  {lastContent}"
 msgstr "{firstAddress}  {firstContent} 到 {lastAddress}  {lastContent}"
@@ -21702,6 +21716,12 @@ msgstr "来自远程访问服务器的消息"
 msgctxt "remote"
 msgid "Remote NVDA not connected"
 msgstr "远程 NVDA 未连接"
+
+#~ msgid "&Fullscreen mode:"
+#~ msgstr "全屏模式(&F)"
+
+#~ msgid "Use &true center in fullscreen mode"
+#~ msgstr "在全屏模式下保持焦点居中(&T)"
 
 #~ msgid "secrets"
 #~ msgstr "机密（SECRETS）"
