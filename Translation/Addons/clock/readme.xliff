@@ -1,5 +1,5 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/hkatic/clock/2801853978ae03dabb66a74c58f3e7966bcb4e97/readme.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/hkatic/clock/c8183c90949f8f347b32269cd98663a4982aa401/readme.md">
     <skeleton>
 # $(ID:91ce517d-7fae-43b4-97ba-e0c64fba0974)
 
@@ -72,7 +72,6 @@ $(ID:ac70785b-55d3-4996-9b4b-222f90c13d5d)
 $(ID:618dbcc1-d2a4-4d1d-abb9-54e89c285ff6)
 
 $(ID:fa53342e-fd2b-4259-81f3-74c65f716d69)
-
 </skeleton>
     <unit id="91ce517d-7fae-43b4-97ba-e0c64fba0974">
       <notes>
