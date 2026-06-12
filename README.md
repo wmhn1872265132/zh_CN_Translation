@@ -4,25 +4,7 @@
 
 有关如何翻译 NVDA 的更多信息，请参看 [NVDA 开发者指南（英语）](https://download.nvaccess.org/documentation/developerGuide.html)的 [Translation](https://download.nvaccess.org/documentation/developerGuide.html#translation) 章节。
 
-## 翻译 NVDA 主程序
-
-### 测试翻译
-
-如需测试翻译，请
-
-1. 在 [GitHub 的 Actions](https://github.com/nvdacn/zh_CN_Translation/actions) 页面选择由 [Build NVDA translation test files 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/build.yaml)触发的操作。
-
-   - alpha 版本请选择与您 NVDA 版本相同分支的操作。
-   - beta 版本请选择 Uploads 分支的操作。
-
-2. 在工作流详情的页面，按 T 键导航到 Artifacts 区域的表格。
-3. 浏览到 Download NVDA_TranslationTest 并点击，此时将开始下载由 GitHub Actions 自动生成的翻译压缩包。
-4. 将下载的压缩文件解压到 NVDA 程序所在文件夹。
-5. 重启 NVDA。
-
-**请注意：此页面的文件具有时效性，文件过期后将无法下载。**
-
-### 存储库文件结构介绍
+## 存储库文件结构介绍
 
 此存储库根目录所包含的文件和文件夹的作用简述如下：
 
@@ -41,6 +23,24 @@
 - `L10nUtilTools.bat`：用于处理翻译的批处理脚本，具体使用方法和注意事项，请参看[L10nUtilTools.bat 的使用说明][2]章节。
 - `LICENSE`：许可协议文件。
 - `README.md`：此说明文档。
+
+## 翻译 NVDA 主程序
+
+### 测试翻译
+
+如需测试翻译，请
+
+1. 在 [GitHub 的 Actions](https://github.com/nvdacn/zh_CN_Translation/actions) 页面选择由 [Build NVDA translation test files 工作流](https://github.com/nvdacn/zh_CN_Translation/actions/workflows/build.yaml)触发的操作。
+
+   - alpha 版本请选择与您 NVDA 版本相同分支的操作。
+   - beta 版本请选择 Uploads 分支的操作。
+
+2. 在工作流详情的页面，按 T 键导航到 Artifacts 区域的表格。
+3. 浏览到 Download NVDA_TranslationTest 并点击，此时将开始下载由 GitHub Actions 自动生成的翻译压缩包。
+4. 将下载的压缩文件解压到 NVDA 程序所在文件夹。
+5. 重启 NVDA。
+
+**请注意：此页面的文件具有时效性，文件过期后将无法下载。**
 
 ### alpha 开发周期的翻译
 
