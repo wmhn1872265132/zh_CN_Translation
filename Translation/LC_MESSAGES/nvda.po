@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-10 04:24+0000\n"
+"POT-Creation-Date: 2026-06-12 04:48+0000\n"
 "PO-Revision-Date: 2026-06-04 09:19+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -2698,7 +2698,7 @@ msgstr "工具"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: a touch screen gesture
-#: globalCommands.py:109 touchHandler.py:291
+#: globalCommands.py:109 touchHandler.py:358
 msgid "Touch screen"
 msgstr "触摸屏"
 
@@ -7462,122 +7462,230 @@ msgid "Natural pause after punctuation"
 msgstr "标点后自然停顿"
 
 #. Translators: The name of a touch mode.
-#: touchHandler.py:68 touchHandler.py:88
+#: touchHandler.py:69 touchHandler.py:89
 msgid "text mode"
 msgstr "文本模式"
 
 #. Translators: The name of a touch mode.
-#: touchHandler.py:69 touchHandler.py:90
+#: touchHandler.py:70 touchHandler.py:91
 msgid "object mode"
 msgstr "对象模式"
 
 #. Translators: The name of a touch mode used when in browse mode.
-#: touchHandler.py:70 touchHandler.py:92
+#: touchHandler.py:71 touchHandler.py:93
 msgid "browse mode"
 msgstr "浏览模式"
 
 #. Translators: a touch screen action performed once
-#: touchHandler.py:218
+#: touchHandler.py:285
 #, python-brace-format
 msgid "single {action}"
 msgstr "{action}一次"
 
 #. Translators: a touch screen action performed twice
-#: touchHandler.py:220
+#: touchHandler.py:287
 #, python-brace-format
 msgid "double {action}"
 msgstr "{action}两次"
 
 #. Translators: a touch screen action performed 3 times
-#: touchHandler.py:222
+#: touchHandler.py:289
 #, python-brace-format
 msgid "triple {action}"
 msgstr "{action}三次"
 
 #. Translators: a touch screen action performed 4 times
-#: touchHandler.py:224
+#: touchHandler.py:291
 #, python-brace-format
 msgid "quadruple {action}"
 msgstr "{action}四次"
 
 #. Translators: a touch screen action using multiple fingers
-#: touchHandler.py:284
+#: touchHandler.py:351
 #, python-brace-format
 msgid "{numFingers} finger {action}"
 msgid_plural "{numFingers} finger {action}"
 msgstr[0] "{numFingers}指{action}"
 
-#. Translators: a touch screen gesture where two fingers move toward each other (zoom out)
-#: touchTracker.py:40
-msgctxt "touch action"
-msgid "pinch in"
-msgstr "双指捏合"
-
-#. Translators: a touch screen gesture where two fingers move away from each other (zoom in)
-#: touchTracker.py:42
-msgctxt "touch action"
-msgid "pinch out"
-msgstr "双指张开"
-
 #. Translators: a very quick touch and release of a finger on a touch screen
-#: touchTracker.py:44
+#: touchTracker.py:54
 msgctxt "touch action"
 msgid "tap"
 msgstr "点击"
 
-#. Translators: a very quick touch and release, then another touch with no release, on a touch screen
-#: touchTracker.py:46
-msgctxt "touch action"
-msgid "tap and hold"
-msgstr "点击后按住"
-
 #. Translators: a touch with no release, on a touch screen.
-#: touchTracker.py:48
+#: touchTracker.py:56
 msgctxt "touch action"
 msgid "hold"
 msgstr "按住"
 
+#. Translators: a very quick touch and release, then another touch with no release, on a touch screen
+#: touchTracker.py:58
+msgctxt "touch action"
+msgid "tap and hold"
+msgstr "点击后按住"
+
 #. Translators: a quick swipe of a finger in an up direction, on a touch screen.
-#: touchTracker.py:50
+#: touchTracker.py:60
 msgctxt "touch action"
 msgid "flick up"
 msgstr "向上滑动"
 
-#. Translators: a quick swipe of a finger in an down direction, on a touch screen.
-#: touchTracker.py:52
+#. Translators: a quick swipe of a finger in a down direction, on a touch screen.
+#: touchTracker.py:62
 msgctxt "touch action"
 msgid "flick down"
 msgstr "向下滑动"
 
 #. Translators: a quick swipe of a finger in a left direction, on a touch screen.
-#: touchTracker.py:54
+#: touchTracker.py:64
 msgctxt "touch action"
 msgid "flick left"
 msgstr "向左滑动"
 
 #. Translators: a quick swipe of a finger in a right direction, on a touch screen.
-#: touchTracker.py:56
+#: touchTracker.py:66
 msgctxt "touch action"
 msgid "flick right"
 msgstr "向右滑动"
 
-#. Translators:  a finger has been held on the touch screen long enough to be considered as hovering
-#: touchTracker.py:58
+#. Translators: a finger has been held on the touch screen long enough to be considered as hovering
+#: touchTracker.py:68
 msgctxt "touch action"
 msgid "hover down"
 msgstr "停住"
 
-#. Translators: A finger is still touching the touch screen and is moving around with out breaking contact.
-#: touchTracker.py:60
+#. Translators: a finger is still touching the touch screen and is moving around without breaking contact.
+#: touchTracker.py:70
 msgctxt "touch action"
 msgid "hover"
 msgstr "移动"
 
 #. Translators: a finger that was hovering (touching the touch screen for a long time) has been released
-#: touchTracker.py:62
+#: touchTracker.py:72
 msgctxt "touch action"
 msgid "hover up"
 msgstr "抬起"
+
+#. Translators: a touch screen gesture where two fingers move toward each other (zoom out)
+#: touchTracker.py:74
+msgctxt "touch action"
+msgid "pinch in"
+msgstr "双指捏合"
+
+#. Translators: a touch screen gesture where two fingers move away from each other (zoom in)
+#: touchTracker.py:76
+msgctxt "touch action"
+msgid "pinch out"
+msgstr "双指张开"
+
+#. Translators: a quick swipe right followed by a quick swipe left, on a touch screen.
+#: touchTracker.py:78
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick right"
+msgctxt "touch action"
+msgid "flick right then left"
+msgstr "向右滑动"
+
+#. Translators: a quick swipe left followed by a quick swipe right, on a touch screen.
+#: touchTracker.py:80
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick right"
+msgctxt "touch action"
+msgid "flick left then right"
+msgstr "向右滑动"
+
+#. Translators: a quick swipe up followed by a quick swipe down, on a touch screen.
+#: touchTracker.py:82
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick down"
+msgctxt "touch action"
+msgid "flick up then down"
+msgstr "向下滑动"
+
+#. Translators: a quick swipe down followed by a quick swipe up, on a touch screen.
+#: touchTracker.py:84
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick down"
+msgctxt "touch action"
+msgid "flick down then up"
+msgstr "向下滑动"
+
+#. Translators: a quick swipe right followed by a quick swipe up, on a touch screen.
+#: touchTracker.py:86
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick right"
+msgctxt "touch action"
+msgid "flick right then up"
+msgstr "向右滑动"
+
+#. Translators: a quick swipe right followed by a quick swipe down, on a touch screen.
+#: touchTracker.py:88
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick right"
+msgctxt "touch action"
+msgid "flick right then down"
+msgstr "向右滑动"
+
+#. Translators: a quick swipe left followed by a quick swipe up, on a touch screen.
+#: touchTracker.py:90
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick left"
+msgctxt "touch action"
+msgid "flick left then up"
+msgstr "向左滑动"
+
+#. Translators: a quick swipe left followed by a quick swipe down, on a touch screen.
+#: touchTracker.py:92
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick left"
+msgctxt "touch action"
+msgid "flick left then down"
+msgstr "向左滑动"
+
+#. Translators: a quick swipe up followed by a quick swipe right, on a touch screen.
+#: touchTracker.py:94
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick right"
+msgctxt "touch action"
+msgid "flick up then right"
+msgstr "向右滑动"
+
+#. Translators: a quick swipe up followed by a quick swipe left, on a touch screen.
+#: touchTracker.py:96
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick left"
+msgctxt "touch action"
+msgid "flick up then left"
+msgstr "向左滑动"
+
+#. Translators: a quick swipe down followed by a quick swipe right, on a touch screen.
+#: touchTracker.py:98
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick right"
+msgctxt "touch action"
+msgid "flick down then right"
+msgstr "向右滑动"
+
+#. Translators: a quick swipe down followed by a quick swipe left, on a touch screen.
+#: touchTracker.py:100
+#, fuzzy
+#| msgctxt "touch action"
+#| msgid "flick down"
+msgctxt "touch action"
+msgid "flick down then left"
+msgstr "向下滑动"
 
 #. Translators: This is the message for a warning shown if NVDA cannot open a browsable message window
 #. when Windows is on a secure screen (sign-on screen / UAC prompt).
