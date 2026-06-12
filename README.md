@@ -32,7 +32,7 @@
 - `Tools`：用于存储 L10nUtilTools.bat 所调用的工具和存储库源代码或其链接；
 - `Translation`：用于存储所有需要翻译的文件，这也是主要的工作文件夹，其中
 
-  - `Translation\Addons` 用于存储插件的翻译文件，每个插件的翻译均存储在以插件 ID 命名的子文件夹中；
+  - `Translation\Addons` 用于存储插件的翻译文件，每个插件的翻译均存储在以插件 ID 命名的子文件夹中。有关翻译插件的方式和注意事项请参看 [Translation Guide for Translators（英语）](https://github.com/nvaccess/AddonTemplate/blob/master/docs/l10n/addonTranslators.md)；
   - `Translation\LC_MESSAGES` 用于存储 NVDA 界面消息的翻译文件，有关翻译该文件的方式和注意事项请参看 [Translating NVDA's interface（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/translating/crowdin.md#translating-nvdas-interface)；
   - `Translation\miscDeps` 用于存储 NVDA 的字符描述、手势配置和符号朗读规则文件，有关翻译这些文件的方式和注意事项请参看[NVDA 开发者指南（英语）](https://download.nvaccess.org/documentation/developerGuide.html)的 [Character Descriptions](https://download.nvaccess.org/documentation/developerGuide.html#characterDescriptions)、[Gestures](https://download.nvaccess.org/documentation/developerGuide.html#TranslatingGestures) 和 [Symbol Pronunciation](https://download.nvaccess.org/documentation/developerGuide.html#symbolPronunciation) 章节；
   - `Translation\user_docs` 用于存储 NVDA 的更新日志和用户指南的 XLIFF 文件，有关翻译这些文件的方式和注意事项请参看 [Translating User Documentation（英语）](https://github.com/nvaccess/nvda/blob/master/projectDocs/translating/crowdin.md#translating-user-documentation)；
@@ -100,6 +100,7 @@ beta 开发周期的界面消息和文档的翻译字符串可在任意分支手
 ## 翻译 NVDA 插件
 
 此存储库可自动上传和下载在 [Crowdin 的 nvdaAddons 项目](https://zh.crowdin.com/project/nvdaaddons)中注册的插件的翻译。
+有关翻译插件的方式和注意事项请参看 [Translation Guide for Translators（英语）](https://github.com/nvaccess/AddonTemplate/blob/master/docs/l10n/addonTranslators.md)。
 
 - 可在 `version_year.version_major` 分支的 `Translation\Addons` 文件夹提交针对这些插件的翻译。
 
