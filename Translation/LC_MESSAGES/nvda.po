@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-12 10:26+0000\n"
-"PO-Revision-Date: 2026-06-14 02:15\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2026-06-14 10:57+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: nvda.pot\n"
 "X-Crowdin-File-ID: 2\n"
+"X-Generator: Poedit 3.9\n"
 
 #. Translators: shown when an addon API version string is unknown
 #. Translators: The word for an unknown control type.
@@ -7586,111 +7587,75 @@ msgstr "双指张开"
 
 #. Translators: a quick swipe right followed by a quick swipe left, on a touch screen.
 #: touchTracker.py:78
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick right"
 msgctxt "touch action"
 msgid "flick right then left"
-msgstr "向右滑动"
+msgstr "先向右再向左滑动"
 
 #. Translators: a quick swipe left followed by a quick swipe right, on a touch screen.
 #: touchTracker.py:80
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick right"
 msgctxt "touch action"
 msgid "flick left then right"
-msgstr "向右滑动"
+msgstr "先向左再向右滑动"
 
 #. Translators: a quick swipe up followed by a quick swipe down, on a touch screen.
 #: touchTracker.py:82
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick down"
 msgctxt "touch action"
 msgid "flick up then down"
-msgstr "向下滑动"
+msgstr "先向上再向下滑动"
 
 #. Translators: a quick swipe down followed by a quick swipe up, on a touch screen.
 #: touchTracker.py:84
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick down"
 msgctxt "touch action"
 msgid "flick down then up"
-msgstr "向下滑动"
+msgstr "先向下再向上滑动"
 
 #. Translators: a quick swipe right followed by a quick swipe up, on a touch screen.
 #: touchTracker.py:86
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick right"
 msgctxt "touch action"
 msgid "flick right then up"
-msgstr "向右滑动"
+msgstr "先向右再向上滑动"
 
 #. Translators: a quick swipe right followed by a quick swipe down, on a touch screen.
 #: touchTracker.py:88
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick right"
 msgctxt "touch action"
 msgid "flick right then down"
-msgstr "向右滑动"
+msgstr "先向右再向下滑动"
 
 #. Translators: a quick swipe left followed by a quick swipe up, on a touch screen.
 #: touchTracker.py:90
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick left"
 msgctxt "touch action"
 msgid "flick left then up"
-msgstr "向左滑动"
+msgstr "先向左再向上滑动"
 
 #. Translators: a quick swipe left followed by a quick swipe down, on a touch screen.
 #: touchTracker.py:92
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick left"
 msgctxt "touch action"
 msgid "flick left then down"
-msgstr "向左滑动"
+msgstr "先向左再向下滑动"
 
 #. Translators: a quick swipe up followed by a quick swipe right, on a touch screen.
 #: touchTracker.py:94
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick right"
 msgctxt "touch action"
 msgid "flick up then right"
-msgstr "向右滑动"
+msgstr "先向上再向右滑动"
 
 #. Translators: a quick swipe up followed by a quick swipe left, on a touch screen.
 #: touchTracker.py:96
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick left"
 msgctxt "touch action"
 msgid "flick up then left"
-msgstr "向左滑动"
+msgstr "先向上再向左滑动"
 
 #. Translators: a quick swipe down followed by a quick swipe right, on a touch screen.
 #: touchTracker.py:98
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick right"
 msgctxt "touch action"
 msgid "flick down then right"
-msgstr "向右滑动"
+msgstr "先向下再向右滑动"
 
 #. Translators: a quick swipe down followed by a quick swipe left, on a touch screen.
 #: touchTracker.py:100
-#, fuzzy
-#| msgctxt "touch action"
-#| msgid "flick down"
 msgctxt "touch action"
 msgid "flick down then left"
-msgstr "向下滑动"
+msgstr "先向下再向左滑动"
 
 #. Translators: This is the message for a warning shown if NVDA cannot open a browsable message window
 #. when Windows is on a secure screen (sign-on screen / UAC prompt).
@@ -11209,22 +11174,18 @@ msgstr "标记"
 
 #. Translators: Label for a method of word segmentation.
 #: config\featureFlagEnums.py:154
-#, fuzzy
-#| msgid "Automatic"
 msgid "Auto"
 msgstr "自动"
 
 #. Translators: Label for a method of word segmentation.
 #: config\featureFlagEnums.py:156
-#, fuzzy
-#| msgid "calendar"
 msgid "Standard"
-msgstr "日历"
+msgstr "标准"
 
 #. Translators: Label for a method of word segmentation.
 #: config\featureFlagEnums.py:158
 msgid "Chinese"
-msgstr ""
+msgstr "中文"
 
 #. Translators: A choice in a combo box in the braille settings panel to configure text wrapping.
 #: config\featureFlagEnums.py:179
@@ -15136,7 +15097,7 @@ msgstr "段落导航模式(&P)："
 #. Translators: This is a label for the word segmentation standard in the document navigation dialog
 #: gui\settingsDialogs.py:3560
 msgid "&Word Segmentation Standard:"
-msgstr ""
+msgstr "分词标准(&W)："
 
 #. Translators: This message is presented when
 #. NVDA is unable to load the selected synthesizer.
