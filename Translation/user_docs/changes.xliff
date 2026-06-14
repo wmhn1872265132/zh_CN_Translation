@@ -6334,9 +6334,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix:   * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>A command allows temporarily showing an overview of the entire screen</source>
-        <target>A command allows temporarily showing an overview of the entire screen</target>
+        <target>还支持暂时显示全屏概览。</target>
       </segment>
     </unit>
     <unit id="fc145b84-b9f3-4ad4-9124-70e72a974340">
@@ -6919,9 +6919,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment state="final">
         <source>In Excel, when visual highlight is enabled, the focused cell is now correctly highlighted. (#19641, @CyrilleB79)</source>
-        <target>In Excel, when visual highlight is enabled, the focused cell is now correctly highlighted. (#19641, @CyrilleB79)</target>
+        <target>修复了启用高亮显示时，Excel 的焦点单元格未被高亮的问题。(#19641, @CyrilleB79)</target>
       </segment>
     </unit>
     <unit id="46f5b2cc-76cb-460a-a744-969f63d29832">
