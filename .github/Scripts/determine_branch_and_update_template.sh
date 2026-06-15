@@ -13,8 +13,8 @@ fi
 # 定义替换规则
 declare -A replacements=(
     ["\$PRTitle"]="$PRTitle"
-    ["\$Owner"]="$HeadOwner"
-    ["\$Commit"]="$GITHUB_SHA"
+    ["\$HeadOwner"]="$HeadOwner"
+    ["\$GITHUB_SHA"]="$GITHUB_SHA"
 )
 
 # 执行替换

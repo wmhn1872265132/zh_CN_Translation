@@ -28,4 +28,4 @@ none
 
 ### Remark
 
-This PR is automatically created by GitHub Actions via https://github.com/$HeadOwner/zh_CN_Translation/commit/$Commit
+This PR is automatically created by GitHub Actions via https://github.com/$HeadOwner/zh_CN_Translation/commit/$GITHUB_SHA
