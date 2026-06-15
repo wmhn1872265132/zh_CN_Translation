@@ -37,17 +37,17 @@ jobs:
         if: steps.processing_files.outputs.changes_exist == 'true'
         id: check_pr
         run: |
-          PR_NUMBER=$(gh pr list \
+          EXISTING_PR=$(gh pr list \
             --repo "${{ env.BaseOwner }}/nvda" \
             --state open \
             --head "${{ env.HeadOwner }}:PullRequestToNVDA" \
             --base beta \
             --json number \
-            --jq '.[0].number' 2>/dev/null || echo "")
-          if [ -n "$PR_NUMBER" ]; then
+            --jq '.[0]')
+          if [ -n "$EXISTING_PR" ]; then
             echo "pr_exists=true" >> $GITHUB_OUTPUT
-            echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
-            echo "Existing pull request found: https://github.com/${{ env.BaseOwner }}/nvda/pull/$PR_NUMBER"
+            PR_URL=$(echo "$EXISTING_PR" | jq -r '.url')
+            echo "Existing pull request found: $PR_URL"
           else
             echo "pr_exists=false" >> $GITHUB_OUTPUT
             echo "No existing pull request found"
