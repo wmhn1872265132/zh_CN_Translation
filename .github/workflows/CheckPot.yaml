@@ -57,16 +57,11 @@ jobs:
   Determine-Branch:
     name: Determine branch
     if: ${{ vars.Run_CheckPot_Workflow }}
-    runs-on: ubuntu-latest
-    outputs:
-      branch: ${{ steps.Determine_branch.outputs.Branch }}
-    steps:
-      - name: Determine branch name
-        id: Determine_branch
-        uses: nvdacn/zh_CN_Translation/.github/actions/DetermineBranch@Uploads
+    uses: ./.github/workflows/DetermineBranch.yaml
+    secrets: inherit
 
   Update-NVDA-po:
-    name: Automatically update NVDA.po
+    name: Update NVDA.po
     needs: 
       - Check-NVDA-Repository-Update
       - Determine-Branch
@@ -83,6 +78,7 @@ jobs:
       - name: Install dependencies
         uses: ./.github/actions/InstallDependencies
         with:
+          fetch-repo: nvda
           ref: master
           submodules: true
           Download-gettext: true
