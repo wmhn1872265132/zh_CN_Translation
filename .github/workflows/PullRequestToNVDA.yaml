@@ -66,14 +66,11 @@ jobs:
         if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
         run: |
           echo "Creating new PR..."
-          PR_NUMBER=$(gh pr create \
+          PR_URL=$(gh pr create \
             --repo "${{ env.BaseOwner }}/nvda" \
             --title "${{ env.PRTitle }}" \
             --head "${{ env.HeadOwner }}:PullRequestToNVDA" \
             --base beta \
             --body "${{ steps.template.outputs.result }}" \
-            --draft \
-            --json number \
-            --jq '.number')
-          echo "Created PR #$PR_NUMBER: https://github.com/${{ env.BaseOwner }}/nvda/pull/$PR_NUMBER"
-          echo "PR draft status: true"
+            --draft)          
+          echo "Created draft PR: $PR_URL"
