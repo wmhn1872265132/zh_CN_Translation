@@ -53,11 +53,13 @@ jobs:
             --jq '.[0].number' 2>/dev/null || echo "")
           if [ -n "$PR_NUMBER" ]; then
             echo "pr_exists=true" >> $GITHUB_OUTPUT
-            echo "Existing pull request found: https://github.com/$BaseOwner/nvda/pull/$PR_NUMBER"
+            STEP_SUMMARY="Existing pull request found: https://github.com/$BaseOwner/nvda/pull/$PR_NUMBER"
           else
             echo "pr_exists=false" >> $GITHUB_OUTPUT
-            echo "No existing pull request found"
+            STEP_SUMMARY="No existing pull request found"
           fi
+          echo "$STEP_SUMMARY"
+          echo "$STEP_SUMMARY" >> $GITHUB_STEP_SUMMARY
       - name: Create pull request
         if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
         run: |
@@ -69,4 +71,6 @@ jobs:
             --base beta \
             --body-file $TEMPLATE_FILE \
             --draft)          
-          echo "Created draft pull request: $PR_URL"
+          STEP_SUMMARY="Created draft pull request: $PR_URL"
+          echo "$STEP_SUMMARY"
+          echo "$STEP_SUMMARY" >> $GITHUB_STEP_SUMMARY
