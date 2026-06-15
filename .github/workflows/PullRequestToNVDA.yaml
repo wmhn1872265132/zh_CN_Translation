@@ -15,6 +15,7 @@ jobs:
     env:
       BaseOwner: nvaccess
       HeadOwner: ${{ github.repository_owner }}
+      GH_TOKEN: ${{ secrets.PULLREQUESTTONVDA }}
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v6
@@ -37,24 +38,22 @@ jobs:
       - name: Check for existing PR
         if: steps.processing_files.outputs.changes_exist == 'true'
         id: check_pr
-        uses: actions/github-script@v9
-        with:
-          github-token: ${{ secrets.PULLREQUESTTONVDA }}
-          script: |
-            const result = await github.rest.pulls.list({
-              owner: "${{ env.BaseOwner }}",
-              repo: "nvda",
-              state: "open",
-              head: "${{ env.HeadOwner }}:PullRequestToNVDA",
-              base: "beta"
-            });
-            if (result.data.length > 0) {
-              core.setOutput("pr_exists", "true");
-              console.log("Existing PR found:", result.data[0].html_url);
-            } else {
-              core.setOutput("pr_exists", "false");
-              console.log("No existing PR found");
-            }
+        run: |
+          PR_NUMBER=$(gh pr list \
+            --repo "${{ env.BaseOwner }}/nvda" \
+            --state open \
+            --head "${{ env.HeadOwner }}:PullRequestToNVDA" \
+            --base beta \
+            --json number \
+            --jq '.[0].number' 2>/dev/null || echo "")
+          if [ -n "$PR_NUMBER" ]; then
+            echo "pr_exists=true" >> $GITHUB_OUTPUT
+            echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
+            echo "Existing PR found: https://github.com/${{ env.BaseOwner }}/nvda/pull/$PR_NUMBER"
+          else
+            echo "pr_exists=false" >> $GITHUB_OUTPUT
+            echo "No existing PR found"
+          fi
       - name: Render template
         if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
         id: template
@@ -65,22 +64,18 @@ jobs:
             Changes: ${{ env.PRTitle }}
             Owner: ${{ env.HeadOwner }}
             Commit: ${{ github.sha }}
-      - name: Create PR via API
+      - name: Create PR
         if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
-        uses: actions/github-script@v9
-        with:
-          github-token: ${{ secrets.PULLREQUESTTONVDA }}
-          script: |
-            console.log('Creating new PR...');
-            const prParams = {
-              owner: "${{ env.BaseOwner }}",
-              repo: "nvda",
-              title: "${{ env.PRTitle }}",
-              head: "${{ env.HeadOwner }}:PullRequestToNVDA",
-              base: "beta",
-              body: `${{ steps.template.outputs.result }}`,
-              draft: true
-            };
-            const response = await github.rest.pulls.create(prParams);
-            console.log(`Created PR #${response.data.number}: ${response.data.html_url}`);
-            console.log("PR draft status:", response.data.draft);
+        run: |
+          echo "Creating new PR..."
+          PR_NUMBER=$(gh pr create \
+            --repo "${{ env.BaseOwner }}/nvda" \
+            --title "${{ env.PRTitle }}" \
+            --head "${{ env.HeadOwner }}:PullRequestToNVDA" \
+            --base beta \
+            --body "${{ steps.template.outputs.result }}" \
+            --draft \
+            --json number \
+            --jq '.number')
+          echo "Created PR #$PR_NUMBER: https://github.com/${{ env.BaseOwner }}/nvda/pull/$PR_NUMBER"
+          echo "PR draft status: true"
