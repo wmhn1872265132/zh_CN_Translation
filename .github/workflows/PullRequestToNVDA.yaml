@@ -14,6 +14,7 @@ jobs:
       BaseOwner: wmhn1872265132
       HeadOwner: ${{ github.repository_owner }}
       GH_TOKEN: ${{ secrets.PULLREQUESTTONVDA }}
+      TEMPLATE_FILE: ${{ github.workspace }}/.github/PullRequestToNVDA_PR_Template.md
     steps:
       - name: Checkout ${{ github.repository }} repository
         uses: actions/checkout@v6
@@ -33,15 +34,10 @@ jobs:
           ZHCNPath: ${{ github.workspace }}/Tools/NVDA/source/locale/zh_CN
         run: |
           ./.github/Scripts/processing_miscDeps_files.sh
-      - name: Determine branch name
+      - name: Determine branch name and update template
         if: steps.processing_files.outputs.changes_exist == 'true'
         run: |
-          shopt -s nocasematch
-          if [[ "$BaseOwner" == "$HeadOwner" ]]; then
-            echo "BRANCH_NAME=PullRequestToNVDA" >> $GITHUB_ENV
-          else
-            echo "BRANCH_NAME=$HeadOwner:PullRequestToNVDA" >> $GITHUB_ENV
-          fi
+          .github/scripts/determine_branch_and_update_template.sh
       - name: Check for existing pull request
         if: steps.processing_files.outputs.changes_exist == 'true'
         id: check_pr
@@ -60,16 +56,6 @@ jobs:
             echo "pr_exists=false" >> $GITHUB_OUTPUT
             echo "No existing pull request found"
           fi
-      - name: Render template
-        if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
-        id: template
-        uses: chuhlomin/render-template@v1
-        with:
-          template: ${{ github.workspace }}/.github/PullRequestToNVDA_PR_Template.md
-          vars: |
-            Changes: ${{ env.PRTitle }}
-            Owner: ${{ env.HeadOwner }}
-            Commit: ${{ github.sha }}
       - name: Create pull request
         if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
         run: |
@@ -79,6 +65,6 @@ jobs:
             --head "$BRANCH_NAME" \
             --head "${{ env.HeadOwner }}:PullRequestToNVDA" \
             --base beta \
-            --body "${{ steps.template.outputs.result }}" \
+            --body-file $TEMPLATE_FILE \
             --draft)          
           echo "Created draft pull request: $PR_URL"
