@@ -37,7 +37,7 @@ jobs:
       - name: Determine branch name and update template
         if: steps.processing_files.outputs.changes_exist == 'true'
         run: |
-          .github/scripts/determine_branch_and_update_template.sh
+          ./.github/Scripts/determine_branch_and_update_template.sh
       - name: Check for existing pull request
         if: steps.processing_files.outputs.changes_exist == 'true'
         id: check_pr
