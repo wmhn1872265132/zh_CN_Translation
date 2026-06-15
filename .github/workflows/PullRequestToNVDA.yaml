@@ -35,6 +35,15 @@ jobs:
           ZHCNPath: ${{ github.workspace }}/Tools/NVDA/source/locale/zh_CN
         run: |
           ./.github/Scripts/processing_miscDeps_files.sh
+      - name: Determine branch name
+        if: steps.processing_files.outputs.changes_exist == 'true'
+        run: |
+          shopt -s nocasematch
+          if [[ "$BaseOwner" == "$HeadOwner" ]]; then
+            echo "BRANCH_NAME=PullRequestToNVDA" >> $GITHUB_ENV
+          else
+            echo "BRANCH_NAME=$HeadOwner:PullRequestToNVDA" >> $GITHUB_ENV
+          fi
       - name: Check for existing pull request
         if: steps.processing_files.outputs.changes_exist == 'true'
         id: check_pr
@@ -42,7 +51,7 @@ jobs:
           PR_NUMBER=$(gh pr list \
             --repo "${{ env.BaseOwner }}/nvda" \
             --state open \
-            --head "${{ env.HeadOwner }}:PullRequestToNVDA" \
+            --head "$BRANCH_NAME" \
             --base beta \
             --json number \
             --jq '.[0].number' 2>/dev/null || echo "")
@@ -70,7 +79,7 @@ jobs:
           echo "Creating new pull request..."
           PR_URL=$(gh pr create \
             --repo "${{ env.BaseOwner }}/nvda" \
-            --title "${{ env.PRTitle }}" \
+            --head "$BRANCH_NAME" \
             --head "${{ env.HeadOwner }}:PullRequestToNVDA" \
             --base beta \
             --body "${{ steps.template.outputs.result }}" \
