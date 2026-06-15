@@ -17262,18 +17262,18 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
       <notes>
         <note appliesTo="source">line: 1566</note>
       </notes>
-      <segment state="initial">
+      <segment>
         <source>NVDA includes a built-in Magnifier feature that allows you to zoom and magnify parts of the screen.</source>
-        <target>NVDA includes a built-in Magnifier feature that allows you to zoom and magnify parts of the screen.</target>
+        <target></target>
       </segment>
     </unit>
     <unit id="76c515b4-743f-48a1-a626-fe3d5df5e874">
       <notes>
         <note appliesTo="source">line: 1567</note>
       </notes>
-      <segment state="initial">
+      <segment>
         <source>This feature is particularly useful for users with low vision who need to enlarge content on the screen, or for users who want to apply color filters to reduce eye strain or improve readability.</source>
-        <target>This feature is particularly useful for users with low vision who need to enlarge content on the screen, or for users who want to apply color filters to reduce eye strain or improve readability.</target>
+        <target></target>
       </segment>
     </unit>
     <unit id="d097052a-43b3-4973-b2b1-b4da363b5e23">

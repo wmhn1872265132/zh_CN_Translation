@@ -7098,9 +7098,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 117</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="initial">
+      <segment>
         <source>A new parameter `redactSecrets` has been added to logging functions e.g. `log.debug`. (#19966)</source>
-        <target>A new parameter `redactSecrets` has been added to logging functions e.g. `log.debug`. (#19966)</target>
+        <target></target>
       </segment>
     </unit>
     <unit id="5df1fb54-1d0b-4863-b3d1-64a22c5229ae">
