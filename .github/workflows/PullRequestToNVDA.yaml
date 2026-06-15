@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - "Uploads"
-    paths:
-      - 'Translation/miscDeps/*'
 
 jobs:
   Pull-Request-To-NVDA:
@@ -13,7 +11,7 @@ jobs:
     if: ${{ vars.Run_NVDA_Translations_Workflow }}
     runs-on: ubuntu-latest
     env:
-      BaseOwner: nvaccess
+      BaseOwner: wmhn1872265132
       HeadOwner: ${{ github.repository_owner }}
       GH_TOKEN: ${{ secrets.PULLREQUESTTONVDA }}
     steps:
