@@ -33,7 +33,7 @@ jobs:
           ZHCNPath: ${{ github.workspace }}/Tools/NVDA/source/locale/zh_CN
         run: |
           ./.github/Scripts/processing_miscDeps_files.sh
-      - name: Check for existing PR
+      - name: Check for existing pull request
         if: steps.processing_files.outputs.changes_exist == 'true'
         id: check_pr
         run: |
@@ -47,10 +47,10 @@ jobs:
           if [ -n "$PR_NUMBER" ]; then
             echo "pr_exists=true" >> $GITHUB_OUTPUT
             echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
-            echo "Existing PR found: https://github.com/${{ env.BaseOwner }}/nvda/pull/$PR_NUMBER"
+            echo "Existing pull request found: https://github.com/${{ env.BaseOwner }}/nvda/pull/$PR_NUMBER"
           else
             echo "pr_exists=false" >> $GITHUB_OUTPUT
-            echo "No existing PR found"
+            echo "No existing pull request found"
           fi
       - name: Render template
         if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
@@ -62,10 +62,10 @@ jobs:
             Changes: ${{ env.PRTitle }}
             Owner: ${{ env.HeadOwner }}
             Commit: ${{ github.sha }}
-      - name: Create PR
+      - name: Create pull request
         if: steps.processing_files.outputs.changes_exist == 'true' && steps.check_pr.outputs.pr_exists != 'true'
         run: |
-          echo "Creating new PR..."
+          echo "Creating new pull request..."
           PR_URL=$(gh pr create \
             --repo "${{ env.BaseOwner }}/nvda" \
             --title "${{ env.PRTitle }}" \
@@ -73,4 +73,4 @@ jobs:
             --base beta \
             --body "${{ steps.template.outputs.result }}" \
             --draft)          
-          echo "Created draft PR: $PR_URL"
+          echo "Created draft pull request: $PR_URL"
