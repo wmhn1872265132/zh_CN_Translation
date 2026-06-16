@@ -43,15 +43,22 @@ jobs:
         if: steps.check-diff.outputs.should_create_pr == 'true'
         id: create-pr
         run: |
-          EXISTING_PR=$(gh pr list --base main --head Uploads --state open --json number -q '.[0]')
-          if [ -n "$EXISTING_PR" ]; then
-            PR_NUMBER=$(echo "$EXISTING_PR" | jq -r '.number')
-            PR_URL=$(echo "$EXISTING_PR" | jq -r '.url')
+          PR_NUMBER=$(gh pr list \
+            --repo "${{ github.repository }}" \
+            --state open \
+            --head Uploads \
+            --base main \
+            --json number \
+            --jq '.[0].number' 2>/dev/null || echo "")
+          if [ -n "$PR_NUMBER" ]; then
+            STEP_SUMMARY="Existing pull request found: https://github.com/${{ github.repository }}/pull/$PR_NUMBER"
           else
             PR_URL=$(gh pr create --base main --head Uploads --title "$PR_TITLE" --body "")
+            STEP_SUMMARY="Created pull request: $PR_URL"
             PR_NUMBER=$(echo "$PR_URL" | sed -E 's/.*\/([0-9]+)$/\1/')
           fi
-          echo "PR: $PR_URL"
+          echo "$STEP_SUMMARY"
+          echo "$STEP_SUMMARY" >> $GITHUB_STEP_SUMMARY
           echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
       - name: Merge PR
         id: merge-pr
