@@ -1,5 +1,5 @@
-<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/69bc39a9e63ad9efec65659524939f83c7e38fe6/readme.md">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+  <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/resourceMonitor/c300dc3ca2d51c0038ed9a096e097c6cbcc43f57/readme.md">
     <skeleton>
 # $(ID:4566d44d-44e5-4bf8-87b8-f29d4ecaaa03)
 
@@ -142,7 +142,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>NVDA+Shift+6: presents  Windows version, CPU architecture (AMD64 (x64), ARM64), and exact build number (build.revision).</source>
         <target>NVDA+Shift+6：读出 Windows 版本、CPU 架构（AMD64（x64）、ARM64）以及精确的内部版本号（build.revision）。</target>
       </segment>
@@ -260,7 +260,7 @@ $(ID:32d59eb2-cc6d-4498-8a04-ed6e06dbe82e)
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>When announcing processor architecture information as part of Windows version reporting, "AMD64" refer to 64-bit (x64) Intel and AMD processors. This information does not refer to the name of the actual processor in use.</source>
         <target>读出 Windows 版本时给出的处理器架构信息中的“AMD64”是指 64 位（x64）的 Intel 和 AMD 处理器。此信息并非指当前使用的实际处理器名称。</target>
       </segment>
