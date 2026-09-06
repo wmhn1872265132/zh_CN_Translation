@@ -1,4 +1,4 @@
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/RareBird15/windowState/beb1ed5c4e87df96ad04f9143f89eeb6ed8b5804/readme.md">
     <skeleton>
 # $(ID:d76c3d0e-973c-495c-9991-2efa6bf9da35)
@@ -180,9 +180,9 @@ $(ID:c42900d6-58dd-48f0-883a-3906bead49c7)
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>   - Not resizable (for windows like the Desktop that can't be maximized or restored)</source>
-        <target>   - Not resizable (for windows like the Desktop that can't be maximized or restored)</target>
+        <target>   - 固定大小（适用于桌面等无法最大化或还原的窗口）</target>
       </segment>
     </unit>
     <unit id="0b0c126b-2b40-4a50-85a2-9f2d94499a03">
