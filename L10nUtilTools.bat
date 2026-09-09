@@ -57,8 +57,9 @@ goto CheckCLI
 Rem 下载 l10nUtel.exe
 :DownloadL10nUtel
 echo 正在下载 l10nUtel.exe，请您稍后...
+echo 下载路径： "%~dp0Tools\l10nUtil.exe"
 powershell -command "Invoke-WebRequest -Uri 'https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe' -OutFile '%~dp0Tools\l10nUtil.exe' -UseBasicParsing"
-echo %~dp0Tools\l10nUtil.exe 下载完成！  
+echo 下载完成！  
 goto CheckL10nUtel
 
 Rem 判断是否从命令行传入参数  
