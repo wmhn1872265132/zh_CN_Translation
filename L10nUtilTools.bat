@@ -10,18 +10,31 @@ set L10nUtil=uv --directory "%L10NSourceCodePath%" run "%L10NSourceCodePath%\sou
 if "%GITHUB_ACTIONS%" == "true" (
   goto CheckCLI
 )
+
+Rem 确定调用 l10nUtel 的方式  
+:CheckL10nUtel
 IF NOT EXIST "%L10NSourceCodePath%" (
-  IF EXIST "%~dp0Tools\l10nUtil.exe" (
+  IF NOT EXIST "%~dp0Tools\l10nUtil.exe" (
+    cls
+    choice /M "请选择调用 l10nUtil 工具的方式：手动克隆 nvaccess/nvdaL10n 存储库请按 1，下载 l10nUtil.exe 请按 2，退出此工具请按 0。" /c 120 /N
+    set "Select=!errorlevel!"
+    if /I "!Select!" == "1" (goto CloneNVDAL10n)
+    if /I "!Select!" == "2" (goto DownloadL10nUtel)
+    exit /b 0
+  ) else (
     set "L10nUtil="%~dp0Tools\l10nUtil.exe""
     set "L10NSourceCodePath=exe"
     goto CheckCLI
   )
-  set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
-  set TargetPath=%L10NSourceCodePath%
-  set VerifyFile=source\l10nUtil.py
-  set PathSetSuccessfully=NVDAL10NSourceCodePathSetSuccessfully
-  goto SetPersonalSourcePath
 )
+
+Rem 设置 nvdaL10n 存储库路径  
+:CloneNVDAL10n
+set PromptInformation=请输入您的本地 NVDAL10n 源代码存储库路径（无需引号），按回车键确认。  
+set TargetPath=%L10NSourceCodePath%
+set VerifyFile=source\l10nUtil.py
+set PathSetSuccessfully=NVDAL10NSourceCodePathSetSuccessfully
+goto SetPersonalSourcePath
 
 :NVDAL10NSourceCodePathSetSuccessfully
 Rem 检查是否安装 uv
@@ -39,10 +52,18 @@ if !errorlevel! neq 0 (
   Pause>Nul
   exit /b 1
 )
-cls
+goto CheckCLI
+
+Rem 下载 l10nUtel.exe
+:DownloadL10nUtel
+echo 正在下载 l10nUtel.exe，请您稍后...
+powershell -command "Invoke-WebRequest -Uri 'https://github.com/nvaccess/nvdaL10n/releases/latest/download/l10nUtil.exe' -OutFile '%~dp0Tools\l10nUtil.exe' -UseBasicParsing"
+echo %~dp0Tools\l10nUtil.exe 下载完成！  
+goto CheckL10nUtel
 
 Rem 判断是否从命令行传入参数  
 :CheckCLI
+cls
 if not "%1"=="" (
   set ProcessCLI=%1
   if not "!ProcessCLI:_=!"=="!ProcessCLI!" (goto ProcessCLI)
