@@ -1,4 +1,4 @@
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/CyrilleB79/winMag/fe2a0681e2997ac1e8be032c784b7d3903b5c752/readme.md">
     <skeleton>
 # $(ID:0a7e41d0-cab7-495a-bd45-69a13f6ee7a9)
@@ -648,9 +648,9 @@ $(ID:a7424199-955e-4ba5-8f53-a345c60cdbff)
       <notes>
         <note appliesTo="source">line: 55</note>
       </notes>
-      <segment state="initial">
+      <segment state="translated">
         <source>  There are three possible choices:</source>
-        <target>  There are three possible choices:</target>
+        <target>  有三种选择：</target>
       </segment>
     </unit>
     <unit id="f3ed3990-896a-4fb3-834a-bf9c26c72f62">
