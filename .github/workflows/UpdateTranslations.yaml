@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       fetch_miscDeps:
-        description: 'Fetch files in miscDeps folder from NVDA source code (optional)'
+        description: 'Fetch files in miscDeps folder from NVDA source code'
         type: boolean
         required: true
         default: false
@@ -44,10 +44,10 @@ jobs:
         shell: pwsh
         run: |
           ${{ github.workspace }}/L10nUtilTools.bat DLA
-          git add --update Translation
+          git add --update Translation/LC_MESSAGES Translation/user_docs
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
-              git commit -m "更新翻译（从 Crowdin）"
+              git commit -m "更新 NVDA 的界面和文档翻译（从 Crowdin）"
               "need_push=true" >> $env:GITHUB_OUTPUT
           } else {
               Write-Host "No changes to commit, skipping commit."
@@ -63,7 +63,7 @@ jobs:
           git add --update Translation/miscDeps
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
-              git commit -m "更新 Translation/miscDeps 中的文件（从 NVDA 源代码）"
+              git commit -m "更新 NVDA 的字符描述、手势配置和符号朗读规则（从 NVDA 源代码）"
               "need_push=true" >> $env:GITHUB_OUTPUT
           } else {
               Write-Host "No changes to commit, skipping commit."
