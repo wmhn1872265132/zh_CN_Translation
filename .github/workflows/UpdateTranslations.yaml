@@ -53,8 +53,24 @@ jobs:
               Write-Host "No changes to commit, skipping commit."
               "need_push=false" >> $env:GITHUB_OUTPUT
           }
+      - name: Fetch files in miscDeps folder from NVDA source code
+        id: fetch_miscDeps
+        if: ${{ inputs.fetch_miscDeps }}
+        shell: pwsh
+        run: |
+          Remove-Item -Recurse -Force "${{ github.workspace }}/Translation/miscDeps" -ErrorAction SilentlyContinue
+          Copy-Item -Recurse -Force "${{ github.workspace }}/ProcessTranslation/NVDA/source/locale/zh_CN" "${{ github.workspace }}/Translation/miscDeps"
+          git add --update Translation/miscDeps
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+              git commit -m "更新 Translation/miscDeps 中的文件（从 NVDA 源代码）"
+              "need_push=true" >> $env:GITHUB_OUTPUT
+          } else {
+              Write-Host "No changes to commit, skipping commit."
+              "need_push=false" >> $env:GITHUB_OUTPUT
+          }
       - name: Push changes
-        if: ${{ steps.crowdin_translations.outputs.need_push == 'true' }}
+        if: ${{ steps.crowdin_translations.outputs.need_push == 'true' || steps.fetch_miscDeps.outputs.need_push == 'true' }}
         shell: pwsh
         run: |
           git pull --rebase
