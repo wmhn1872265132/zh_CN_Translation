@@ -12,7 +12,7 @@ on:
 env:
   crowdinAuthToken: ${{ secrets.NVDA_CROWDIN }}
   GH_TOKEN: ${{ github.token }}
-  BRANCH: Uploads
+  BRANCH: try-improveWorkflow
 
 jobs:
   Update-Translations:

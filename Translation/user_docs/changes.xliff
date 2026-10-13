@@ -6487,9 +6487,9 @@ $(ID:efa13148-65e5-4484-85b1-9e57c61df3e3)
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment>
         <source>2026.3</source>
-        <target>2026.3</target>
+        <target></target>
       </segment>
     </unit>
     <unit id="cc78bd50-10ca-449a-94ec-e2f44f7fa13b">
