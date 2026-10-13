@@ -19,8 +19,19 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ env.BRANCH }}
-      - name: Install dependencies
-        uses: ./.github/actions/InstallDependencies
+      - parallel:
+          - name: Install dependencies
+            uses: ./.github/actions/InstallDependencies
+          - name: Checkout NVDA zh_CN locale folder
+            uses: actions/checkout@v7
+            with:
+              repository: nvaccess/nvda
+              ref: beta
+              path: ${{ github.workspace }}/ProcessTranslation/NVDA
+              sparse-checkout: |
+                source/locale/zh_CN/characterDescriptions.dic
+                source/locale/zh_CN/gestures.ini
+                source/locale/zh_CN/symbols.dic
       - name: Update Translations From Crowdin
         id: crowdin_translations
         run: |
