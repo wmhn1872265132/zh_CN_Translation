@@ -50747,7 +50747,7 @@ $(ID:061d7d61-cfab-44b3-a92c-4e65cf63213b)
         <note appliesTo="source">prefix: ## </note>
         <note appliesTo="source">suffix:  {#FurtherInformation}</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Further Information</source>
         <target>更多信息</target>
       </segment>
