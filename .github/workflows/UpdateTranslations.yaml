@@ -2,6 +2,12 @@ name: Update NVDA Translations
 
 on:
   workflow_dispatch:
+    inputs:
+      fetch_miscDeps:
+        description: 'Fetch files in miscDeps folder from NVDA source code (optional)'
+        type: boolean
+        required: true
+        default: false
 
 env:
   crowdinAuthToken: ${{ secrets.NVDA_CROWDIN }}
