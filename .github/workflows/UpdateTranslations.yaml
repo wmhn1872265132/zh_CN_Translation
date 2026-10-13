@@ -29,6 +29,7 @@ jobs:
           - name: Install dependencies
             uses: ./.github/actions/InstallDependencies
           - name: Checkout NVDA zh_CN locale folder
+            if: ${{ inputs.fetch_miscDeps }}
             uses: actions/checkout@v7
             with:
               repository: nvaccess/nvda
@@ -40,16 +41,20 @@ jobs:
                 source/locale/zh_CN/symbols.dic
       - name: Update Translations From Crowdin
         id: crowdin_translations
+        shell: pwsh
         run: |
           ${{ github.workspace }}/L10nUtilTools.bat DLA
           git add --update Translation
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
               git commit -m "更新翻译（从 Crowdin）"
+              "need_push=true" >> $env:GITHUB_OUTPUT
           } else {
               Write-Host "No changes to commit, skipping commit."
+              "need_push=false" >> $env:GITHUB_OUTPUT
           }
       - name: Push changes
+        if: ${{ steps.crowdin_translations.outputs.need_push == 'true' }}
         shell: pwsh
         run: |
           git pull --rebase
