@@ -1,4 +1,4 @@
-name: Update NVDA Translations from Crowdin
+name: Update NVDA Translations
 
 on:
   workflow_dispatch:
@@ -21,19 +21,20 @@ jobs:
           ref: ${{ env.BRANCH }}
       - name: Install dependencies
         uses: ./.github/actions/InstallDependencies
-      - name: Update Translations
+      - name: Update Translations From Crowdin
+        id: crowdin_translations
         run: |
           ${{ github.workspace }}/L10nUtilTools.bat DLA
           git add --update Translation
-      - name: Commit & Push
-        shell: pwsh
-        run: |
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
               git commit -m "更新翻译（从 Crowdin）"
-              git pull --rebase
-              git push
-              gh workflow run build.yaml --ref ${{ env.BRANCH }} --repo ${{ github.repository }}
           } else {
-              Write-Host "No changes to commit, skipping commit and push."
+              Write-Host "No changes to commit, skipping commit."
           }
+      - name: Push changes
+        shell: pwsh
+        run: |
+          git pull --rebase
+          git push
+          gh workflow run build.yaml --ref ${{ env.BRANCH }} --repo ${{ github.repository }}
