@@ -67,7 +67,7 @@ jobs:
           PR_URL=$(gh pr create \
             --repo "${{ env.BaseOwner }}/nvda" \
             --title "$PRTitle" \
-            --head "$BRANCH_NAME" \
+            --head "$HeadOwner:$BRANCH_NAME" \
             --base beta \
             --body-file $TEMPLATE_FILE \
             --draft)          
