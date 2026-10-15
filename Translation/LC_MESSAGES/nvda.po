@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-08 05:45+0000\n"
+"POT-Creation-Date: 2026-10-15 04:18+0000\n"
 "PO-Revision-Date: 2026-10-07 13:16+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1651,7 +1651,7 @@ msgstr ""
 #: gui\configProfiles.py:311 gui\configProfiles.py:323
 #: gui\configProfiles.py:332 gui\configProfiles.py:376
 #: gui\configProfiles.py:554 gui\configProfiles.py:569
-#: gui\configProfiles.py:580 gui\inputGestures.py:906 gui\inputGestures.py:920
+#: gui\configProfiles.py:580 gui\inputGestures.py:936 gui\inputGestures.py:950
 #: gui\installerGui.py:181 gui\installerGui.py:265 gui\installerGui.py:759
 #: gui\installerGui.py:776 gui\installerGui.py:848 gui\logViewer.py:112
 #: gui\logViewer.py:143 gui\message.py:171 gui\settingsDialogs.py:1047
@@ -13649,30 +13649,30 @@ msgstr "添加按键或手势："
 #. Translators: An gesture that will be emulated by some other new gesture. The token {emulateGesture}
 #. will be replaced by the gesture that can be triggered by a mapped gesture.
 #. E.G. Emulate key press: NVDA+b
-#: gui\inputGestures.py:178
+#: gui\inputGestures.py:185
 #, python-brace-format
 msgid "Emulate key press: {emulateGesture}"
 msgstr "模拟：{emulateGesture}"
 
 #. Translators: The prompt to enter an emulated gesture in the Input Gestures dialog.
-#: gui\inputGestures.py:197
+#: gui\inputGestures.py:204
 msgid "Enter gesture to emulate:"
 msgstr "按下手势进行模拟："
 
 #. Translators: The label for a filtered category in the Input Gestures dialog.
-#: gui\inputGestures.py:481
+#: gui\inputGestures.py:488
 #, python-brace-format
 msgid "{category} ({nbResults} result)"
 msgid_plural "{category} ({nbResults} results)"
 msgstr[0] "{category}（{nbResults} 结果）"
 
 #. Translators: The title of the Input Gestures dialog where the user can remap input gestures for scripts.
-#: gui\inputGestures.py:595
+#: gui\inputGestures.py:602
 msgid "Input Gestures"
 msgstr "按键与手势"
 
 #. Translators: The label of a text field to search for gestures in the Input Gestures dialog.
-#: gui\inputGestures.py:605
+#: gui\inputGestures.py:612
 msgctxt "inputGestures"
 msgid "&Filter by:"
 msgstr "查找(&F):"
@@ -13681,14 +13681,14 @@ msgstr "查找(&F):"
 #. Translators: Context menu item label to add a new gesture
 #. Translators: The label for a button in the Symbol Pronunciation dialog to add a new symbol.
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: gui\inputGestures.py:627 gui\inputGestures.py:684
+#: gui\inputGestures.py:634 gui\inputGestures.py:691
 #: gui\settingsDialogs.py:6880 gui\speechDict.py:218
 msgid "&Add"
 msgstr "添加(&A)"
 
 #. Translators: The label of a button to change a gesture in the Input Gestures dialog.
 #. Translators: Context menu item label to change a gesture
-#: gui\inputGestures.py:632 gui\inputGestures.py:688
+#: gui\inputGestures.py:639 gui\inputGestures.py:695
 msgid "C&hange"
 msgstr "修改(&H)"
 
@@ -13696,18 +13696,31 @@ msgstr "修改(&H)"
 #. Translators: Context menu item label to remove a gesture
 #. Translators: The label for a button in speech dictionaries dialog to remove existing entries.
 #. Translators: Context menu item label to remove an entry
-#: gui\inputGestures.py:637 gui\inputGestures.py:692 gui\speechDict.py:230
+#: gui\inputGestures.py:644 gui\inputGestures.py:699 gui\speechDict.py:230
 #: gui\speechDict.py:255
 msgid "&Remove"
 msgstr "移除(&R)"
 
 #. Translators: The label of a button to reset all gestures in the Input Gestures dialog.
-#: gui\inputGestures.py:643
+#: gui\inputGestures.py:650
 msgid "Reset to factory &defaults"
 msgstr "重置(&D)"
 
+#. Translators: An error displayed when a gesture is already assigned.
+#: gui\inputGestures.py:852
+#, fuzzy
+#| msgid "There is %d series in this chart"
+#| msgid_plural "There are %d series in this chart"
+msgid "This gesture is already assigned to this script."
+msgstr "此图表共有 %d 个系列"
+
+#. Translators: An error displayed when a gesture is already assigned.
+#: gui\inputGestures.py:854
+msgid "Gesture already assigned"
+msgstr ""
+
 #. Translators: A prompt for confirmation to reset all gestures in the Input Gestures dialog.
-#: gui\inputGestures.py:887
+#: gui\inputGestures.py:917
 msgid ""
 "Are you sure you want to reset all gestures to their factory defaults?\n"
 "\n"
@@ -13721,12 +13734,12 @@ msgstr ""
 "\t\t\t该操作无法撤销。"
 
 #. Translators: A prompt for confirmation to reset all gestures in the Input Gestures dialog.
-#: gui\inputGestures.py:892
+#: gui\inputGestures.py:922
 msgid "Reset gestures"
 msgstr "重置按键与手势"
 
 #. Translators: An error displayed when saving user defined input gestures fails.
-#: gui\inputGestures.py:905 gui\inputGestures.py:918
+#: gui\inputGestures.py:935 gui\inputGestures.py:948
 msgid "Error saving user defined gestures - probably read only file system."
 msgstr "保存按键与手势设置时出错，文件系统可能处于只读状态."
 
@@ -14863,7 +14876,9 @@ msgstr "保留搜索历史记录(&K)"
 
 #. Translators: This is the label for a combo box in the browse mode settings panel.
 #: gui\settingsDialogs.py:2729
-msgid "Nati&ve selection mode"
+#, fuzzy
+#| msgid "Nati&ve selection mode"
+msgid "Nati&ve selection mode on page load"
 msgstr "应用原生选择(&V)"
 
 #. Translators: Label for the list of browse mode touch navigation element types in browse mode settings.
@@ -21000,7 +21015,7 @@ msgid "none"
 msgstr "无"
 
 #. Translators: Description for a speech synthesizer.
-#: synthDrivers\oneCore.py:175
+#: synthDrivers\oneCore.py:198
 msgid "Windows OneCore voices"
 msgstr "Windows OneCore 语音"
 
