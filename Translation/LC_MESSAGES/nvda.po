@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 04:14+0000\n"
+"POT-Creation-Date: 2026-10-16 11:12+0000\n"
 "PO-Revision-Date: 2026-10-07 13:16+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -9322,7 +9322,7 @@ msgid "&HID keyboard input simulation"
 msgstr "模拟 HID 键盘(&H)"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#: braille\display\gesture.py:232
+#: braille\display\gesture.py:234
 msgid "Unknown braille display"
 msgstr "未知盲文点显器"
 
