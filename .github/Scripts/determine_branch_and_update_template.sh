@@ -4,11 +4,7 @@
 shopt -s nocasematch
 
 # 确定分支名称
-if [[ "$BaseOwner" == "$HeadOwner" ]]; then
-    echo "BRANCH_NAME=PullRequestToNVDA" >> $GITHUB_ENV
-else
-    echo "BRANCH_NAME=$HeadOwner:PullRequestToNVDA" >> $GITHUB_ENV
-fi
+echo "BRANCH_NAME=PullRequestToNVDA" >> $GITHUB_ENV
 
 # 定义替换规则
 declare -A replacements=(
