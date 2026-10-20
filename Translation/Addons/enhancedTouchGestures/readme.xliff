@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/kefaslungu/enhancedTouchGestures/2b3bae2205965465e73bfe072c6f96c5faaf0bd9/readme.md">
     <skeleton>
 # $(ID:9e115a5a-6eea-43dd-9fb7-5e04b30c78a9)
@@ -68,7 +68,7 @@ $(ID:6120f0c8-a73f-47ca-a9b5-4cc54f47512f)
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Note: this add-on requires a Windows 10 or 11 touchscreen computer with NVDA installed.</source>
         <target>注意：此插件需在运行安装版 NVDA 的 Windows 10 或 11 的触摸屏计算机上使用。</target>
       </segment>

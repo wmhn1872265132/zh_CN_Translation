@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
   <file id="readme.md" original="https://raw.githubusercontent.com/LeonarddeR/rdAccess/1a34df15c2c77700e0926fabdfe23299aac9e942/readme.md">
     <skeleton>
 # $(ID:95048d11-137d-4361-9ecf-3b4fbc7a1b09)
@@ -265,7 +265,7 @@ $(ID:16b3d5ef-4f54-46e0-a5d9-01acbc01bd27)
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>RDAccess: Remote Desktop Accessibility</source>
         <target>远程桌面无障碍</target>
       </segment>
@@ -442,7 +442,7 @@ $(ID:16b3d5ef-4f54-46e0-a5d9-01acbc01bd27)
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Version 2.0.5</source>
         <target>2.0.5 版</target>
       </segment>
@@ -452,7 +452,7 @@ $(ID:16b3d5ef-4f54-46e0-a5d9-01acbc01bd27)
         <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Fixed connections not being cleaned up when they close on NVDA 2027.1. Among other things, this caused errors to be logged when exiting NVDA on the remote system.</source>
         <target>修复了在 NVDA 2027.1 上连接关闭时未被清理的问题。除其他影响外，这会导致在远程系统上退出 NVDA 时记录错误。</target>
       </segment>
@@ -462,7 +462,7 @@ $(ID:16b3d5ef-4f54-46e0-a5d9-01acbc01bd27)
         <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="translated">
+      <segment state="final">
         <source>Updated translations.</source>
         <target>更新了翻译。</target>
       </segment>
