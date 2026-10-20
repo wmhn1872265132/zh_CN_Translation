@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvda\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-19 12:52+0000\n"
-"PO-Revision-Date: 2026-10-07 13:16+0800\n"
+"PO-Revision-Date: 2026-10-20 19:02+0800\n"
 "Last-Translator: 完美很难 <1872265132@qq.com>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: nvda.pot\n"
 "X-Crowdin-File-ID: 2\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #. Translators: shown when an addon API version string is unknown
 #. Translators: The word for an unknown control type.
@@ -13708,16 +13708,13 @@ msgstr "重置(&D)"
 
 #. Translators: An error displayed when a gesture is already assigned.
 #: gui\inputGestures.py:852
-#, fuzzy
-#| msgid "There is %d series in this chart"
-#| msgid_plural "There are %d series in this chart"
 msgid "This gesture is already assigned to this script."
-msgstr "此图表共有 %d 个系列"
+msgstr "此手势已分配给此脚本。"
 
 #. Translators: An error displayed when a gesture is already assigned.
 #: gui\inputGestures.py:854
 msgid "Gesture already assigned"
-msgstr ""
+msgstr "手势已分配"
 
 #. Translators: A prompt for confirmation to reset all gestures in the Input Gestures dialog.
 #: gui\inputGestures.py:917
@@ -13788,20 +13785,22 @@ msgid ""
 "automatically. Users of those copies will lose any NVDA settings they have "
 "not saved. Do you want to end them now?"
 msgstr ""
+"此系统上正在运行其他 NVDA 实例。这些实例可能位于 Windows 登录界面，也可能位于"
+"其他已登录的用户帐户。必须结束这些实例才能继续安装。这些实例不会自动重启，且"
+"使用这些实例的用户将丢失所有未保存的 NVDA 设置。\n"
+"您要现在结束这些实例吗？"
 
 #. Translators: the title of a yes no dialog asking whether to end running copies of NVDA before installing
 #: gui\installerGui.py:217
-#, fuzzy
-#| msgid "NVDA Settings"
 msgid "NVDA Still Running"
-msgstr "NVDA 设置"
+msgstr "NVDA 仍在运行"
 
 #. Translators: The message displayed when an error occurs during installation of NVDA.
 #: gui\installerGui.py:231
 msgid ""
 "The installation of NVDA failed. Please check the Log Viewer for more "
 "information."
-msgstr "NVDA 安装失败。请检查用户日志以获取更多的信息。"
+msgstr "NVDA 安装失败。请检查用户日志以获取更多信息。"
 
 #. Translators: The title of the dialog presented while NVDA is being updated.
 #: gui\installerGui.py:250
@@ -14848,7 +14847,7 @@ msgstr "使用屏幕布局（若支持）(&S)"
 #. enable browse mode on page load.
 #: gui\settingsDialogs.py:2644
 msgid "&Enable browse mode on page load"
-msgstr "页面加载时启用浏览模式(&E)"
+msgstr "页面加载完成后启用浏览模式(&E)"
 
 #. Translators: This is the label for a checkbox in the
 #. browse mode settings panel.
@@ -14893,10 +14892,8 @@ msgstr "保留搜索历史记录(&K)"
 
 #. Translators: This is the label for a combo box in the browse mode settings panel.
 #: gui\settingsDialogs.py:2731
-#, fuzzy
-#| msgid "Nati&ve selection mode"
 msgid "Nati&ve selection mode on page load"
-msgstr "应用原生选择(&V)"
+msgstr "页面加载完成后启用应用原生选择(&V)"
 
 #. Translators: Label for the list of browse mode touch navigation element types in browse mode settings.
 #: gui\settingsDialogs.py:2747
