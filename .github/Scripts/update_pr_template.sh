@@ -3,9 +3,6 @@
 # 启用不区分大小写的匹配
 shopt -s nocasematch
 
-# 确定分支名称
-echo "BRANCH_NAME=PullRequestToNVDA" >> $GITHUB_ENV
-
 # 定义替换规则
 declare -A replacements=(
     ["\$PRTitle"]="$PRTitle"
