@@ -48,7 +48,7 @@ jobs:
             --repo "${{ env.BaseOwner }}/nvda" \
             --state open \
             --author "@me" \
-            --head "$BRANCH_NAME" \
+            --head "${{ env.BRANCH_NAME }}" \
             --base beta \
             --json url \
             --jq '.[0].url' 2>/dev/null || echo "")
@@ -67,11 +67,11 @@ jobs:
           echo "Creating new pull request..."
           PR_URL=$(gh pr create \
             --repo "${{ env.BaseOwner }}/nvda" \
-            --title "$PRTitle" \
-            --head "$HeadOwner:$BRANCH_NAME" \
+            --title "${{ env.PRTitle }}" \
+            --head "${{ env.HeadOwner }}:${{ env.BRANCH_NAME }}" \
             --base beta \
-            --body-file $TEMPLATE_FILE \
-            --draft)          
+            --body-file "${{ env.TEMPLATE_FILE }}" \
+            --draft)
           STEP_SUMMARY="Created draft pull request: $PR_URL"
           echo "$STEP_SUMMARY"
           echo "$STEP_SUMMARY" >> $GITHUB_STEP_SUMMARY
