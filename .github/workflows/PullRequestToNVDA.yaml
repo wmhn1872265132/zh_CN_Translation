@@ -3,9 +3,8 @@ name: Pull Request to NVDA
 on:
   push:
     branches:
-      - "Uploads"
-    paths:
-      - 'Translation/miscDeps/*'
+      - "try-PullRequestToNVDA"
+
 
 jobs:
   Pull-Request-To-NVDA:
@@ -13,7 +12,7 @@ jobs:
     if: ${{ vars.Run_NVDA_Translations_Workflow }}
     runs-on: ubuntu-latest
     env:
-      BaseOwner: nvaccess
+      BaseOwner: ${{ github.repository_owner }}
       HeadOwner: ${{ github.repository_owner }}
       GH_TOKEN: ${{ secrets.PULLREQUESTTONVDA }}
       TEMPLATE_FILE: ${{ github.workspace }}/.github/PullRequestToNVDA_PR_Template.md
